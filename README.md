@@ -15,7 +15,7 @@ README — https://github.com/wesprojects/ANSWER
 ## Files
 
 - `index.html` — the whole app in one file. Opens from disk or GitHub Pages.
-- `answer.pdf` — the Steelcase Answer Solutions Specification Guide, February 2015. Keep it next to index.html so page links open the guide.
+- `answer-1.pdf` (pages 1–200) and `answer-2.pdf` (pages 201–766) — the Steelcase Answer Solutions Specification Guide, February 2015, split in two to stay under GitHub's 25 MB upload limit. Keep both next to index.html. Page links use the guide's printed page numbers.
 - `src/` — `engine.js` (junction classification, exposed-face trim rules, stacking, oval mapping, pricing, validation), `planner.js` / `planner.css` / `planner.html` (interface), `catalog.json` (129 product groups, 2,413 style numbers, surface materials).
 - `build.py` — assembles `dist/index.html`, build number YYYY-MM-DD.N.
 - `test/test.js` — engine tests against the guide's worked examples on p35–39 (`node test/test.js`).
