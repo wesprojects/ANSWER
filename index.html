@@ -244,11 +244,11 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1>Answer Panel Planner <span class="build">Build 2026-09-23.12</span></h1>
+    <h1>Answer Panel Planner <span class="build">Build 2026-09-23.13</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
-    <button class="btn" id="bGuide" title="Open the Steelcase Answer specification guide (answer.pdf beside this file)">Spec guide</button>
+    <button class="btn" id="bGuide" title="Open the Steelcase Answer specification guide (answer-1.pdf and answer-2.pdf beside this file)">Spec guide</button>
     <span class="grow"></span>
     <div class="btngroup"><button id="bNew">New</button><button id="bSave">Save</button><button id="bOpen">Load</button><button id="bUndo">Undo</button><button id="bRedo">Redo</button><button id="bPrint">Print</button></div>
   </header>
@@ -317,7 +317,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   <div id="scrim"></div>
   <aside id="finishes"><div class="fhead"><h2>Finishes &amp; settings</h2><button class="btn" id="bCloseFinishes">Done</button></div><div class="fbody" id="finishBody"></div></aside>
   <div id="typicals" class="modal"><div class="modalbox"><div class="fhead"><h2>Typicals</h2><span class="muted">Pick one, then click on the plan where it should go.</span><button class="btn" id="bCloseTypicals">Close</button></div><div id="typicalGrid" class="typgrid"></div></div></div>
-  <div id="guide" class="modal"><div class="modalbox" style="width:min(1200px,96vw);height:92vh"><div class="fhead"><h2>Answer Specification Guide · February 2015</h2><span class="muted">Page</span><input type="number" id="guidePage" min="1" max="766" style="width:80px"><button class="btn" id="guideGo">Go</button><a class="btn" id="guideOpen" href="answer.pdf" target="answerguide">Open in a new tab</a><button class="btn" id="bCloseGuide">Close</button></div><iframe id="guideFrame" style="flex:1;border:0;width:100%;background:#555" title="Specification guide"></iframe><div class="muted" style="padding:6px 18px">Needs <b>answer.pdf</b> in the same folder as this file. Page numbers match the numbers printed in the guide.</div></div></div>
+  <div id="guide" class="modal"><div class="modalbox" style="width:min(1200px,96vw);height:92vh"><div class="fhead"><h2>Answer Specification Guide · February 2015</h2><span class="muted">Page</span><input type="number" id="guidePage" min="1" max="766" style="width:80px"><button class="btn" id="guideGo">Go</button><a class="btn" id="guideOpen" href="answer-1.pdf" target="answerguide">Open in a new tab</a><button class="btn" id="bCloseGuide">Close</button></div><iframe id="guideFrame" style="flex:1;border:0;width:100%;background:#555" title="Specification guide"></iframe><div class="muted" style="padding:6px 18px">Needs <b>answer-1.pdf</b> (pages 1–200) and <b>answer-2.pdf</b> (pages 201–766) in the same folder as this file. Page numbers match the numbers printed in the guide.</div></div></div>
   <div id="toast"></div>
   <input type="file" id="fileIn" accept=".answer,.json" style="display:none">
 </div>
@@ -1497,7 +1497,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-23.12';
+const BUILD='2026-09-23.13';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -1511,9 +1511,11 @@ const BUILD='2026-09-23.12';
   const pn = (id) => 'Panel ' + String(id).replace(/^P/, '');
   const jn = (id) => 'Junction ' + String(id).replace(/^N/, '');
   const GRID = 6;
-  const GUIDE = 'answer.pdf';
-  const linkPages = (html) => html.replace(/\bp(\d{1,3})((?:[-–,]\s?\d{1,3})*)\b/g, (m, a, b) => `<a class="pg" href="${GUIDE}#page=${a}" target="answerguide" data-page="${a}" title="Open page ${a} of the Answer specification guide">p${a}${b}</a>`);
-  function openGuide(page) { const v = $('#guide'); v.classList.add('on'); $('#guideFrame').src = `${GUIDE}#page=${page || 1}&zoom=page-width`; $('#guidePage').value = page || 1; $('#guideOpen').href = `${GUIDE}#page=${page || 1}`; }
+  // The guide ships as two files to stay under GitHub's 25 MB upload limit. Printed page numbers are unchanged: answer-1.pdf holds pages 1-200, answer-2.pdf holds 201-766.
+  const GUIDE_SPLIT = 200;
+  const guideHref = (page) => page <= GUIDE_SPLIT ? `answer-1.pdf#page=${page}` : `answer-2.pdf#page=${page - GUIDE_SPLIT}`;
+  const linkPages = (html) => html.replace(/\bp(\d{1,3})((?:[-–,]\s?\d{1,3})*)\b/g, (m, a, b) => `<a class="pg" href="${guideHref(+a)}" target="answerguide" data-page="${a}" title="Open page ${a} of the Answer specification guide">p${a}${b}</a>`);
+  function openGuide(page) { const v = $('#guide'); v.classList.add('on'); $('#guideFrame').src = guideHref(page || 1) + '&zoom=page-width'; $('#guidePage').value = page || 1; $('#guideOpen').href = guideHref(page || 1); }
   document.addEventListener('click', e => { const a = e.target.closest('a.pg'); if (a) { e.preventDefault(); openGuide(+a.dataset.page); } });
   let P = E.newProject('thin'), R = null;
   let sel = new Set(), selNode = null, hover = null;
