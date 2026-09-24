@@ -34,6 +34,11 @@ README — https://github.com/wesprojects/ANSWER
 - `test/ws2.js` — drives the fit-checked worksurface menus and inspector: refused placements, corner size and kind changes, pedestals, pull colors, 36"D and a straight-to-straight L.
 - `test/overlap.js` — sweeps every stage, editor, menu, dialog and print view at four window sizes for text that overlaps, is clipped or runs off screen, including labels drawn on the plan and elevations.
 
+## Drawing dimensions
+
+- Junctions are 3" deep (p14) and 1 1/2" along the run: a 48" panel's frame is 46 1/2" between junctions (p24), and two end-of-run junctions make the 3" in-line junction (p39). In-line and end posts are drawn 1 1/2" × 3", corner posts 3" square.
+- Run ends show the finished end-of-run trim: a flat 1/2" trim on thin (p14, p347), a rounded 1" trim on oval (p76), on the plan, the elevations and the installer sheets.
+
 ## Guide corrections applied
 
 - p400 Square V/Y junctions, wood cap, 48" V row printed TS742SVPJW. Corrected to TS748SVPJW and flagged on the BOM.
