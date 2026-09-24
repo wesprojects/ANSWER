@@ -36,8 +36,8 @@ README — https://github.com/wesprojects/ANSWER
 
 ## Drawing dimensions
 
-- Junctions are 3" deep (p14) and 1 1/2" along the run: a 48" panel's frame is 46 1/2" between junctions (p24), and two end-of-run junctions make the 3" in-line junction (p39). In-line and end posts are drawn 1 1/2" × 3", corner posts 3" square.
-- Run ends show the finished end-of-run trim: a flat 1/2" trim on thin (p14, p347), a rounded 1" trim on oval (p76), on the plan, the elevations and the installer sheets.
+- Junctions are 3" deep (p14) and 1 1/2" along the run: a 48" panel's frame is 46 1/2" between junctions (p24), and two end-of-run junctions make the 3" in-line junction (p39). Skins extend onto the junction and meet the next panel's skin, with only the slotted channel showing between them (p16), so in-line, end-of-run and wall-start junctions are drawn under the skins: a seam line at an in-line junction, the skin running over the end post to the finished trim at a run end. Only corner junctions (L, T, X, V, Y) show their 3" post, and a change of height shows the part of the junction above the lower panel.
+- Run ends show the finished end-of-run trim meeting the skins: a flat 1/2" trim on thin (p14, p347), a rounded 1" trim on oval (p76), on the plan, the elevations and the installer sheets.
 
 ## Guide corrections applied
 
