@@ -267,7 +267,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1>Answer Panel Planner <span class="build">Build 2026-09-23.20</span></h1>
+    <h1>Answer Panel Planner <span class="build">Build 2026-09-24.1</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -1769,12 +1769,14 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const dirFrom = (p) => { const o = P.nodes[p.a === node.id ? p.b : p.a]; const L = Math.hypot(o.x - node.x, o.y - node.y) || 1; return [(o.x - node.x) / L, (o.y - node.y) / L]; };
     const d1 = dirFrom(p1), d2 = dirFrom(p2);
     const C = ws.C, D = ws.D, dA = wsDepthActual(ws.depthA, ws.construction), dB = wsDepthActual(ws.depthB, ws.construction);
-    // inside corner: offset the origin by half a post along both legs' normals
-    const o = [node.x + (d1[0] + d2[0]) * POST_HALF, node.y + (d1[1] + d2[1]) * POST_HALF];
+    // inside corner where the two panel faces meet (half a post off each leg's centerline, 90° or 120°)
+    const cs = d1[0] * d2[0] + d1[1] * d2[1], sn = Math.abs(d1[0] * d2[1] - d1[1] * d2[0]) || 1, k = POST_HALF / sn;
+    const o = [node.x + (d1[0] + d2[0]) * k, node.y + (d1[1] + d2[1]) * k];
+    // corner arms are 1/2" less than the panel module, leaving the 1/2" cable gap to the next worksurface (p209); straights are full module width
+    const back = k * (1 + cs), la = C - 0.5 - back, lb = D - 0.5 - back;
     // arm depths are measured perpendicular to each leg, into the sector between the legs (90° or 120°)
-    const cs = d1[0] * d2[0] + d1[1] * d2[1], sn = Math.abs(d1[0] * d2[1] - d1[1] * d2[0]) || 1;
     const n1 = [(d2[0] - d1[0] * cs) / sn, (d2[1] - d1[1] * cs) / sn], n2 = [(d1[0] - d2[0] * cs) / sn, (d1[1] - d2[1] * cs) / sn];
-    const A1 = [o[0] + d1[0] * C, o[1] + d1[1] * C], A2 = [o[0] + d2[0] * D, o[1] + d2[1] * D];
+    const A1 = [o[0] + d1[0] * la, o[1] + d1[1] * la], A2 = [o[0] + d2[0] * lb, o[1] + d2[1] * lb];
     const F1 = [A1[0] + n1[0] * dA, A1[1] + n1[1] * dA], F2 = [A2[0] + n2[0] * dB, A2[1] + n2[1] * dB];
     const inner = [o[0] + d1[0] * (dB / sn) + d2[0] * (dA / sn), o[1] + d1[1] * (dB / sn) + d2[1] * (dA / sn)];
     const poly = [o, A1, F1, inner, F2, A2];
@@ -1942,7 +1944,25 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
       c.notes.push('Ships as a handed pair. One bracket supports a rear corner or a wrapped worksurface end, so specify one pair for every two (p545). Used at: ' + ssbWhere.join('; ') + '.');
       lines.push(c);
     }
+    for (const m of E.wsCollisions(P)) errors.push({ panel: m.id, msg: m.msg });
   }
+  // worksurfaces, pedestals and panels must not occupy the same floor space. Shapes are split into convex parts and tested
+  // by separating axes; parts that only touch (a worksurface against a panel face, the 1/2" gap at a corner, p209) pass.
+  E.wsCollisions = function (P) {
+    const out = [], TOL = 0.1, W = Object.values(P.worksurfaces || {});
+    const pen = (A, B) => { let m = Infinity; for (const Q of [A, B]) for (let i = 0; i < Q.length; i++) { const [x1, y1] = Q[i], [x2, y2] = Q[(i + 1) % Q.length]; let nx = y2 - y1, ny = x1 - x2; const L = Math.hypot(nx, ny); if (L < 1e-9) continue; nx /= L; ny /= L; let a0 = Infinity, a1 = -Infinity, b0 = Infinity, b1 = -Infinity; for (const [x, y] of A) { const d = x * nx + y * ny; a0 = Math.min(a0, d); a1 = Math.max(a1, d); } for (const [x, y] of B) { const d = x * nx + y * ny; b0 = Math.min(b0, d); b1 = Math.max(b1, d); } m = Math.min(m, Math.min(a1, b1) - Math.max(a0, b0)); if (m <= TOL) return 0; } return m; };
+    const hits = (as, bs) => as.some(a => bs.some(b => pen(a, b) > TOL));
+    const parts = (ws, g) => g.kind === 'straight' ? [g.poly] : g.arms.map(a => [g.o, a.end, a.front, [g.o[0] + a.n[0] * a.depth, g.o[1] + a.n[1] * a.depth]]);
+    const shapes = W.map(ws => { const g = E.wsGeometry(P, ws); return g && { ws, parts: parts(ws, g), peds: (ws.peds || []).map(d => ({ d, poly: E.pedRect(P, ws, g, d) })) }; }).filter(Boolean);
+    const panels = Object.values(P.panels).map(p => { const n0 = P.nodes[p.a], n1 = P.nodes[p.b]; const L = Math.hypot(n1.x - n0.x, n1.y - n0.y) || 1, ux = (n1.x - n0.x) / L, uy = (n1.y - n0.y) / L, nx = -uy * POST_HALF, ny = ux * POST_HALF; const a = { x: n0.x + ux * POST_HALF, y: n0.y + uy * POST_HALF }, b = { x: n1.x - ux * POST_HALF, y: n1.y - uy * POST_HALF }; return { p, poly: [[a.x + nx, a.y + ny], [b.x + nx, b.y + ny], [b.x - nx, b.y - ny], [a.x - nx, a.y - ny]] }; }); // panel body between the post faces
+    const nm = (ws) => wsName(ws);
+    for (let i = 0; i < shapes.length; i++) {
+      const A = shapes[i];
+      for (let j = i + 1; j < shapes.length; j++) { const B = shapes[j]; if (hits(A.parts, B.parts)) out.push({ id: A.ws.id, msg: `${nm(A.ws)} overlaps ${nm(B.ws)}. Worksurfaces need their own floor space: straights run junction to junction, corner arms stop 1/2" short of the junction (p209).` }); else if (hits(A.peds.map(x => x.poly), B.peds.map(x => x.poly))) out.push({ id: A.ws.id, msg: `The pedestals under ${nm(A.ws)} and ${nm(B.ws)} overlap (p273).` }); }
+      for (const q of panels) { if (hits(A.parts, [q.poly])) out.push({ id: A.ws.id, msg: `${nm(A.ws)} runs into panel ${q.p.id}. A worksurface wrapped by a panel has to fit between the panel faces: plan with actual dimensions (p209) or use a corner worksurface.` }); else if (hits(A.peds.map(x => x.poly), [q.poly])) out.push({ id: A.ws.id, msg: `A pedestal under ${nm(A.ws)} runs into panel ${q.p.id} (p273).` }); }
+    }
+    return out;
+  };
   function nominal(v) { return Math.round(v / 6) * 6; } // every Universal nominal size is a multiple of 6": 18 3/8 and 18 7/8 -> 18, 23 1/2 -> 24, 41 1/2 -> 42 (p507, p521)
   E.wsNominal = nominal;
   function wsName(ws) { return ({ straight: 'Straight worksurface', corner: 'Corner worksurface', extcorner: 'Extended corner worksurface', corner120: '120° corner worksurface' })[ws.kind] + ' ' + ws.id; }
@@ -2054,7 +2074,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-23.20';
+const BUILD='2026-09-24.1';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -2282,7 +2302,7 @@ const BUILD='2026-09-23.20';
     const run = E.runOf(P, ws.panel); const host = run.panels.find(r => r.id === ws.panel); const toRun = (o) => host.from + o; const fromRun = (t) => t - host.from;
     const cands = [];
     for (const r of run.panels) { cands.push(r.from, r.from + 1.5, r.to, r.to - 1.5); }
-    for (const o of Object.values(P.worksurfaces)) { if (o.id === ws.id) continue; const sp = o.kind === 'straight' ? E.wsSpanInRun(P, o, run) : null; if (sp && sp.side === ws.side) { cands.push(sp.to, sp.from - ws.width); } if (o.kind !== 'straight') { const g = E.wsGeometry(P, o); if (g) for (const a of g.arms) { const t = E.runOffset(run, a.end[0], a.end[1]); const along = Math.abs(a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1]) > .99; if (along) cands.push(t); } } }
+    for (const o of Object.values(P.worksurfaces)) { if (o.id === ws.id) continue; const sp = o.kind === 'straight' ? E.wsSpanInRun(P, o, run) : null; if (sp && sp.side === ws.side) { cands.push(sp.to, sp.from - ws.width); } if (o.kind !== 'straight') { const g = E.wsGeometry(P, o); if (g) for (const a of g.arms) { const t = E.runOffset(run, a.end[0], a.end[1]); const along = Math.abs(a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1]) > .99; if (along) { const out = a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1] > 0; cands.push(out ? t + 0.5 : t - 0.5 - ws.width); } } } }
     const t = toRun(off); let best = null, bd = 9;
     for (const cnd of cands) { const d = Math.abs(cnd - t); if (d < bd) { bd = d; best = cnd; } }
     const snapped = best !== null ? best : Math.round(t / GRID) * GRID;
@@ -2350,12 +2370,22 @@ const BUILD='2026-09-23.20';
   document.addEventListener('mousedown', e => { if (menu && !menu.contains(e.target)) closeMenu(); });
   const curH = () => +$('#optHeight .on').dataset.h, curW = () => { const v = $('#optWidth').value; return v === 'auto' ? 48 : +v; };
   const DIRS = { 0: '→ east', 90: '↑ north', 180: '← west', 270: '↓ south', 30: '↗ 30°', 60: '↗ 60°', 120: '↖ 120°', 150: '↖ 150°', 210: '↙ 210°', 240: '↙ 240°', 300: '↘ 300°', 330: '↘ 330°' };
+  // a worksurface the planner places must have its own floor space and no rule errors (supports on junctions p216, 1/2" gaps p209)
+  function wsFits(ws) { const re = new RegExp(E.wsName(ws) + '\\b'); return !E.generate(P).errors.some(m => m.panel === ws.id || re.test(m.msg)); }
   function addStraightWs(pid, side, wx, wy, depth) {
     const p = P.panels[pid]; const run = E.runOf(P, pid); const host = run.panels.find(r => r.id === pid); const t = E.runOffset(run, wx, wy);
     const widths = [...new Set(E.catalog().products.find(x => x.id === 'uw-straight').rows.filter(r => r.attrs.depth === E.wsDepthActual(depth, 'cord-drop')).map(r => r.attrs.width))].sort((a, b) => b - a);
     const roomAll = run.length + 3; const width = widths.find(w => w === p.width && w <= roomAll) || widths.find(w => w <= Math.min(p.width, roomAll)) || widths[widths.length - 1];
-    mutate(() => { const ws = E.newWorksurface(P, { kind: 'straight', panel: pid, side, off: t - host.from - width / 2, width, depth, edge: '3mm', material: 'laminate' }); const sn = snapWsOff(ws, ws.off); ws.off = Math.round(sn.off * 2) / 2; selWs = ws.id; selPed = null; sel = new Set(); selNode = null; });
-    toast(`${depth}"D × ${width}"W worksurface added. Drag it along the run, right-click for pedestals.`);
+    // first width and position that has its own floor space: the clicked spot, then the host panel's module, then inside the post faces of a wrapping panel
+    const clear = (ws) => wsFits(ws);
+    let placed = null;
+    mutate(() => {
+      const ws = E.newWorksurface(P, { kind: 'straight', panel: pid, side, off: 0, width, depth, edge: '3mm', material: 'laminate' });
+      for (const w of [width, ...widths.filter(x => x < width)]) { ws.width = w; const offs = [Math.round(snapWsOff(ws, t - host.from - w / 2).off * 2) / 2, 0, p.width - w, 1.5, p.width - w - 1.5]; const ok = offs.find(o => { ws.off = o; return E.wsWidths(P, ws).includes(w) && clear(ws); }); if (ok !== undefined) { ws.off = ok; placed = ws; break; } }
+      if (!placed) { E.removeWorksurface(P, ws.id); return; }
+      selWs = ws.id; selPed = null; sel = new Set(); selNode = null;
+    });
+    toast(placed ? `${depth}"D × ${placed.width}"W worksurface added${placed.width < p.width ? ' to clear the neighboring panel or worksurface' : ''}. Drag it along the run, right-click for pedestals.` : `No ${depth}"D worksurface fits on this side: it would overlap a panel or another worksurface, or an end would miss a junction (p209, p216). Use a corner worksurface at the junction, or add a pedestal or post leg for the loose end.`);
   }
   function addCornerWs(nid, wx, wy, kind120) {
     const n = P.nodes[nid]; const J = R.nodes[nid]; const legs = J.legs; if (!legs || legs.length < 2) return;
@@ -2366,14 +2396,21 @@ const BUILD='2026-09-23.20';
     if (!pair) pair = [L[0], L[1], ((L[1].angle - L[0].angle) + 360) % 360];
     const want = kind120 ? 120 : 90; if (Math.abs(pair[2] - want) > 1) { toast(`That corner is ${pair[2]}°. ${want === 90 ? 'Corner worksurfaces fit 90° corners' : '120° corner worksurfaces fit 120° corners'}.`); return; }
     const sizes = E.cornerSizes(kind120 ? 'corner120' : 'corner', 'cord-drop').filter(z => z.depthA === 24 && z.depthB === 24 && z.C === z.D).sort((a, b) => b.C - a.C);
-    const fit = cornerFit(nid, pair[0].panel.id, pair[1].panel.id, sizes);
-    mutate(() => { const ws = E.newWorksurface(P, { kind: kind120 ? 'corner120' : 'corner', node: nid, legs: [pair[0].panel.id, pair[1].panel.id], C: fit.C, D: fit.D, depthA: 24, depthB: 24, supports: { arm0: 'auto', arm1: 'auto' } }); selWs = ws.id; selPed = null; sel = new Set(); selNode = null; });
-    toast(fit.onSeams ? `${fit.C}×${fit.D} corner worksurface added at ${jn(nid)}` : `${fit.C}×${fit.D} corner worksurface added at ${jn(nid)}, but no corner size ends on the panel seams of both legs (arms are 1/2" less than the panel width, p209). Change a panel width or support the loose arm with a pedestal or post leg.`);
+    // sizes whose arms end on panel seams (p209, p216), the first panel of each leg first, then the first one with its own floor space
+    const d0 = seamDists(nid, pair[0].panel.id), d1 = seamDists(nid, pair[1].panel.id);
+    const onSeams = sizes.filter(z => d0.includes(z.C) && d1.includes(z.D)).sort((a, b) => ((b.C === d0[0] && b.D === d1[0]) - (a.C === d0[0] && a.D === d1[0])));
+    let placed = null;
+    if (onSeams.length) mutate(() => {
+      const ws = E.newWorksurface(P, { kind: kind120 ? 'corner120' : 'corner', node: nid, legs: [pair[0].panel.id, pair[1].panel.id], C: onSeams[0].C, D: onSeams[0].D, depthA: 24, depthB: 24, supports: { arm0: 'auto', arm1: 'auto' } });
+      const clear = () => wsFits(ws);
+      for (const z of onSeams) { Object.assign(ws, { C: z.C, D: z.D }); if (clear()) { placed = ws; break; } }
+      if (!placed) { E.removeWorksurface(P, ws.id); return; }
+      selWs = ws.id; selPed = null; sel = new Set(); selNode = null;
+    });
+    toast(placed ? `${placed.C}×${placed.D} corner worksurface added at ${jn(nid)}` : !onSeams.length ? `No ${kind120 ? '120° ' : ''}corner worksurface fits at ${jn(nid)}: its arms have to end on panel seams (arms are 1/2" less than the panel width, p209) and the seams here are ${d0.slice(0, 3).join('/')}" and ${d1.slice(0, 3).join('/')}" out. Change a panel width, or use straight worksurfaces.` : `No room for a corner worksurface at ${jn(nid)}: it would overlap a panel or another worksurface, or break a support rule (p209, p216).`);
   }
   // distances from a junction to every panel seam along one leg's run
   function seamDists(nid, pid) { const n = P.nodes[nid], p = P.panels[pid]; const run = E.runOf(P, pid); const t = E.runOffset(run, n.x, n.y); const o = P.nodes[p.a === nid ? p.b : p.a]; const sg = ((o.x - n.x) * run.dir[0] + (o.y - n.y) * run.dir[1]) > 0 ? 1 : -1; return [0, ...run.panels.map(r => r.to)].map(x => Math.round((x - t) * sg * 1000) / 1000).filter(d => d > 1).sort((a, b) => a - b); }
-  // corner size whose arms end on panel seams (on-module supports sit on junctions, p216), matching the first panel of each leg when it can (p209)
-  function cornerFit(nid, pid0, pid1, sizes) { const d0 = seamDists(nid, pid0), d1 = seamDists(nid, pid1); const z = sizes.find(z => z.C === d0[0] && z.D === d1[0]) || sizes.find(z => d0.includes(z.C) && d1.includes(z.D)); return z ? Object.assign({ onSeams: true }, z) : Object.assign({ onSeams: false }, sizes.find(z => z.C === d0[0] || z.D === d1[0]) || sizes.find(z => z.C <= d0[d0.length - 1] && z.D <= d1[d1.length - 1]) || sizes[sizes.length - 1]); }
   function endKeys(ws) { return ws.kind === 'straight' ? (ws.side === 0 ? { left: 'lo', right: 'hi' } : { left: 'hi', right: 'lo' }) : { left: 'arm0', right: 'arm1' }; }
   function pedItems(ws) {
     const ek = endKeys(ws); const ln = ws.kind === 'straight' ? 'Left end' : `End of the ${pn(ws.legs[0])} arm`, rn = ws.kind === 'straight' ? 'Right end' : `End of the ${pn(ws.legs[1])} arm`; const mk = (type, cfg, label) => ({ label, children: [{ label: ln, run: () => mutate(() => { E.addPedestal(P, ws, { at: ek.left, type, config: cfg }); }) }, { label: rn, run: () => mutate(() => { E.addPedestal(P, ws, { at: ek.right, type, config: cfg }); }) }] });
