@@ -40,6 +40,9 @@ README — https://github.com/wesprojects/ANSWER
 - Top caps are the 2 1/4" left of the 6" trim allowance after the 3 3/4" base trim (p13) and sit directly on the skins. They run with the skins, meeting over in-line junctions and over the end post to the end trim. A stacked panel has one top cap, the base panel's, moved to the top of the stack (p26), and the spec notes it. An in-line change of height shows the change-of-height trim on the lower panel's side, its top level with the top cap (p18); glass beside it is shortened (p57). An omitted top cap is drawn as a dashed outline.
 - Run ends show the finished end-of-run trim meeting the skins: a flat 1/2" trim on thin (p14, p347), a rounded 1" trim on oval (p76), on the plan, the elevations and the installer sheets.
 
+- Corner junctions show their cap from above (p375): the square 90° corner cap (TS790JC) on L, T and X, the triangular 120° corner cap (TS7120JC) on V and Y. The triangle has 3" sides, so each leg's end face is one side and neighbouring legs meet at its points with no gap; a V also shows its vertical trim on the open side. Caps and trims are drawn in the job's trim finish. Frameless glass and oval top screens show as a line down the top cap.
+- `test/caps.js` checks every junction type for gaps between the panels and the cap.
+
 ## Guide corrections applied
 
 - p400 Square V/Y junctions, wood cap, 48" V row printed TS742SVPJW. Corrected to TS748SVPJW and flagged on the BOM.
