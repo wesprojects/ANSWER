@@ -4,9 +4,11 @@ CONKLIN OFFICE FURNITURE - RESEARCH AND DEVELOPMENT
 
 # ANSWER PANEL PLANNER
 
-Plan, specify, build and install Steelcase Answer panel systems, Thin trim first and Oval trim second, from one job file. Draw panel runs on a plan or drop in typicals, set height, stacking, tiles, windows, power and frameless glass per panel, and every shared junction, trim, cap, aligner and package is resolved to the exact style number from the February 2015 Answer Solutions Specification Guide. Four stages carry the job from the office to the shop floor: Plan, Specification (buy new, refurbish or stock per line, with package contents spelled out), Shop (upholstery and paint work orders, junction build sheets, field cuts) and Pick & Install (pick list with bins, staging by workstation, installer sheets with plan, elevations and junction-by-junction parts). Every guide reference opens that page of the guide.
+Plan, specify, build and install Steelcase Answer panel systems, Thin trim first and Oval trim second, from one job file. Draw panel runs on a plan or drop in typicals, set height, stacking, tiles, windows, power and frameless glass per panel, then right-click to add Universal worksurfaces, corner worksurfaces and fixed or mobile pedestals that snap to the panels. Every shared junction, trim, cap, aligner, cantilever, side support bracket, end panel, reinforcing channel, pedestal filler and package is resolved to the exact style number from the February 2015 Answer Solutions Specification Guide. Four stages carry the job from the office to the shop floor: Plan, Specification (buy new, refurbish or stock per line, with package contents spelled out), Shop (upholstery and paint work orders, junction build sheets, field cuts) and Pick & Install (pick list with bins, staging by workstation, installer sheets with plan, elevations and junction-by-junction parts). The specification exports as a SIF file for CAP Worksheet, ProjectSpec and dealer ordering systems, with every finish written as an option pair.
 
-<span style="color:grey">OUTPUT IN .ANSWER JOB, CSV, PRINTABLE SPEC / WORK ORDER / PICK LIST / INSTALLER SHEET FORMAT</span>
+Every reference to the Answer Specification Guide opens that page of the PDF.
+
+<span style="color:grey">OUTPUT IN .ANSWER JOB, SIF, CSV, PRINTABLE SPEC / WORK ORDER / PICK LIST / INSTALLER SHEET FORMAT</span>
 
 LAUNCH — https://wesprojects.github.io/ANSWER/
 
@@ -16,7 +18,10 @@ README — https://github.com/wesprojects/ANSWER
 
 - `index.html` — the whole app in one file. Opens from disk or GitHub Pages.
 - `answer-1.pdf` (pages 1–200) and `answer-2.pdf` (pages 201–766) — the Steelcase Answer Solutions Specification Guide, February 2015, split in two to stay under GitHub's 25 MB upload limit. Keep both next to index.html. Page links use the guide's printed page numbers.
-- `src/` — `engine.js` (junction classification, exposed-face trim rules, stacking, oval mapping, pricing, validation), `planner.js` / `planner.css` / `planner.html` (interface), `catalog.json` (129 product groups, 2,413 style numbers, surface materials).
+- `src/` — `engine.js` (junction classification, exposed-face trim rules, stacking, oval mapping, worksurface support rules, pricing, validation), `planner.js` / `planner.css` / `planner.html` (interface), `catalog.json` (146 product groups, 2,642 style numbers, surface materials).
+- Workstations — Universal straight, corner, extended corner and 120° corner worksurfaces (p506–526), panel-mounted supports (p545–548), post legs (p552), fixed and mobile pedestals with fillers (p608–614). Supports follow p207–217: cantilevers at free ends, one shared cantilever per seam, side support brackets at wrapped ends and rear corners, an end panel for the front edge of 30"D worksurfaces, a reinforcing channel over 54" spans, a fixed pedestal replaces the cantilever where it sits.
+- SIF export — one record per style number and finish set (PN, MC, CT, PD, QT, PL, ON/OD pairs, TG tag). Manufacturer and catalog codes are set under Finishes & settings so they match your CAP or dealer system. Group the specification by workstation to tag each record with its workstation.
+- `build_catalog.py` / `build_workstations.py` — merge the extracted guide data (`data/`) into `src/catalog.json`.
 - `build.py` — assembles `dist/index.html`, build number YYYY-MM-DD.N.
 - `test/test.js` — engine tests against the guide's worked examples on p35–39 (`node test/test.js`).
 
