@@ -212,6 +212,7 @@ tr.done td.strike{text-decoration:line-through}
 .modal.on{display:flex}
 .modalbox{background:var(--card);border-radius:10px;width:min(980px,92vw);max-height:86vh;display:flex;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.25)}
 .typgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:14px;padding:18px;overflow:auto}
+.typgroup{grid-column:1/-1;font-family:var(--body);font-size:11.5px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--n600);margin-top:8px;border-top:1px solid var(--divider);padding-top:14px}
 .typ{border:1px solid var(--n300);border-radius:8px;padding:10px;cursor:pointer;background:#fff}
 .typ:hover{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent-200)}
 .typ canvas{width:100%;height:120px;display:block;background:#fafbfc;border-radius:6px}
@@ -267,7 +268,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1>Answer Panel Planner <span class="build">Build 2026-09-24.3</span></h1>
+    <h1>Answer Panel Planner <span class="build">Build 2026-09-24.4</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -2084,7 +2085,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.3';
+const BUILD='2026-09-24.4';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -3010,10 +3011,35 @@ const BUILD='2026-09-24.3';
     { name: '120° pod, furnished', ws: true, ds: 'Three 120° corner worksurfaces 48×48 on a Y junction of 48" panels with 30" panels in line, mobile pedestals', build: () => { const T = E.newProject(P.trim); const c = E.addNode(T, 0, 0); const first = []; for (const a of [90, 210, 330]) { const q = E.addPanel(T, c, a, 48, 48); first.push(q); E.addPanel(T, T.nodes[q.b], a, 30, 48); } for (let i = 0; i < 3; i++) { const w = E.newWorksurface(T, { kind: 'corner120', node: c.id, legs: [first[i].id, first[(i + 1) % 3].id], C: 48, D: 48, depthA: 24, depthB: 24, supports: { arm0: 'auto', arm1: 'auto' } }); E.addPedestal(T, w, { at: 'arm0', type: 'mobile', config: 'A' }); } return T; } },
     { name: 'Private office front', ds: '66" run with 12" frameless glass', build: () => { const T = E.newProject(P.trim); let n = E.addNode(T, 0, 0); for (const w of [48, 48, 36]) { const q = E.addPanel(T, n, 0, w, 66); if (T.trim === 'thin') q.glassScreen = { attach: 'recessed', height: 12, frosted: false, omitGlass: false }; else E.setStack(T, q, [12]); n = T.nodes[q.b]; } return T; } },
   ];
+  // the guide's own worked examples (thin trim build-your-own pages), placed as 36"W panels on one junction so the parts list can be compared line for line.
+  // p35-p37 draw the options without heights; these heights reproduce the exact trims each option lists.
+  const gx = (legs, stacks) => () => { const T = E.newProject('thin'); const c = E.addNode(T, 0, 0); for (const [a, h] of legs) { const q = E.addPanel(T, c, a, 36, h); if (stacks && stacks[a]) E.setStack(T, q, stacks[a]); } return T; };
+  const X4 = (a, b, c, d) => gx([[0, a], [90, b], [180, c], [270, d]]);
+  TYPICALS.push(...[
+    ['p38 Example One', 'X change of height, four heights: A 66, B 54, C 42, D 30', X4(66, 54, 42, 30)],
+    ['p38 Example Two', 'X change of height, three heights: A 54, B 54, C 42, D 30', X4(54, 54, 42, 30)],
+    ['p38 Example Three', 'Y change of height: A 54, B 42, C 30', gx([[0, 54], [120, 42], [240, 30]])],
+    ['p35 T Option 1', 'T change of height: 66/54 in line, 42 leg', gx([[0, 66], [90, 42], [180, 54]])],
+    ['p35 T Option 2', 'T change of height: 66/42 in line, 54 leg', gx([[0, 66], [90, 54], [180, 42]])],
+    ['p35 T Option 3', 'T change of height: 54/42 in line, 66 leg', gx([[0, 54], [90, 66], [180, 42]])],
+    ['p35 Y Option 1', 'Y change of height: 66, 54, 42', gx([[0, 66], [120, 54], [240, 42]])],
+    ['p36 X Option 1', 'X change of height: two 66 opposite, 54 and 42', X4(54, 66, 42, 66)],
+    ['p36 X Option 2', 'X change of height: two 66 adjacent, 54 and 42', X4(42, 54, 66, 66)],
+    ['p36 X Option 3', 'X change of height: 66, two 54 adjacent, 42', X4(42, 54, 54, 66)],
+    ['p36 X Option 4', 'X change of height: 66, two 54 opposite, 42', X4(42, 54, 66, 54)],
+    ['p36 X Option 5', 'X change of height: 66, 54, two 42 adjacent', X4(42, 42, 54, 66)],
+    ['p36 X Option 6', 'X change of height: 66, 54, two 42 opposite', X4(42, 54, 42, 66)],
+    ['p37 X Option 7', 'X change of height, four heights in turn: 30, 42, 54, 66', X4(30, 42, 54, 66)],
+    ['p37 X Option 8', 'X change of height, four heights: 66 opposite 54, 42 opposite 30', X4(66, 42, 54, 30)],
+    ['p41 Steps 5–6', 'In-line stacking: two 42" panels stacked 24" and 12"', gx([[180, 42], [0, 42]], { 180: [24], 0: [12] })],
+    ['p41 Step 7, left', 'T 42: both in-line panels stacked 12"', gx([[0, 42], [90, 42], [180, 42]], { 0: [12], 180: [12] })],
+    ['p41 Step 7, right', 'T 42: two adjacent panels stacked 12"', gx([[0, 42], [90, 42], [180, 42]], { 0: [12], 90: [12] })],
+  ].map(([name, ds, build]) => ({ name, ds: ds + ` · thin trim · compare with the parts list on ${name.split(' ')[0]}`, build, guide: +name.slice(1).split(' ')[0] })));
   function renderTypicals(furnished) {
     const list = TYPICALS.map((t, i) => ({ t, i })).filter(x => !furnished || x.t.ws);
-    $('#typicalGrid').innerHTML = list.map(({ t, i }) => `<div class="typ" data-t="${i}"><canvas></canvas><div class="nm">${esc(t.name)}</div><div class="ds">${esc(t.ds)}</div></div>`).join('');
-    $$('.typ').forEach((el) => { const i = +el.dataset.t; const T = TYPICALS[i].build(); const c = el.querySelector('canvas'); c.width = 300; c.height = 170; const cx = c.getContext('2d'); const ns = Object.values(T.nodes); const wsPts = Object.values(T.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(T, w); return g ? g.poly.map(q => ({ x: q[0], y: q[1] })) : []; }); const all = [...ns, ...wsPts]; const xs = all.map(n => n.x), ys = all.map(n => n.y); const mnx = Math.min(...xs) - 12, mxx = Math.max(...xs) + 12, mny = Math.min(...ys) - 12, mxy = Math.max(...ys) + 12; const s = Math.min(280 / (mxx - mnx), 150 / (mxy - mny)); const ox = 150 - (mnx + mxx) / 2 * s, oy = 85 + (mny + mxy) / 2 * s; for (const w of Object.values(T.worksurfaces || {})) { const g = E.wsGeometry(T, w); if (!g) continue; cx.beginPath(); g.poly.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = WSFILL; cx.fill(); cx.strokeStyle = WSLINE; cx.lineWidth = 1; cx.stroke(); for (const d of w.peds || []) { const rr = pedRect(w, g, d); cx.beginPath(); rr.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = '#dcd5c8'; cx.fill(); cx.stroke(); } } for (const p of Object.values(T.panels)) { const a = T.nodes[p.a], b = T.nodes[p.b]; const an = Math.atan2(b.y - a.y, b.x - a.x); cx.lineWidth = Math.max(3, 3 * s); cx.strokeStyle = HCOL[p.height]; cx.lineCap = 'butt'; cx.beginPath(); cx.moveTo(ox + (a.x + Math.cos(an) * 1.5) * s, oy - (a.y + Math.sin(an) * 1.5) * s); cx.lineTo(ox + (b.x - Math.cos(an) * 1.5) * s, oy - (b.y - Math.sin(an) * 1.5) * s); cx.stroke(); cx.lineWidth = 1; cx.strokeStyle = '#424244'; cx.stroke(); } for (const n of Object.values(T.nodes)) { const hp = Math.max(2, 1.5 * s); cx.fillStyle = '#d4d4d7'; cx.fillRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); cx.strokeStyle = '#424244'; cx.strokeRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); } el.onclick = () => { $('#typicals').classList.remove('on'); setTool('select'); if (placeAt) { const at = placeAt; placeAt = null; placeTypical(T, at); toast(TYPICALS[i].name + ' placed'); return; } placing = { T, ghost: null }; plan.className = 'place'; toast('Click on the plan to place ' + TYPICALS[i].name); }; });
+    const card = ({ t, i }) => `<div class="typ" data-t="${i}"><canvas></canvas><div class="nm">${esc(t.name)}</div><div class="ds">${esc(t.ds)}</div></div>`;
+    $('#typicalGrid').innerHTML = list.filter(x => !x.t.guide).map(card).join('') + (list.some(x => x.t.guide) ? '<div class="typgroup">Guide worked examples — Build Your Own, thin trim (p35–p41)</div>' + list.filter(x => x.t.guide).map(card).join('') : '');
+    $$('.typ').forEach((el) => { const i = +el.dataset.t; const T = TYPICALS[i].build(); const c = el.querySelector('canvas'); c.width = 300; c.height = 170; const cx = c.getContext('2d'); const ns = Object.values(T.nodes); const wsPts = Object.values(T.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(T, w); return g ? g.poly.map(q => ({ x: q[0], y: q[1] })) : []; }); const all = [...ns, ...wsPts]; const xs = all.map(n => n.x), ys = all.map(n => n.y); const mnx = Math.min(...xs) - 12, mxx = Math.max(...xs) + 12, mny = Math.min(...ys) - 12, mxy = Math.max(...ys) + 12; const s = Math.min(280 / (mxx - mnx), 150 / (mxy - mny)); const ox = 150 - (mnx + mxx) / 2 * s, oy = 85 + (mny + mxy) / 2 * s; for (const w of Object.values(T.worksurfaces || {})) { const g = E.wsGeometry(T, w); if (!g) continue; cx.beginPath(); g.poly.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = WSFILL; cx.fill(); cx.strokeStyle = WSLINE; cx.lineWidth = 1; cx.stroke(); for (const d of w.peds || []) { const rr = pedRect(w, g, d); cx.beginPath(); rr.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = '#dcd5c8'; cx.fill(); cx.stroke(); } } for (const p of Object.values(T.panels)) { const a = T.nodes[p.a], b = T.nodes[p.b]; const an = Math.atan2(b.y - a.y, b.x - a.x); cx.lineWidth = Math.max(3, 3 * s); cx.strokeStyle = HCOL[p.height]; cx.lineCap = 'butt'; cx.beginPath(); cx.moveTo(ox + (a.x + Math.cos(an) * 1.5) * s, oy - (a.y + Math.sin(an) * 1.5) * s); cx.lineTo(ox + (b.x - Math.cos(an) * 1.5) * s, oy - (b.y - Math.sin(an) * 1.5) * s); cx.stroke(); cx.lineWidth = 1; cx.strokeStyle = '#424244'; cx.stroke(); } for (const n of Object.values(T.nodes)) { const hp = Math.max(2, 1.5 * s); cx.fillStyle = '#d4d4d7'; cx.fillRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); cx.strokeStyle = '#424244'; cx.strokeRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); } el.onclick = () => { $('#typicals').classList.remove('on'); setTool('select'); if (placeAt) { const at = placeAt; placeAt = null; placeTypical(T, at); toast(TYPICALS[i].name + ' placed' + (TYPICALS[i].guide ? (P.trim === 'thin' ? `. Compare its junction parts with p${TYPICALS[i].guide} (click the junction, or open the Specification).` : `. This example is from the thin trim pages; switch the job to thin trim to compare with p${TYPICALS[i].guide}.`) : '')); return; } placing = { T, ghost: null }; plan.className = 'place'; toast('Click on the plan to place ' + TYPICALS[i].name); }; });
   }
   $('#bTypicals').onclick = () => { placeAt = null; renderTypicals(); $('#typicals').classList.add('on'); }; $('#bCloseTypicals').onclick = () => $('#typicals').classList.remove('on');
   function placeTypical(T, at) {
