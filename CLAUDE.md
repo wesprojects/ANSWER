@@ -13,7 +13,8 @@ Never guess a dimension: read the page (`guide/pNNN.txt`, the PDFs `answer-1.pdf
 - `src/engine.js` rules, BOM, geometry, SIF, plain DXF; `src/capdxf.js` CAP DXF export; `src/planner.js` interface and drawing; `src/planner.html`,
   `src/planner.css`; `src/catalog.json` (146 products, 2,642 priced rows, every row cites its guide page).
 - `build.py` writes `dist/index.html` (build number = New York date + counter; `--same` keeps the number). `build_catalog.py`, `build_workstations.py`.
-- `test/` — engine and Playwright tests. `cap/` — CAP format findings (`NOTES.md`), R2000 skeleton, reference drawings, render scripts.
+- `test/` — engine and Playwright tests (`test/lib.js` is the shared helper). `cap/` — CAP format findings (`NOTES.md`); the R2000 skeleton is
+  `CAPDXF_TPL` in `src/capdxf.js`. The reference drawings and render scripts were lost with the stale zip (2026-09-24): the owner's fresh CAP files go here.
 - `guide/pNNN.txt` — the guide's text by page. `README.md` — the product description, the guide's rules as applied, corrections applied, tests.
 
 ## Facts already settled (do not re-derive or relitigate)
@@ -25,6 +26,8 @@ Never guess a dimension: read the page (`guide/pNNN.txt`, the PDFs `answer-1.pdf
 - Worksurfaces butt with no gap; supports on junctions (p209, p216); tie plates at every seam, 3" in from the edge (p181–182); one per cantilever/CSP,
   packs of 6 TS7TIEPLATE; cantilever 15 1/2" deep; CSP 11".
 - Frameless glass thin only, 24"W and up, not over a top-position window, connector TS7TFGRC per p386, one glass kit may span in-line panels (p57).
+- Worksurface ends hang on junctions (p209, p216), so an L of two straights needs the return leg segmented to put a junction at the other
+  worksurface's front edge (24"W panel + 1 1/2" = 25 1/2" for a 24"D); 35 1/2"D straights are freestanding only (p508 tip), so 36"D is not offered on panels.
 - Guide corrections applied: p400 TS742SVPJW→TS748SVPJW, p401 TS742VPJ→TS748VPJ, p487 6612 mark (verify).
 - CAP DXF: CAP refuses R12; accepts R2000 (AC1015). Parts are `P_<style>` blocks with the 16 CAP attributes; panels are config blocks with the
   frame and skins nested; CAP keeps block definitions that are in the drawing (so correct `3_<style>` 3D blocks can ship in the file).
@@ -34,10 +37,14 @@ Never guess a dimension: read the page (`guide/pNNN.txt`, the PDFs `answer-1.pdf
 2. Run the whole suite before any push: `node test/test.js`, then `NODE_PATH=$(npm root -g) node test/<name>.js` for
    ui3 ui5 ui6 ui7 ui8 ui9 ui10 ui11 guidex plan ws2 outputs wsoverlap wsstress final dims caps elevpick handle join corner capbtn overlap, and
    `node test/capdxf.js` (needs `pip install ezdxf`). `overlap` must end `TOTAL 0`. Symlink `answer-1.pdf` and `answer-2.pdf` into `dist/` for the guide tests.
+   On the owner's Windows machine (Git Bash): the project is `Desktop\ANSWER PANEL PLANNER` (the repo checkout) with the source in `source\`;
+   use `python` (`python3` is the Store stub; `pip install pymupdf ezdxf tzdata`), `export NODE_PATH="$(npm root -g)"`, copy the PDFs into `dist/`
+   (symlinks need admin rights), and `build.py` writes LF so the built file matches the repo.
 3. Update `README.md` (what changed and the guide pages behind it). Build with `python3 build.py`.
-4. Commit in the source with a clear message. Copy `dist/index.html` and `README.md` (and this file) into the repo checkout, commit, push to
+4. Commit in the source (its own git repo in `source/`; the checkout's `.gitignore` keeps `source/` out of the Pages repo) with a clear message.
+   Copy `dist/index.html` and `README.md` (and this file) into the repo checkout, commit, push to
    `claude/dazzling-gauss-0nzo38`, fast-forward `main` (`git checkout main && git merge --ff-only claude/dazzling-gauss-0nzo38 && git push`), so it goes live.
-5. Zip the source (everything but `.git`, `__pycache__`, `test/overlap`, `test/capout`, `dist/*.pdf`, PNGs) to `Downloads\ANSWER\ANSWER_source.zip`.
+5. Zip the source (everything but `.git`, `__pycache__`, `test/overlap`, `test/capout`, `dist/*.pdf`, PNGs, `test/run_*.log`) to `Downloads\ANSWER\ANSWER_source.zip`.
 6. Report plainly: what changed, what the tests showed, what is not done. No silent skips.
 
 ## Interface conventions the owner has set
@@ -49,3 +56,4 @@ part in an elevation centres the plan on it without scrolling the page; the hide
 1. Correct 3D `3_<style>` blocks in the CAP export, built from the guide's actual dimensions (waiting on a 3D CAP DXF sample and screenshots).
 2. Import CAP Worksheet exports / SIF / CAP DXF attributes as a job for the Pick & Install stage (waiting on worksheet exports and a pick list sample).
 3. Frameless glass drawn heights: check `E.GLASS.recessed.heights` against p56/p384–385 (6"H kit = 9 5/16" glass, 12"H = 15 1/2", 18"H = 21 5/8").
+   Seen 2026-09-24: the table is keyed 12/18/24 while the interface offers 6/12/18, so a 6" kit draws 6" of glass and a 12" kit 9 5/16". Read the pages before changing it.

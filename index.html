@@ -285,7 +285,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1 title="Build 2026-09-24.14">Answer Panel Planner <span class="build">Build 2026-09-24.14</span></h1>
+    <h1 title="Build 2026-09-24.16">Answer Panel Planner <span class="build">Build 2026-09-24.16</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -2916,7 +2916,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.14';
+const BUILD='2026-09-24.16';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -3027,7 +3027,9 @@ const BUILD='2026-09-24.14';
   const toS = (x, y) => [view.ox + x * view.s, view.oy - y * view.s];
   const toW = (sx, sy) => [(sx - view.ox) / view.s, (view.oy - sy) / view.s];
   const ZMIN = .05; // 0.05 px per inch: a 1,400' floor fits the plan
+  let fitPending = false; // fit() asked for while the plan was hidden (a job loaded or started on another stage): done when the plan shows
   function fit() {
+    if (!W() || !H()) { fitPending = true; return; }
     const ns = Object.values(P.nodes);
     if (!ns.length) { view.s = 3; view.ox = 80; view.oy = H() - 80; return; }
     const pts = [...ns.map(n => [n.x, n.y]), ...Object.values(P.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(P, w); return g ? g.poly : []; })];
@@ -3097,7 +3099,7 @@ const BUILD='2026-09-24.14';
   // longest variant that fits the width, or '' when none does
   function fitText(c, variants, maxW) { for (const t of variants) if (t && c.measureText(t).width <= maxW) return t; return ''; }
   function Labels(c) {
-    const items = [], hard = [], soft = [], placed = [];
+    const items = [], hard = [], soft = [], placed = [], placedOut = []; // placedOut: what was drawn, for the overlap test (window.answerDebug.planLabels)
     const quad = (cx, cy, w, h, rot) => { const co = Math.cos(rot || 0), si = Math.sin(rot || 0); return [[-w / 2, -h / 2], [w / 2, -h / 2], [w / 2, h / 2], [-w / 2, h / 2]].map(([x, y]) => [cx + x * co - y * si, cy + x * si + y * co]); };
     const apart = (A, B) => { for (const Q of [A, B]) for (let i = 0; i < Q.length; i++) { const [x1, y1] = Q[i], [x2, y2] = Q[(i + 1) % Q.length]; const nx = y2 - y1, ny = x1 - x2; let a0 = Infinity, a1 = -Infinity, b0 = Infinity, b1 = -Infinity; for (const [x, y] of A) { const d = x * nx + y * ny; a0 = Math.min(a0, d); a1 = Math.max(a1, d); } for (const [x, y] of B) { const d = x * nx + y * ny; b0 = Math.min(b0, d); b1 = Math.max(b1, d); } if (a1 <= b0 + 1e-6 || b1 <= a0 + 1e-6) return true; } return false; };
     return {
@@ -3105,13 +3107,14 @@ const BUILD='2026-09-24.14';
       poly(q, isHard) { (isHard ? hard : soft).push(q); },
       // o: { text, font, size (px), color, rot, prio, keep, at: [(w, h) => [cx, cy], ...] }
       add(o) { if (o.text) items.push(o); },
+      placed: placedOut,
       flush() {
         items.map((o, i) => [o, i]).sort((a, b) => (b[0].prio - a[0].prio) || (a[1] - b[1])).forEach(([o]) => {
           c.font = o.font; const h = o.size + 2; let best = null, bestSoft = Infinity;
           for (const text of [o.text, ...(o.alts || [])]) { const w = c.measureText(text).width + 8; for (const f of o.at) { const [cx, cy] = f(w, h); const q = quad(cx, cy, w, h, o.rot); if (hard.some(b => !apart(q, b)) || placed.some(b => !apart(q, b))) continue; const n = soft.filter(b => !apart(q, b)).length; if (n < bestSoft) { best = [cx, cy, q, text]; bestSoft = n; if (!n) break; } } if (best && !bestSoft) break; }
           if (!best && o.keep) { const w = c.measureText(o.text).width + 8; const [cx, cy] = o.at[0](w, h); best = [cx, cy, quad(cx, cy, w, h, o.rot), o.text]; }
           if (!best) return;
-          placed.push(best[2]); c.save(); c.translate(best[0], best[1]); c.rotate(o.rot || 0); c.fillStyle = o.color; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(best[3], 0, 0.5); c.restore();
+          placed.push(best[2]); placedOut.push({ text: best[3], quad: best[2], keep: !!o.keep }); c.save(); c.translate(best[0], best[1]); c.rotate(o.rot || 0); c.fillStyle = o.color; c.textAlign = 'center'; c.textBaseline = 'middle'; c.fillText(best[3], 0, 0.5); c.restore();
         });
       },
     };
@@ -3166,8 +3169,9 @@ const BUILD='2026-09-24.14';
       // end handles
       if (!plain && J && (J.type === 'EOR' || J.type === 'wall') && tool === 'select' && !dragMove) { const l = J.legs[0]; const ang = (l.angle + 180) * Math.PI / 180; const [hx, hy] = toS(n.x + Math.cos(ang) * (POST / 2 + 28 / view.s), n.y + Math.sin(ang) * (POST / 2 + 28 / view.s)); ctx.beginPath(); ctx.arc(hx, hy, HANDLE_R, 0, 7); ctx.fillStyle = hover && hover.kind === 'handle' && hover.id === n.id ? '#5980a6' : '#fff'; ctx.fill(); ctx.strokeStyle = '#5980a6'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.fillStyle = hover && hover.kind === 'handle' && hover.id === n.id ? '#fff' : '#5980a6'; ctx.font = '600 17px Barlow, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('+', hx, hy + 6); L.box(hx, hy, 2 * HANDLE_R + 4, 2 * HANDLE_R + 4, true); }
     }
-    L.flush();
+    L.flush(); if (!plain) planLabels = L.placed;
   }
+  let planLabels = []; // labels drawn on the live plan, as placed (test/overlap.js reads them)
   // selection halo: a soft band around the selected panels, junction, worksurface or pedestal, pulsing briefly after it is picked in the elevation
   let pulseUntil = 0;
   function selShapes() {
@@ -4523,7 +4527,7 @@ const BUILD='2026-09-24.14';
 
   // ---------- header / stages ----------
   $$('#tabs button').forEach(b => b.onclick = () => showStage(b.dataset.stage));
-  function showStage(s) { stage = s; $$('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.stage === s)); $$('.stage').forEach(x => x.classList.toggle('on', x.id === 'st-' + s)); if (s === 'plan') { sizeCanvases(); } refresh(); }
+  function showStage(s) { stage = s; $$('#tabs button').forEach(b => b.classList.toggle('on', b.dataset.stage === s)); $$('.stage').forEach(x => x.classList.toggle('on', x.id === 'st-' + s)); if (s === 'plan') { if (fitPending) { fitPending = false; fit(); } sizeCanvases(); } refresh(); }
   $$('#trimSwitch button').forEach(b => b.onclick = () => {
     if (P.trim === b.dataset.trim) return;
     const ps = Object.values(P.panels); const toOval = b.dataset.trim === 'oval'; const cnt = (f) => ps.filter(f).length; const pl = (n, w) => `${n} ${w}${n === 1 ? '' : 's'}`;
@@ -4557,7 +4561,7 @@ const BUILD='2026-09-24.14';
   });
   window.addEventListener('resize', sizeCanvases);
 
-  window.answerDebug = { addStraightWs: (...a) => addStraightWs(...a), hit: (x, y) => hit(x, y), view, P: () => P, refresh: () => refresh(), elevHits: () => elevHits, elevInfo: () => elevInfo, drag: () => dragWs && { off: dragWs.off, off0: dragWs.off0, t0: dragWs.t0, label: dragWs.label } };
+  window.answerDebug = { planLabels: () => planLabels, addStraightWs: (...a) => addStraightWs(...a), hit: (x, y) => hit(x, y), view, P: () => P, refresh: () => refresh(), elevHits: () => elevHits, elevInfo: () => elevInfo, drag: () => dragWs && { off: dragWs.off, off0: dragWs.off0, t0: dragWs.t0, label: dragWs.label } };
   // ---------- boot ----------
   try { const saved = localStorage.getItem('answer.planner'); if (saved) P = migrate(JSON.parse(saved)); } catch (e) { }
   R = E.generate(P); sizeCanvases(); fit(); refresh();
