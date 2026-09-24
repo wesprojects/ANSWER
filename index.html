@@ -267,7 +267,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1>Answer Panel Planner <span class="build">Build 2026-09-24.2</span></h1>
+    <h1>Answer Panel Planner <span class="build">Build 2026-09-24.3</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -1944,10 +1944,10 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
       c.notes.push('Ships as a handed pair. One bracket supports a rear corner or a wrapped worksurface end, so specify one pair for every two (p545). Used at: ' + ssbWhere.join('; ') + '.');
       lines.push(c);
     }
-    // tie plates: every seam where two worksurfaces butt is tied underneath with a flat tie plate (p546). One ships with each cantilever
+    // tie plates: every seam where two worksurfaces butt is tied underneath with a flat tie plate near the front edge (p546; placement per the p181-p182 figures). One ships with each cantilever
     // and each center support panel (p217, p545, p547); seams beyond those take the package of six. Positions are kept for the plan.
     for (const ws of W) ws._tie = [];
-    for (const [e, f] of seams) { const mid = [(e.pt[0] + f.pt[0]) / 2, (e.pt[1] + f.pt[1]) / 2]; e.ws._tie.push({ pt: mid, dir: e.out, n: e.n, with: f.ws.id }); }
+    for (const [e, f] of seams) { const mid = [(e.pt[0] + f.pt[0]) / 2, (e.pt[1] + f.pt[1]) / 2]; const dp = (x) => x.arm ? x.arm.depth : x.g.depth; e.ws._tie.push({ pt: mid, dir: e.out, n: e.n, depth: Math.min(dp(e), dp(f)), with: f.ws.id }); } // the plate goes under the seam near the user's edge (p181, p182 figures)
     if (seams.length) {
       const inc = sum(lines.filter(l => l.pid === 'uw-cantilever' || l.pid === 'uw-center-support-panels').map(l => l.qty)); const extra = seams.length - inc;
       const where = seams.map(([e, f]) => `${e.ws.id}/${f.ws.id}`).join(', ');
@@ -2084,7 +2084,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.2';
+const BUILD='2026-09-24.3';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -2278,7 +2278,7 @@ const BUILD='2026-09-24.2';
     c.beginPath(); pts.forEach((p, i) => { const [x, y] = toS(p[0], p[1]); if (i === 0) c.moveTo(x, y); else if (curve && i === 3) { const [cx1, cy1] = toS(curve[1][0], curve[1][1]); const [x4, y4] = toS(pts[4][0], pts[4][1]); c.quadraticCurveTo(cx1, cy1, x4, y4); } else if (curve && i === 4) { } else c.lineTo(x, y); }); c.closePath();
   }
   function drawWorksurfaces(c, plain, only, L) {
-    const ties = []; // drawn over every worksurface so the plate shows across the seam
+    const ties = []; // drawn over every worksurface so the plate shows across the seam, 3" in from the user's edge (p181, p182)
     for (const ws of Object.values(P.worksurfaces || {})) {
       if (only && !only.panels.some(q => q.id === E.hostPanelOf(P, ws.id))) continue;
       const g = plain ? E.wsGeometry(P, ws) : wsDisplayGeometry(ws); if (!g) continue; const on = !plain && selWs === ws.id; const hv = !plain && hover && hover.kind === 'ws' && hover.id === ws.id;
@@ -2303,7 +2303,7 @@ const BUILD='2026-09-24.2';
         if (plain || view.s > 1.4) { const [px, py] = toS((r[0][0] + r[2][0]) / 2, (r[0][1] + r[2][1]) / 2); L.add({ text: PEDCFG[d.config] || 'BBF', font: '600 9px Barlow, sans-serif', size: 9, color: '#4a3f30', prio: 95, keep: true, at: [() => [px, py]] }); }
       }
     }
-    for (const t of ties) { const c0 = [t.pt[0] + t.n[0] * 5, t.pt[1] + t.n[1] * 5], hl = 1.875, hw = 0.75; const q = [[-hl, -hw], [hl, -hw], [hl, hw], [-hl, hw]].map(([u, v]) => toS(c0[0] + t.dir[0] * u + t.n[0] * v, c0[1] + t.dir[1] * u + t.n[1] * v)); c.beginPath(); q.forEach((pt, i) => i ? c.lineTo(pt[0], pt[1]) : c.moveTo(pt[0], pt[1])); c.closePath(); c.fillStyle = '#5d5d60'; c.fill(); L.poly(q, true); }
+    for (const t of ties) { const back = Math.max(5, (t.depth || 24) - 3); const c0 = [t.pt[0] + t.n[0] * back, t.pt[1] + t.n[1] * back], hl = 1.875, hw = 0.75; const q = [[-hl, -hw], [hl, -hw], [hl, hw], [-hl, hw]].map(([u, v]) => toS(c0[0] + t.dir[0] * u + t.n[0] * v, c0[1] + t.dir[1] * u + t.n[1] * v)); c.beginPath(); q.forEach((pt, i) => i ? c.lineTo(pt[0], pt[1]) : c.moveTo(pt[0], pt[1])); c.closePath(); c.fillStyle = '#5d5d60'; c.fill(); L.poly(q, true); }
     if (!plain && dragWs) { const [x, y] = toS(dragWs.px, dragWs.py); ctx.fillStyle = '#1d1f20'; ctx.font = '600 12px Barlow, sans-serif'; ctx.textAlign = 'left'; ctx.fillText(dragWs.label || '', x + 12, y - 12); }
   }
   function inPoly(pt, poly) { let inside = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) { const xi = poly[i][0], yi = poly[i][1], xj = poly[j][0], yj = poly[j][1]; if (((yi > pt[1]) !== (yj > pt[1])) && (pt[0] < (xj - xi) * (pt[1] - yi) / (yj - yi) + xi)) inside = !inside; } return inside; }
