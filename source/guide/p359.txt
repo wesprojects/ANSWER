@@ -1,0 +1,35 @@
+Panels—Thin Trim
+Wall-Start Junctions                                                                                   
+                                                
+   Speciﬁcation Information
+DHeight    DStyle             DU.S.
+d               dNumber        dPrice
+d                  d                         d
+42"                TS742WPJ     $199
+48"                TS748WPJ     $199
+54"                TS754WPJ     $199
+66"                TS766WPJ     $199
+78"                TS778WPJ     $278
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 24
+• Junction
+Style number
+ 
+Tip: When using in an off-
+module application, off-mod-
+ule panel connector must be
+ordered separately.
+cPage 82
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Answer Solutions Specification Guide                                                                                                                                                                                                            359
+Wall-Start Junctions
+Panels—Thin Trim
+February 2015

@@ -1,0 +1,62 @@
+TS Series Storage 
+TS Series Under-Worksurface Lateral Files
+                                        
+598                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide  
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 256
+• Lateral ﬁle: paint price group 1
+• Handle pulls: 0835 Black or 9211 Nickel
+• Lock face ring with plastic plug to accommodate 
+lock cylinder: 9201 Polished Chrome
+• Adjustable glides: black plastic
+• Hanging ﬁle frames for letter, legal, and A-4 ﬁling:
+black
+• Attachment hardware
+1 Style number
+2 Paint color number for lateral ﬁle
+3 Paint color number for handle pulls:
+0835  Black
+9211  Nickel
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Remember to specify lock cylinder
+and key.
+cLock Cylinders, page 726
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$  50                                    Specify paint color number.
+                                     • Paint price group 3                     +$  82                                    Specify paint color number.
+  Perforation          • Large perforation on drawer       +$264                                   Specify with large perforation
+                                        fronts of 301/2"W ﬁle only                                                          on drawer fronts.
+  Pulls                    • Ledge pulls: 7207 Black             +$  27                                    Specify with 7207 Black ledge pulls.
+                              • Ledge pulls: 4799 Platinum        +$  33                                    Specify with 4799 Platinum ledge pulls.
+  Related                   • Lateral ﬁle drawer dividers                                                     cPage 599
+  Products                 • Lateral ﬁle front-to-back rails                                                 cPage 599
+                                     • Lateral ﬁle side-to-side hanging                                             cPage 599
+                                        ﬁle frames
+Speciﬁcation Information
+DDimensions              DStyle               DU.S. 
+dD        W         H        dNumber           dBase
+d
+d
+dPrice
+d                                        d
+d
+181⁄8"     301⁄2"     27"         TS2F230UL      $699                
+181⁄8"     36"         27"         TS2F236UL      $773                
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: TS Series under-work-
+surface lateral files are only
+intended for use under a
+panel-mounted worksurface
+and should not be used as
+freestanding.
+February 2015

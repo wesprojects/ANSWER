@@ -1,0 +1,98 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            397
+Panels—Square and Oval Trim
+L, T, and X Base Panel Junctions—Oval Trim                                           
+                            Options                       U.S. Price               Required to Specify
+  Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$  11                                    Specify paint color number.
+                                  • Paint price group 3                     +$  21                                   Specify paint color number.
+                                 Trim on L and T junctions
+                                     • Fabric price group 1, 2, 3,          +$  80                                   Specify fabric color number for trim.
+                                        4, 5, or COM
+                                     • Fabric direction
+                                        –Horizontal application               No cost                                 Specify with horizontal application.
+                                        –(standard)
+                                        –Vertical application                   No cost                                 Specify with vertical application.
+                                     • Wood on junctions with wood                                                   Specify wood color number for trim.
+                                        junction cap
+                                        –54"H panel height or shorter    +$185  
+                                        –66"H panel height or taller        +$237  
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+   Speciﬁcation Information
+                              L Base Panel Junctions         T Base Panel Junctions         X Base Panel Junctions
+                              with Oval Trim                        with Oval Trim                        with Oval Trim
+                              
+                         
+             
+DCorresponding   DStyle               DU.S.              DStyle               DU.S.              DStyle               DU.S.
+dPanel                  dNumber           dBase             dNumber           dBase             dNumber           dBase
+dHeight                d                       dPrice               d
+dPrice            d
+dPrice
+d                           d                       d                         d
+d                     d
+d
+Plastic Junction Cap
+30"                              TS730LPJ        $199                   TS730TPJ        $199                   TS730XPJ        $199
+42"                              TS742LPJ        $199                   TS742TPJ        $199                   TS742XPJ        $199
+48"                              TS748LPJ        $199                   TS748TPJ        $199                   TS748XPJ        $199
+54"                              TS754LPJ        $199                   TS754TPJ        $199                   TS754XPJ        $199
+66"                              TS766LPJ        $199                   TS766TPJ        $199                   TS766XPJ        $199
+78"                              TS778LPJ        $278                   TS778TPJ        $278                   TS778XPJ        $278
+d
+d
+d
+d
+d
+d
+d
+Wood Junction Cap
+30"                              TS730LPJW     $254                   TS730TPJW     $254                   TS730XPJW     $254
+42"                              TS742LPJW     $254                   TS742TPJW     $254                   TS742XPJW     $254
+48"                              TS748LPJW     $254                   TS748TPJW     $254                   TS748XPJW     $254
+54"                              TS754LPJW     $254                   TS754TPJW     $254                   TS754XPJW     $254
+66"                              TS766LPJW     $254                   TS766TPJW     $254                   TS766XPJW     $254
+78"                              TS778LPJW     $334                   TS778TPJW     $334                   TS778XPJW     $334
+d
+d
+d
+d
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 76
+• Junction
+• Trim on L and T junction: paint price group 1
+• Junction cap on L, T, and X junction: plastic or wood
+• Aligners
+1 Style number
+2 Paint color number for trim 
+3 Plastic or wood color number for
+junction cap
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+L, T, and X Base Panel
+Junctions—Oval Trim
+Tip: Painted trim is standard,
+and fabric trim is optional,
+on all base panel junctions.
+Wood trim is available as an
+option only on base panel
+junctions with wood junction
+caps.
+Tip: 78"H fabric-covered
+junctions allow fabric in the
+vertical application only.
+Tip: For further information
+about fabric direction,
+csee page 713.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Square and
+Oval Trim
+February 2015

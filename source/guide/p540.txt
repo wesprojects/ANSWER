@@ -1,0 +1,75 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+540                                                                                                                                                                                                   Answer Solutions Specification Guide
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 210
+• Door: paint
+• Door bezel:  6694 slate 
+• Inner tray with six simplex receptacles:  7237 slate
+• Outer tray with end caps: 7237 slate and 6694 slate
+• Grommet (modular and hardwire only):  plastic
+• Two cord clips or harness clips
+1 Style number
+2 Paint color for door
+3 Plastic color for grommet
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                     Door
+Materials               • Paint                                         No cost                             
+Specify paint color.
+                                 • Anodized aluminum                  +$21                                    Specify with 8043 clear anodized 
+                                                                                                                                  aluminum.
+Power                    3+1
+Schematics,        • Line 1
+Line Options,         - System ground                       No cost                                Specify with 3+1, line 1, system ground.
+and Ground            - Isolated ground                      No cost                                Specify with 3+1, line 1, isolated ground.
+Options                  • Line 2
+                                   - System ground                       No cost                                Specify with 3+1, line 2, system ground.
+                                   - Isolated ground                      No cost                                Specify with 3+1, line 2, isolated ground.
+                                 • Line 3
+                                   - System ground                       No cost                                Specify with 3+1, line 3, system ground.
+                                   - Isolated ground                      No cost                                Specify with 3+1, line 3, isolated ground.
+                                 • Line 4
+                                   - System ground                       No cost                                Specify with 3+1, line 4, system ground.
+                                   - Isolated ground                      No cost                                Specify with 3+1, line 4, isolated ground.
+                                      2+2
+                                   • Line 1
+                                      - System ground                       No cost                                Specify with 2+2, line 1, system ground.
+                                      - Isolated ground                      No cost                                Specify with 2+2, line 1, isolated ground.
+                                   • Line 2
+                                      - System ground                       No cost                                Specify with 2+2, line 2, system ground.
+                                      - Isolated ground                      No cost                                Specify with 2+2, line 2, isolated ground.
+                                   • Line 3
+                                      - System ground                       No cost                                Specify with 2+2, line 3, system ground.
+                                      - Isolated ground                      No cost                                Specify with 2+2, line 3, isolated ground.
+                                   • Line 4
+                                      - System ground                       No cost                                Specify with 2+2, line 4, system ground.
+                                      - Isolated ground                      No cost                                Specify with 2+2, line 4, isolated ground.
+                                      3SN
+                                   • Line 1
+                                      - System ground                       No cost                                Specify with 3SN, line 1, system ground.
+                                      - Isolated ground                      No cost                                Specify with 3SN, line 1, isolated 
+                                      
+                                                                                           ground.
+                                   • Line 2
+                                      - System ground                       No cost                                Specify with 3SN, line 2, system ground.
+                                      - Isolated ground                      No cost                                Specify with 3SN, line 2, isolated 
+                                      
+                                                                                           ground.
+                                   • Line 3
+                                      - System ground                       No cost                                Specify with 3SN, line 3, system ground.
+                                      - Isolated ground                      No cost                                Specify with 3SN, line 3, isolated 
+                                      
+                                                                                           ground.
+Universal Systems Worksurfaces
+Power and Data Access Door & Tray
+Tip:  Remember to specify
+cutout for power and data
+tray on the worksurface
+style number.
+February 2015

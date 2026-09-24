@@ -1,0 +1,58 @@
+550                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Infills for FrameOne Legs for Universal Worksurfaces
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 223
+• High-Pressure Laminate infills
+• Brackets and caps
+1 Style number
+2 Laminate color number for infill
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                     High-Pressure Laminate
+Materials               • Open Line laminate                   +$  65                               cSee Surface Materials Reference 
+                                                                                     plus cost of laminate            Manual.
+                                      Wood Veneer
+                                    • Wood veneer surface with         Prices below                        Specify with wood veneer and indicate
+                                      wood veneer edges                                                               wood color number.
+                                   • Premium wood 2                       +$  98                                  Specify Premium wood 2 finish number.
+                                   • Premium wood 3                       +$343                                  Specify Premium wood 3 finish number.
+                                   • Customiz stain                          No cost                                Specify with Customiz stain.
+                                                                                                                                  cSee Surface Materials Reference
+                                                                                                                                    Manual.
+Specification Information
+DPlanning   DStyle          DU.S.                          DOption
+dWidth        dNumber      dBase                         d(Add $ to
+d                 d                   dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+dHigh-Pressure          dWood
+d                 d                   dLaminate
+dVeneer
+For Closed Loop Legs
+24"W               UFC24NF     $549                                +$183
+30"W               UFC30NF     $611                                +$199
+d
+d
+d
+d
+For Open Loop Legs
+24"W               UFQ24NF     $549                                +$183
+30"W               UFQ30NF     $611                                +$199
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

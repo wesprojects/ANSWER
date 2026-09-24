@@ -1,0 +1,47 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            201
+Panel-Mounted Worksurface
+Supports Integration Matrix
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+                                                                                                                            
+Answer Panel
+Montage Panel
+Kick Panel
+Universal Systems 
+G   G                                                G    G
+on-module supports,
+U style numbers
+Example: UCANT
+cPage 545
+Universal Systems supports                                              G    G                     
+for Montage panels,
+Z style numbers
+Example: ZUCANT
+cSee Montage Solutions
+Specification Guide.
+This matrix shows recom -
+mended panel-mounted sup-
+ports for specific panel and
+worksurface combinations.
+Refer to the appropriate
+Solutions Specification Guide
+(Answer or Montage) for
+detailed information.
+Legend
+G = Recommended solution
+      Tip: Alignment tabs will need to be knocked down 
+       when full-depth worksurfaces are used.
+                                                                                   
+Universal Systems Worksurfaces—with 1⁄2" Cord Drop
+Universal Systems Worksurfaces—Full Depth
+Universal Systems Worksurfaces—with 1⁄2" Cord Drop
+Universal Systems Worksurfaces—Full Depth
+Universal Systems Worksurfaces—with 1⁄2" Cord Drop
+Universal Systems Worksurfaces—Full Depth
+Universal Systems
+Worksurfaces
+Universal Systems Worksurfaces
+Panel-Mounted Worksurface Supports
+Integration Matrix
+February 2015

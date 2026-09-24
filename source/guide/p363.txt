@@ -1,0 +1,66 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                          363
+Stacking L, T, X, V, and Y
+Panel Junctions—Thin Trim
+Panels—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 26
+• Junction
+• Fork connectors
+Style number
+Specification Information
+DHeight    DStyle                 DU.S.
+d               dNumber             dPrice
+d
+d                               d
+L Panel Junctions
+12"                TS712TLPJS        $293
+18"                TS718TLPJS        $293
+24"                TS724TLPJS        $293
+d
+d                               d
+T Panel Junctions
+12"                TS712TTPJS       $293
+18"                TS718TTPJS       $293
+24"                TS724TTPJS       $293
+d
+d                               d
+X Panel Junctions
+12"                TS712XPJS          $293
+18"                TS718XPJS          $299
+24"                TS724XPJS          $293
+d
+d                               d
+V Panel Junctions
+12"                TS712TVPJS       $369
+18"                TS718TVPJS       $369
+24"                TS724TVPJS       $369
+d
+d                               d
+Y Panel Junctions
+12"                TS712YPJS          $376
+18"                TS718YPJS          $376
+24"                TS724YPJS          $376
+d
+d                               d
+Tip: Stacking corner junc-
+tions do not include trim.
+Trim is specified separately
+to span entire height of base
+junction plus stacking 
+junction.
+Tip: Junction cap is not
+included and must be 
+specified separately.
+Panels—Thin Trim
+Stacking L, T, X, V, and Y Panel Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

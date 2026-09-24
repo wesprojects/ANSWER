@@ -1,0 +1,110 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            639
+Cushion Tops 
+                                                                                                                     
+Universal Storage
+Cushion Tops
+For Universal One-High and 1.5-High Lateral Files
+                                        
+                            Options                          U.S. Price      
+Required to Specify
+  Surface                  Upholstery
+  Materials             • Fabric price group 1                        No cost                          
+Specify fabric color number.
+                                     • Fabric price group 2                        +$  10                            
+Specify fabric color number.
+                                     • Fabric price group 3                        +$  38                            
+Specify fabric color number.
+                                     • Fabric price group 4                        +$  47                            
+Specify fabric color number.
+                                     • Fabric price group 5                        +$  59                            
+Specify fabric color number.
+                                     • Fabric price group 6                        +$  83                            
+Specify fabric color number.
+                                     • Fabric price group 7                        +$100                            
+Specify fabric color number.
+                                     • Fabric price group 8                        +$145                            
+Specify fabric color number.
+                                     • Fabric price group 9                        +$186                            
+Specify fabric color number.
+                                     • Fabric price group 10                      +$226                            
+Specify fabric color number.
+                                     • Elmosoft leather price group           +$580                               Specify Elmosoft leather color number.
+                              • Leather price group                        +$671                               Specify leather color number.
+                                     • Customer’s Own Material (COM)   +$  16                        cSee Surface Materials Reference Manual.
+                                        or Customer’s Own Leather (COL)
+  Related                   • Universal One-High lateral files                                             cPage 634
+  Products              • Universal 1.5-High lateral files                                               cPage 636
+   Specification Information
+DDimensions                              DStyle                  DU.S. Base Price
+dD       
+           W     H              dNumber             d                   
+dFlush
+Proud
+d
+dFlush           dProud
+dSteel
+Steel/
+d
+dSteel           dSteel/
+dFront
+Wood
+d
+dFront           dWood
+d
+Front
+d
+d
+dFront
+d
+d
+d
+d
+d
+d
+dSuffix F       dSuffix P
+d
+d
+d
+d
+Cushion Tops
+18"       187⁄8"         30"    11⁄2"             RPDC1830_        $571                 $571
+18"       187⁄8"         36"    11⁄2"             RPDC1836_        $582                 $582
+18"       187⁄8"         42"    11⁄2"             RPDC1842_        $593                 $593
+24"       247⁄8"         30"    11⁄2"             RPDC2430_        $607                 $607
+24"       247⁄8"         36"    11⁄2"             RPDC2436_       $617                 $617
+d
+d
+d
+d
+                            Standard Includes                                
+Required to Specify
+• Cushion top: fabric
+• Attachment hardware
+cNeed help?
+  Product details,
+  page 300
+1 Style number with appropriate front style
+suffix in the space provided
+F   Flush steel front
+P   Proud steel/wood front
+2 Fabric color number 
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Seam pattern is deter-
+mined by upholstery
+selected. 
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style of
+the lateral (for example,
+RPDC1830__ becomes
+RPDC1830F for cushion 
+top for flush steel front). 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Cushion Tops 
+Universal Storage
+February 2015

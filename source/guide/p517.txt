@@ -1,0 +1,111 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   517
+Single-Tapered
+Worksurfaces
+Universal Systems Worksurfaces
+Single-Tapered Worksurfaces
+High-Pressure Laminate 
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Scallop                   • Omit scallop                              No cost                                Specify omit scallop.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Speciﬁcation Information
+                                            U.S. Base Price     
+                                    U.S. Base Price
+                                            High-Pressure        
+                                    High-Pressure
+                                            Laminate               
+                                    Laminate
+                                    
+                     
+                                         
+DDimensions            DStyle             DPlastic                  DDimensions            DStyle             DPlastic
+dA     B       C          dNumber        d3 mm                    dA
+B
+C          dNumber        d3 mm
+d                               d                     dEdge                     d
+             d                     dEdge
+d                               d                     d                             d
+d
+d
+d                               d                     dNo Sufﬁx               d
+d
+dNo Sufﬁx
+Left-Hand With 1⁄2" Cord Drop                        Left-Hand With Full Depth
+231⁄2"  183⁄8"  60"           UST2160       $465                          24"
+187⁄8" 60"           WST2160        $465
+231⁄2"  183⁄8"  72"           UST2172         $520                          24"
+187⁄8" 72"           WST2172        $520
+291⁄2"  231⁄2"  60"           UST3260         $546                          30"
+24"
+60"           WST3260        $546
+291⁄2"  231⁄2"  72"           UST3272         $611                           30"
+24"
+72"           WST3272        $611
+d                               d                     d                             d
+d
+d
+Right-Hand With 1⁄2" Cord Drop                      Right-Hand With Full Depth
+183⁄8"  231⁄2"  60"           UST1260         $465                          187⁄8" 24"
+60"           WST1260        $465
+183⁄8"  231⁄2"  72"           UST1272         $520                          187⁄8" 24"
+72"           WST1272        $520
+231⁄2"  291⁄2"  60"           UST2360         $546                          24"
+30"
+60"           WST2360        $546
+231⁄2"  291⁄2"  72"           UST2372         $611                           24"
+30"
+72"           WST2372        $611
+d                               d                     d                             d
+d
+d
+Tip: Supports for freestand-
+ing and panel-mounted
+applications must be speci-
+fied separately.
+Tip: Long worksurface spans
+may require additional sup-
+port, reinforcing channels
+allow for unsupported spans
+greater than 54".
+cSee understanding 
+section for details, 
+page 208
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallop on back edge
+1 Style number 
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+24"
+A
+C
+B
+24"
+A
+C
+B
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems
+Worksurfaces
+February 2015

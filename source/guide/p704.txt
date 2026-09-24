@@ -1,0 +1,60 @@
+704                                                                                                                                                                                                            Answer Solutions Specification Guide
+Transitional Answer Storage
+Answer Mobile Pedestals
+Standard Includes                                      Required to Specify
+• Pedestal: paint price group 1
+• 1⁄8"H steel top: paint to match pedestal
+• Oval pulls: plastic
+• Basic drawer interiors: black only
+—No drawer accessories
+• Lock, keyed random: 9201 Polished Chrome
+• Four hard-composition, non-locking, casters: black only
+• Counterweight package
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials                • Paint price group 2                     +$  42                                   Specify paint color number.
+                                     • Paint price group 3                     +$  71                                   Specify paint color number.
+  Full Drawer              24"D box/file and box/box/file pedestals
+  Interiors                 • Include full-depth drawers,         +$  49                                    Specify with full drawers.
+                                full drawer extensions, pencil
+                                        tray, and two box drawer
+                                        dividers
+  Drawer                       Rails
+  Accessories        • Two side-to-side hanging           No cost                                 Specify with rails.
+                                       file rails per file drawer
+  Lock and                Lock 
+  Keying                 • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                        Individual locking drawers
+                                     • File/file pedestals only                +$122                                  Specify with individual lock.
+                                        Keying
+                                     • Factory- and field-installed keying                                        cPage 726
+  Tops                         • 1"H square edge steel top          +$  63                                   Specify with steel square top.
+                                 Laminate top
+                              • 13⁄16"H square edge                   +$272                                  Specify with laminate top and indicate 
+                                        laminate top                                                                              laminate color number.
+                              • 17⁄16"H bullnose laminate top     +$310                                  Specify with bullnose laminate top and
+                                                                                                                                         indicate laminate color number.
+                              • Open Line laminate on               +$  65                                cSee Surface Materials Reference Manual.
+                                        laminate top                                plus cost of laminate
+                                 Wood veneer top
+                              • 13⁄16"H wood veneer top             +$379                                  Specify with wood veneer top and 
+                                                                                                                                          indicate wood color number.
+                                     • Premium wood 2                        +$  26                                    Specify Premium wood 2 finish number.
+                               • Premium wood 3                        +$  90                                    Specify Premium wood 3 finish number.
+                              • Customiz stain on wood             No cost                                Specify with Customiz stain. 
+                                        veneer top                                                                              cSee Surface Materials Reference Manual.
+cOptions, continued on next page
+1 Style number
+2 Paint color number for pedestal
+3 Plastic color number for oval pulls
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: 1⁄8"H steel top is 
+non-structural.
+These products fall into the established category, intended for customers with existing standards. Universal pedestals and lateral files
+are recommended for new customers.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

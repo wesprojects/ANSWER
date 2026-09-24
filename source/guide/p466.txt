@@ -1,0 +1,64 @@
+466                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Single-Pane Glass Window Kits for Use with Custom Glass                      
+For Panel Buildups
+Tip: Custom glass must be
+ordered separately.
+cSee page 119 for the
+dimensions of custom
+inserts.
+Tip: Glass window kits are
+available for single pane
+only.
+Tip: Remember to specify
+spanning window in-line 
+supports if window is 
+spanning two or more 
+panels.
+Tip: When specifying a win-
+dow to span over two or
+more panels, it is recom-
+mended that the same size
+spanning top cap also be
+speciﬁed for use with the
+window.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 118
+• Frame: paint
+1 Style number
+2 Paint color number for frame 
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+                            Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                  No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                  +$22                                     Specify paint color number.
+                              • Paint price group 3                  +$38                                     Specify paint color number.
+   Specification Information
+Single Pane
+12"H                                        18"H                                        24"H
+                     
+                                                
+                                                
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle                   DU.S.
+d               dNumber              dBase         dNumber              dBase         dNumber              dBase 
+d                  d                                dPrice           d                                dPrice           d                                dPrice
+d                  d                                d                     d                                d                     d                                d
+24"                TS71224SCW      $315               TS71824SCW      $368               TS72424SCW      $420
+30"                TS71230SCW      $338               TS71830SCW      $392               TS72430SCW      $445
+36"                TS71236SCW      $361               TS71836SCW      $416               TS72436SCW      $471
+42"                TS71242SCW      $385               TS71842SCW      $443               TS72442SCW      $500
+48"                TS71248SCW      $408               TS71848SCW      $476               TS72448SCW      $544
+60"                TS71260SCW      $479               TS71860SCW      $542               TS72460SCW      $606
+72"                TS71272SCW      $536               TS71872SCW      $614               TS72472SCW      $692
+78"                TS71278SCW      $605               TS71878SCW      $682               TS72478SCW      $761
+84"                TS71284SCW      $664               TS71884SCW      $745               TS72484SCW      $828
+90"                TS71290SCW      $723               TS71890SCW      $810               TS72490SCW      $895
+96"                TS71296SCW        $781               TS71896SCW        $873               TS72496SCW      $964
+d                  d                                d                     d                                d                     d                                d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

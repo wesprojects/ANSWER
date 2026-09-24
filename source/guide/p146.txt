@@ -1,0 +1,126 @@
+146                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+If your usage is known
+in advance:
+Add up the amperage used
+by each piece of equipment
+in the workstation. When -
+ever you reach 60 amps 
+(20 amps times 3 circuits) or
+80 amps (20 amps times 4
+circuits) from items that are
+likely to be used at the same
+time, you have reached the
+limit for a single power-in.
+Specify another power-in
+and continue until all equip -
+ment is powered. 
+If the circuits will normally
+be subject to a continuous
+load (three or more hours of
+continuous use, such as
+lights or computers), the
+NEC requires that circuit
+capacity be “de-rated” by 
+20 percent. Therefore, treat
+circuits used for continuous
+loads as if they were rated
+at 16 amps instead of the
+regular 20 amps. 
+Try to anticipate future
+increases in power require -
+ments and build some
+excess capacity into your
+plan.
+cSee table at right for typi-
+cal and actual amperage
+usages for components.
+To calculate amperage when
+the wattage of a device is
+known, divide watts by 120.
+Some appliances, such as
+large copiers, coffee makers,
+or space heaters require
+most of the current avail-
+able on a 20-amp circuit. It
+is recommended that such
+devices be supplied with
+their own receptacle/circuit,
+directly from the building.
+This leaves the capacity of
+the furniture circuits avail -
+able for the more dynamic
+requirements of the office
+equipment. 
+Local electrical codes vary.
+Consult a qualified electrical
+contractor or engineer for
+the proper planning of elec -
+trical circuits in your locale.
+If your usage is not
+known in advance: 
+The National Electrical
+Code (NEC) allows a maxi -
+mum of 13 receptacles on
+each 20-amp circuit. This
+provides up to 30 recepta cles
+for each 3-circuit power-in
+and 40 receptacles for each
+4-circuit power-in. 
+These numbers refer to
+receptacles, not outlets.
+All Answer receptacles are
+duplex and include two 
+outlets.
+When planning a power 
+network, you must calculate
+the amperage requirements
+of all your electrical compo -
+nents so you can provide
+sufficient electricity to power
+them. 
+Requirements of Office Equipment in Amps
+General Equipment 
+(Typical Amperage)
+A.C. adapter                            0.05
+Adding machine                      0.05
+Answering machine                0.08
+Calculator                                0.025
+Clock                                       0.03
+Coffee pot                             10.00
+Copy machine                       15.00
+Desk-top copiers                     7.00 to 10.00
+Electric eraser                         0.25
+Fan                                          0.50
+Manuscript holder                   0.75
+Microwave                               8.00 to 12.00
+Pencil sharpener                     0.25
+Radio                                      0.05
+Space heater, 1000 watts       8.50
+Space heater, 1500 watts     12.50
+Stand-alone copiers              15.00
+Electronic Equipment 
+(Typical Amperage)
+Desk-top memory 
+storage devices                     0.08 to 0.15
+Desk-top printers                    1.20 to 2.00
+DVD players                            0.13 to 0.20
+Flat-panel screens                  3.50
+Laptops                                   3.50 to 5.00
+Modems                                  0.15
+Stand-alone printers               1.50 to 2.50
+VDTs and PCs                        0.08 to 4.80
+Steelcase Lighting 
+(Actual Amperage)
+Shelf lights 
+24" wide, 17 watts                   0.20
+36" wide, 25 watts                   0.30
+48" wide, 32 watts                   0.30
+...............................................................................................................................................
+Wiring and Cabling
+How to Calculate Power Needs
+Use This to Determine How Many Power-Ins You’ll Need
+February 2015

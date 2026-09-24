@@ -1,0 +1,94 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            157
+Wiring & Cabling
+Junction with Utility Pole
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Shield on power harness
+permits a utility pole to
+accommodate power and
+communication cable routing
+at the same time. For appli -
+cations where more cable
+routing is needed, you can
+use the utility pole without
+a power harness or use a
+lay-in utility package.
+cPages 366 and 414 for
+lay-in utility package.
+Connections
+Utility pole works with
+base and stacking junctions.
+It can only be used at an 
+end-of-run, in-line, L- or T-
+configuration. It cannot be
+used in an X, V, or Y-con -
+figuration. Utility pole is
+always shipped with a junc -
+tion, so don’t double order.
+End-of-run application
+uses an in-line junction.
+Utility pole extends 3"
+beyond the footprint of 
+the panels. This works with
+thin, square, or oval trim.
+In-line application uses
+T junction and adds 3" to
+panel run. This works with
+square or oval trim only.
+In-line Junction
+Utility Pole
+3"
+3"
+Utility Pole
+T Junction
+“L” application uses T
+junction. Utility pole extends
+3" beyond the footprint of
+the panels. This works with
+square or oval trim only.
+“T” application uses X
+junction. Utility pole extends
+3" beyond the footprint of
+the panels. This works with
+square or oval trim only.
+3"
+Utility Pole
+T Junction
+3"
+Utility Pole
+X Junction
+Wiring & Cabling
+Three wiring schemat -
+ics are available—3+1,
+2+2, and three circuits with
+separate neutrals (3SN).
+All the components in an
+electrical distribution system
+must use the same wiring
+schematic. For safety the
+components are keyed,
+labeled, and color-coded to
+make it impossible to con -
+nect mismatched parts.
+cPage 145
+All Answer electrical
+components are listed
+by Underwriters Laboratory
+(UL) and certified by the
+Canadian Standards
+Association (CSA).
+Local electrical codes
+vary. Consult a qualified
+electrical contractor or engi -
+neer for the proper installa -
+tion of all electrical
+components.
+Chicago and New York
+have special requirements.
+cPages 159 and 166
+Wiring and Cabling
+February 2015

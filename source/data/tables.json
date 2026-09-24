@@ -1,0 +1,4852 @@
+{
+ "section": "tables",
+ "title": "Universal Tables",
+ "pages": [
+  227,
+  588
+ ],
+ "families": [
+  {
+   "id": "straight-tables",
+   "title": "Straight Tables",
+   "page": [
+    566,
+    567
+   ],
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Reinforcing Channel",
+     "name": "Reinforcing channel",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with reinforcing channel.",
+     "appliesTo": "66\"W and wider tables"
+    }
+   ],
+   "tips": [
+    "Tip: Select the reinforcing channel option if the table will be supported by legs. Channels are not required if the table will be supported by T- or X-bases.",
+    "Tip: Bases and legs to support Universal Tables must be specified separately.",
+    "Tip: For base and leg support guidelines, see Table and Base Combinations, page 243, Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFS2430 becomes BFS2430SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Dimension A = depth, B = actual width (1/4\" less than nominal).",
+    "Related products: Bases for Universal Tables (page 581), Legs for Universal Tables (page 582), Worksurface screens (page 586), Worksurface power and communication components (page 555)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFS2430",
+     "desc": "Straight table 24\"D x 30\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 30,
+      "actualWidth": 29.75,
+      "A": 24,
+      "B": 29.75,
+      "shape": "straight"
+     },
+     "price": 218,
+     "edgePrices": {
+      "3mm": 218,
+      "P": 264,
+      "SW": 672
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 35
+     }
+    },
+    {
+     "style": "BFS2436",
+     "desc": "Straight table 24\"D x 36\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 36,
+      "actualWidth": 35.75,
+      "A": 24,
+      "B": 35.75,
+      "shape": "straight"
+     },
+     "price": 231,
+     "edgePrices": {
+      "3mm": 231,
+      "P": 277,
+      "SW": 693
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 36
+     }
+    },
+    {
+     "style": "BFS2442",
+     "desc": "Straight table 24\"D x 42\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 42,
+      "actualWidth": 41.75,
+      "A": 24,
+      "B": 41.75,
+      "shape": "straight"
+     },
+     "price": 251,
+     "edgePrices": {
+      "3mm": 251,
+      "P": 306,
+      "SW": 769
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 41
+     }
+    },
+    {
+     "style": "BFS2448",
+     "desc": "Straight table 24\"D x 48\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 48,
+      "actualWidth": 47.75,
+      "A": 24,
+      "B": 47.75,
+      "shape": "straight"
+     },
+     "price": 295,
+     "edgePrices": {
+      "3mm": 295,
+      "P": 350,
+      "SW": 834
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 42
+     }
+    },
+    {
+     "style": "BFS2454",
+     "desc": "Straight table 24\"D x 54\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 54,
+      "actualWidth": 53.75,
+      "A": 24,
+      "B": 53.75,
+      "shape": "straight"
+     },
+     "price": 319,
+     "edgePrices": {
+      "3mm": 319,
+      "P": 374,
+      "SW": 860
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 44
+     }
+    },
+    {
+     "style": "BFS2460",
+     "desc": "Straight table 24\"D x 60\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 60,
+      "actualWidth": 59.75,
+      "A": 24,
+      "B": 59.75,
+      "shape": "straight"
+     },
+     "price": 340,
+     "edgePrices": {
+      "3mm": 340,
+      "P": 404,
+      "SW": 945
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 47
+     }
+    },
+    {
+     "style": "BFS2466",
+     "desc": "Straight table 24\"D x 66\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 66,
+      "actualWidth": 65.75,
+      "A": 24,
+      "B": 65.75,
+      "shape": "straight"
+     },
+     "price": 376,
+     "edgePrices": {
+      "3mm": 376,
+      "P": 440,
+      "SW": 998
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 48
+     }
+    },
+    {
+     "style": "BFS2472",
+     "desc": "Straight table 24\"D x 72\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 72,
+      "actualWidth": 71.75,
+      "A": 24,
+      "B": 71.75,
+      "shape": "straight"
+     },
+     "price": 423,
+     "edgePrices": {
+      "3mm": 423,
+      "P": 487,
+      "SW": 1060
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 50
+     }
+    },
+    {
+     "style": "BFS2478",
+     "desc": "Straight table 24\"D x 78\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 78,
+      "actualWidth": 77.75,
+      "A": 24,
+      "B": 77.75,
+      "shape": "straight"
+     },
+     "price": 464,
+     "edgePrices": {
+      "3mm": 464,
+      "P": 528,
+      "SW": 1114
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 51
+     }
+    },
+    {
+     "style": "BFS3036",
+     "desc": "Straight table 30\"D x 36\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 36,
+      "actualWidth": 35.75,
+      "A": 30,
+      "B": 35.75,
+      "shape": "straight"
+     },
+     "price": 321,
+     "edgePrices": {
+      "3mm": 321,
+      "P": 367,
+      "SW": 813
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 38
+     }
+    },
+    {
+     "style": "BFS3042",
+     "desc": "Straight table 30\"D x 42\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 42,
+      "actualWidth": 41.75,
+      "A": 30,
+      "B": 41.75,
+      "shape": "straight"
+     },
+     "price": 346,
+     "edgePrices": {
+      "3mm": 346,
+      "P": 392,
+      "SW": 894
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 42
+     }
+    },
+    {
+     "style": "BFS3048",
+     "desc": "Straight table 30\"D x 48\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 48,
+      "actualWidth": 47.75,
+      "A": 30,
+      "B": 47.75,
+      "shape": "straight"
+     },
+     "price": 382,
+     "edgePrices": {
+      "3mm": 382,
+      "P": 437,
+      "SW": 952
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 44
+     }
+    },
+    {
+     "style": "BFS3054",
+     "desc": "Straight table 30\"D x 54\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 54,
+      "actualWidth": 53.75,
+      "A": 30,
+      "B": 53.75,
+      "shape": "straight"
+     },
+     "price": 410,
+     "edgePrices": {
+      "3mm": 410,
+      "P": 465,
+      "SW": 991
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 45
+     }
+    },
+    {
+     "style": "BFS3060",
+     "desc": "Straight table 30\"D x 60\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 60,
+      "actualWidth": 59.75,
+      "A": 30,
+      "B": 59.75,
+      "shape": "straight"
+     },
+     "price": 442,
+     "edgePrices": {
+      "3mm": 442,
+      "P": 497,
+      "SW": 1079
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 48
+     }
+    },
+    {
+     "style": "BFS3066",
+     "desc": "Straight table 30\"D x 66\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 66,
+      "actualWidth": 65.75,
+      "A": 30,
+      "B": 65.75,
+      "shape": "straight"
+     },
+     "price": 475,
+     "edgePrices": {
+      "3mm": 475,
+      "P": 539,
+      "SW": 1133
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 50
+     }
+    },
+    {
+     "style": "BFS3072",
+     "desc": "Straight table 30\"D x 72\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 72,
+      "actualWidth": 71.75,
+      "A": 30,
+      "B": 71.75,
+      "shape": "straight"
+     },
+     "price": 517,
+     "edgePrices": {
+      "3mm": 517,
+      "P": 581,
+      "SW": 1191
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 51
+     }
+    },
+    {
+     "style": "BFS3078",
+     "desc": "Straight table 30\"D x 78\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 78,
+      "actualWidth": 77.75,
+      "A": 30,
+      "B": 77.75,
+      "shape": "straight"
+     },
+     "price": 559,
+     "edgePrices": {
+      "3mm": 559,
+      "P": 623,
+      "SW": 1247
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 53
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "transition-tables",
+   "title": "Transition Tables",
+   "page": [
+    568,
+    569
+   ],
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Reinforcing Channel",
+     "name": "Reinforcing channel",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with reinforcing channel.",
+     "appliesTo": "66\"W and wider tables"
+    }
+   ],
+   "tips": [
+    "Tip: Select the reinforcing channel option if the table will be supported by legs.",
+    "Tip: Legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BZC302460 becomes BZC302460SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Dimensions A and B are the depths at the two ends (per drawing), C = actual width (1/4\" less than nominal). Left-hand tables list A=30/B=24 or A=36/B=30; right-hand tables list A=24/B=30 or A=30/B=36.",
+    "Related products: Legs for Universal Tables (page 582), Worksurface screens (page 586), Worksurface power and communication components (page 555). No bases are listed as related products for transition tables."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BZC302460",
+     "desc": "Transition table, left-hand, 30\"/24\" depths x 60\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "width": 60,
+      "actualWidth": 59.75,
+      "C": 59.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 627,
+     "edgePrices": {
+      "3mm": 627,
+      "P": 738,
+      "SW": 1395
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 51
+     }
+    },
+    {
+     "style": "BZC302466",
+     "desc": "Transition table, left-hand, 30\"/24\" depths x 66\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "width": 66,
+      "actualWidth": 65.75,
+      "C": 65.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 656,
+     "edgePrices": {
+      "3mm": 656,
+      "P": 767,
+      "SW": 1435
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 53
+     }
+    },
+    {
+     "style": "BZC302472",
+     "desc": "Transition table, left-hand, 30\"/24\" depths x 72\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "width": 72,
+      "actualWidth": 71.75,
+      "C": 71.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 682,
+     "edgePrices": {
+      "3mm": 682,
+      "P": 793,
+      "SW": 1470
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 55
+     }
+    },
+    {
+     "style": "BZC302478",
+     "desc": "Transition table, left-hand, 30\"/24\" depths x 78\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "width": 78,
+      "actualWidth": 77.75,
+      "C": 77.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 700,
+     "edgePrices": {
+      "3mm": 700,
+      "P": 820,
+      "SW": 1502
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 57
+     }
+    },
+    {
+     "style": "BZC363060",
+     "desc": "Transition table, left-hand, 36\"/30\" depths x 60\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 36,
+      "B": 30,
+      "width": 60,
+      "actualWidth": 59.75,
+      "C": 59.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 700,
+     "edgePrices": {
+      "3mm": 700,
+      "P": 820,
+      "SW": 1502
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 64
+     }
+    },
+    {
+     "style": "BZC363066",
+     "desc": "Transition table, left-hand, 36\"/30\" depths x 66\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 36,
+      "B": 30,
+      "width": 66,
+      "actualWidth": 65.75,
+      "C": 65.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 727,
+     "edgePrices": {
+      "3mm": 727,
+      "P": 847,
+      "SW": 1538
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 57
+     }
+    },
+    {
+     "style": "BZC363072",
+     "desc": "Transition table, left-hand, 36\"/30\" depths x 72\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 36,
+      "B": 30,
+      "width": 72,
+      "actualWidth": 71.75,
+      "C": 71.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 746,
+     "edgePrices": {
+      "3mm": 746,
+      "P": 877,
+      "SW": 1571
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 58
+     }
+    },
+    {
+     "style": "BZC363078",
+     "desc": "Transition table, left-hand, 36\"/30\" depths x 78\"W",
+     "attrs": {
+      "handed": "left",
+      "A": 36,
+      "B": 30,
+      "width": 78,
+      "actualWidth": 77.75,
+      "C": 77.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 776,
+     "edgePrices": {
+      "3mm": 776,
+      "P": 907,
+      "SW": 1603
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 60
+     }
+    },
+    {
+     "style": "BZC243060",
+     "desc": "Transition table, right-hand, 24\"/30\" depths x 60\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "width": 60,
+      "actualWidth": 59.75,
+      "C": 59.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 627,
+     "edgePrices": {
+      "3mm": 627,
+      "P": 738,
+      "SW": 1395
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 51
+     }
+    },
+    {
+     "style": "BZC243066",
+     "desc": "Transition table, right-hand, 24\"/30\" depths x 66\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "width": 66,
+      "actualWidth": 65.75,
+      "C": 65.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 656,
+     "edgePrices": {
+      "3mm": 656,
+      "P": 767,
+      "SW": 1435
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 53
+     }
+    },
+    {
+     "style": "BZC243072",
+     "desc": "Transition table, right-hand, 24\"/30\" depths x 72\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "width": 72,
+      "actualWidth": 71.75,
+      "C": 71.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 682,
+     "edgePrices": {
+      "3mm": 682,
+      "P": 793,
+      "SW": 1470
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 55
+     }
+    },
+    {
+     "style": "BZC243078",
+     "desc": "Transition table, right-hand, 24\"/30\" depths x 78\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "width": 78,
+      "actualWidth": 77.75,
+      "C": 77.75,
+      "depthLarge": 30,
+      "depthSmall": 24,
+      "shape": "transition"
+     },
+     "price": 700,
+     "edgePrices": {
+      "3mm": 700,
+      "P": 820,
+      "SW": 1502
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 57
+     }
+    },
+    {
+     "style": "BZC303660",
+     "desc": "Transition table, right-hand, 30\"/36\" depths x 60\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 30,
+      "B": 36,
+      "width": 60,
+      "actualWidth": 59.75,
+      "C": 59.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 700,
+     "edgePrices": {
+      "3mm": 700,
+      "P": 820,
+      "SW": 1502
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 64
+     }
+    },
+    {
+     "style": "BZC303666",
+     "desc": "Transition table, right-hand, 30\"/36\" depths x 66\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 30,
+      "B": 36,
+      "width": 66,
+      "actualWidth": 65.75,
+      "C": 65.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 727,
+     "edgePrices": {
+      "3mm": 727,
+      "P": 847,
+      "SW": 1538
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 57
+     }
+    },
+    {
+     "style": "BZC303672",
+     "desc": "Transition table, right-hand, 30\"/36\" depths x 72\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 30,
+      "B": 36,
+      "width": 72,
+      "actualWidth": 71.75,
+      "C": 71.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 746,
+     "edgePrices": {
+      "3mm": 746,
+      "P": 877,
+      "SW": 1571
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 58
+     }
+    },
+    {
+     "style": "BZC303678",
+     "desc": "Transition table, right-hand, 30\"/36\" depths x 78\"W",
+     "attrs": {
+      "handed": "right",
+      "A": 30,
+      "B": 36,
+      "width": 78,
+      "actualWidth": 77.75,
+      "C": 77.75,
+      "depthLarge": 36,
+      "depthSmall": 30,
+      "shape": "transition"
+     },
+     "price": 776,
+     "edgePrices": {
+      "3mm": 776,
+      "P": 907,
+      "SW": 1603
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 60
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "corner-120-tables",
+   "title": "Corner, 120° Tables",
+   "page": 570,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Tables: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFB223636 becomes BFB223636SW for wood square edge profile.)",
+    "Tip: Screens can be used on corner, 120° tables. • 24\"W screens can be used on tables with dimensions C and D each equal to 43\". • 24\"W and 30\"W screens can be used on tables with dimensions C and D each equal to 49\".",
+    "Tip: Corner, 120° tables with dimensions C and D each equal to 37\" cannot accommodate screens."
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "A and B = wing depths; C and D = side lengths; E = overall width (per drawing).",
+    "No reinforcing channel option is listed for corner, 120° tables.",
+    "Related products: Legs for Universal Tables (page 582), Worksurface screens (page 586), Worksurface power and communication components (page 555)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFB223636",
+     "desc": "Corner 120° table, 24\"D wings, C/D 37\", overall 62\"",
+     "attrs": {
+      "A": 24,
+      "B": 24,
+      "C": 37,
+      "D": 37,
+      "E": 62,
+      "depth": 24,
+      "screenCompatible": "none",
+      "shape": "corner-120"
+     },
+     "price": 812,
+     "edgePrices": {
+      "3mm": 812,
+      "P": 900,
+      "SW": 1521
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 75
+     }
+    },
+    {
+     "style": "BFB224242",
+     "desc": "Corner 120° table, 24\"D wings, C/D 43\", overall 73\"",
+     "attrs": {
+      "A": 24,
+      "B": 24,
+      "C": 43,
+      "D": 43,
+      "E": 73,
+      "depth": 24,
+      "screenCompatible": "24\"W screens",
+      "shape": "corner-120"
+     },
+     "price": 846,
+     "edgePrices": {
+      "3mm": 846,
+      "P": 934,
+      "SW": 1569
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 78
+     }
+    },
+    {
+     "style": "BFB224848",
+     "desc": "Corner 120° table, 24\"D wings, C/D 49\", overall 83\"",
+     "attrs": {
+      "A": 24,
+      "B": 24,
+      "C": 49,
+      "D": 49,
+      "E": 83,
+      "depth": 24,
+      "screenCompatible": "24\"W and 30\"W screens",
+      "shape": "corner-120"
+     },
+     "price": 875,
+     "edgePrices": {
+      "3mm": 875,
+      "P": 963,
+      "SW": 1610
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 79
+     }
+    },
+    {
+     "style": "BFB334242",
+     "desc": "Corner 120° table, 30\"D wings, C/D 43\", overall 73\"",
+     "attrs": {
+      "A": 30,
+      "B": 30,
+      "C": 43,
+      "D": 43,
+      "E": 73,
+      "depth": 30,
+      "screenCompatible": "24\"W screens",
+      "shape": "corner-120"
+     },
+     "price": 875,
+     "edgePrices": {
+      "3mm": 875,
+      "P": 963,
+      "SW": 1610
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 79
+     }
+    },
+    {
+     "style": "BFB334848",
+     "desc": "Corner 120° table, 30\"D wings, C/D 49\", overall 83\"",
+     "attrs": {
+      "A": 30,
+      "B": 30,
+      "C": 49,
+      "D": 49,
+      "E": 83,
+      "depth": 30,
+      "screenCompatible": "24\"W and 30\"W screens",
+      "shape": "corner-120"
+     },
+     "price": 909,
+     "edgePrices": {
+      "3mm": 909,
+      "P": 997,
+      "SW": 1654
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 81
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "capsule-tables",
+   "title": "Capsule Tables",
+   "page": 571,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Tables: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Reinforcing Channel",
+     "name": "Reinforcing channel",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with reinforcing channel.",
+     "appliesTo": "66\"W and wider tables"
+    }
+   ],
+   "tips": [
+    "Tip: Select the reinforcing channel option if the table will be supported by legs. Channels are not required if the table will be supported by T- or X-bases.",
+    "Tip: Bases and legs to support Universal Tables must be specified separately.",
+    "Tip: For base and leg support guidelines, see Table and Base Combinations, page 243, Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFK3672 becomes BFK3672SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Wood (SW) and full-fill finish are N.A. on BFK2448 and BFK3060 (wood veneer capsule tables available in 72\"W, 84\"W, and 96\"W only, page 229).",
+    "Related products: Bases (581), Legs (582), Worksurface screens (586), Worksurface power and communication components (555)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFK2448",
+     "desc": "Capsule table 24\"D x 48\"W",
+     "attrs": {
+      "depth": 24,
+      "width": 48,
+      "A": 24,
+      "B": 48,
+      "shape": "capsule"
+     },
+     "price": 505,
+     "edgePrices": {
+      "3mm": 505,
+      "P": 593,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFK3060",
+     "desc": "Capsule table 30\"D x 60\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 60,
+      "A": 30,
+      "B": 60,
+      "shape": "capsule"
+     },
+     "price": 568,
+     "edgePrices": {
+      "3mm": 568,
+      "P": 679,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFK3672",
+     "desc": "Capsule table 36\"D x 72\"W",
+     "attrs": {
+      "depth": 36,
+      "width": 72,
+      "A": 36,
+      "B": 72,
+      "shape": "capsule"
+     },
+     "price": 681,
+     "edgePrices": {
+      "3mm": 681,
+      "P": 844,
+      "SW": 1876
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 87
+     }
+    },
+    {
+     "style": "BFK4284",
+     "desc": "Capsule table 42\"D x 84\"W",
+     "attrs": {
+      "depth": 42,
+      "width": 84,
+      "A": 42,
+      "B": 84,
+      "shape": "capsule"
+     },
+     "price": 1027,
+     "edgePrices": {
+      "3mm": 1027,
+      "P": 1199,
+      "SW": 2079
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 92
+     }
+    },
+    {
+     "style": "BFK4896",
+     "desc": "Capsule table 48\"D x 96\"W",
+     "attrs": {
+      "depth": 48,
+      "width": 96,
+      "A": 48,
+      "B": 96,
+      "shape": "capsule"
+     },
+     "price": 1217,
+     "edgePrices": {
+      "3mm": 1217,
+      "P": 1389,
+      "SW": 2284
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 95
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "spanner-tables",
+   "title": "Spanner Tables",
+   "page": 572,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFSP48 becomes BFSP48SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Related products: Legs (582), Worksurface screens (586), Worksurface power and communication components (555)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFSP48",
+     "desc": "Spanner table 30\"D x 48\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 48,
+      "A": 30,
+      "B": 48,
+      "shape": "spanner"
+     },
+     "price": 446,
+     "edgePrices": {
+      "3mm": 446,
+      "P": 534,
+      "SW": 1070
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 58
+     }
+    },
+    {
+     "style": "BFSP52",
+     "desc": "Spanner table 30\"D x 52\"W",
+     "attrs": {
+      "depth": 30,
+      "width": 52,
+      "A": 30,
+      "B": 52,
+      "shape": "spanner"
+     },
+     "price": 472,
+     "edgePrices": {
+      "3mm": 472,
+      "P": 560,
+      "SW": 1070
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 60
+     }
+    },
+    {
+     "style": "BFSP60",
+     "desc": "Spanner table 36\"D x 60\"W",
+     "attrs": {
+      "depth": 36,
+      "width": 60,
+      "A": 36,
+      "B": 60,
+      "shape": "spanner"
+     },
+     "price": 497,
+     "edgePrices": {
+      "3mm": 497,
+      "P": 585,
+      "SW": 1325
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 61
+     }
+    },
+    {
+     "style": "BFSP64",
+     "desc": "Spanner table 36\"D x 64\"W",
+     "attrs": {
+      "depth": 36,
+      "width": 64,
+      "A": 36,
+      "B": 64,
+      "shape": "spanner"
+     },
+     "price": 522,
+     "edgePrices": {
+      "3mm": 522,
+      "P": 610,
+      "SW": 1326
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 62
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "peninsula-table",
+   "title": "Peninsula Table",
+   "page": 573,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Tables: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFP2736 becomes BFP2736SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Related products: Legs (582), Worksurface screens (586)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFP2736",
+     "desc": "Peninsula table 27\" x 36\"",
+     "attrs": {
+      "A": 27,
+      "B": 36,
+      "shape": "peninsula"
+     },
+     "price": 434,
+     "edgePrices": {
+      "3mm": 434,
+      "P": 498,
+      "SW": 998
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 56
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "tapered-peninsula-tables",
+   "title": "Tapered Peninsula Tables",
+   "page": 574,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFTP48 becomes BFTP48SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "A = narrow (square-end) depth, B = bulb depth, C = overall length, per drawing/statement of line (page 230)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFTP48",
+     "desc": "Tapered peninsula table 27\"/32\" x 48\"",
+     "attrs": {
+      "A": 27,
+      "B": 32,
+      "C": 48,
+      "width": 48,
+      "shape": "tapered-peninsula"
+     },
+     "price": 607,
+     "edgePrices": {
+      "3mm": 607,
+      "P": 718,
+      "SW": 1349
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 51
+     }
+    },
+    {
+     "style": "BFTP60",
+     "desc": "Tapered peninsula table 33\"/40\" x 60\"",
+     "attrs": {
+      "A": 33,
+      "B": 40,
+      "C": 60,
+      "width": 60,
+      "shape": "tapered-peninsula"
+     },
+     "price": 619,
+     "edgePrices": {
+      "3mm": 619,
+      "P": 730,
+      "SW": 1401
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 55
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "bubble-jetty-tables",
+   "title": "Bubble Jetty Tables",
+   "page": 575,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFJ2472L becomes BFJ2472LSW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Table headings on page: 'Left-Hand Worksurfaces' and 'Right-Hand Worksurfaces'.",
+    "Bubble dimension: 54\" (72\"W units) / 60\" (78\"W units) per statement of line page 231."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFJ2472L",
+     "desc": "Bubble jetty table, left-hand, 24\"D x 72\"W",
+     "attrs": {
+      "handed": "left",
+      "depth": 24,
+      "width": 72,
+      "A": 24,
+      "B": 72,
+      "shape": "bubble-jetty"
+     },
+     "price": 913,
+     "edgePrices": {
+      "3mm": 913,
+      "P": 1076,
+      "SW": 1900
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 77
+     }
+    },
+    {
+     "style": "BFJ2478L",
+     "desc": "Bubble jetty table, left-hand, 24\"D x 78\"W",
+     "attrs": {
+      "handed": "left",
+      "depth": 24,
+      "width": 78,
+      "A": 24,
+      "B": 78,
+      "shape": "bubble-jetty"
+     },
+     "price": 943,
+     "edgePrices": {
+      "3mm": 943,
+      "P": 1106,
+      "SW": 2030
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 81
+     }
+    },
+    {
+     "style": "BFJ3072L",
+     "desc": "Bubble jetty table, left-hand, 30\"D x 72\"W",
+     "attrs": {
+      "handed": "left",
+      "depth": 30,
+      "width": 72,
+      "A": 30,
+      "B": 72,
+      "shape": "bubble-jetty"
+     },
+     "price": 943,
+     "edgePrices": {
+      "3mm": 943,
+      "P": 1106,
+      "SW": 1941
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 81
+     }
+    },
+    {
+     "style": "BFJ3078L",
+     "desc": "Bubble jetty table, left-hand, 30\"D x 78\"W",
+     "attrs": {
+      "handed": "left",
+      "depth": 30,
+      "width": 78,
+      "A": 30,
+      "B": 78,
+      "shape": "bubble-jetty"
+     },
+     "price": 975,
+     "edgePrices": {
+      "3mm": 975,
+      "P": 1138,
+      "SW": 2077
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 86
+     }
+    },
+    {
+     "style": "BFJ2472R",
+     "desc": "Bubble jetty table, right-hand, 24\"D x 72\"W",
+     "attrs": {
+      "handed": "right",
+      "depth": 24,
+      "width": 72,
+      "A": 24,
+      "B": 72,
+      "shape": "bubble-jetty"
+     },
+     "price": 913,
+     "edgePrices": {
+      "3mm": 913,
+      "P": 1076,
+      "SW": 1900
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 77
+     }
+    },
+    {
+     "style": "BFJ2478R",
+     "desc": "Bubble jetty table, right-hand, 24\"D x 78\"W",
+     "attrs": {
+      "handed": "right",
+      "depth": 24,
+      "width": 78,
+      "A": 24,
+      "B": 78,
+      "shape": "bubble-jetty"
+     },
+     "price": 943,
+     "edgePrices": {
+      "3mm": 943,
+      "P": 1106,
+      "SW": 2030
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 81
+     }
+    },
+    {
+     "style": "BFJ3072R",
+     "desc": "Bubble jetty table, right-hand, 30\"D x 72\"W",
+     "attrs": {
+      "handed": "right",
+      "depth": 30,
+      "width": 72,
+      "A": 30,
+      "B": 72,
+      "shape": "bubble-jetty"
+     },
+     "price": 943,
+     "edgePrices": {
+      "3mm": 943,
+      "P": 1106,
+      "SW": 1941
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 81
+     }
+    },
+    {
+     "style": "BFJ3078R",
+     "desc": "Bubble jetty table, right-hand, 30\"D x 78\"W",
+     "attrs": {
+      "handed": "right",
+      "depth": 30,
+      "width": 78,
+      "A": 30,
+      "B": 78,
+      "shape": "bubble-jetty"
+     },
+     "price": 975,
+     "edgePrices": {
+      "3mm": 975,
+      "P": 1138,
+      "SW": 2077
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 86
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "round-tables",
+   "title": "Round Tables",
+   "page": 576,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, K Laminate with knife edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Bases and legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Base Combinations, page 243, Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFR36 becomes BFR36SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Round tables are the only Universal Tables offered with the K (knife edge) suffix. BFR30: P-edge, wood and full-fill are N.A.",
+    "Related products: Bases (581), Legs (582)."
+   ],
+   "columns": [
+    "Diameter",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Plastic Knife Edge (Suffix K)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFR30",
+     "desc": "Round table 30\" diameter",
+     "attrs": {
+      "diameter": 30,
+      "shape": "round"
+     },
+     "price": 395,
+     "edgePrices": {
+      "3mm": 395,
+      "P": null,
+      "K": 562,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFR36",
+     "desc": "Round table 36\" diameter",
+     "attrs": {
+      "diameter": 36,
+      "shape": "round"
+     },
+     "price": 420,
+     "edgePrices": {
+      "3mm": 420,
+      "P": 508,
+      "K": 587,
+      "SW": 1340
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 42
+     }
+    },
+    {
+     "style": "BFR42",
+     "desc": "Round table 42\" diameter",
+     "attrs": {
+      "diameter": 42,
+      "shape": "round"
+     },
+     "price": 466,
+     "edgePrices": {
+      "3mm": 466,
+      "P": 554,
+      "K": 633,
+      "SW": 1409
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 45
+     }
+    },
+    {
+     "style": "BFR48",
+     "desc": "Round table 48\" diameter",
+     "attrs": {
+      "diameter": 48,
+      "shape": "round"
+     },
+     "price": 511,
+     "edgePrices": {
+      "3mm": 511,
+      "P": 609,
+      "K": 678,
+      "SW": 1570
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 50
+     }
+    },
+    {
+     "style": "BFR54",
+     "desc": "Round table 54\" diameter",
+     "attrs": {
+      "diameter": 54,
+      "shape": "round"
+     },
+     "price": 614,
+     "edgePrices": {
+      "3mm": 614,
+      "P": 725,
+      "K": 781,
+      "SW": 1732
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 53
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>K",
+     "meaning": "High-Pressure Laminate with plastic knife edge profile (price = Knife Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "square-tables",
+   "title": "Square Tables",
+   "page": 577,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Bases and legs to support Universal Tables must be specified separately.",
+    "Tip: For base and leg support guidelines, see Table and Base Combinations, page 243, Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFRQ30 becomes BFRQ30SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "Wood veneer square tables are available in 30\"W, 42\"W, 48\"W, and 54\"W only (page 231)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFRQ24",
+     "desc": "Square table 24\" x 24\"",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "A": 24,
+      "B": 24,
+      "shape": "square"
+     },
+     "price": 205,
+     "edgePrices": {
+      "3mm": 205,
+      "P": 251,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFRQ30",
+     "desc": "Square table 30\" x 30\"",
+     "attrs": {
+      "depth": 30,
+      "width": 30,
+      "A": 30,
+      "B": 30,
+      "shape": "square"
+     },
+     "price": 301,
+     "edgePrices": {
+      "3mm": 301,
+      "P": 347,
+      "SW": 806
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 36
+     }
+    },
+    {
+     "style": "BFRQ36",
+     "desc": "Square table 36\" x 36\"",
+     "attrs": {
+      "depth": 36,
+      "width": 36,
+      "A": 36,
+      "B": 36,
+      "shape": "square"
+     },
+     "price": 424,
+     "edgePrices": {
+      "3mm": 424,
+      "P": 499,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFRQ42",
+     "desc": "Square table 42\" x 42\"",
+     "attrs": {
+      "depth": 42,
+      "width": 42,
+      "A": 42,
+      "B": 42,
+      "shape": "square"
+     },
+     "price": 470,
+     "edgePrices": {
+      "3mm": 470,
+      "P": 545,
+      "SW": 1098
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 45
+     }
+    },
+    {
+     "style": "BFRQ48",
+     "desc": "Square table 48\" x 48\"",
+     "attrs": {
+      "depth": 48,
+      "width": 48,
+      "A": 48,
+      "B": 48,
+      "shape": "square"
+     },
+     "price": 516,
+     "edgePrices": {
+      "3mm": 516,
+      "P": 614,
+      "SW": 1217
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 50
+     }
+    },
+    {
+     "style": "BFRQ54",
+     "desc": "Square table 54\" x 54\"",
+     "attrs": {
+      "depth": 54,
+      "width": 54,
+      "A": 54,
+      "B": 54,
+      "shape": "square"
+     },
+     "price": 619,
+     "edgePrices": {
+      "3mm": 619,
+      "P": 717,
+      "SW": 1359
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 53
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "rectangle-tables",
+   "title": "Rectangle Tables",
+   "page": 578,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Table: High-Pressure Laminate or wood veneer",
+    "Laminate table: plastic 3 mm edge profile or P-edge profile on all sides",
+    "Wood table: wood square 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix: P Laminate with plastic P-edge, SW Wood with square edge",
+    "2 High-Pressure Laminate or wood color number for table",
+    "3 Plastic color number for edge on laminate table, if selected",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer tables)",
+     "price": null,
+     "priceText": "See information at left (refer to the electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer tables)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish on tables (wood veneer tables)",
+     "price": null,
+     "priceText": "Prices per row (Option column 'Full-Fill Finish')",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Reinforcing Channel",
+     "name": "Reinforcing channel",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with reinforcing channel.",
+     "appliesTo": "66\"W and wider tables"
+    }
+   ],
+   "tips": [
+    "Tip: Select the reinforcing channel option if the table will be supported by legs. Channels are not required if the table will be supported by T- or X-bases.",
+    "Tip: Bases and legs to support Universal Tables must be specified separately.",
+    "Tip: For base and leg support guidelines, see Table and Base Combinations, page 243, Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For other edge profiles, add suffix to the style number. (For example, BFRR3672 becomes BFRR3672SW for wood square edge profile.)"
+   ],
+   "notes": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Row 'price' = U.S. base price for the plastic 3 mm edge (no-suffix) style. 'edgePrices' gives the full U.S. base price (not an add) for each edge variant keyed by suffix: 3mm = no suffix, P = P-edge, K = knife edge, SW = wood square edge; null = N.A. (variant not offered). optionPrices['Full-Fill Finish'] is an add to the wood (SW) price; null = N.A.",
+    "BFRR3660 and BFRR3666 are 3 mm edge only (P-edge, wood, full-fill N.A.)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "BFRR3660",
+     "desc": "Rectangle table 36\"D x 60\"W",
+     "attrs": {
+      "depth": 36,
+      "width": 60,
+      "A": 36,
+      "B": 60,
+      "shape": "rectangle"
+     },
+     "price": 603,
+     "edgePrices": {
+      "3mm": 603,
+      "P": null,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFRR3666",
+     "desc": "Rectangle table 36\"D x 66\"W",
+     "attrs": {
+      "depth": 36,
+      "width": 66,
+      "A": 36,
+      "B": 66,
+      "shape": "rectangle"
+     },
+     "price": 639,
+     "edgePrices": {
+      "3mm": 639,
+      "P": null,
+      "SW": null
+     },
+     "optionPrices": {
+      "Full-Fill Finish": null
+     }
+    },
+    {
+     "style": "BFRR3672",
+     "desc": "Rectangle table 36\"D x 72\"W",
+     "attrs": {
+      "depth": 36,
+      "width": 72,
+      "A": 36,
+      "B": 72,
+      "shape": "rectangle"
+     },
+     "price": 681,
+     "edgePrices": {
+      "3mm": 681,
+      "P": 853,
+      "SW": 1938
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 89
+     }
+    },
+    {
+     "style": "BFRR4284",
+     "desc": "Rectangle table 42\"D x 84\"W",
+     "attrs": {
+      "depth": 42,
+      "width": 84,
+      "A": 42,
+      "B": 84,
+      "shape": "rectangle"
+     },
+     "price": 1027,
+     "edgePrices": {
+      "3mm": 1027,
+      "P": 1199,
+      "SW": 2088
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 92
+     }
+    },
+    {
+     "style": "BFRR4896",
+     "desc": "Rectangle table 48\"D x 96\"W",
+     "attrs": {
+      "depth": 48,
+      "width": 96,
+      "A": 48,
+      "B": 96,
+      "shape": "rectangle"
+     },
+     "price": 1217,
+     "edgePrices": {
+      "3mm": 1217,
+      "P": 1389,
+      "SW": 2144
+     },
+     "optionPrices": {
+      "Full-Fill Finish": 95
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile (price = P-Edge column)"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with wood square (3 mm) edge profile (price = Wood Square Edge column)"
+    }
+   ]
+  },
+  {
+   "id": "oval-tables",
+   "title": "Oval Tables",
+   "page": 579,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Tables: High-Pressure Laminate",
+    "Laminate table: plastic 3 mm edge profile on all sides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 High-Pressure Laminate color number for table",
+    "3 Plastic color number for edge on laminate table",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    }
+   ],
+   "tips": [
+    "Tip: Bases and legs to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Base Combinations, page 243, Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Oval tables are available in 3 mm edge High-Pressure Laminate only (page 232). No P, K or SW variants."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)"
+   ],
+   "items": [
+    {
+     "style": "BEL2142",
+     "desc": "Oval table 21\"D x 42\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 21,
+      "width": 42,
+      "A": 21,
+      "B": 42,
+      "shape": "oval"
+     },
+     "price": 453,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL3042",
+     "desc": "Oval table 30\"D x 42\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 30,
+      "width": 42,
+      "A": 30,
+      "B": 42,
+      "shape": "oval"
+     },
+     "price": 494,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL3648",
+     "desc": "Oval table 36\"D x 48\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 36,
+      "width": 48,
+      "A": 36,
+      "B": 48,
+      "shape": "oval"
+     },
+     "price": 542,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL3060",
+     "desc": "Oval table 30\"D x 60\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 30,
+      "width": 60,
+      "A": 30,
+      "B": 60,
+      "shape": "oval"
+     },
+     "price": 664,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL3672",
+     "desc": "Oval table 36\"D x 72\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 36,
+      "width": 72,
+      "A": 36,
+      "B": 72,
+      "shape": "oval"
+     },
+     "price": 681,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL4278",
+     "desc": "Oval table 42\"D x 78\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 42,
+      "width": 78,
+      "A": 42,
+      "B": 78,
+      "shape": "oval"
+     },
+     "price": 1015,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL4896",
+     "desc": "Oval table 48\"D x 96\"W, HPL 3 mm edge",
+     "attrs": {
+      "depth": 48,
+      "width": 96,
+      "A": 48,
+      "B": 96,
+      "shape": "oval"
+     },
+     "price": 1217,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "hex-conference-tables",
+   "title": "Hex Conference Tables",
+   "page": 580,
+   "understandingPage": 234,
+   "trim": null,
+   "category": "table",
+   "standardIncludes": [
+    "Tables: High-Pressure Laminate",
+    "Laminate table: plastic 3 mm edge profile on all sides",
+    "Reinforcing channels, for tables 120\"W or wider",
+    "Tight-joint fasteners for tables 150\"W or wider"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 High-Pressure Laminate color number for table",
+    "3 Plastic color number for edge on laminate table",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate tables)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    }
+   ],
+   "tips": [
+    "Tip: Hex conference tables 150\"W or larger are shipped in two pieces. Tight-joint fasteners are supplied for proper assembly.",
+    "Tip: Bases to support Universal Tables must be specified separately.",
+    "Tip: For leg and support guidelines, see Table and Leg Combinations, page 244.",
+    "Tip: To specify 3 mm edge profile, no suffix is required."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Hex conference tables are available in 3 mm edge High-Pressure Laminate only (page 232). Supported by T-bases only (page 244). Related products: Bases for Universal Tables (page 581) only.",
+    "A = end depth, B = center depth, C = width (per drawing)."
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)"
+   ],
+   "items": [
+    {
+     "style": "BHEX3660",
+     "desc": "Hex conference table 30\"/36\"D x 60\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 30,
+      "B": 36,
+      "C": 60,
+      "endDepth": 30,
+      "centerDepth": 36,
+      "width": 60,
+      "shape": "hex"
+     },
+     "price": 603,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHEX3666",
+     "desc": "Hex conference table 30\"/36\"D x 66\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 30,
+      "B": 36,
+      "C": 66,
+      "endDepth": 30,
+      "centerDepth": 36,
+      "width": 66,
+      "shape": "hex"
+     },
+     "price": 639,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHEX3672",
+     "desc": "Hex conference table 30\"/36\"D x 72\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 30,
+      "B": 36,
+      "C": 72,
+      "endDepth": 30,
+      "centerDepth": 36,
+      "width": 72,
+      "shape": "hex"
+     },
+     "price": 681,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHEX4296",
+     "desc": "Hex conference table 36\"/42\"D x 96\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 36,
+      "B": 42,
+      "C": 96,
+      "endDepth": 36,
+      "centerDepth": 42,
+      "width": 96,
+      "shape": "hex"
+     },
+     "price": 1163,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHEX48120",
+     "desc": "Hex conference table 38\"/48\"D x 120\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 38,
+      "B": 48,
+      "C": 120,
+      "endDepth": 38,
+      "centerDepth": 48,
+      "width": 120,
+      "shape": "hex",
+      "reinforcingChannelsIncluded": true
+     },
+     "price": 2812,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHEX48150",
+     "desc": "Hex conference table 38\"/48\"D x 150\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 38,
+      "B": 48,
+      "C": 150,
+      "endDepth": 38,
+      "centerDepth": 48,
+      "width": 150,
+      "shape": "hex",
+      "reinforcingChannelsIncluded": true,
+      "shipsInTwoPieces": true,
+      "tightJointFastenersIncluded": true
+     },
+     "price": 4107,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHEX48180",
+     "desc": "Hex conference table 38\"/48\"D x 180\"W, HPL 3 mm edge",
+     "attrs": {
+      "A": 38,
+      "B": 48,
+      "C": 180,
+      "endDepth": 38,
+      "centerDepth": 48,
+      "width": 180,
+      "shape": "hex",
+      "reinforcingChannelsIncluded": true,
+      "shipsInTwoPieces": true,
+      "tightJointFastenersIncluded": true
+     },
+     "price": 4270,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "table-bases",
+   "title": "Bases for Universal Tables",
+   "page": 581,
+   "understandingPage": 237,
+   "trim": null,
+   "category": "table-base",
+   "standardIncludes": [
+    "Column: paint",
+    "Base: paint",
+    "Adjustable leveling glides: black plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for column",
+    "3 Paint color number for base",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials (Base)",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number"
+    },
+    {
+     "group": "Surface Materials (Base)",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$ 19",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Base)",
+     "name": "Paint price group 3",
+     "price": 32,
+     "priceText": "+$ 32",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Base)",
+     "name": "Polished Chrome column and base",
+     "price": 153,
+     "priceText": "+$153",
+     "spec": "Specify with 9201 Polished Chrome column and base."
+    },
+    {
+     "group": "Surface Materials (Base)",
+     "name": "Polished Chrome base with painted column",
+     "price": 153,
+     "priceText": "+$153",
+     "spec": "Specify with 9201 Polished Chrome base only and select paint color number for column."
+    }
+   ],
+   "tips": [
+    "Tip: When specifying a 9201 Polished Chrome base only, specify a paint color number for the column."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Bases are 27 9/16\"H (page 237/233). Shipped knocked down (K.D.) and require assembly.",
+    "Column support includes a cylindrical steel column and a base with feet."
+   ],
+   "columns": [
+    "Width",
+    "Column Diameter",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BT26",
+     "desc": "T-base, 26\"W",
+     "attrs": {
+      "type": "T",
+      "width": 26,
+      "columnDiameter": 2.25,
+      "actualHeight": 27.5625
+     },
+     "price": 285,
+     "optionPrices": {}
+    },
+    {
+     "style": "BT36",
+     "desc": "T-base, 36\"W",
+     "attrs": {
+      "type": "T",
+      "width": 36,
+      "columnDiameter": 2.25,
+      "actualHeight": 27.5625
+     },
+     "price": 351,
+     "optionPrices": {}
+    },
+    {
+     "style": "BX26",
+     "desc": "X-base, 26\"W",
+     "attrs": {
+      "type": "X",
+      "width": 26,
+      "columnDiameter": 2.25,
+      "actualHeight": 27.5625
+     },
+     "price": 320,
+     "optionPrices": {}
+    },
+    {
+     "style": "BX36",
+     "desc": "X-base, 36\"W",
+     "attrs": {
+      "type": "X",
+      "width": 36,
+      "columnDiameter": 2.25,
+      "actualHeight": 27.5625
+     },
+     "price": 413,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "cabby-legs",
+   "title": "Legs for Universal Tables — Cabby Legs With Alignment Tab",
+   "page": 582,
+   "understandingPage": 238,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Table legs: paint or metal",
+    "Glides, if selected: paint to match legs",
+    "Locking casters, if selected: paint to match legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for leg and caster",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color number.",
+     "appliesTo": "per leg"
+    }
+   ],
+   "tips": [
+    "Tip: See Table and Leg Combinations page for number of legs required per table. Page 244",
+    "Tip: Dimensions listed are nominal and include the thickness of a table.",
+    "Tip: Corner tables require a leg in the back corner. Be sure to order fifth leg if specifying a package of four."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Style pattern: BN prefix = 26\"H (nesting); B prefix = 28 1/2\"H; C suffix = caster; 4 = package of four; 4M = package of four with two glides and two casters.",
+    "Cabby leg colors (page 239): 4743 Mineral Metallic, 4750 Champagne Metallic, 4798 Sterling Metallic, 4799 Platinum Metallic, 7207 Black, 7225 Sand, 7239 Midnight."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BNCAB",
+     "desc": "Cabby leg with glide, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "glide",
+      "quantity": 1
+     },
+     "price": 169,
+     "optionPrices": {}
+    },
+    {
+     "style": "BCAB",
+     "desc": "Cabby leg with glide, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "glide",
+      "quantity": 1
+     },
+     "price": 169,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNCABC",
+     "desc": "Cabby leg with caster, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "locking caster",
+      "quantity": 1
+     },
+     "price": 192,
+     "optionPrices": {}
+    },
+    {
+     "style": "BCABC",
+     "desc": "Cabby leg with caster, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "locking caster",
+      "quantity": 1
+     },
+     "price": 192,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNCAB4",
+     "desc": "Package of four cabby legs with glides, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "glide",
+      "quantity": 4
+     },
+     "price": 676,
+     "optionPrices": {}
+    },
+    {
+     "style": "BCAB4",
+     "desc": "Package of four cabby legs with glides, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "glide",
+      "quantity": 4
+     },
+     "price": 676,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNCAB4C",
+     "desc": "Package of four cabby legs with casters, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "locking caster",
+      "quantity": 4
+     },
+     "price": 768,
+     "optionPrices": {}
+    },
+    {
+     "style": "BCAB4C",
+     "desc": "Package of four cabby legs with casters, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "locking caster",
+      "quantity": 4
+     },
+     "price": 768,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNCAB4M",
+     "desc": "Package of four cabby legs with two glides and two casters, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "2 glides + 2 locking casters",
+      "quantity": 4
+     },
+     "price": 722,
+     "optionPrices": {}
+    },
+    {
+     "style": "BCAB4M",
+     "desc": "Package of four cabby legs with two glides and two casters, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "2 glides + 2 locking casters",
+      "quantity": 4
+     },
+     "price": 722,
+     "optionPrices": {}
+    }
+   ],
+   "allowedFinishes": [
+    "4743 Mineral Metallic",
+    "4750 Champagne Metallic",
+    "4798 Sterling Metallic",
+    "4799 Platinum Metallic",
+    "7207 Black",
+    "7225 Sand",
+    "7239 Midnight"
+   ]
+  },
+  {
+   "id": "adjustable-height-legs",
+   "title": "Legs for Universal Tables — Adjustable-Height Legs",
+   "page": 583,
+   "understandingPage": 238,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Table legs: paint",
+    "Glides, if selected: paint to match legs",
+    "Locking casters, if selected: paint to match legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for leg",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color number.",
+     "appliesTo": "per leg"
+    }
+   ],
+   "tips": [
+    "Tip: Corner tables require a leg in the back corner. Be sure to order fifth leg if specifying a package of four.",
+    "Tip: See Table and Leg Combinations page for number of legs required per table. Page 244",
+    "Tip: Dimensions listed are nominal and include the thickness of a table."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Adjustable-height legs adjust 25 1/2\"H to 31 1/2\"H in 3/4\" increments (page 238).",
+    "Adjustable-height leg colors (page 239): 4750 Champagne Metallic, 4798 Sterling Metallic, 4799 Platinum Metallic, 7207 Black, 7225 Sand, 7239 Midnight."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BADJ",
+     "desc": "Adjustable-height leg with glide, 25 1/2\"-31 1/2\"H",
+     "attrs": {
+      "planningHeight": "25.5-31.5",
+      "mount": "glide",
+      "quantity": 1,
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "increment": 0.75
+     },
+     "price": 205,
+     "optionPrices": {}
+    },
+    {
+     "style": "BADJC",
+     "desc": "Adjustable-height leg with caster, 25 1/2\"-31 1/2\"H",
+     "attrs": {
+      "planningHeight": "25.5-31.5",
+      "mount": "locking caster",
+      "quantity": 1,
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "increment": 0.75
+     },
+     "price": 228,
+     "optionPrices": {}
+    },
+    {
+     "style": "BADJ4",
+     "desc": "Package of four adjustable-height legs with glides",
+     "attrs": {
+      "planningHeight": "25.5-31.5",
+      "mount": "glide",
+      "quantity": 4,
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "increment": 0.75
+     },
+     "price": 820,
+     "optionPrices": {}
+    },
+    {
+     "style": "BADJ4C",
+     "desc": "Package of four adjustable-height legs with casters",
+     "attrs": {
+      "planningHeight": "25.5-31.5",
+      "mount": "locking caster",
+      "quantity": 4,
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "increment": 0.75
+     },
+     "price": 912,
+     "optionPrices": {}
+    },
+    {
+     "style": "BADJ4M",
+     "desc": "Package of four adjustable-height legs with two glides and two casters",
+     "attrs": {
+      "planningHeight": "25.5-31.5",
+      "mount": "2 glides + 2 locking casters",
+      "quantity": 4,
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "increment": 0.75
+     },
+     "price": 866,
+     "optionPrices": {}
+    }
+   ],
+   "allowedFinishes": [
+    "4750 Champagne Metallic",
+    "4798 Sterling Metallic",
+    "4799 Platinum Metallic",
+    "7207 Black",
+    "7225 Sand",
+    "7239 Midnight"
+   ]
+  },
+  {
+   "id": "elliptical-legs",
+   "title": "Legs for Universal Tables, continued — Elliptical Legs With Alignment Tab",
+   "page": 584,
+   "understandingPage": 238,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Table leg: paint or metal",
+    "Glides: paint or metal",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint or metal color number for leg",
+    "3 Paint or metal color number for glides",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials (Elliptical legs)",
+     "name": "Black",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 7207 Black paint."
+    },
+    {
+     "group": "Surface Materials (Elliptical legs)",
+     "name": "Basalt",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 7230 Basalt paint."
+    },
+    {
+     "group": "Surface Materials (Elliptical legs)",
+     "name": "Platinum",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 4799 Platinum."
+    },
+    {
+     "group": "Surface Materials (Elliptical legs)",
+     "name": "Polished Chrome",
+     "price": 77,
+     "priceText": "+$77",
+     "spec": "Specify with 9201 Polished Chrome."
+    },
+    {
+     "group": "Surface Materials (Glides)",
+     "name": "Black",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 7207 Black paint."
+    },
+    {
+     "group": "Surface Materials (Glides)",
+     "name": "Basalt",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 7230 Basalt paint."
+    },
+    {
+     "group": "Surface Materials (Glides)",
+     "name": "Brushed Aluminum",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 8042 Brushed Aluminum."
+    },
+    {
+     "group": "Surface Materials (Glides)",
+     "name": "Polished Aluminum",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 8046 Polished Aluminum."
+    }
+   ],
+   "tips": [
+    "Tip: Use 26\"H legs for nesting capabilities and use 28 1/2\"H legs to achieve standard height tables.",
+    "Tip: Dimensions listed are nominal and include the thickness of a table."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Elliptical leg is available in glide version only, either nesting (26\"H) or desk-height (28 1/2\"H) (page 238). Style number BEL25 = 26\"H, BEL27 = 28 1/2\"H (as printed).",
+    "Price is per leg; no package of four is offered."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BEL25",
+     "desc": "Elliptical leg with glide, 26\"H (nesting)",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "glide",
+      "quantity": 1
+     },
+     "price": 249,
+     "optionPrices": {}
+    },
+    {
+     "style": "BEL27",
+     "desc": "Elliptical leg with glide, 28 1/2\"H (standard)",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "glide",
+      "quantity": 1
+     },
+     "price": 252,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "post-legs-c-legs",
+   "title": "Legs for Universal Tables — Post Legs and Double Post C-Legs With Alignment Tab",
+   "page": 585,
+   "understandingPage": 238,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Table legs: paint",
+    "Attachment hardware",
+    "Non-locking caster, if selected: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for legs.",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color number.",
+     "appliesTo": "per leg"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 32,
+     "priceText": "+$32 per leg",
+     "spec": "Specify paint color number.",
+     "appliesTo": "per leg"
+    }
+   ],
+   "tips": [
+    "Tip: See Table and Leg Combinations page for number of legs required per worksurface. Page 244",
+    "Tip: Corner tables require a leg in the back corner. Be sure to order fifth leg if specifying a package of four.",
+    "Tip: Height dimensions listed are nominal and include the thickness of a table."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Double post C-leg (BCL) is available 28 1/2\"H with glides only.",
+    "Post leg caster: black plastic (page 239)."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BNPL",
+     "desc": "Post leg with glide, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "glide",
+      "quantity": 1,
+      "type": "post leg"
+     },
+     "price": 129,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPL",
+     "desc": "Post leg with glide, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "glide",
+      "quantity": 1,
+      "type": "post leg"
+     },
+     "price": 129,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNPLC",
+     "desc": "Post leg with caster, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "non-locking caster",
+      "quantity": 1,
+      "type": "post leg"
+     },
+     "price": 146,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPLC",
+     "desc": "Post leg with caster, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "non-locking caster",
+      "quantity": 1,
+      "type": "post leg"
+     },
+     "price": 146,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNPL4",
+     "desc": "Package of four post legs with glides, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "glide",
+      "quantity": 4,
+      "type": "post leg"
+     },
+     "price": 516,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPL4",
+     "desc": "Package of four post legs with glides, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "glide",
+      "quantity": 4,
+      "type": "post leg"
+     },
+     "price": 516,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNPL4C",
+     "desc": "Package of four post legs with casters, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "non-locking caster",
+      "quantity": 4,
+      "type": "post leg"
+     },
+     "price": 584,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPL4C",
+     "desc": "Package of four post legs with casters, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "non-locking caster",
+      "quantity": 4,
+      "type": "post leg"
+     },
+     "price": 584,
+     "optionPrices": {}
+    },
+    {
+     "style": "BNPL4M",
+     "desc": "Package of four post legs with two glides and two casters, 26\"H",
+     "attrs": {
+      "planningHeight": 26,
+      "mount": "2 glides + 2 non-locking casters",
+      "quantity": 4,
+      "type": "post leg"
+     },
+     "price": 550,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPL4M",
+     "desc": "Package of four post legs with two glides and two casters, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "2 glides + 2 non-locking casters",
+      "quantity": 4,
+      "type": "post leg"
+     },
+     "price": 550,
+     "optionPrices": {}
+    },
+    {
+     "style": "BCL",
+     "desc": "Double post C-leg with glides, 28 1/2\"H",
+     "attrs": {
+      "planningHeight": 28.5,
+      "mount": "glides",
+      "quantity": 1,
+      "type": "double post C-leg"
+     },
+     "price": 393,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "knit-screens",
+   "title": "Worksurface Screens — Knit Screens (15\"H Knit Screen)",
+   "page": 586,
+   "understandingPage": 240,
+   "trim": null,
+   "category": "screen",
+   "standardIncludes": [
+    "Screen: knit",
+    "Frame and foot: 4799 Platinum only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Color number for knit screen",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Attachment clamps are not included with screens. Clamps must be specified separately."
+   ],
+   "notes": [
+    "Knit screen colors (page 241): B902 Soft White, B903 Fog, B904 Sand. Screen frame and foot: 4799 Platinum only.",
+    "Clamps: DSCLAMP (page 587), specified as a pair and ordered separately.",
+    "Actual widths per page 240: screen 20 1/4\", 26 1/4\", 32 1/4\", 38 1/4\"; overall width incl. both clamps 21 1/2\", 27 1/2\", 33 1/2\", 39 1/2\"."
+   ],
+   "columns": [
+    "Width",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "DALK24",
+     "desc": "15\"H knit screen, 24\"W nominal",
+     "attrs": {
+      "width": 24,
+      "height": 15,
+      "actualWidth": 20.25,
+      "overallWidthWithClamps": 21.5
+     },
+     "price": 219,
+     "optionPrices": {}
+    },
+    {
+     "style": "DALK30",
+     "desc": "15\"H knit screen, 30\"W nominal",
+     "attrs": {
+      "width": 30,
+      "height": 15,
+      "actualWidth": 26.25,
+      "overallWidthWithClamps": 27.5
+     },
+     "price": 240,
+     "optionPrices": {}
+    },
+    {
+     "style": "DALK36",
+     "desc": "15\"H knit screen, 36\"W nominal",
+     "attrs": {
+      "width": 36,
+      "height": 15,
+      "actualWidth": 32.25,
+      "overallWidthWithClamps": 33.5
+     },
+     "price": 258,
+     "optionPrices": {}
+    },
+    {
+     "style": "DALK42",
+     "desc": "15\"H knit screen, 42\"W nominal",
+     "attrs": {
+      "width": 42,
+      "height": 15,
+      "actualWidth": 38.25,
+      "overallWidthWithClamps": 39.5
+     },
+     "price": 278,
+     "optionPrices": {}
+    }
+   ],
+   "allowedFinishes": [
+    "B902 Soft White",
+    "B903 Fog",
+    "B904 Sand"
+   ]
+  },
+  {
+   "id": "divisio-side-screen",
+   "title": "Divisio Side Screen",
+   "page": 586,
+   "understandingPage": 242,
+   "trim": null,
+   "category": "screen",
+   "standardIncludes": [
+    "Screen: fabric price group A",
+    "Top cap and clamp: 4799 Platinum paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Fabric color number",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials (Fabric)",
+     "name": "Fabric price group A",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Fabric)",
+     "name": "Fabric price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Fabric)",
+     "name": "Fabric price group 2",
+     "price": 14,
+     "priceText": "+$14",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Fabric)",
+     "name": "Customer's Own Material (COM)",
+     "price": 16,
+     "priceText": "+$16",
+     "spec": "See Surface Materials Reference Manual."
+    }
+   ],
+   "tips": [
+    "Tip: The Divisio side screen can be used on any 3/4\"- to 1 1/2\"-thick worksurface.",
+    "Tip: The Divisio side screen has an overhang of 8\". This is important when planning for returns or storage.",
+    "Tip: The Divisio side screen weighs approximately 14 1/2 pounds. Take this into consideration when planning for use on Height-AdjusTable worksurfaces.",
+    "Tip: The Divisio side screen is intended for use on the front of a worksurface.",
+    "Tip: The Divisio side screen does not work on knife edge profiles."
+   ],
+   "notes": [
+    "Note: Divisio side screen is included here to simplify your planning. It may have different pricing terms than other products in this specification guide.",
+    "Allowed fabric grades: A, 1, 2, COM only."
+   ],
+   "columns": [
+    "Dimensions D",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "DVSS2912",
+     "desc": "Divisio side screen, 29 1/2\"D x 11 5/8\"H",
+     "attrs": {
+      "depth": 29.5,
+      "height": 11.625,
+      "actualTotalHeight": 14.25,
+      "depthOnWorksurface": 21.5,
+      "actualWidth": 1.25
+     },
+     "price": 309,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "screen-attachment-clamps",
+   "title": "Worksurface Screens — Pair of Attachment Clamps for Worksurfaces",
+   "page": 587,
+   "understandingPage": 240,
+   "trim": null,
+   "category": "worksurface-accessory",
+   "standardIncludes": [
+    "Attachment clamps: 4799 Platinum only",
+    "Adjustment knob for clamps: 7237 Slate only",
+    "Cover for clamp: 7237 Slate only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Sold as a pair. Clamps attach to worksurfaces 1 1/8\" to 1 3/16\" thick (Universal Worksurfaces and Tables, Answer, and Ellipse worksurfaces); cannot be used with Series 9000 and Avenir 1 1/2\" thick worksurfaces (page 241)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "DSCLAMP",
+     "desc": "Pair of attachment clamps for knit screens",
+     "attrs": {
+      "quantity": 2
+     },
+     "price": 127,
+     "optionPrices": {}
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "page": 228,
+   "topic": "tables-materials",
+   "text": "All table sizes and shapes are available in High-Pressure Laminate with 3 mm edge. Most sizes and shapes are also available in High-Pressure Laminate with P-edge or in wood veneer with square edge (see specifying pages for N.A. cells).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 229,
+   "topic": "tables-materials",
+   "text": "Wood veneer capsule tables are available in 72\"W, 84\"W, and 96\"W only.",
+   "kind": "limit"
+  },
+  {
+   "page": 231,
+   "topic": "tables-materials",
+   "text": "Wood veneer square tables are available in 30\"W, 42\"W, 48\"W, and 54\"W only.",
+   "kind": "limit"
+  },
+  {
+   "page": 232,
+   "topic": "tables-materials",
+   "text": "Oval tables are available in 3 mm edge High-Pressure Laminate only.",
+   "kind": "limit"
+  },
+  {
+   "page": 232,
+   "topic": "tables-materials",
+   "text": "Hex conference tables are available in 3 mm edge High-Pressure Laminate only.",
+   "kind": "limit"
+  },
+  {
+   "page": 234,
+   "topic": "tables-edge",
+   "text": "Table top has a wood core with a High-Pressure Laminate or wood veneer surface and is 13/16\" thick.",
+   "kind": "dimension"
+  },
+  {
+   "page": 234,
+   "topic": "tables-edge",
+   "text": "Knife edge with 3 mm user edge is available on straight and tapered systems worksurfaces and on round tables (the only Universal Table with a K suffix is the round table).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 234,
+   "topic": "tables-edge",
+   "text": "Edge profile finishes are specified separately from laminate color. PVC-free 3 mm edge profiles are a polyolefin blend for all solid colors and seven woodgrain finishes.",
+   "kind": "requirement"
+  },
+  {
+   "page": 234,
+   "topic": "tables-edge",
+   "text": "Wood veneer tables: edges available in square (3 mm) profile only (SW suffix).",
+   "kind": "limit"
+  },
+  {
+   "page": 236,
+   "topic": "tables-materials",
+   "text": "HPL tables: laminate; Open Line laminate (option). 3 mm or P-edge profile: plastic. Wood veneer tables: wood veneer (standard), Customiz stain (option), Full-fill finish (option); square (3 mm) edge: wood veneer to match table.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 566,
+   "topic": "tables-edge",
+   "text": "Style number suffix selects edge: no suffix = plastic 3 mm edge; P = laminate with plastic P-edge; K = laminate with knife edge (round tables only); SW = wood with square edge. Price for suffixed style is the absolute price in that edge column (not an add). N.A. cells mean the variant is not offered.",
+   "kind": "requirement"
+  },
+  {
+   "page": 566,
+   "topic": "tables-edge",
+   "text": "Plastic color number for edge must be specified on laminate tables.",
+   "kind": "requirement"
+  },
+  {
+   "page": 566,
+   "topic": "tables-options",
+   "text": "Full-fill finish is available only on wood veneer tables; price is added per row (Option column) to the base price.",
+   "kind": "requirement"
+  },
+  {
+   "page": 566,
+   "topic": "tables-options",
+   "text": "Premium wood 2 / Premium wood 3 pricing is not printed; refer to the electronic catalog or SmartTools.",
+   "kind": "requirement"
+  },
+  {
+   "page": 235,
+   "topic": "tables-connections",
+   "text": "Universal tables are supported by bases or legs, which are ordered separately and installed in the field.",
+   "kind": "requirement"
+  },
+  {
+   "page": 235,
+   "topic": "tables-connections",
+   "text": "Not all sizes and shapes of tables can be supported by bases or by legs; use the Table and Base Combinations (page 243) and Table and Leg Combinations (page 244) matrices.",
+   "kind": "requirement"
+  },
+  {
+   "page": 235,
+   "topic": "tables-reinforcing-channel",
+   "text": "Reinforcing channels are available to support tables wider than 60\"W that are supported by legs; option offered on 66\"W and wider straight, transition, capsule and rectangle tables at no cost. When installed, channels add 1\" below the table. Channels are field installed.",
+   "kind": "requirement"
+  },
+  {
+   "page": 235,
+   "topic": "tables-reinforcing-channel",
+   "text": "Select the reinforcing channel option if the table will be supported by legs. Channels are not required if the table is 96\" or smaller and will be supported by T- or X-bases.",
+   "kind": "requirement"
+  },
+  {
+   "page": 235,
+   "topic": "tables-reinforcing-channel",
+   "text": "Channels are required and are always included with tables 120\" and larger (hex conference 120\"W+).",
+   "kind": "requirement"
+  },
+  {
+   "page": 235,
+   "topic": "tables-legs",
+   "text": "Cabby legs can be positioned in a 45° or 90° orientation. Post legs are positioned in 45° orientation only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 238,
+   "topic": "tables-legs",
+   "text": "Elliptical leg installed in the first inset position may only be in a 45° orientation. Single post legs can only be installed in a 45° orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 235,
+   "topic": "tables-legs",
+   "text": "Legs may be installed inset from the edge of the table 3\", 6\", or 9\" (positions 1, 2, 3) to accommodate slip-fit planning; amount of slip-fit varies by table shape and size.",
+   "kind": "dimension"
+  },
+  {
+   "page": 235,
+   "topic": "tables-legs",
+   "text": "Table with 28 1/2\"H legs installed at 6\" or 9\" inset can slip over adjacent tables that are supported with 26\"H legs. 26\"H legs allow tables to nest underneath an adjacent table with 28 1/2\"H legs or a panel-mounted worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 235,
+   "topic": "tables-legs",
+   "text": "Adjustable-height legs adjust 25 1/2\"H to 31 1/2\"H in 3/4\" increments; can support a table in standard height or nesting application.",
+   "kind": "dimension"
+  },
+  {
+   "page": 235,
+   "topic": "tables-spanner",
+   "text": "52\"W or 64\"W spanners should be used when tables are separated by a panel or Post and Beam. Spanner table enables conferencing at the end of two tables placed back-to-back.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 236,
+   "topic": "tables-pedestal-fit",
+   "text": "Mobile pedestals up to 24 1/2\"H will fit under 26\"H tables without reinforcing channels. Mobile pedestals up to 27\"H will fit under 28 1/2\"H tables without reinforcing channels. Tables with reinforcing channel reduce the available space by 1\".",
+   "kind": "limit"
+  },
+  {
+   "page": 236,
+   "topic": "tables-dimensions",
+   "text": "Dimensions on straight and transition tables are 1/4\" less than nominal (e.g. a 48\"W x 72\"W corner is actually 47 3/4\"W x 71 3/4\"W) to allow easy fit in panel-wrapped environments.",
+   "kind": "dimension"
+  },
+  {
+   "page": 236,
+   "topic": "tables-screens",
+   "text": "Screens can be used on corner, 120° tables: 24\"W screens on tables with C and D each equal to 43\"; 24\"W and 30\"W screens on tables with C and D each equal to 49\". Corner, 120° tables with C and D each equal to 37\" (BFB223636) cannot accommodate screens.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 236,
+   "topic": "tables-shipping",
+   "text": "Identical worksurfaces ordered on the same line item are packed on pallets of 5-50 depending on size; if palletizing is not desired, order in quantities of four or less per line item. Wood veneer worksurfaces cannot be palletized.",
+   "kind": "requirement"
+  },
+  {
+   "page": 236,
+   "topic": "tables-shipping",
+   "text": "Hex conference tables 150\"W or larger are shipped in two pieces; tight-joint fasteners are supplied.",
+   "kind": "requirement"
+  },
+  {
+   "page": 237,
+   "topic": "tables-bases",
+   "text": "Tables and bases are ordered separately. Bases are available 26\"W and 36\"W, 27 9/16\"H, T-base or X-base; shipped knocked down (K.D.) and require assembly. Adjustable leveling glides included.",
+   "kind": "requirement"
+  },
+  {
+   "page": 237,
+   "topic": "tables-bases",
+   "text": "Base surface materials: column and base paint (standard) or 9201 Polished Chrome (option). Polished chrome base only requires a paint color for the column.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 238,
+   "topic": "tables-legs",
+   "text": "Legs support tables at 26\"H or 28 1/2\"H overall, including table thickness. Table legs are ordered separately and installed on site. Table legs are non-handed.",
+   "kind": "requirement"
+  },
+  {
+   "page": 238,
+   "topic": "tables-legs",
+   "text": "Table legs cannot be used in a shared application with two tables (radius corners do not provide enough attachment space for leg plate). When a shared leg application is required, order Universal Systems Worksurfaces.",
+   "kind": "limit"
+  },
+  {
+   "page": 238,
+   "topic": "tables-legs",
+   "text": "Cabby leg and adjustable-height legs are available with locking casters or glides; post legs with non-locking casters or glides; elliptical leg in glide version only (nesting or desk-height); double post C-leg is an individual support used at the ends of a table.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 238,
+   "topic": "tables-legs",
+   "text": "Glide range: cabby 3/4\", adjustable-height 3/4\", elliptical 5/8\", post 3/4\", double post C-leg 5/8\".",
+   "kind": "dimension"
+  },
+  {
+   "page": 239,
+   "topic": "tables-legs",
+   "text": "Leg finishes: Cabby legs 4743 Mineral Metallic, 4750 Champagne Metallic, 4798 Sterling Metallic, 4799 Platinum Metallic, 7207 Black, 7225 Sand, 7239 Midnight. Adjustable-height legs 4750, 4798, 4799, 7207, 7225, 7239. Elliptical leg paint or 9201 Polished Chrome; elliptical glide 7207 Black, 7230 Basalt, 8042 Brushed Aluminum, 8046 Polished Aluminum. Post, post with caster and double post C-legs: paint. Post leg caster: black plastic.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 582,
+   "topic": "tables-legs",
+   "text": "Corner tables require a leg in the back corner. Be sure to order fifth leg if specifying a package of four.",
+   "kind": "requirement"
+  },
+  {
+   "page": 582,
+   "topic": "tables-legs",
+   "text": "Paint price group upcharges on legs are per leg (+$19 group 2; post legs +$32 group 3).",
+   "kind": "requirement"
+  },
+  {
+   "page": 584,
+   "topic": "tables-legs",
+   "text": "Use 26\"H elliptical legs (BEL25) for nesting capabilities and 28 1/2\"H (BEL27) to achieve standard height tables.",
+   "kind": "tip"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Straight tables 24\"D x 36\"W (BFS2436): order 1 x BX26 (26\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Straight tables 30\"D x 36\"W–42\"W (BFS3036, BFS3042): order 1 x BX36 (36\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Straight tables 30\"D x 48\"W–78\"W (BFS3048, BFS3054, BFS3060, BFS3066, BFS3072, BFS3078): order 2 x BT26 (26\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Capsule tables 24\"D x 48\"W (BFK2448): order 2 x BX26 (26\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Capsule tables 30\"D x 60\"W, 36\"D x 72\"W (BFK3060, BFK3672): order 2 x BT26 (26\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Capsule tables 42\"D x 84\"W, 48\"D x 96\"W (BFK4284, BFK4896): order 2 x BT36 (36\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Round tables 30\" and 36\" diameter (BFR30, BFR36): order 1 x BX26 (26\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Round tables 42\", 48\", 54\" diameter (BFR42, BFR48, BFR54): order 1 x BX36 (36\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Square tables 30\"D x 30\"W (BFRQ30): order 1 x BX26 (26\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Square tables 36\"D x 36\"W, 42\"D x 42\"W (BFRQ36, BFRQ42): order 1 x BX36 (36\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Square tables 48\"D x 48\"W, 54\"D x 54\"W (BFRQ48, BFRQ54): order 2 x BT36 (36\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Rectangle tables 36\"D x 60\"W, 66\"W, 72\"W (BFRR3660, BFRR3666, BFRR3672): order 2 x BT26 (26\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Rectangle tables 42\"D x 84\"W, 48\"D x 96\"W (BFRR4284, BFRR4896): order 2 x BT36 (36\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Oval tables 30\"D x 42\"W (BEL3042): order 1 x BX26 (26\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Oval tables 36\"D x 48\"W (BEL3648): order 1 x BX36 (36\"W X-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Oval tables 30\"D x 60\"W, 36\"D x 72\"W, 42\"D x 78\"W (BEL3060, BEL3672, BEL4278): order 2 x BT26 (26\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Oval tables 48\"D x 96\"W (BEL4896): order 2 x BT36 (36\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Hex conference tables 36\"D x 60\"W, 66\"W, 72\"W (BHEX3660, BHEX3666, BHEX3672): order 2 x BT26 (26\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Hex conference tables 42\"D x 96\"W (BHEX4296): order 2 x BT36 (36\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Hex conference tables 48\"D x 120\"W, 150\"W, 180\"W (BHEX48120, BHEX48150, BHEX48180): order 3 x BT36 (36\"W T-base). This is the only valid base for these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 243,
+   "topic": "table-base-combinations",
+   "text": "Blank spaces in the matrix designate invalid table/base combinations. No base is valid for: straight 24\"D tables other than 24\"x36\" (BFS2430, BFS2442–BFS2478), square 24\"x24\" (BFRQ24), oval 21\"x42\" (BEL2142), and all transition, corner 120°, spanner, peninsula, tapered peninsula and bubble jetty tables.",
+   "kind": "limit"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Straight tables: order 4 cabby, adjustable-height, elliptical or post legs, or 2 double post C-legs (BCL).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Transition tables: order 4 cabby, adjustable-height, elliptical or post legs, or 2 double post C-legs (BCL). Do not apply a double post C-leg to a 36\"D side.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Corner, 120° tables: order 5 cabby, adjustable-height, elliptical or post legs. Alternatively supported by one post leg and two double post C-legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Round tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Square tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Rectangle tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Spanner tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Capsule tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Peninsula tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Tapered peninsula tables: order 4 cabby, adjustable-height, elliptical or post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Bubble jetty tables: order 5 cabby, adjustable-height, elliptical or post legs. Double post C-leg can only be applied to the square end of bubble jetty tables (quantity not printed).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Oval tables, up to 36\"D x 72\"W: order 4 cabby, adjustable-height, elliptical or post legs. Oval tables 21\"D x 42\"W and 30\"D x 42\"W may only use legs with glides; legs with casters may not be used on these sizes.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Hex conference tables and oval tables 42\"D x 78\"W and larger (BEL4278, BEL4896, all BHEX) can only be supported with T-bases (no legs).",
+   "kind": "limit"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "See Post and Beam Solutions Specification Guide for tethered capsule tables support information.",
+   "kind": "tip"
+  },
+  {
+   "page": 244,
+   "topic": "table-leg-combinations",
+   "text": "Blank spaces in matrix designate table and leg combinations that are not valid.",
+   "kind": "limit"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Straight 24\"D x 30\"W: available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: both 45° and 90°.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Straight 24\"D x 36\"W, 30\"D x 36\"W, 30\"D x 42\"W: available leg positions [1, 2] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: both 45° and 90°.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Straight 24\"D and 30\"D x 48\"W–78\"W: available leg positions [1, 2, 3] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: both 45° and 90°.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Transition: available leg positions [1, 2, 3] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: both 45° and 90°; positions 1-2 at one end, 1-2-3 at the other end per drawing.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Corner, 120°: available leg positions [1, 2, 3] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: end legs both 45° and 90° (positions 1-3); back-corner leg single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Round 30\", 36\", 42\", 48\" diameter: available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation (45° or 90° as drawn).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Round 54\" diameter: available leg positions [1, 2] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Square 24\"x24\", 30\"x30\": available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: both 45° and 90°.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Square 36\"–54\": available leg positions [1, 2] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation (drawn at 45°).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Rectangle: available leg positions [1, 2] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation (drawn at 45°).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Spanner: available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: straight-edge legs both; curved-edge legs single.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Capsule 24\"x48\", 30\"x60\": available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Capsule 36\"x72\", 42\"x84\", 48\"x96\": available leg positions [1, 2] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Peninsula: available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: straight-edge legs both; curved-edge legs single.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Tapered peninsula: available leg positions [1, 2, 3] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: square end positions 1-3 both; round end position 1 only, single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Bubble jetty: available leg positions [1, 2, 3] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: square end positions 1-3 both; bubble end position 1 only, single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Oval 21\"x42\", 30\"x42\", 36\"x48\", 30\"x60\", 36\"x72\": available leg positions [1] (position 1 = 3\", 2 = 6\", 3 = 9\" from edge); orientation: single orientation.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 245,
+   "topic": "table-leg-positions",
+   "text": "Positions 2 and 3 are not available on every table. Legend: one symbol = both 45° and 90° available at that position; other symbol = either 45° or 90° (single orientation).",
+   "kind": "limit"
+  },
+  {
+   "page": 240,
+   "topic": "screens",
+   "text": "All knit screens mount in two positions: on top of clamp for desktop privacy, or on underside of clamp for below-worksurface modesty. Clamps are ordered separately (DSCLAMP pair). Overall height from floor in privacy position is 43 1/2\"H.",
+   "kind": "requirement"
+  },
+  {
+   "page": 241,
+   "topic": "screens",
+   "text": "Gap between 15\"H screen and top of worksurface is 1\" (privacy); gap between bottom of worksurface and screen is 1 1/2\" (modesty).",
+   "kind": "dimension"
+  },
+  {
+   "page": 241,
+   "topic": "screens",
+   "text": "Multiple screens can share clamps; three clamps can support screens of various sizes. Screens can be planned to match worksurface width; if worksurfaces are slip-fit, screen sizes must be planned accordingly.",
+   "kind": "tip"
+  },
+  {
+   "page": 241,
+   "topic": "screens",
+   "text": "Clamps attach to worksurfaces 1 1/8\" to 1 3/16\" thick (Universal Worksurfaces and Tables, Answer, and Ellipse). Clamps cannot be used with Series 9000 and Avenir 1 1/2\" thick worksurfaces.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 241,
+   "topic": "screens",
+   "text": "For corner privacy (screens on back and side), the side screen should be specified 6\" smaller: e.g. 30\"D x 42\"W worksurface with a 38 1/4\"W (DALK42) back screen requires a 20 1/4\"W (DALK24) side screen.",
+   "kind": "requirement"
+  },
+  {
+   "page": 241,
+   "topic": "screens",
+   "text": "For corner 120° tables: 20 1/4\"W screens (DALK24) can be used on tables with C and D each 43\"; 20 1/4\"W and 26 1/4\"W screens (DALK24, DALK30) on tables with C and D each 49\"; C and D 37\" cannot accommodate screens.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 241,
+   "topic": "screens",
+   "text": "15\"H screens can be used on fences in Post and Beam applications (attachment hardware in Post and Beam Solutions Specification Guide). Knit colors: B902 Soft White, B903 Fog, B904 Sand; frame/foot and clamp 4799 Platinum only; clamp knob and cover 7237 Slate only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 242,
+   "topic": "screens",
+   "text": "Divisio side screen is magnetic, user-movable; may be used on any 3/4\"- to 1 1/2\"-thick worksurface that is 24\"D or deeper (21 1/2\" sits on the worksurface). Intended for front of worksurface; 8\" overhang; ~14 1/2 lb; does not work on knife edge profiles.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 246,
+   "topic": "wiring",
+   "text": "Power and data strip (specifying page 556, outside this section) provides three simplex receptacles and space for customer-supplied voice/data outlets; field-installed on a worksurface or on slatwall with the appropriate attachment bracket (worksurface bracket fits worksurfaces 59/64\" to 1 5/8\" thick). 8'-long cord with plug. Chicago, New York City and Los Angeles have special requirements. Finish 8043 Clear Anodized aluminum cover with black faceplate; brackets 4799 Platinum paint only.",
+   "kind": "requirement"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 228,
+   "subject": "Straight and transition tables",
+   "text": "Statement of line: straight tables 24\"D x 29 3/4\"–77 3/4\"W and 30\"D x 35 3/4\"–77 3/4\"W (actual widths 1/4\" less than nominal); transition tables 30\"/24\" and 36\"/30\" depths x 59 3/4\", 65 3/4\", 71 3/4\", 77 3/4\"W (narrow-end widths 10\", 16\", 22\", 28\")."
+  },
+  {
+   "page": 234,
+   "subject": "Table top",
+   "text": "Table top is 13/16\" thick; P-edge rises slightly above laminate and curves into 3/8\" radius."
+  },
+  {
+   "page": 237,
+   "subject": "Bases",
+   "text": "Bases 26\"W or 36\"W, 27 9/16\"H; column diameter 2 1/4\" (page 581)."
+  },
+  {
+   "page": 238,
+   "subject": "Legs",
+   "text": "Actual Dimensions — Height* (standard): Cabby leg 26\" or 28 1/2\"; Adjustable-height leg 25 1/2\"–31 1/2\"; Elliptical 26\" or 28 1/2\"; Post leg 26\" or 28 1/2\"; Double post C-leg 28 1/2\". Glide range: 3/4\", 3/4\", 5/8\", 3/4\", 5/8\". *Height dimensions include the thickness of a table."
+  },
+  {
+   "page": 240,
+   "subject": "15\"H Knit Screen",
+   "text": "Screen width 20 1/4\", 26 1/4\", 32 1/4\", or 38 1/4\"; Overall width 21 1/2\", 27 1/2\", 33 1/2\", or 39 1/2\" (includes both clamps); Height 15\". Frame with knit fabric cover is 3/8\" thick. Privacy position overall height from floor 43 1/2\"H."
+  },
+  {
+   "page": 242,
+   "subject": "Divisio Side Screen",
+   "text": "Depth 29 1/2\" (total), 21 1/2\" (sits on worksurface); Width 1 1/4\"; Height 14 1/4\" (total), 11 5/8\" (above worksurface)."
+  },
+  {
+   "page": 246,
+   "subject": "Power and data strip",
+   "text": "Depth 2 1/4\"; Width 10 1/4\"; Height 3\"."
+  },
+  {
+   "page": 232,
+   "subject": "Hex conference tables",
+   "text": "Statement of line: 60\"W 30\"/36\"; 66\"W 30\"/36\"; 72\"W 30\"/36\"; 96\"W 36\"/42\"; 120\"W, 150\"W, 180\"W 38\"/48\"."
+  }
+ ],
+ "unresolved": [
+  "p245: Orientation symbol per leg position (both 45°/90° vs single) was read from small drawings; the 'single orientation' positions on round, large square, rectangle, capsule, oval and curved ends are recorded as drawn, not as an explicit 45°/90° rule.",
+  "p244: Bubble jetty double post C-leg quantity is not printed (only a tip that C-legs go on the square end); leg count 5 is printed for single legs.",
+  "p246: Power and data strip styles (BPDSWSPL, BPDSSWPL, BPDSWB, BPDSSB) are specified on page 556, outside this section's specifying range — not extracted here.",
+  "p573/p574: Peninsula and tapered peninsula A/B/C dimension meanings inferred from drawings; values recorded as printed.",
+  "p580: Hex table A/B assumed end depth/center depth per drawing."
+ ],
+ "matrices": {
+  "tableBaseCombinations": [
+   {
+    "shape": "Straight",
+    "sizes": "24\"D x 36\"W",
+    "tableStyles": [
+     "BFS2436"
+    ],
+    "base": "BX26",
+    "quantity": 1
+   },
+   {
+    "shape": "Straight",
+    "sizes": "30\"D x 36\"W–42\"W",
+    "tableStyles": [
+     "BFS3036",
+     "BFS3042"
+    ],
+    "base": "BX36",
+    "quantity": 1
+   },
+   {
+    "shape": "Straight",
+    "sizes": "30\"D x 48\"W–78\"W",
+    "tableStyles": [
+     "BFS3048",
+     "BFS3054",
+     "BFS3060",
+     "BFS3066",
+     "BFS3072",
+     "BFS3078"
+    ],
+    "base": "BT26",
+    "quantity": 2
+   },
+   {
+    "shape": "Capsule",
+    "sizes": "24\"D x 48\"W",
+    "tableStyles": [
+     "BFK2448"
+    ],
+    "base": "BX26",
+    "quantity": 2
+   },
+   {
+    "shape": "Capsule",
+    "sizes": "30\"D x 60\"W, 36\"D x 72\"W",
+    "tableStyles": [
+     "BFK3060",
+     "BFK3672"
+    ],
+    "base": "BT26",
+    "quantity": 2
+   },
+   {
+    "shape": "Capsule",
+    "sizes": "42\"D x 84\"W, 48\"D x 96\"W",
+    "tableStyles": [
+     "BFK4284",
+     "BFK4896"
+    ],
+    "base": "BT36",
+    "quantity": 2
+   },
+   {
+    "shape": "Round",
+    "sizes": "30\" and 36\" diameter",
+    "tableStyles": [
+     "BFR30",
+     "BFR36"
+    ],
+    "base": "BX26",
+    "quantity": 1
+   },
+   {
+    "shape": "Round",
+    "sizes": "42\", 48\", 54\" diameter",
+    "tableStyles": [
+     "BFR42",
+     "BFR48",
+     "BFR54"
+    ],
+    "base": "BX36",
+    "quantity": 1
+   },
+   {
+    "shape": "Square",
+    "sizes": "30\"D x 30\"W",
+    "tableStyles": [
+     "BFRQ30"
+    ],
+    "base": "BX26",
+    "quantity": 1
+   },
+   {
+    "shape": "Square",
+    "sizes": "36\"D x 36\"W, 42\"D x 42\"W",
+    "tableStyles": [
+     "BFRQ36",
+     "BFRQ42"
+    ],
+    "base": "BX36",
+    "quantity": 1
+   },
+   {
+    "shape": "Square",
+    "sizes": "48\"D x 48\"W, 54\"D x 54\"W",
+    "tableStyles": [
+     "BFRQ48",
+     "BFRQ54"
+    ],
+    "base": "BT36",
+    "quantity": 2
+   },
+   {
+    "shape": "Rectangle",
+    "sizes": "36\"D x 60\"W, 66\"W, 72\"W",
+    "tableStyles": [
+     "BFRR3660",
+     "BFRR3666",
+     "BFRR3672"
+    ],
+    "base": "BT26",
+    "quantity": 2
+   },
+   {
+    "shape": "Rectangle",
+    "sizes": "42\"D x 84\"W, 48\"D x 96\"W",
+    "tableStyles": [
+     "BFRR4284",
+     "BFRR4896"
+    ],
+    "base": "BT36",
+    "quantity": 2
+   },
+   {
+    "shape": "Oval",
+    "sizes": "30\"D x 42\"W",
+    "tableStyles": [
+     "BEL3042"
+    ],
+    "base": "BX26",
+    "quantity": 1
+   },
+   {
+    "shape": "Oval",
+    "sizes": "36\"D x 48\"W",
+    "tableStyles": [
+     "BEL3648"
+    ],
+    "base": "BX36",
+    "quantity": 1
+   },
+   {
+    "shape": "Oval",
+    "sizes": "30\"D x 60\"W, 36\"D x 72\"W, 42\"D x 78\"W",
+    "tableStyles": [
+     "BEL3060",
+     "BEL3672",
+     "BEL4278"
+    ],
+    "base": "BT26",
+    "quantity": 2
+   },
+   {
+    "shape": "Oval",
+    "sizes": "48\"D x 96\"W",
+    "tableStyles": [
+     "BEL4896"
+    ],
+    "base": "BT36",
+    "quantity": 2
+   },
+   {
+    "shape": "Hex conference",
+    "sizes": "36\"D x 60\"W, 66\"W, 72\"W",
+    "tableStyles": [
+     "BHEX3660",
+     "BHEX3666",
+     "BHEX3672"
+    ],
+    "base": "BT26",
+    "quantity": 2
+   },
+   {
+    "shape": "Hex conference",
+    "sizes": "42\"D x 96\"W",
+    "tableStyles": [
+     "BHEX4296"
+    ],
+    "base": "BT36",
+    "quantity": 2
+   },
+   {
+    "shape": "Hex conference",
+    "sizes": "48\"D x 120\"W, 150\"W, 180\"W",
+    "tableStyles": [
+     "BHEX48120",
+     "BHEX48150",
+     "BHEX48180"
+    ],
+    "base": "BT36",
+    "quantity": 3
+   }
+  ],
+  "tableLegCombinations": [
+   {
+    "shape": "Straight tables",
+    "legs": 4,
+    "doublePostCLegs": 2,
+    "note": null
+   },
+   {
+    "shape": "Transition tables",
+    "legs": 4,
+    "doublePostCLegs": 2,
+    "note": "Do not apply a double post C-leg to a 36\"D side."
+   },
+   {
+    "shape": "Corner, 120° tables",
+    "legs": 5,
+    "doublePostCLegs": null,
+    "note": "Alternatively supported by one post leg and two double post C-legs.",
+    "alternative": {
+     "postLegs": 1,
+     "doublePostCLegs": 2
+    }
+   },
+   {
+    "shape": "Round tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Square tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Rectangle tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Spanner tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Capsule tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Peninsula tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Tapered peninsula tables",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": null
+   },
+   {
+    "shape": "Bubble jetty tables",
+    "legs": 5,
+    "doublePostCLegs": null,
+    "note": "Double post C-leg can only be applied to the square end of bubble jetty tables (quantity not printed)."
+   },
+   {
+    "shape": "Oval tables, up to 36\"D x 72\"W",
+    "legs": 4,
+    "doublePostCLegs": null,
+    "note": "Oval tables 21\"D x 42\"W and 30\"D x 42\"W may only use legs with glides; legs with casters may not be used on these sizes."
+   }
+  ]
+ }
+}

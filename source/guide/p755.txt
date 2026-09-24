@@ -1,0 +1,121 @@
+Answer Solutions Specification Guide                                                                                                                                 cStyle Number Index, continued  755
+Style Number Index
+Resources
+TS7788TCYJ             358    Y Chng-of-Hgt Jct
+TS7788TCYJW         358    Y Chng-of-Hgt Jct
+TS778EPJ                  399    EOR Base Pnl Jct
+TS778EPJW              399    EOR Base Pnl Jct
+TS778ERUP               411    EOR Jct w/Util Pole
+TS778ICLS                374    Inside Cnr Light Seal
+TS778IPJ                   395    In-Line Base Pnl Jct
+TS778JP                    373    Jct Post
+TS778LPJ                  397    L Base Pnl Jct
+TS778LPJW               397    L Base Pnl Jct
+TS778LUP                  411    L/In-Line Jct w/Util Pole
+TS778SEPJ               398    EOR Base Pnl Jct
+TS778SEPJW            398    EOR Base Pnl Jct
+TS778SERUP            410    EOR Jct w/Util Pole
+TS778SIPJ                394    In-Line Base Pnl Jct
+TS778SLPJ                396    L Base Pnl Jct
+TS778SLPJW            396    L Base Pnl Jct
+TS778SLUP               410    L/In-Line Jct w/Util Pole
+TS778STC                  424    Spanning Top Cap
+TS778STCW              424    Spanning Top Cap
+TS778STPJ               396    T Base Pnl Jct
+TS778STPJW            396    T Base Pnl Jct
+TS778STUP               410    T Jct w/Util Pole
+TS778SVPJ               400    V Base Pnl Jct
+TS778SVPJW            400    V Base Pnl Jct
+TS778SXPJ               396    L Base Pnl Jct
+TS778SXPJW            396    X Base Pnl Jct
+TS778SYPJ               400    Y Base Pnl Jct
+TS778SYPJW            400    Y Base Pnl Jct
+TS778TEPJ               347    EOR Base Pnl Jct
+TS778TEPJW            347    EOR Base Pnl Jct
+TS778TEVT               367    EOR Vertical Trim
+TS778TEVTW           367    EOR Vertical Trim
+TS778TIPJ                344    In-Line Base Pnl Jct
+TS778TLPJ                345    L Base Pnl Jct
+TS778TLPJW            345    L Base Pnl Jct
+TS778TLVT                368    L Vertical Trim
+TS778TLVTW            368    L Vertical Trim
+TS778TPJ                  397    T Base Pnl Jct
+TS778TPJW              397    T Base Pnl Jct
+TS778TTC                  383    Spanning Top Cap
+TS778TTCW              383    Spanning Top Cap
+TS778TTPJ               345    T Base Pnl Jct
+TS778TTPJW            345    T Base Pnl Jct
+TS778TTVT               368    T Vertical Trim
+TS778TTVTW           368    T Vertical Trim
+TS778TUP                  411    T Jct w/Util Pole
+TS778TVPJ               348    V Base Pnl Jct
+TS778TVPJW            348    V Base Pnl Jct
+TS778TVVT               369    V Vertical Trim
+TS778TVVTW           369    V Vertical Trim
+TS778TXPJ               346    X Base Pnl Jct
+TS778TXPJW            346    X Base Pnl Jct
+TS778TYPJ               348    Y Base Pnl Jct
+TS778TYPJW            348    Y Base Pnl Jct
+TS778VPJ                  401    V Base Pnl Jct
+TS778VPJW              401    V Base Pnl Jct
+TS778WPJ         359, 402    Wall-Start Jct
+TS778XPJ                  397    X Base Pnl Jct
+TS778XPJW              397    X Base Pnl Jct
+TS778YPJ                  401    Y Base Pnl Jct
+TS778YPJW              401    Y Base Pnl Jct
+TS779TCIJ                349    In-Line Chng-of-Hgt Jct
+TS779TCIJW             349    In-Line Chng-of-Hgt Jct
+TS780MHX                484    Modular Harness
+TS780MHXN             484    Modular Harness
+TS780MHY                484    Modular Harness
+TS780MHYN             484    Modular Harness
+TS780MHZ                 484    Modular Harness
+TS780MHZN              484    Modular Harness
+TS7828TCTJCQ       377    Answer to c:scape T Junction–Thin Trim
+TS782TCLJCQ          376    Answer to c:scape L Junction–Thin Trim
+TS7833TCYJ             358    Y Chng-of-Hgt Jct
+TS7833TCYJW         358    Y Chng-of-Hgt Jct
+TS7838TCTJ             352    T Chng-of-Hgt Jct
+TS7838TCTJW         352    T Chng-of-Hgt Jct
+TS784STC                  424    Spanning Top Cap
+TS784STCW              424    Spanning Top Cap
+TS784TEVT               367    EOR Vertical Trim
+TS784TEVTW           367    EOR Vertical Trim
+TS784TLVT                368    L Vertical Trim
+TS784TLVTW            368    L Vertical Trim
+TS784TTC                  383    Spanning Top Cap
+TS784TTCW              383    Spanning Top Cap
+TS784TTVT               368    T Vertical Trim
+TS784TTVTW           368    T Vertical Trim
+TS784TVVT               369    V Vertical Trim
+TS784TVVTW           369    V Vertical Trim
+TS7866TCYJ             358    Y Chng-of-Hgt Jct
+TS7866TCYJW         358    Y Chng-of-Hgt Jct
+TS78686TCXJ          354    X Chng-of-Hgt Jct
+TS78686TCXJW       354    X Chng-of-Hgt Jct
+TS7868TCTJ             351    T Chng-of-Hgt Jct
+TS7868TCTJW         351    T Chng-of-Hgt Jct
+TS786TCIJ                349    In-Line Chng-of-Hgt Jct
+TS786TCIJW             349    In-Line Chng-of-Hgt Jct
+TS786TCLJ               350    L Chng-of-Hgt Jct
+TS786TCLJW            350    L Chng-of-Hgt Jct
+TS786TCVJ               357    V Chng-of-Hgt Jct
+TS786TCVJW           357    V Chng-of-Hgt Jct
+TS7877TCYJ             358    Y Chng-of-Hgt Jct
+TS7877TCYJW         358    Y Chng-of-Hgt Jct
+TS78787TCXJ          354    X Chng-of-Hgt Jct
+TS78787TCXJW       354    X Chng-of-Hgt Jct
+TS7878TCTJ             351    T Chng-of-Hgt Jct
+TS7878TCTJW         351    T Chng-of-Hgt Jct
+TS787TCLJ               350    L Chng-of-Hgt Jct
+TS787TCLJW            350    L Chng-of-Hgt Jct
+TS787TCVJ               357    V Chng-of-Hgt Jct
+TS787TCVJW           357    V Chng-of-Hgt Jct
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

@@ -1,0 +1,90 @@
+490                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 176
+1 Style number
+2 Low-Pressure Laminate or High-
+Pressure Laminate color number for
+worksurface, as appropriate
+3 Plastic edge band color number for
+worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+• 13⁄16"-thick worksurface: Low-Pressure Laminate or 
+High-Pressure Laminate
+• 3 mm radius proﬁle edge on user’s side: plastic 
+• Side and back edges: plastic default to match user's side
+   Speciﬁcation Information
+DDimensions  DStyle                 DU.S.     DStyle                 DU.S.          DDimensions  DStyle                 DU.S.      DStyle                 DU.S.  
+dD       W         dNumber            dPrice   dNumber            dBase        dD       W        dNumber             dPrice    dNumber            dBase
+d                     dLPL                   d            dHPL
+dPrice
+d                     dLPL                   d            dHPL
+dPrice
+d                         d
+d
+d
+d
+d                          d
+d
+d
+d
+18"       24"           TSAWLR1824    $119        TSAWHR1824    $158             24"       54"          TSAWLR2454   $228         TSAWHR2454    $272
+18"       30"           TSAWLR1830    $123        TSAWHR1830    $170             24"       60"          TSAWLR2460     $252         TSAWHR2460    $293
+18"       36"           TSAWLR1836    $139        TSAWHR1836    $182             24"       66"          TSAWLR2466     $273         TSAWHR2466    $329
+18"       42"           TSAWLR1842    $151        TSAWHR1842    $197             24"       72"          TSAWLR2472     $282         TSAWHR2472    $367
+18"       48"           TSAWLR1848    $175        TSAWHR1848    $237             30"       24"          TSAWLR3024     $149         TSAWHR3024    $185
+18"       54"           TSAWLR1854    $204        TSAWHR1854    $255             30"       30"          TSAWLR3030     $165         TSAWHR3030    $205
+18"       60"           TSAWLR1860    $219        TSAWHR1860    $273             30"       36"          TSAWLR3036     $180         TSAWHR3036    $224
+18"       66"           TSAWLR1866    $236        TSAWHR1866    $319             30"       42"          TSAWLR3042     $204         TSAWHR3042    $253
+18"       72"           TSAWLR1872    $246        TSAWHR1872    $357             30"       48"          TSAWLR3048     $223         TSAWHR3048    $245
+24"       24"           TSAWLR2424    $134        TSAWHR2424    $175             30"       54"          TSAWLR3054     $256         TSAWHR3054    $318
+24"       30"           TSAWLR2430    $140        TSAWHR2430    $187             30"       60"          TSAWLR3060     $288         TSAWHR3060    $356
+24"       36"           TSAWLR2436    $154        TSAWHR2436    $198             30"       66"          TSAWLR3066     $310         TSAWHR3066    $384
+24"       42"           TSAWLR2442    $175        TSAWHR2442    $216             30"       72"          TSAWLR3072     $337         TSAWHR3072    $417
+24"       48"           TSAWLR2448    $201        TSAWHR2448    $257            d                          d
+d
+d
+d
+d                         d
+d
+d
+d
+Tip: Long worksurface spans
+require additional support.
+Reinforcing channels allow
+for unsupported spans up 
+to 72".
+cPage 503
+D
+W
+TS Series Worksurfaces 
+TS Series Straight Worksurfaces                                                                
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+  Related                   • Worksurface-height power and communication access        cPage 555
+  Products                • Worksurface legs and supports                                             cPage 502
+                                     • Reinforcing channel                                                               cPage 503
+                                     • Grommet package                                                                 cPage 504
+Tip: Standard worksurfaces
+are 13⁄16" thick. However,
+the actual thickness
+between Low-Pressure
+Laminate (LPL) and High-
+Pressure Laminate (HPL)
+worksurfaces is slightly dif-
+ferent. It is recommended
+that only worksurfaces of the
+same type are speciﬁed in a
+given application. In addi-
+tion, there may be sheen or
+texture differences when
+using LPL and HPL in adja-
+cent applications. Please
+use caution when mixing
+and matching different work-
+surface types.
+February 2015

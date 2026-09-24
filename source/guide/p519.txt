@@ -1,0 +1,110 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   519
+Universal Systems Worksurfaces
+Dual Corner, Flat-Front Worksurfaces
+High-Pressure Laminate
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Scallops                 • Omit scallops                            No cost                                Specify omit scallops.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Tip: Supports must be spec-
+ified separately, including
+side support brackets for
+rear corner support in
+panel-mounted applications.
+Tip: Keyboard surface
+adjusts 6" higher or 5" lower
+than worksurface height.
+Tip: Dual corner, flat-front
+worksurfaces must be panel
+hung.
+Tip: 231⁄2"D dual corner, 
+flat-front worksurfaces must
+be supported with a center
+support on each side.
+Tip: 291⁄2"D dual corner, 
+flat-front worksurfaces can
+be supported with a can-
+tilever or center support.
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate 
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge of keyboard 
+surface
+–Plastic default flat profile on all other edges
+• Cable scallops on back edges
+• Keyboard mechanism
+1 Style number 
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for edges on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+A
+B
+C
+D
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Speciﬁcation Information
+                                                    U.S. Base Price         
+U.S. Base Price
+                                                    High-Pressure Laminate
+High-Pressure Laminate
+                         
+DDimensions                  DStyle              DPlastic                                DDimensions
+DStyle
+DPlastic
+dA     B       C      D        dNumber         d3 mm                                   dA
+B
+C
+D
+dNumber
+d3 mm
+d                                     d                      dEdge                                    d
+d
+dEdge
+d                                     d                      d         
+d
+d
+d
+With 1/2" Cord Drop                                                          With Full Depth
+231⁄2"  231⁄2"  411⁄2" 411⁄2"    UDC224242     $  952                                         24"
+24"
+42"
+42"
+WDC224242
+$  952
+231⁄2"  231⁄2"  471⁄2" 471⁄2"    UDC224848    $1002                                         24"
+24"
+48"
+48"
+WDC224848
+$1002
+291⁄2"  291⁄2"  471⁄2" 471⁄2"    UDC334848    $1043                                         30"
+30"
+48"
+48"
+WDC334848
+$1043
+d                                     d                      d         
+d
+d
+d
+Dual Corner, Flat-Front
+Worksurfaces
+Universal Systems
+Worksurfaces
+February 2015

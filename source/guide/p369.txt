@@ -1,0 +1,106 @@
+Panels—Thin Trim
+Answer Solutions Specification Guide                                                                                                                                                                                                          369
+Panels—Thin Trim 
+V Vertical Trims—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 31
+• Trim: paint price group 1 or wood
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                   • Paint price group 1                     No cost                                  Specify paint color number.
+Materials                • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+Specification Information
+DCorresponding      DStyle              DU.S.                       DStyle                 DU.S.
+dPanel
+              dNumber         dBase                     dNumber             dBase
+dHeight
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+Painted Trim
+Wood Trim
+30"
+TS730TVVT
+$  78
+TS730TVVTW
+$298
+42"
+TS742TVVT
+$  78
+TS742TVVTW
+$298
+48"
+TS748TVVT
+$  78
+TS748TVVTW
+$298
+54"
+TS754TVVT
+$  78
+TS754TVVTW
+$298
+60"
+TS760TVVT
+$  78
+TS760TVVTW
+$298
+66"
+TS766TVVT
+$  78
+TS766TVVTW
+$298
+72"
+TS772TVVT
+$  94
+TS772TVVTW
+$367
+78"
+TS778TVVT
+$  94
+TS778TVVTW
+$367
+84"
+TS784TVVT
+$100
+TS784TVVTW
+$410
+90"
+TS790TVVT
+$100
+TS790TVVTW
+$410
+d
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: When ordering vertical
+trim for a stacking applica-
+tion remember to specify it
+to span the full height of the
+base junction plus the stack-
+ing junction.
+Tip: Thin vertical trim cannot
+be mixed with square and
+oval trim on an application.
+Thin trim must be used on
+the entire application.
+V Vertical Trims—Thin Trim
+February 2015

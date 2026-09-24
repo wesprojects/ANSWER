@@ -1,0 +1,95 @@
+662                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Storage
+Universal Lateral Files with Flush Steel, Proud Steel, or Proud Wood Fronts, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Height dimension listed
+is for units with 1" top. Overall
+height will vary if another top
+is selected.
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style (for
+example, RLF18363__
+becomes RLF18363F for
+flush steel front).
+cOptions, on previous page
+Specification Information
+DDimensions                        DCounterweight   DStyle                   DU.S. Base Prices
+dD                      W     H       dPackage             dNumber              d
+dFlush
+Proud
+d
+d
+dFlush
+dProud    dProud
+dSteel
+Steel/
+d
+d
+dSteel
+dSteel     dWood
+dFront
+Wood
+d
+d                                dFront      dFront     dFront
+d
+Front
+d
+d                                d                 d
+d
+d
+d
+d                                d                 d
+d
+d
+d
+d                                d                 d
+d
+d
+d
+d                                dSuffix F  dSuffix P dSuffix W
+d
+d
+d                                d                 d
+d
+Three 12"H Drawers
+18"          187⁄8"       30"    40"       Package 3                 RLF18303_         $1084        $1213        $2180
+18"          187⁄8"       36"    40"       Package 3                 RLF18363_         $1260        $1413        $2347
+18"          187⁄8"       42"    40"       Package 3                 RLF18423_         $1424        $1597        $2461
+231⁄8"       24"          30"    40"       Package 2                 RLF24303_         $1386        $1554        $2487
+231⁄8"       24"          36"    40"       Package 2                 RLF24363_         $1581        $1772        $2693
+d
+d
+d
+d
+d
+d
+Four 12"H Drawers
+18"          187⁄8"       30"    52"       Package 3                 RLF18304_         $1416        $1586        $2681
+18"          187⁄8"       36"    52"       Package 4                 RLF18364_         $1646        $1842        $2908
+18"          187⁄8"       42"    52"       Package 4                 RLF18424_         $1859        $2083        $3130
+231⁄8"       24"          30"    52"       Package 2                 RLF24304_         $1774        $1989        $3095
+231⁄8"       24"          36"    52"       Package 3                 RLF24364_         $2063        $2315        $3373
+d
+d
+d
+d
+d
+d
+Four 12"H Drawers and One 131/2"H Lift-Up Door with Fixed Shelf
+18"          187⁄8"       30"    651⁄2"    Package 2                 RLF18305_         $1698        $1900        $3033
+18"          187⁄8"       36"    651⁄2"    Package 2                 RLF18365_         $1969        $2208        $3305
+18"          187⁄8"       42"    651⁄2"    Package 3                 RLF18425_         $2225        $2494        $3576
+231⁄8"       24"          30"    651⁄2"    Package 1                 RLF24305_         $2128        $2388        $3531
+231⁄8"       24"          36"    651⁄2"    Package 1                 RLF24365_         $2471        $2770        $3870
+d
+d
+d
+d
+d
+d
+February 2015

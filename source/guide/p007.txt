@@ -1,0 +1,94 @@
+Panels—Thin Trim
+Answer Solutions Specification Guide                                                                                                                                                   cStatement of Line, continued  7
+Statement of Line
+Stacking Junctions—Thin Trim
+                 Stacking              Stacking L            Stacking T           Stacking X           Stacking              Stacking V           Stacking Y           Wall-Start
+                 In-Line                 Junctions             Junctions             Junctions             End-of-Run          Junctions             Junctions             Junction
+                 Junctions                                                                                                   Junctions                                                                       
+12"           •                          •                          •                          •                          •                          •                          •              •
+18"           •                          •                          •                          •                          •                          •                          •              •
+24"           •                          •                          •                          •                          •                          •                          •              •
+Vertical Trim—Thin Trim
+End-of-Run
+L Vertical
+T Vertical
+V Vertical
+Vertical Trim
+Trim
+Trim
+Trim
+30"
+•
+•
+•
+•
+42"
+•
+•
+•
+•
+48"
+•
+•
+•
+•
+54"
+•
+•
+•
+•
+60"
+•
+•
+•
+•
+66"
+•
+•
+•
+•
+72"
+•
+•
+•
+•
+78"
+•
+•
+•
+•
+84"
+•
+•
+•
+•
+90"
+•
+•
+•
+•
+  Understanding
+cPage 26
+  Specifying
+cPages 362-363
+Change-of-Height—Thin Trim
+End-of-Run  L Corner      T Corner      120° Corner   V Change-
+Change-of-   Change-of-  Change-of-  Change-of-     of-Height
+Height          Height          Height         Height
+12" •                  •                  •                 •                    •              
+18" •                  •                  •                 •                    •
+24" •                  •                  •                 •                   •
+30" •                  •                  •                 •                   •
+36" •                  •                  •                 •                   •
+Note: For all change-of-height trim, see Change-of-Height—Thin Trim on
+page 31.
+  Understanding
+cPages 30-31
+  Specifying
+cPages 367-369
+  Understanding
+cPages 31-32
+  Specifying
+cPages 370-372
+Panels—Thin Trim
+February 2015

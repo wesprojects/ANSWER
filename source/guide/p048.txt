@@ -1,0 +1,21 @@
+48                                                                                                                                                                                                              Answer Solutions Specification Guide
+...............................................................................................................................................
+SmartTools Speciﬁcation Tips
+• Before 10/10/11 Oval and Square junctions were manufactured with purpose build junctions. Starting 10/10/11 Oval and Square junctions began being 
+  manufactured with universal junctions. The style number stayed the same but the junction construction changed. 
+• SmartTools designates new and old junctions. Old junctions are designated with an asterisk (*).  
+• SmartTools provides the ability to change between new and old junctions, as well as connect them together where applicable.
+• For assistance in reconfigurations, SmartTools allows designers to create “alternatives”. Alternatives will allow designers to create an original application 
+  (alternative one) and make a copy of it (alternative two). The designer can then make design changes to alternative two to reflect what the reconfigured 
+  space will look like.  
+• Once design changes are made, the designer will be able to use SmartTools outputs to compare alternative one to alternative two to determine the following 
+  information:
+  – Bucket one: What product from alternative one can be used in alternative two.
+  – Bucket two: What product from alternative one will not be needed in alternative two.
+  – Bucket three: What additional product will be needed in alternative two.
+  – Since universal junctions can be broken down into individual components (blocks, posts, light seals, and trim), to re-use the maximum number of parts 
+  
+a designer can manually determine if a match can be made between the parts left in bucket two and the parts needed in bucket three.
+...............................................................................................................................................
+Reconfiguring with Answer—General Guidelines, continued
+February 2015

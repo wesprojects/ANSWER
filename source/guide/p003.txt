@@ -1,0 +1,487 @@
+78"H
+U.S.
+CANADA
+DStyle
+DBase
+DBase Price
+dNumber
+dPrice
+d
+d
+d
+d
+d
+d
+dZone 1 dZone 2
+TS77818PF
+$450
+$585
+$608
+TS77824PF
+$470
+$611
+$635
+TS77830PF
+$498
+$647
+$673
+TS77836PF
+$524
+$681
+$708
+TS77842PF
+$559
+$727
+$756
+TS77848PF
+$610
+$793
+$825
+N.A.
+N.A.
+d
+d
+d
+d
+For Canadian Orders
+The “ship-to” destination will
+determine whether Zone 1
+pricing or Zone 2 pricing
+should be used.
+cPage 1
+Tackable Acoustical Panel Packages
+Answer Speciﬁcation Guide
+75
+Speciﬁcation Information
+42"H
+54"H
+U.S.
+CANADA
+U.S.
+CANADA
+DWidth
+DStyle
+DBase
+DBase Price
+DStyle
+DBase
+DBase Price
+d
+dNumber
+dPrice
+d
+dNumber
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+dZone 1 dZone 2
+d
+d
+dZone 1 dZone 2
+18"
+TS74218PF
+$232
+$302
+$314
+TS75418PF
+$242
+$315
+$328
+24"
+TS74224PF
+$254
+$330
+$343
+TS75424PF
+$266
+$346
+$360
+30"
+TS74230PF
+$280
+$364
+$379
+TS75430PF
+$292
+$380
+$395
+36"
+TS74236PF
+$306
+$398
+$414
+TS75436PF
+$318
+$413
+$430
+42"
+TS74242PF
+$337
+$438
+$456
+TS75442PF
+$347
+$451
+$469
+48"
+TS74248PF
+$380
+$494
+$514
+TS75448PF
+$390
+$507
+$527
+60"
+TS74260PF
+$479
+$623
+$648
+TS75460PF
+$491
+$638
+$664
+72"
+TS74272PF
+$553
+$719
+$748
+TS75472PF
+$573
+$745
+$775
+d
+d
+d
+d
+d
+d
+d
+d
+d
+66"H
+U.S.
+CANADA
+DWidth
+DStyle
+DBase
+DBase Price
+d
+dNumber
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+dZone 1 dZone 2
+18"
+TS76618PF
+$302
+$393
+$409
+24"
+TS76624PF
+$326
+$424
+$441
+30"
+TS76630PF
+$350
+$455
+$473
+36"
+TS76636PF
+$376
+$489
+$509
+42"
+TS76642PF
+$407
+$529
+$550
+48"
+TS76648PF
+$450
+$585
+$608
+60"
+TS76660PF
+$577
+$750
+$780
+72"
+TS76672PF
+$657
+$854
+$888
+d
+d
+d
+d
+d
+Tip: 78"H full-skin panels
+cannot accommodate
+directional fabrics. Use
+segmented panels for
+directional fabrics.
+Panels
+Performance Tackable Acoustical Panel Packages
+74
+Answer Speciﬁcation Guide
+Standard Includes
+Required to Specify
+cNeed help?
+Product details,
+page 000
+• Full tackable acoustical skins on both sides of panel:
+fabric price group A
+Exception: 78"H panels are standard with fabric price
+group 1 fabrics. Base price for 78"H panels (at right)
+includes fabric price group 1 fabrics.
+• Top cap: color default determined by trim paint color
+• Trim: painted steel
+• Base raceway space
+• Cable lay-in tray
+• Two horizontal connecting bars
+1 Style number
+2 Fabric color number for side 1
+3 Fabric color number for side 2
+4 Paint color number for trim
+5 Options, if selected (see below)
+cSee Surface Materials, page 000.
+Tip: Remember to order
+junctions to connect adja-
+cent panels.
+cPage 000
+Tip: COM option is priced
+as fabric price group 2.
+Side 1
+Side 2
+Tip: Remember to order
+receptacles and faceplates.
+cPages 000 and 000
+Tip: 18"W panels can
+accommodate pass-through
+power only.
+Options
+U.S.
+Zone 1 Zone 2
+Required to Specify
+Surface 
+Panel surface
+Materials
+• Fabric price group 1 each side
++$
+6 +$
+8 +$
+8
+Specify fabric color number.
+• Fabric price group 2 each side
++$ 18 +$ 23 +$ 23
+Specify fabric color number.
+Power with
+• One pass-through power harness 
++$117
++$152 +$158
+Specify with one pass-through
+3+1, 2+2, or
+18"W to 48"W
+harness and indicate wiring
+three separate
+schematic type (3+1, 2+2, or 3SN).
+neutrals (3SN)
+• One pass-through power harness 
++$130 +$169 +$176
+Specify with one pass-through
+wiring
+60"W or 72"W
+harness and indicate wiring
+schematics
+schematic type (3+1, 2+2, or 3SN).
+• Two pass-through power harnesses
++$234 +$304 +$316
+Specify with two pass-through
+18"W to 48"W 
+harnesses and indicate wiring
+schematic type (3+1, 2+2, or 3SN).
+• Two pass-through power harnesses
++$260 +$338 +$352
+Specify with two pass-through
+60"W or 72"W 
+harnesses and indicate wiring
+schematic type (3+1, 2+2, or 3SN).
+• One power kit 24"W to 48"W
++$156 +$203 +$211
+Specify with one power kit and
+indicate wiring schematic type
+(3+1, 2+2, or 3SN).
+• One power kit 60"W or 72"W
++$273 +$355 +$369
+Specify with one power kit and
+indicate wiring schematic type
+(3+1, 2+2, or 3SN).
+• Two power kits 24"W to 48"W
++$312 +$406 +$422
+Specify with two power kits and
+indicate wiring schematic type
+(3+1, 2+2, or 3SN).
+• Two power kits 60"W or 72"W
++$546 +$710 +$738
+Specify with two power kits and
+indicate wiring schematic type
+(3+1, 2+2, or 3SN).
+• One pass-through power harness
++$273 +$355 +$369
+Specify with one pass-through
+and one power kit 24"W to 48"W
+harness and one power kit and
+indicate wiring schematic type
+(3+1, 2+2, or 3SN).
+• One pass-through power harness
++$403 +$524 +$545
+Specify with one pass-through
+and one power kit 60"W or 72"W
+harness and one power kit and
+indicate wiring schematic type
+(3+1, 2+2, or 3SN).
+Top Cap
+• Change-of-height cable routing
++$
+8 +$ 10 +$ 10
+Specify with change-of-height,
+at one end of top cap
+one end.
+• Change-of-height cable routing
++$ 12 +$ 16 +$ 16
+Specify with change-of-height,
+at both ends of top cap on 36"W
+both ends.
+and wider panel
+Tip: Change-of-height top
+cap is not available on 78"H
+panel.
+Answer Solutions Specification Guide                                                                                                                                                                                                       3
+Ten Tips:
+How to Get the Most
+Out of This Book
+Tip 6
+Italic typeface on speci-
+fying pages usually identi-
+fies wording that you should
+use in your order.
+Tip 7
+Watch for tips through-
+out the text that give you
+explanations and helpful
+instructions.
+Tip 8
+Learn what you cannot
+do by looking for drawings
+crossed out with an “X.”
+To determine how man
+skins are needed to com-
+plete a panel, consult the
+table at right.
+Tip: Remember to order
+skins for both sides of the
+panel buildup.
+Tip 9
+Use the surface mate-
+rials listings in the
+Surface Materials section of
+this book to find surface
+material color numbers. 
+cPage 708
+Tip 10
+Refer to the style num-
+ber index when you know
+a style number and you
+need to find the page that
+has more details about the
+product.
+cPage 730
+Style
+Number
+TS7042BL
+TS7042S
+TS7048BL
+TS7048S
+TS7060BL
+TS7060S
+TS7072BL
+Page
+131
+130
+131
+130
+131
+130
+131
+Tip 5
+Refer to the specifying 
+pages for all the information 
+needed to order a product. 
+Each product specifying 
+page contains a variety of 
+elements to help you complete 
+a specification:
+• Product Drawing
+• Standard Includes
+• Required to Specify
+• Options
+• Related Products
+• Specification Information
+  • Dimensions
+  • Style Number
+  • Price
+Product Drawing
+shows you what the 
+product looks like.
+Related Products
+provide specification infor-
+mation for products that are
+directly related.
+Standard Includes
+(under the dark grey band)
+provides a list of what
+comes standard with the
+product.
+Required to Specify
+(under the dark grey band)
+itemizes the information
+that you must provide to
+order the standard product
+and the preferred sequence
+for specification.
+Specification
+Information
+(under the light grey band)
+provides product dimen-
+sions, style numbers, and
+prices for the standard
+product and any surface
+material choices that are
+available.
+Options
+(under the black band) lists
+all the options that apply to
+the product, their price, and
+what is required to specify.
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

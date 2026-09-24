@@ -1,0 +1,279 @@
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Steelcase Surfaces
+Price Group 1
+Smooth Paint
+4242 Milk
+Textured Paint
+7207  Black
+7225  Sand
+7230  Basalt
+7236  Fog E
+7237  Slate E
+7238  Fieldstone
+7239  Midnight
+7241  Arctic White
+7243  Seagull
+7278  Dark Bronze
+7360  Merle
+Price Group 2
+Smooth Metallic Paint
+4728  Nickel Metallic
+4743  Mineral Metallic
+4744  Pearl Metallic
+4750  Champagne Metallic
+4752  Steel Metallic E
+4788  Gold Dust Metallic E
+4798  Sterling Metallic
+4799  Platinum Metallic
+4803  Near Black Metallic
+Textured Metallic Paint
+7245  Carbon Metallic
+7246  Midnight Metallic
+Select Surfaces
+Price Group 3
+Accent paint
+Accent paints allow you to
+choose from a pre-matched
+color palette of trend driven
+colors that are available
+without the PerfectMatch
+registration fee. Refer to the
+Surface Materials
+Reference Manual for more
+information about this pro-
+gram.
+Custom Surfaces
+Price Group 3
+PerfectMatch 
+PerfectMatch is a service
+that allows you to create
+your own paint color. Refer
+to the Surface Materials
+Reference Manual for more
+information about this 
+program.
+Laminate
+cSee Surface Materials
+Reference Manual for a 
+listing of available laminates 
+for Victor2.
+Steelcase Surfaces
+Applies to:
+•  Duo Storage boxes
+Solid Laminate
+2722  Cream E
+2730  Arctic White
+2746  Black
+2759  Warm White E
+2811  Mist E
+2883  Seagull
+2884  Milk
+2885  Dune
+Applies to:                           
+• Answer Laminate Skins
+• Universal Worksurfaces 
+  and Tables—High-
+  Pressure Laminate          
+• Answer mobile pedestal   
+  tops                                 
+• Universal Storage tops
+• TS Series Worksurfaces
+• TS Series Storage
+• Infills for FrameOne legs
+High-Pressure
+Laminate
+Fiber Laminate
+2850  Vanadium Fiber
+2851  Rhyme Fiber
+2852  Tungsten Fiber
+2854  Vellum Fiber
+2859  Novell Fiber
+2860  Granite Fiber
+2861  Coconut Fiber
+2862  Stucco Fiber
+Metallic Laminate
+2503  Brushed Silver*
+Micro Laminate
+2920  Marl Micro
+2921  Gypsum Micro
+2922  Clay Micro
+2923  Shadow Micro
+Patina Laminate
+2870  Blonde Bronze
+          Patina
+2871  Blackened Bronze
+          Patina
+2873  Instant Iron Patina
+Solid Laminate
+2722  Cream E
+2730  Arctic White
+2746  Black
+2759  Warm White E
+2811  Mist E
+2883  Seagull
+2884  Milk
+2885  Dune
+Speckle Laminate
+2820  Coffee Speckle
+2822  Woodrose Speckle
+2823  Driftwood Speckle
+2824  Smoke Speckle
+2825  Vanadium Speckle
+*Only available on TS
+Series worksurfaces and 
+TS Series common shelves.
+Note: Some wood veneer
+finishes and woodgrain 
+laminates share the same
+name. Because of the 
+difference in materials,
+veneers and laminates of
+the same name are not an
+exact match but do coordi-
+nate with each other.
+Woodgrain Laminate
+2406  Clear Cherry
+2409  Clear Maple
+2410  Graphite Walnut
+2412  Natural Cherry
+2422  Medium Cherry
+2511  Winter on Maple
+2535  Virginia Walnut
+2536  Blackwood
+2538  Clear Walnut
+2539  Warm Oak E
+2592  Blonde on Maple
+2714  Natural Walnut
+2772  Medium Mahogany
+on Walnut E
+2HAK Clear Oak
+2HAT Acacia
+Note: Woodgrain
+Laminates and the
+Turnstone Laminate
+Collection are not avail-
+able as matched sets. The
+grain patterns will not align.
+These are not recom-
+mended for fully segmented
+skin applications.
+Turnstone Laminate
+Collection 
+A selection of laminates
+and edge bands in this 
+collection are available on
+Steelcase brand products.
+This collection is available
+with standard leadtimes and
+supported like standard
+laminates to help make
+ordering easy. Please see
+the Turnstone section of 
+village.steelcase.com for
+swatching information.
+2535  Virginia Walnut
+2536  Blackwood            
+2612  Marbled Maple          
+2614  Chocolate Walnut     
+2615  Marbled Cherry
+Tip: Turnstone Laminate
+Collection are not available
+on doors or bullnose laminate
+storage tops.
+Custom Surfaces
+Open Line
+Laminate (OLL)
+This service allows you to
+order non-standard lami-
+nate at an additional pro-
+cessing fee of $65 U.S. per
+worksurface or top, plus the
+cost of the laminate.
+When processing orders 
+for Open Line laminate on
+Universal worksurfaces and
+Universal Storage tops,
+specify 2900 in the laminate
+finish field and enter the
+OLL manufacturer informa-
+tion. Enter the required
+edge finish as you would a
+standard laminate.
+Laminate Approval and
+Material Requirements
+To confirm whether a partic-
+ular laminate has already
+been tested for use on a
+specific Steelcase product
+or to determine material
+square foot requirements:
+• Visit www.steelcase.com
+For additional informa-
+tion, refer to the Steelcase
+Surface Materials Reference
+Manual.
+This listing includes all
+the surface material choices
+that are available for the
+products in this specifica-
+tion guide.
+Resources
+For more information about
+surface materials, refer to
+the following resources:
+Additional surface
+materials specification
+tools are available to
+assist you in the specifica-
+tion process—the Surface
+Materials Binders.
+The global surface
+materials palette is a
+core collection of finishes
+that is available across 
+multiple geographies
+(Americas/EMEA – Europe,
+Middle East, and Africa/
+APAC – Asia Pacific) and
+on global product lines,
+where applicable. For a list
+of finishes included in the
+offering, see the Surface
+Materials Reference
+Manual. Additional details,
+like product approvals by
+geography and finish num-
+ber conversions, can also
+be found in the Surface
+Materials Reference Manual
+or see steelcase.com/
+surfacematerials.
+Surface Materials
+Binders include:
+• Surface Materials
+Reference Manual
+• A complete set of swatch
+cards for hard surfaces,
+vertical surface fabrics,
+and seating upholstery
+Paint
+cSee Surface Materials
+Reference Manual for a 
+listing of available paints 
+for Victor2.
+Tip: All products may not be
+available in all colors listed
+below.
+cSee page 714 for an
+overview of the paint 
+colors available on each
+component.
+708                                                                                                                                                                                                   Answer Solutions Specification Guide
+Surface Materials
+...............................................................................................................................................
+...............................................................................................................................................
+E = Established
+February 2015

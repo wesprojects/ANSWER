@@ -1,0 +1,64 @@
+592                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide 
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$  42                                    Specify paint color number.
+                                     • Paint price group 3                     +$  71                                    Specify paint color number.
+  Perforation          • Large perforation on drawer       +$170                                   Specify with large perforation
+                                        fronts                                                                                        on drawer fronts.
+  Pulls                    • Ledge pulls: 7207 Black             +$  27                                    Specify with 7207 Black ledge pulls.
+                              • Ledge pulls: 4799 Platinum        +$  33                                    Specify with 4799 Platinum ledge pulls.
+  Trim Strip               • Extra handle pull on trim strip     +$  33                                    Specify with extra handle pull
+  Handle Pull               of mobile pedestals only                                                           on trim strip.
+  Casters                • 3"-diameter, large, front-locking, +$  66                                    Specify with large casters.
+                                        hard casters for use with                                                          
+                                        box/ﬁle mobile pedestal
+                                        (TS2PBF22M only)
+  Related                   • Box drawer divider                                                                 cPage 594
+  Products              • File drawer divider                                                                 cPage 594
+                                     • Pencil tray                                                                              cPage 594
+Speciﬁcation Information
+DDimensions                DFile                   DStyle                 DU.S. 
+dD        W         H          dDrawers           dNumber             dBase
+d
+d
+d
+dPrice
+d                                           d
+d
+d
+22"         151⁄4"     21"           Box, File                 TS2PBF22M       $490         
+22"         151⁄4"     265⁄8"        File, File                  TS2PFF22M        $551         
+22"         151⁄4"     265⁄8"        Box, Box, File         TS2PBBF22M     $607         
+d
+d
+d
+d
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 250
+• Pedestal: paint price group 1
+• Handle pulls: 0835 Black or 9211 Nickel
+• Lock face ring with plastic plug to accommodate 
+lock cylinder: 9201 Polished Chrome
+• Steel ball-bearing suspensions on box and ﬁle drawers
+• 11⁄2"-diameter, front-locking, hard casters
+• Counterweight package
+1 Style number
+2 Paint color number for pedestal
+3 Paint color number for handle pulls: 
+0835 Black 
+9211 Nickel
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Remember to specify lock cylinder
+and key.
+cLock Cylinders, page 726
+TS Series Storage 
+TS Series Mobile Pedestals
+With Steel Top
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

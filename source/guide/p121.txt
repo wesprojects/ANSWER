@@ -1,0 +1,70 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            121
+Sliding Panel Doors
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Product Details
+Sliding door is handed.
+Right-handed sliding door or
+left-handed sliding door must
+be specified.
+Sliding door can be 
+specified with lock option.
+Specify lock cylinder and 
+key separately.
+Door insert is standard in
+ribbed, translucent plastic.
+Clear tempered glass and
+white laminated glass are
+available as options.
+Surface Materials
+Frame and door track
+• Paint
+Door insert
+• 6625 Translucent
+• 6500 Clear glass
+• 6541 White laminated
+Application Topics
+Sliding door is not free-
+standing. It must mount to
+panels.
+Door is attached to the host
+panel only. Therefore, the
+stability of the door is closely
+related to the stability of the
+host panel.
+cSee Guidelines for Sliding
+Door Applied to Answer,
+page 139.
+Door track is attached to
+both host panel and oppo-
+site panel. 
+Height of door must
+match height of host panel -
+66"H or 78"H.
+Match the width of the host
+panel to the width of the
+door, if possible.
+When attaching the
+sliding door to an
+Answer panel, a junction
+stabilizer bracket is available
+for added rigidity to the host
+panel. If a host and/or
+receiving panel run exceeds
+4', a junction stabilizer
+bracket must be applied to
+the door end of the host
+and/or receiving panel run.
+On long runs, apply a junc-
+tion stabilizer bracket or per-
+pendicular panel every 8'.
+Sliding panel door can-
+not attach to a host panel
+with a double-pane window.
+Shared Components
+Shared Components
+February 2015

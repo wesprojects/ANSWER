@@ -1,0 +1,65 @@
+346                                                                                                                                                                                                            Answer Solutions Specification Guide
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 14
+• Junction
+• Inside corner light seals
+• Trim/junction cap: paint or wood
+• Aligners
+1 Style number
+2 Paint or wood color number for junction
+cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Customiz stain on wood             No cost                              Specify with Customiz stain.
+                                  • Omit trim                                     Prices below                      Specify with omit trim.
+Specification Information
+DCorresponding          DStyle                    DU.S.              DOption
+dPanel
+dNumber               dBase             d(Add $ to
+dHeight
+d
+dPrice               dBase Price)
+d
+d
+d                         d
+d
+d
+d                         dOmit Trim
+Painted Trim
+30"                                       TS730TXPJ             $156                   –$12
+42"                                       TS742TXPJ             $156                   –$12
+48"                                       TS748TXPJ             $156                   –$12
+54"                                       TS754TXPJ             $156                   –$12
+66"                                       TS766TXPJ             $156                   –$12
+78"                                       TS778TXPJ             $219                   –$12
+d
+d
+d                         d
+Wood Trim
+30"                                       TS730TXPJW         $220                   –$80
+42"                                       TS742TXPJW         $220                   –$80
+48"                                       TS748TXPJW         $220                   –$80
+54"                                       TS754TXPJW         $220                   –$80
+66"                                       TS766TXPJW         $220                   –$80
+78"                                       TS778TXPJW         $282                   –$80
+d
+d
+d                         d
+Panels—Thin Trim
+X Same Height Base Panel Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Omit trim option is used
+when stacking on base
+panel junctions.
+Tip: Remember to specify
+necessary junction cap and
+aligners if the omit trim
+option is selected.
+February 2015

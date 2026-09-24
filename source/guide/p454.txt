@@ -1,0 +1,114 @@
+454                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Wood To The Floor Skin Sets
+                                                
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 115
+• Skin: wood veneer
+• Trim: paint
+• Attachment hardware
+1 Style number
+2 Wood veneer color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Wood skin sets should
+be selected when grain 
+pattern alignment of all seg-
+mented skins on a frame is
+desired.
+Tip: Remember to omit base
+trim(s) on horizontal frame
+package when using a skin
+to the ﬂoor.
+Tip: When specifying skins,
+the total skin height will be
+6" less than the panel
+height. When ordering skins
+to the floor an F suffix will be
+added to the end of the style
+number for the skin in the
+lowest position on the panel.
+The total skin height will still
+be 6" less than the panel
+height. 
+cSee Panel Buildups, page 
+12, for more information.
+                            Options                   U.S. Price                   Required to Specify
+  Surface                • Premium wood 2                   Prices below and at right            Specify Premium wood 2 ﬁnish number.
+  Materials             • Premium wood 3                   Prices below and at right            Specify Premium wood 3 ﬁnish number.
+                               • Customiz stain                  No cost                                       Specify with Customiz stain.
+                                                                                                                       cSee Surface Materials Reference Manual.
+   Speciﬁcation Information
+DWidth   DStyle                     DU.S.      DOptions                                    
+d             dNumber                 dBase    d(Add $ to                                           
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+dPremium Wood
+d
+d
+d
+d
+d
+d
+d
+dWood 2
+dWood 3
+42"H Wood Skin Sets
+Set A = One 12"H Skin and One 24"H Skin
+24"             TS74224AWSF       $  813       +$104       +$364
+30"             TS74230AWSF       $  865       +$104       +$364
+36"             TS74236AWSF       $  919       +$142       +$498
+42"             TS74242AWSF       $  975       +$142       +$498
+48"             TS74248AWSF       $1034       +$142       +$498
+d
+d
+d
+d
+d
+48"H Wood Skin Sets
+Set A = One 12"H Skin and One 30"H Skin
+24"             TS74824AWSF       $  888       +$142       +$498
+30"             TS74830AWSF       $  942       +$142       +$498
+36"             TS74836AWSF       $  998       +$142       +$498
+42"             TS74842AWSF       $1057       +$185       +$647
+48"             TS74848AWSF       $1131       +$185       +$647
+d
+d
+d
+d
+d
+Set B = One 18"H Skin and One 24"H Skin
+24"             TS74824BWSF       $  888       +$147       +$514
+30"             TS74830BWSF       $  942       +$147       +$514
+36"             TS74836BWSF       $  998       +$147       +$514
+42"             TS74842BWSF       $1057       +$192       +$671
+48"             TS74848BWSF       $1131       +$192       +$671
+d
+d
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+12"H
+24"H
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+12"H
+30"H
+18"H
+24"H
+February 2015

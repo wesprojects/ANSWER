@@ -1,0 +1,103 @@
+444                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Laminate Skins
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 114
+• Skin: laminate
+• Trim: paint
+• Attachment hardware
+1 Style number
+2 Laminate color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+                            Options                   U.S. Price                   Required to Specify
+  Surface                • Open Line laminate            +$65 plus cost                         cSee Surface Materials Reference Manual.
+  Materials                                                      of laminate
+Specification Information
+              12"H                              18"H                              24"H                                  30"H                        
+                 
+                                    
+                                    
+                                        
+                               
+DWidth   DStyle             DU.S.      DStyle              DU.S.      DStyle              DU.S.         DStyle              DU.S.   
+d             dNumber        dBase    dNumber         dBase    dNumber         dBase        dNumber         dBase
+d
+d
+dPrice
+d
+dPrice    d
+dPrice        d
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+24"           TS71224LS     $281         TS71824LS     $303         TS72424LS     $324             TS73024LS     $344    
+30"           TS71230LS     $292         TS71830LS     $316         TS72430LS     $341             TS73030LS     $371    
+36"           TS71236LS     $300         TS71836LS     $328         TS72436LS     $356             TS73036LS     $388    
+42"           TS71242LS     $317         TS71842LS     $345         TS72442LS     $373             TS73042LS     $409    
+48"           TS71248LS     $328         TS71848LS     $359         TS72448LS     $389             TS73048LS     $428    
+d
+d
+d
+d
+d
+d
+d
+d
+d
+              36"H                              42"H                              48"H                                  60"H
+                 
+                                    
+                                    
+                                        
+DWidth   DStyle             DU.S.      DStyle              DU.S.      DStyle              DU.S.         DStyle              DU.S.   
+d             dNumber        dBase    dNumber         dBase    dNumber         dBase        dNumber         dBase
+d
+d
+dPrice
+d
+dPrice    d
+dPrice        d
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+24"             TS73624LS    $363         TS74224LS     $374         TS74824LS     $387             TS76024LS     $445    
+30"             TS73630LS    $403         TS74230LS     $405         TS74830LS     $407             TS76030LS     $466    
+36"             TS73636LS    $417         TS74236LS     $430         TS74836LS     $443             TS76036LS     $493
+42"             TS73642LS    $444         TS74242LS     $455         TS74842LS     $464             TS76042LS     $513    
+48"             TS73648LS    $470         TS74248LS     $487         TS74848LS     $505             TS76048LS     $571
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Tip: 18"H, 30"H, and 42"H
+skins only work on junctions
+manufactured on or after
+October 10, 2011.
+February 2015

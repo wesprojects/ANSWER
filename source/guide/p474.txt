@@ -1,0 +1,38 @@
+474                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Wiring and Cabling
+Cable Trays
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 162
+• Cable tray: black paint only
+Style number
+   Speciﬁcation Information
+DDimensions    DStyle          DU.S.
+dW       H          dNumber      dPrice
+d                            d                      d
+18"         2"             TS718CT     $23
+24"         2"             TS724CT     $27
+30"         2"             TS730CT     $29
+36"         2"             TS736CT     $36
+42"         2"             TS742CT     $40
+48"         2"             TS748CT     $47
+60"         2"             TS760CT     $52
+72"         2"             TS772CT     $62
+  d                            d                      d
+Tip: Cables may also be
+routed in top of powerkit.
+Tip: One cable tray can be
+optioned at no cost when
+ordering base horizontal
+frame or panel packages.
+Tip: Cable carriers can be
+added to 24"–72" wide trays.
+cSee Montage Speciﬁcation
+Guide for style number ZCC. 
+February 2015

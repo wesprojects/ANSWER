@@ -1,0 +1,69 @@
+546                                                                                                                                                                                                   Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Support Plate
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 180
+• Support plate: black paint only
+• Attachment hardware
+Style number
+Speciﬁcation Information
+DDimensions
+DStyle              DU.S.
+d                         dNumber         dPrice
+d
+d                          d
+14"D                    TS714WSP      $64
+20"D                    TS720WSP      $64
+d
+d
+d
+Tie Plates
+Standard Includes                                      Required to Specify
+• Package of six tie plates: black paint only
+• Attachment hardware
+Style number
+Speciﬁcation Information
+DDimensions
+DStyle                   DU.S.
+d                         dNumber              dPrice
+d
+d                               d
+33⁄4"L                    TS7TIEPLATE      $94
+d
+d
+d
+Tip: Support plate can also
+be used in freestanding
+applications.
+Tip: Reinforcing channel
+can also be used in 
+freestanding applications.
+Reinforcing Channels
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 181
+• Reinforcing channel: black paint only
+• Attachment hardware
+Style number
+Speciﬁcation Information
+DDimensions
+DStyle                DU.S.
+d                         dNumber            dPrice
+d
+d                            d
+39"W                    TS7WKSPT39    $47
+57"W                       TS7WKSPT         $47
+72"W                       TS7WKSPT72    $47
+d
+d
+d
+Universal Systems Worksurfaces
+Panel-Mounted Universal Systems Worksurface Supports                                                                                             
+for Use with Answer Panels, continued                                                                                                                          
+February 2015

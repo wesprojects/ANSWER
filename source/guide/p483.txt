@@ -1,0 +1,51 @@
+Shared Components and Wiring and Cabling
+Wiring and Cabling
+Answer Solutions Speciﬁcation Guide                                                                                                                                           cWiring and Cabling, continued  483
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Multipurpose Power Infeeds
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 164
+• Multipurpose power infeed with modular connector
+• Insulated color-coded wires for hardwired connection to
+building power source
+Style number
+Speciﬁcation Information
+                                                                        Non-PVC
+DLength     DStyle                    DU.S.                              DLength       DStyle                       DU.S.
+d                dNumber               dPrice                            d
+dNumber                   dPrice
+d                   d                                  d
+d
+d                                      d
+4-Circuit, 3+1 Wiring Schematic                   4-Circuit, 3+1 Wiring Schematic
+6'                TS76UPHX            $250                                    6'                       TS76UPHXN        $250
+12'               TS712UPHX          $322                                    12'                     TS712UPHXN       $332
+24'                  TS724UPHX          $466                                    24'                     TS724UPHXN       $478
+d                   d                                  d
+d
+d                                      d
+4-Circuit, 2+2 Wiring Schematic                   4-Circuit, 2+2 Wiring Schematic
+6'                    TS76UPHY            $250                                    6'                       TS76UPHYN        $250
+12'                  TS712UPHY          $322                                    12'                     TS712UPHYN       $332
+24'                  TS724UPHY          $466                                    24'                     TS724UPHYN       $478
+d                   d                                  d
+d
+d                                      d
+3-Circuit, Separate Neutrals (3SN)                3-Circuit, Separate Neutrals (3SN)
+Wiring Schematic                                           Wiring Schematic
+6'                    TS76UPHZ            $250                                    6'                       TS76UPHZN        $250
+12'                  TS712UPHZ          $322                                    12'                     TS712UPHZN       $332
+24'                  TS724UPHZ          $466                                    24'                     TS724UPHZN       $478
+  d                   d                                  d
+d
+d                                      d
+Tip: Utility poles must be
+speciﬁed separately. 
+cPage 411
+February 2015

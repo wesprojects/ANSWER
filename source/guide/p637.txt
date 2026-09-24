@@ -1,0 +1,94 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            637
+Universal Storage
+Universal Storage
+                                                                                                                     
+Universal One-High, 
+1.5-High, and Two 
+Drawer Lateral Files
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Specification Information
+DDimensions                   DCounterweight                 DStyle              DU.S. Base Prices
+dD                    W   H     dPackages                         dNumber         d
+dFlush Proud
+d
+d
+dFlush
+dProud   dProud
+dSteel
+Steel/
+dUniversal
+dFrameOne 
+d
+dSteel
+dSteel    dWood    
+d
+Wood
+d3" Base
+dFoot and
+d                           dFront        dFront    dFront
+d
+d
+dc:scape
+d                           d                  d
+d
+d
+d
+dGlide Bases d                           d                  d
+d
+d
+d
+d
+d                           d                  d
+d
+d
+d
+d
+d
+dSuffix F   dSuffix PdSuffix W
+Drawer–Drawer Configurations
+One 6"H Drawer and One 12"Drawer 
+18"         187⁄8"     30"  22"      Package A        Package A        RLF18301B_  $  802        $  858       $1741
+18"         187⁄8"     36"  22"      Package B        Package B        RLF18361B_  $  939        $1004       $1866
+18"         187⁄8"     42"  22"      Package C        Package C        RLF18421B_  $1064        $1142       $2111
+231⁄8"     24"         30"  22"      Package A        Package A        RLF24301B_  $1017        $1087       $2087
+231⁄8"     24"         36"  22"      Package B        Package B        RLF24361B_  $1186        $1270       $2244
+d
+d
+d
+d                           d                  d
+d
+Drawer–Open Configurations
+One 6"H Drawer and One 12"H Opening with Fixed Shelf 
+18"         187⁄8"     30"  22"      Package D        Package D        RLF18301C_  $  743        $  798       $1596
+18"         187⁄8"     36"  22"      Package E        Package E        RLF18361C_  $  877        $  940       $1722
+18"         187⁄8"     42"  22"      Package F        Package F        RLF18421C_  $  998        $1074       $1966
+231⁄8"     24"         30"  22"      Package D        Package D        RLF24301C_  $  949        $1020       $1943
+231⁄8"     24"         36"  22"      Package E        Package E        RLF24361C_  $1115        $1195       $2100
+d
+d
+d
+d                           d                  d
+d
+Open–Drawer Configurations
+One 6"H Opening with Fixed Shelf and One 12"Drawer 
+18"         187⁄8"     30"  22"      Package A        Package A        RLF18301D_  $  743        $  798       $1596
+18"         187⁄8"     36"  22"      Package B        Package B        RLF18361D_  $  877        $  940       $1722
+18"         187⁄8"     42"  22"      Package C        Package C        RLF18421D_  $  998        $1074       $1966
+231⁄8"     24"         30"  22"      Package A        Package A        RLF24301D_  $  949        $1020       $1943
+231⁄8"     24"         36"  22"      Package B        Package B        RLF24361D_  $1115        $1195       $2100
+d
+d
+d
+d                           d                  d
+d
+Two 12"H Drawers
+18"         187⁄8"     30"  28"      Package 3        Package 7        RLF18302_   $  823          $  879       $1749
+18"         187⁄8"     36"  28"      Package 4        Package 8        RLF18362_   $  961          $1027       $1874
+18"         187⁄8"     42"  28"      Package 4        Package 8        RLF18422_   $1086          $1164       $2119
+231⁄8"      24"         30"  28"      Package 3        Package 7        RLF24302_   $1008          $1078       $2095
+231⁄8"      24"         36"  28"      Package 4        Package 8        RLF24362_    $1209          $1292       $2252
+cSpecification Information, continued from previous page
+February 2015

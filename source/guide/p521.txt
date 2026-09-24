@@ -1,0 +1,159 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   521
+Universal Systems
+Worksurfaces
+Universal Systems Worksurfaces
+Corner, Curved-Front Worksurfaces
+High-Pressure Laminate or Wood Veneer
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+                                 Wood veneer worksurfaces
+                               • Premium wood 2                       See information at left         Specify Premium wood 2 finish number.
+                               • Premium wood 3                       See information at left         Specify Premium wood 3 finish number.
+                               • Customiz stain                          No cost                                Specify with Customiz stain. 
+                                                                                                                            cSee Surface Materials Reference Manual.
+                                   • Full-fill finish                              Prices below                        Specify full-fill finish number.
+  Scallops                 • Omit scallops                            No cost                                Specify omit scallops.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Tip: Supports must be spec-
+ified separately, including
+side support brackets for
+rear corner support in
+panel-mounted applications.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate or wood veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallops on back edges
+• Wire manager for wood veneer worksurfaces,
+if selected: black
+1 Style number with appropriate edge
+profile suffix
+P Laminate with plastic P-edge
+SW Wood with square edge
+cSee edge profiles below.
+2 High-Pressure Laminate or wood color
+number for worksurface
+3 Plastic color number for front edge on
+laminate worksurface, if selected
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+A
+B
+C
+D
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles, 
+add a suffix to the style
+number. (For example,
+UCC114242 becomes
+UCC114242SW for wood 
+with square edge profile.)
+Premium Wood 
+Pricing: For Premium
+wood 2 or Premium wood 3
+pricing, please refer to the
+electronic catalog or
+SmartTools.
+Speciﬁcation Information
+                                             U.S. Base Prices              
+U.S. Base Price
+                                             High-Pressure Laminate  Wood
+High-Pressure Laminate
+    
+              
+DOption
+DDimensions
+DStyle           DPlastic    DPlastic            DWood
+d(Add $ to 
+DDimensions
+DStyle
+DPlastic
+dA    B      C      D      dNumber      d3 mm      dP-Edge            dSquare    dBase Price)
+dA
+B
+C
+D
+dNumber
+d3 mm
+d                                 d                   dEdge       d                       dEdge        d
+d
+d
+dEdge
+d                                 d                   d               d                       d
+d                
+d
+d
+d
+d                                 d                   d               d
+d
+dFull-Fill     
+d
+d
+d
+d                                 d                   dNo Sufﬁx dSufﬁx P
+dSufﬁx SW dFinish       
+d
+d
+dNo Sufﬁx
+With 1/2" Cord Drop                                                                              
+With Full Depth
+183⁄8" 183⁄8" 351⁄2" 351⁄2"   UCC113636 $406           N.A.                     N.A.             N.A.           
+187⁄8" 187⁄8" 36" 36" WCC113636 $406
+183⁄8" 183⁄8" 411⁄2" 411⁄2"   UCC114242 $433           $487                 $1002          +$52          
+187⁄8" 187⁄8" 42" 42" WCC114242 $433
+183⁄8" 183⁄8" 471⁄2" 471⁄2"   UCC114848 $484           N.A.                     N.A.             N.A.           
+187⁄8" 187⁄8" 48" 48" WCC114848 $484
+183⁄8" 231⁄2" 411⁄2" 411⁄2"   UCC124242 $465           $519                 $1034          +$52          
+187⁄8" 24"
+42" 42" WCC124242 $465
+231⁄2" 183⁄8" 411⁄2" 411⁄2"   UCC214242 $465           $519                 $1034          +$52          
+24"
+187⁄8" 42" 42" WCC214242 $465
+231⁄2" 231⁄2" 351⁄2" 351⁄2"   UCC223636 $412           $466                 $  981          +$52          
+24"
+24"
+36" 36" WCC223636 $412
+231⁄2" 231⁄2" 411⁄2" 411⁄2"   UCC224242 $449           $503                 $1018          +$52          
+24"
+24"
+42" 42" WCC224242 $449
+231⁄2" 231⁄2" 471⁄2" 471⁄2"   UCC224848 $498           $552                 $1067          +$55          
+24"
+24"
+48" 48" WCC224848 $498
+231⁄2" 231⁄2" 591⁄2" 591⁄2"   UCC226060 $801           $908                 N.A.             N.A.          
+291⁄2" 291⁄2" 411⁄2" 411⁄2"   UCC334242 $486           $540                 $1055          +$53          
+30"
+30"
+42" 42" WCC334242 $486
+291⁄2" 291⁄2" 471⁄2" 471⁄2"   UCC334848 $540           $594                 $1109          +$57          
+30"
+30"
+48" 48" WCC334848 $540
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Corner, Curved-Front
+Worksurfaces
+February 2015

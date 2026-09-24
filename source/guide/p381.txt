@@ -1,0 +1,63 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            381
+Specification Information
+DWidth      DStyle                DU.S.        DOption
+d
+dNumber            dBase       d(Add $ to
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+dWood Top Cap
+18"
+TS718THF
+$  74
++$183
+24"
+TS724THF
+$  78
++$183
+30"
+TS730THF
+$  84
++$183
+36"
+TS736THF
+$  89
++$183
+42"
+TS742THF
+$101
++$183
+48"
+TS748THF
+$107
++$183
+60"
+TS760THF
+$136
++$244
+72"
+TS772THF
+$187
++$244
+d
+d
+d
+d
+Panels—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+scale 75
+Base Horizontal Frame
+Packages—Thin Trim
+Panels—Thin Trim
+February 2015

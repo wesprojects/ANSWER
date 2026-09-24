@@ -1,0 +1,69 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+500                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+TS Series Worksurfaces 
+TS Series Linking Worksurfaces
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 176
+• 13⁄16"-thick worksurface: High-Pressure Laminate
+• 3 mm radius proﬁle edge on user’s side: plastic 
+• Side edge: plastic default to match user's side
+• Cutout on linking worksurface
+1 Style number
+2 High-Pressure Laminate color number
+for worksurface, as appropriate
+3 Plastic edge band color number for
+worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+  Related                   • Worksurface-height power and communication access        cPage 555
+  Products                • Worksurface legs and supports                                             cPage 502
+   Speciﬁcation Information
+DDepth    DDepth     DStyle                DU.S.         
+dLeft       dRight      dNumber            dBase
+d              d               d
+dPrice
+d                 d                  d
+d
+Linking Worksurfaces For Use with 3" Panel Systems
+27"              27"              TSAWH2727A  $427
+27"              33"              TSAWH2733A  $454
+33"              27"              TSAWH3327A  $454
+33"              33"              TSAWH3333A  $474
+d                 d                  d
+d
+Tip: Standard worksurfaces
+are 13⁄16" thick. However,
+the actual thickness
+between Low-Pressure
+Laminate (LPL) and High-
+Pressure Laminate (HPL)
+worksurfaces is slightly dif-
+ferent. It is recommended
+that only worksurfaces of the
+same type are speciﬁed in a
+given application. In addi-
+tion, there may be sheen or
+texture differences when
+using LPL and HPL in adja-
+cent applications. Please
+use caution when mixing
+and matching different work-
+surface types.
+Tip: Remember to order
+cantilevers to connect 
+linking worksurfaces to 
+adjacent worksurfaces.
+cPage 503
+Linking
+L
+R
+February 2015

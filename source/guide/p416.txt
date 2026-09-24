@@ -1,0 +1,113 @@
+416                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Panels—Square and Oval Trim
+Standard Change-of-Height Trims—Square Trim
+                                                
+                            Options                       U.S. Price               Required to Specify
+  Surface                      Change-of-height trim
+  Materials                • Paint price group 1                     No cost                                 Specify paint color number.
+                              • Paint price group 2                     +$  11                                    Specify paint color number.
+                                     • Paint price group 3                     +$  21                                   Specify paint color number.
+                               • Fabric price group 1, 2, 3,          +$  52                                   Specify fabric color number for trim.
+                                        4, 5, or COM
+                                     • Fabric direction
+                                        –Horizontal application               No cost                                 Specify with horizontal application.
+                                        –(standard)
+                                        –Vertical application                   No cost                                 Specify with vertical application.
+                                     • Wood                                          +$155                                   Specify wood color number.
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+   Speciﬁcation Information
+DApplication         DStyle                   DU.S.                 DStyle                       DU.S.
+d                            dNumber              dBase               dNumber                   dBase
+d                            d                           dPrice               d                                dPrice
+d                            d                           d
+d                                d
+Painted Junction Cap
+Wood Junction Cap
+Slim Proﬁle
+12"
+TS712SCHS
+$63
+TS712SCHSW
+$113
+18"
+TS718SCHS
+$67
+TS718SCHSW
+$117
+24"
+TS724SCHS
+$73
+TS724SCHSW
+$123
+30"
+TS730SCHS
+$81
+TS730SCHSW
+$130
+36"
+TS736SCHS
+$90
+TS736SCHSW
+$138
+Cable-Routing Capability
+12"
+TS712SCH
+$63
+TS712SCHW
+$113
+18"
+TS718SCH
+$67
+TS718SCHW
+$117
+24"
+TS724SCH
+$73
+TS724SCHW
+$123
+30"
+TS730SCH
+$81
+TS730SCHW
+$130
+36"
+TS736SCH
+$90
+TS736SCHW
+$138
+d                            d                           d
+d                                d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 80
+• Change-of-height trim: paint price group 1
+• One change-of-height junction cap: must specify corner
+application or in-line application
+1 Style number
+2 Junction cap application
+3 Paint color number for trim
+4 Paint or wood color number for
+junction cap
+5 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Cable-routing trim 
+provides cable routing
+capacity.
+cSee page 148 for
+capacities.
+Tip: Remember to specify
+the change-of-height top cap
+option for the lower panels in
+change-of-height conﬁgura-
+tions when using either type
+of change-of-height trim.
+cPage 80
+Tip: For further information
+about fabric direction,
+cPage 713.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

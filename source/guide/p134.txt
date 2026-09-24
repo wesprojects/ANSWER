@@ -1,0 +1,46 @@
+134                                                                                                                                                                                                            Answer Solutions Specification Guide
+Shared Components
+Stability Guidelines, continued
+...............................................................................................................................................
+...............................................................................................................................................
+Guidelines for Bench Configurations without Top Cap Mounted Storage
+Single Sided Bench
+Double Sided Bench
+End-of-run support options include: 
+• Post leg and cantilever
+• Half loop leg
+• Open loop leg
+• Closed loop leg
+• Worksurface end panel
+• Pedestal with filler
+• 1H, 1.5H, or 2H (18" on 24"D) cabinet with panel-to-storage connector in perpendicular application.
+Note: 1H and 1.5H cabinet requires intermediate support.
+• 1H, 1.5H, or 2H (24"D) cabinet with panel-to-storage connector in parallel application. 
+Note: 1H and 1.5H cabinet requires intermediate support.
+Maximum worksurface depth is 24" with front support every 12'. 
+30"D worksurfaces require legs in the front of each worksurface on both ends of the worksurface.
+Center support panels cannot be used as supports.
+Slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.
+5' min.
+24' max.
+12' max.
+24"
+48" max
+12' max.
+No min.
+24' max.
+24"
+48" max
+12' max.
+48" max
+12' max.
+48" max
+Tip: When using a 1H, 1.5H, or 2H cabinet with 
+a storage-to-panel bracket to support the panel
+run, counterweights are required for cabinets that
+need them, unless the application is mirrored and
+the panel run is equal to or greater than 6'.
+Tip: Single sided applications using half loop leg
+require a cantilever between the leg and the next
+support.
+February 2015

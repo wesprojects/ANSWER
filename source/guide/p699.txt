@@ -1,0 +1,34 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            699
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 342
+• Vertical wire manager: plastic
+1 Style number
+2 Plastic color number:
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6652 Titanium
+6654 Sand
+6697 Fog
+cSee Surface Materials, page 708.
+   Speciﬁcation Information
+DHeight    DStyle             DU.S.
+d               dNumber        dPrice
+d                  d                         d
+48"                TS7PVWM      $28
+  d                  d                         d
+Tip: Wire manager can be
+cut in the ﬁeld to the speciﬁc
+length needed. 
+Lighting
+Vertical Wire Manager
+                                        
+Vertical Wire Manager
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Lighting
+February 2015

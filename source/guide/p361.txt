@@ -1,0 +1,60 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            361
+Panels—Thin Trim
+Panels—Thin Trim
+Off-Module Panel Connectors
+                                                
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 82
+• Top and bottom bracket
+• Bottom channel
+• Top cap ﬁller (oval style): plastic
+1 Style number
+2 Plastic color number for ﬁller
+cSee Surface Materials, page 708.
+Tip: Must be used with
+wall-start junctions, ordered
+separately.
+cPage 362
+Tip: Off-module panel con-
+nector works with thin,
+square, and oval style trims.
+Top cap ﬁller included in
+package is only used with
+oval style trims. Thin and
+square style trims do not
+require a top cap ﬁller.
+Tip: Wall-start junctions
+manufactured before
+October 2002 will not work
+with off-module panel 
+connectors.
+Tip: When using with wall-
+start junction manufactured
+before October 10, 2011, the
+bottom bracket must be
+replaced with part number
+T500938MP from Service
+Parts.
+   Speciﬁcation Information
+DWidth    DStyle              DU.S.
+d              dNumber         dPrice
+d              d                      d
+24"              TS724BKT      $253
+30"              TS730BKT      $253
+36"              TS736BKT      $253
+42"              TS742BKT      $253
+48"              TS748BKT      $253
+60"              TS760BKT      $253
+72"              TS772BKT      $253
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Off-Module Panel
+Connectors
+February 2015

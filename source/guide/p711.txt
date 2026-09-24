@@ -1,0 +1,281 @@
+Answer Solutions Specification Guide                                                                                                                                      cSurface Materials, continued  711
+Applies to:
+• 3 mm and 1 mm front 
+  edge profile on Universal 
+  Systems Worksurfaces 
+  and Tables and TS Series 
+  Worksurfaces
+• 1 mm square edge profile 
+  on Universal Storage 
+  laminate tops
+• 3 mm front edge radius 
+  profile on TS Series 
+  Shelves
+• Square edge laminate top
+  on TS 200 Series
+6000  Black*
+6001  Coffee*
+6009  Arctic White*
+6034  Natural Cherry
+6036  Medium Cherry
+6037  Winter on Maple
+6038  Blonde on Maple
+6041  Natural Walnut
+6045  Medium Mahogany
+          on Walnut E
+6052  Milk*
+6053  Seagull*
+6213  Acacia
+6219  Clear Oak
+6231  Graphite Walnut*
+6234  Clear Cherry*
+6237  Clear Maple*
+6242  Virginia Walnut*
+6243  Blackwood*
+6245  Clear Walnut*
+6246  Warm Oak* E
+6249  Platinum Solid*
+6615  Grey V5*
+6619  Ice* E
+6631  Cream*
+6635  Dawn* E
+6636  Mist*
+6654  Sand*
+6655  Warm White*
+6676  Marbled Maple
+6677  Chocolate Walnut
+6678  Marbled Cherry
+6689  Brushed Silver** E
+6694  Slate*
+6695  Midnight*
+6697  Fog*
+6698  Fieldstone*
+*These solid color and
+wood grain edge colors are
+a polyolefin blend, PVC-free
+material for 3 mm and 1 mm
+edge bandings.
+**6689 Brushed Silver is
+only available on TS Series
+products.
+Applies to:
+• P-edge and 1 mm profile
+on Universal Systems
+Worksurfaces and Tables 
+with High-Pressure 
+Laminate
+6000  Black
+6009  Arctic White
+6052  Milk
+6053  Seagull
+6249  Platinum Solid
+6654  Sand
+6694  Slate
+6695  Midnight
+6697  Fog
+6698  Fieldstone
+Applies to:
+• Personal Caddy
+6009  Arctic White
+6249  Platinum Solid
+6695  Midnight
+Note: Light color plas-
+tic edges are susceptible
+to degradation due to nor-
+mal wear and tear. Staining 
+(e.g., ball point pen or cloth-
+ing dyes such as blue
+jeans) and dirt effects are
+more pronounced in light
+colors and are not consid-
+ered defects.
+Accessory Paint
+Steelcase Surfaces
+Applies to:
+• Cabby legs with glides
+• Adjustable-height legs 
+  with glides
+• Universal table bases
+• Universal lateral files with 
+  c:scape pulls
+4140 Arctic White Gloss
+4144 Black Gloss
+Metal
+Steelcase Surfaces
+Applies to:
+• Elliptical leg
+9201 Polished Chrome
+Applies to:
+• Field-installed round
+  grommet
+9201 Polished Chrome
+9211 Nickel
+Plated Metal
+Steelcase Surfaces
+Applies to:
+• Universal Storage pulls
+0835  Black E
+9201  Polished Chrome
+9211  Nickel
+9212  Silver
+Glass
+Steelcase Surfaces
+Applies to:
+• Universal over the case 
+  or Universal in the case 
+  bin picture frame door 
+  glass insert
+6580 Ice White
+Acrylic
+Steelcase Surfaces
+Applies to:
+• Universal over the case 
+  or Universal in the case 
+  bin picture frame door 
+  acrylic insert
+6538  Satin
+Vertical Surface Fabric
+cSee Surface Materials
+Reference Manual for a 
+listing of available fabrics
+for Divisio side screen.
+Applies to:
+• Knit screens
+B902 Soft White
+B903 Fog
+B904 Sand
+Applies to:
+• Fabric skins and trims
+• Hutch kit tackboards
+Steelcase Surfaces
+Price Group A 
+Lido
+R159 Oak Bluffs
+R160 Cape May
+R162 Hermosa
+Sprite
+5540  Khaki
+5541  Snow
+5542  Butter
+5543  Linen
+5544  Sherbet
+5545  Powder
+5546  Harvest
+5547  Sky
+5548  Kiwi
+Buzz2
+5F01  Camel E
+5F03  Tomato
+5F04  Red E
+5F05  Burgundy
+5F06  Sky E
+5F07  Blue
+5F08  Navy
+5F10  Grape E
+5F11  Eggplant E
+5F15  Stone
+5F16  Grey
+5F17  Black
+5G50 Dunegrass
+5G51 Sable
+5G52 Barley
+5G53 Sunrise
+5G54 Carrot
+5G55 Pumpkin
+5G56 Timber
+5G57 Rouge
+5G58 Chocolate
+5G59 Meadow
+5G60 Ivy
+5G61 Cyan
+5G62 Atlantic
+5G63 Crocus
+5G64 Alpine
+5G65 Tornado
+Charm
+P504 Tint
+P505 Shell  
+P506 Mimosa  
+P507 Birch  
+P508 Sparkle  
+P509 Ginkgo  
+P510 Debut  
+P511 Clover  
+P512 Spicy  
+P513 Twilight
+Embrasure E
+P140 Colonnade                
+P141 Rotunda            
+P143 Baluster
+Lapel
+P409 Cement                     
+P410 Pebble                      
+P411  Beech                       
+P412  Dune                         
+P413 Grain                         
+P414 Sprout                       
+P415 Misty Blue                 
+P416 Maple                        
+P417 Slate
+Optic
+P540 Hazel   
+P541 Twinkle   
+P542 Orion   
+P543 Seaglass   
+P544 Shine   
+P545 Halo   
+P546 Whiskey   
+P547 Bath   
+P548 Whisper   
+P549 Breezy   
+P550 Wry   
+P551 Glimmer
+Price Group 1 
+Abacus E                    
+P122  Entasis                      
+P123  Portico                      
+P124  Opus                         
+P125  Cusp                         
+P126  Artifact
+P129  Atlas
+Acadia E
+G031 Tin                            
+G033 Iron                           
+G034 Pewter                      
+G039 Silica                         
+G041 Brimstone                 
+G043 Azurite
+Alloy 
+P525 Polar  
+P526 Skim  
+P527 Bubbly  
+P528 Tern  
+P529 Shore  
+P530 Asti  
+P531 Silver  
+P532 Oxide  
+P533 Element  
+P534 Construct   
+P535 Currency  
+P536 Iron
+Boccie
+P200 New Rice                 
+P201 New Almond            
+P202 New Nutmeg            
+P203 New Camel
+P204 New Opal
+P205 New Mist
+P206 New Plum
+P207 New Lichen
+P208 New Spearmint
+P209 New Sky
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Surface Materials
+Surface Materials
+E = Established
+February 2015

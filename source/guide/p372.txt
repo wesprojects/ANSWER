@@ -1,0 +1,99 @@
+Panels—Thin Trim 
+120° Corner Application Change-of-Height 
+Trims—Thin Trim
+372                                                                                                                                                                                                            Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 32
+• Trim: paint price group 1 or wood
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                   • Paint price group 1                     No cost                                  Specify paint color number.
+Materials                • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+Specification Information
+DCorresponding  DStyle                   DU.S.                     DStyle                       DU.S.
+dPanel
+          dNumber              dBase                    dNumber                   dBase
+dHeight
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+Painted Trim
+Wood Trim
+120° Corner Change-of-Height Trim
+12"
+TS712T120CHT
+$59
+TS712T120CHTW
+$212
+18"
+TS718T120CHT
+$59
+TS718T120CHTW
+$212
+24"
+TS724T120CHT
+$59
+TS724T120CHTW
+$212
+30"
+TS730T120CHT
+$62
+TS730T120CHTW
+$215
+36"
+TS736T120CHT
+$62
+TS736T120CHTW
+$215
+V Corner Change-of-Height Trim
+12"
+TS712TVCHT
+$59
+TS712TVCHTW
+$212
+18"
+TS718TVCHT
+$59
+TS718TVCHTW
+$212
+24"
+TS724TVCHT
+$59
+TS724TVCHTW
+$212
+30"
+TS730TVCHT
+$62
+TS730TVCHTW
+$215
+36"
+TS736TVCHT
+$62
+TS736TVCHTW
+$215
+d
+d
+d
+d
+d
+Tip: Thin change-of-height
+trim cannot be used with
+square or oval top trim.
+February 2015

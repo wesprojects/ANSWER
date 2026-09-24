@@ -1,0 +1,62 @@
+Shared Components and Wiring and Cabling
+Wiring and Cabling
+Answer Solutions Speciﬁcation Guide                                                                                                                                           cWiring and Cabling, continued  479
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Faceplate
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 167
+• One faceplate: plastic
+• Ordered individually
+1 Style number
+2 Plastic color number for faceplate:
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6651 Tungsten
+6652 Titanium
+6654 Sand
+6697 Fog
+   Speciﬁcation Information
+DStyle              DU.S.
+dNumber         dPrice
+d                           d
+Faceplate for Duplex Receptacle and Communications
+TS7UFPLATE   $5
+  d                           d
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 165
+• Non-PVC straight/flush junction box faceplate
+1 Style number
+2 Power schematic 
+3 Options, if selected (see below)
+Junction Box Faceplate–Modular
+Specification Information
+DStyle
+DU.S.
+dNumber              dBase
+d
+dPrice
+d
+d
+CQVM                       $66
+d                                d
+Options                       U.S. Price               Required to Specify
+Power                      • 3+1                                             No cost                                 Specify with 3+1.
+Schematics           • 2+2                                             No cost                                 Specify with 2+2.
+                                  • 3SN                                            No cost                                 Specify with 3SN.
+Faceplate               • 90° junction box faceplate           +$37                                      Specify with 90° faceplate.
+PVC                          • PVC junction box                         –$10                                      Specify with PVC.
+                                     faceplate
+90°
+Straight/
+Flush
+Tip: 90° is an option.
+February 2015

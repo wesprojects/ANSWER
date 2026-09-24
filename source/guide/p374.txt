@@ -1,0 +1,98 @@
+374                                                                                                                                                                                                            Answer Solutions Specification Guide
+Tip: When determining the
+number of junction blocks
+needed in a same-height
+corner, start with your lowest
+panel height. If the lowest
+height is 48" or less, start
+with 2 blocks. If the lowest
+height is 54" to 78" start with
+3 blocks.
+Tip: When determining the
+number of blocks needed in
+a change-of-height corner,
+please see page 34, How to
+Build Your Own Change-of-
+Height Applications.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 28
+• Junction blocks
+• Fasteners
+Style number
+Specification Information
+DApplication        DPackage   DStyle              DU.S.
+d
+dQuantity
+dNumber         dPrice
+d
+d
+d
+d
+90°
+3
+TS790JB3
+$31
+90° 
+4
+TS790JB4
+$41
+90°
+5
+TS790JB5
+$52
+120°
+3
+TS7120JB3
+$46
+120°
+4
+TS7120JB4
+$62
+120°
+5
+TS7120JB5
+$78
+d
+d
+d
+d
+Junction Blocks
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 28
+• Inside corner light seal, package of four: black plastic
+Style number
+Specification Information
+DHeight
+DStyle                DU.S.             
+d
+dNumber            dPrice           
+d
+d
+d
+54"
+TS754ICLS
+$20
+66"
+TS766ICLS
+$20
+78"
+TS778ICLS
+$20
+d
+d
+d
+Inside Corner Light Seals
+Tip: Inside corner light seals
+can be field cut for use on
+shorter panels.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Thin Trim
+Build Your Own Junction Components—Thin Trim, continued
+February 2015

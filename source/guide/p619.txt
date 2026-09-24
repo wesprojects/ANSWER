@@ -1,0 +1,67 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            619
+Universal Storage
+Universal Storage 
+Specification Information
+DDimensions                   DNumber     DStyle               DU.S.     DOptions
+dD         W          H          dof Doors    dNumber           dBase   d(Add $ to
+d                                      d                 d                       dPrice   dBase Price)
+d
+d
+d
+d
+d
+d
+d
+d
+d
+dPicture Frame Door Inserts
+d                                             d                     d                            d              dOmit        dAcrylic      dMarker-          dGlass
+d                                      d                 d                       d           dInsert      dInsert        dboard             dInsert
+d                                      d                 d                       d           d             d              dInsert G4/15
+d
+Bins with Flat Fronts
+153⁄4"      24"          161⁄4"      1                      RBB24QTAK     $  545      +$238       +$339        +$362 G4/15   +$406
+153⁄4"      30"          161⁄4"      1                      RBB30QTAK     $  567      +$251       +$358        +$383 G4/15   +$433
+153⁄4"      36"          161⁄4"      1                      RBB36QTAK     $  595      +$263       +$375        +$406 G4/15   +$460
+153⁄4"      42"          161⁄4"      1                      RBB42QTAK     $  617      +$274       +$393        +$427 G4/15   +$507
+153⁄4"      48"          161⁄4"      1                      RBB48QTAK     $  637      +$286       +$414        +$448 G4/15   +$553
+153⁄4"      60"          161⁄4"      2                      RBB60QTAK     $1020     +$468       +$655        +$710 G4/15   +$825
+153⁄4"      66"          161⁄4"      2                      RBB66QTAK     $1071     +$480       +$674        +$733 G4/15   +$874
+153⁄4"      72"          161⁄4"      2                      RBB72QTAK     $1111      +$490       +$692        +$756 G4/15   +$921
+d                                      d                 d                       d
+d
+d
+d
+d
+Bins with Radius Fronts
+153⁄4"      24"          161⁄4"      1                      RBB24QCTAK  $  677      N.A.          N.A.           N.A.                 N.A.
+153⁄4"      30"          161⁄4"      1                      RBB30QCTAK  $  699      N.A.          N.A.           N.A.                 N.A.
+153⁄4"      36"          161⁄4"      1                      RBB36QCTAK  $  727      N.A.          N.A.           N.A.                 N.A.
+153⁄4"      42"          161⁄4"      1                      RBB42QCTAK  $  749      N.A.          N.A.           N.A.                 N.A.
+153⁄4"      48"          161⁄4"      1                      RBB48QCTAK  $  769      N.A.          N.A.           N.A.                 N.A.
+153⁄4"      60"          161⁄4"      2                      RBB60QCTAK  $1284     N.A.          N.A.           N.A.                 N.A.
+153⁄4"      66"          161⁄4"      2                      RBB66QCTAK  $1335     N.A.          N.A.           N.A.                 N.A.
+153⁄4"      72"          161⁄4"      2                      RBB72QCTAK  $1375     N.A.          N.A.           N.A.                N.A.
+d                                      d                 d                       d
+d
+d
+d
+d
+Universal Over the Case 
+Bins with Flat or Radius
+Fronts
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Overhead storage 
+bins and shelves with a 
+“TAK” suffix can be used
+with Privacy Wall as well.
+cSee Architectural
+Solutions Specification
+Guide for attachment infor-
+mation.
+G4/15 = Last order entry
+April 19, 2015
+February 2015

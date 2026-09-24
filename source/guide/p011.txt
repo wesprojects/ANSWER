@@ -1,0 +1,102 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                              11
+Panels—Thin Trim
+Panels—Thin Trim
+Answer Panel Overview—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+Thin, square, and oval
+trim styles are available
+on Answer panels. Trim
+styles are not compatible
+with each other. Applications
+must use one consistent trim
+style.
+Panel buildups allow 
+you to create unique config-
+urations by mixing surface
+materials and colors on seg-
+mented panels. Order skins
+and horizontal frame pack-
+ages separately.
+Panel frame is made up
+of two major elements—
+vertical base junctions and
+base horizontal connecting
+bars.
+Stacking components
+can be used on both 
+panel buildups and panel
+packages.
+Powerkits include power-
+blocks attached to a 
+supporting power tray.
+cPage 162
+Stacking junctions do
+not come with trim. Vertical
+trim must be ordered sepa-
+rately to cover any exposed
+junctions.
+cPage 26
+Stacking junctions can
+be used in panel buildups
+and panel packages. They
+are available for in-line, L, T,
+X, V, Y, and end-of-run 
+configurations. 
+cPages 362-363
+Base junctions are
+always shared by adjacent
+panels. They are available
+for in-line, L, T, X, V, Y, and
+end-of-run configurations.
+Wall-start junctions and off-
+module connectors are also
+available.
+cPage 14
+Base horizontal con-
+necting bars lock into the
+vertical junctions at the top
+and the bottom location of
+base junction to provide
+structural stability for the
+panels.
+Stacking horizontal
+frame package must be
+used with stacking junctions.
+cPage 382
+Leveling glides adjust to
+install panels on uneven
+floors. Range is 23/4".
+Panel packages are
+used to create common 
+configurations quickly and
+easily. Packages include a
+horizontal frame package
+and skins for both sides 
+of the panel.
+Skins attach to frame
+without tools and can be
+removed and repositioned
+easily.
+cPages 107–117
+Alternate powerkit har-
+ness routing can be
+accommodated through the
+junction opening. In in-line
+applications installed on
+uneven floors, route harness
+through junction opening to
+prevent harness from being
+exposed.
+Base trims or open
+base trim styles are
+available on panels with
+Thin trim style.
+Thin end-of-run trim has
+an integral finished end.
+Actual Dimensions
+Height      291⁄2", 417⁄8", 481⁄16", 541⁄4", 6619⁄32", and 7831⁄32"
+Note: Height is minimum from floor to top of top caps. Leveling glides can extend 23⁄4".
+Answer Panel
+Overview–Thin Trim
+February 2015

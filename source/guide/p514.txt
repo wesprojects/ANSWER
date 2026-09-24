@@ -1,0 +1,136 @@
+514                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Tapered Worksurfaces
+High-Pressure Laminate 
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Scallop                   • Omit scallop                              No cost                                Specify omit scallop.
+  Cutout for Power • Cutout                                       No cost                                Specify with cutout for power and data
+  and Data Access                                                                                     access door.
+  Door and Tray
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Tip: Supports for freestand-
+ing and panel-mounted
+applications must be speci-
+fied separately.
+Tip: Long worksurface spans
+may require additional sup-
+port, reinforcing channels
+allow for unsupported spans
+greater than 54".
+cSee understanding 
+section for details, 
+page 208
+Tip: Power and data access
+door and tray is ordered 
+separately to be used with
+cutout. 
+cSee page 540
+Exception: Power and data
+access door and tray only
+fits on tapered worksur-
+faces that are 24" to 30"
+and 30" to 24" deep.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallop on back edge
+1 Style number with appropriate edge
+profile suffix
+K Laminate with knife edge
+cSee edge profiles below.
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Speciﬁcation Information
+                                     U.S. Base Price     
+                              U.S. Base Prices
+                                     High-Pressure        
+                              High-Pressure
+                                     Laminate               
+                              Laminate
+                            
+                     
+                                  
+        
+DDimensions        DStyle         DPlastic                  DDimensions       DStyle           DPlastic       DPlastic
+dA     B       C       dNumber     d3 mm                    dA
+B
+C      dNumber       d3 mm          dKnife
+d                           d                 dEdge                     d
+        d                   dEdge
+dEdge
+d                           d                 d                             d
+d
+d
+d
+d                           d                 dNo Sufﬁx               d
+d
+dNo Sufﬁx    dSufﬁx K
+Left-Hand With 1⁄2" Cord Drop                  Left-Hand With Full Depth
+231⁄2"  183⁄8"  48"       UTT2148    $408                          24"
+187⁄8" 48"      WTT2148     $408               $459
+231⁄2"  183⁄8"  60"       UTT2160    $465                          24"
+187⁄8" 60"      WTT2160     $465               $524
+231⁄2"  183⁄8"  72"       UTT2172    $520                          24"
+187⁄8" 72"      WTT2172     $520               $579
+291⁄2"  231⁄2"  48"       UTT3248    $480                          30"
+24"
+48"      WTT3248     $480               $531
+291⁄2"  231⁄2"  60"       UTT3260    $546                          30"
+24"
+60"      WTT3260     $546               $605
+291⁄2"  231⁄2"  72"       UTT3272    $611                           30"
+24"
+72"      WTT3272     $611               $670
+d                           d                 d                             d
+d
+d
+d
+Right-Hand With 1⁄2" Cord Drop                Right-Hand With Full Depth
+183⁄8"  231⁄2"  48"       UTT1248    $408                          187⁄8" 24"
+48"      WTT1248     $408               $459
+183⁄8"  231⁄2"  60"       UTT1260    $465                       187⁄8" 24"
+60"      WTT1260     $465               $524
+183⁄8"  231⁄2"  72"       UTT1272    $520                       187⁄8" 24"
+72"      WTT1272      $520               $579
+231⁄2"  291⁄2"  48"       UTT2348    $480                          24"
+30"
+48"      WTT2348     $480               $531
+231⁄2"  291⁄2"  60"       UTT2360    $546                          24"
+30"
+60"      WTT2360     $546               $605
+231⁄2"  291⁄2"  72"       UTT2372    $611                           24"
+30"
+72"      WTT2372     $611               $670
+d                           d                 d                             d
+d
+d
+d
+A
+C
+B
+A
+C
+B
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+February 2015

@@ -1,0 +1,106 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   515
+Universal Systems Worksurfaces
+Tapered Worksurfaces with Soft Edge Proﬁle
+High-Pressure Laminate
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Soft Edge            • Antimicrobial edge                    No cost                                Specify with antimicrobial soft edge.
+                                   • No antimicrobial edge               No cost                                Specify without antimicrobial soft edge.
+  Scallop                   • Omit scallop                              No cost                                Specify with omit scallop.
+  Cutout for Power • Cutout                                       No cost                                Specify with cutout for power and data
+  and Data Access                                                                                     access door.
+  Door and Tray
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+Tip: Supports for freestand-
+ing and panel-mounted
+applications must be speci-
+fied separately.
+Tip: Long worksurface spans
+may require additional sup-
+port, reinforcing channels
+allow for unsupported spans
+greater than 54".
+cSee understanding 
+section for details, 
+page 208
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate
+• Laminate worksurface:
+- Plastic antimicrobial soft edge profile centered 
+ on worksurface
+- Plastic 3 mm edge profile on balance of front edge
+- Plastic flat profile on side and back edges
+• Cable scallop on back edge
+1 Style number 
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Speciﬁcation Information
+                                       U.S. Base Price                                                     U.S. Base Price
+                                                                            
+DDimensions        DStyle          DSoft                     DDimensions       DStyle           DSoft            
+dA     B       C       dNumber      dEdge                    dA
+B
+C      dNumber       dEdge          
+d                           d                   dProﬁle                  d
+        d                   dProﬁle
+d                           d                   d                            d
+d
+d
+Left-Hand With 1⁄2" Cord Drop                  Left-Hand With Full Depth
+291⁄2"  231⁄2"  48"       UTT3248S   $793                         30"
+24"
+48"      WTT3248S   $793
+291⁄2"  231⁄2"  60"       UTT3260S   $859                         30"
+24"
+60"      WTT3260S   $859
+291⁄2"  231⁄2"  72"       UTT3272S   $924                         30"
+24"
+72"      WTT3272S   $924
+d                           d                   d                            d
+d
+d
+Right-Hand With 1⁄2" Cord Drop                Right-Hand With Full Depth
+231⁄2"  291⁄2"  48"       UTT2348S   $793                         24"
+30"
+48"      WTT2348S   $793
+231⁄2"  291⁄2"  60"       UTT2360S   $859                         24"
+30"
+60"      WTT2360S   $859
+231⁄2"  291⁄2"  72"       UTT2372S   $924                         24"
+30"
+72"      WTT2372S   $924
+d                           d                   d                            d
+d
+d
+C
+B
+A
+C
+B
+A
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tapered Worksurfaces with
+Soft Edge Profile
+Universal Systems
+Worksurfaces
+Tip: Power and data access
+door and tray is ordered 
+separately to be used with
+cutout. 
+cSee page 540
+February 2015

@@ -1,0 +1,81 @@
+Panels—Thin Trim
+Practice Examples—Thin Trim
+38                                                                                                                                                                                                              Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+Example One
+A
+B
+C
+D
+Step 1:  Draw out the application - X - 4 Change-of-Height   
+                                                                                                 
+Step 2: Vertical Junction Posts                         Quantity  Style Number
+               A    66" H                                             1                  TS766JP
+               B    54" H                                             1                  TS754JP
+               C    42" H                                             1                  TS742JP
+               D    30" H                                             1                  TS730JP
+Step 3 (a-c): Junction Blocks (3c)                    1                  TS790JB4
+Step 4:  Light seal                                              1                  TS766ICLS (4 pack)
+Step 5:  Trim                                                                           
+               End-of-run change-of-height = A - B     1                  TS712TCICHT
+               L change-of-height = B - C                   1                  TS712TCLCHT
+               T change-of-height = C - D                   1                  TS712TCTCHT
+               90° change-of-height junction cap        1                  TS790COHJC
+               L to T aligner                                         1                  TS7LTA4 (4 pack)
+               Junction cap aligner                             1                  TS7CJCA10 (10 pack)
+Example Two
+B
+A
+C
+D
+Step 1:  Draw out the application - X - 3 Change-of-Height   
+                                                                                                 
+Step 2: Vertical Junction Posts                         Quantity  Style Number
+               A    54" H                                             1                  TS754JP
+               B    54" H                                             1                  TS754JP
+               C    42" H                                             1                  TS742JP
+               D    30" H                                             1                  TS730JP
+Step 3 (a-c): Junction Blocks (3c)                    1                  TS790JB4
+Step 4:  Light seal                                              1                  TS766ICLS (4 pack)
+Step 5:  Trim                                                                           
+               L change-of-height = A - C                    1                  TS712TCLCHT
+               T change-of-height = C - D                   1                  TS712TCTCHT
+               90° junction cap                                    1                  TS790JC
+               L to T aligner                                         1                  TS7LTA4 (4 pack)
+               Junction cap aligner                             2                  TS7CJCA10 (10 pack)
+Example Three
+A
+B
+C
+Step 1:  Draw out the application - Y - 3 Change-of-Height   
+                                                                                                 
+Step 2: Vertical Junction Posts                         Quantity  Style Number
+               A    54" H                                             1                  TS754JP
+               B    42" H                                             1                  TS742JP
+               C    30" H                                             1                  TS730JP
+Step 3 (a-c): Junction Blocks (3b)                    1                  TS7120JB3
+Step 4:  Light seal                                              N.A.             N.A.
+Step 5:  Trim                                                                           
+               120° change-of-height = A - B              1                  TS712T120CHT(W)
+               V change-of-height = B - C                   1                  TS712TVCHT(W)
+               120° corner junction cap                       1                  TS7120JC(W)
+               120° to V aligner                                   1                  TS7120A4 (4 pack)
+Note: Junction cap resides
+at the second tallest panel
+height. In this case there is
+a panel higher so it is a
+90° change-of-height junc-
+tion cap instead of a 90°
+corner junction cap.
+Note: Junction cap resides
+at the second tallest panel
+height. In this case there
+are two panels at the
+tallest height so a 90°
+degree junction cap would
+be specified instead of a
+90° change-of-height 
+junction cap as in the 
+previous example.
+February 2015

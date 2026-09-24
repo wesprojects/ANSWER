@@ -1,0 +1,3124 @@
+{
+ "section": "misc",
+ "title": "Duo Storage, Victor2, Lighting, Transitional Answer Storage",
+ "pages": [
+  313,
+  706
+ ],
+ "pageRanges": [
+  [
+   313,
+   320
+  ],
+  [
+   321,
+   326
+  ],
+  [
+   327,
+   342
+  ],
+  [
+   679,
+   682
+  ],
+  [
+   683,
+   688
+  ],
+  [
+   689,
+   700
+  ],
+  [
+   701,
+   706
+  ]
+ ],
+ "families": [
+  {
+   "understandingPage": 316,
+   "trim": null,
+   "standardIncludes": [
+    "Tall storage box: laminate",
+    "Painted steel interior divider cover: paint price group 1",
+    "Leg: 4799 Platinum paint",
+    "Panel attachment brackets: 4799 Platinum paint",
+    "Worksurface brackets"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Laminate color number for box",
+    "3 Paint color number for interior",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Interior divider cover: Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Interior divider cover: Paint price group 2",
+     "price": 14,
+     "priceText": "+$14",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Interior divider cover: Paint price group 3",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate on box",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    }
+   ],
+   "tips": [
+    "Tip: For individual tall storage, only the external side of the interior divider cover has the option to be painted."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BDTS54ANL",
+     "desc": "Duo individual tall storage with leg, 54\"W, for Answer junction",
+     "attrs": {
+      "depth": 18,
+      "width": 54,
+      "height": 15,
+      "type": "individual",
+      "withLeg": true
+     },
+     "price": 930
+    },
+    {
+     "style": "BDTS66ANL",
+     "desc": "Duo individual tall storage with leg, 66\"W, for Answer junction",
+     "attrs": {
+      "depth": 18,
+      "width": 66,
+      "height": 15,
+      "type": "individual",
+      "withLeg": true
+     },
+     "price": 1040
+    },
+    {
+     "style": "BDTS78ANL",
+     "desc": "Duo individual tall storage with leg, 78\"W, for Answer junction",
+     "attrs": {
+      "depth": 18,
+      "width": 78,
+      "height": 15,
+      "type": "individual",
+      "withLeg": true
+     },
+     "price": 1168
+    },
+    {
+     "style": "BDTD54ANL",
+     "desc": "Duo shared tall storage with leg, 54\"W, for Answer junction",
+     "attrs": {
+      "depth": 18,
+      "width": 54,
+      "height": 15,
+      "type": "shared",
+      "withLeg": true
+     },
+     "price": 1018
+    },
+    {
+     "style": "BDTD66ANL",
+     "desc": "Duo shared tall storage with leg, 66\"W, for Answer junction",
+     "attrs": {
+      "depth": 18,
+      "width": 66,
+      "height": 15,
+      "type": "shared",
+      "withLeg": true
+     },
+     "price": 1126
+    },
+    {
+     "style": "BDTD78ANL",
+     "desc": "Duo shared tall storage with leg, 78\"W, for Answer junction",
+     "attrs": {
+      "depth": 18,
+      "width": 78,
+      "height": 15,
+      "type": "shared",
+      "withLeg": true
+     },
+     "price": 1309
+    }
+   ],
+   "id": "duo-tall-storage-junction",
+   "title": "Duo Storage — For Use with Answer In-line, L, T, and End-of-Run Junctions",
+   "page": 680,
+   "category": "other",
+   "subcategory": "duo-storage"
+  },
+  {
+   "understandingPage": 316,
+   "trim": null,
+   "standardIncludes": [
+    "Tall storage box: laminate",
+    "Painted steel interior divider cover on tall storage: paint price group 1"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number fot top cap",
+    "3 Paint color number for interior",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Interior divider cover: Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Interior divider cover: Paint price group 2",
+     "price": 14,
+     "priceText": "+$14",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Interior divider cover: Paint price group 3",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate on box",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Required to Specify item 2 printed verbatim as 'Paint color number fot top cap' (sic). No laminate color line is printed on this page although the box is laminate.",
+    "Top cap mounting brackets and additional panel top caps must be specified separately (p317; see page 388)."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "BDTS54",
+     "desc": "Duo individual tall storage, 54\"W, top cap mounted",
+     "attrs": {
+      "depth": 18,
+      "width": 54,
+      "height": 15,
+      "type": "individual"
+     },
+     "price": 680
+    },
+    {
+     "style": "BDTS66",
+     "desc": "Duo individual tall storage, 66\"W, top cap mounted",
+     "attrs": {
+      "depth": 18,
+      "width": 66,
+      "height": 15,
+      "type": "individual"
+     },
+     "price": 790
+    },
+    {
+     "style": "BDTD54",
+     "desc": "Duo shared tall storage, 54\"W, top cap mounted",
+     "attrs": {
+      "depth": 18,
+      "width": 54,
+      "height": 15,
+      "type": "shared"
+     },
+     "price": 770
+    },
+    {
+     "style": "BDTD66",
+     "desc": "Duo shared tall storage, 66\"W, top cap mounted",
+     "attrs": {
+      "depth": 18,
+      "width": 66,
+      "height": 15,
+      "type": "shared"
+     },
+     "price": 880
+    },
+    {
+     "style": "BDS54",
+     "desc": "Duo slim storage, 54\"W, top cap mounted",
+     "attrs": {
+      "depth": 25,
+      "width": 54,
+      "height": 7.5,
+      "type": "slim"
+     },
+     "price": 625
+    },
+    {
+     "style": "BDS66",
+     "desc": "Duo slim storage, 66\"W, top cap mounted",
+     "attrs": {
+      "depth": 25,
+      "width": 66,
+      "height": 7.5,
+      "type": "slim"
+     },
+     "price": 725
+    }
+   ],
+   "id": "duo-top-cap-mounted",
+   "title": "Duo Storage — For Use with Top Cap Mounted Storage",
+   "page": 681,
+   "category": "other",
+   "subcategory": "duo-storage"
+  },
+  {
+   "understandingPage": 324,
+   "trim": null,
+   "standardIncludes": [
+    "Mobile unit: - Front and back: wood - Sides and top: paint",
+    "Finished back hinged doors",
+    "Three slot opening with sloped receptacles and built in bag holding system",
+    "Acrylic inserts etched with recycling icons and wording",
+    "Three 100% recycled plastic rigid recycling bins – 12 gallon capacity each",
+    "Four non-locking black casters: two swivel/two fixed"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Wood color number for front and back",
+    "3 Paint color number for sides and top (case)",
+    "4 Three acrylic inserts (see below under Required Selections)",
+    "5 Options, if selected (see below)",
+    "See Surface Materials, page 707."
+   ],
+   "options": [
+    {
+     "group": "Wood Front and Back",
+     "name": "Premium Wood 2",
+     "price": 65,
+     "priceText": "+$ 65",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Wood Front and Back",
+     "name": "Premium Wood 3",
+     "price": 228,
+     "priceText": "+$228",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Wood Front and Back",
+     "name": "Customiz stain",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Laminate Front and Back",
+     "name": "Laminate",
+     "price": -312,
+     "priceText": "–$312",
+     "spec": "Specify laminate color number."
+    },
+    {
+     "group": "Laminate Front and Back",
+     "name": "Open Line Laminate",
+     "price": -247,
+     "priceText": "–$247 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Paint on Case",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Paint on Case",
+     "name": "Paint price group 2",
+     "price": 71,
+     "priceText": "+$ 71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Paint on Case",
+     "name": "Paint price group 3",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Acrylic inserts lift out without tools for ease of cleaning and changeability.",
+    "Tip: Verbiage on each insert contains English, Spanish, and French.",
+    "Tip: Receptacle contains features to accommodate oversized bags.",
+    "Tip: Soft-touch integral handle allows easy movement from one location to another."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Victor2 laminates, paints and veneers: see Surface Materials Reference Manual (p708/709)."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "AWRM183636",
+     "desc": "Victor2 mobile recycling unit, 3 openings",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 36,
+      "openings": 3
+     },
+     "price": 3641
+    }
+   ],
+   "id": "victor2-mobile-unit",
+   "title": "Victor2 Mobile Unit",
+   "page": 684,
+   "category": "other",
+   "subcategory": "recycling",
+   "requiredSelections": {
+    "name": "Acrylic Inserts (Pick three)",
+    "count": 3,
+    "choices": [
+     "MIXED / MIXTOS — Plastic",
+     "COMPOST / ABONO — Compost",
+     "MIXED / MIXTOS — Mixed",
+     "WASTE / BASURA — Waste",
+     "PAPER / PAPEL — Paper",
+     "RETURNABLE / RETORNABLE — Aluminum",
+     "RETURNABLE / RETORNABLE — Returnables",
+     "RETURNABLE / RETORNABLE — Glass"
+    ]
+   }
+  },
+  {
+   "understandingPage": 324,
+   "trim": null,
+   "standardIncludes": [
+    "Freestanding unit: - Front and back: wood - Side and top: paint",
+    "Finished back",
+    "Four or five top slot openings with receptacles",
+    "Acrylic inserts etched with recycling icons and wording",
+    "Four or five recycling bins (capacity of 23 gallon each receptacle) – fits 30 gallon size bags and larger",
+    "Leveling glides: black only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Wood color number for front and back",
+    "3 Paint color number for sides and top (case)",
+    "4 Four or five acrylic inserts (see below under Required Selections)",
+    "5 Options, if selected (see below)",
+    "See Surface Materials, page 707."
+   ],
+   "options": [
+    {
+     "group": "Wood Front and Back",
+     "name": "Premium Wood 2",
+     "price": null,
+     "priceText": "Prices at right",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Wood Front and Back",
+     "name": "Premium Wood 3",
+     "price": null,
+     "priceText": "Prices at right",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Wood Front and Back",
+     "name": "Customiz stain",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Laminate Front and Back",
+     "name": "Laminate - Four opening",
+     "price": -520,
+     "priceText": "–$520",
+     "spec": "Specify laminate color number.",
+     "appliesTo": "AWRF254836"
+    },
+    {
+     "group": "Laminate Front and Back",
+     "name": "Laminate - Five opening",
+     "price": -728,
+     "priceText": "–$728",
+     "spec": "Specify laminate color number.",
+     "appliesTo": "AWRF256036"
+    },
+    {
+     "group": "Laminate Front and Back",
+     "name": "Open Line Laminate - Four opening",
+     "price": -455,
+     "priceText": "–$455 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "AWRF254836"
+    },
+    {
+     "group": "Laminate Front and Back",
+     "name": "Open Line Laminate - Five opening",
+     "price": -663,
+     "priceText": "–$663 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "AWRF256036"
+    },
+    {
+     "group": "Paint on Case",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Paint on Case",
+     "name": "Paint price group 2",
+     "price": 71,
+     "priceText": "+$ 71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Paint on Case",
+     "name": "Paint price group 3",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Tray shelf and display are ordered separately.",
+    "Tip: Acrylic inserts lift out without tools for ease of cleaning and changeability.",
+    "Tip: Verbiage on each insert contains English, Spanish, and French."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price",
+    "Premium Wood (Wood front and back) Wood 2",
+    "Wood 3"
+   ],
+   "items": [
+    {
+     "style": "AWRF254836",
+     "desc": "Victor2 freestanding recycling unit, 4 openings",
+     "attrs": {
+      "depth": 25,
+      "width": 48,
+      "height": 36,
+      "openings": 4
+     },
+     "price": 5202,
+     "optionPrices": {
+      "Premium Wood 2": 118,
+      "Premium Wood 3": 414
+     }
+    },
+    {
+     "style": "AWRF256036",
+     "desc": "Victor2 freestanding recycling unit, 5 openings",
+     "attrs": {
+      "depth": 25,
+      "width": 60,
+      "height": 36,
+      "openings": 5
+     },
+     "price": 6555,
+     "optionPrices": {
+      "Premium Wood 2": 149,
+      "Premium Wood 3": 521
+     }
+    }
+   ],
+   "id": "victor2-freestanding-units",
+   "title": "Victor2 Freestanding Units",
+   "page": [
+    686,
+    687
+   ],
+   "category": "other",
+   "subcategory": "recycling",
+   "requiredSelections": {
+    "name": "Acrylic Inserts (Pick four or five)",
+    "count": "4 or 5 (one per opening)",
+    "choices": [
+     "MIXED / MIXTOS — Plastic",
+     "COMPOST / ABONO — Compost",
+     "MIXED / MIXTOS — Mixed",
+     "WASTE / BASURA — Waste",
+     "PAPER / PAPEL — Paper",
+     "RETURNABLE / RETORNABLE — Aluminum",
+     "RETURNABLE / RETORNABLE — Returnables",
+     "RETURNABLE / RETORNABLE — Glass"
+    ]
+   },
+   "relatedProducts": [
+    {
+     "name": "Tray Shelf",
+     "page": 688
+    },
+    {
+     "name": "Display",
+     "page": 688
+    }
+   ]
+  },
+  {
+   "understandingPage": 324,
+   "trim": null,
+   "standardIncludes": [
+    "Tray shelf: paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for tray",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 707."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 11,
+     "priceText": "+$11",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 21,
+     "priceText": "+$21",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Tray shelf fits most trays up to 20 3/4\" x 12\".",
+    "Tip: Tray shelf cannot be used with the mobile unit.",
+    "Tip: Two tray shelves can be used on the freestanding 4 or 5 slot opening. A 15\" gap will separate the two tray shelves if used on the freestanding 5 unit.",
+    "Tip: Maximum tray storage is 20 food trays."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "AWTS",
+     "desc": "Victor2 tray shelf (freestanding units only)",
+     "attrs": {
+      "depth": 12.75,
+      "width": 22.25,
+      "height": 9.9375
+     },
+     "price": 364
+    }
+   ],
+   "id": "victor2-tray-shelf",
+   "title": "Victor2 Tray Shelf",
+   "page": 688,
+   "category": "shelf",
+   "subcategory": "recycling-accessory",
+   "relatedProducts": [
+    {
+     "name": "Freestanding units",
+     "page": 686
+    }
+   ]
+  },
+  {
+   "understandingPage": 324,
+   "trim": null,
+   "standardIncludes": [
+    "Display",
+    "Attachment brackets: paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for bracket",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 707."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 11,
+     "priceText": "+$11",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 21,
+     "priceText": "+$21",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Display holds two 8 1/2\" x 11\" papers or one 11\" x 17\".",
+    "Tip: Display cannot be used with the mobile unit.",
+    "Tip: Two displays can be used on the freestanding 4 or 5 slot opening. A gap of 18 1/2\" will separate the two displays if used on the Freestanding 5 unit.",
+    "Tip: Paper is placed between the two acrylic plates."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "AWDR",
+     "desc": "Victor2 display (freestanding units only)",
+     "attrs": {
+      "depth": 1.1875,
+      "width": 20.75,
+      "height": 15.5
+     },
+     "price": 364
+    }
+   ],
+   "id": "victor2-display",
+   "title": "Victor2 Display",
+   "page": 688,
+   "category": "other",
+   "subcategory": "recycling-accessory",
+   "relatedProducts": [
+    {
+     "name": "Freestanding units",
+     "page": 686
+    }
+   ]
+  },
+  {
+   "understandingPage": 332,
+   "trim": null,
+   "standardIncludes": [
+    "Light housing with centered on-off switch: black paint",
+    "End cap cord managers: black plastic only",
+    "Cords: —9' cord with three-prong plug at 45° angle: black plastic only —One 30\" and one 48\" cord with modular connectors for daisy chaining: black plastic only",
+    "Contrast sleeve around lamp",
+    "Faceted reflector: white only",
+    "T8 3500K lamp",
+    "Ballast",
+    "Universal mounting hardware package",
+    "Daisy chain starter cord, if selected: black plastic only (order separately)"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number, if other than black (see options below)",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Painted light housing other than black",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number for housing."
+    },
+    {
+     "group": "Bracket Option",
+     "name": "Competitive mounting package",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with competitive mounting package."
+    },
+    {
+     "group": "Bracket Option",
+     "name": "Flush mounting package",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with flush mounting package and paint color number for end cap covers."
+    }
+   ],
+   "tips": [
+    "Tip: Daisy chaining is not allowed in Chicago. Local electrical codes vary, so you should consult a qualified electrical contractor or engineer for proper installation of all electrical equipment.",
+    "Tip: Because shelf lights are usually recessed, black is the standard paint color. Paint colors other than black have an upcharge.",
+    "Tip: If an optional paint color is selected for the housing, the electrical switches and end caps will remain black plastic.",
+    "Tip: Remember to order a daisy chain starter cord. See Related Products on next page."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Style numbers with D suffix ('With Daisy Chain Cords'); C suffix = With Chicago Cord Including Circuit Breaker.",
+    "Replacement lamps (p333): 24\" lamp 17 W F17T8-TL735; 36\" lamp 25 W F25T8-TL735; 48\" lamp 32 W F32T8-TL735."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Lamp Wattage",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "LSM24K",
+     "desc": "Standard shelf light, 25\"W, electronic high-power-factor ballast, standard 9' cord",
+     "attrs": {
+      "depth": 9.25,
+      "width": 25,
+      "height": 1.75,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "standard 9' cord"
+     },
+     "price": 397
+    },
+    {
+     "style": "LSM36K",
+     "desc": "Standard shelf light, 37\"W, electronic high-power-factor ballast, standard 9' cord",
+     "attrs": {
+      "depth": 9.25,
+      "width": 37,
+      "height": 1.75,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "standard 9' cord"
+     },
+     "price": 421
+    },
+    {
+     "style": "LSM48K",
+     "desc": "Standard shelf light, 49\"W, electronic high-power-factor ballast, standard 9' cord",
+     "attrs": {
+      "depth": 9.25,
+      "width": 49,
+      "height": 1.75,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "standard 9' cord"
+     },
+     "price": 456
+    },
+    {
+     "style": "LSM24KC",
+     "desc": "Standard shelf light, 25\"W, electronic high-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 9.25,
+      "width": 25,
+      "height": 1.75,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "Chicago cord including circuit breaker"
+     },
+     "price": 458
+    },
+    {
+     "style": "LSM36KC",
+     "desc": "Standard shelf light, 37\"W, electronic high-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 9.25,
+      "width": 37,
+      "height": 1.75,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "Chicago cord including circuit breaker"
+     },
+     "price": 482
+    },
+    {
+     "style": "LSM48KC",
+     "desc": "Standard shelf light, 49\"W, electronic high-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 9.25,
+      "width": 49,
+      "height": 1.75,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "Chicago cord including circuit breaker"
+     },
+     "price": 517
+    },
+    {
+     "style": "LSM24KD",
+     "desc": "Standard shelf light, 25\"W, electronic high-power-factor ballast, daisy chain cords",
+     "attrs": {
+      "depth": 9.25,
+      "width": 25,
+      "height": 1.75,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain cords"
+     },
+     "price": 431
+    },
+    {
+     "style": "LSM36KD",
+     "desc": "Standard shelf light, 37\"W, electronic high-power-factor ballast, daisy chain cords",
+     "attrs": {
+      "depth": 9.25,
+      "width": 37,
+      "height": 1.75,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain cords"
+     },
+     "price": 455
+    },
+    {
+     "style": "LSM48KD",
+     "desc": "Standard shelf light, 49\"W, electronic high-power-factor ballast, daisy chain cords",
+     "attrs": {
+      "depth": 9.25,
+      "width": 49,
+      "height": 1.75,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain cords"
+     },
+     "price": 490
+    }
+   ],
+   "id": "standard-shelf-lights",
+   "title": "Standard Shelf Lights",
+   "page": [
+    690,
+    691
+   ],
+   "category": "lighting"
+  },
+  {
+   "understandingPage": 332,
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [
+    "Tip: Use with Standard shelf light only. Do not order with Utility2."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Quantity in Package",
+    "Length",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "LS1FSC",
+     "desc": "Daisy chain starter cord, 78\", package of 1",
+     "attrs": {
+      "quantity": 1,
+      "length": 78
+     },
+     "price": 55
+    },
+    {
+     "style": "LS6FSC",
+     "desc": "Daisy chain starter cord, 78\", package of 6",
+     "attrs": {
+      "quantity": 6,
+      "length": 78
+     },
+     "price": 330
+    }
+   ],
+   "id": "standard-shelf-light-daisy-chain-starter-cord",
+   "title": "Daisy Chain Starter Cord (Standard Shelf Lights)",
+   "page": 691,
+   "category": "lighting"
+  },
+  {
+   "understandingPage": 332,
+   "trim": null,
+   "standardIncludes": [
+    "Light housing with right-hand on-off switch: black paint",
+    "End cap cord managers: black plastic only",
+    "Cords: – 9' cord with three-prong plug on stand alone lights and daisy chain starter lights, if selected – 78\" jumper cord on daisy chain lights, if selected",
+    "Prismatic lens",
+    "Angled reflector: silver only",
+    "T8 3500K lamp",
+    "Ballast",
+    "Universal and flush mounting hardware package"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number, if other than black (see options below)",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Painted light housing other than black",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number for housing."
+    },
+    {
+     "group": "Lens",
+     "name": "Batwing lens",
+     "price": 31,
+     "priceText": "+$31",
+     "spec": "Specify with batwing lens."
+    }
+   ],
+   "tips": [
+    "Tip: Daisy chaining is not allowed in Chicago. Local electrical codes vary, so you should consult a qualified electrical contractor or engineer for proper installation of all electrical equipment.",
+    "Tip: Specification guidelines can be found on the next page.",
+    "Tip: Cord on stand alone light has right-hand exit. Cord on daisy chain light has off center exit.",
+    "Tip: Because shelf lights are usually recessed, black is the standard paint color. Paint colors other than black have an upcharge.",
+    "Tip: If an optional paint color is selected for the housing, the electrical switches and end caps will remain black plastic.",
+    "Tip: Minimum of two fixtures for daisy chaining and maximum of 10.",
+    "Tip: When ordering starter light do not order a daisy chain starter cord."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "K = electronic high-power-factor ballast (p692); M = electronic normal-power-factor ballast (p693). Suffix C = Chicago cord incl. circuit breaker; D = daisy chain light with 78\" jumper cord; S = daisy chain starter light with 9' starter cord; trailing 2 = Utility2.",
+    "Specification Guidelines (p693): N lights (2 to 10) = 1 starter light fixture and N-1 daisy chain light with jumper cord fixtures."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Lamp Wattage",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "LSB24K2",
+     "desc": "Utility2 shelf light, 25\"W, electronic high-power-factor ballast, stand alone, 9' cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "stand alone, 9' cord",
+      "page": 692
+     },
+     "price": 262
+    },
+    {
+     "style": "LSB36K2",
+     "desc": "Utility2 shelf light, 37\"W, electronic high-power-factor ballast, stand alone, 9' cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "stand alone, 9' cord",
+      "page": 692
+     },
+     "price": 310
+    },
+    {
+     "style": "LSB48K2",
+     "desc": "Utility2 shelf light, 49\"W, electronic high-power-factor ballast, stand alone, 9' cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "stand alone, 9' cord",
+      "page": 692
+     },
+     "price": 344
+    },
+    {
+     "style": "LSB24KC2",
+     "desc": "Utility2 shelf light, 25\"W, electronic high-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "Chicago cord including circuit breaker",
+      "page": 692
+     },
+     "price": 323
+    },
+    {
+     "style": "LSB36KC2",
+     "desc": "Utility2 shelf light, 37\"W, electronic high-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "Chicago cord including circuit breaker",
+      "page": 692
+     },
+     "price": 371
+    },
+    {
+     "style": "LSB48KC2",
+     "desc": "Utility2 shelf light, 49\"W, electronic high-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "Chicago cord including circuit breaker",
+      "page": 692
+     },
+     "price": 405
+    },
+    {
+     "style": "LSB24KD2",
+     "desc": "Utility2 shelf light, 25\"W, electronic high-power-factor ballast, daisy chain light with 78\" jumper cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain light with 78\" jumper cord",
+      "page": 692
+     },
+     "price": 296
+    },
+    {
+     "style": "LSB36KD2",
+     "desc": "Utility2 shelf light, 37\"W, electronic high-power-factor ballast, daisy chain light with 78\" jumper cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain light with 78\" jumper cord",
+      "page": 692
+     },
+     "price": 344
+    },
+    {
+     "style": "LSB48KD2",
+     "desc": "Utility2 shelf light, 49\"W, electronic high-power-factor ballast, daisy chain light with 78\" jumper cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain light with 78\" jumper cord",
+      "page": 692
+     },
+     "price": 378
+    },
+    {
+     "style": "LSB24KS2",
+     "desc": "Utility2 shelf light, 25\"W, electronic high-power-factor ballast, daisy chain starter light with 9' starter cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain starter light with 9' starter cord",
+      "page": 692
+     },
+     "price": 296
+    },
+    {
+     "style": "LSB36KS2",
+     "desc": "Utility2 shelf light, 37\"W, electronic high-power-factor ballast, daisy chain starter light with 9' starter cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain starter light with 9' starter cord",
+      "page": 692
+     },
+     "price": 344
+    },
+    {
+     "style": "LSB48KS2",
+     "desc": "Utility2 shelf light, 49\"W, electronic high-power-factor ballast, daisy chain starter light with 9' starter cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic high-power-factor",
+      "variant": "daisy chain starter light with 9' starter cord",
+      "page": 692
+     },
+     "price": 378
+    },
+    {
+     "style": "LSB24M2",
+     "desc": "Utility2 shelf light, 25\"W, electronic normal-power-factor ballast, stand alone, 9' cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "stand alone, 9' cord",
+      "page": 693
+     },
+     "price": 187
+    },
+    {
+     "style": "LSB36M2",
+     "desc": "Utility2 shelf light, 37\"W, electronic normal-power-factor ballast, stand alone, 9' cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "stand alone, 9' cord",
+      "page": 693
+     },
+     "price": 235
+    },
+    {
+     "style": "LSB48M2",
+     "desc": "Utility2 shelf light, 49\"W, electronic normal-power-factor ballast, stand alone, 9' cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "stand alone, 9' cord",
+      "page": 693
+     },
+     "price": 269
+    },
+    {
+     "style": "LSB24MC2",
+     "desc": "Utility2 shelf light, 25\"W, electronic normal-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "Chicago cord including circuit breaker",
+      "page": 693
+     },
+     "price": 248
+    },
+    {
+     "style": "LSB36MC2",
+     "desc": "Utility2 shelf light, 37\"W, electronic normal-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "Chicago cord including circuit breaker",
+      "page": 693
+     },
+     "price": 296
+    },
+    {
+     "style": "LSB48MC2",
+     "desc": "Utility2 shelf light, 49\"W, electronic normal-power-factor ballast, Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "Chicago cord including circuit breaker",
+      "page": 693
+     },
+     "price": 330
+    },
+    {
+     "style": "LSB24MD2",
+     "desc": "Utility2 shelf light, 25\"W, electronic normal-power-factor ballast, daisy chain light with 78\" jumper cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "daisy chain light with 78\" jumper cord",
+      "page": 693
+     },
+     "price": 221
+    },
+    {
+     "style": "LSB36MD2",
+     "desc": "Utility2 shelf light, 37\"W, electronic normal-power-factor ballast, daisy chain light with 78\" jumper cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "daisy chain light with 78\" jumper cord",
+      "page": 693
+     },
+     "price": 269
+    },
+    {
+     "style": "LSB48MD2",
+     "desc": "Utility2 shelf light, 49\"W, electronic normal-power-factor ballast, daisy chain light with 78\" jumper cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "daisy chain light with 78\" jumper cord",
+      "page": 693
+     },
+     "price": 303
+    },
+    {
+     "style": "LSB24MS2",
+     "desc": "Utility2 shelf light, 25\"W, electronic normal-power-factor ballast, daisy chain starter light with 9' starter cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 25,
+      "height": 1.625,
+      "lampWattage": 17,
+      "replacementLamp": "F17T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "daisy chain starter light with 9' starter cord",
+      "page": 693
+     },
+     "price": 221
+    },
+    {
+     "style": "LSB36MS2",
+     "desc": "Utility2 shelf light, 37\"W, electronic normal-power-factor ballast, daisy chain starter light with 9' starter cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 37,
+      "height": 1.625,
+      "lampWattage": 25,
+      "replacementLamp": "F25T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "daisy chain starter light with 9' starter cord",
+      "page": 693
+     },
+     "price": 269
+    },
+    {
+     "style": "LSB48MS2",
+     "desc": "Utility2 shelf light, 49\"W, electronic normal-power-factor ballast, daisy chain starter light with 9' starter cord",
+     "attrs": {
+      "depth": 6.875,
+      "width": 49,
+      "height": 1.625,
+      "lampWattage": 32,
+      "replacementLamp": "F32T8-TL735",
+      "ballast": "electronic normal-power-factor",
+      "variant": "daisy chain starter light with 9' starter cord",
+      "page": 693
+     },
+     "price": 303
+    }
+   ],
+   "id": "utility2-shelf-lights",
+   "title": "Utility2 Shelf Lights",
+   "page": [
+    692,
+    693
+   ],
+   "category": "lighting",
+   "specificationGuidelines": [
+    {
+     "application": "2 lights",
+     "requirement": "1 starter light fixture and 1 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "3 lights",
+     "requirement": "1 starter light fixture and 2 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "4 lights",
+     "requirement": "1 starter light fixture and 3 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "5 lights",
+     "requirement": "1 starter light fixture and 4 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "6 lights",
+     "requirement": "1 starter light fixture and 5 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "7 lights",
+     "requirement": "1 starter light fixture and 6 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "8 lights",
+     "requirement": "1 starter light fixture and 7 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "9 lights",
+     "requirement": "1 starter light fixture and 8 daisy chain light with jumper cord fixtures"
+    },
+    {
+     "application": "10 lights",
+     "requirement": "1 starter light fixture and 9 daisy chain light with jumper cord fixtures"
+    }
+   ]
+  },
+  {
+   "understandingPage": 334,
+   "trim": null,
+   "standardIncludes": [
+    "Steel light housing: paint",
+    "Aluminum reflector",
+    "Acrylic lens",
+    "Polycarbonate end caps: molded to match housing",
+    "Cords, 9' cord with three-prong plug at 90°/45° angle: black plastic only",
+    "Soft touch switch",
+    "Thin profile, energy-efficient T2 fluorescent lamp",
+    "Universal spring brackets for recessed mount and screw-in for flush mount",
+    "Tool free clips for New York application"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for housing and end caps: 0835 Black, 7018 Pewter, 7021 Dark Champagne"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Daisy chaining is not allowed in Chicago. Local electrical codes vary, so you should consult a qualified electrical contractor or engineer for proper installation of all electrical equipment.",
+    "Tip: Order one daisy chain jumper cord between fixtures. Must be used with LT2Y or LT2DY daisy chain lights."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Replacement lamp (p334): Underline 24\" nominal, lamp width 23.3\", 13 watts, FM13-835."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Lamp Wattage",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "LT2",
+     "desc": "Underline shelf light, 22\"W, 13 W T2, without dimming",
+     "attrs": {
+      "depth": 4.75,
+      "width": 22,
+      "height": 0.75,
+      "lampWattage": 13,
+      "replacementLamp": "FM13-835",
+      "variant": "without dimming",
+      "dimming": false
+     },
+     "price": 274
+    },
+    {
+     "style": "LT2D",
+     "desc": "Underline shelf light, 22\"W, 13 W T2, with dimming",
+     "attrs": {
+      "depth": 4.75,
+      "width": 22,
+      "height": 0.75,
+      "lampWattage": 13,
+      "replacementLamp": "FM13-835",
+      "variant": "with dimming",
+      "dimming": true
+     },
+     "price": 342
+    },
+    {
+     "style": "LT2CHI",
+     "desc": "Underline shelf light, 22\"W, 13 W T2, with Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 4.75,
+      "width": 22,
+      "height": 0.75,
+      "lampWattage": 13,
+      "replacementLamp": "FM13-835",
+      "variant": "with Chicago cord including circuit breaker",
+      "dimming": false
+     },
+     "price": 315
+    },
+    {
+     "style": "LT2DCHI",
+     "desc": "Underline shelf light, 22\"W, 13 W T2, with Chicago cord including circuit breaker and dimming",
+     "attrs": {
+      "depth": 4.75,
+      "width": 22,
+      "height": 0.75,
+      "lampWattage": 13,
+      "replacementLamp": "FM13-835",
+      "variant": "with Chicago cord including circuit breaker and dimming",
+      "dimming": true
+     },
+     "price": 391
+    },
+    {
+     "style": "LT2Y",
+     "desc": "Underline shelf light, 22\"W, 13 W T2, with daisy chain cord",
+     "attrs": {
+      "depth": 4.75,
+      "width": 22,
+      "height": 0.75,
+      "lampWattage": 13,
+      "replacementLamp": "FM13-835",
+      "variant": "with daisy chain cord",
+      "dimming": false
+     },
+     "price": 274
+    },
+    {
+     "style": "LT2DY",
+     "desc": "Underline shelf light, 22\"W, 13 W T2, with daisy chain cord and dimming",
+     "attrs": {
+      "depth": 4.75,
+      "width": 22,
+      "height": 0.75,
+      "lampWattage": 13,
+      "replacementLamp": "FM13-835",
+      "variant": "with daisy chain cord and dimming",
+      "dimming": true
+     },
+     "price": 342
+    }
+   ],
+   "id": "underline-shelf-lights",
+   "title": "Underline Shelf Lights",
+   "page": 694,
+   "category": "lighting",
+   "allowedFinishes": {
+    "housingPaint": [
+     "0835 Black",
+     "7018 Pewter",
+     "7021 Dark Champagne"
+    ]
+   },
+   "relatedProducts": [
+    {
+     "name": "Underline daisy chain starter cord",
+     "page": 695
+    },
+    {
+     "name": "Underline daisy chain jumper cord",
+     "page": 695
+    }
+   ]
+  },
+  {
+   "understandingPage": 334,
+   "trim": null,
+   "standardIncludes": [
+    "Starter cord: 9' cord: black plastic only; Modular plug for connector to LT2Y or LT2DY daisy chain lights",
+    "Jumper cord: Cord: black plastic only; Modular plugs for connector to LT2Y or LT2DY daisy chain lights"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Order one daisy chain starter cord to bring power to the start of the daisy chain. Must be used with LT2Y or LT2DY daisy chain light.",
+    "Tip: Order one daisy chain jumper cord between fixtures. Must be used with LT2Y or LT2DY daisy chain light."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Length",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "LTSTART",
+     "desc": "Underline daisy chain starter cord, 108\" (9')",
+     "attrs": {
+      "length": 108,
+      "type": "starter cord"
+     },
+     "price": 23
+    },
+    {
+     "style": "LTJUMP",
+     "desc": "Underline daisy chain jumper cord, 6' length (72\")",
+     "attrs": {
+      "length": 72,
+      "type": "jumper cord"
+     },
+     "price": 11
+    },
+    {
+     "style": "LTJUMP3",
+     "desc": "Underline daisy chain jumper cord, 3' length (36\")",
+     "attrs": {
+      "length": 36,
+      "type": "jumper cord"
+     },
+     "price": 11
+    }
+   ],
+   "id": "underline-daisy-chain-cords",
+   "title": "Underline Daisy Chain Starter Cord / Jumper Cord",
+   "page": 695,
+   "category": "lighting"
+  },
+  {
+   "understandingPage": 334,
+   "trim": null,
+   "standardIncludes": [
+    "Steel light housing: paint",
+    "Mylar reflector",
+    "Batwing lens",
+    "Polycarbonate end caps: molded to match housing",
+    "Acrylic lens",
+    "9' cord with three-prong plug at 90°/45° angle: black plastic only",
+    "Energy efficient electronic ballast",
+    "Energy efficient 3500K T5 fluorescent light",
+    "Universal spring brackets for recessed mount and screw-in for flush mount",
+    "Tool free clips for New York application"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for housing and end caps: 0835 Black, 7018 Pewter, 7021 Dark Champagne"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Daisy chaining is not allowed in Chicago. Local electrical codes vary, so you should consult a qualified electrical contractor or engineer for proper installation of all electrical equipment.",
+    "Tip: When ordering the Bottomline daisy chain starter you do NOT need to order a starter cord or jumper cord."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Note: Daisy chaining minimum of two fixtures; maximum of six fixtures.",
+    "Replacement lamps (p334): 24\" lamp width 23.3\" 14 W F14T5-835; 36\" 35.1\" 21 W F21T5-835; 48\" 46.8\" 28 W F28T5-835.",
+    "Weights (p329/334): 4.02 lb, 4.95 lb, or 6.9 lb (by width)."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Lamp Wattage",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "L52FT",
+     "desc": "Bottomline shelf light, 23.25\"W, 14 W T5, without daisy chain cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 23.25,
+      "height": 1.25,
+      "nominalWidth": 24,
+      "lampWattage": 14,
+      "replacementLamp": "F14T5-835",
+      "variant": "without daisy chain cord"
+     },
+     "price": 239
+    },
+    {
+     "style": "L53FT",
+     "desc": "Bottomline shelf light, 35\"W, 21 W T5, without daisy chain cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 35,
+      "height": 1.25,
+      "nominalWidth": 36,
+      "lampWattage": 21,
+      "replacementLamp": "F21T5-835",
+      "variant": "without daisy chain cord"
+     },
+     "price": 255
+    },
+    {
+     "style": "L54FT",
+     "desc": "Bottomline shelf light, 46.75\"W, 28 W T5, without daisy chain cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 46.75,
+      "height": 1.25,
+      "nominalWidth": 48,
+      "lampWattage": 28,
+      "replacementLamp": "F28T5-835",
+      "variant": "without daisy chain cord"
+     },
+     "price": 274
+    },
+    {
+     "style": "L52FTCHI",
+     "desc": "Bottomline shelf light, 23.25\"W, 14 W T5, with Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 4.5,
+      "width": 23.25,
+      "height": 1.25,
+      "nominalWidth": 24,
+      "lampWattage": 14,
+      "replacementLamp": "F14T5-835",
+      "variant": "with Chicago cord including circuit breaker"
+     },
+     "price": 279
+    },
+    {
+     "style": "L53FTCHI",
+     "desc": "Bottomline shelf light, 35\"W, 21 W T5, with Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 4.5,
+      "width": 35,
+      "height": 1.25,
+      "nominalWidth": 36,
+      "lampWattage": 21,
+      "replacementLamp": "F21T5-835",
+      "variant": "with Chicago cord including circuit breaker"
+     },
+     "price": 302
+    },
+    {
+     "style": "L54FTCHI",
+     "desc": "Bottomline shelf light, 46.75\"W, 28 W T5, with Chicago cord including circuit breaker",
+     "attrs": {
+      "depth": 4.5,
+      "width": 46.75,
+      "height": 1.25,
+      "nominalWidth": 48,
+      "lampWattage": 28,
+      "replacementLamp": "F28T5-835",
+      "variant": "with Chicago cord including circuit breaker"
+     },
+     "price": 325
+    },
+    {
+     "style": "L52FTY",
+     "desc": "Bottomline shelf light, 23.25\"W, 14 W T5, with daisy chain cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 23.25,
+      "height": 1.25,
+      "nominalWidth": 24,
+      "lampWattage": 14,
+      "replacementLamp": "F14T5-835",
+      "variant": "with daisy chain cord"
+     },
+     "price": 262
+    },
+    {
+     "style": "L53FTY",
+     "desc": "Bottomline shelf light, 35\"W, 21 W T5, with daisy chain cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 35,
+      "height": 1.25,
+      "nominalWidth": 36,
+      "lampWattage": 21,
+      "replacementLamp": "F21T5-835",
+      "variant": "with daisy chain cord"
+     },
+     "price": 279
+    },
+    {
+     "style": "L54FTY",
+     "desc": "Bottomline shelf light, 46.75\"W, 28 W T5, with daisy chain cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 46.75,
+      "height": 1.25,
+      "nominalWidth": 48,
+      "lampWattage": 28,
+      "replacementLamp": "F28T5-835",
+      "variant": "with daisy chain cord"
+     },
+     "price": 297
+    },
+    {
+     "style": "L52FTS",
+     "desc": "Bottomline shelf light, 23.25\"W, 14 W T5, with daisy chain starter cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 23.25,
+      "height": 1.25,
+      "nominalWidth": 24,
+      "lampWattage": 14,
+      "replacementLamp": "F14T5-835",
+      "variant": "with daisy chain starter cord"
+     },
+     "price": 262
+    },
+    {
+     "style": "L53FTS",
+     "desc": "Bottomline shelf light, 35\"W, 21 W T5, with daisy chain starter cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 35,
+      "height": 1.25,
+      "nominalWidth": 36,
+      "lampWattage": 21,
+      "replacementLamp": "F21T5-835",
+      "variant": "with daisy chain starter cord"
+     },
+     "price": 279
+    },
+    {
+     "style": "L54FTS",
+     "desc": "Bottomline shelf light, 46.75\"W, 28 W T5, with daisy chain starter cord",
+     "attrs": {
+      "depth": 4.5,
+      "width": 46.75,
+      "height": 1.25,
+      "nominalWidth": 48,
+      "lampWattage": 28,
+      "replacementLamp": "F28T5-835",
+      "variant": "with daisy chain starter cord"
+     },
+     "price": 297
+    }
+   ],
+   "id": "bottomline-shelf-lights",
+   "title": "Bottomline Shelf Lights",
+   "page": 696,
+   "category": "lighting",
+   "allowedFinishes": {
+    "housingPaint": [
+     "0835 Black",
+     "7018 Pewter",
+     "7021 Dark Champagne"
+    ]
+   },
+   "specificationGuidelines": [
+    {
+     "application": "2 lights",
+     "requirement": "1 starter fixture and 1 daisy chain fixture"
+    },
+    {
+     "application": "3 lights",
+     "requirement": "1 starter fixture and 2 daisy chain fixtures"
+    },
+    {
+     "application": "4 lights",
+     "requirement": "1 starter fixture and 3 daisy chain fixtures"
+    },
+    {
+     "application": "5 lights",
+     "requirement": "1 starter fixture and 4 daisy chain fixtures"
+    },
+    {
+     "application": "6 lights",
+     "requirement": "1 starter fixture and 5 daisy chain fixtures"
+    }
+   ]
+  },
+  {
+   "understandingPage": 336,
+   "trim": null,
+   "standardIncludes": [
+    "Aluminum extrusion with plastic cover",
+    "Power supply with cord",
+    "Soft touch switch",
+    "Thin profile accommodates recessed and low profile flush mounting",
+    "Ultra energy efficient LED light source",
+    "Universal magnetic mounting",
+    "Polycarbonate matte film diffuser",
+    "Continuous dimming"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for cover: 6000 Black, 6009 Arctic White",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Mounting",
+     "name": "Fastener kit for use with wood or aluminum shelf",
+     "price": 8,
+     "priceText": "+$8",
+     "spec": "Specify with fastener kit."
+    }
+   ],
+   "tips": [
+    "Tip: Daisy chaining is not allowed in Chicago. Local electrical codes vary, so you should consult a qualified electrical contractor or engineer for proper installation of all electrical equipment.",
+    "Tip: Maximum number of lights that can be daisy chained is three lights.",
+    "Tip: LED standard light comes with a 9' 15 watt power supply.",
+    "Tip: Daisy chain starter light comes with a 60 watt power supply that will support up to three lights in series (11' cord, 6' from power supply to power outlet, 5' from power supply to fixture). Does not include daisy chain cords.",
+    "Tip: Daisy chain secondary light does not come with a power supply. Daisy chain cord package (8\" and 30\") comes standard with each secondary light."
+   ],
+   "notes": [
+    "No 'For Canadian Pricing' box printed on p697."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Lamp Wattage",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "LSL18",
+     "desc": "LED standard shelf light, 18\"W",
+     "attrs": {
+      "depth": 2.5,
+      "width": 18,
+      "height": 0.5,
+      "lampWattage": 11,
+      "variant": "standard (15 W power supply)"
+     },
+     "price": 328
+    },
+    {
+     "style": "LSL18YA",
+     "desc": "LED daisy chain starter light, 18\"W",
+     "attrs": {
+      "depth": 2.5,
+      "width": 18,
+      "height": 0.5,
+      "lampWattage": 11,
+      "variant": "daisy chain starter (60 W power supply)"
+     },
+     "price": 351
+    },
+    {
+     "style": "LSL18YB",
+     "desc": "LED daisy chain secondary light, 18\"W",
+     "attrs": {
+      "depth": 2.5,
+      "width": 18,
+      "height": 0.5,
+      "lampWattage": 11,
+      "variant": "daisy chain secondary (no power supply)"
+     },
+     "price": 322
+    }
+   ],
+   "id": "led-shelf-lights",
+   "title": "LED Shelf Lights",
+   "page": 697,
+   "category": "lighting",
+   "allowedFinishes": {
+    "coverPlastic": [
+     "6000 Black",
+     "6009 Arctic White"
+    ]
+   }
+  },
+  {
+   "understandingPage": 338,
+   "trim": null,
+   "standardIncludes": [
+    "Housing: 6009 Arctic White plastic only",
+    "Fixture and stanchions: paint",
+    "Power supply with 12' cordage (6' from power supply to power outlet, 6' from power supply to fixture)",
+    "Soft touch switch",
+    "Ultra energy efficient LED light source",
+    "Polycarbonate matte film diffuser",
+    "Continuous dimming"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for fixture and stanchions: 4231 Arctic White, 4710 Low Gloss Black, 4799 Platinum Metallic"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Non rail-mounted LED personal task lights will not work on worksurfaces with knife edge that is longer than 1 1/4\", or with modesty panels or modesty screens closer than 6\" from the back edge."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Lamp Wattage",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "LPTL30",
+     "desc": "Rail-mounted LED personal task light, 30\"W",
+     "attrs": {
+      "depth": 6,
+      "width": 30,
+      "height": 17,
+      "lampWattage": 14,
+      "mounting": "rail-mounted"
+     },
+     "price": 576
+    },
+    {
+     "style": "LPTL30NR",
+     "desc": "Non rail-mounted LED personal task light, 30\"W",
+     "attrs": {
+      "depth": 6,
+      "width": 30,
+      "height": 17,
+      "lampWattage": 14,
+      "mounting": "non rail-mounted"
+     },
+     "price": 576
+    }
+   ],
+   "id": "led-personal-task-lights",
+   "title": "LED Personal Task Lights",
+   "page": 698,
+   "category": "lighting",
+   "allowedFinishes": {
+    "fixtureAndStanchionPaint": [
+     "4231 Arctic White",
+     "4710 Low Gloss Black",
+     "4799 Platinum Metallic"
+    ],
+    "housingPlastic": [
+     "6009 Arctic White"
+    ]
+   },
+   "relatedProducts": [
+    {
+     "name": "c:scape desk",
+     "ref": "See c:scape Specification Guide."
+    },
+    {
+     "name": "FrameOne bench",
+     "ref": "See FrameOne Specification Guide."
+    },
+    {
+     "name": "Details SOTO rail",
+     "ref": "See Details SpecGuide."
+    },
+    {
+     "name": "Impact",
+     "ref": "See Wood Casegoods and Tables Specification Guide."
+    },
+    {
+     "name": "Technology zone integral rail",
+     "ref": "See Elective Elements Specification Guide."
+    },
+    {
+     "name": "Worksurfaces",
+     "page": 489
+    },
+    {
+     "name": "Campfire Big Table",
+     "ref": "See Turnstone Specification Guide."
+    }
+   ]
+  },
+  {
+   "understandingPage": 342,
+   "trim": null,
+   "standardIncludes": [
+    "Vertical wire manager: plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6652 Titanium, 6654 Sand, 6697 Fog",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Wire manager can be cut in the field to the specific length needed."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "p342 (Understanding) lists cover colors 6000, 6009, 6249, 6654, 6697 (no 6652 Titanium); p699 adds 6652 Titanium (an existing-customers-only plastic per p710)."
+   ],
+   "columns": [
+    "Height",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7PVWM",
+     "desc": "Vertical wire manager, 48\"H",
+     "attrs": {
+      "height": 48,
+      "actualDepth": 1,
+      "actualWidth": 1.625
+     },
+     "price": 28
+    }
+   ],
+   "id": "vertical-wire-manager",
+   "title": "Vertical Wire Manager",
+   "page": 699,
+   "category": "wire-management",
+   "allowedFinishes": {
+    "plastic": [
+     "6000 Black",
+     "6009 Arctic White",
+     "6249 Platinum Solid",
+     "6652 Titanium",
+     "6654 Sand",
+     "6697 Fog"
+    ]
+   }
+  },
+  {
+   "understandingPage": null,
+   "trim": null,
+   "standardIncludes": [
+    "Pedestal: paint price group 1",
+    "Oval pulls: plastic",
+    "Basic drawer interiors: black only —No drawer accessories",
+    "Lock, keyed random: 9201 Polished Chrome",
+    "Four adjustable leveling glides: black only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for pedestal",
+    "3 Plastic color number for oval pulls",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 42,
+     "priceText": "+$ 42",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 71,
+     "priceText": "+$ 71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Full Drawer Interiors",
+     "name": "Include pencil tray and two box drawer dividers",
+     "price": 49,
+     "priceText": "+$ 49",
+     "spec": "Specify with full drawers.",
+     "appliesTo": "24\"D and 30\"D box/box/file pedestals"
+    },
+    {
+     "group": "Drawer Accessories",
+     "name": "Rails: Two side-to-side hanging file rails per file drawer",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with rails."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Lock: Ember Chrome",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 9250 Ember Chrome lock."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Individual locking drawers: File/file pedestals only",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify with individual drawer lock.",
+     "appliesTo": "File/file pedestals only"
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Keying: Factory- and field-installed keying",
+     "price": null,
+     "priceText": "See page 726",
+     "spec": "Page 726"
+    }
+   ],
+   "tips": [
+    "Tip: Pedestal fillers can be used to aesthetically close the 1/2\" gap that may exist behind the pedestal or structurally connect the pedestal to the panel."
+   ],
+   "notes": [
+    "These products fall into the established category, intended for customers with existing standards. Universal pedestals and lateral files are recommended for new customers.",
+    "Oval pull plastic colors (p710): 6000 Black, 6249 Platinum Solid, 6654 Sand, 6694 Slate, 6695 Midnight, 6698 Fieldstone (6651/6652 existing customers only).",
+    "Nominal depth from style number: TU720 = 24\"D nominal (actual 23 1/2\"), TU726 = 30\"D nominal (actual 29 1/2\")."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TU720BBFL",
+     "desc": "Answer fixed pedestal, two box and one file drawer, 23 1/2\"D",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 27,
+      "nominalDepth": 24,
+      "drawers": "box/box/file"
+     },
+     "price": 625
+    },
+    {
+     "style": "TU726BBFL",
+     "desc": "Answer fixed pedestal, two box and one file drawer, 29 1/2\"D",
+     "attrs": {
+      "depth": 29.5,
+      "width": 15,
+      "height": 27,
+      "nominalDepth": 30,
+      "drawers": "box/box/file"
+     },
+     "price": 811
+    },
+    {
+     "style": "TU720FFL",
+     "desc": "Answer fixed pedestal, two file drawers, 23 1/2\"D",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 27,
+      "nominalDepth": 24,
+      "drawers": "file/file"
+     },
+     "price": 659
+    },
+    {
+     "style": "TU726FFL",
+     "desc": "Answer fixed pedestal, two file drawers, 29 1/2\"D",
+     "attrs": {
+      "depth": 29.5,
+      "width": 15,
+      "height": 27,
+      "nominalDepth": 30,
+      "drawers": "file/file"
+     },
+     "price": 790
+    },
+    {
+     "style": "RPXFTAKPP",
+     "desc": "Pedestal filler, 1/2\"D x 27\"H",
+     "attrs": {
+      "depth": 0.5,
+      "width": null,
+      "height": 27,
+      "type": "pedestal filler"
+     },
+     "price": 62
+    }
+   ],
+   "id": "transitional-answer-fixed-pedestals",
+   "title": "Answer Fixed Pedestals",
+   "page": 702,
+   "category": "pedestal",
+   "transitional": true,
+   "relatedProducts": [
+    {
+     "name": "Storage accessories",
+     "page": 671
+    },
+    {
+     "name": "Universal pedestal counterweight for desks",
+     "page": 610
+    }
+   ]
+  },
+  {
+   "understandingPage": null,
+   "trim": null,
+   "standardIncludes": [
+    "Pedestal: paint price group 1",
+    "1/8\"H steel top: paint to match pedestal",
+    "Oval pulls: plastic",
+    "Basic drawer interiors: black only —No drawer accessories",
+    "Lock, keyed random: 9201 Polished Chrome",
+    "Four hard-composition, non-locking, casters: black only",
+    "Counterweight package"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for pedestal",
+    "3 Plastic color number for oval pulls",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 42,
+     "priceText": "+$ 42",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 71,
+     "priceText": "+$ 71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Full Drawer Interiors",
+     "name": "Include full-depth drawers, full drawer extensions, pencil tray, and two box drawer dividers",
+     "price": 49,
+     "priceText": "+$ 49",
+     "spec": "Specify with full drawers.",
+     "appliesTo": "24\"D box/file and box/box/file pedestals"
+    },
+    {
+     "group": "Drawer Accessories",
+     "name": "Rails: Two side-to-side hanging file rails per file drawer",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with rails."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Lock: Ember Chrome",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 9250 Ember Chrome lock."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Individual locking drawers: File/file pedestals only",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify with individual lock.",
+     "appliesTo": "File/file pedestals only"
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Keying: Factory- and field-installed keying",
+     "price": null,
+     "priceText": "See page 726",
+     "spec": "Page 726"
+    },
+    {
+     "group": "Tops",
+     "name": "1\"H square edge steel top",
+     "price": 63,
+     "priceText": "+$ 63",
+     "spec": "Specify with steel square top."
+    },
+    {
+     "group": "Tops",
+     "name": "Laminate top: 1 3/16\"H square edge laminate top",
+     "price": 272,
+     "priceText": "+$272",
+     "spec": "Specify with laminate top and indicate laminate color number."
+    },
+    {
+     "group": "Tops",
+     "name": "Laminate top: 1 7/16\"H bullnose laminate top",
+     "price": 310,
+     "priceText": "+$310",
+     "spec": "Specify with bullnose laminate top and indicate laminate color number."
+    },
+    {
+     "group": "Tops",
+     "name": "Open Line laminate on laminate top",
+     "price": 65,
+     "priceText": "+$ 65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Tops",
+     "name": "Wood veneer top: 1 3/16\"H wood veneer top",
+     "price": 379,
+     "priceText": "+$379",
+     "spec": "Specify with wood veneer top and indicate wood color number."
+    },
+    {
+     "group": "Tops",
+     "name": "Premium wood 2",
+     "price": 26,
+     "priceText": "+$ 26",
+     "spec": "Specify Premium wood 2 finish number.",
+     "appliesTo": "wood veneer top"
+    },
+    {
+     "group": "Tops",
+     "name": "Premium wood 3",
+     "price": 90,
+     "priceText": "+$ 90",
+     "spec": "Specify Premium wood 3 finish number.",
+     "appliesTo": "wood veneer top"
+    },
+    {
+     "group": "Tops",
+     "name": "Customiz stain on wood veneer top",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Tops, continued",
+     "name": "Cushion top without handle",
+     "price": 334,
+     "priceText": "+$334",
+     "spec": "Specify with cushion top and indicate fabric color number.",
+     "appliesTo": "Cushion top for factory installation on TU7MOBILE only"
+    },
+    {
+     "group": "Tops, continued",
+     "name": "Cushion top with black handle",
+     "price": 425,
+     "priceText": "+$425",
+     "spec": "Specify with cushion top and handle and indicate fabric color number.",
+     "appliesTo": "Cushion top for factory installation on TU7MOBILE only"
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 2",
+     "price": 10,
+     "priceText": "+$10",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 3",
+     "price": 38,
+     "priceText": "+$38",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 4",
+     "price": 47,
+     "priceText": "+$47",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 5",
+     "price": 59,
+     "priceText": "+$59",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 6",
+     "price": 83,
+     "priceText": "+$83",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 7",
+     "price": 100,
+     "priceText": "+$100",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 8",
+     "price": 145,
+     "priceText": "+$145",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 9",
+     "price": 186,
+     "priceText": "+$186",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Fabric price group 10",
+     "price": 226,
+     "priceText": "+$226",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Leather price group",
+     "price": 580,
+     "priceText": "+$580",
+     "spec": "Specify leather color number."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Elmosoft leather upholstery",
+     "price": 671,
+     "priceText": "+$671",
+     "spec": "Specify Elmosoft leather color number. See Surface Materials, page 708."
+    },
+    {
+     "group": "Upholstery on pedestal cushion top",
+     "name": "Customer's own material (COM) or Customer's own leather (COL)",
+     "price": 16,
+     "priceText": "+$ 16",
+     "spec": "See Surface Materials Reference Manual to specify."
+    }
+   ],
+   "tips": [
+    "Tip: 1/8\"H steel top is non-structural."
+   ],
+   "notes": [
+    "These products fall into the established category, intended for customers with existing standards. Universal pedestals and lateral files are recommended for new customers.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Fabric price groups 1-10 are offered for the cushion top here, but Surface Materials p712 lists seating upholstery lines only for groups 1, 2, 3, 5, 6, 7, Leather, Elmosoft Leather, COM."
+   ],
+   "columns": [
+    "D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TU7MOBILE",
+     "desc": "Answer mobile pedestal, one box and one file drawer, 21\"H",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 21,
+      "drawers": "box/file"
+     },
+     "price": 917
+    },
+    {
+     "style": "TU7BBFM",
+     "desc": "Answer mobile pedestal, two box and one file drawer, 27\"H",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 27,
+      "drawers": "box/box/file"
+     },
+     "price": 1022
+    },
+    {
+     "style": "TU7FFM",
+     "desc": "Answer mobile pedestal, two file drawers, 27\"H",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 27,
+      "drawers": "file/file"
+     },
+     "price": 1000
+    }
+   ],
+   "id": "transitional-answer-mobile-pedestals",
+   "title": "Answer Mobile Pedestals",
+   "page": [
+    704,
+    705
+   ],
+   "category": "pedestal",
+   "transitional": true,
+   "relatedProducts": [
+    {
+     "name": "Storage accessories",
+     "page": 671
+    }
+   ]
+  },
+  {
+   "understandingPage": null,
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "These products fall into the established category, intended for customers with existing standards. Universal pedestals and lateral files are recommended for new customers.",
+    "Upholstery per Answer Mobile Pedestals cushion-top upholstery options (fabric price groups, leather, Elmosoft, COM/COL); p705 does not print separate upholstery pricing for field-installed tops.",
+    "Seating upholstery (Surface Materials p712) is available on mobile pedestal cushion top only."
+   ],
+   "columns": [
+    "Actual Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "RPXTC24P",
+     "desc": "Pedestal cushion top without handle, field install on TU7MOBILE",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 2.25,
+      "handle": false
+     },
+     "price": 294
+    },
+    {
+     "style": "RPXTCH24P",
+     "desc": "Pedestal cushion top with black handle, field install on TU7MOBILE",
+     "attrs": {
+      "depth": 23.5,
+      "width": 15,
+      "height": 2.25,
+      "handle": true
+     },
+     "price": 396
+    }
+   ],
+   "id": "transitional-pedestal-cushion-top-field",
+   "title": "Pedestal Cushion Top for Field Installation on TU7MOBILE only",
+   "page": 705,
+   "category": "storage-top",
+   "transitional": true
+  }
+ ],
+ "rules": [
+  {
+   "page": 314,
+   "topic": "duo",
+   "text": "Duo Tall Storage (junction-attached, with leg) is offered 54\"W, 66\"W, 78\"W at 15\"H (specify p680). Duo Tall and Slim Storage for Answer top cap mounted storage: Tall Individual, Tall Shared, Slim in 54\"W and 66\"W (specify p681).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 316,
+   "topic": "duo",
+   "text": "Duo tall storage attaches to Answer in-line, L, T, and end-of-run junctions.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 316,
+   "topic": "duo",
+   "text": "Duo tall and slim storage can attach to the top of Answer panels with thin trim; attachment brackets and trims are sold separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 316,
+   "topic": "duo",
+   "text": "Tall storage interior: Individual box has a ledge on one side and binder storage on the opposite side; Shared box is divided down the center with half ledge and half binder storage on each side. 66\"W and 78\"W individual boxes have a center divider on the binder storage side.",
+   "kind": "tip"
+  },
+  {
+   "page": 316,
+   "topic": "duo",
+   "text": "Tall storage leg column height at shortest level is 29 7/8\"H and adjusts upward 3\" for leveling; height from floor to top of box is approximately 45\".",
+   "kind": "dimension"
+  },
+  {
+   "page": 317,
+   "topic": "duo",
+   "text": "Duo Tall Storage attaches perpendicular (90°) to Answer panel at in-line, end-of-run, L or T junction; works with 42\"H or taller panels only; attaches on-module only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 317,
+   "topic": "duo",
+   "text": "Panel-mounted worksurfaces are required when connecting Duo Tall Storage to Answer panels at an in-line, L, T, or end-of-run junction. Worksurface brackets are included to attach to Duo Tall Storage worksurfaces to improve stability.",
+   "kind": "requirement"
+  },
+  {
+   "page": 317,
+   "topic": "duo",
+   "text": "When mounting Duo Tall or Slim Storage on top of an Answer panel, top cap mounting brackets and additional panel top caps must be specified separately (page 388).",
+   "kind": "requirement"
+  },
+  {
+   "page": 317,
+   "topic": "duo",
+   "text": "In seismic zones 3 and 4, consult with local building code officials for specific code requirements.",
+   "kind": "tip"
+  },
+  {
+   "page": 317,
+   "topic": "duo",
+   "text": "Duo surface materials: box laminate; interior divider cover paint; brackets and leg 4799 Platinum paint.",
+   "kind": "requirement"
+  },
+  {
+   "page": 318,
+   "topic": "duo-stability",
+   "text": "Duo Tall Storage cannot be mounted off-module.",
+   "kind": "limit"
+  },
+  {
+   "page": 318,
+   "topic": "duo-stability",
+   "text": "Panel run with Duo Tall Storage: 42\"H minimum panel height; run length 4' minimum, 18' maximum.",
+   "kind": "limit"
+  },
+  {
+   "page": 318,
+   "topic": "duo-stability",
+   "text": "A minimum 30\"W Answer panel return at 90° or 36\"W at 120° must be used with Duo Tall Storage (end-of-run example). Other example: minimum 30\"W Answer panel return at 90° or 120°.",
+   "kind": "limit"
+  },
+  {
+   "page": 318,
+   "topic": "duo-stability",
+   "text": "If Duo Tall Storage is mounted in an end-of-run application, a 30\"W minimum panel return must be used on the other end of the run.",
+   "kind": "limit"
+  },
+  {
+   "page": 318,
+   "topic": "duo-stability",
+   "text": "A 30\"W minimum panel return is required when Duo Tall Storage is used on a panel that is supporting additional components (run shown 12' maximum).",
+   "kind": "limit"
+  },
+  {
+   "page": 318,
+   "topic": "duo-stability",
+   "text": "Seismic zones: follow traditional planning guidelines; Tall Storage leg base must be bolted to the floor per local building code; worksurface brackets included must be installed.",
+   "kind": "requirement"
+  },
+  {
+   "page": 319,
+   "topic": "duo-stability",
+   "text": "Answer panels with Duo Overhead or Slim Storage on Post and Beam fence: 78\"H maximum; fence segment 4'-10' maximum; a minimum 18\"W return is required, or a post with large base bolted to the floor.",
+   "kind": "limit"
+  },
+  {
+   "page": 319,
+   "topic": "duo-stability",
+   "text": "On a single Post and Beam fence, no more than one Overhead or Slim Storage box can be attached.",
+   "kind": "limit"
+  },
+  {
+   "page": 319,
+   "topic": "duo-stability",
+   "text": "Fences with Overhead or Slim Storage spaced no more than 10' apart can stabilize a wall; spaced no more than 8' apart can stabilize a wall with upper storage.",
+   "kind": "limit"
+  },
+  {
+   "page": 680,
+   "topic": "duo",
+   "text": "For individual tall storage, only the external side of the interior divider cover has the option to be painted.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 324,
+   "topic": "victor2",
+   "text": "Mobile unit has three openings; freestanding unit has four or five openings; eight insert options are available for the openings (English, Spanish, and French wording).",
+   "kind": "requirement"
+  },
+  {
+   "page": 324,
+   "topic": "victor2",
+   "text": "Mobile unit receptacles hold 12 gallons each; freestanding unit receptacles accommodate 30 gallon size bags and larger (23 gallon capacity each per p686).",
+   "kind": "tip"
+  },
+  {
+   "page": 325,
+   "topic": "victor2",
+   "text": "Tray shelf and display can only be used with the freestanding unit (not the mobile unit).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 325,
+   "topic": "victor2",
+   "text": "Freestanding four- or five-slot opening will accommodate two tray shelves (15\" gap between on a five-opening unit) or two displays (18 1/2\" gap on a five-opening unit); one tray shelf and one display can be used on the freestanding unit.",
+   "kind": "limit"
+  },
+  {
+   "page": 325,
+   "topic": "victor2",
+   "text": "Tray maximum capacity is 20 food trays with maximum tray size 20\" x 20\"; tray shelf fits most trays up to 20 3/4\" x 12\".",
+   "kind": "limit"
+  },
+  {
+   "page": 325,
+   "topic": "victor2",
+   "text": "Mobile unit: four non-locking concealed casters (two swivel, two fixed), hinged doors on back. Freestanding unit: hinged doors on front, leveling glides fully adjustable to 1 1/2\".",
+   "kind": "tip"
+  },
+  {
+   "page": 325,
+   "topic": "victor2",
+   "text": "Victor2 surface materials: top and sides paint; back and front wood, laminate (HPL), or Customiz stain (option on wood).",
+   "kind": "requirement"
+  },
+  {
+   "page": 684,
+   "topic": "victor2",
+   "text": "Mobile unit requires selection of three acrylic inserts; freestanding units require four or five (one per opening). Insert choices: MIXED Plastic, COMPOST Compost, MIXED Mixed, WASTE Waste, PAPER Paper, RETURNABLE Aluminum, RETURNABLE Returnables, RETURNABLE Glass.",
+   "kind": "requirement"
+  },
+  {
+   "page": 328,
+   "topic": "lighting",
+   "text": "Shelf lights are UL and CSA listed. Local electrical codes vary; consult a qualified electrical contractor or engineer.",
+   "kind": "tip"
+  },
+  {
+   "page": 328,
+   "topic": "lighting",
+   "text": "Standard shelf light: universal mounting package standard; flush mount and competitive mounting package optional; 3500K; faceted white reflector with rotatable contrast sleeve; electronic high power factor ballast; no electronic dimmer; no lens options; 20,000 hr lamp life; warranty ballast 5 yrs, fixture 12 yrs.",
+   "kind": "tip"
+  },
+  {
+   "page": 328,
+   "topic": "lighting",
+   "text": "Utility2 shelf light: universal and flush mounting package standard; 3500K; silver reflector, prismatic lens; electronic high power factor or normal-power-factor ballast; no dimmer; batwing lens option; 20,000 hr; warranty ballast 5 yrs, fixture 12 yrs.",
+   "kind": "tip"
+  },
+  {
+   "page": 329,
+   "topic": "lighting",
+   "text": "Underline and Bottomline: universal spring bracket for recessed mount or screw-in for flush mount (tool free clips for New York). Finish options paint 0835 Black, 7018 Pewter, 7021 Dark Champagne. Electronic dimmer available on Underline only (dimming 100% to 50%); Bottomline not available. Lamp life Underline 10,000 hrs, Bottomline 20,000 hrs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 330,
+   "topic": "lighting",
+   "text": "LED shelf light: magnetic mount for steel bins and shelves standard; optional fastener kit for wood and aluminum shelves. Bottom surface clear anodized aluminum only; plastic cover 6009 Arctic White or 6000 Black. 11 watts; dimming standard; 50,000 hrs; warranty power supply 5 yrs, fixture 12 yrs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 331,
+   "topic": "lighting",
+   "text": "LED personal task light: rail-mounted version attaches to rail systems in c:scape, FrameOne, Elective Elements, Impact, Turnstone Campfire Big Table, and Details SOTO Rail; non rail-mounted version attaches to most freestanding desks and tables. Finish: fixture and stanchions paint 4799 Platinum Metallic, 4231 Arctic White, 4710 Low Gloss Black; plastic cover 6009 Arctic White only. 14 watts; 50,000 hrs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 331,
+   "topic": "lighting",
+   "text": "Non rail-mounted LED personal task lights will not work on worksurfaces with knife edge longer than 1 1/4\", or with modesty panels or modesty screens closer than 6\" from the back edge.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 332,
+   "topic": "lighting",
+   "text": "Standard/Utility2: 9' cord is maximum allowed by U.S. National Electrical Code; cord with circuit breaker available to meet Chicago code. On-off switch centered on front edge (Standard) / right-hand side (Utility2). Cord exits center back (Standard) / right-hand side (Utility2).",
+   "kind": "requirement"
+  },
+  {
+   "page": 332,
+   "topic": "lighting",
+   "text": "Daisy chain starter cord must be ordered separately when Standard shelf lights are used in a daisy chain; daisy chain starter light with cord must be ordered when Utility2 shelf lights are used in a daisy chain. 78\" daisy chain jumper cord is standard with select Utility2 lights.",
+   "kind": "requirement"
+  },
+  {
+   "page": 333,
+   "topic": "lighting",
+   "text": "Power drawn is approximately 1/2 amp. Daisy chaining permits interconnecting up to six Standard shelf lights from a single power outlet; Utility2 daisy chaining allows up to 10 fixtures.",
+   "kind": "limit"
+  },
+  {
+   "page": 333,
+   "topic": "lighting",
+   "text": "Keyhole slots allow mounting beneath wood or laminate overhead storage bins and shelves with screws provided, and to overhead storage manufactured prior to August 1991. Standard shelf competitive mounting package provides hardware to mount on all major competitive furniture lines.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 333,
+   "topic": "lighting",
+   "text": "Normal-power-factor electronic ballasts are available on Utility2 shelf lights only; electronic high-power-factor ballast is roughly 45% more efficient and is available on Standard and Utility2. Batwing lens is an option on Utility2.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 333,
+   "topic": "lighting",
+   "text": "Shelf light can be mounted anywhere from side to side beneath overhead storage bin or shelf; cord length is the only limitation.",
+   "kind": "tip"
+  },
+  {
+   "page": 333,
+   "topic": "lighting",
+   "text": "Standard/Utility2 surface materials: housing black paint (standard) or paint colors (option); reflector white on Standard, silver on Utility2; cord and end cap cord manager black plastic only.",
+   "kind": "requirement"
+  },
+  {
+   "page": 334,
+   "topic": "lighting",
+   "text": "Underline/Bottomline: daisy chaining permits interconnecting up to six shelf lights from a single power outlet; power drawn approximately 1/2 amp.",
+   "kind": "limit"
+  },
+  {
+   "page": 336,
+   "topic": "lighting",
+   "text": "LED daisy chain starter light includes lamp and larger 60 watt power supply to support up to three lights; daisy chain secondary light includes lamp and daisy chain cord set (no power supply). LED standard light uses a 15 watt power supply, 9' long with two prong driver plug.",
+   "kind": "requirement"
+  },
+  {
+   "page": 340,
+   "topic": "lighting",
+   "text": "Daisy chaining is not allowed in Chicago.",
+   "kind": "limit"
+  },
+  {
+   "page": 340,
+   "topic": "lighting",
+   "text": "Standard shelf lights: starter cord is required with daisy chain cords to bring power to the first shelf light in a daisy chain. Power is not interrupted if a light is off or its lamp burned out.",
+   "kind": "requirement"
+  },
+  {
+   "page": 340,
+   "topic": "lighting",
+   "text": "Utility2 lights: connect power cord between first light and wall receptacle and jumper cord between lights; maximum distance between receptacles for 78\" jumper is 74\"; connect up to 10 fixtures maximum; fixture rating 120 volt, .75 amps; starter light required with daisy chain lights.",
+   "kind": "limit"
+  },
+  {
+   "page": 340,
+   "topic": "lighting",
+   "text": "Bottomline lights: starter light is required with daisy chain lights to bring power to the first light in the daisy chain.",
+   "kind": "requirement"
+  },
+  {
+   "page": 340,
+   "topic": "lighting",
+   "text": "Overhead cabinets and shelves provide a recessed area for shelf lights but are not designed to conceal cords when daisy chaining. When using upmount brackets with overhead storage and daisy chaining lights, use the open design upmount bracket for better cord management.",
+   "kind": "tip"
+  },
+  {
+   "page": 341,
+   "topic": "lighting",
+   "text": "Underline lights: starter cord is required to bring power to the first shelf light; jumper cord is required to connect daisy chain lights; additions to a chain are possible at any time by adding a jumper cord.",
+   "kind": "requirement"
+  },
+  {
+   "page": 691,
+   "topic": "lighting",
+   "text": "Daisy chain starter cords LS1FSC/LS6FSC: use with Standard shelf light only; do not order with Utility2.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 692,
+   "topic": "lighting",
+   "text": "Utility2: minimum of two fixtures for daisy chaining and maximum of 10; when ordering starter light do not order a daisy chain starter cord; N lights = 1 starter light + (N-1) daisy chain lights with jumper cord.",
+   "kind": "limit"
+  },
+  {
+   "page": 694,
+   "topic": "lighting",
+   "text": "Underline: order one daisy chain jumper cord (LTJUMP/LTJUMP3) between fixtures and one starter cord (LTSTART); cords must be used with LT2Y or LT2DY daisy chain lights.",
+   "kind": "requirement"
+  },
+  {
+   "page": 696,
+   "topic": "lighting",
+   "text": "Bottomline: daisy chaining minimum of two fixtures, maximum of six; N lights = 1 starter fixture (L5xFTS) + (N-1) daisy chain fixtures (L5xFTY); when ordering the daisy chain starter you do NOT need to order a starter cord or jumper cord.",
+   "kind": "limit"
+  },
+  {
+   "page": 697,
+   "topic": "lighting",
+   "text": "LED shelf lights: maximum number of lights that can be daisy chained is three.",
+   "kind": "limit"
+  },
+  {
+   "page": 690,
+   "topic": "lighting",
+   "text": "Shelf light housing standard black; other paint colors +$23; if an optional paint color is selected, electrical switches and end caps remain black plastic.",
+   "kind": "requirement"
+  },
+  {
+   "page": 342,
+   "topic": "wire-management",
+   "text": "Vertical wire manager snaps into the slotted channel of the junction; for use between bottom of a shelf/overhead bin and worksurface or below the worksurface; can be cut in the field; cords/cables can route from the wire manager and the 1/2\" gap along the back edge of the worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 702,
+   "topic": "transitional",
+   "text": "Transitional Answer fixed and mobile pedestals are established products intended for customers with existing standards; Universal pedestals and lateral files are recommended for new customers.",
+   "kind": "requirement"
+  },
+  {
+   "page": 702,
+   "topic": "transitional",
+   "text": "Individual locking drawers (+$122) are available on file/file pedestals only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 702,
+   "topic": "transitional",
+   "text": "Fixed pedestal full drawer interiors option (+$49) applies to 24\"D and 30\"D box/box/file pedestals.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 704,
+   "topic": "transitional",
+   "text": "Mobile pedestal full drawer interiors option (+$49) applies to 24\"D box/file and box/box/file pedestals.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 705,
+   "topic": "transitional",
+   "text": "Cushion top (factory installation) and field-installed cushion tops (RPXTC24P, RPXTCH24P) are for TU7MOBILE only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 704,
+   "topic": "transitional",
+   "text": "Mobile pedestal standard 1/8\"H steel top is non-structural.",
+   "kind": "tip"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 316,
+   "subject": "Duo Tall Storage / Slim Storage",
+   "text": "Actual Dimensions — Tall Storage / Slim Storage: Box exterior height 15\" / 7 1/2\"; Box exterior depth 18\" / 25\"; Box exterior width 54\", 66\", and 78\" / 54\", 66\", and 78\"; Box interior height 13 3/8\" / 6\"; Box interior depth 13 5/8\" (binder storage area) / 12\" (each side); Box interior depth (ledge) 3 1/2\" / N.A.; Box interior width 52 3/8\", 64 3/8\", and 76 3/8\" / same; Leg height 29 7/8\" / N.A. Column height at shortest level is 29 7/8\"H; column adjusts upward 3\" for leveling. Height from floor to top of box is approximately 45\"."
+  },
+  {
+   "page": 324,
+   "subject": "Victor2",
+   "text": "Actual Dimensions — Mobile Unit: Depth 18\", Width 36\", Height 36\". Freestanding Unit: Depth 25\", Width 48\" or 60\", Height 36\". Leveling glides fully adjustable up to 1 1/2\"."
+  },
+  {
+   "page": 332,
+   "subject": "Standard and Utility2 shelf lights",
+   "text": "Standard: Depth 9 1/4\" (235 mm); Width 24 5/8\", 36 5/8\", or 48 5/8\" (625, 930, 1235 mm); Height 1 3/4\" (44 mm). Utility2: Depth 6 7/8\" (175 mm); Width 24 5/16\", 36 5/16\", or 48 5/16\" (617, 922, 1227 mm); Height 1 5/8\" (41 mm)."
+  },
+  {
+   "page": 333,
+   "subject": "Standard/Utility2 lamps",
+   "text": "Width 24 5/8\": lamp 24\", 17 watts, F17T8-TL735; 36 5/8\": 36\", 25 watts, F25T8-TL735; 48 5/8\": 48\", 32 watts, F32T8-TL735. Photometric data (initial horizontal footcandles) given for LSM24K and LSB24K2."
+  },
+  {
+   "page": 334,
+   "subject": "Underline and Bottomline shelf lights",
+   "text": "Underline: Depth 4 3/4\", Width 22\", Height 3/4\", Weight 2.7 lb; lamp 24\" nominal, 23.3\" lamp width, 13 watts, FM13-835. Bottomline: Depth 4 1/2\", Width 23 1/4\", 35\", 46 3/4\", Height 1 1/4\", Weight 4.02 lb, 4.95 lb, 6.9 lb; lamps 24\" 23.3\" 14 W F14T5-835; 36\" 35.1\" 21 W F21T5-835; 48\" 46.8\" 28 W F28T5-835. Photometric data given for LT2 and L42FT (p335)."
+  },
+  {
+   "page": 336,
+   "subject": "LED shelf light",
+   "text": "Depth 2 5/8\", Width 18 1/8\", Height 1/2\". Power Supply 60 watt Cord Set (11'): line voltage cord 6', low voltage cord 5'. Power Supply 15 watt Cord: 9' with two prong driver plug. (Spec page p697 lists D 2 1/2\", W 18\", H 1/2\".) Photometric data for LSL18 on p337."
+  },
+  {
+   "page": 338,
+   "subject": "LED personal task light",
+   "text": "Depth 6\", Width 30\", Height 17\". Power Supply Cord Set (12'): line voltage cord 6', low voltage cord 6'. Photometric data for LPTL30 and LPTL30NR on p339."
+  },
+  {
+   "page": 342,
+   "subject": "Vertical wire manager",
+   "text": "Depth 1\" (25 mm), Width 1 5/8\" (41 mm), Height 48\" (1219 mm)."
+  },
+  {
+   "page": 328,
+   "subject": "Shelf light statement of line",
+   "text": "Standard: Depth 9 1/4\", Width 25\", 37\", or 49\", 3500K. Utility2: Depth 6 7/8\", Width 25\", 37\", or 49\", 3500K. (p329) Underline: D 4 3/4\", W 22\", H 3/4\", 2.7 lb. Bottomline: D 4 1/2\", W 23 1/4\", 35\", or 46 3/4\", H 1 1/4\". (p330) LED shelf: D 2 1/2\", W 18\". (p331) LED personal task: D 6\", W 30\"."
+  }
+ ],
+ "unresolved": [
+  "p681: Required to Specify item 2 reads 'Paint color number fot top cap' (sic) and no laminate color line is printed for the laminate box on top-cap-mounted Duo storage; p680 requires 'Laminate color number for box'. Likely the box laminate color is still required.",
+  "p316 Actual Dimensions lists Slim Storage exterior widths 54\", 66\", and 78\", but only 54\" and 66\" slim (BDS54, BDS66) and top-cap tall (BDTS54/66, BDTD54/66) are orderable on p681 / listed on p314.",
+  "p697 (LED Shelf Lights) has no 'For Canadian Pricing' box, unlike other spec pages.",
+  "p699 lists 6652 Titanium as a vertical wire manager plastic color, but p342 cover colors omit it and p710 says 6652 is for existing customers only.",
+  "p705: cushion-top upholstery offers fabric price groups 1-10, while Surface Materials p712 lists seating upholstery grades 1,2,3,5,6,7, Leather, Elmosoft, COM only.",
+  "p336 vs p697: LED shelf light actual depth/width 2 5/8\" x 18 1/8\" (p336) vs 2 1/2\" x 18\" (p697 spec table, nominal).",
+  "Utility2 daisy chain light (KD2/MD2) and starter light (KS2/MS2) carry identical prices per width, as printed.",
+  "Photometric footcandle tables (pp333, 335, 337, 339) not extracted row-by-row."
+ ]
+}

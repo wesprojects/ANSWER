@@ -1,0 +1,102 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            371
+Panels—Thin Trim
+Panels—Thin Trim 
+90° Corner Application Change-of-Height Trims—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 31
+• Trim: paint price group 1 or wood
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                   • Paint price group 1                     No cost                                  Specify paint color number.
+Materials                • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+Specification Information
+DCorresponding  DStyle                   DU.S.                     DStyle                       DU.S.
+dPanel
+          dNumber              dBase                    dNumber                   dBase
+dHeight
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+Painted Trim
+Wood Trim
+L Corner Change-of-Height Trim
+12"
+TS712TCLCHT
+$59
+TS712TCLCHTW
+$212
+18"
+TS718TCLCHT
+$59
+TS718TCLCHTW
+$212
+24"
+TS724TCLCHT
+$59
+TS724TCLCHTW
+$212
+30"
+TS730TCLCHT
+$62
+TS730TCLCHTW
+$215
+36"
+TS736TCLCHT
+$62
+TS736TCLCHTW
+$215
+T Corner Change-of-Height Trim
+12"
+TS712TCTCHT
+$59
+TS712TCTCHTW
+$212
+18"
+TS718TCTCHT
+$59
+TS718TCTCHTW
+$212
+24"
+TS724TCTCHT
+$59
+TS724TCTCHTW
+$212
+30"
+TS730TCTCHT
+$62
+TS730TCTCHTW
+$215
+36"
+TS736TCTCHT
+$62
+TS736TCTCHTW
+$215
+d
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Thin change-of-height
+trim cannot be used with
+square or oval top trim.
+90° Corner Application 
+Change-of-Height 
+Trims–Thin Trim
+February 2015

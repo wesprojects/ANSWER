@@ -1,0 +1,62 @@
+480                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Base Power Infeeds
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 158
+• Power infeed cover: plastic
+• 1⁄2"-diameter conduit: black plastic only
+1 Style number
+2 Plastic color number for power infeed
+assembly cover:
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6651 Tungsten
+6652 Titanium
+6654 Sand
+6697 Fog
+6B03 Red
+Speciﬁcation Information
+DLength     DStyle                    DU.S.                              
+d                dNumber               dPrice                            
+d                   d                                  d
+                                           
+4-Circuit, 3+1 Wiring Schematic                   
+6'                TS76BPX              $246                                      
+12'                  TS712BPX            $264                                      
+For Use in San Francisco
+6'                TS76BPSFX          $246                                      
+12'                  TS712BPSFX        $264                                      
+  d                   d                                  d
+4-Circuit, 2+2 Wiring Schematic
+6'                TS76BPY              $246                                      
+12'                  TS712BPY            $264                                      
+For Use in San Francisco
+6'                TS76BPSFY          $246                                      
+12'                  TS712BPSFY        $264                                      
+  d                   d                                  d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic                 
+6'                TS76BPZ               $246                                      
+12'                  TS712BPZ             $264                                      
+For Use in San Francisco
+6'                TS76BPSFZ          $246                                      
+12'                  TS712BPSFZ        $264                                      
+  d                   d                                  d
+Tip: Power infeed occupies
+one receptacle location on
+powerkit.
+Tip: Power infeed sits proud
+of the panel approximately
+3" and will interfere with
+Universal storage with 
+the Universal 3" base,
+FrameOne foot base, or
+c:scape glide.
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+February 2015

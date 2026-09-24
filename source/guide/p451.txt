@@ -1,0 +1,93 @@
+Answer Solutions Specification Guide                                                                                                                                                  cWood Skin Sets, continued  451
+Shared Components and Wiring and Cabling
+                                                
+Wood Skin Sets
+   Speciﬁcation Information
+DWidth   DStyle                     DU.S.      DOptions                                    
+d             dNumber                 dBase    d(Add $ to                                           
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+dPremium Wood
+d
+d
+d
+d
+d
+d
+d
+dWood 2
+dWood 3
+54"H Wood Skin Sets
+Set A = Two 24"H Skins
+24"             TS75424AWSS       $  900       +$104       +$364
+30"             TS75430AWSS       $  957       +$104       +$364
+36"             TS75436AWSS       $1013       +$179       +$624
+42"             TS75442AWSS       $1071       +$179       +$624
+48"             TS75448AWSS       $1133       +$179       +$624
+d
+d
+d
+d
+d
+Set B = Two 12"H Skins and One 24"H Skin
+24"             TS75424BWSS       $1142       +$157       +$550
+30"             TS75430BWSS       $1222       +$157       +$550
+36"             TS75436BWSS       $1299       +$195       +$683
+42"             TS75442BWSS       $1381       +$195       +$683
+48"             TS75448BWSS       $1466       +$195       +$683
+d
+d
+d
+d
+d
+Set C = One 12"H Skin and One 36"H Skin
+24"             TS75424CWSS       $  947       +$142       +$498
+30"             TS75430CWSS       $1003       +$142       +$498
+36"             TS75436CWSS       $1062       +$142       +$498
+42"             TS75442CWSS       $1124       +$185       +$647
+48"             TS75448CWSS       $1212       +$185       +$647
+d
+d
+d
+d
+d
+66"H Wood Skin Sets
+Set A = Three 12"H Skins and One 24"H Skin
+24"             TS76624AWSS       $1491       +$210       +$735
+30"             TS76630AWSS       $1594       +$210       +$735
+36"             TS76636AWSS       $1694       +$246       +$861
+42"             TS76642AWSS       $1802       +$246       +$861
+48"             TS76648AWSS       $1915       +$246       +$861
+d
+d
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+cSpeciﬁcation Information, continued from previous page
+12"H
+24"H
+12"H
+12"H
+12"H
+36"H
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+24"H
+24"H
+12"H
+24"H
+12"H
+Shared Components
+February 2015

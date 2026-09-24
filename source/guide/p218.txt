@@ -1,0 +1,40 @@
+218                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Off-Module Worksurface-to-Panel Connector
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Product Details
+Connects 18"D, 24"D, 
+and 30"D worksurface to
+wider panels eliminating the
+need to match panel width 
+to worksurface depth.
+Replaces side supports,
+cantilevers, and the need 
+for front edge support with
+30"D worksurfaces.
+Application Topics
+Worksurface can be 
+positioned anywhere along
+the width of the off-module
+connector.
+Off-module worksur-
+face to panel connec-
+tor cannot be used at the
+same elevation on adjacent
+inline panels.
+Off-module worksur-
+face to panel connec-
+tor can support a single
+worksurface only.
+Off-module worksur-
+face to panel connec-
+tor cannot replace
+cantilevers and side support
+brackets when worksurface
+is parallel to the panel.
+Connector attaches into
+the slotted channels of the
+panel junctions.
+February 2015

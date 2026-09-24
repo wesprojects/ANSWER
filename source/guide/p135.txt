@@ -1,0 +1,65 @@
+Stability Guidelines
+Answer Solutions Specification Guide                                                                                                                                          cStability Guidelines, continued  135
+Shared Components
+Shared Components
+...............................................................................................................................................
+...............................................................................................................................................
+Guidelines for Bench Configurations with Top Cap Mounted Storage
+Single Sided Bench with Aisleway Top Cap Mounted Storage
+Double Sided Bench with Center Top Cap Mounted Storage
+End-of-run support options include: 
+• Post leg and cantilever
+• Half loop leg
+• Open loop leg
+• Closed loop leg
+• Worksurface end panel
+• Pedestal with filler
+• 1H, 1.5H, or 2H (18" on 24"D) cabinet with panel-to-storage connector in perpendicular application.
+Note: 1H and 1.5H cabinet requires intermediate support.
+• 1H, 1.5H, or 2H (24"D) cabinet with panel-to-storage connector in parallel application. 
+Note: 1H and 1.5H cabinet requires intermediate support.
+Maximum worksurface depth is 24" with front support every 10'. 
+30"D worksurfaces require legs in the front of each worksurface on both ends of the worksurface.
+Center support panels cannot be used as supports.
+Slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.
+5' min.
+20' max.
+10' max.
+24"
+48" max
+10' max.
+No min.
+20' max.
+24"
+48" max
+48" max
+6' max
+Tip: The maximum panel height with Duo and Elective
+Elements storage is 48". The maximum panel height with
+c:scape storage is 42".
+Tip: 10' max between legs when using legs and 
+cantilevers to support panel.
+Tip: In aisleway applications, the back of the storage over-
+hangs the panel 3.5".
+Tip: Aisleway mounting can accept storage up to 17"D.
+Tip: When top cap storage is center maintained, the storage
+is shared equally on top of the panel.
+Tip: Center mounting can accept storage up to 25"D.
+Tip: When using storage to panel connectors to support the
+panel application, the maximum distance between storage to
+panel connection is 6'.
+1
+7
+1
+2
+3
+4
+5
+6
+7
+1
+2
+2
+3 4
+5 6
+February 2015

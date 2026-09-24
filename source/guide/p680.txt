@@ -1,0 +1,55 @@
+680                                                                                                                                                                                                            Answer Solutions Specification Guide
+Duo Storage Products
+Duo Storage
+For Use with Answer In-line, L, T, and End-of-Run Junctions
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 316
+• Tall storage box: laminate
+• Painted steel interior divider cover: paint price group 1
+• Leg: 4799 Platinum paint
+• Panel attachment brackets: 4799 Platinum paint
+• Worksurface brackets
+Options                       U.S. Price               Required to Specify
+  Surface                  Interior divider cover
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                                     • Paint price group 2                     +$14                                    Specify paint color number.
+                                     • Paint price group 3                     +$23                                    Specify paint color number.
+                               • Open Line laminate on box        +$65                                 cSee Surface Materials Reference Manual.
+                                                                            plus cost of laminate
+Specification Information
+DDimensions            DStyle               DU.S.
+dD       W       H        dNumber           dBase
+d                                     d                            dPrice
+d                                     d                            d
+Individual Tall Storage with Leg
+18"       54"       15"         BDTS54ANL     $  930
+18"       66"       15"         BDTS66ANL     $1040
+18"       78"       15"         BDTS78ANL     $1168
+d
+d
+d
+Shared Tall Storage with Leg
+18"       54"       15"         BDTD54ANL     $1018
+18"       66"       15"         BDTD66ANL     $1126
+18"       78"       15"         BDTD78ANL     $1309
+d
+d
+d
+1 Style number
+2 Laminate color number for box
+3 Paint color number for interior
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: For individual tall
+storage, only the external
+side of the interior divider
+cover has the option to be
+painted.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

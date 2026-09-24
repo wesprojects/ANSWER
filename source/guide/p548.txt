@@ -1,0 +1,59 @@
+548                                                                                                                                                                                                   Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 218
+• Connector: paint
+• Attachment hardware
+1 Style number
+2 Paint color number for connector
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                  • Paint price group 1                    No cost                                Specify paint color.
+Materials               • Paint price group 2                    +$11                                    Specify paint color.
+                                 • Paint price group 3                    +$21                                    Specify paint color.
+Specification Information
+DWidth
+DStyle
+DU.S.
+d
+dNumber
+dBase
+d
+d
+dPrice
+d
+d
+d
+24"
+UFS24ANS
+$114
+30"
+UFS30ANS
+$124
+36"
+UFS36ANS
+$135
+42"
+UFS42ANS
+$145
+48"
+UFS48ANS
+$155
+60"
+UFS60ANS
+$239
+72"
+UFS72ANS
+$254
+d
+d
+d
+Universal Systems Worksurfaces
+Off-Module Worksurface-to-Panel Connector
+February 2015

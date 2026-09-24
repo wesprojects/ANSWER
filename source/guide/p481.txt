@@ -1,0 +1,71 @@
+Wiring and Cabling
+Answer Solutions Speciﬁcation Guide                                                                                                                                           cWiring and Cabling, continued  481
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Base Power Infeeds for Use in New York City
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 159
+• Power infeed assembly
+• 1⁄2"-diameter conduit
+• Power infeed tray: black paint only
+• Power infeed cover: black paint only
+Style number
+Tip: Power infeed sits proud
+of the panel approximately
+3" and will interfere with
+Universal storage with 
+the Universal 3" base,
+FrameOne foot base, or
+c:scape glide.
+Speciﬁcation Information
+                                                                       Non-PVC
+DCorresponding
+DStyle                 DU.S.                   DCorresponding      DStyle                     DU.S.
+dPanel                  dNumber             dPrice                 dPanel                    dNumber                 dPrice
+dWidth                  d                               d
+dWidth
+d                                   d
+d                                d                               d
+d
+d                                   d
+4-Circuit, 3+1 Wiring Schematic                 4-Circuit, 3+1 Wiring Schematic
+24"                              TS7BPNY24X     $246                         24"                                TS7BPNY24XN    $257
+30"                              TS7BPNY30X     $246                         30"                                TS7BPNY30XN    $257
+36"                              TS7BPNY36X     $246                         36"                                TS7BPNY36XN    $257
+42"                              TS7BPNY42X     $246                         42"                                TS7BPNY42XN    $257
+48"                              TS7BPNY48X     $246                         48"                                TS7BPNY48XN    $257
+60"                              TS7BPNY60X     $246                         60"                                TS7BPNY60XN    $257
+72"                              TS7BPNY72X     $246                         72"                                TS7BPNY72XN    $257
+d                                d                               d
+d
+d                                   d
+4-Circuit, 2+2 Wiring Schematic                 4-Circuit, 2+2 Wiring Schematic
+24"                              TS7BPNY24Y     $246                         24"                                TS7BPNY24YN    $257
+30"                              TS7BPNY30Y     $246                         30"                                TS7BPNY30YN    $257
+36"                              TS7BPNY36Y     $246                         36"                                TS7BPNY36YN    $257
+42"                              TS7BPNY42Y     $246                         42"                                TS7BPNY42YN    $257
+48"                              TS7BPNY48Y     $246                         48"                                TS7BPNY48YN    $257
+60"                              TS7BPNY60Y     $246                         60"                                TS7BPNY60YN    $257
+72"                              TS7BPNY72Y     $246                         72"                                TS7BPNY72YN    $257
+d                                d                               d
+d
+d                                   d
+3-Circuit, Separate Neutrals (3SN)              3-Circuit, Separate Neutrals (3SN)
+Wiring Schematic                                         Wiring Schematic
+24"                              TS7BPNY24Z     $246                         24"                                TS7BPNY24ZN    $257
+30"                              TS7BPNY30Z     $246                         30"                                TS7BPNY30ZN    $257
+36"                              TS7BPNY36Z     $246                         36"                                TS7BPNY36ZN    $257
+42"                              TS7BPNY42Z     $246                         42"                                TS7BPNY42ZN    $257
+48"                              TS7BPNY48Z     $246                         48"                                TS7BPNY48ZN    $257
+60"                              TS7BPNY60Z     $246                         60"                                TS7BPNY60ZN    $257
+72"                              TS7BPNY72Z     $246                         72"                                TS7BPNY72ZN    $257
+d                                d                               d
+d
+d                                   d
+February 2015

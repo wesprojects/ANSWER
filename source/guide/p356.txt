@@ -1,0 +1,174 @@
+356                                                                                                                                                                                                            Answer Solutions Specification Guide
+Specification Information
+DCorresponding
+        DStyle                   DU.S.      DOption       DStyle                     DU.S.     DOption
+dPanel
+dNumber              dBase    d(Add $ to      dNumber                 dBase   d(Add $ to
+dHeight
+d
+dPrice     dBase Price)  d
+dPrice    dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+C
+D
+d
+d               d                     d
+d              d
+d
+d
+d               dOmit Trim
+d
+d              dOmit Trim
+Painted Trim
+Wood Trim
+42"
+42"
+42"
+30"
+TS74443TCXJ
+$273
+–$70
+TS74443TCXJW
+$494
+–$290
+48"
+48"
+48"
+30"
+TS78883TCXJ
+$273
+–$70
+TS78883TCXJW
+$494
+–$290
+54"
+54"
+54"
+30"
+TS75553TCXJ
+$291
+–$70
+TS75553TCXJW
+$511
+–$290
+54"
+54"
+54"
+42"
+TS75554TCXJ
+$291
+–$70
+TS75554TCXJW
+$511
+–$290
+66"
+66"
+66"
+30"
+TS76663TCXJ
+$320
+–$73
+TS76663TCXJW
+$541
+–$293
+66"
+66"
+66"
+42"
+TS76664TCXJ
+$320
+–$70
+TS76664TCXJW
+$541
+–$290
+66"
+66"
+66"
+48"
+TS76668TCXJ
+$320
+–$70
+TS76668TCXJW
+$541
+–$290
+66"
+66"
+66"
+54"
+TS76665TCXJ
+$320
+–$70
+TS76665TCXJW
+$541
+–$290
+78"
+78"
+78"
+42"
+TS77774TCXJ
+$370
+–$73
+TS77774TCXJW
+$590
+–$293
+78"
+78"
+78"
+48"
+TS77778TCXJ
+$370
+–$73
+TS77778TCXJW
+$590
+–$293
+78"
+78"
+78"
+54"
+TS77775TCXJ
+$370
+–$70
+TS77775TCXJW
+$590
+–$290
+78"
+78"
+78"
+66"
+TS77776TCXJ
+$370
+–$70
+TS77776TCXJW
+$590
+–$290
+d
+d
+d               d
+d
+d              d
+Panels—Thin Trim 
+X Change-of-Height Junctions—Thin Trim, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cSpecification Information, continued from previous page
+Tip: Junction includes:
+• X change-of-height 
+  junction
+• Inside corner light seals
+• T change-of-height trim
+• 90° junction cap
+• Aligners
+A
+B
+C
+D
+February 2015

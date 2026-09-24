@@ -1,0 +1,41 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            605
+TS Series Storage 
+TS 200 Series
+Lateral Files with Lift-Up
+Doors and Roll-Out Shelves
+Specification Information
+DDimensions                DCounterweight     DStyle                 DU.S.
+dD        W         H          dPackage               dNumber             dBase
+d
+d
+d
+dPrice
+d
+d
+d                               d
+Two 12"H Lift-Up Doors with Roll-Out Shelves
+18"         30"         28"           Package 3                     2LF18302AF       $  761
+18"         36"         28"           Package 4                     2LF18362AF       $  886
+18"         42"         28"           Package 4                     2LF18422AF       $1001
+Three 12"H Lift-Up Doors with Roll-Out Shelves
+18"         30"         40"           Package 3                    2LF18303AF       $1030
+18"         36"         40"           Package 3                     2LF18363AF       $1198
+18"         42"         40"           Package 3                     2LF18423AF       $1356
+Four 12"H Lift-Up Doors with Roll-Out Shelves
+18"         30"         52"           Package 3                    2LF18304AF       $1314
+18"         36"         52"           Package 3                     2LF18364AF       $1527
+18"         42"         52"           Package 4                    2LF18424AF       $1723
+One 131⁄2"H Lift-Up Door with Roll-Out Shelf and Four 12"H Lift-Up Doors with 
+Roll-Out Shelves
+18"         30"         651⁄2"        Package 2                    2LF18305AF       $1559
+18"         36"         651⁄2"        Package 2                     2LF18365AF       $1812
+18"         42"         651⁄2"        Package 2                     2LF18425AF       $2047
+d                                   d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+TS Series Storage
+February 2015

@@ -1,0 +1,96 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            659
+Universal Storage
+Universal Storage 
+Universal Workstation Verticals 
+Options                       U.S. Price               Required to Specify
+  Pulls,                         Proud steel fronts only
+  continued              • c:scape                                       +$  28 per pull                       Specify with c:scape pull.
+  Lock and                   Lock 
+  Keying                 • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                 Individual locking drawers
+                                     • For use when limiting                 +$366                                  Specify with individual lock.
+                                        drawer access
+                                       Keying
+                                     • Factory- and field-installed keying                                         cPage 726
+  Related                   • Field-installed tops                                                                 cPage 666
+  Products                 • Storage accessories                                                              cPage 671
+Specification Information
+DDimensions                        DCounterweight   DStyle                   DU.S. Base Prices
+dD                      W     H       dPackage             dNumber              d
+dFlush
+Proud
+d
+d
+dFlush
+dProud    dProud
+dSteel
+Steel/
+d
+d
+dSteel
+dSteel     dWood
+dFront
+Wood
+d
+d                                dFront      dFront     dFront
+d
+Front
+d
+d                                d                 d
+d
+d
+d
+d                                dSuffix F  dSuffix P dSuffix W
+Four 12"H Drawers
+231⁄8"      24"          15"    52"       Tower package 1       RWV24154A_     $1525       $1702       $2191
+291⁄8"      30"          15"    52"       Tower package 1       RWV30154A_     $1683       $1860        $2349
+d
+d
+d
+d
+d
+d
+Three 12"H Drawers and Two 6"H Drawers
+231⁄8"      24"          15"    52"       Tower package 1       RWV24154B_     $1701       $1878       $2367
+291⁄8"      30"          15"    52"       Tower package 1       RWV30154B_     $1862       $2039       $2528
+d
+d
+d
+d
+d
+d
+Four 12"H Drawers and One 131⁄2"H Lift-Up Door with Fixed Shelf
+231⁄8"      24"          15"    651⁄2"    Tower package 1       RWV24155C_     $1810       $2031       $2476
+291⁄8"      30"          15"    651⁄2"    Not required              RWV30155C_     $1996       $2217       $2662
+d
+d
+d
+d
+d
+d
+Three 12"H Drawers, Two 6"H Drawers, and One 131⁄2"H Lift-Up Door with Fixed Shelf
+231⁄8"      24"          15"    651⁄2"    Tower package 1       RWV24155D_     $1987       $2208       $2653
+291⁄8"      30"          15"    651⁄2"    Not required              RWV30155D_     $2172       $2393       $2838
+d
+d
+d
+d
+d
+d
+Tip: Individual locking
+drawer option is not avail-
+able on verticals with 6"H
+drawers.
+Tip: Height dimension listed
+is for units with 1" top.
+Overall height will vary if
+another top is selected.
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style (for
+example, RWV2415A__
+becomes RWV2415AF for
+flush steel front).
+cOptions, continued from previous page
+February 2015

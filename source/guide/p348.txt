@@ -1,0 +1,87 @@
+348                                                                                                                                                                                                            Answer Solutions Specification Guide
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 14
+• Junction
+• Vertical trim and junction cap on V junction: paint price
+group 1 or wood
+• Trim/junction cap on Y junction: paint price group 1 or 
+wood
+• Aligner(s)
+1 Style number
+2 Paint or wood color number for trim and
+junction cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+                                     • Omit trim                                     Prices below                         Specify with omit trim.
+Specification Information
+                           V Base Panel                                            Y Base Panel
+                           Junctions with                                         Junctions with
+                           Thin Trim                                                           Thin Trim
+                                 
+                                                          
+DCorresponding  DStyle              DU.S.      DOption               DStyle              DU.S.      DOption
+dPanel
+dNumber         dBase    d(Add $ to                dNumber         dBase    d(Add $ to
+dHeight
+d
+dPrice     dBase Price)            d
+dPrice     dBase Price)
+d
+d
+d               d
+d
+d               d
+d
+d
+d               dOmit Trim               d
+d               dOmit Trim
+Painted Trim
+30"                             TS730TVPJ     $239         –$  89                       TS730TYPJ     $239         –$12
+42"                             TS742TVPJ     $239         –$  89                       TS742TYPJ     $239         –$12
+48"                             TS748TVPJ     $239         –$  89                       TS748TYPJ     $239         –$12
+54"                             TS754TVPJ     $239         –$  89                       TS754TYPJ     $239         –$12
+66"                             TS766TVPJ     $239         –$  89                       TS766TYPJ     $239         –$12
+78"                             TS778TVPJ     $330         –$105                       TS778TYPJ     $330         –$12
+d
+d
+d               d
+d
+d               d
+Wood Trim
+30"                             TS730TVPJW  $517         –$374                       TS730TYPJW  $303         –$80
+42"                             TS742TVPJW  $517         –$374                       TS742TYPJW  $303         –$80
+48"                             TS748TVPJW  $517         –$374                       TS748TYPJW  $303         –$80
+54"                             TS754TVPJW  $517         –$374                       TS754TYPJW  $303         –$80
+66"                             TS766TVPJW  $533         –$374                       TS766TYPJW  $303         –$80
+78"                             TS778TVPJW  $663         –$443                       TS778TYPJW  $395         –$80
+d
+d
+d               d
+d
+d               d
+Panels—Thin Trim 
+V and Y Same Height Base Panel Junctions—Thin Trim
+Tip: Omit trim option is used
+when stacking on base
+panel junctions. Vertical trim
+should be specified sepa-
+rately to span the full height
+of the base panel junction
+plus the stacking junction.
+Tip: Remember to specify
+necessary junction cap and
+aligners if the omit trim
+option is selected.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

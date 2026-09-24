@@ -1,0 +1,25 @@
+504                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 176
+• Package of 10 grommets: black plastic 
+Style number
+Speciﬁcation Information
+DStyle              DU.S.
+dNumber         dPrice
+d
+d
+TSAEGROM       $50           
+d
+d
+Tip: Grommet requires a 
+3" diameter hole in the 
+worksurface.
+TS Series Worksurfaces 
+Grommet Package
+February 2015

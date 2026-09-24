@@ -1,0 +1,128 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            27
+Panels—Thin Trim
+Stacking Junctions—
+Thin Trim
+In-line stacking junc-
+tion includes junction and
+fork connectors.
+L-stacking junction 
+includes junction and fork 
+con nectors. Full height trim,
+inside corner light seal(s),
+junction cap and aligner(s)
+must be specified separately.
+T-stacking junction 
+includes junction and fork 
+connectors. Full height trim,
+inside corner light seal(s),
+junction cap and aligner(s)
+must be specified separately.
+X-stacking junction 
+includes junction and fork 
+connectors.
+V-stacking junction 
+includes junction and fork 
+connectors. Full height trim,
+inside corner light seal(s),
+junction cap and aligner(s)
+must be specified separately.
+Y-stacking junction 
+includes junction and fork 
+connectors.
+Full height vertical
+trim is available in the build
+your own specifying section
+in 42", 48", 54", 60", 66", 72",
+78", 84", and 90".
+cSpecifying thin, pages 367-
+369.
+Standard skins, cable
+trays, and powerkits
+are used in stackable solu-
+tions. To maximize the bene-
+fits of stackability, consider
+matching the skin height to
+the stacking junction height.
+Connections
+Skins on base panel do 
+not need to be removed 
+to install a stacking junction
+in most cases.
+Fork connector is
+included with stacking junc-
+tion for proper connection to
+the base panel. Two fork
+connectors are included with
+in-line, L, and V stacking
+junctions, three are included
+with T and Y stacking junc-
+tions, and four are included
+with X stacking junctions.
+One fork connector is
+included with each wall-start
+stacking junction and end-of-
+run.
+Fork connectors secure
+into the base junction.
+Stacking junction is bolted 
+to fork connectors.
+Wiring & Cabling
+Junction tall sleeves
+can be ordered to cover the
+exposed metal edges in the
+large cable routing opening
+of the junctions manufac-
+tured on or after October 10,
+2011.
+Fork connector
+scale1
+Horizontal routing of
+power and cables can
+be accommodated through
+openings in stacking 
+junctions. 
+Powerkit installation
+for stacking compo-
+nents is the same process
+as for installation in base
+panels.
+Surface Materials
+Stacking junction
+• Black paint
+Tip: Junction is hidden when
+properly installed.
+Application Topics
+Stacking Stability
+Guidelines provides
+detailed information on
+applications.
+cPage 124
+Maximum height that
+can be stacked on a base
+panel is 36", consisting of
+one 24"H and one 12"H, or
+two 18"H stacking junction.
+Maximum height that an
+Answer panel configuration
+can reach is 90".
+Maximum number of
+stacking junctions that
+can be added to a base
+panel is two.
+Any height base panel
+can be used with stacking
+junctions.
+Bins and shelves can
+hang from the first stacked
+tier only.
+Consolidation point kit
+cannot be used with stack-
+ing components.
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Panels—Thin Trim
+February 2015

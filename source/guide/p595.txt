@@ -1,0 +1,67 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                    cTS Series Bins, continued  595
+TS Series Storage 
+TS Series Bins
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 252
+• Overhead bin with lift-up door: paint price group 1
+• Recess beneath unit to accommodate shelf light
+• Shelf backstop
+• On-module attachment hooks with safety catch
+• Lock, keyed random: 9201 Polished Chrome only
+Options                       U.S. Price               Required to Specify
+  Surface                  Overhead bin 
+  Materials                • Paint price group 1                     No cost                                 Specify paint color number.
+                                     • Paint price group 2                     +$42                                    Specify paint color number.
+                                     • Paint price group 3                     +$71                                    Specify paint color number.
+  Shelf                        • Four dividers: white plastic         +$44                                     Specify with dividers.
+  Accessories
+  Keying                 • Field-installed keying                                                             cPage 726
+  Related                   • Accessories                                                                           cPage 594
+  Products              • Shelf lights                                                                             cPage 689
+Speciﬁcation Information
+DDimensions                    DNumber       DStyle               DU.S.
+dD         W          H           dof Doors      dNumber           dBase
+d                                       d                    d                       dPrice
+d
+d
+d
+d
+Bins with Flat Fronts 
+153⁄4"      24"          161⁄4"         1                       TSASUB24L       $  421
+153⁄4"      30"          161⁄4"         1                       TSASUB30L       $  439
+153⁄4"      36"          161⁄4"         1                       TSASUB36L       $  459
+153⁄4"      42"          161⁄4"         1                       TSASUB42L       $  477
+153⁄4"      48"          161⁄4"         1                       TSASUB48L       $  502
+153⁄4"      60"          161⁄4"         2                       TSASUB60L       $  773
+153⁄4"      72"          161⁄4"         2                       TSASUB72L       $  851
+d
+d
+d
+d
+Bins with Radius Fronts 
+153⁄4"      24"          161⁄4"         1                       TSASUBC24L    $  538
+153⁄4"      30"          161⁄4"         1                       TSASUBC30L    $  556
+153⁄4"      36"          161⁄4"         1                       TSASUBC36L    $  576
+153⁄4"      42"          161⁄4"         1                       TSASUBC42L    $  594
+153⁄4"      48"          161⁄4"         1                       TSASUBC48L    $  619
+153⁄4"      60"          161⁄4"         2                       TSASUBC60L    $  976
+153⁄4"      72"          161⁄4"         2                       TSASUBC72L    $1054
+d
+d
+d
+d
+1 Style number
+2 Paint color number for overhead bin
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: TS Series bins cannot
+be upmounted.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+TS Series Bins
+TS Series Storage
+February 2015

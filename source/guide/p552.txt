@@ -1,0 +1,65 @@
+552                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Legs and Columns for Universal Systems Worksurfaces                           
+Without Alignment Tab
+                            Standard Includes                                        Required to Specify
+cNeed help?
+Product details,
+page 224
+• Legs: paint
+• Attachment hardware
+• Non-locking caster, if selected: black plastic only
+1 Style number
+2 Paint color number for leg
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price                 Required to Specify
+  Surface                • Paint price group 1                    No cost                                   Specify paint color number.
+  Materials             • Paint price group 2                    +$19 per leg                           Specify paint color number.
+                              • Paint price group 3                    +$32 per leg                           Specify paint color number.
+   Speciﬁcation Information
+DPlanning   DStyle          DU.S.                DPlanning    DStyle          DU.S.
+dHeight       dNumber      dBase               dHeight       dNumber      dBase
+d                 d                   dPrice               d                  d                   dPrice
+d                 d                   d
+d                  d                   d
+Post Leg with Glide                       Package of Four Post Legs with Glides
+26"                  UNPL           $118                     26"                 UNPL4         $472
+281⁄2"               UPL             $118                     281⁄2"             UPL4             $472
+407⁄8"               UHPL            $150
+  d                    d                     d
+d                     d
+d
+Post Leg with Caster                    Package of Four Post Legs with Casters
+26"                  UNPLC         $135                    26"                  UNPL4C      $540
+281⁄2"               UPLC             $135                    281⁄2"              UPL4C          $540
+  d                    d                     d
+d                     d
+d
+                                                      Package of Four Post Legs with
+                                                      Two Glides and Two Casters
+                                                                            26"                  UNPL4M     $506
+                                                                            281⁄2"              UPL4M         $506
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+Tip: Height dimensions
+listed are nominal and
+include the thickness of a
+worksurface.
+Tip: Standing height legs can
+be used as column support
+in panel-mounted applica-
+tions only.
+Tip: Corner worksurfaces
+require a leg in the back 
+corner. Be sure to order fifth
+leg if specifying a package 
+of four.
+Post Legs and Double Post Legs
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

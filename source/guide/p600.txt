@@ -1,0 +1,94 @@
+600                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide  
+TS Series Storage 
+TS Series Tower Too
+Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$  71                                    Specify paint color number.
+                                     • Paint price group 3                     +$122                                   Specify paint color number.
+  Drawers                 Box drawers on 48"H, 54"H, and 66"H towers
+                                     • Two box drawers in place           +$185                                   Specify with box/box/ﬁle.
+                                        of top ﬁle drawer
+  Pulls                    • Ledge pulls: 7207 Black             +$  27                                    Specify with 7207 Black ledge pulls.
+                              • Ledge pulls: 4799 Platinum        +$  33                                    Specify with 4799 Platinum ledge pulls.
+  Lock                        • All locking (one lock for              +$157                                   Specify with doors and drawers locking.
+                                        wardrobe, second lock
+                                        for drawers, third lock for
+                                        cabinet)
+                                     • All locking for open side             +$  78                                    Specify with door and drawers locking.
+                                        units (one lock for wardrobe,
+                                        second lock for drawers)
+Speciﬁcation Information
+DDimensions                DCounterweight     DStyle Number                                         DU.S.
+dD        W         H          dPackage               d                                                               dBase
+d
+d
+dHandle
+dContemporary
+dPrice
+d
+d
+dPulls
+dPulls                          d
+Tower Too, Hinged Right
+Wardrobe Hook
+24"         24"         54"           Not required                 TS2TWR54R           TS2TW54RC                 $1576
+24"         24"         66"           Not required                 TS2TWR66R           TS2TW66RC                 $1624
+Wardrobe Rod with Shelf
+24"         24"         54"           Not required                 TS2TWR54RS         TS2TW54RSC              $1660
+24"         24"         66"           Not required                 TS2TWR66RS     TS2TW66RSC        $1706
+d
+d
+d
+d                                  d
+Tower Too, Hinged Left
+Wardrobe Hook
+24"         24"         54"           Not required                 TS2TWR54L            TS2TW54LC         $1576
+24"         24"         66"           Not required                 TS2TWR66L            TS2TW66LC         $1624
+Wardrobe Rod with Shelf
+24"         24"         54"           Not required                 TS2TWR54LS         TS2TW54LSC               $1660
+24"         24"         66"           Not required                 TS2TWR66LS         TS2TW66LSC        $1706
+d
+d
+d
+d                                  d
+cSpeciﬁcation Information, continued on next page
+Tip: Specify lock cylinders
+for each lock location.
+Tip: For legal or side-to-
+side filing, use 15" Universal
+Storage rails, RXADRL15.
+Tip: For box drawer dividers,
+use RDV1506 from the
+Universal Storage
+Collection. For file drawer
+dividers, use RDV1512 from
+the Universal Storage
+Collection.
+Tip: For pencil trays, use
+RPXDPT from the Universal
+Storage collection.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 258
+• Tower Too: paint price group 1
+• Storage cabinet with two ﬁxed shelves and 
+two ﬁle drawers
+• Handle pulls, if selected: 0835 Black or 
+9211 Nickel
+• Contemporary pulls, if selected: paint
+• Lock face ring for drawers with plastic plug to
+accommodate lock cylinder: 9201 Polished Chrome
+• Wardrobe hook, if selected
+• Wardrobe rod with shelf, if selected
+• Adjustable leveling glides
+1 Style number
+2 Paint color number for Tower Too
+3 Color number for pulls
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Remember to specify lock cylinder
+and key.
+cLock Cylinders, page 726
+F=Fixed shelf
+February 2015

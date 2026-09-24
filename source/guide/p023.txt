@@ -1,0 +1,115 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                             23
+Change-of-Height Visual
+Overview—Thin Trim
+V Junctions
+Panels—Thin Trim
+A       B              Style Number
+30"      42"              TS734TCVJ
+30"      48"              TS738TCVJ
+30"      54"              TS735TCVJ
+30"      66"              TS736TCVJ
+42"      54"              TS745TCVJ
+42"      66"              TS746TCVJ
+42"      78"              TS747TCVJ
+48"      66"              TS786TCVJ
+48"      78"              TS787TCVJ
+54"      66"              TS756TCVJ
+54"      78"              TS757TCVJ
+66"      78"              TS767TCVJ
+cPage 357 to specify
+Junction includes
+V change-of-height junction
+V vertical trim
+120° change-of-height trim
+120° junction cap
+Aligner
+Tip: Style numbers for wood junctions require a W
+to be added to the end of the style number.
+Tip: When specifying remember this junction is
+handed and the other hand is not supported by
+style numbers. While in the field, installers may
+need to move a post to achieve the desired 
+configuration.
+A
+B
+...............................................................................................................................................
+...............................................................................................................................................
+A
+B    C         Style Number
+42"
+30"   30"         TS7433TCYJ
+48"
+30"   30"
+TS7833TCYJ
+54"
+30"   30"         TS7533TCYJ
+66"
+30"   30"         TS7633TCYJ
+54"
+42"   42"         TS7544TCYJ
+66"
+42"   42"         TS7644TCYJ
+78"
+42"   42"         TS7744TCYJ
+66"
+48"   48"         TS7688TCYJ
+78"
+48"   48"         TS7788TCYJ
+66"
+54"   54"         TS7655TCYJ
+78"
+54"   54"         TS7755TCYJ
+78"
+66"   66"         TS7766TCYJ
+cPage 358 to specify
+Junction includes
+Y change-of-height junction
+120° change-of-height trim
+120° junction cap
+Tip: Style numbers for wood junctions require a W
+to be added to the end of the style number.
+B
+A
+C
+A
+B    C         Style Number
+30"
+42"   42"         TS7344TCYJ
+30"
+48"   48"         TS7388TCYJ
+30"
+54"   54"         TS7355TCYJ
+30"
+66"   66"         TS7366TCYJ
+42"
+54"   54"         TS7455TCYJ
+42"
+66"   66"         TS7466TCYJ
+42"
+78"   78"         TS7477TCYJ
+48"
+66"   66"         TS7866TCYJ
+48"
+78"   78"         TS7877TCYJ
+54"
+66"   66"         TS7566TCYJ
+54"
+78"   78"         TS7577TCYJ
+66"
+78"   78"         TS7677TCYJ
+cPage 358 to specify
+Junction includes
+Y change-of-height junction
+V change-of-height trim
+120° junction cap
+Aligner
+Tip: Style numbers for wood junctions require a W
+to be added to the end of the style number.
+B
+A
+C
+Y Junctions
+...........................................................................................................................................
+...........................................................................................................................................
+Panels—Thin Trim
+February 2015

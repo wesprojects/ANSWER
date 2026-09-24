@@ -1,0 +1,34 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            405
+Stacking In-Line
+Panel Junctions—
+Square and 
+Oval Trims
+Panels—Square and
+Oval Trim
+Panels—Square and Oval Trim
+Stacking In-Line Panel Junctions—Square and Oval Trims                      
+   Speciﬁcation Information
+DHeight    DStyle              DU.S.
+d               dNumber         dPrice
+d               d                      d
+12"                TS712IPJS      $116
+18"                TS718IPJS      $116
+24"                TS724IPJS      $116
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 84
+• Junction
+• Fork connectors
+Style number
+Tip: Stacking in-line junc-
+tions do not require junction
+cap and trim.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

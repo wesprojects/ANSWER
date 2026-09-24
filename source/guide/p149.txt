@@ -1,0 +1,70 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            149
+Wiring & Cabling
+Cable Capacities
+...............................................................................................................................................
+...............................................................................................................................................
+                                                                                                                                                                                                                           
+                                                                                                                                                                                                                           
+å ∫
+L, T, X, V, and Y Horizontal Routing
+Lay-in cable routing at top of            16   11
+panels in L or V configuration
+Lay-in cable routing at top of            30   20
+panels in T configuration
+Lay-in cable routing in top of            30   20
+panels in X or Y configuration
+Lay-in cable routing (around the      16   11
+corner) at the top of a panel in T 
+or X configuration
+                                                            
+Horizontal pass-through at cable      8     5
+routing opening (available every 
+12" inside frames in L or V 
+configuration)
+Horizontal pass-through (corner)     48   26
+at rectangular opening for 
+modular power harness 
+Horizontal pass-through (straight)    12    7
+at cable routing opening 
+(available every 12" inside frames 
+in T configuration)
+Horizontal pass-through (straight)    12    7
+at cable routing opening 
+(available every 12" inside frames 
+in X or Y configuration)
+                                                                                                                                                                                                                           
+                                                                                                                                                                                                                           
+å ∫
+L, T, X, V, and Y Horizontal Routing
+Horizontal pass-through (straight)    72   47
+at rectangular opening for 
+modular power harness
+(available every 12" inside frame)
+Horizontal pass-through (corner)       8     5
+at cable routing opening 
+(available every 12" inside frames 
+in T or X configuration)
+Lay-in cable routing (corner) at        14    9
+base of panel with power in L, T, 
+or V configuration
+Lay-in cable routing (corner) at        14    9
+base of panel without power in 
+L, T, or V configuration 
+Lay-in cable routing (straight) at      36   22
+base of panel with power in X or 
+Y configuration
+Lay-in cable routing (corner) at        11    6
+base of panel with power in X or 
+Y configuration
+Lay-in cable routing (straight) at      48   30
+base of panel without power, 
+or with power harness routed 
+above in X or Y configuration
+cPage 74
+Lay-in cable routing (corner) at        14    9
+base of panel without power, 
+or with power harness routed 
+above in X or Y configuration
+cPage 74
+Wiring and Cabling
+February 2015

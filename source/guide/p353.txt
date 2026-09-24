@@ -1,0 +1,168 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            353
+Panels—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+T Change-of-Height 
+Junctions—Thin Trim
+Specification Information
+DCorresponding   DStyle              DU.S.      DOption              DStyle                   DU.S.      DOption
+dPanel
+dNumber         dBase    d(Add $ to               dNumber              dBase    d(Add $ to
+dHeight
+d
+dPrice     dBase Price)           d
+dPrice     dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+C
+d
+d               d                              d
+d               d
+d
+d
+d               dOmit Trim
+d
+d               dOmit Trim
+Painted Trim
+Wood Trim
+42"
+42"
+30"
+TS7443TCTJ
+$258
+–$132
+TS7443TCTJW
+$707
+–$554
+48"
+48"
+30"
+TS7883TCTJ
+$258
+–$132
+TS7883TCTJW
+$707
+–$554
+54"
+54"
+30"
+TS7553TCTJ
+$278
+–$132
+TS7553TCTJW
+$716
+–$554
+66"
+66"
+30"
+TS7663TCTJ
+$309
+–$135
+TS7663TCTJW
+$724
+–$557
+54"
+54"
+42"
+TS7554TCTJ
+$278
+–$132
+TS7554TCTJW
+$716
+–$554
+66"
+66"
+42"
+TS7664TCTJ
+$309
+–$132
+TS7664TCTJW
+$724
+–$554
+78"
+78"
+42"
+TS7774TCTJ
+$370
+–$135
+TS7774TCTJW
+$781
+–$557
+66"
+66"
+48"
+TS7668TCTJ
+$309
+–$132
+TS7668TCTJW
+$724
+–$554
+78"
+78"
+48"
+TS7778TCTJ
+$370
+–$135
+TS7778TCTJW
+$781
+–$557
+66"
+66"
+54"
+TS7665TCTJ
+$309
+–$132
+TS7665TCTJW
+$724
+–$554
+78"
+78"
+54"
+TS7775TCTJ
+$370
+–$132
+TS7775TCTJW
+$781
+–$554
+78"
+78"
+66"
+TS7776TCTJ
+$370
+–$132
+TS7776TCTJW
+$781
+–$554
+d
+d
+d               d
+d
+d               d
+cSpecification Information, continued from previous page
+Tip: Junction includes:
+• T change-of-height 
+  junction
+• Inside corner light seals
+• T vertical trim
+• L change-of-height trim
+• 90o junction cap
+• Aligners
+Tip: When A and C are dif-
+ferent heights, the junction is
+shipped right-handed. For a
+left-handed junction a post
+will need to be moved during
+installation.
+A
+B
+C
+Panels—Thin Trim
+February 2015

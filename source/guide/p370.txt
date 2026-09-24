@@ -1,0 +1,74 @@
+Panels—Thin Trim
+End-of-Run/In-Line Change-of-Height Trims—Thin Trim
+370                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 31
+• Trim: paint price group 1 or wood
+• Aligner
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                   • Paint price group 1                     No cost                                  Specify paint color number.
+Materials                • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+Specification Information
+DCorresponding      DStyle                   DU.S.
+dPanel
+              dNumber              dBase
+dHeight
+d
+dPrice
+d
+d
+d
+Painted Trim
+12"
+TS712TICHT
+$  59
+18"
+TS718TICHT
+$  59
+24"
+TS724TICHT
+$  59
+30"
+TS730TICHT
+$  62
+36"
+TS736TICHT
+$  62
+d
+d
+d
+Wood Trim
+12"
+TS712TICHTW
+$212
+18"
+TS718TICHTW
+$212
+24"
+TS724TICHTW
+$212
+30"
+TS730TICHTW
+$215
+36"
+TS736TICHTW
+$215
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Thin change-of-height
+trim cannot be used with
+square or oval top trim.
+February 2015

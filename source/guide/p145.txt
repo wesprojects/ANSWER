@@ -1,0 +1,222 @@
+Wiring & Cabling
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Answer offers three different wiring schematics
+to allow you to match your specific wiring strategy
+to any typical building wiring plan.
+Tip: All the components in an electrical system
+must use the same wiring schematic. The compo-
+nents are keyed and color coded to make 
+it impossible to connect mismatched parts.
+Black = Four-circuit, 3+1
+Brown = Four-circuit, 2+2
+Rust = Three-circuit, separate neutrals (3SN)
+Shared neutrals = 10 gauge
+Non-shared neutrals = 12 gauge
+Hot wires = 12 gauge
+Four-Circuit, 3+1
+In the four-circuit 3+1 schematic, circuits
+1, 2, and 3 are distributed from the first circuit
+panel and are supported with one shared neutral
+and one shared ground. Circuit 4 is distributed
+from a second circuit panel and is supported with
+a separate neutral and ground.
+On a single 3-phase circuit panel, all four
+circuits are distributed as shown.
+Single 3-Phase
+Circuit Panel
+A
+B
+C
+PHASE 
+PHASE 
+PHASE
+GROUND
+Circuit 1 Hot
+Circuit 2 Hot
+Circuit 3 Hot
+Circuit 4 Hot
+Circuit 4 Neutral
+System Ground 
+Isolated Ground 
+NEUTRAL
+Circuits 1, 2, and 3 Neutral
+A
+B
+C
+PHASE 
+PHASE 
+PHASE
+Circuits 1, 2, and 3 Neutral
+PHASE 
+PHASE 
+PHASE
+NEUTRAL
+GROUND
+Circuit Panel 1
+Circuit Panel 2
+Circuit 1 Hot
+Circuit 2 Hot
+Circuit 3 Hot
+Circuit 4 Hot
+Ground
+                Circuit 4 Neutral 
+NEUTRAL
+GROUND
+Ground
+C
+A
+B
+Four-Circuit, 2+2
+In the four-circuit 2+2 schematic, circuits
+1 and 2 are distributed from two different phases
+from the first circuit panel and are supported
+with one shared neutral and one shared ground.
+Circuits 3 and 4 are distributed from a second cir-
+cuit panel and supported by their own shared neu-
+tral and ground.
+On a single 3-phase circuit panel, all four
+circuits are distributed as shown.
+On a split-phase circuit panel, all four cir-
+cuits are distributed as shown.
+Split-Phase
+Circuit Panel
+A
+C
+PHASE 
+PHASE
+GROUND
+Circuit 1 Hot
+Circuit 4 Hot
+Circuit 2 Hot
+Circuit 3 Hot
+NEUTRAL
+Circuits 1 and 2 Neutral
+Circuits 3 and 4 Neutral
+System Ground
+Isolated Ground
+Single 3-Phase
+Circuit Panel
+A
+B
+C
+PHASE 
+PHASE 
+PHASE
+GROUND
+Circuit 1 Hot
+Circuit 2 Hot
+Circuit 3 Hot
+Circuit 4 Hot
+NEUTRAL
+Circuits 1 and 2 Neutral
+Circuits 3 and 4 Neutral
+System Ground
+Isolated Ground
+PHASE 
+PHASE 
+PHASE
+NEUTRAL
+GROUND
+Circuit Panel 1
+Circuit 1 Hot
+Circuit 2 Hot
+Ground
+A
+B
+C
+PHASE 
+PHASE 
+PHASE
+NEUTRAL
+GROUND
+Circuit Panel 2
+Circuit 3 Hot
+Circuit 4 Hot
+Ground
+A
+B
+C
+Circuits 3 and 4 Neutral
+Circuits 1 and 2 Neutral
+Three-Circuit, Separate Neutrals
+In the three-circuit, separate neutral
+schematic, circuits 1 and 2 are distributed from
+two different phases from the first circuit panel.
+Each circuit is supported with its own neutral and
+a common ground. Circuit 3 is distributed from the
+second circuit panel and is supported by its own
+neutral and ground.
+On a single 3-phase circuit panel, three
+circuits are distributed as shown.
+On a split-phase circuit panel, three circuits
+are distributed as shown.
+Split-Phase
+Circuit Panel
+A
+C
+PHASE 
+PHASE
+GROUND
+Circuit 1 Hot
+Circuit 2 Hot
+Circuit 3 Hot
+System Ground
+Isolated Ground
+NEUTRAL
+Circuit 1 Neutral
+Circuit 2 Neutral
+Circuit 3 Neutral
+Single 3-Phase
+Circuit Panel
+A
+B
+C
+PHASE 
+PHASE 
+PHASE
+NEUTRAL
+GROUND
+Circuit 1 Neutral
+Circuit 1 Hot
+Circuit 2 Hot
+Circuit 3 Hot
+Circuit 2 Neutral
+Circuit 3 Neutral
+System Ground
+Isolated Ground
+Circuit Panel 1
+B
+C
+PHASE 
+PHASE
+Circuit 1 Hot
+Circuit 2 Hot
+NEUTRAL
+PHASE 
+PHASE 
+PHASE
+Circuit Panel 2
+NEUTRAL
+                Circuit 3 Neutral 
+                Circuit 1 Neutral 
+                Circuit 2 Neutral 
+GROUND
+Ground
+GROUND
+Ground
+C
+B
+PHASE 
+A
+Circuit 3 Hot
+A
+Answer Solutions Specification Guide                                                                                                                                                                                                            145
+Wiring Schematics
+Wiring & Cabling
+Wiring and Cabling
+Wiring Schematics
+Details for the Electrician
+February 2015

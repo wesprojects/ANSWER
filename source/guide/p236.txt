@@ -1,0 +1,116 @@
+236                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Tables, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Universal Tables
+Surface Materials
+High-Pressure
+Laminate Tables
+• Laminate
+cSee Surface Materials
+Reference Manual.
+• Open Line laminate
+  (option)
+  A program including non-
+  Steelcase laminates which
+  are suitable for use on
+  Steelcase products.
+cSee Surface Materials
+Reference Manual.
+3 mm or P-edge profile
+• Plastic
+Wood Veneer Tables
+• Wood veneer (standard)
+• Customiz stain (option)
+• Full-fill finish (option)
+Square (3 mm) edge
+profile
+• Wood veneer to match
+table
+Application Topics
+Table Fit in Panel
+Environments:
+Dimensions on straight
+and transition tables
+are 1⁄4" less than nominal
+dimension. This allows for
+an easy fit of freestanding
+tables in panel-wrapped
+environments and allows
+tables to move in and out of
+the area with ease.
+Example: A 48"W x 72"W
+corner is actually 473⁄4"W x
+713⁄4"W.
+actual: 713/4"
+nominal: 72"
+actual: 473/4"
+nominal: 48"
+Mobile pedestals up
+to 241⁄2"H will fit under
+26"H tables without reinforc-
+ing channels.
+Mobile pedestals up to
+27"H will fit under 281⁄2"H
+tables without reinforcing
+channels.
+Tables with reinforcing
+channel will reduce the
+available space by 1".
+Screens can be used on
+corner, 120° tables.
+• 24"W screens can be used
+on tables with dimensions
+C and D each equal to 43".
+• 24"W and 30"W screens
+can be used on tables with
+dimensions C and D each
+equal to 49".
+Tip: Corner, 120° tables with
+dimensions C and D each
+equal to 37" cannot accom-
+modate screens. 
+Table and Base
+Combinations
+cPage 243
+Table and Leg
+Combinations
+cPage 244
+Table Leg Positions
+cPage 245
+Wiring and Cabling
+Accessories
+cPage 246
+B
+A
+E
+Shipping
+Palletizing streamlines
+unloading and staging of
+worksurfaces. Identical
+worksurfaces ordered on the
+same line item are packed
+on pallets containing 5-50
+worksurfaces depending on
+worksurface size. Remaining
+worksurfaces are packed
+individually in cartons. If 
+palletizing is not desired,
+order in quantities of four or
+less per line item. For 
+maximum unload efficiency,
+utilize pallet handling equip-
+ment at job site whenever
+possible. Wood veneer
+worksurfaces cannot be
+palletized.
+Hex conference tables
+150"W or larger are
+shipped in two pieces. Tight-
+joint fasteners are supplied
+for proper assembly.
+February 2015

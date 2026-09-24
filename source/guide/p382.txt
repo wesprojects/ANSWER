@@ -1,0 +1,45 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Thin Trim
+Stacking Horizontal Frame Packages
+For Panel Buildups
+   Speciﬁcation Information
+DWidth    DStyle              DU.S.
+d              dNumber         dPrice
+d              d                      d
+18"              TS718HFS       $17
+24"              TS724HFS       $20
+30"              TS730HFS       $21
+36"              TS736HFS       $23
+42"              TS742HFS       $26
+48"              TS748HFS       $28
+60"              TS760HFS       $34
+72"              TS772HFS       $48
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 54
+• One horizontal connecting bar: black paint only
+Style number
+Tip: You must order vertical
+stacking junctions separately
+to complete your frame.
+cPage 395
+Tip: Top cap is not included.
+Use the top cap from the
+base panel you are stacking
+on.
+Tip: If stacking a window kit,
+stacking horizontal frame
+package is not needed.
+Tip: Remember to order
+skins to complete the panel.
+cPage 434
+scale 50
+382                                                                                                                                                                                                            Answer Solutions Specification Guide
+February 2015

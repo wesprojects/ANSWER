@@ -1,0 +1,120 @@
+754                                                                                                                                                                                                  Answer Solutions Specification Guide
+TS766TTVTW           368    T Vertical Trim
+TS766TUP                  411    T Jct w/Util Pole
+TS766TVPJ               348    V Base Pnl Jct
+TS766TVPJW            348    V Base Pnl Jct
+TS766TVVT               369    V Vertical Trim
+TS766TVVTW           369    V Vertical Trim
+TS766TXPJ               346    X Base Pnl Jct
+TS766TXPJW            346    X Base Pnl Jct
+TS766TYPJ               348    Y Base Pnl Jct
+TS766TYPJW            348    Y Base Pnl Jct
+TS766VPJ                  401    V Base Pnl Jct
+TS766VPJW              401    V Base Pnl Jct
+TS766WPJ         359, 402    Wall-Start Jct
+TS766XPJ                  397    X Base Pnl Jct
+TS766XPJW              397    X Base Pnl Jct
+TS766YPJ                  401    Y Base Pnl Jct
+TS766YPJW              401    Y Base Pnl Jct
+TS7672HS                  459    Steel Tech Skin, No Co
+TS7672LTSS             459    Steel Tech Skin, LH Co
+TS7672RTSS             459    Steel Tech Skin, RH Co
+TS7672TFGR            384    Frameless Glass
+TS7672TSS               459    Steel Tech Skin
+TS76767TCXJ          354    X Chng-of-Hgt Jct
+TS76767TCXJW       354    X Chng-of-Hgt Jct
+TS7676TCTJ             351    T Chng-of-Hgt Jct
+TS7676TCTJW         351    T Chng-of-Hgt Jct
+TS7677TCYJ             358    Y Chng-of-Hgt Jct
+TS7677TCYJW         358    Y Chng-of-Hgt Jct
+TS7678TFGR            384    Frameless Glass
+TS767TCIJ                349    In-Line Chng-of-Hgt Jct
+TS767TCIJW             349    In-Line Chng-of-Hgt Jct
+TS767TCLJ               350    L Chng-of-Hgt Jct
+TS767TCLJW            350    L Chng-of-Hgt Jct
+TS767TCVJ               357    V Chng-of-Hgt Jct
+TS767TCVJW           357    V Chng-of-Hgt Jct
+TS7684TFGR            384    Frameless Glass
+TS7686TCTJ             352    T Chng-of-Hgt Jct
+TS7686TCTJW         352    T Chng-of-Hgt Jct
+TS7688TCYJ             358    Y Chng-of-Hgt Jct
+TS7688TCYJW         358    Y Chng-of-Hgt Jct
+TS7690TFGR            384    Frameless Glass
+TS7696TFGR            384    Frameless Glass
+TS769TCIJ                349    In-Line Chng-of-Hgt Jct
+TS769TCIJW             349    In-Line Chng-of-Hgt Jct
+TS76BPSFX               480    Base Power Infeed
+TS76BPSFY               480    Base Power Infeed 
+TS76BPSFZ               480    Base Power Infeed 
+TS76BPX                    480    Base Power Infeed
+TS76BPY                    480    Base Power Infeed
+TS76BPZ                    480    Base Power Infeed
+TS76UPHX                 483    Multipurpose Power Infeeds
+TS76UPHXN              483    Multipurpose Power Infeeds
+TS76UPHY                 483    Multipurpose Power Infeeds
+TS76UPHYN              483    Multipurpose Power Infeeds
+TS76UPHZ                 483    Multipurpose Power Infeeds
+TS76UPHZN              483    Multipurpose Power Infeeds
+TS772BKT         361, 404    Off-Module Pnl Connector
+TS772BT                    392    Base Trim
+TS772BTH                 470    Hardwire Base Trim
+TS772CT                    474    Cable Tray
+TS772HB                    626    Horiz Brace
+TS772HF                    422    Base Horiz Frame Pkg
+TS772HFS         382, 423    Stacking Horiz Frame Pkg
+TS772OBK                 392    Open Base Conversion Kit
+TS772SHF                  421    Base Horiz Frame Pkg
+TS772STC                  424    Spanning Top Cap
+TS772STCW              424    Spanning Top Cap
+TS772TEVT               367    EOR Vertical Trim
+TS772TEVTW           367    EOR Vertical Trim
+TS772THF                  381    Base Horiz Frame Pkg
+TS772TLVT                368    L Vertical Trim
+TS772TLVTW            368    L Vertical Trim
+TS772TTC                  383    Spanning Top Cap
+TS772TTCR               389    Top Cap & Aligner Packages – Painted
+TS772TTCW              383    Spanning Top Cap
+TS772TTCWR           389    Top Cap & Aligner Packages – Wood
+TS772TTVT               368    T Vertical Trim
+TS772TTVTW           368    T Vertical Trim
+TS772TVVT               369    V Vertical Trim
+TS772TVVTW           369    V Vertical Trim
+TS7744TCYJ             358    Y Chng-of-Hgt Jct
+TS7744TCYJW         358    Y Chng-of-Hgt Jct
+TS7747TCTJ             352    T Chng-of-Hgt Jct
+TS7747TCTJW         352    T Chng-of-Hgt Jct
+TS7755TCYJ             358    Y Chng-of-Hgt Jct
+TS7755TCYJW         358    Y Chng-of-Hgt Jct
+TS7757TCTJ             352    T Chng-of-Hgt Jct
+TS7757TCTJW         352    T Chng-of-Hgt Jct
+TS7766TCYJ             358    Y Chng-of-Hgt Jct
+TS7766TCYJW         358    Y Chng-of-Hgt Jct
+TS7767TCTJ             352    T Chng-of-Hgt Jct
+TS7767TCTJW         352    T Chng-of-Hgt Jct
+TS7774TCTJ             353    T Chng-of-Hgt Jct
+TS7774TCTJW         353    T Chng-of-Hgt Jct
+TS7775TCTJ             353    T Chng-of-Hgt Jct
+TS7775TCTJW         353    T Chng-of-Hgt Jct
+TS7776TCTJ             353    T Chng-of-Hgt Jct
+TS7776TCTJW         353    T Chng-of-Hgt Jct
+TS77774TCXJ          356    X Chng-of-Hgt Jct
+TS77774TCXJW       356    X Chng-of-Hgt Jct
+TS77775TCXJ          356    X Chng-of-Hgt Jct
+TS77775TCXJW       356    X Chng-of-Hgt Jct
+TS77776TCXJ          356    X Chng-of-Hgt Jct
+TS77776TCXJW       356    X Chng-of-Hgt Jct
+TS77778TCXJ          356    X Chng-of-Hgt Jct
+TS77778TCXJW       356    X Chng-of-Hgt Jct
+TS7778TCTJ             353    T Chng-of-Hgt Jct
+TS7778TCTJW         353    T Chng-of-Hgt Jct
+TS7787TCTJ             352    T Chng-of-Hgt Jct
+TS7787TCTJW         352    T Chng-of-Hgt Jct
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

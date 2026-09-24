@@ -1,0 +1,68 @@
+158                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Base power infeed con-
+nects power in the building
+floor to a powerkit in the
+base of a panel. Infeed
+occupies one receptacle
+opening.
+cSpecifying, page 480
+Wiring & Cabling
+Connector on base
+power infeed must be
+placed behind panel base
+trim and harness must be
+backfed through base trim
+opening prior to an electri -
+cian making the connection
+to power in the building
+floor.
+Three wiring schemat -
+ics are available—3+1,
+2+2, and three circuits with
+separate neutrals (3SN).
+All the components in an
+electrical distribution system
+must use the same wiring
+schematic. For safety the
+components are keyed,
+labeled, and color-coded to
+make it impossible to con -
+nect mismatched parts.
+cPage 145
+All Answer electrical
+components are listed
+by Underwriters Laboratory
+(UL) and certified by the
+Canadian Standards
+Association (CSA).
+Local electrical codes
+vary. Consult a qualified
+electrical contractor or engi -
+neer for the proper installa -
+tion of all electrical
+components.
+Special requirements
+are needed for San
+Francisco.
+cSee page 480 for 
+specification.
+Flexible harness makes
+hardwired connection to
+building monument. The 
+harness must be backfed
+through the base trim prior
+to connection into the build-
+ing monument.
+Cover is included with base
+power infeed to conceal the
+connection.
+Connector on end of 
+base power infeed harness
+occupies one receptacle
+location in power block.
+Wiring and Cabling
+Base Power Infeed
+February 2015

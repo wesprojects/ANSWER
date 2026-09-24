@@ -1,0 +1,43 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                              67
+Panels—Thin Trim
+Panel Packages—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Order panel packages to create common 
+panel configurations quickly and easily.
+1. Specify a panel package of the width 
+     and height you need in thin top caps.
+ Note: Cable trays and base cable trays are 
+  optional.
+scale 70
+Top cap
+Fabric skins
+for both sides
+of panel
+Package includes . . . 
+Horizontal frame package
+Two skins
+Horizontal
+bars
+Base
+covers
+2. Order vertical junctions to complete 
+     panel packages and to join panels in in-line, 
+     L, T, V, X, and Y configurations and to terminate 
+     an end-of-run. Junctions are available with trim.
+End-of-
+run
+In-line
+L
+T
+X
+V
+Y
+3.  Specify powerkits where you will need 
+     power. You can specify a powerkit as an 
+      option on the panel package, or you can order 
+      powerkits separately.
+Panels—Thin Trim
+February 2015

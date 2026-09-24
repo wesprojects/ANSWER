@@ -1,0 +1,99 @@
+554                                                                                                                                                                                                   Answer Solutions Specification Guide
+Tip: Columns have a 
+different aesthetic than post
+legs (round vs. elliptical).
+Columns can be used as 
+column supports in applica-
+tions without post legs.
+Tip: Height dimensions
+listed include the thickness
+of a worksurface.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 224
+• Column: paint
+• Attachment hardware
+1 Style number
+2 Paint color number for column
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                    No cost                                Specify paint color number.
+  Materials             • Paint price group 2                    +$19 per leg                        Specify paint color number.
+                              • Paint price group 3                    +$32 per leg                        Specify paint color number.
+   Speciﬁcation Information
+DPlanning   DStyle          DU.S.
+dHeight       dNumber      dBase
+d                 d                   dPrice
+d                 d                   d
+281⁄2"              UCOL           $262
+281⁄2"–315⁄8"   UADJCOL    $323
+  d                    d                     d
+Columns
+Options                       U.S. Price                      Required to Specify
+  Surface                • Paint price group 1                    No cost                                Specify paint color number.
+  Materials             • Paint price group 2                    +$19 per leg                        Specify paint color number.
+   Speciﬁcation Information
+DPlanning   DStyle          DU.S.                DPlanning    DStyle          DU.S.
+dHeight       dNumber      dBase               dHeight       dNumber      dBase
+d                 d                   dPrice               d                  d                   dPrice
+d                 d                   d
+d                  d                   d
+Adjustable-Height Leg                  Package of Four Adjustable-Height 
+with Glide                                      Legs with Glides
+251⁄2"–311⁄2"    UADJ           $195                    251⁄2"–311⁄2"   UADJ4          $780
+d
+d
+d
+d
+d
+d
+Adjustable-Height Leg                  Package of Four Adjustable-Height 
+with Caster                                    Legs with Casters
+251⁄2"–311⁄2"    UADJC        $218                    251⁄2"–311⁄2"   UADJ4C       $872
+d
+d
+d
+d
+d
+d
+                                                      Package of Four Adjustable-Height Legs with 
+                                                      Two Glides and Two Casters 
+                                                                            251⁄2"–311⁄2"   UADJ4M      $826
+d
+d
+d
+Tip: Corner worksurfaces
+require a leg in the back
+corner. Be sure to order fifth
+leg if specifying a package
+of four.
+Tip: See Table and Leg
+Combinations page for
+number of legs required 
+per worksurface.
+cPage 244
+Tip: Height dimensions
+listed include the thickness
+of a worksurface.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 224
+• Worksurface legs: paint
+• Glides, if selected: paint to match legs
+• Locking casters, if selected: paint to match legs
+• Attachment hardware
+1 Style number
+2 Paint color number for leg
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Adjustable-Height Legs
+Universal Systems Worksurfaces
+Legs and Columns for Universal Systems Worksurfaces without Alignment Tab, continued                                         
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

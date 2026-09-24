@@ -1,0 +1,94 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   539
+Universal Systems Worksurfaces
+                                                                                                                     
+                                                                                                                                                                                                                   
+Transaction Worksurfaces
+Speciﬁcation Information
+                                                   U.S. Base Prices
+                                                   High-Pressure Laminate           Wood
+                                              
+          
+                  
+          DOption
+DDimensions  DPanel  DStyle                DPlastic        DPlastic                DWood           d(Add $ to 
+dA    B            dWidth  dNumber            d3 mm           dP-Edge                dSquare        dBase Price)
+d                     d
+d                         dEdge            d                           dEdge
+d
+d                     d
+d                         d                    d
+d
+dFull-Fill
+d                     d
+d                         dNo Sufﬁx     dSufﬁx P
+dSufﬁx SW    dFinish
+With Brackets and Top Caps for Use with Answer Panels with Thin Trim
+15"    28"            30"          UTR1630TA      $296                 $341                         N.A.                  N.A.
+15"    34"            36"          UTR1636TA      $320                 $365                         $  909               +$45
+15"    40"            42"          UTR1642TA      $345                 $390                         $  934               +$45
+15"    46"            48"          UTR1648TA      $367                 $418                         $  956               +$45
+15"    58"            60"          UTR1660TA      $398                 $449                         $1051               +$45
+d
+d
+d
+d
+d
+d
+d
+With Brackets and Top Caps for Use with Answer Panels with Square Trim
+15"    23"            30"          UTR1630SA      $300                 $345                         N.A.                  N.A.
+15"    29"            36"          UTR1636SA      $325                 $370                         $  914               +$45
+15"    35"            42"          UTR1642SA      $350                 $395                         $  939               +$45
+15"    41"            48"          UTR1648SA      $373                 $424                         $  962               +$45
+15"    53"            60"          UTR1660SA      $404                 $455                         $1057               +$45
+d
+d
+d
+d
+d
+d
+d
+With Brackets and Top Caps for Use with Answer Panels with Oval Trim
+15"    23"            30"          UTR1630A         $300                 $345                         N.A.                  N.A.
+15"    29"            36"          UTR1636A         $325                 $370                         $  926               +$45
+15"    35"            42"          UTR1642A         $350                 $395                         $  951               +$45
+15"    41"            48"          UTR1648A         $373                 $424                         $  974               +$45
+15"    53"            60"          UTR1660A         $404                 $455                         $1060               +$65
+d
+d
+d
+d
+d
+d
+d
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles,
+add a suffix to the style 
+number. (For example,
+UTR1636A becomes
+UTR1636ASW for wood 
+with square edge profile.)
+A
+B
+Tip: Actual width of Answer
+transaction worksurface,
+using square and oval trim,
+is 7" shorter than the nomi-
+nal planning dimension to
+accommodate change of
+panel height applications.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Actual width of Answer
+transaction worksurface
+using thin trim is 2" shorter
+than the nominal planning
+dimension to accommodate
+change of panel height 
+applications.
+Universal Systems
+Worksurfaces
+February 2015

@@ -1,0 +1,182 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            215
+Transaction Worksurfaces 
+Connections
+Transaction worksur-
+face support brackets
+connect to the top of a hori-
+zontal connecting bar.
+Horizontal bar must be con-
+nected to junctions in top
+position.
+Transaction worksur-
+faces cannot be used when
+a transparent window,
+pass-thru window, or con -
+solidation point cabinet are
+assembled at the top of a
+panel.
+In square and oval trim
+applications, a transac-
+tion top cannot be used on a
+48"H panel when the panel
+is connected to a taller panel
+in a change-of-height 
+condition.
+Spanning two panels with
+thin trim is possible.
+Exception: 58"W transaction
+worksurface cannot span
+multi-panels because it has
+an additional support
+bracket that conflicts with
+the junction between two
+30"W panels.
+34"
+40"
+46"
+58"
+34"
+40"
+46"
+58"
+18"
+18"
+18"
+24"
+28"
+28"
+30"
+24"
+24"
+30"
+30"
+Spanning two panels with
+square or oval trim is 
+possible.
+Exception: 53"W transaction
+worksurface cannot span
+multi-panels because it has
+an additional support
+bracket that conflicts with
+the junction between two
+30"W panels.
+Width of transaction
+worksurface with thin
+trim is 2" shorter than the
+width of corresponding panel
+to accommodate change-of-
+height applications.
+Width of transaction
+worksurface with
+square and oval trim is
+7" shorter than the width of
+corresponding panel to
+accommodate change-of-
+height applications.
+29"
+35"
+41"
+53"
+29"
+35"
+41"
+53"
+18"
+18"
+18"
+24"
+23"
+23"
+30"
+24"
+24"
+30"
+30"
+Panels on one or on both
+sides of the transaction
+worksurface can be higher
+or lower than the panel that
+supports the transaction
+worksurface. 
+Transaction worksur-
+faces with thin or oval
+trim include top trim that
+accommodates all standard
+and change-of-height appli-
+cations (one end or both
+ends).
+Transaction worksur-
+faces with square trim
+include top trim that accom-
+modates both standard and
+slim change-of-height appli-
+cations (one end or both
+ends). Change-of-height
+option must be specified
+when used adjacent to cable
+management change-of-
+height (one end or both
+ends).
+Recommended stand-
+ing height for transaction
+worksurface is achieved by
+attaching it to 42"H panels. 
+Utility2 shelf lights can
+be installed beneath trans-
+action worksurfaces using
+screws and keyhole slots in
+light fixture.
+Transaction worksur-
+face must be centered on
+the panel.
+Wiring & Cabling
+Transaction worksur-
+face blocks cable routing in
+the top cable tray but cable
+routing is still available lower
+in the panel.
+Surface Materials
+High-Pressure
+Laminate Worksurfaces
+• Laminate
+cSee Surface Materials
+Reference Manual.
+• Open Line laminate
+  (option)
+  A program including non-
+  Steelcase laminates which
+  are suitable for use on
+  Steelcase products.
+cSee Surface Materials
+Reference Manual.
+Edges
+• Plastic
+Top caps
+• Paint
+• Wood
+Support brackets
+• Black paint only
+Wood Veneer
+Worksurfaces
+• Wood veneer (standard)
+• Customiz stain (option)
+• Full-fill finish (option)
+Square (3 mm) edge
+profile
+• Wood veneer to match
+  worksurface
+Top caps
+• Paint
+• Wood
+Support brackets
+• Black paint only
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Universal Systems Worksurfaces
+Universal Systems
+Worksurfaces
+February 2015

@@ -1,0 +1,135 @@
+Panels—Thin Trim
+Answer Solutions Specification Guide                                                                                                                             cBase Junctions—Thin Trim, continued  15
+Panels—Thin Trim
+Base Junctions—Thin Trim
+L same height base
+junction includes junction,
+inside corner light seal(s),
+vertical trim, junction cap,
+and two plastic top cap
+aligners. Select thin style
+trim.
+T same height base
+junction includes junction,
+inside corner light seal(s),
+vertical trim, junction cap,
+and three plastic top cap
+aligners. Select thin style
+trim.
+X same height base
+junction includes junction,
+inside corner light seal(s),
+junction cap, and four plastic
+top cap aligners. Select thin
+style trim.
+V same height base
+junction includes junction,
+vertical trim, junction cap,
+and plastic top cap aligner.
+Select thin style trim.
+Y same height base
+junction includes junction,
+junction cap, and two plastic
+top cap aligners. Select thin
+style trim.
+Most change-of-height
+junction configurations
+are pre-configured and
+include junctions and
+needed trims. Change-of-
+height junctions that are not
+pre-configured are available
+through the build your own
+process.
+cSee specification informa-
+tion, page 373.
+Wall-start junction 
+secures to the stud in a 
+structural wall or drywall 
+fasteners can be used. 
+Vertical trim is not needed.
+Also used in off-module
+applications. Wall-start 
+junction adds 3/16" dimen-
+sion to panel run.
+An in-line top cap
+aligner is included with 
+in-line junctions. Select thin
+style.
+Top cap aligners are
+included with end-of-run, L,
+T, X, V, and Y junctions.
+Posts can be added or
+removed from corner junc-
+tions to change from one
+corner to another.
+Connections
+Block and post con-
+struction of corner
+junctions allow junctions
+to be easily added or
+removed to configure
+between L,T, X, V, or Y in an
+application.
+Quick lock on both
+ends of the panel’s 
+horizontal connecting
+bars engage the junction in
+a tight structural connection.
+Base junctions can
+accept a stacking junction.
+Omit trim option should be
+selected whenever stacking.
+Omitting trim removes all
+vertical trim, junction cap,
+and aligner(s). Remember to
+specify vertical trim, junction
+cap, inside corner light
+seal(s), and aligners 
+separately.
+cSee page 373.
+Floor anchor brackets
+are available to secure junc-
+tions to the floor to prevent
+panel movement. Brackets
+are intended for use in seis-
+mic zones and may require
+additional code approvals.
+Junction stabilizer
+bracket can be used to
+add rigidity to a panel run or
+when using a Universal slid-
+ing door. Bracket must be
+bolted to a concrete floor.
+For junctions manufactured
+before October 10, 2011 use
+TS7SB. For junctions manu-
+factured on or after October
+10, 2011 use TS7SBNJ.
+Bracket foot is visible 
+on one side of panel when
+installed.
+Junction stabilizer
+bracket blocks power rout-
+ing in the panel base and
+just above the base areas.
+The bracket covers the slots
+on the junction where the
+powerkit connects in these
+two zones. It also blocks the
+ability for a powerkit 
+harness, pass-through pow-
+erkit, or modular harness to
+route in the base area from
+an adjacent panel.
+Junction stabilizer
+bracket also blocks lay 
+in of cables in base area of
+panel. 
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

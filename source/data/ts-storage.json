@@ -1,0 +1,3702 @@
+{
+ "section": "ts-storage",
+ "title": "TS Series Storage",
+ "pages": [
+  247,
+  729
+ ],
+ "pageRanges": [
+  [
+   247,
+   266
+  ],
+  [
+   589,
+   606
+  ],
+  [
+   724,
+   725
+  ],
+  [
+   728,
+   729
+  ]
+ ],
+ "families": [
+  {
+   "id": "ts-fixed-pedestals",
+   "title": "TS Series Fixed Pedestals",
+   "page": 590,
+   "understandingPage": 250,
+   "trim": null,
+   "category": "pedestal",
+   "standardIncludes": [
+    "Pedestal: paint price group 1",
+    "Handle pulls: 0835 Black or 9211 Nickel",
+    "Lock face ring with plastic plug to accommodate lock cylinder: 9201 Polished Chrome",
+    "Attachment hardware",
+    "Steel ball-bearing suspensions on box and file drawers",
+    "Adjustable glides: black plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for pedestal",
+    "3 Paint color number for handle pulls: 0835 Black, 9211 Nickel",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708.",
+    "Tip: Remember to specify lock cylinder and key. Lock Cylinders, page 726"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 42,
+     "priceText": "+$42",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 7207 Black",
+     "price": 27,
+     "priceText": "+$27",
+     "spec": "Specify with 7207 Black ledge pulls."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 4799 Platinum",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with 4799 Platinum ledge pulls."
+    },
+    {
+     "group": "Drawer Accessories",
+     "name": "Filing rail (package of 2)",
+     "price": 18,
+     "priceText": "+$18",
+     "spec": "Specify with filing rail."
+    },
+    {
+     "group": "Drawer Accessories",
+     "name": "Box drawer dividers (package of 2)",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify with box drawer dividers."
+    },
+    {
+     "group": "Drawer Accessories",
+     "name": "File drawer dividers (package of 2)",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify with file drawer dividers."
+    },
+    {
+     "group": "Drawer Accessories",
+     "name": "Pencil tray",
+     "price": 18,
+     "priceText": "+$18",
+     "spec": "Specify with pencil tray."
+    }
+   ],
+   "tips": [
+    "Tip: Under-worksurface pedestals shipped prior to January 2005 require the use of drawer accessories from the mobile pedestal collection.",
+    "Tip: Counterweights are not required on TS Series fixed pedestals.",
+    "Tip: File drawer rails are required to file legal-sized files or side-to-side letter-sized files in pedestal file drawers."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Style pattern: TS2P + drawer config (FF = file/file, BBF = box/box/file) + nominal depth (22/28) + U (under-worksurface).",
+    "Column headed 'File Drawers' lists the drawer configuration top to bottom."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "File Drawers",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS2PFF22U",
+     "desc": "Fixed (under-worksurface) pedestal, 22\"D, file/file",
+     "attrs": {
+      "depth": 22,
+      "width": 15.25,
+      "height": 27,
+      "drawers": "File, File",
+      "type": "fixed",
+      "actualDepth": 21.8125,
+      "actualWidth": 15.1875
+     },
+     "price": 417,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PBBF22U",
+     "desc": "Fixed (under-worksurface) pedestal, 22\"D, box/box/file",
+     "attrs": {
+      "depth": 22,
+      "width": 15.25,
+      "height": 27,
+      "drawers": "Box, Box, File",
+      "type": "fixed",
+      "actualDepth": 21.8125,
+      "actualWidth": 15.1875
+     },
+     "price": 439,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PFF28U",
+     "desc": "Fixed (under-worksurface) pedestal, 28\"D, file/file",
+     "attrs": {
+      "depth": 28,
+      "width": 15.25,
+      "height": 27,
+      "drawers": "File, File",
+      "type": "fixed",
+      "actualDepth": 27.8125,
+      "actualWidth": 15.1875
+     },
+     "price": 452,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PBBF28U",
+     "desc": "Fixed (under-worksurface) pedestal, 28\"D, box/box/file",
+     "attrs": {
+      "depth": 28,
+      "width": 15.25,
+      "height": 27,
+      "drawers": "Box, Box, File",
+      "type": "fixed",
+      "actualDepth": 27.8125,
+      "actualWidth": 15.1875
+     },
+     "price": 477,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-fixed-pedestal-rails",
+   "title": "TS Series Fixed Pedestal Accessories — Rails For Use in Fixed Pedestals",
+   "page": 591,
+   "understandingPage": 251,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Package of two rails: black only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Two rails per drawer accommodate side-to-side filing of letter-, A4-, and legal-size hanging folders. Exception: Legal-size file folders cannot be filed in 18\"D pedestals."
+   ],
+   "notes": [],
+   "columns": [
+    "Width",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "RXADRL15",
+     "desc": "Package of two filing rails for fixed pedestal drawers",
+     "attrs": {
+      "width": 12,
+      "quantity": 2
+     },
+     "price": 22,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-fixed-pedestal-dividers",
+   "title": "TS Series Fixed Pedestal Accessories — Dividers For Use in Fixed Pedestals",
+   "page": 591,
+   "understandingPage": 250,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Package of dividers: black only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [],
+   "columns": [
+    "Width",
+    "Quantity",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "RDV1506",
+     "desc": "Dividers for 6\"H drawers, package of 2",
+     "attrs": {
+      "width": 12,
+      "quantity": 2,
+      "drawerHeight": 6
+     },
+     "price": 35,
+     "optionPrices": {}
+    },
+    {
+     "style": "RDV1512",
+     "desc": "Dividers for 12\"H drawers, package of 2",
+     "attrs": {
+      "width": 12,
+      "quantity": 2,
+      "drawerHeight": 12
+     },
+     "price": 38,
+     "optionPrices": {}
+    },
+    {
+     "style": "RDV151210",
+     "desc": "Dividers for 12\"H drawers, package of 10",
+     "attrs": {
+      "width": 12,
+      "quantity": 10,
+      "drawerHeight": 12
+     },
+     "price": 179,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-fixed-pedestal-pencil-tray",
+   "title": "TS Series Fixed Pedestal Accessories — Pencil Tray For Use in Fixed Pedestals",
+   "page": 591,
+   "understandingPage": 250,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Pencil tray: black only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Pencil trays for use with fixed pedestals are available as optional accessories."
+   ],
+   "notes": [
+    "Drawing dimensions: 4 1/2\" x 11 7/8\" x 1 1/2\"."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "RPXDPT",
+     "desc": "Pencil tray for fixed pedestal",
+     "attrs": {
+      "depth": 4.5,
+      "width": 11.875,
+      "height": 1.5
+     },
+     "price": 32,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-mobile-pedestals-steel-top",
+   "title": "TS Series Mobile Pedestals With Steel Top",
+   "page": 592,
+   "understandingPage": 250,
+   "trim": null,
+   "category": "pedestal",
+   "standardIncludes": [
+    "Pedestal: paint price group 1",
+    "Handle pulls: 0835 Black or 9211 Nickel",
+    "Lock face ring with plastic plug to accommodate lock cylinder: 9201 Polished Chrome",
+    "Steel ball-bearing suspensions on box and file drawers",
+    "1 1/2\"-diameter, front-locking, hard casters",
+    "Counterweight package"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for pedestal",
+    "3 Paint color number for handle pulls: 0835 Black, 9211 Nickel",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708.",
+    "Tip: Remember to specify lock cylinder and key. Lock Cylinders, page 726"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 42,
+     "priceText": "+$42",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Perforation",
+     "name": "Large perforation on drawer fronts",
+     "price": 170,
+     "priceText": "+$170",
+     "spec": "Specify with large perforation on drawer fronts."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 7207 Black",
+     "price": 27,
+     "priceText": "+$27",
+     "spec": "Specify with 7207 Black ledge pulls."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 4799 Platinum",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with 4799 Platinum ledge pulls."
+    },
+    {
+     "group": "Trim Strip Handle Pull",
+     "name": "Extra handle pull on trim strip of mobile pedestals only",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with extra handle pull on trim strip."
+    },
+    {
+     "group": "Casters",
+     "name": "3\"-diameter, large, front-locking, hard casters for use with box/file mobile pedestal",
+     "price": 66,
+     "priceText": "+$66",
+     "spec": "Specify with large casters.",
+     "appliesTo": "TS2PBF22M only"
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Related products: Box drawer divider, File drawer divider, Pencil tray (page 594).",
+    "Mobile pedestal accessories are not interchangeable with under-worksurface pedestal accessories (page 251)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "File Drawers",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS2PBF22M",
+     "desc": "Mobile pedestal with steel top, box/file, 21\"H",
+     "attrs": {
+      "depth": 22,
+      "width": 15.25,
+      "height": 21,
+      "drawers": "Box, File",
+      "type": "mobile",
+      "top": "steel",
+      "actualDepth": 23,
+      "actualWidth": 15.1875
+     },
+     "price": 490,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PFF22M",
+     "desc": "Mobile pedestal with steel top, file/file, 26 5/8\"H",
+     "attrs": {
+      "depth": 22,
+      "width": 15.25,
+      "height": 26.625,
+      "drawers": "File, File",
+      "type": "mobile",
+      "top": "steel",
+      "actualDepth": 23,
+      "actualWidth": 15.1875
+     },
+     "price": 551,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PBBF22M",
+     "desc": "Mobile pedestal with steel top, box/box/file, 26 5/8\"H",
+     "attrs": {
+      "depth": 22,
+      "width": 15.25,
+      "height": 26.625,
+      "drawers": "Box, Box, File",
+      "type": "mobile",
+      "top": "steel",
+      "actualDepth": 23,
+      "actualWidth": 15.1875
+     },
+     "price": 607,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-mobile-pedestals-seat-cushion",
+   "title": "TS Series Mobile Pedestals With Seat Cushion",
+   "page": 593,
+   "understandingPage": 250,
+   "trim": null,
+   "category": "pedestal",
+   "standardIncludes": [
+    "Pedestal: paint price group 1",
+    "Seat cushion: fabric price group 1",
+    "Handle pulls: 0835 Black or 9211 Nickel",
+    "Lock face ring with plastic plug to accommodate lock cylinder: 9201 Polished Chrome",
+    "Handle on pedestal with seat cushion and handle, if selected: 0835 Black",
+    "Steel ball-bearing suspensions on box and file drawers",
+    "1 1/2\"-diameter front-locking, hard casters",
+    "Counterweight package"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Fabric color number for seat cushion",
+    "3 Paint color number for pedestal",
+    "4 Paint color number for handle pulls: 0835 Black, 9211 Nickel",
+    "5 Options, if selected (see below)",
+    "See Surface Materials, page 708.",
+    "Tip: Remember to specify lock cylinder and key. Lock Cylinders, page 726"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials (Pedestal and handle pulls)",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Pedestal and handle pulls)",
+     "name": "Paint price group 2",
+     "price": 42,
+     "priceText": "+$42",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Pedestal and handle pulls)",
+     "name": "Paint price group 3",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 2",
+     "price": 6,
+     "priceText": "+$6",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 3",
+     "price": 14,
+     "priceText": "+$14",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 4",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 5",
+     "price": 29,
+     "priceText": "+$29",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 6",
+     "price": 35,
+     "priceText": "+$35",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 7",
+     "price": 41,
+     "priceText": "+$41",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 8",
+     "price": 52,
+     "priceText": "+$52",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 9",
+     "price": 65,
+     "priceText": "+$65",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Fabric price group 10",
+     "price": 74,
+     "priceText": "+$74",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials (Seat cushion)",
+     "name": "Customer's Own Material",
+     "price": 16,
+     "priceText": "+$16",
+     "spec": "See Understanding Customer's Own Material (COM)."
+    },
+    {
+     "group": "Perforation",
+     "name": "Large perforation on drawer fronts",
+     "price": 170,
+     "priceText": "+$170",
+     "spec": "Specify with large perforation on drawer fronts."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 7207 Black",
+     "price": 27,
+     "priceText": "+$27",
+     "spec": "Specify with 7207 Black ledge pulls."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 4799 Platinum",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with 4799 Platinum ledge pulls."
+    },
+    {
+     "group": "Trim Strip Handle Pull",
+     "name": "Extra handle pull on trim strip of mobile pedestal with seat cushion only",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with extra handle pull on trim strip."
+    },
+    {
+     "group": "Casters",
+     "name": "3\"-diameter, large front-locking hard casters",
+     "price": 66,
+     "priceText": "+$66",
+     "spec": "Specify with large casters."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Allowed seat cushion fabric grades: 1–10 and COM.",
+    "Related products: Box drawer divider, File drawer divider, Pencil tray (page 594).",
+    "Statement of line lists 15 1/4\"W (seat cushion) and 16 1/4\"W (*with handle), 22 1/2\"D, 22 3/4\"H; spec table prints 22 1/4\"D x 15 1/2\"W and 22 1/2\"D x 16 1/4\"W."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "File Drawers",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS2PBF22MC",
+     "desc": "Mobile pedestal with seat cushion, box/file",
+     "attrs": {
+      "depth": 22.25,
+      "width": 15.5,
+      "height": 22.75,
+      "drawers": "Box, File",
+      "type": "mobile",
+      "top": "seat cushion",
+      "handle": false,
+      "nominalDepth": 22
+     },
+     "price": 754,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PBF22MCH",
+     "desc": "Mobile pedestal with seat cushion and handle, box/file",
+     "attrs": {
+      "depth": 22.5,
+      "width": 16.25,
+      "height": 22.75,
+      "drawers": "Box, File",
+      "type": "mobile",
+      "top": "seat cushion",
+      "handle": true,
+      "nominalDepth": 22
+     },
+     "price": 811,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-mobile-pedestal-accessories",
+   "title": "TS Series Mobile Pedestal Accessories",
+   "page": 594,
+   "understandingPage": 250,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Box drawer divider: black plastic",
+    "File drawer divider: black plastic",
+    "Pencil tray: black plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: TS2PBDD pedestal box drawer divider cannot be used with Turnstone under-worksurface pedestals.",
+    "Tip: File drawer divider is required to file legal-sized files in pedestal file drawers.",
+    "Tip: TS2PFDD pedestal file drawer divider cannot be used with Turnstone under-worksurface pedestals."
+   ],
+   "notes": [
+    "Page has three sub-tables (Box Drawer Divider, File Drawer Divider, Pencil Tray), each with its own Standard Includes."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS2PBDD",
+     "desc": "Box drawer divider (mobile pedestal), black plastic",
+     "attrs": {
+      "depth": 0.75,
+      "width": 12.75,
+      "height": 4.375,
+      "use": "mobile pedestal box drawer"
+     },
+     "price": 5,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PFDD",
+     "desc": "File drawer divider (mobile pedestal), black plastic",
+     "attrs": {
+      "depth": 0.75,
+      "width": 12.75,
+      "height": 9.1875,
+      "use": "mobile pedestal file drawer"
+     },
+     "price": 12,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2PPT",
+     "desc": "Pencil tray (mobile pedestal), black plastic",
+     "attrs": {
+      "depth": 5.5625,
+      "width": 12.875,
+      "height": 1,
+      "use": "mobile pedestal"
+     },
+     "price": 12,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-bins",
+   "title": "TS Series Bins",
+   "page": 595,
+   "understandingPage": 252,
+   "trim": null,
+   "category": "bin",
+   "standardIncludes": [
+    "Overhead bin with lift-up door: paint price group 1",
+    "Recess beneath unit to accommodate shelf light",
+    "Shelf backstop",
+    "On-module attachment hooks with safety catch",
+    "Lock, keyed random: 9201 Polished Chrome only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for overhead bin",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials (Overhead bin)",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Overhead bin)",
+     "name": "Paint price group 2",
+     "price": 42,
+     "priceText": "+$42",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials (Overhead bin)",
+     "name": "Paint price group 3",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Shelf Accessories",
+     "name": "Four dividers: white plastic",
+     "price": 44,
+     "priceText": "+$44",
+     "spec": "Specify with dividers."
+    },
+    {
+     "group": "Keying",
+     "name": "Field-installed keying",
+     "price": null,
+     "priceText": "Page 726",
+     "spec": "See page 726."
+    }
+   ],
+   "tips": [
+    "Tip: TS Series bins cannot be upmounted."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Style pattern: TSASUB = flat front, TSASUBC = radius front, + width, + L (lock).",
+    "Related products: Accessories (page 594), Shelf lights (page 689)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Number of Doors",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSASUB24L",
+     "desc": "Overhead bin, flat front, 24\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 24,
+      "height": 16.25,
+      "doors": 1,
+      "front": "flat"
+     },
+     "price": 421,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUB30L",
+     "desc": "Overhead bin, flat front, 30\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 30,
+      "height": 16.25,
+      "doors": 1,
+      "front": "flat"
+     },
+     "price": 439,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUB36L",
+     "desc": "Overhead bin, flat front, 36\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 36,
+      "height": 16.25,
+      "doors": 1,
+      "front": "flat"
+     },
+     "price": 459,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUB42L",
+     "desc": "Overhead bin, flat front, 42\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 42,
+      "height": 16.25,
+      "doors": 1,
+      "front": "flat"
+     },
+     "price": 477,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUB48L",
+     "desc": "Overhead bin, flat front, 48\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 48,
+      "height": 16.25,
+      "doors": 1,
+      "front": "flat"
+     },
+     "price": 502,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUB60L",
+     "desc": "Overhead bin, flat front, 60\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 60,
+      "height": 16.25,
+      "doors": 2,
+      "front": "flat"
+     },
+     "price": 773,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUB72L",
+     "desc": "Overhead bin, flat front, 72\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 72,
+      "height": 16.25,
+      "doors": 2,
+      "front": "flat"
+     },
+     "price": 851,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC24L",
+     "desc": "Overhead bin, radius front, 24\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 24,
+      "height": 16.25,
+      "doors": 1,
+      "front": "radius"
+     },
+     "price": 538,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC30L",
+     "desc": "Overhead bin, radius front, 30\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 30,
+      "height": 16.25,
+      "doors": 1,
+      "front": "radius"
+     },
+     "price": 556,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC36L",
+     "desc": "Overhead bin, radius front, 36\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 36,
+      "height": 16.25,
+      "doors": 1,
+      "front": "radius"
+     },
+     "price": 576,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC42L",
+     "desc": "Overhead bin, radius front, 42\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 42,
+      "height": 16.25,
+      "doors": 1,
+      "front": "radius"
+     },
+     "price": 594,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC48L",
+     "desc": "Overhead bin, radius front, 48\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 48,
+      "height": 16.25,
+      "doors": 1,
+      "front": "radius"
+     },
+     "price": 619,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC60L",
+     "desc": "Overhead bin, radius front, 60\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 60,
+      "height": 16.25,
+      "doors": 2,
+      "front": "radius"
+     },
+     "price": 976,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASUBC72L",
+     "desc": "Overhead bin, radius front, 72\"W",
+     "attrs": {
+      "depth": 15.75,
+      "width": 72,
+      "height": 16.25,
+      "doors": 2,
+      "front": "radius"
+     },
+     "price": 1054,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-bin-markerboard",
+   "title": "TS Series Bins, continued — Flexible Markerboard Surface For Use with TS Series Bins",
+   "page": 596,
+   "understandingPage": 252,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Flexible, magnetic markerboard surface to attach to door of overhead storage bin: white plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Widths offered: 30\", 36\", 42\", 48\" (no 24\", 60\" or 72\" markerboard printed)."
+   ],
+   "columns": [
+    "Dimensions W",
+    "H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "R30MBB",
+     "desc": "Flexible markerboard surface for 30\"W bin door",
+     "attrs": {
+      "width": 30,
+      "height": 16.25
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "R36MBB",
+     "desc": "Flexible markerboard surface for 36\"W bin door",
+     "attrs": {
+      "width": 36,
+      "height": 16.25
+     },
+     "price": 108,
+     "optionPrices": {}
+    },
+    {
+     "style": "R42MBB",
+     "desc": "Flexible markerboard surface for 42\"W bin door",
+     "attrs": {
+      "width": 42,
+      "height": 16.25
+     },
+     "price": 112,
+     "optionPrices": {}
+    },
+    {
+     "style": "R48MBB",
+     "desc": "Flexible markerboard surface for 48\"W bin door",
+     "attrs": {
+      "width": 48,
+      "height": 16.25
+     },
+     "price": 119,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-laminate-common-shelves",
+   "title": "TS Series Laminate Common Shelves",
+   "page": 597,
+   "understandingPage": 254,
+   "trim": null,
+   "category": "shelf",
+   "standardIncludes": [
+    "1 3/16\"-thick shelf: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge: plastic",
+    "Support brackets: paint price group 1"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for shelf",
+    "3 Plastic edge band color number for worksurface",
+    "4 Paint color number for support bracket",
+    "5 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 14,
+     "priceText": "+$14",
+     "spec": "Specify paint color number.",
+     "appliesTo": "support brackets"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number.",
+     "appliesTo": "support brackets"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate (HPL) shelves"
+    }
+   ],
+   "tips": [
+    "Tip: For anticipated heavy loads on 42\" and 48\"W laminate common shelves, a field-installed reinforcing channel (TSATRC39) can be used.",
+    "Tip: Standard worksurfaces are 1 1/8\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Two style numbers per size: TSASLCL = LPL, TSASHCL = HPL. TSATRC39 reinforcing channel is specified on page 503 (outside this section).",
+    "Paint price group 1 = standard (no cost)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSASLCL24",
+     "desc": "Laminate common shelf, LPL, 24\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 24,
+      "height": 7.75,
+      "laminate": "LPL"
+     },
+     "price": 114,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASHCL24",
+     "desc": "Laminate common shelf, HPL, 24\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 24,
+      "height": 7.75,
+      "laminate": "HPL"
+     },
+     "price": 141,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASLCL30",
+     "desc": "Laminate common shelf, LPL, 30\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 30,
+      "height": 7.75,
+      "laminate": "LPL"
+     },
+     "price": 118,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASHCL30",
+     "desc": "Laminate common shelf, HPL, 30\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 30,
+      "height": 7.75,
+      "laminate": "HPL"
+     },
+     "price": 146,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASLCL36",
+     "desc": "Laminate common shelf, LPL, 36\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 36,
+      "height": 7.75,
+      "laminate": "LPL"
+     },
+     "price": 126,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASHCL36",
+     "desc": "Laminate common shelf, HPL, 36\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 36,
+      "height": 7.75,
+      "laminate": "HPL"
+     },
+     "price": 156,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASLCL42",
+     "desc": "Laminate common shelf, LPL, 42\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 42,
+      "height": 7.75,
+      "laminate": "LPL"
+     },
+     "price": 136,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASHCL42",
+     "desc": "Laminate common shelf, HPL, 42\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 42,
+      "height": 7.75,
+      "laminate": "HPL"
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASLCL48",
+     "desc": "Laminate common shelf, LPL, 48\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 48,
+      "height": 7.75,
+      "laminate": "LPL"
+     },
+     "price": 147,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSASHCL48",
+     "desc": "Laminate common shelf, HPL, 48\"W",
+     "attrs": {
+      "depth": 15,
+      "width": 48,
+      "height": 7.75,
+      "laminate": "HPL"
+     },
+     "price": 183,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-under-worksurface-lateral-files",
+   "title": "TS Series Under-Worksurface Lateral Files",
+   "page": 598,
+   "understandingPage": 256,
+   "trim": null,
+   "category": "lateral-file",
+   "standardIncludes": [
+    "Lateral file: paint price group 1",
+    "Handle pulls: 0835 Black or 9211 Nickel",
+    "Lock face ring with plastic plug to accommodate lock cylinder: 9201 Polished Chrome",
+    "Adjustable glides: black plastic",
+    "Hanging file frames for letter, legal, and A-4 filing: black",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for lateral file",
+    "3 Paint color number for handle pulls: 0835 Black, 9211 Nickel",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708.",
+    "Tip: Remember to specify lock cylinder and key. Lock Cylinders, page 726"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 50,
+     "priceText": "+$50",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 82,
+     "priceText": "+$82",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Perforation",
+     "name": "Large perforation on drawer fronts of 30 1/2\"W file only",
+     "price": 264,
+     "priceText": "+$264",
+     "spec": "Specify with large perforation on drawer fronts.",
+     "appliesTo": "TS2F230UL only"
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 7207 Black",
+     "price": 27,
+     "priceText": "+$27",
+     "spec": "Specify with 7207 Black ledge pulls."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 4799 Platinum",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with 4799 Platinum ledge pulls."
+    }
+   ],
+   "tips": [
+    "Tip: TS Series under-worksurface lateral files are only intended for use under a panel-mounted worksurface and should not be used as freestanding."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Related products: Lateral file drawer dividers, front-to-back rails, side-to-side hanging file frames (page 599)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS2F230UL",
+     "desc": "Under-worksurface lateral file, 30 1/2\"W",
+     "attrs": {
+      "depth": 18.125,
+      "width": 30.5,
+      "height": 27,
+      "nominalWidth": 30,
+      "perforationAvailable": true
+     },
+     "price": 699,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2F236UL",
+     "desc": "Under-worksurface lateral file, 36\"W",
+     "attrs": {
+      "depth": 18.125,
+      "width": 36,
+      "height": 27,
+      "nominalWidth": 36,
+      "perforationAvailable": false
+     },
+     "price": 773,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-uw-lateral-hanging-frames",
+   "title": "TS Series Under-Worksurface Lateral File Accessories — Lateral File Side-to-Side Hanging File Frames",
+   "page": 599,
+   "understandingPage": 256,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Pair of hanging file frames to accommodate side-to-side filing: black paint"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: For use with under-worksurface lateral files TS2F230UL and TS2F236UL only."
+   ],
+   "notes": [
+    "Sub-headings as printed: 'For Use with 31\"W Lateral File Drawer' (TS2FHF30) and 'For Use with 36\"W Lateral File Drawer' (TS2FHF36)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS2FHF30",
+     "desc": "Pair of side-to-side hanging file frames for 31\"W (TS2F230UL) lateral file drawer",
+     "attrs": {
+      "depth": 0.125,
+      "width": 27,
+      "height": 1,
+      "forFile": "TS2F230UL",
+      "quantity": 2
+     },
+     "price": 27,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2FHF36",
+     "desc": "Pair of side-to-side hanging file frames for 36\"W (TS2F236UL) lateral file drawer",
+     "attrs": {
+      "depth": 0.125,
+      "width": 33,
+      "height": 1,
+      "forFile": "TS2F236UL",
+      "quantity": 2
+     },
+     "price": 32,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-uw-lateral-drawer-dividers",
+   "title": "TS Series Under-Worksurface Lateral File Accessories — Lateral File Drawer Dividers",
+   "page": 599,
+   "understandingPage": 256,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Package of three under-worksurface lateral file drawer dividers: black paint"
+   ],
+   "requiredToSpecify": [
+    "Style number",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [
+    "Tip: For use with under-worksurface lateral files TS2F230UL and TS2F236UL only."
+   ],
+   "notes": [],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS2FDV",
+     "desc": "Package of three lateral file drawer dividers",
+     "attrs": {
+      "depth": 0.125,
+      "width": 15,
+      "height": 7,
+      "quantity": 3
+     },
+     "price": 44,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-uw-lateral-front-to-back-rails",
+   "title": "TS Series Under-Worksurface Lateral File Accessories — Lateral File Front-to-Back Rails",
+   "page": 599,
+   "understandingPage": 256,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Pair of rails to accommodate front-to-back filing: black paint"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: For use with under-worksurface lateral files TS2F230UL and TS2F236UL only."
+   ],
+   "notes": [],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS2FFTBR",
+     "desc": "Pair of front-to-back filing rails",
+     "attrs": {
+      "depth": 1,
+      "width": 15,
+      "height": 0.5,
+      "quantity": 2
+     },
+     "price": 12,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-tower-too",
+   "title": "TS Series Tower Too",
+   "page": [
+    600,
+    601
+   ],
+   "understandingPage": 258,
+   "trim": null,
+   "category": "tower",
+   "standardIncludes": [
+    "Tower Too: paint price group 1",
+    "Storage cabinet with two fixed shelves and two file drawers",
+    "Handle pulls, if selected: 0835 Black or 9211 Nickel",
+    "Contemporary pulls, if selected: paint",
+    "Lock face ring for drawers with plastic plug to accommodate lock cylinder: 9201 Polished Chrome",
+    "Wardrobe hook, if selected",
+    "Wardrobe rod with shelf, if selected",
+    "Adjustable leveling glides"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for Tower Too",
+    "3 Color number for pulls",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708.",
+    "Tip: Remember to specify lock cylinder and key. Lock Cylinders, page 726"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Drawers",
+     "name": "Two box drawers in place of top file drawer",
+     "price": 185,
+     "priceText": "+$185",
+     "spec": "Specify with box/box/file.",
+     "appliesTo": "48\"H, 54\"H, and 66\"H towers"
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 7207 Black",
+     "price": 27,
+     "priceText": "+$27",
+     "spec": "Specify with 7207 Black ledge pulls."
+    },
+    {
+     "group": "Pulls",
+     "name": "Ledge pulls: 4799 Platinum",
+     "price": 33,
+     "priceText": "+$33",
+     "spec": "Specify with 4799 Platinum ledge pulls."
+    },
+    {
+     "group": "Lock",
+     "name": "All locking (one lock for wardrobe, second lock for drawers, third lock for cabinet)",
+     "price": 157,
+     "priceText": "+$157",
+     "spec": "Specify with doors and drawers locking.",
+     "appliesTo": "towers with upper cabinet (non-open-side)"
+    },
+    {
+     "group": "Lock",
+     "name": "All locking for open side units (one lock for wardrobe, second lock for drawers)",
+     "price": 78,
+     "priceText": "+$78",
+     "spec": "Specify with door and drawers locking.",
+     "appliesTo": "open side shelving units"
+    }
+   ],
+   "tips": [
+    "Tip: Specify lock cylinders for each lock location.",
+    "Tip: For legal or side-to-side filing, use 15\" Universal Storage rails, RXADRL15.",
+    "Tip: For box drawer dividers, use RDV1506 from the Universal Storage Collection. For file drawer dividers, use RDV1512 from the Universal Storage Collection.",
+    "Tip: For pencil trays, use RPXDPT from the Universal Storage collection."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Counterweight package: Not required (all units).",
+    "Handle-pull and contemporary-pull style numbers carry the same price.",
+    "Figure legend: F=Fixed shelf.",
+    "48\"H towers are available with open side shelving only (page 248/259)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Counterweight Package",
+    "Style Number Handle Pulls",
+    "Style Number Contemporary Pulls",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS2TWR54R",
+     "desc": "Tower Too 54\"H, hinged right, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1576,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW54RC",
+     "desc": "Tower Too 54\"H, hinged right, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1576,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR66R",
+     "desc": "Tower Too 66\"H, hinged right, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1624,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW66RC",
+     "desc": "Tower Too 66\"H, hinged right, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1624,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR54RS",
+     "desc": "Tower Too 54\"H, hinged right, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1660,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW54RSC",
+     "desc": "Tower Too 54\"H, hinged right, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1660,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR66RS",
+     "desc": "Tower Too 66\"H, hinged right, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1706,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW66RSC",
+     "desc": "Tower Too 66\"H, hinged right, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1706,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR54L",
+     "desc": "Tower Too 54\"H, hinged left, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1576,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW54LC",
+     "desc": "Tower Too 54\"H, hinged left, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1576,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR66L",
+     "desc": "Tower Too 66\"H, hinged left, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1624,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW66LC",
+     "desc": "Tower Too 66\"H, hinged left, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1624,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR54LS",
+     "desc": "Tower Too 54\"H, hinged left, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1660,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW54LSC",
+     "desc": "Tower Too 54\"H, hinged left, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1660,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWR66LS",
+     "desc": "Tower Too 66\"H, hinged left, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1706,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TW66LSC",
+     "desc": "Tower Too 66\"H, hinged left, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": false,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1706,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS48R",
+     "desc": "Tower Too 48\"H, hinged right, open side shelving, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1831,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS48RC",
+     "desc": "Tower Too 48\"H, hinged right, open side shelving, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1831,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS54R",
+     "desc": "Tower Too 54\"H, hinged right, open side shelving, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1856,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS54RC",
+     "desc": "Tower Too 54\"H, hinged right, open side shelving, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1856,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS66R",
+     "desc": "Tower Too 66\"H, hinged right, open side shelving, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1904,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS66RC",
+     "desc": "Tower Too 66\"H, hinged right, open side shelving, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1904,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS48RS",
+     "desc": "Tower Too 48\"H, hinged right, open side shelving, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1911,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS48RSC",
+     "desc": "Tower Too 48\"H, hinged right, open side shelving, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1911,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS54RS",
+     "desc": "Tower Too 54\"H, hinged right, open side shelving, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1938,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS54RSC",
+     "desc": "Tower Too 54\"H, hinged right, open side shelving, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1938,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS66RS",
+     "desc": "Tower Too 66\"H, hinged right, open side shelving, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1987,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS66RSC",
+     "desc": "Tower Too 66\"H, hinged right, open side shelving, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "right",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1987,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS48L",
+     "desc": "Tower Too 48\"H, hinged left, open side shelving, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1831,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS48LC",
+     "desc": "Tower Too 48\"H, hinged left, open side shelving, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1831,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS54L",
+     "desc": "Tower Too 54\"H, hinged left, open side shelving, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1856,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS54LC",
+     "desc": "Tower Too 54\"H, hinged left, open side shelving, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1856,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS66L",
+     "desc": "Tower Too 66\"H, hinged left, open side shelving, wardrobe hook, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1904,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS66LC",
+     "desc": "Tower Too 66\"H, hinged left, open side shelving, wardrobe hook, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe hook",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1904,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS48LS",
+     "desc": "Tower Too 48\"H, hinged left, open side shelving, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1911,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS48LSC",
+     "desc": "Tower Too 48\"H, hinged left, open side shelving, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 48,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1911,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS54LS",
+     "desc": "Tower Too 54\"H, hinged left, open side shelving, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1938,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS54LSC",
+     "desc": "Tower Too 54\"H, hinged left, open side shelving, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 54,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1938,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWRS66LS",
+     "desc": "Tower Too 66\"H, hinged left, open side shelving, wardrobe rod with shelf, handle pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "handle"
+     },
+     "price": 1987,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS2TWS66LSC",
+     "desc": "Tower Too 66\"H, hinged left, open side shelving, wardrobe rod with shelf, contemporary pulls",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 66,
+      "hinge": "left",
+      "openSideShelving": true,
+      "wardrobeInterior": "wardrobe rod with shelf",
+      "counterweightPackage": "Not required",
+      "pulls": "contemporary"
+     },
+     "price": 1987,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS2TWR{H}{R|L}[S]",
+     "meaning": "Handle pulls; H=54/66; R/L = hinged right/left; trailing S = wardrobe rod with shelf (none = wardrobe hook)"
+    },
+    {
+     "pattern": "TS2TW{H}{R|L}[S]C",
+     "meaning": "Contemporary pulls equivalent of TS2TWR{H}{R|L}[S]"
+    },
+    {
+     "pattern": "TS2TWRS{H}{R|L}[S]",
+     "meaning": "Handle pulls, open side shelving; H=48/54/66"
+    },
+    {
+     "pattern": "TS2TWS{H}{R|L}[S]C",
+     "meaning": "Contemporary pulls, open side shelving"
+    }
+   ]
+  },
+  {
+   "id": "ts-tower-too-dome",
+   "title": "TS Series Tower Too — Dome",
+   "page": 601,
+   "understandingPage": 259,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Dome: paint price group 1",
+    "Hardware package"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for dome",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 22,
+     "priceText": "+$22",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 42,
+     "priceText": "+$42",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Dome is field-installed only (page 259)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS2TDME",
+     "desc": "Tower Too dome",
+     "attrs": {
+      "depth": 24,
+      "width": 24,
+      "height": 4.5
+     },
+     "price": 554,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts200-lateral-files",
+   "title": "TS 200 Series Lateral Files with Flush Steel Fronts",
+   "page": [
+    602,
+    603
+   ],
+   "understandingPage": 260,
+   "trim": null,
+   "category": "lateral-file",
+   "standardIncludes": [
+    "Flush-front lateral file with full-width pull: paint price group 1",
+    "1\"H top: paint to match file",
+    "Lift-up door with fixed shelf, if selected: paint to match file",
+    "Lock, keyed random: 9201 Polished Chrome",
+    "One label holder per drawer: clear plastic",
+    "Drawer body: black only",
+    "Drawer suspensions: black only",
+    "One hanging folder bar per drawer",
+    "Four adjustable leveling glides",
+    "Counterweight package, if selected"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for file",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Tops",
+     "name": "Security top (for use on 28\"H lateral files only)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with security top.",
+     "appliesTo": "28\"H only"
+    },
+    {
+     "group": "Tops",
+     "name": "No top (for use under a worksurface or beneath a common top)",
+     "price": -92,
+     "priceText": "–$ 92",
+     "spec": "Specify with no top."
+    },
+    {
+     "group": "Tops",
+     "name": "Square edge laminate top",
+     "price": 127,
+     "priceText": "+$127",
+     "spec": "Specify with laminate top and indicate laminate color number for top and plastic color number for edges."
+    },
+    {
+     "group": "Tops",
+     "name": "Open Line laminate on laminate top",
+     "price": 65,
+     "priceText": "+$ 65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Tops",
+     "name": "Wood veneer top",
+     "price": 384,
+     "priceText": "+$384",
+     "spec": "Specify with wood veneer top and indicate wood color number."
+    },
+    {
+     "group": "Tops",
+     "name": "Premium wood 2",
+     "price": null,
+     "priceText": "See information at left (electronic catalog or SmartTools)",
+     "spec": "Specify with wood veneer top and indicate Premium wood 2 finish number."
+    },
+    {
+     "group": "Tops",
+     "name": "Premium wood 3",
+     "price": null,
+     "priceText": "See information at left (electronic catalog or SmartTools)",
+     "spec": "Specify with wood veneer top and indicate Premium wood 3 finish number."
+    },
+    {
+     "group": "Tops",
+     "name": "Customiz stain on wood veneer top",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Drawer Interiors",
+     "name": "Divider package",
+     "price": 24,
+     "priceText": "+$ 24",
+     "spec": "Specify with divider package."
+    },
+    {
+     "group": "Drawer Interiors",
+     "name": "Rails",
+     "price": 31,
+     "priceText": "+$ 31",
+     "spec": "Specify with rails."
+    },
+    {
+     "group": "Lift-Up Door With Roll-Out Shelf",
+     "name": "On 65 1/2\"H files",
+     "price": 39,
+     "priceText": "+$ 39",
+     "spec": "Specify with roll-out shelf.",
+     "appliesTo": "65 1/2\"H files only"
+    },
+    {
+     "group": "Counterweights",
+     "name": "Package 2",
+     "price": 94,
+     "priceText": "+$94",
+     "spec": "Specify with counterweight."
+    },
+    {
+     "group": "Counterweights",
+     "name": "Package 3",
+     "price": 106,
+     "priceText": "+$106",
+     "spec": "Specify with counterweight."
+    },
+    {
+     "group": "Counterweights",
+     "name": "Package 4",
+     "price": 139,
+     "priceText": "+$139",
+     "spec": "Specify with counterweight."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Lock: Ember Chrome",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 9250 Ember Chrome lock."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Factory- and field-installed keying",
+     "price": null,
+     "priceText": "Page 726",
+     "spec": "See page 726."
+    }
+   ],
+   "tips": [
+    "Tip: Security top reduces overall height by approximately 1\".",
+    "Tip: Laminate and wood veneer tops are 3/16\" taller than other tops and will add 3/16\" to overall case height.",
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "Tip: One hanging folder bar and three dividers are included with each lift-up door with roll-out shelf.",
+    "Tip: Counterweight packages are recommended based on case size and interior options. See Specification Information at right.",
+    "Tip: Counterweight option should be specified if the cabinet is not ganged to adjacent cabinets or bolted to the floor or wall.",
+    "Tip: Counterweight packages ship separately from case and must be installed on site.",
+    "Tip: Height dimension listed is for units with 1\" top. Overall height will vary if another top is selected."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Related products: Field-installed tops (page 666), Storage accessories (page 671), Bookends (page 631), Counterweight packages (page 676).",
+    "Style pattern: 2LF + depth 18 + width (30/36/42) + drawer count/height code (2=28\"H, 3=40\"H, 4=52\"H, 5=65 1/2\"H) + F (flush steel front). 'Counterweight Package' column is the recommended package option for that case (ordered as option, not included)."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Counterweight Package",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "2LF18302F",
+     "desc": "TS 200 lateral file, 30\"W x 28\"H, 2 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 28,
+      "drawers12H": 2,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 665,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18362F",
+     "desc": "TS 200 lateral file, 36\"W x 28\"H, 2 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 28,
+      "drawers12H": 2,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 774,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18422F",
+     "desc": "TS 200 lateral file, 42\"W x 28\"H, 2 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 28,
+      "drawers12H": 2,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 876,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18303F",
+     "desc": "TS 200 lateral file, 30\"W x 40\"H, 3 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 40,
+      "drawers12H": 3,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 899,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18363F",
+     "desc": "TS 200 lateral file, 36\"W x 40\"H, 3 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 40,
+      "drawers12H": 3,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1047,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18423F",
+     "desc": "TS 200 lateral file, 42\"W x 40\"H, 3 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 40,
+      "drawers12H": 3,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1185,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18304F",
+     "desc": "TS 200 lateral file, 30\"W x 52\"H, 4 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 52,
+      "drawers12H": 4,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1148,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18364F",
+     "desc": "TS 200 lateral file, 36\"W x 52\"H, 4 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 52,
+      "drawers12H": 4,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 1335,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18424F",
+     "desc": "TS 200 lateral file, 42\"W x 52\"H, 4 12\"H drawers",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 52,
+      "drawers12H": 4,
+      "liftUpDoor13_5H": false,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 1509,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18305F",
+     "desc": "TS 200 lateral file, 30\"W x 65.5\"H, 4 12\"H drawers + one 13 1/2\"H lift-up door with fixed shelf",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 65.5,
+      "drawers12H": 4,
+      "liftUpDoor13_5H": true,
+      "counterweightPackage": "Package 2",
+      "front": "flush steel"
+     },
+     "price": 1364,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18365F",
+     "desc": "TS 200 lateral file, 36\"W x 65.5\"H, 4 12\"H drawers + one 13 1/2\"H lift-up door with fixed shelf",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 65.5,
+      "drawers12H": 4,
+      "liftUpDoor13_5H": true,
+      "counterweightPackage": "Package 2",
+      "front": "flush steel"
+     },
+     "price": 1586,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18425F",
+     "desc": "TS 200 lateral file, 42\"W x 65.5\"H, 4 12\"H drawers + one 13 1/2\"H lift-up door with fixed shelf",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 65.5,
+      "drawers12H": 4,
+      "liftUpDoor13_5H": true,
+      "counterweightPackage": "Package 2",
+      "front": "flush steel"
+     },
+     "price": 1793,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts200-lateral-files-lift-up-doors",
+   "title": "TS 200 Series Lateral Files with Lift-Up Doors and Roll-Out Shelves with Flush Steel Fronts",
+   "page": [
+    604,
+    605
+   ],
+   "understandingPage": 264,
+   "trim": null,
+   "category": "lateral-file",
+   "standardIncludes": [
+    "Flush-front lateral file with full-width pull: paint price group 1",
+    "1\"H top: paint to match file",
+    "Lift-up doors with roll-out shelves: paint to match file",
+    "Lock, keyed random: 9201 Polished Chrome",
+    "One label holder per door: clear plastic",
+    "One divider package per roll-out shelf",
+    "Four adjustable leveling glides",
+    "Counterweight package, if selected"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for file",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 71,
+     "priceText": "+$71",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 122,
+     "priceText": "+$122",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Roll-Out Shelf Interiors",
+     "name": "Two hanging folder bars",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with hanging folder bars."
+    },
+    {
+     "group": "Counterweights",
+     "name": "Package 2",
+     "price": 94,
+     "priceText": "+$94",
+     "spec": "Specify with counterweight."
+    },
+    {
+     "group": "Counterweights",
+     "name": "Package 3",
+     "price": 106,
+     "priceText": "+$106",
+     "spec": "Specify with counterweight."
+    },
+    {
+     "group": "Counterweights",
+     "name": "Package 4",
+     "price": 139,
+     "priceText": "+$139",
+     "spec": "Specify with counterweight."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Lock: Ember Chrome",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 9250 Ember Chrome lock."
+    },
+    {
+     "group": "Lock and Keying",
+     "name": "Factory- and field-installed keying",
+     "price": null,
+     "priceText": "Page 726",
+     "spec": "See page 726."
+    }
+   ],
+   "tips": [
+    "Tip: Counterweight packages are recommended based on case size and interior options. See Specification Information at right.",
+    "Tip: Counterweight option should be specified if the cabinet is not ganged to adjacent cabinets or bolted to the floor or wall.",
+    "Tip: Counterweight packages ship separately from case and must be installed on site."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Related products: Field-installed tops (page 666), Storage accessories (page 671), Bookends (page 631), Counterweight packages (page 676).",
+    "No top options (security/no-top/laminate/veneer) are listed on this page; other tops are field-installed (page 264).",
+    "Style pattern: as TS 200 lateral files with AF suffix (lift-up doors with roll-out shelves, flush front). 'Counterweight Package' column is the recommended package option."
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "H",
+    "Counterweight Package",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "2LF18302AF",
+     "desc": "TS 200 lateral file, 30\"W x 28\"H, 2 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 28,
+      "doors12H": 2,
+      "door13_5H": false,
+      "rollOutShelves": 2,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 761,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18362AF",
+     "desc": "TS 200 lateral file, 36\"W x 28\"H, 2 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 28,
+      "doors12H": 2,
+      "door13_5H": false,
+      "rollOutShelves": 2,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 886,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18422AF",
+     "desc": "TS 200 lateral file, 42\"W x 28\"H, 2 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 28,
+      "doors12H": 2,
+      "door13_5H": false,
+      "rollOutShelves": 2,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 1001,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18303AF",
+     "desc": "TS 200 lateral file, 30\"W x 40\"H, 3 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 40,
+      "doors12H": 3,
+      "door13_5H": false,
+      "rollOutShelves": 3,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1030,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18363AF",
+     "desc": "TS 200 lateral file, 36\"W x 40\"H, 3 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 40,
+      "doors12H": 3,
+      "door13_5H": false,
+      "rollOutShelves": 3,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1198,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18423AF",
+     "desc": "TS 200 lateral file, 42\"W x 40\"H, 3 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 40,
+      "doors12H": 3,
+      "door13_5H": false,
+      "rollOutShelves": 3,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1356,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18304AF",
+     "desc": "TS 200 lateral file, 30\"W x 52\"H, 4 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 52,
+      "doors12H": 4,
+      "door13_5H": false,
+      "rollOutShelves": 4,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1314,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18364AF",
+     "desc": "TS 200 lateral file, 36\"W x 52\"H, 4 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 52,
+      "doors12H": 4,
+      "door13_5H": false,
+      "rollOutShelves": 4,
+      "counterweightPackage": "Package 3",
+      "front": "flush steel"
+     },
+     "price": 1527,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18424AF",
+     "desc": "TS 200 lateral file, 42\"W x 52\"H, 4 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 52,
+      "doors12H": 4,
+      "door13_5H": false,
+      "rollOutShelves": 4,
+      "counterweightPackage": "Package 4",
+      "front": "flush steel"
+     },
+     "price": 1723,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18305AF",
+     "desc": "TS 200 lateral file, 30\"W x 65.5\"H, one 13 1/2\"H lift-up door with roll-out shelf + four 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 30,
+      "height": 65.5,
+      "doors12H": 4,
+      "door13_5H": true,
+      "rollOutShelves": 5,
+      "counterweightPackage": "Package 2",
+      "front": "flush steel"
+     },
+     "price": 1559,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18365AF",
+     "desc": "TS 200 lateral file, 36\"W x 65.5\"H, one 13 1/2\"H lift-up door with roll-out shelf + four 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 36,
+      "height": 65.5,
+      "doors12H": 4,
+      "door13_5H": true,
+      "rollOutShelves": 5,
+      "counterweightPackage": "Package 2",
+      "front": "flush steel"
+     },
+     "price": 1812,
+     "optionPrices": {}
+    },
+    {
+     "style": "2LF18425AF",
+     "desc": "TS 200 lateral file, 42\"W x 65.5\"H, one 13 1/2\"H lift-up door with roll-out shelf + four 12\"H lift-up doors with roll-out shelves",
+     "attrs": {
+      "depth": 18,
+      "width": 42,
+      "height": 65.5,
+      "doors12H": 4,
+      "door13_5H": true,
+      "rollOutShelves": 5,
+      "counterweightPackage": "Package 2",
+      "front": "flush steel"
+     },
+     "price": 2047,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-lock-cylinders",
+   "title": "Lock and Keying for TS Series Storage — Lock Cylinders",
+   "page": 725,
+   "understandingPage": 724,
+   "trim": null,
+   "category": "storage-accessory",
+   "standardIncludes": [
+    "Lock cylinder, keyed random: 9201 Polished Chrome or 9250 Ember Chrome",
+    "Two keys"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Keying",
+     "name": "Key specific",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Select key number from FR305–FR454."
+    },
+    {
+     "group": "Keying",
+     "name": "Key consecutive",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify key consecutive and must select beginning key number from FR305–FR454."
+    },
+    {
+     "group": "Keying",
+     "name": "Master key random",
+     "price": 23,
+     "priceText": "+$23 each",
+     "spec": "Specify master key random."
+    },
+    {
+     "group": "Keying",
+     "name": "Master key specific",
+     "price": 23,
+     "priceText": "+$23 each",
+     "spec": "Specify key number from XF1001–XF1150."
+    },
+    {
+     "group": "Keying",
+     "name": "Master key consecutive",
+     "price": 23,
+     "priceText": "+$23 each",
+     "spec": "Specify master key consecutive and must select beginning key number from XF1001–XF1150."
+    }
+   ],
+   "tips": [
+    "Tip: Lock price is included in price of furniture with locks.",
+    "Tip: For replacement lock cylinders, refer to Service Parts.",
+    "Tip: You can change lock cylinders in the field by using the appropriate lock tool."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Same styles/prices are repeated on page 727 for Universal Storage Products.",
+    "Order example (page 724): 10 LOCK9201FR FR320 / 5 LOCK9201FR FR350 / 15 LOCK9201XF XF1100 / 30 Total / 1 877102003SR standard lock tool / 1 877102002SR master lock tool."
+   ],
+   "columns": [
+    "Color",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "LOCK9201FR",
+     "desc": "FR series (standard keying) lock cylinder, Polished Chrome",
+     "attrs": {
+      "color": "9201 Polished Chrome",
+      "keyingSystem": "FR"
+     },
+     "price": 0,
+     "optionPrices": {},
+     "priceText": "No cost"
+    },
+    {
+     "style": "LOCK9250FR",
+     "desc": "FR series (standard keying) lock cylinder, Ember Chrome",
+     "attrs": {
+      "color": "9250 Ember Chrome",
+      "keyingSystem": "FR"
+     },
+     "price": 0,
+     "optionPrices": {},
+     "priceText": "No cost"
+    },
+    {
+     "style": "877102003SR",
+     "desc": "Standard lock tool (FR series)",
+     "attrs": {
+      "tool": "standard"
+     },
+     "price": 23,
+     "optionPrices": {}
+    },
+    {
+     "style": "LOCK9201XF",
+     "desc": "XF series (master keying) lock cylinder, Polished Chrome",
+     "attrs": {
+      "color": "9201 Polished Chrome",
+      "keyingSystem": "XF"
+     },
+     "price": 0,
+     "optionPrices": {},
+     "priceText": "No additional cost. Price included in price of furniture with master-keyed locks."
+    },
+    {
+     "style": "LOCK9250XF",
+     "desc": "XF series (master keying) lock cylinder, Ember Chrome",
+     "attrs": {
+      "color": "9250 Ember Chrome",
+      "keyingSystem": "XF"
+     },
+     "price": 0,
+     "optionPrices": {},
+     "priceText": "No additional cost. Price included in price of furniture with master-keyed locks."
+    },
+    {
+     "style": "877102002SR",
+     "desc": "Master lock tool (XF series)",
+     "attrs": {
+      "tool": "master"
+     },
+     "price": 23,
+     "optionPrices": {}
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "page": 248,
+   "topic": "statement-of-line",
+   "text": "Fixed pedestals: 15 1/4\"W x 27\"H, 22\"D and 28\"D. Mobile pedestals with steel top: 15 1/4\"W, 22\"D, 21\"H and 26 5/8\"H. Mobile with seat cushion: 22 1/2\"D, 22 3/4\"H, 15 1/4\"W (16 1/4\"W with handle). Bins: 15 3/4\"D x 16 1/4\"H, 24/30/36/42/48/60/72\"W. Laminate common shelves: 15\"D x 7 3/4\"H, 24–48\"W. Under-worksurface lateral files: 18 1/8\"D x 27\"H, 30 1/2\"W and 36\"W. Tower Too 24\"D x 24\"W, 48\"H (open side shelving only), 54\"H, 66\"H. TS 200 lateral files 18\"D, 30/36/42\"W x 28/40/52/65 1/2\"H.",
+   "kind": "dimension"
+  },
+  {
+   "page": 248,
+   "topic": "statement-of-line",
+   "text": "For the full Universal Storage offering, see Storage Specification Guide.",
+   "kind": "tip"
+  },
+  {
+   "page": 250,
+   "topic": "pedestals-lock",
+   "text": "Lock is standard keyed random and controls all drawers. Lock cylinders must be specified separately; products with locks ship with lock face ring and removable plastic plug for site-installed cylinder. Consecutive, specific and master-keyed options available (page 726).",
+   "kind": "requirement"
+  },
+  {
+   "page": 250,
+   "topic": "pedestals",
+   "text": "Top of fixed pedestal is open to attach beneath the worksurface; finished back and sides standard; leveling glide range 1\". Handle pull standard; ledge pulls optional; extra handle pull optional on mobile pedestals.",
+   "kind": "requirement"
+  },
+  {
+   "page": 250,
+   "topic": "pedestals",
+   "text": "Pedestal file drawer accommodates letter- and legal-size filing; legal filing requires optional dividers/rails.",
+   "kind": "requirement"
+  },
+  {
+   "page": 250,
+   "topic": "pedestals",
+   "text": "Mobile pedestals have different dividers that are not interchangeable with fixed pedestal accessories. Handle on mobile pedestal with seat cushion can be positioned in front or at rear; also available without handle. Cushions are 1 3/4\" and upholstered with piping.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals",
+   "text": "Box/box/file and file/file pedestals attach beneath 24\"D and 30\"D worksurfaces; attachment hardware provided. Mobile pedestal fits under 24\"D and 30\"D worksurfaces.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals",
+   "text": "Dividers and pencil tray for mobile pedestals must be ordered separately (page 594); mobile pedestal accessories are not interchangeable with under-worksurface pedestal accessories.",
+   "kind": "requirement"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals",
+   "text": "Pedestal filler, ordered separately, fills gap between pedestal and panel; TS Series pedestal filler works with Kick panels only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals",
+   "text": "To file legal-size or side-to-side letter-size filing in pedestal file drawers, specify optional 15\"W file rails.",
+   "kind": "requirement"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals",
+   "text": "Large (3/16\" diameter) perforation is available as an option on mobile pedestal drawer fronts.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals",
+   "text": "All pedestals ship with a factory-installed counterweight package. Counterweights are not required on TS Series fixed pedestals (page 590); mobile pedestals include counterweight package.",
+   "kind": "requirement"
+  },
+  {
+   "page": 251,
+   "topic": "pedestals-finish",
+   "text": "Pedestal: paint. Handle pull: 0835 Black, 9211 Nickel. Ledge pull: 4799 Platinum, 7207 Black. Lock: 9201 Polished Chrome. Cushion top: upholstery.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 590,
+   "topic": "pedestals",
+   "text": "Under-worksurface pedestals shipped prior to January 2005 require the use of drawer accessories from the mobile pedestal collection.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 590,
+   "topic": "pedestals",
+   "text": "File drawer rails are required to file legal-sized files or side-to-side letter-sized files in pedestal file drawers.",
+   "kind": "requirement"
+  },
+  {
+   "page": 591,
+   "topic": "pedestals",
+   "text": "Two rails per drawer accommodate side-to-side filing of letter-, A4-, and legal-size hanging folders. Exception: Legal-size file folders cannot be filed in 18\"D pedestals.",
+   "kind": "limit"
+  },
+  {
+   "page": 592,
+   "topic": "pedestals",
+   "text": "3\"-diameter large front-locking casters (+$66) are available for box/file mobile pedestal TS2PBF22M only (steel top); also offered on seat cushion pedestals (page 593).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 592,
+   "topic": "pedestals",
+   "text": "Extra handle pull on trim strip (+$33) is for mobile pedestals only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 594,
+   "topic": "pedestals",
+   "text": "TS2PBDD and TS2PFDD cannot be used with Turnstone under-worksurface pedestals. File drawer divider is required to file legal-sized files in (mobile) pedestal file drawers.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 236,
+   "topic": "pedestals",
+   "text": "Mobile pedestals up to 24 1/2\"H fit under 26\"H tables and up to 27\"H under 28 1/2\"H tables without reinforcing channels; channels reduce space by 1\" (Universal Tables page 236).",
+   "kind": "limit"
+  },
+  {
+   "page": 252,
+   "topic": "bins",
+   "text": "TS Series bins attach to Answer and Kick panels with integrated on-module hooks that mount on panels of the same width as the bin. Safety catch locks unit to frame.",
+   "kind": "requirement"
+  },
+  {
+   "page": 252,
+   "topic": "bins",
+   "text": "Locks are standard on bins (factory-installed, keyed random only, under center of shelf); two-door units are keyed alike. Optional field-installed locks available with consecutive, specific and random keying; master-keyed also available; field-installed lock cylinders must be specified separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 252,
+   "topic": "bins",
+   "text": "Bin is steel and ships assembled. Recess beneath unit accommodates a shelf light (page 332/689). Dividers optional, ship in package of four.",
+   "kind": "requirement"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "Additional support for stability may be required when overhead bins are attached to panels; counterbalancing loads on opposite sides of panels increases stability (Stability Guidelines page 124).",
+   "kind": "requirement"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "TS Series bins cannot be attached to upmount brackets (cannot be upmounted, page 595).",
+   "kind": "limit"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "TS Series bins, Universal bins, and shelves can hang from the first stacked tier only.",
+   "kind": "limit"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "Width of overhead bin must match the width of the panel or panels it is attached to. Bin may span up to two frames.",
+   "kind": "requirement"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "Wall channel horizontal brace is required with wall channels to support shelves and bins wider than 48\". Wall channels attach bins to concrete/block walls, or wood/drywall/plaster if reinforced (page 288).",
+   "kind": "requirement"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "Clearance between Universal Systems worksurfaces or Universal tables and bottom of overhead bins is 21 3/8\" when storage unit is installed in the highest position on a 66\"H panel and glides are adjusted all the way into the panel.",
+   "kind": "dimension"
+  },
+  {
+   "page": 253,
+   "topic": "bins",
+   "text": "Overhead bin height accepts standard and A4 binders. Bin finish: paint; lock 9201 Polished Chrome; dividers white plastic.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 596,
+   "topic": "bins",
+   "text": "Flexible markerboard surfaces are offered for 30\", 36\", 42\" and 48\"W bin doors only.",
+   "kind": "limit"
+  },
+  {
+   "page": 254,
+   "topic": "shelves",
+   "text": "Laminate common shelf has wood core covered with LPL or HPL; plastic edge band selectable; ships with steel support brackets that hook into vertical panel slots or wall channel with safety catch; brackets can be used in either orientation.",
+   "kind": "requirement"
+  },
+  {
+   "page": 597,
+   "topic": "shelves",
+   "text": "For anticipated heavy loads on 42\" and 48\"W laminate common shelves, a field-installed reinforcing channel (TSATRC39) can be used.",
+   "kind": "tip"
+  },
+  {
+   "page": 597,
+   "topic": "shelves",
+   "text": "It is recommended that only worksurfaces of the same laminate type (LPL vs HPL) are specified in a given application.",
+   "kind": "tip"
+  },
+  {
+   "page": 256,
+   "topic": "uw-lateral",
+   "text": "Under-worksurface lateral file actual depth is 18 1/8\"D, which will not accommodate the use of the 18\"D Kick straight worksurfaces.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 598,
+   "topic": "uw-lateral",
+   "text": "TS Series under-worksurface lateral files are only intended for use under a panel-mounted worksurface and should not be used as freestanding.",
+   "kind": "limit"
+  },
+  {
+   "page": 256,
+   "topic": "uw-lateral",
+   "text": "Lateral file drawers are standard with two side-to-side hanging file frames for letter or legal; clearance for two rows of filing. Top open to attach beneath worksurface; leveling glide range 1\"; lock cylinders specified separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 256,
+   "topic": "uw-lateral",
+   "text": "Large (3/16\" diameter) perforation is available as an option on the 30 1/2\"W under-worksurface lateral (TS2F230UL) only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 599,
+   "topic": "uw-lateral",
+   "text": "Accessories TS2FHF30/TS2FHF36, TS2FDV, TS2FFTBR are for use with TS2F230UL and TS2F236UL only; TS2FHF30 fits the 30 1/2\"W (printed '31\"W') file, TS2FHF36 the 36\"W file.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 257,
+   "topic": "uw-lateral",
+   "text": "Kick plate (2\"H) and lock bar align with under-worksurface pedestal and Tower Too. Finishes: paint; handle pull 0835 Black / 9211 Nickel; ledge pull 4799 Platinum / 7207 Black; lock 9201 Polished Chrome.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 258,
+   "topic": "tower-too",
+   "text": "Tower Too: finished top, sides and back; doors open 98°; shelves fixed; lock on lock bar secures file drawers; lock cylinders specified separately (specify lock cylinders for each lock location). Safety interlock allows only one drawer open at a time. Leveling glide range 3/4\".",
+   "kind": "requirement"
+  },
+  {
+   "page": 258,
+   "topic": "tower-too",
+   "text": "Tower Too drawers have full-height sides; hanging file frames not needed for front-to-back letter filing. Legal or side-to-side filing uses Universal filing rails RXADRL15. Box drawer dividers RDV1506, file drawer dividers RDV1512, pencil tray RPXDPT.",
+   "kind": "requirement"
+  },
+  {
+   "page": 258,
+   "topic": "tower-too",
+   "text": "Contemporary pulls are available as unique Tower Too style numbers (C suffix).",
+   "kind": "requirement"
+  },
+  {
+   "page": 259,
+   "topic": "tower-too",
+   "text": "Tower Too is available 48\"H, 54\"H, or 66\"H; wardrobe storage can be left or right; 48\"H is open side only. Open side shelving fixed shelves provide two openings with clearance of 5\"H on 48\"H, 12\"H on 54\"H and 18\"H on 66\"H units.",
+   "kind": "limit"
+  },
+  {
+   "page": 259,
+   "topic": "tower-too",
+   "text": "Wardrobe interior can be specified with wardrobe hook or wardrobe rod with shelf (style suffix S).",
+   "kind": "requirement"
+  },
+  {
+   "page": 259,
+   "topic": "tower-too",
+   "text": "Two box drawers in place of top file drawer (+$185, box/box/file) available on 48\"H, 54\"H, and 66\"H towers; box drawers have 3/4 extension.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 259,
+   "topic": "tower-too",
+   "text": "Dome (TS2TDME) is field-installed only.",
+   "kind": "requirement"
+  },
+  {
+   "page": 259,
+   "topic": "tower-too",
+   "text": "All locking (one lock for wardrobe, second for drawer, third for cabinet if applicable) available on 48\"H, 54\"H and 66\"H towers: +$157 for units with cabinet, +$78 for open side units.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 600,
+   "topic": "tower-too",
+   "text": "Counterweight package not required for any Tower Too.",
+   "kind": "requirement"
+  },
+  {
+   "page": 260,
+   "topic": "ts200",
+   "text": "TS 200 top is standard 1\"H steel; label holders included; finished back standard; base 3\"H integral; leveling glides adjust up to 7/8\".",
+   "kind": "requirement"
+  },
+  {
+   "page": 260,
+   "topic": "ts200",
+   "text": "Lock is standard (factory-installed, keyed random) and secures all drawers and lift-up door. On 52\"H and 65 1/2\"H files lock is at top left corner of drawer third from the bottom; on 28\"H and 40\"H at top left corner of top drawer.",
+   "kind": "requirement"
+  },
+  {
+   "page": 260,
+   "topic": "ts200",
+   "text": "Drawers open full depth and are 12\"H; one hanging folder bar per drawer for side-to-side filing of letter, A4 and legal. Alternative interiors (divider package, rails) apply to all drawers within a single lateral file. Additional bars specified separately (page 672).",
+   "kind": "requirement"
+  },
+  {
+   "page": 260,
+   "topic": "ts200",
+   "text": "Rail packages accommodate two rows of letter-size files in 30\"W and 36\"W drawers and three rows in 42\"W drawers.",
+   "kind": "dimension"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "Divider packages include three dividers and one hanging folder bar per drawer.",
+   "kind": "requirement"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "Locks available factory- or field-installed. Factory-installed are standard and keyed random only. Field-installed locks available with consecutive, specific, and random keying; master-keyed available; field-installed lock cylinders must be specified separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "Security top can be specified on 28\"H files only; it is not structural; reduces overall height to approximately 27\"H.",
+   "kind": "limit"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "No-top lateral files are for installation under a worksurface or beneath a common top; hardware included; reduces height by 1\" (–$92).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "Laminate and wood veneer tops (square edge) are 1 3/16\"H, 3/16\" taller than steel tops, adding that dimension to overall height. Field-installed tops also available (page 668).",
+   "kind": "dimension"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "Lift-up door with fixed shelf is standard in the top position of 65 1/2\"H cases; door is 13 1/2\"H for standard-height binders and recedes inside the case. Optional roll-out shelf in place of fixed shelf (+$39, 65 1/2\"H only). Roll-out shelf includes three dividers and one hanging file folder bar as backstop.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 261,
+   "topic": "ts200",
+   "text": "Safety interlock allows only one drawer or roll-out shelf to be opened at a time.",
+   "kind": "requirement"
+  },
+  {
+   "page": 261,
+   "topic": "ts200-stability",
+   "text": "Counterweight packages must be specified as an option for lateral files that are not ganged to another case, attached to a worksurface, or bolted to the floor or wall. Counterweights can also be ordered separately (page 676), ship separately and must be field-installed. Recommended package per case is printed in the specification table.",
+   "kind": "requirement"
+  },
+  {
+   "page": 261,
+   "topic": "ts200-stability",
+   "text": "Ganging hardware is included to join adjacent components side by side, back to back, or both.",
+   "kind": "requirement"
+  },
+  {
+   "page": 261,
+   "topic": "ts200-stability",
+   "text": "Anchor bracket secures file/cabinet/tower to floor in seismic zones; four bracket packages are required for each cabinet. Anchor bracket cannot be used with pedestals. For California OSHPD approved anchor bracket contact Specials. Compliance with local seismic code is the customer's responsibility.",
+   "kind": "requirement"
+  },
+  {
+   "page": 262,
+   "topic": "ts200",
+   "text": "Finishes: case, steel top, drawer fronts, lift-up door, fixed shelf, pulls: paint. Wood veneer top: open pore finishes, Customiz stain (option). Laminate top: laminate, Open Line (option). Lock: 9201 Polished Chrome, 9250 Ember Chrome (option). Drawer bodies, roll-out shelves, hanging folder bars, rails, dividers: black.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 264,
+   "topic": "ts200-liftup",
+   "text": "Lift-up door units: all doors equipped with roll-out shelves; top door on 65 1/2\"H is 13 1/2\"H, all others 12\"H for side-tab files; lock at top left corner of the top secures all lift-up doors; safety interlock allows only one roll-out shelf open at a time.",
+   "kind": "requirement"
+  },
+  {
+   "page": 264,
+   "topic": "ts200-liftup",
+   "text": "Each roll-out shelf includes one divider package (three dividers and one hanging folder bar) as backstop. Two hanging folder bars (no cost) replace the divider package when specified.",
+   "kind": "requirement"
+  },
+  {
+   "page": 264,
+   "topic": "ts200-liftup",
+   "text": "Other tops are field-installed only for lift-up door/roll-out shelf units (no factory top options on page 604).",
+   "kind": "limit"
+  },
+  {
+   "page": 264,
+   "topic": "ts200-liftup",
+   "text": "Pedestals with TS 200 Series pulls are available — see Avenir Systems Furniture Specification Guide.",
+   "kind": "tip"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "Furniture ships with plastic shipping plug; specify lock cylinder and keying separately. Only products with factory-installed lock mechanisms can accept lock cylinders in the field.",
+   "kind": "requirement"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "Step 1: order enough lock cylinders to fill each lock location and order a lock tool (tools are reusable; not needed with every order). Step 2: list total number of lock cylinders with style number; if specifying key numbers, list breakdown of quantity per key number.",
+   "kind": "requirement"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "For TS 200 Series specify a lock color number (9201 Polished Chrome or 9250 Ember Chrome) for the lock face ring.",
+   "kind": "requirement"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "All products are standard keyed random. If no key number is specified, locks are keyed random.",
+   "kind": "requirement"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "Key random: FR305–FR454 assigned arbitrarily (different units may share key numbers). Key specific: any key FR305–FR454. Key consecutive: beginning key FR305–FR454. Master key random/specific/consecutive: XF1001–XF1150, all openable with a master key (+$23 each).",
+   "kind": "requirement"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "If all locks must be keyed differently, specify key numbers for all locks.",
+   "kind": "tip"
+  },
+  {
+   "page": 724,
+   "topic": "lock-keying",
+   "text": "Designate the quantity per key number when ordering more than one product with the same style number.",
+   "kind": "requirement"
+  },
+  {
+   "page": 725,
+   "topic": "lock-keying",
+   "text": "Lock price is included in price of furniture with locks; FR lock cylinders no cost, XF cylinders no additional cost (price included in furniture with master-keyed locks); lock tools $23 (standard 877102003SR for FR; master 877102002SR for XF).",
+   "kind": "requirement"
+  },
+  {
+   "page": 728,
+   "topic": "safe-use",
+   "text": "Stability is assured only if units are properly installed and loaded. Units with roll-out components have an interlock system allowing only one drawer or roll-out shelf open at a time.",
+   "kind": "requirement"
+  },
+  {
+   "page": 728,
+   "topic": "safe-use",
+   "text": "Gang unit with adjacent units (side-by-side or back-to-back) or bolt unit to floor or wall for stability; ganging hardware included with each unit.",
+   "kind": "requirement"
+  },
+  {
+   "page": 728,
+   "topic": "safe-use",
+   "text": "Order a counterweight package option if recommended on specifying page and freestanding unit is not ganged to adjacent units or bolted to the floor or wall. Counterweight packages ship separately and are field-installed.",
+   "kind": "requirement"
+  },
+  {
+   "page": 728,
+   "topic": "safe-use",
+   "text": "Load files starting with the bottom drawers or shelves; upper drawers or shelves should be loaded last; heaviest contents at the bottom.",
+   "kind": "requirement"
+  },
+  {
+   "page": 728,
+   "topic": "safe-use",
+   "text": "Temporary peel-off caution label on front of top drawer/door; permanent caution label on left side of top drawer or roll-out shelf. Complete safe installation/use instructions (leveling, ganging, counter-balancing, removing/reinstalling drawers and shelves, moving files) are taped inside the unit.",
+   "kind": "requirement"
+  },
+  {
+   "page": 728,
+   "topic": "safe-use",
+   "text": "Guidelines for Answer panel-hung components: see page 125.",
+   "kind": "tip"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 250,
+   "subject": "TS Series pedestals",
+   "text": "Actual Dimensions — Fixed Pedestals: Depth 21 13/16\", 27 13/16\"; Width 15 3/16\"; Height 27\". Mobile Pedestals with Steel Top: Depth 23\"; Width 15 3/16\"; Height 21\", 26 5/8\". Mobile Pedestals with Cushion Top: Depth 22\"; Width 15 3/16\"; Height 21\"."
+  },
+  {
+   "page": 252,
+   "subject": "TS Series bins",
+   "text": "Depth 15 3/4\"; Width 24\", 30\", 36\", 42\", 48\", 60\", or 72\"; Height 16 1/4\"."
+  },
+  {
+   "page": 254,
+   "subject": "TS Series laminate common shelves",
+   "text": "Depth 15\"; Width 24\", 30\", 36\", 42\", or 48\"; Height 7 3/4\"."
+  },
+  {
+   "page": 256,
+   "subject": "TS Series under-worksurface lateral files",
+   "text": "Depth 18 1/8\"; Width 31 1/2\", or 36\"; Height 27\". (Spec page 598 and statement of line list 30 1/2\"W.)"
+  },
+  {
+   "page": 258,
+   "subject": "TS Series Tower Too",
+   "text": "Depth 24\"; Width 24\"; Height 48\", 54\", or 66\"."
+  },
+  {
+   "page": 260,
+   "subject": "TS 200 Series lateral files",
+   "text": "Depth 18\"; Width 30\", 36\", and 42\"; Height 28\", 40\", 52\", and 65 1/2\". Steel top 1\"H; veneer top 1 3/16\"H; laminate top 1 3/16\"H."
+  },
+  {
+   "page": 264,
+   "subject": "TS 200 Series lateral files with lift-up doors and roll-out shelves",
+   "text": "Depth 18\"; Width 30\", 36\", and 42\"; Height 28\", 40\", 52\", and 65 1/2\"."
+  }
+ ],
+ "unresolved": [
+  "p256 vs p598/p248: Under-worksurface lateral file TS2F230UL actual width printed as 31 1/2\" on page 256 but 30 1/2\" on pages 248 and 598 (accessory page 599 says '31\"W Lateral File Drawer'). Recorded width 30.5 per spec table.",
+  "p250: Mobile pedestal with cushion top actual height printed 21\" on page 250 while spec table (593) lists 22 3/4\"H (cushion included); both recorded.",
+  "p593: Seat-cushion pedestal dimensions (22 1/4\"D x 15 1/2\"W; 22 1/2\"D x 16 1/4\"W) differ from statement of line (22 1/2\"D, 15 1/4\"W/16 1/4\"W); spec-table values used.",
+  "p726-727 (Lock and Keying for Universal Storage Products) are outside the assigned pages; same lock styles/prices as page 725.",
+  "TSATRC39 reinforcing channel (referenced in tip p597) is specified on page 503, outside this section.",
+  "p602: 'Premium wood 2/3' prices for TS 200 wood veneer top not printed (electronic catalog/SmartTools)."
+ ]
+}

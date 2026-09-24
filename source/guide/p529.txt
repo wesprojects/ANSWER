@@ -1,0 +1,92 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   529
+Universal Systems
+Worksurfaces
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Columns                                                                             cPage 554
+                                   • Worksurface power and communication components         cPage 555
+Universal Systems Worksurfaces
+Angled Peninsula Worksurfaces
+High-Pressure Laminate 
+                                        
+Tip: Supports for freestand-
+ing and panel-mounted
+applications must be speci-
+fied separately.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+1 Style number 
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+C
+A
+B
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Speciﬁcation Information
+                                                    U.S. Base Price         
+U.S. Base Price
+                                                    High-Pressure Laminate
+High-Pressure Laminate
+                         
+DDimensions                  DStyle              DPlastic                                DDimensions
+DStyle
+DPlastic
+dA     B       C                dNumber         d3 mm                                   dA
+B
+C
+dNumber
+d3 mm
+d                                     d                      dEdge                                    d
+d
+dEdge
+d                                     d                      d         
+d
+d
+d
+With 1/2" Cord Drop                                                          With Full Depth
+231⁄2"  231⁄2"  48"                  UPA2448          $583                                           24"
+24"
+48"
+WPA2448
+$583
+231⁄2"  231⁄2"  60"                  UPA2460          $611                                           24"
+24"
+60"
+WPA2460
+$611
+291⁄2"  291⁄2"  48"                  UPA3048          $583                                           30"
+30"
+48"
+WPA3048
+$583
+291⁄2"  291⁄2"  60"                  UPA3060          $611                                           30"
+30"
+60"
+WPA3060
+$611
+d                                     d                      d         
+d
+d
+d
+Angled Peninsula
+Worksurfaces
+February 2015

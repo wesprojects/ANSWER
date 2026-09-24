@@ -1,0 +1,38 @@
+Panels—Thin Trim
+Build Your Own Stacking Junctions—Thin Trim, continued
+...............................................................................................................................................
+...............................................................................................................................................
+Step 8: Stacking horizontal frame packages
+Each stacking junction needs to be connected by at least one stacking horizontal frame package.
+If one side of the panel section has two stacking junctions, 
+If there is one stacking junction on both sides of the panel,
+and the other side has one, two stacking horizontal frame 
+specify one stacking horizontal frame package to be shared
+packages need to be specified.
+between the two stacking junctions.
+cSee page 382 to specify.
+Step 9: Junction blocks
+Junction blocks are required at the top of each junction whenever there are two or more junctions or stacking junctions adjacent to each other in a corner 
+application.
+cSee page 374 to specify.
+Step 10: Junction caps and aligners
+Now that the application is constructed, trims need to be added (since ALL trims were omitted in step 2).
+90° Applications (In-line, L, T, and X)
+  
+Same height base application stacking to same height application
+  
+Change-of-height base application stacking to a change-of-height application
+  
+Change-of-height base application stacking to same height application
+  
+Same height base application stacking to change-of-height application
+  
+Same height base application stacking to same height application (see drawing)
+Specify: Junction cap: 90° corner
+Junction cap aligner: Number required is equal to the number of panels connecting to the junction cap
+  
+Change-of-height base application stacking to a change-of height application (see drawing)
+Specify: Junction cap: 90° corner change-of-height
+Junction cap aligner: Number required is equal to the number of panels at the second tallest height
+42                                                                                                                                                                                                              Answer Solutions Specification Guide
+February 2015

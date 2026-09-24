@@ -1,1 +1,5 @@
-source/
+source/dist/
+source/__pycache__/
+source/test/overlap/
+source/test/capout/
+source/test/run_*.log

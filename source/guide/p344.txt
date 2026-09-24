@@ -1,0 +1,37 @@
+344                                                                                                                                                                                                            Answer Solutions Specification Guide
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 14
+• Junction
+• Aligner
+Style number
+Specification Information
+DCorresponding      DStyle                   DU.S.
+dPanel
+              dNumber              dPrice
+dHeight
+d
+d
+d
+d
+d
+30"                                 TS730TIPJ             $  71
+42"                                 TS742TIPJ             $  71
+48"                                 TS748TIPJ             $  71
+54"                                 TS754TIPJ             $  71
+66"                                 TS766TIPJ             $  71
+78"                                 TS778TIPJ             $100
+d
+d
+d
+Panels—Thin Trim
+In-Line Base Panel Junctions—Thin Trim
+Tip: In-line base panel junc-
+tions do not require junction
+cap and trim.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

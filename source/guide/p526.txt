@@ -1,0 +1,104 @@
+526                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Corner, 120° Worksurfaces
+High-Pressure Laminate or Wood Veneer
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+                                 Wood veneer worksurfaces
+                               • Premium wood 2                       See information at left         Specify Premium wood 2 finish number.
+                               • Premium wood 3                       See information at left         Specify Premium wood 3 finish number.
+                               • Customiz stain                          No cost                                Specify with Customiz stain. 
+                                                                                                                            cSee Surface Materials Reference Manual.
+                                   • Full-fill finish                              Prices below                        Specify full-fill finish number.
+  Scallops                 • Omit scallops                            No cost                                Specify omit scallops.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+                                   • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Speciﬁcation Information
+                                                  U.S. Base Prices
+                                                  High-Pressure Laminate       Wood
+                                             
+          
+              
+          DOption
+DDimensions                   DStyle           DPlastic        DPlastic            DWood           d(Add $ to
+dA     B       C       D        dNumber       d3 mm           dP-Edge            dSquare        dBase Price)
+d
+          d                    dEdge            d                       dEdge
+d
+d                                      d                    d                    d
+d
+dFull-Fill
+d                                      d                    dNo Sufﬁx     dSufﬁx P
+dSufﬁx SW    dFinish
+Freestanding or Panel-Mounted With 1/2" Cord Drop
+231/2" 231/2" 351/2" 351/2"    UB223636    $706                 $813                     $1345               +$75
+231/2" 231/2" 411/2" 411/2"    UB224242    $733                 $840                     $1372               +$78
+231/2" 231/2" 471/2" 471/2"    UB224848    $762                 $869                     $1401               +$79
+291/2" 291/2" 351/2" 351/2"    UB333636    $733                 $840                     $1372               +$78
+291/2" 291/2" 411/2" 411/2"    UB334242    $762                 $869                     $1401               +$79
+291/2" 291/2" 471/2" 471/2"    UB334848    $788                 $895                     $1427               +$81
+d
+d
+d
+d
+d
+d
+Tip: Supports must be spec-
+ified separately, including
+side support brackets for
+rear corner support in
+panel-mounted applications.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate or wood veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallops on back edges
+• Wire manager for wood veneer worksurfaces,
+if selected: black
+1 Style number with appropriate edge
+profile suffix
+P Laminate with plastic P-edge
+SW Wood with square edge
+cSee edge profiles below.
+2 High-Pressure Laminate or wood color
+number for worksurface
+3 Plastic color number for front edge on
+laminate worksurface, if selected
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+A
+C
+B   
+D
+Premium Wood 
+Pricing: For Premium
+wood 2 or Premium wood 3
+pricing, please refer to the
+electronic catalog or
+SmartTools.
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles,
+add a suffix to the style
+number. (For example,
+UB223636 becomes
+UB223636SW for wood with
+square edge profile.)
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

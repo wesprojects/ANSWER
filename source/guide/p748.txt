@@ -1,0 +1,120 @@
+748                                                                                                                                                                                                  Answer Solutions Specification Guide
+TS747TCIJ                349    In-Line Chng-of-Hgt Jct
+TS747TCIJW             349    In-Line Chng-of-Hgt Jct
+TS747TCLJ               350    L Chng-of-Hgt Jct
+TS747TCLJW            350    L Chng-of-Hgt Jct
+TS747TCVJ               357    V Chng-of-Hgt Jct
+TS747TCVJW           357    V Chng-of-Hgt Jct
+TS74818PF                431    Perf Tack Acst Pnl Pkg
+TS74818SPF             429    Perf Tack Acst Pnl Pkg
+TS74818STF             429    Tack Acst Pnl Pkg
+TS74818TA                435    F-Covered Pnl Skin
+TS74818TAF             437    F-Covered To The Flr Skin
+TS74818TF                431    Tack Acst Pnl Pkg
+TS74818TK               435    F-Covered Pnl Skin
+TS74818TKF             437    F-Covered To The Flr Skin
+TS74818TPF             391    Perf Tack Acst Pnl Pkg
+TS74818TTF             391    Tack Acst Pnl Pkg
+TS74824AWSF          454    Wood To The Flr Skin Set
+TS74824AWSS         450    Wood Skin Set
+TS74824BWSF          454    Wood To The Flr Skin Set
+TS74824BWSS         450    Wood Skin Set
+TS74824LS                444    Laminate Skin
+TS74824LSF             445    Laminate To The Flr Skin
+TS74824PF                431    Perf Tack Acst Pnl Pkg
+TS74824SPF             429    Perf Tack Acst Pnl Pkg
+TS74824STF             429    Tack Acst Pnl Pkg
+TS74824TA                435    F-Covered Pnl Skin
+TS74824TAF             437    F-Covered To The Flr Skin
+TS74824TF                431    Tack Acst Pnl Pkg
+TS74824TK               435    F-Covered Pnl Skin
+TS74824TKF             437    F-Covered To The Flr Skin
+TS74824TPF             391    Perf Tack Acst Pnl Pkg
+TS74824TTF             391    Tack Acst Pnl Pkg
+TS74824WS               447    Wood Skin
+TS74824WSF            449    Wood To The Flr Skin
+TS74830AWSF          454    Wood To The Flr Skin Set
+TS74830AWSS         450    Wood Skin Set
+TS74830BWSF          454    Wood To The Flr Skin Set
+TS74830BWSS         450    Wood Skin Set
+TS74830LS                444    Laminate Skin
+TS74830LSF             445    Laminate To The Flr Skin
+TS74830PF                431    Perf Tack Acst Pnl Pkg
+TS74830SPF             429    Perf Tack Acst Pnl Pkg
+TS74830STF             429    Tack Acst Pnl Pkg
+TS74830TA                435    F-Covered Pnl Skin
+TS74830TAF             437    F-Covered To The Flr Skin
+TS74830TF                431    Tack Acst Pnl Pkg
+TS74830TK               435    F-Covered Pnl Skin
+TS74830TKF             437    F-Covered To The Flr Skin
+TS74830TPF             391    Perf Tack Acst Pnl Pkg
+TS74830TTF             391    Tack Acst Pnl Pkg
+TS74830WS               447    Wood Skin
+TS74830WSF            449    Wood To The Flr Skin
+TS74836AWSF          454    Wood To The Flr Skin Set
+TS74836AWSS         450    Wood Skin Set
+TS74836BWSF          454    Wood To The Flr Skin Set
+TS74836BWSS         450    Wood Skin Set
+TS74836LS                444    Laminate Skin
+TS74836LSF             445    Laminate To The Flr Skin
+TS74836PF                431    Perf Tack Acst Pnl Pkg
+TS74836SPF             429    Perf Tack Acst Pnl Pkg
+TS74836STF             429    Tack Acst Pnl Pkg
+TS74836TA                435    F-Covered Pnl Skin
+TS74836TAF             437    F-Covered To The Flr Skin
+TS74836TF                431    Tack Acst Pnl Pkg
+TS74836TK               435    F-Covered Pnl Skin
+TS74836TKF             437    F-Covered To The Flr Skin
+TS74836TPF             391    Perf Tack Acst Pnl Pkg
+TS74836TTF             391    Tack Acst Pnl Pkg
+TS74836WS               447    Wood Skin
+TS74836WSF            449    Wood To The Flr Skin
+TS74842AWSF          454    Wood To The Flr Skin Set
+TS74842AWSS         450    Wood Skin Set
+TS74842BWSF          454    Wood To The Flr Skin Set
+TS74842BWSS         450    Wood Skin Set
+TS74842LS                444    Laminate Skin
+TS74842LSF             445    Laminate To The Flr Skin
+TS74842PF                431    Perf Tack Acst Pnl Pkg
+TS74842SPF             429    Perf Tack Acst Pnl Pkg
+TS74842STF             429    Tack Acst Pnl Pkg
+TS74842TA                435    F-Covered Pnl Skin
+TS74842TAF             437    F-Covered To The Flr Skin
+TS74842TF                431    Tack Acst Pnl Pkg
+TS74842TK               435    F-Covered Pnl Skin
+TS74842TKF             437    F-Covered To The Flr Skin
+TS74842TPF             391    Perf Tack Acst Pnl Pkg
+TS74842TTF             391    Tack Acst Pnl Pkg
+TS74842WS               447    Wood Skin
+TS74842WSF            449    Wood To The Flr Skin
+TS74848AWSF          454    Wood To The Flr Skin Set
+TS74848AWSS         450    Wood Skin Set
+TS74848BWSF          454    Wood To The Flr Skin Set
+TS74848BWSS         450    Wood Skin Set
+TS74848LS                444    Laminate Skin
+TS74848LSF             445    Laminate To The Flr Skin
+TS74848PF                431    Perf Tack Acst Pnl Pkg
+TS74848SPF             429    Perf Tack Acst Pnl Pkg
+TS74848STF             429    Tack Acst Pnl Pkg
+TS74848TA                435    F-Covered Pnl Skin
+TS74848TAF             437    F-Covered To The Flr Skin
+TS74848TF                431    Tack Acst Pnl Pkg
+TS74848TK               435    F-Covered Pnl Skin
+TS74848TKF             437    F-Covered To The Flr Skin
+TS74848TPF             391    Perf Tack Acst Pnl Pkg
+TS74848TTF             391    Tack Acst Pnl Pkg
+TS74848WS               447    Wood Skin
+TS74848WSF            449    Wood To The Flr Skin
+TS74860PF                431    Perf Tack Acst Pnl Pkg
+TS74860SPF             429    Perf Tack Acst Pnl Pkg
+TS74860STF             429    Tack Acst Pnl Pkg
+TS74860TA                435    F-Covered Pnl Skin
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

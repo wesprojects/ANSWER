@@ -1,0 +1,22 @@
+Specifying
+Universal Tables
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            565
+Tables
+Straight Tables                                                                                    566
+Transition Tables                                                                                568
+Corner, 120° Tables                                                                            570
+Capsule Tables                                                                                   571
+Spanner Tables                                                                                   572
+Peninsula Table                                                                                  573
+Tapered Peninsula Tables                                                                  574
+Bubble Jetty Tables                                                                            575
+Round Tables                                                                                      576
+Square Tables                                                                                     577
+Rectangle Tables                                                                                578
+Oval Tables                                                                                         579
+Hex Conference Tables                                                                      580
+Bases for Universal Tables                                                      581
+Legs for Universal Tables                                                        582
+Worksurface Screens                                                                           586
+Universal Tables
+February 2015

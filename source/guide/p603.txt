@@ -1,0 +1,43 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            603
+TS Series Storage 
+TS 200 Series
+Lateral Files
+Specification Information
+DDimensions                DCounterweight     DStyle                 DU.S.
+dD        W         H          dPackage               dNumber             dBase
+d
+d
+d
+dPrice
+d
+d
+d                               d
+Two 12"H Drawers
+18"         30"         28"           Package 3                     2LF18302F         $  665
+18"         36"         28"           Package 4                     2LF18362F         $  774
+18"         42"         28"           Package 4                     2LF18422F         $  876
+Three 12"H Drawers
+18"         30"         40"           Package 3                    2LF18303F         $  899
+18"         36"         40"           Package 3                     2LF18363F         $1047
+18"         42"         40"           Package 3                     2LF18423F         $1185
+Four 12"H Drawers
+18"         30"         52"           Package 3                    2LF18304F         $1148
+18"         36"         52"           Package 4                     2LF18364F         $1335
+18"         42"         52"           Package 4                    2LF18424F         $1509
+Four 12"H Drawers and One 131⁄2"H Lift-Up Door with Fixed Shelf
+18"         30"         651⁄2"        Package 2                    2LF18305F         $1364
+18"         36"         651⁄2"        Package 2                     2LF18365F         $1586
+18"         42"         651⁄2"        Package 2                     2LF18425F         $1793
+d                                   d
+d
+d
+Tip: Height dimension listed
+is for units with 1" top. Overall
+height will vary if another top
+is selected.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+TS Series Storage
+February 2015

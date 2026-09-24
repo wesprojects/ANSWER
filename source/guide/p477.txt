@@ -1,0 +1,65 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                            cWiring and Cabling, continued  477
+Wiring and Cabling
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Duplex Receptacles
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 167
+• Receptacle: plastic
+1 Style number
+2 Plastic color number for receptacle:
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6651 Tungsten
+6652 Titanium
+6654 Sand
+6697 Fog
+6B03 Red
+   Speciﬁcation Information
+           15-Amp Receptacles                                  20-Amp Receptacles
+DLine   DStyle              DU.S.      DStyle              DU.S.           DStyle              DU.S.      DStyle              DU.S.
+d          dNumber         dPrice
+dNumber         dPrice         dNumber         dPrice
+dNumber         dPrice
+d            d                           d               d                           d
+d                           d               d                           d
+4-Circuit, 3+1 Wiring Schematic
+             System Ground             Isolated Ground                 System Ground             Isolated Ground
+Line 1      TS71SSX         $40           TS71SGX        $52                 ZB1R1SGH       $67           ZB1R1IGH        $86
+Line 2      TS72SSX         $40           TS72SGX        $52                 ZB1R2SGH       $67           ZB1R2IGH        $86
+Line 3      TS73SSX         $40           TS73SGX        $52                 ZB1R3SGH       $67           ZB1R3IGH        $86
+Line 4      TS74SSX         $40           TS74SGX        $52                 ZB1R4SGH       $67           ZB1R4IGH        $86
+  d            d                           d               d                           d
+d
+d
+d
+d
+4-Circuit, 2+2 Wiring Schematic
+             System Ground             Isolated Ground                 System Ground             Isolated Ground
+Line 1      TS71SSY         $40           TS71SGY        $52                 ZB2R1SGH       $67           ZB2R1IGH        $86
+Line 2      TS72SSY         $40         TS72SGY        $52                 ZB2R2SGH       $67           ZB2R2IGH        $86
+Line 3      TS73SSY         $40         TS73SGY        $52                 ZB2R3SGH       $67           ZB2R3IGH        $86
+Line 4      TS74SSY         $40         TS74SGY        $52                 ZB2R4SGH       $67           ZB2R4IGH        $86
+  d            d                           d               d                           d
+d
+d
+d
+d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+             System Ground             Isolated Ground                 System Ground             Isolated Ground
+Line 1      TS71SSZ         $40           TS71SGZ        $52                 ZB3R1SGH       $67           ZB3R1IGH        $86
+Line 2      TS72SSZ         $40           TS72SGZ        $52                 ZB3R2SGH       $67           ZB3R2IGH        $86
+Line 3      TS73SSZ         $40           TS73SGZ        $52                 ZB3R3SGH       $67           ZB3R3IGH        $86
+  d            d                           d               d                           d
+d
+d
+d
+d
+Shared Components and Wiring and Cabling
+February 2015

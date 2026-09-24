@@ -1,0 +1,33 @@
+Panels—Square and Oval Trim
+Stacking Horizontal Frame Packages—Square and Oval Trim
+...............................................................................................................................................
+Stacking horizontal
+frame package provides
+structural stability for stack-
+ing junctions.
+cSpecifying square and
+oval, page 425
+scale150
+Horizontal connecting
+bar is included with each
+stacking horizontal frame
+package. 
+Each stacking seg-
+ment must have one hori-
+zontal connecting bar.
+Exception: If a window is
+used with stacking junctions,
+a horizontal connecting bar
+is not needed.
+Each stacking junction
+is specified separately.
+cPages 407–411
+Skins, ordered separately,
+are added to both sides of
+stacking frame.
+...............................................................................................................................................
+Actual Dimensions
+Width        171⁄4", 231⁄4", 291⁄4", 351⁄4", 411⁄4", 471⁄4", 591⁄4", 
+                 and 711⁄4"
+92                                                                                                                                                                                                              Answer Solutions Specification Guide
+February 2015

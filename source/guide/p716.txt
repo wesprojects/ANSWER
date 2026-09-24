@@ -1,0 +1,59 @@
+716                                                                                                                                                                                                   Answer Solutions Specification Guide
+Recommended Worksurface Edge Finishes
+Edges
+The recommended edge color will com-
+plement the laminate color you specify.
+Edge color is specified separately.
+Laminate Color                            Recommended                    Recommended
+                                                     3 mm or 1 mm                     P-Edge Color
+                                                     Edge Color
+Fiber Laminate
+2850   Vanadium Fiber                         6654    Sand                              6697     Fog
+2851   Rhyme Fiber                             6631    Cream                            6654     Sand
+2852   Tungsten Fiber                          6636    Mist                                6654     Sand
+2854   Vellum Fiber                              6655    Warm White                   6697     Fog
+2859   Novell Fiber                               6001    Coffee                            6697     Fog
+2860   Granite Fiber                             6000    Black                              6000     Black
+2861   Coconut Fiber                           6654    Sand                              6654     Sand
+2862   Stucco Fiber                              6053    Seagull                           6053     Seagull
+Micro Laminate
+2920   Marl Micro                                 6053    Seagull                           6053     Seagull
+2921   Gypsum Micro                           6654    Sand                              6654     Sand
+2922   Clay Micro                                 6654    Sand                              6654     Sand
+2923   Shadow Micro                           6249    Platinum Solid                6249     Platinum Solid
+Patina Laminate
+2870   Blonde Bronze Patina               6654    Sand                              6654     Sand
+2871   Blackened Bronze Patina          6615    Grey V5                          6000     Black
+2873   Instant Iron Patina                     6615    Grey V5                          6000     Black
+Solid Laminate
+2722   Cream E                                   6631    Cream                            6654     Sand 
+2730   Arctic White                               6009    Arctic White                    6009     Arctic White
+2746   Black                                         6000    Black                              6000     Black
+2759   Warm White E                          6655    Warm White                   6654     Sand 
+2811   Mist E                                       6636    Mist                                6697     Fog 
+2883   Seagull                                      6053    Seagull                           6053     Seagull
+2884   Milk                                           6052    Milk                                6052     Milk
+2885   Dune                                         6654    Sand                              6654     Sand
+Speckle Laminate
+2820   Coffee Speckle                          6631    Cream                            6654     Sand
+2822   Woodrose Speckle                    6635    Dawn E                         6000     Black
+2823   Driftwood Speckle                     6631    Cream                            6000     Black
+2824   Smoke Speckle                         6636    Mist                                6654     Sand
+2825   Vanadium Speckle                     6619    Ice E                             6697     Fog
+Woodgrain Laminate
+2406   Clear Cherry                              6234    Clear Cherry                   6000     Black
+2409   Clear Maple                               6237    Clear Maple                    6654     Sand
+2410   Graphite Walnut                        6231    Graphite Walnut             6000     Black
+2412   Natural Cherry                           6034    Natural Cherry                6000     Black
+2422   Medium Cherry                          6036    Medium Cherry              6000     Black
+2511   Winter on Maple                        6037    Winter on Maple             6654     Sand
+2538   Clear Walnut                             6245    Clear Walnut                  6000     Black
+2539   Warm Oak E                             6246    Warm Oak E                 6246     Warm Oak E
+2592   Blonde on Maple                       6038    Blonde on Maple            6654     Sand
+2714   Natural Walnut                          6041    Natural Walnut               6000     Black
+cRecommended Worksurface Edge Finishes, continued on next page
+Recommended Edge Colors—High-Pressure Laminate
+...............................................................................................................................................
+...............................................................................................................................................
+E = Established
+February 2015

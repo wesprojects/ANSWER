@@ -1,0 +1,53 @@
+142                                                                                                                                                                                                            Answer Solutions Specification Guide
+Interface Products
+The interface is the point
+at which the utilities within a
+panel connect to a building’s
+power and communication
+network. All power compo -
+nents are field installed.
+scale 75
+Ceiling-Access Lay-In
+Utility Package
+Understanding 
+cPage 150
+Specifying 
+cPages 365 and 413
+scale 75
+Floor-Access Lay-In
+Utility Package
+Understanding 
+cPage 152
+Specifying 
+cPages 366 and 414
+Utility Pole—Thin Trim
+Understanding 
+cPage 154
+Specifying 
+cPage 364
+Base Power Infeed
+Understanding 
+cPage 158
+Specifying 
+cPage 480
+Base Power Infeed for
+Use in New York City
+Understanding
+cPage 159
+Specifying
+cPage 481
+Consolidation Point
+Kit
+Understanding
+cPage 160
+Specifying
+cPage 486
+Junction with
+Utility Pole
+Understanding 
+cPage 156
+Specifying 
+cPage 411
+Wiring and Cabling
+Statement of Line
+February 2015

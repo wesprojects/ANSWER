@@ -1,0 +1,76 @@
+34                                                                                                                                                                                                              Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+How to Build Your Own Change-of-Height Applications
+Step 1:
+Draw out the panel application you would like to build (T, X, or Y).
+Step 2:  Junction Posts
+                 Determine the post heights for each leg of the corner junction 
+                 corresponding to the panel heights.
+Side A (e.g. 78")
+Side B (e.g. 66")
+Side C (e.g. 54")
+Side D (e.g. 42") (For use in X configurations with four different 
+heights only)
+Step 3:  Junction Blocks
+                 From the list below, select the change-of-height application type 
+                 that matches your drawing:
+                 a). T or Y junction with three different panel heights (go to step 3a).
+                 b). X junction with three different panel heights (go to step 3b).
+                 c). X junction with four different panel heights (go to step 3c).
+Step 3a: If the shortest panel is 48" high or lower, order three blocks.
+                 cSee specifying page 374.
+                 If the shortest panel is 54" high, order four blocks.
+                 cSee specifying page 374.
+Step 3b: If there are two panels at 78" high and the lowest panel is 54"
+                 high, order five blocks.
+                 cSee specifying page 374.
+                 If there is a panel less than or equal to 48" high and only ONE 
+                 panel at the tallest height, order three blocks.
+                 cSee specifying page 374.
+                 For all other change-of-height configurations order four blocks.
+                 cSee specifying page 374.
+Step 3c: For all X junctions with four different panel heights use four blocks.
+                 cSee specifying page 374.
+Step 4:  Inside Corner Light Seals
+           •
+You will need two inside corner light seals for a T corner and 
+           
+four inside corner light seals for an X corner (none are needed 
+           
+for a Y corner).
+           •
+Inside corner light seals are sold in packages of four.
+           •
+Packages come in three heights:  54", 66", and 78".
+           •
+Specify the height to correspond to the tallest junction and field 
+           
+cut as necessary.
+           
+Inside corner light seal–54"H, package of four
+TS754ICLS
+           
+Inside corner light seal–66"H, package of four TS766ICLS
+           
+Inside corner light seal–78"H, package of four TS778ICLS
+Step 5:   Vertical Trim
+            Locate the application below that is the same as the application 
+            you originally illustrated.
+            Specify the trims listed in the option you selected below. You will 
+            be required to refer back to your original drawing several times to 
+            calculate the proper trim heights.
+A
+B
+C
+A
+B
+C
+D
+A
+B
+C
+...........................................................................................................................................
+Panels—Thin Trim
+Build Your Own Change-of-Height—Thin Trim, continued
+February 2015

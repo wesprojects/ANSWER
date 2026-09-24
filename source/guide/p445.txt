@@ -1,0 +1,75 @@
+Shared Components
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            445
+Shared Components and Wiring and Cabling
+Laminate To The Floor Skins                                                                      
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 114
+• Skin: laminate
+• Trim: paint
+• Attachment hardware
+1 Style number
+2 Laminate color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+                            Options                   U.S. Price                   Required to Specify
+  Surface                • Open Line laminate            +$65 plus cost                         cSee Surface Materials Reference Manual.
+  Materials                                                      of laminate
+Specification Information
+24"H                                        30"H                                        36"H
+                     
+                                               
+                                               
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle                   DU.S.
+d               dNumber              dBase         dNumber              dBase         dNumber              dBase 
+d                  d                                dPrice           d                                dPrice           d                                dPrice
+d                  d                                d                     d                                d                     d                                d
+24"                TS72424LSF        $341               TS73024LSF        $360               TS73624LSF        $379
+30"                TS72430LSF        $357               TS73030LSF        $389               TS73630LSF        $418
+36"                TS72436LSF        $372               TS73036LSF        $403               TS73636LSF        $433
+42"                TS72442LSF        $391               TS73042LSF        $425               TS73642LSF        $462
+48"                TS72448LSF        $405               TS73048LSF        $445               TS73648LSF        $486
+d                  d                                d                     d                                d                     d                                d
+                  42"H                                        48"H                                        60"H
+                     
+                                               
+                                               
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle                   DU.S.
+d               dNumber              dBase         dNumber              dBase         dNumber              dBase 
+d                  d                                dPrice           d                                dPrice           d                                dPrice
+d                  d                                d                     d                                d                     d                                d
+24"                TS74224LSF        $392               TS74824LSF        $403               TS76024LSF        $463                      
+30"                TS74230LSF        $420               TS74830LSF        $423               TS76030LSF        $482                      
+36"                TS74236LSF        $446               TS74836LSF        $461               TS76036LSF        $510
+42"                TS74242LSF        $471               TS74842LSF        $480               TS76042LSF        $529                      
+48"                TS74248LSF        $504               TS74848LSF        $520               TS76048LSF        $587
+d                  d                                d                     d                                d                     d                                d
+Tip: Remember to omit base
+trim(s) on horizontal frame
+package when using a skin
+to the ﬂoor.
+Tip: 30"H and 42"H skins
+only work on junctions man-
+ufactured on or after
+October 10, 2011.
+Tip: When specifying skins,
+the total skin height will be
+6" less than the panel
+height. When ordering skins
+to the floor an F suffix will be
+added to the end of the style
+number for the skin in the
+lowest position on the panel.
+The total skin height will still
+be 6" less than the panel
+height.  
+cSee Panel Buildups, page 
+12, for more information.
+Laminate To The Floor Skins
+February 2015

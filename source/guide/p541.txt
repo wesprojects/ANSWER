@@ -1,0 +1,35 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                541
+Universal Systems Worksurfaces
+                                        
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Power and Data Access
+Door & Tray
+Specification Information
+DStyle
+DU.S.                 DStyle             DU.S.
+dNumber   dBase               dNumber        dBase
+d                dPrice               d
+dPrice
+d                   d
+dNon-PVC       d
+Modular Power
+UTTRM        $984                     UTTRMN         $994
+d                   d
+d
+d
+Hardwire Power
+UTTRHW     $984                     UTTRHWN      $994
+d                   d
+d
+d
+Cord and Plug
+UTTRC        $984                     UTTRCN          $994
+d                   d
+d
+d
+Universal Systems
+Worksurfaces
+February 2015

@@ -1,0 +1,34 @@
+Answer Solutions Specification Guide                                                                                                                                          cStability Guidelines, continued  137
+Stability Guidelines
+Shared Components
+Shared Components
+...............................................................................................................................................
+Guidelines for Wall-Start Junction Configurations
+Panels with Components
+                          
+                                      
+               
+                           
+When using a wall-start junction, an end panel must 
+be used with the wall-start junction and the other end must be 
+supported by a full panel, an end panel, or a pedestal with a 
+filler. For 24"D worksurfaces, the center can be supported by 
+a cantilever. 30"D straight and transition worksurfaces require 
+additional floor support along the front edge, such as a 
+pedestal or post leg.
+Wall hang channels for shelves and overhead storage 
+bins cannot be used with a wall-start junction.
+Tip: Wall-start junctions must secure to the stud in a building 
+wall or use drywall fasteners.
+8' max.
+8' max.
+10' max.
+Wall-start
+junction
+8' max.
+8' max.
+10' max.
+Wall-start
+junction
+...............................................................................................................................................
+February 2015

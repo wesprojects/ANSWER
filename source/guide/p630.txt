@@ -1,0 +1,110 @@
+630                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Storage
+Universal L-Shelves and Stationary Shelves
+For Universal Curved Front Bin and L-Shelf
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 292
+• Shelf: paint price group 1
+• Basic attachment bracket: black only
+• Rods: shiny chrome
+• Spacers: 6695 Midnight only
+• Endcaps: 6695 Midnight only
+1 Style number 
+2 Appropriate bracket suffix for 
+Universal L-Shelves:
+ANS = Answer
+NON = NO BASIC BRACKET
+              (see bracket options below)
+3 Paint color number for shelf
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                  Universal L-Shelves
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                              • Paint price group 2                     +$  28                                    Specify paint color number.
+                                     • Paint price group 3                     +$  38                                    Specify paint color number.
+                                        Universal Stationary Shelves
+                               • Paint price group 1                     No cost                                 Specify paint color number.
+                              • Paint price group 2                     +$  14                                    Specify paint color number.
+                                     • Paint price group 3                     +$  23                                    Specify paint color number.
+  Upmount             • Basic upmount bracket               +$  38                                    Specify with basic upmount bracket.
+  Brackets                • Open design upmount bracket   +$118                                    Specify with open design upmount 
+  for L-Shelf                                                                                                                     bracket.
+  Related                • Universal curved front bins                                                    cPage 629
+  Products              • Bookends                                                                               cPage 631
+                               • Underline task light                                                                cPage 698
+Specification Information
+DDimensions              DStyle                       DU.S.
+dD        W         H        dNumber                   dBase
+d                                 d                                dPrice
+d                                 d                                d
+Universal L-Shelves for Universal Curved Front Bin and Universal L-Shelf
+141⁄4"     30"         15"         KLSHF30_               $373
+141⁄4"     36"         15"         KLSHF36_                  $395
+141⁄4"     42"         15"         KLSHF42_                  $445
+141⁄4"     48"         15"         KLSHF48_                  $450
+d                                 d                                d
+Stationary Shelves for Universal Curved Front Bin and Universal L-Shelf
+14"         30"         65⁄32"      KSSHF30                     $205
+14"         36"         65⁄32"      KSSHF36                     $222
+14"         42"         65⁄32"      KSSHF42                     $244
+14"         48"         65⁄32"      KSSHF48                     $263
+d                                 d                                d
+Tip: Universal L-shelf does
+not align with Universal
+overhead bin when mounted
+side by side.
+Tip: Basic attachment
+bracket allows only 12" off-
+module configurations on
+panels with vertical attach -
+ment. L-shelf must be the
+same width or up to 12"
+wider than the panel.
+Tip: L-shelf is upmountable
+on Answer panel. Specify
+with suffix “NON” and
+choose the upmount bracket
+option.
+Tip: Universal L-shelves can
+be mounted in front of slat-
+wall skin or upmounted on
+Answer slatwall skins as
+long as there is not another
+bin, shelf or slatwall skin on
+the adjacent in-line panel.
+Tip: Open design upmount
+bracket cannot be used
+when double-pane window
+is in top position of panel.
+Tip: When using upmount
+brackets with overhead stor-
+age and daisy chaining
+lights, use the open design
+upmount bracket for better
+cord management.
+Tip: Stationary shelf hangs
+from the bottom of curved
+front bins with KBIN_ style
+numbers and L-shelves with
+KLSHF_ style numbers.
+Space between bottom of
+bin or L-shelf and top of
+stationary shelf is 51⁄2".
+Overall stationary shelf
+height dimension is 65⁄32".
+Specify the same width as
+corresponding bin or L-shelf.
+Tip: Stationary shelf cannot
+hang from an upmounted bin
+or shelf.
+Tip: Shelf is steel with
+molded endcaps.
+42" W
+scale 30
+42" W
+scale 30
+February 2015

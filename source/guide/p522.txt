@@ -1,0 +1,55 @@
+522                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Extended Corner, Straight-Front Worksurfaces
+High-Pressure Laminate
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Scallops                 • Omit scallops                            No cost                                Specify omit scallops.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Reinforcing channel                                                            cPage 546
+                                   • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Tip: Illustration above shows
+a left-hand worksurface.
+Tip: Supports must be spec-
+ified separately, including
+side support brackets for
+rear corner support in
+panel-mounted applications
+Tip: Long worksurface spans
+may require additional sup-
+port, reinforcing channels
+allow for unsupported spans
+greater than 54".
+cSee understanding 
+section for details, 
+page 208
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate 
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallops on back edges
+1 Style number with appropriate edge
+profile suffix
+P Laminate with plastic P-edge
+cSee edge profiles below.
+2 High-Pressure Laminate number for
+worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

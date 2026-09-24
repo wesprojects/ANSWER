@@ -1,0 +1,60 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            693
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Lighting
+                                                                                                                     
+                                        cSpeciﬁcation Information, continued from previous page 
+Speciﬁcation Information
+DDimensions            DLamp        DStyle             DU.S.
+dD       W       H        dWattage    dNumber        dBase
+d
+d
+d
+dPrice
+d
+d
+d
+d
+Electronic Normal-Power-Factor Ballast
+67⁄8"     25"       15⁄8"       17 watts         LSB24M2        $187
+67⁄8"     37"       15⁄8"       25 watts         LSB36M2       $235
+67⁄8"     49"       15⁄8"       32 watts         LSB48M2       $269
+With Chicago Cord Including Circuit Breaker
+67⁄8"     25"       15⁄8"       17 watts         LSB24MC2      $248
+67⁄8"     37"       15⁄8"       25 watts         LSB36MC2     $296
+67⁄8"     49"       15⁄8"       32 watts         LSB48MC2     $330
+Daisy Chain Light with 78" Jumper Cord
+67⁄8"     25"       15⁄8"       17 watts         LSB24MD2      $221
+67⁄8"     37"       15⁄8"       25 watts         LSB36MD2     $269
+67⁄8"     49"       15⁄8"       32 watts         LSB48MD2     $303
+Daisy Chain Starter Light with 9' Starter Cord
+67⁄8"     25"       15⁄8"       17 watts         LSB24MS2      $221
+67⁄8"     37"       15⁄8"       25 watts         LSB36MS2     $269
+67⁄8"     49"       15⁄8"       32 watts         LSB48MS2     $303
+d
+d
+d
+d
+Utility2 Shelf Lights
+Tip: Minimum of two ﬁxtures
+for daisy chaining and maxi-
+mum of 10.
+Tip: When ordering starter
+light do not order a daisy
+chain starter cord.
+Lighting
+Speciﬁcation Guidelines
+Application            Requirement
+  2 lights                       1 starter light ﬁxture and 1 daisy chain light with jumper cord ﬁxtures 
+  3 lights                       1 starter light ﬁxture and 2 daisy chain light with jumper cord ﬁxtures
+  4 lights                       1 starter light ﬁxture and 3 daisy chain light with jumper cord ﬁxtures
+  5 lights                       1 starter light ﬁxture and 4 daisy chain light with jumper cord ﬁxtures
+  6 lights                       1 starter light ﬁxture and 5 daisy chain light with jumper cord ﬁxtures
+  7 lights                       1 starter light ﬁxture and 6 daisy chain light with jumper cord ﬁxtures
+  8 lights                       1 starter light ﬁxture and 7 daisy chain light with jumper cord ﬁxtures
+  9 lights                       1 starter light ﬁxture and 8 daisy chain light with jumper cord ﬁxtures
+10 lights                       1 starter light ﬁxture and 9 daisy chain light with jumper cord ﬁxtures
+  
+February 2015

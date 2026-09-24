@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ANSWER</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+/*__CSS__*/
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="title"><h1>ANSWER</h1><div class="build">BUILD __BUILD__</div></div>
+  <div class="seg" id="trimSeg" title="Trim style for the whole project. Thin, square and oval trim cannot be mixed between adjacent panels (p11, p14).">
+    <button data-trim="thin" class="on">THIN TRIM</button><button data-trim="oval">OVAL TRIM</button>
+  </div>
+  <button class="btn" id="bNew">NEW</button>
+  <button class="btn" id="bLoad">LOAD</button>
+  <button class="btn" id="bSave">SAVE</button>
+  <span style="width:8px"></span>
+  <button class="btn" id="bUndo" title="Undo">UNDO</button>
+  <button class="btn" id="bRedo" title="Redo">REDO</button>
+  <span style="width:8px"></span>
+  <select id="demoSel" class="btn" style="flex:none;max-width:260px" title="Load a sample layout"><option value="">DEMOS…</option></select>
+  <span style="width:8px"></span>
+  <button class="btn" id="bCsv" title="Download the detailed BOM as CSV">BOM CSV</button>
+  <button class="btn" id="bCsvPull" title="Download the aggregated order-pull list as CSV">ORDER CSV</button>
+  <button class="btn" id="bPrint" title="Print the current BOM view">PRINT</button>
+  <span class="spacer"></span>
+  <input type="text" id="projName" value="Untitled" style="max-width:220px;flex:none" title="Project name">
+  <div class="brand">
+    <img id="logo" src="__LOGO__" alt="">
+    <svg width="107" height="9" viewBox="0 0 107 9"><text x="0" y="8" textLength="107" lengthAdjust="spacingAndGlyphs" font-family="DM Mono,SF Mono,ui-monospace,Menlo,Consolas,monospace" font-size="7.5" font-weight="700" fill="#f5a524">RESEARCH AND DEVELOPMENT</text></svg>
+  </div>
+</header>
+<div class="shell" id="app">
+  <nav class="rail" id="rail">
+    <button data-fly="fBuild" title="Build panels and runs"><svg viewBox="0 0 24 24"><path d="M3 20h18M5 20V8l7-4 7 4v12"/><path d="M9 20v-6h6v6"/></svg><span>BUILD</span></button>
+    <button data-fly="fFinish" title="Finishes and surface materials"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="8.5" cy="10" r="1.2"/><circle cx="13" cy="7.5" r="1.2"/><circle cx="16" cy="11.5" r="1.2"/><path d="M12 21c-2 0-2.5-2-1-3s4 0 4-2"/></svg><span>FINISH</span></button>
+    <button data-fly="fPower" title="Wiring and cabling"><svg viewBox="0 0 24 24"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg><span>POWER</span></button>
+    <button data-fly="fCatalog" title="Catalog browser and manual add-ons"><svg viewBox="0 0 24 24"><path d="M4 4h12l4 4v12H4z"/><path d="M8 12h8M8 16h8"/></svg><span>CATALOG</span></button>
+    <div class="sep"></div>
+    <button data-fly="fOptions" title="Project options"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg><span>OPTIONS</span></button>
+    <button data-fly="fHelp" title="Rules, notes and guide references"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 015 0c0 2-2.5 2-2.5 4M12 17h.01"/></svg><span>GUIDE</span></button>
+  </nav>
+
+  <div class="flyout" id="fBuild">
+    <h3>START</h3>
+    <div class="note">Click an empty spot on the plan to start a run there, or select a junction and add panels from it. Panels snap to a 6" grid. Panels that meet at a point share one junction (p14).</div>
+    <div class="row"><button class="btn" id="bStartOrigin">START RUN AT ORIGIN</button><button class="btn" id="bFit">FIT VIEW</button></div>
+    <h3>DEFAULTS FOR NEW PANELS</h3>
+    <div class="row"><label>Width</label><select id="defW"></select><label style="min-width:0">Height</label><select id="defH"></select></div>
+    <h3>PANELS</h3>
+    <div class="list" id="panelList"></div>
+    <h3>JUNCTIONS</h3>
+    <div class="list" id="nodeList"></div>
+    <h3>QUICK RUN</h3>
+    <div class="note">From the selected junction, add several panels in one direction. Widths comma-separated, for example <b>48,48,36</b>.</div>
+    <div class="row"><label>Widths</label><input type="text" id="runWidths" value="48,48"><label style="min-width:0">Dir</label><select id="runDir"><option value="0">East 0°</option><option value="90">North 90°</option><option value="180">West 180°</option><option value="270">South 270°</option></select><button class="btn" id="bQuickRun">ADD RUN</button></div>
+  </div>
+
+  <div class="flyout" id="fFinish">
+    <h3>TRIM, CAPS, TOP CAP AND BASE TRIM PAINT</h3>
+    <div class="note">One paint color drives junction trim, junction caps, top caps and base trims (top cap color follows base trim, p52). Colors listed are those the guide marks available on panel trim components (p714). Paint price group adders are applied per part.</div>
+    <div class="row"><label>Paint</label><select id="fTrimPaint" style="flex:1"></select></div>
+    <div class="row" id="rowWoodTrim"><label>Wood trim</label><input type="checkbox" id="fWoodTrim"><span class="kv" id="woodTrimHint"></span></div>
+    <div class="row"><label>Wood veneer</label><select id="fWood" style="flex:1"></select></div>
+    <div class="note" id="woodNote">Answer wood trims ship quarter-cut except maple, which ships flat-cut, whichever cut is specified (p16). Premium veneer groups add cost on wood skins.</div>
+    <div class="row" id="rowOvalTrim"><label>Oval trim face</label><select id="fOvalTrim"><option value="paint">Painted (standard)</option><option value="fabric">Fabric (+$)</option><option value="wood">Wood (wood cap only)</option></select></div>
+    <h3>SKINS</h3>
+    <div class="row"><label>Default skin</label><select id="fSkinType"><option value="tackable acoustical">Tackable acoustical fabric</option><option value="performance tackable acoustical">Performance tackable acoustical</option><option value="steel">Steel</option><option value="laminate">Laminate</option><option value="wood">Wood</option><option value="markerboard">Markerboard</option></select></div>
+    <div class="row"><label>Fabric</label><input type="text" id="fFabric" list="fabricList" placeholder="type code or name"><datalist id="fabricList"></datalist></div>
+    <div class="kv" id="fabricInfo"></div>
+    <div class="row"><label>Direction</label><select id="fFabricDir"><option value="horizontal">Horizontal (standard)</option><option value="vertical">Vertical application</option></select></div>
+    <div class="row"><label>Steel paint</label><select id="fSteelPaint" style="flex:1"></select></div>
+    <div class="row"><label>Laminate</label><select id="fLaminate" style="flex:1"></select></div>
+    <div class="row"><label>Plastic</label><select id="fPlastic"></select><span class="kv">receptacles, faceplates, infeed covers</span></div>
+  </div>
+
+  <div class="flyout" id="fPower">
+    <h3>WIRING SCHEMATIC</h3>
+    <div class="note">All components in one electrical system must use the same schematic. Parts are keyed and color coded: black 3+1, brown 2+2, rust 3SN (p145). NEC: 13 receptacles per 20 A circuit, so 30 per 3-circuit and 40 per 4-circuit power-in (p146).</div>
+    <div class="row"><label>Schematic</label><select id="pSchem"><option value="X">4-circuit, 3+1 (X)</option><option value="Y">4-circuit, 2+2 (Y)</option><option value="Z">3-circuit, separate neutrals (Z)</option></select></div>
+    <div class="row"><label>Material</label><select id="pPvc"><option value="0">PVC (standard)</option><option value="1">Non-PVC (LEED)</option></select></div>
+    <div class="row"><label>Receptacles</label><select id="pAmps"><option value="15">15 A</option><option value="20">20 A</option></select><select id="pGround"><option>System Ground</option><option>Isolated Ground</option></select></div>
+    <h3>POWER PLAN</h3>
+    <div class="kv" id="powerSummary"></div>
+    <div class="note">Set powerkits, receptacles and infeeds on each panel in the right pane. Powerkits install every 12" vertically: base or worksurface height (p163). 18"W panels take pass-through power only. Power blocks per side: 24"W 1, 30"–48"W 2, 60"–72"W 4.</div>
+  </div>
+
+  <div class="flyout" id="fCatalog">
+    <h3>CATALOG</h3>
+    <div class="row"><input type="text" id="catQ" placeholder="search style number, product, page…"><select id="catTrim"><option value="">all trims</option><option value="thin">thin</option><option value="oval">oval</option><option value="square-oval">square/oval</option><option value="shared">shared</option><option value="square">square</option></select></div>
+    <div class="kv" id="catCount"></div>
+    <div id="catResults"></div>
+  </div>
+
+  <div class="flyout" id="fOptions">
+    <h3>BOM RULES</h3>
+    <div class="row"><input type="checkbox" id="oPackages" checked><label style="min-width:0">Use panel packages where a panel is two monolithic fabric skins (42–66"H)</label></div>
+    <div class="row"><input type="checkbox" id="oCohCap" checked><label style="min-width:0">Add change-of-height top cap options automatically</label></div>
+    <div class="row"><input type="checkbox" id="oGlide"><label style="min-width:0">Add gripper glide caps (package of 10 per 10 junctions, p373)</label></div>
+    <div class="row" id="rowOvalProfile"><label>Oval CoH trim</label><select id="oOvalProfile"><option>Slim Profile</option><option>Cable-Routing Capability</option></select></div>
+    <h3>PRICING</h3>
+    <div class="note">Prices are U.S. list from the February 2015 guide (price list 180.F). Canadian list = U.S. × 1.09 per item, rounded, then summed (p1). Use the BOM for part identification and quantities. Confirm current pricing with Steelcase.</div>
+    <h3>DATA</h3>
+    <div class="kv" id="dataStats"></div>
+  </div>
+
+  <div class="flyout" id="fHelp">
+    <h3>HOW THE BOM IS BUILT</h3>
+    <div class="note">
+      <b>Panels</b> — a panel is a shared junction at each end, a base horizontal frame package (2 bars, top cap, base trims), skins both sides (skin height = panel height − 6"), then stackers, power, glass. A panel package replaces frame package + 2 fabric skins when it fits (p66, p390).<br><br>
+      <b>Junctions</b> — same-height junctions and two-height change-of-height junctions use the pre-configured style numbers (p344–358). Three or more heights use Build Your Own: posts, blocks, light seals, trims, cap, aligners (p33–38). Stacking omits the base junction trim and orders full-height trims separately (p26, p345).<br><br>
+      <b>Trims</b> follow the exposed-face rule (p43): one panel at a height → end-of-run trim, two adjacent → L, two along a spine or three → T, 120° → 120°/V trims. Cap: one tallest panel → 90° change-of-height cap (aligners = panels at the second height), otherwise 90° cap (aligners = panels at the cap). All 120° junctions take a 120° cap.<br><br>
+      <b>Oval</b> — the junction is the tallest height at a change-of-height, the lower panel gets a shortened top cap, and standard change-of-height trims (slim or cable-routing) fill the step (p80–81). Stacking junctions include their trim (p84).
+    </div>
+    <h3>LIMITS ENFORCED</h3>
+    <div class="note">Max 36" stacked per base panel, max two stackers, max 90" total (p27). Wall-start not at 30"H (p14). Skins total = height − 6" (p13). 18"W = pass-through only (p163). 72"W fabric horizontal only (p434). Runs over 8' without a return (p126). Seismic note over 72" (p124). Frameless glass thin only, top screens oval only, omit/spanning top caps thin only.</div>
+    <h3>GUIDE INCONSISTENCIES (RESOLVED WITH WES)</h3>
+    <div class="note" id="inconsistencies"></div>
+    <h3>SOURCE</h3>
+    <div class="kv">Steelcase Answer Solutions Specification Guide, February 2015, U.S. price list 180.F. Page references in the BOM point at that document.</div>
+  </div>
+
+  <section class="stage">
+    <div id="stagebar">
+      <button class="tab on" data-view="vPlan">PLAN</button>
+      <button class="tab" data-view="vBom">BOM</button>
+      <button class="tab" data-view="vPull">ORDER PULL</button>
+      <button class="tab" data-view="vIssues">ISSUES <span id="issueCount"></span></button>
+      <span class="spacer"></span>
+      <span class="kv" id="stageInfo"></span>
+    </div>
+    <div id="views">
+      <div class="view on" id="vPlan">
+        <div id="planwrap"><canvas id="plan"></canvas><div id="hud"></div><div id="legend"></div></div>
+        <div id="elevwrap"><div id="elevbar"><span id="elevTitle">ELEVATION</span><span class="spacer"></span><div class="seg" id="elevSide"><button data-side="0" class="on">SIDE 1</button><button data-side="1">SIDE 2</button></div></div><canvas id="elev"></canvas></div>
+      </div>
+      <div class="view" id="vBom"><div class="bomtop" id="bomTop"></div><div class="bomwrap" id="bomWrap"></div></div>
+      <div class="view" id="vPull"><div class="bomtop" id="pullTop"></div><div class="bomwrap" id="pullWrap"></div></div>
+      <div class="view" id="vIssues"><div class="bomwrap" id="issuesWrap"></div></div>
+    </div>
+    <div id="toast"></div>
+  </section>
+  <div id="split"></div>
+  <aside class="side" id="side"></aside>
+</div>
+<input type="file" id="fileIn" accept=".answer,.json" style="display:none">
+<script id="catalogData" type="application/json">__CATALOG__</script>
+<script>
+/*__ENGINE__*/
+</script>
+<script>
+const BUILD='__BUILD__';
+/*__APP__*/
+</script>
+</body>
+</html>

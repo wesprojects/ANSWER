@@ -1,0 +1,78 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            499
+TS Series
+Worksurfaces
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 176
+• 13⁄16"-thick worksurface: Low-Pressure Laminate or 
+High-Pressure Laminate
+• 3 mm radius proﬁle edge on user’s side: plastic 
+• Side edge: plastic default to match user's side
+• Cutout
+1 Style number
+2 Low-Pressure Laminate or High-
+Pressure Laminate color number for
+worksurface, as appropriate
+3 Plastic edge band color number for
+worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+  Related                   • Worksurface legs and supports                                             cPage 502
+  Products
+   Speciﬁcation Information
+DDimensions   DStyle                   DU.S.       DStyle                    DU.S.   
+dD        W         dNumber               dPrice     dNumber                dBase
+d                       dLPL                     d             dHPL
+dPrice
+d                           d
+d
+d
+d
+Spanner Worksurfaces for Use with 3" Panels
+25"          51"          TSAWLN51A        $340          TSAWHN51A         $415                                               
+31"          63"          TSAWLN63A        $436          TSAWHN63A         $531                                               
+d                           d
+d
+d
+d
+Tip: Remember to specify
+two cantilevers and a post
+leg to attach spanner work-
+surface to adjacent worksur-
+faces on 50" and 62"
+spanner tops.
+D
+W
+TS Series Worksurfaces 
+TS Series Spanner Worksurfaces                                                                
+                                                                                                                     
+Tip: Standard worksurfaces
+are 13⁄16" thick. However,
+the actual thickness
+between Low-Pressure
+Laminate (LPL) and High-
+Pressure Laminate (HPL)
+worksurfaces is slightly dif-
+ferent. It is recommended
+that only worksurfaces of the
+same type are speciﬁed in a
+given application. In addi-
+tion, there may be sheen or
+texture differences when
+using LPL and HPL in adja-
+cent applications. Please
+use caution when mixing
+and matching different work-
+surface types.
+TS Series
+Spanner Worksurfaces
+February 2015

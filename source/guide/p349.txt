@@ -1,0 +1,196 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            349
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 18
+• Junction
+• Change-of-height trim: paint price group 1 or wood
+• Aligner
+1 Style number
+2 Paint or wood color number for trim
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+                                     • Omit trim                                     Prices below                         Specify with omit trim.
+Specification Information
+DCorresponding   DStyle              DU.S.      DOption                   DStyle              DU.S.      DOption
+dPanel
+dNumber         dBase    d(Add $ to                     dNumber         dBase    d(Add $ to
+dHeight
+d
+dPrice     dBase Price)                 d
+dPrice     dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+d
+d               d                                   d
+d               d
+d
+d
+d               dOmit Trim
+d
+d               dOmit Trim
+Painted Trim
+Wood Trim
+30"
+42"
+TS734TCIJ
+$182
+–$58
+TS734TCIJW
+$358
+–$210
+30"
+48"
+TS738TCIJ
+$185
+–$58
+TS738TCIJW
+$363
+–$210
+30"
+54"
+TS735TCIJ
+$190
+–$58
+TS735TCIJW
+$367
+–$210
+30"
+66"
+TS736TCIJ
+$205
+–$61
+TS736TCIJW
+$380
+–$213
+42"
+54"
+TS745TCIJ
+$182
+–$58
+TS745TCIJW
+$358
+–$210
+42"
+66"
+TS746TCIJ
+$190
+–$58
+TS746TCIJW
+$367
+–$210
+42"
+78"
+TS747TCIJ
+$234
+–$61
+TS747TCIJW
+$409
+–$213
+48"
+66"
+TS786TCIJ
+$185
+–$58
+TS786TCIJW
+$363
+–$210
+54"
+66"
+TS756TCIJ
+$182
+–$58
+TS756TCIJW
+$358
+–$210
+54"
+78"
+TS757TCIJ
+$218
+–$58
+TS757TCIJW
+$396
+–$210
+54"
+90"
+TS759TCIJ
+$270
+–$58
+TS759TCIJW
+$447
+–$210
+66"
+78"
+TS767TCIJ
+$210
+–$58
+TS767TCIJW
+$387
+–$210
+66"
+90"
+TS769TCIJ
+$262
+–$58
+TS769TCIJW
+$438
+–$210
+78"
+90"
+TS779TCIJ
+$257
+–$58
+TS779TCIJW
+$433
+–$210
+d
+d
+d               d
+d
+d               d
+Panels—Thin Trim
+In-line Change-of-Height Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+In-line Change-of-Height
+Junctions—Thin Trim
+Tip: Junction includes:
+• In-line base junction
+• End-of-run stacking 
+  junction
+• Stacking fork
+• End-of-run change-of-
+  height trim
+• Aligner
+Tip: Remember to specify a
+stacking horizontal frame
+package with this applica-
+tion, unless there is a win-
+dow in the top position of the
+taller panel.
+Tip: Omit trim option omits
+change-of-height trim. This
+option is used when stacking
+on base panel junctions.
+Change-of-height trims
+should be specified sepa-
+rately to span the full height
+of the base panel junction
+plus the stacking junction.
+A
+B
+Panels—Thin Trim
+February 2015

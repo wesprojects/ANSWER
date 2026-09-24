@@ -1,0 +1,46 @@
+626                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Storage
+Accessories for Overhead Bins and Shelves, continued
+                                        
+Wall Channel Horizontal Braces
+                            Standard Includes                                          Required to Specify
+cNeed help?
+Product details,
+page 288
+• Brace: paint 
+1 Style number
+2 Paint color number for horizontal
+brace
+cSee Surface Materials, page 708.
+   Specification Information
+DWidth      DStyle           DU.S.
+d               dNumber       dPrice
+d               d                    d
+42"                TS742HB       $79
+48"                TS748HB       $79
+60"                TS760HB       $79
+72"                TS772HB       $79
+  d                  d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Wall Channels for TS Series Bins, Universal Bins, and Universal Shelves
+                            Standard Includes                                          Required to Specify
+cNeed help?
+Product details,
+page 288
+• Pair of channels: paint
+1 Style number
+2 Paint color number for channels
+cSee Surface Materials, page 708.
+Related Products
+                                    • Tackboard for use with wall channels                                    cPage 627
+   Specification Information
+DHeight    DStyle               DU.S.
+d               dNumber           dPrice
+d               d                       d
+66"                TS7BSWHC       $108
+  d                  d                            d
+February 2015

@@ -1,0 +1,89 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            669
+Storage Tops, Shelves, and Accessories
+                                                                                                                     
+                                        
+Square Edge Tops
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style (for
+example, RATL1524__
+becomes RATL1524F for a
+top to be used on a flush
+steel front unit).
+Specification Information
+DDimensions                           DStyle                    DU.S. Base Prices
+dD                      W       H        dNumber               d
+DOption
+dFlush
+Proud
+d
+dFlush
+dProud Steel             d(Add $ to 
+dSteel
+Steel/
+d
+dSteel
+dor Proud Wood        dBase Price)
+dFront
+Proud
+d                                  dFront      dFront                       d
+d
+Wood
+d                                  d                 d
+dFull-Fill
+d
+d                                  dSuffix F  dSuffix P                   dFinish
+Laminate Common Tops, continued
+231⁄8"      24"          601⁄16"    13⁄16"     RATCL2460_       $  301        $  301                             N.A.
+231⁄8"      24"          661⁄16"    13⁄16"     RATCL2466_       $  338        $  338                             N.A.
+231⁄8"      24"          721⁄16"    13⁄16"     RATCL2472_       $  381        $  381                             N.A.
+231⁄8"      24"          901⁄8"     13⁄16"     RATCL2490_       $  639        $  639                             N.A.
+231⁄8"      24"          961⁄8"     13⁄16"     RATCL2496_       $  701        $  701                             N.A.
+231⁄8"      24"          1081⁄8"   13⁄16"     RATCL24108_     $  847        $  847                             N.A.
+361⁄16"     3713⁄16"   36"         13⁄16"     RATCL3636_       $  364        $  364                             N.A.
+361⁄16"     3713⁄16"   721⁄16"    13⁄16"     RATCL3672_       $  500        $  500                             N.A.
+465⁄16"     481⁄16"     36"         13⁄16"     RATCL4836_       $  410        $  410                             N.A.
+465⁄16"     481⁄16"     721⁄16"    13⁄16"     RATCL4872_       $  564        $  564                             N.A.
+d
+d
+d
+d
+d
+Individual File Wood Tops
+18"          187⁄8"       30"         13⁄16"     RATW1830_           $  458       $  458                            +$27
+18"          187⁄8"       36"         13⁄16"     RATW1836_           $  468       $  468                            +$27
+18"          187⁄8"       42"         13⁄16"     RATW1842_           $  527       $  527                            +$27
+231⁄8"      24"          30"         13⁄16"     RATW2430_           $  475       $  475                            +$27
+231⁄8"      24"          36"         13⁄16"     RATW2436_           $  488       $  488                            +$27
+d
+d
+d
+d
+d
+Wood Common Tops
+18"          187⁄8"       601⁄16"    13⁄16"     RATCW1860_        $  646       $  646                            +$45
+18"          187⁄8"       661⁄16"    13⁄16"     RATCW1866_        $  681       $  681                            +$45
+18"          187⁄8"       721⁄16"    13⁄16"     RATCW1872_        $  715       $  715                            +$45
+18"          187⁄8"       781⁄16"    13⁄16"     RATCW1878_        $  855        $  855                             +$45
+18"          187⁄8"       841⁄16"    13⁄16"     RATCW1884_        $  972        $  972                             +$65
+18"          187⁄8"       901⁄8"     13⁄16"     RATCW1890_        $1028        $1028                             +$65
+18"          187⁄8"       961⁄8"     13⁄16"     RATCW1896_        $1133        $1133                             +$65
+231⁄8"      24"          601⁄16"    13⁄16"     RATCW2460_        $  663        $  663                             +$45
+231⁄8"      24"          661⁄16"    13⁄16"     RATCW2466_        $  698        $  698                             +$65
+231⁄8"      24"          721⁄16"    13⁄16"     RATCW2472_        $  740        $  740                             +$65
+231⁄8"      24"          901⁄8"     13⁄16"     RATCW2490_        $1099        $1099                             +$65
+231⁄8"      24"          961⁄8"     13⁄16"     RATCW2496_        $1212        $1212                             +$65
+d
+d
+d
+d
+d
+cSpecification Information, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Storage
+Accessories
+February 2015

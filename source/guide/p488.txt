@@ -1,0 +1,28 @@
+488                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Controlled Receptacle Stickers
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 168
+• Stickers, quantity 40
+Style number
+   Speciﬁcation Information
+DStyle                           DU.S.
+dNumber                       dPrice
+d                                           d
+TS7CNTSTKR               $38
+  d                                           d
+Tip: When tying into the
+building management sys-
+tem, receptables must 
+still indicate that they are
+controlled.
+CONTROLLED
+CONTROLLED
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+February 2015

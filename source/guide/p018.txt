@@ -1,0 +1,95 @@
+Panels—Thin Trim
+Change-of-Height—Thin Trim
+18                                                                                                                                                                                                              Answer Solutions Specification Guide
+Change-of-height trim
+is available for base panels
+and stacking panels. It is
+used in in-line and corner
+applications.
+cSpecifying thin, pages 349-
+358.
+Note: Change-of-height trims
+are available in 12"H, 18"H,
+24"H, 30"H, and 36"H.
+Change-of-height (two
+different panel heights)
+L, T, X, V, and Y junc-
+tions are supported by style
+numbers in the following
+pages. Change-of-height
+(three different panel heights)
+T, X, and Y and change-of-
+height (four different panel
+heights) X junctions are not
+supported by style numbers
+and will need to be specified
+in the build your own section.
+cSee pages 28-43 for 
+understanding.
+cSee pages 349-358 for
+specifying.
+Note: Change-of-height
+junctions include the neces-
+sary change-of-height trim
+(including junction cap and
+aligners) for the change-of-
+height portion. See the fol-
+lowing pages for panel
+height change-of-height
+applications (two different
+panel heights) and what is
+included in each style 
+number.
+Change-of-height junc-
+tions are shipped assem-
+bled. L, V, and some T
+junctions are handed. A post
+may have to be moved dur-
+ing installation to achieve
+the proper "hand".
+Actual Dimensions
+Depth          3"  
+Height         125⁄32", 181⁄2", 241⁄2", 307⁄8", and 367⁄8"
+...............................................................................................................................................
+...............................................................................................................................................
+End-of-run change-of-
+height trim is used at
+end-of-run or in-line change-
+of-height. The top of the trim
+aligns with the top cap on
+the panel.
+An end-of-run aligner is
+included with the end-of-run
+change-of-height trim to pro-
+vide tight alignment between
+the top cap and the change-
+of-height trim. No junction
+cap is required.
+L corner change-of-
+height trim is used in a T
+or X change-of height appli-
+cation when there are two
+panels at the tallest height
+located adjacent to each
+other. No aligners are
+required to connect the L
+corner change-of-height trim
+to the junction cap.
+An L to T aligner should
+be specified when an L cor-
+ner change-of-height trim
+resides directly above a T
+trim in a change-of-height
+application. The L to T
+aligner creates a tight con-
+nection between the two trim
+pieces.
+T vertical trim is used
+to finish trimming out the
+base of the panel. Base
+panel trim is included
+when specifying the
+change-of-height junction.
+90° Planning Application
+90° Planning Application
+February 2015

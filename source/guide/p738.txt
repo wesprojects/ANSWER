@@ -1,0 +1,120 @@
+738                                                                                                                                                                                                  Answer Solutions Specification Guide
+TS71278DPW            465    Double-Pane Glass Win
+TS71278SCW            466    Sgl-Pane Glass Win Kit
+TS71278SFG             425    Frameless Glass Screen
+TS71278SPW            464    Sgl-Pane Glass Win
+TS71278TFG             387    Frameless Glass
+TS71278TFGR          385    Frameless Glass
+TS71284DPW            465    Double-Pane Glass Win
+TS71284SCW            466    Sgl-Pane Glass Win Kit
+TS71284SFG             425    Frameless Glass Screen
+TS71284SPW            464    Sgl-Pane Glass Win
+TS71284TFG             387    Frameless Glass
+TS71284TFGR          385    Frameless Glass
+TS71290DPW            465    Double-Pane Glass Win
+TS71290SCW            466    Sgl-Pane Glass Win Kit
+TS71290SFG             425    Frameless Glass Screen
+TS71290SPW            464    Sgl-Pane Glass Win
+TS71290TFG             387    Frameless Glass
+TS71290TFGR          385    Frameless Glass
+TS71296DPW            465    Double-Pane Glass Win
+TS71296SCW            466    Sgl-Pane Glass Win Kit
+TS71296SFG             425    Frameless Glass Screen
+TS71296SPW            464    Sgl-Pane Glass Win
+TS71296TFG             387    Frameless Glass
+TS71296TFGR          385    Frameless Glass
+TS712BPSFX             480    Base Power Infeed 
+TS712BPSFY             480    Base Power Infeed 
+TS712BPSFZ             480    Base Power Infeed
+TS712BPX                  480    Base Power Infeed
+TS712BPY                  480    Base Power Infeed
+TS712BPZ                  480    Base Power Infeed
+TS712CH                    417    Change-of-Hgt Trim
+TS712CHS                 417    Change-of-Hgt Trim
+TS712CHST               418    Stck Change-of-Hgt Trim
+TS712CHSTW           418    Stck Change-of-Hgt Trim
+TS712CHSW              417    Change-of-Hgt Trim
+TS712CHT                 418    Stck Change-of-Hgt Trim
+TS712CHTW              418    Stck Change-of-Hgt Trim
+TS712CHW                417    Change-of-Hgt Trim
+TS712EPJS                407    Stck EOR Pnl Jct
+TS712EPJSW            407    Stck EOR Pnl Jct
+TS712IPJS         362, 405    Stck In-Line Pnl Jct
+TS712LPJS                406    Stacking L Pnl Jct
+TS712LPJSW            406    Stacking L Pnl Jct
+TS712SCH                 416    Change-of-Hgt Trim
+TS712SCHS               416    Change-of-Hgt Trim
+TS712SCHSW           416    Change-of-Hgt Trim
+TS712SCHW              416    Change-of-Hgt Trim
+TS712T120CHT        372    120° Cor Chng-of-Hgt Trim
+TS712T120CHTW     372    120° Cor Chng-of-Hgt Trim
+TS712TCLCHT          371    L Cor Chng-of-Hgt Trim
+TS712TCLCHTW      371    L Cor Chng-of-Hgt Trim
+TS712TCTCHT          371    T Cor Chng-of-Hgt Trim
+TS712TCTCHTW      371    T Cor Chng-of-Hgt Trim
+TS712TEPJS             362    Stck EOR Pnl Jct
+TS712TICHT             370    EOR In-Line COH Trim
+TS712TICHTW          370    EOR In-Line COH Trim
+TS712TLPJS             363    Stacking L Pnl Jct
+TS712TPJS                406    Stacking T Pnl Jct
+TS712TPJSW            406    Stacking T Pnl Jct
+TS712TTPJS             363    Stacking T Pnl Jct
+TS712TVCHT            372    V Cnr Chng-of-Hgt Trim
+TS712TVCHTW         372    V Cnr Chng-of-Hgt Trim
+TS712TVPJS             363    Stacking V Pnl Jct
+TS712UPHX              483    Multipurpose Power Infeed
+TS712UPHXN            483    Multipurpose Power Infeed
+TS712UPHY              483    Multipurpose Power Infeed
+TS712UPHYN            483    Multipurpose Power Infeed
+TS712UPHZ               483    Multipurpose Power Infeed
+TS712UPHZN            483    Multipurpose Power Infeed
+TS712VPJS               408    Stacking V Pnl Jct
+TS712VPJSW            408    Stacking V Pnl Jct
+TS712WPJS       362, 409    Stacking Wall-Start Jct
+TS712XPJS       363, 406    Stacking X Pnl Jct
+TS712YPJS       363, 408    Stacking Y Pnl Jct
+TS714WSP                 546    Univ Support Plate
+TS71818HS               438    Steel Pnl Skin
+TS71818MB               441    Mkrbd Surf for Panel Buildups
+TS71818TA                434    F-Covered Pnl Skin
+TS71818TK               434    F-Covered Pnl Skin
+TS71824DPW            465    Double-Pane Glass Win
+TS71824HS               438    Steel Pnl Skin
+TS71824LS                444    Laminate Skin
+TS71824MB               441    Mkrbd Skin
+TS71824SBP             443    Slatwall Skin Brace Pkg
+TS71824SCW            466    Sgl-Pane Glass Win Kit
+TS71824SPW            464    Sgl-Pane Glass Win
+TS71824SW               443    Slatwall Skin
+TS71824TA                434    F-Covered Pnl Skin
+TS71824TB       468, 627    Tkbd for Use w/Wall Chan
+TS71824TFGR          385    Frameless Glass
+TS71824TK               434    F-Covered Pnl Skin
+TS71824TSMB          461    Mkrbd Tech Skin
+TS71824TSS             459    Steel Tech Skin
+TS71824TSSW          460    Slatwall Tech Skin
+TS71824WS               446    Wood Skin
+TS71830DPW            465    Double-Pane Glass Win
+TS71830HS               438    Steel Pnl Skin
+TS71830LS                444    Laminate Skin
+TS71830LTSMB        461    Mkrbd Tech Skin, LH Co
+TS71830LTSS           459    Steel Tech Skin, LH Co
+TS71830LTSSW        460    Slatwall Tech Skin, LH Co
+TS71830MB               441    Mkrbd Skin
+TS71830RTSMB       461    Mkrbd Tech Skin, RH Co
+TS71830RTSS          459    Steel Tech Skin, RH Co
+TS71830RTSSW       460    Slatwall Tech Skin, RH Co
+TS71830SBP             443    Slatwall Skin Brace Pkg
+TS71830SCW            466    Sgl-Pane Glass Win Kit
+TS71830SPW            464    Sgl-Pane Glass Win
+TS71830SW               443    Slatwall Skin
+TS71830TA                434    F-Covered Pnl Skin
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

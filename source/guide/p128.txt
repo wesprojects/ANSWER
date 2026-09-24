@@ -1,0 +1,80 @@
+8' max.
+66" max
+8' max.
+24" min.
+A
+12' max.
+66" max
+12' max.
+24" min.
+A
+128                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+One end of panel run must be supported by:
+- Panel that is minimum 24" wide.
+- Tower with tall storage-to-panel connector (24" or 30"D)
+Other end of panel run can be supported by:
+- Open loop leg
+- Closed loop leg
+- Pedestal with filler
+- End panel
+- 1.5H or 2H storage with storage-to-panel connector
+  • 18" or 24" deep cabinet in perpendicular application
+  • 24" deep cabinet in parallel application
+24" deep worksurfaces:
+- Can be completely supported by cantilever brackets or a combination 
+  of cantilever and side support brackets, pedestals, legs (post, open 
+  loop, closed loop), end panel support, and 1.5H storage with 
+  intermediate support.
+- When using cantilevers to support a 24" deep worksurface, minimum 
+  return panel width is 30". Panel width can be reduced to 24" to match 
+  the worksurface depth if side support brackets are applied.
+30" deep worksurfaces:
+- Straight and transition worksurfaces require additional floor support 
+  along the front edge at each end, such as side support brackets, 
+  pedestal, or post leg.
+'.
+One end of panel run must be supported by:
+- Panel that is minimum 24" wide.
+- Tower with tall storage-to-panel connector (24" or 30"D)
+Other end of panel run can be supported by:
+- Open loop leg
+- Closed loop leg
+- Pedestal with filler
+- End panel
+- 1.5H or 2H storage with storage-to-panel connector
+  • 18" or 24" deep cabinet in perpendicular application
+  • 24" deep cabinet in parallel application
+24" deep worksurfaces:
+- Can be completely supported by cantilever brackets or a combination 
+  of cantilever and side support brackets, pedestals, legs (post, open 
+  loop, closed loop), end panel support, and 1.5H storage with 
+  intermediate support.
+- When using cantilevers to support a 24" deep worksurface, minimum 
+  return panel width is 30". Panel width can be reduced to 24" to match 
+  the worksurface depth if side support brackets are applied.
+30" deep worksurfaces:
+- Straight and transition worksurfaces require additional floor support 
+  along the front edge at each end, such as side support brackets, 
+  pedestal, or post leg.
+Guidelines for Support Brackets—No Overheads:
+Guidelines for Support Brackets—Overheads:
+Shared Components
+Stability Guidelines, continued
+Tip: When using a tower with a storage-to-panel connector to
+support the panel run, counterweight is required for towers
+that need them, unless the panel run is equal to or greater
+than 5'.
+Tip: Overhead bin or shelf
+cannot span over or be
+positioned over tower.
+Tip: When using a tower
+with a storage-to-panel
+connector to support the
+panel run, counterweight is
+required for towers that
+need them, unless the
+panel is equal to or greater
+than 5'.
+February 2015

@@ -1,0 +1,62 @@
+702                                                                                                                                                                                                            Answer Solutions Specification Guide
+Transitional Answer Storage
+Answer Fixed Pedestals
+                                        
+Standard Includes                                      Required to Specify
+• Pedestal: paint price group 1
+• Oval pulls: plastic
+• Basic drawer interiors: black only
+—No drawer accessories
+• Lock, keyed random: 9201 Polished Chrome
+• Four adjustable leveling glides: black only
+1 Style number
+2 Paint color number for pedestal
+3 Plastic color number for oval pulls
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials                • Paint price group 2                     +$  42                                    Specify paint color number.
+                                     • Paint price group 3                     +$  71                                    Specify paint color number.
+  Full Drawer              24"D and 30"D box/box/file pedestals
+  Interiors                 • Include pencil tray and two         +$  49                                    Specify with full drawers.
+                                box drawer dividers
+  Drawer                       Rails
+  Accessories        • Two side-to-side hanging           No cost                                 Specify with rails.
+                                       file rails per file drawer
+  Lock and                Lock 
+  Keying                 • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                        Individual locking drawers
+                                     • File/file pedestals only                +$122                                  Specify with individual drawer lock.
+                                        Keying
+                                     • Factory- and field-installed keying                                        cPage 726
+  Related                • Storage accessories                                                              cPage 671
+  Products              • Universal pedestal counterweight for desks                          cPage 610
+These products fall into the established category, intended for customers with existing standards. Universal pedestals and lateral files
+are recommended for new customers.
+Specification Information
+DDimensions          DStyle              DU.S.
+dD     W      H         dNumber         dBase
+d                             d                      dPrice
+d                             d                      d
+Two Box and One File Drawer
+231⁄2"  15"      27"          TU720BBFL     $625
+291⁄2"  15"      27"          TU726BBFL     $811
+d                             d
+d
+Two File Drawers
+231⁄2"  15"      27"          TU720FFL        $659
+291⁄2"  15"      27"          TU726FFL        $790
+d                             d
+d
+Pedestal Fillers 
+1⁄2"      N.A.    27"         RPXFTAKPP      $  62
+d                             d
+d
+Tip: Pedestal fillers can be
+used to aesthetically close
+the 1⁄2" gap that may exist
+behind the pedestal or struc-
+turally connect the pedestal
+to the panel.
+February 2015

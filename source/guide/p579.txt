@@ -1,0 +1,67 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            579
+Universal Tables
+Universal Tables
+Oval Tables
+High-Pressure Laminate
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 234
+• Tables: High-Pressure Laminate
+• Laminate table: plastic 3 mm edge proﬁle 
+on all sides
+1 Style number 
+cSee edge proﬁles below.
+2 High-Pressure Laminate color number 
+for table
+3 Plastic color number for edge on
+laminate table
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price                      Required to Specify
+  Surface                  High-Pressure Laminate tables
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate            
+  Related                   • Bases for Universal Tables                                                      cPage 581
+  Products              • Legs for Universal Tables                                                      cPage 582
+Speciﬁcation Information
+                               U.S. Base Price
+                               High-Pressure Laminate
+                          
+       
+DDimensions DStyle          DPlastic      
+dA   B            dNumber      d3 mm        
+d                    d                   dEdge           
+d                        d                      d                     
+d
+d
+dNo Sufﬁx
+21"   42"             BEL2142     $  453          
+30"   42"             BEL3042     $  494          
+36"   48"             BEL3648     $  542          
+30"   60"             BEL3060     $  664          
+36"   72"             BEL3672     $  681          
+42"   78"             BEL4278       $1015
+48"   96"             BEL4896       $1217
+d                        d                      d                     
+Tip: Bases and legs to 
+support Universal Tables
+must be speciﬁed 
+separately.
+Tip: To specify 3 mm edge
+proﬁle, no sufﬁx is required. 
+Oval Tables
+A
+B
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+  Tip: For leg and support
+  guidelines, see 
+  Table and Base Combinations,
+  cPage 243
+  Table and Leg Combinations, 
+  cPage 244.
+February 2015

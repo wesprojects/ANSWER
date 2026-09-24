@@ -1,0 +1,86 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            389
+Panels—Thin Trim 
+Top Cap Mounted Storage – Top Caps and 
+Aligner Packages
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Top Cap Mounted Storage –
+Top Caps and Aligner
+Packages
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 62
+• Two top caps – thin trim: paint or wood
+• Aligner package:
+– Two end-of-run aligners
+– Two inline aligners
+– One recessed-to-recessed aligner
+1 Style number
+2 Paint or wood color number for top cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Top cap
+Materials                • Paint price group 1                     No cost                                 Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                     • Wood
+No cost                                 Select wood color number.
+                                  • Customiz stain on wood             +$14                                     Specify with Customiz stain.
+Specification Information
+DWidth      DStyle
+DU.S.
+d
+dNumber                   dBase
+d
+d                                dPrice
+d
+d                                      d
+Top Cap and Aligner Packages – Painted
+30"                TS730TTCR                 $  48
+36"                TS736TTCR                 $  53
+42"                TS742TTCR                 $  55
+48"                TS748TTCR                 $  57
+54"                TS754TTCR                 $  58
+60"                TS760TTCR                 $  59
+66"                TS766TTCR                 $  60
+72"                TS772TTCR                 $  66
+d
+d                                      d
+Top Cap and Aligner Packages – Wood
+30"                TS730TTCWR             $231
+36"                TS736TTCWR             $236
+42"                TS742TTCWR             $238
+48"                TS748TTCWR             $240
+54"                TS754TTCWR             $241
+60"                TS760TTCWR             $242
+66"                TS766TTCWR             $243
+72"                TS772TTCWR             $249
+d
+d                                      d
+Tip: Top caps should be
+specified to match the width
+of the storage unit that is
+being top cap mounted.
+They do not necessarily
+match the width of the panel.
+Tip: When top cap mounted
+storage units are on module
+with the panel, standard top
+caps from the horizontal
+frame package can be omit-
+ted. If the top cap mounted
+storage is being mounted
+off-module, standard top
+caps should NOT be omitted
+from the horiztonal frame
+package.
+Tip: Mounting brackets and
+storage to complete the
+solution are specified sepa-
+rately.
+Panels—Thin Trim
+February 2015

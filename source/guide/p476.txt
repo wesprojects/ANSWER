@@ -1,0 +1,71 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+476                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Pass-Through Powerkits
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 162
+• Powerkit to accommodate modular receptacles
+on both sides: black plastic
+• Supporting powertray: black paint
+• Harness with modular connectors
+Style number
+Speciﬁcation Information
+               Pass-Through Powerkits                                                   Non-PVC Pass-Through Powerkits
+DWidth   DNumber of Duplex     DStyle               DU.S.                     DStyle                     DU.S.            
+d             dReceptacles              dNumber           dPrice
+dNumber                 dPrice
+d
+dPer Side
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+4-Circuit, 3+1 Wiring Schematic
+18"             0                                         TS7PT18X     $158                           TS7PT18XN       $168
+24"             0                                         TS7PT24X        $158                           TS7PT24XN       $168
+30"             0                                         TS7PT30X        $158                           TS7PT30XN       $168
+36"             0                                         TS7PT36X        $158                           TS7PT36XN       $168
+42"             0                                         TS7PT42X        $158                           TS7PT42XN       $168
+48"             0                                         TS7PT48X        $158                           TS7PT48XN       $168
+60"             0                                         TS7PT60X        $176                           TS7PT60XN       $188
+72"             0                                         TS7PT72X        $176                           TS7PT72XN       $188
+  d               d                                         d                            d
+d
+d
+4-Circuit, 2+2 Wiring Schematic
+18"             0                                         TS7PT18Y         $158                           TS7PT18YN       $168
+24"             0                                         TS7PT24Y        $158                           TS7PT24YN       $168
+30"             0                                         TS7PT30Y        $158                           TS7PT30YN       $168
+36"             0                                         TS7PT36Y        $158                           TS7PT36YN       $168
+42"             0                                         TS7PT42Y        $158                           TS7PT42YN       $168
+48"             0                                         TS7PT48Y        $158                           TS7PT48YN       $168
+60"             0                                         TS7PT60Y        $176                           TS7PT60YN       $188
+72"             0                                         TS7PT72Y        $176                           TS7PT72YN       $188
+  d               d                                         d                            d
+d
+d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+18"             0                                         TS7PT18Z     $158                           TS7PT18ZN       $168
+24"             0                                         TS7PT24Z        $158                           TS7PT24ZN       $168
+30"             0                                         TS7PT30Z        $158                           TS7PT30ZN       $168
+36"             0                                         TS7PT36Z        $158                           TS7PT36ZN       $168
+42"             0                                         TS7PT42Z        $158                           TS7PT42ZN       $168
+48"             0                                         TS7PT48Z        $158                           TS7PT48ZN       $168
+60"             0                                         TS7PT60Z        $176                           TS7PT60ZN       $188
+72"             0                                         TS7PT72Z        $176                           TS7PT72ZN       $188
+  d               d                                         d                            d
+d
+d
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+February 2015

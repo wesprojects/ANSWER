@@ -1,0 +1,20 @@
+Shared Components
+Answer Solutions Specification Guide                                                                                                                                          cStability Guidelines, continued  131
+Guidelines for “X” Configurations
+Panels without Components
+For additional stability or longer runs, apply a junction 
+stabilizer bracket every 8' bolted to a concrete floor.
+Panels with Components
+                                                    
+If panel is 6' or less, no center support is needed.                                        Center support panel is needed every 6'. Cantilevers can be used to 
+                                                                                                                                       tie spanner in. Maximum 8' of shelves or bins per panel run.
+8'
+6'
+4'
+6'
+12' max.
+Stability Guidelines
+Shared Components
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

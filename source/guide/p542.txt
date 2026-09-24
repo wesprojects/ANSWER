@@ -1,0 +1,38 @@
+Universal Systems Worksurfaces
+Personal Caddy
+542                                                                                                                                                                                                   Answer Solutions Specification Guide
+Tips: Remember to specify
+cutout for personal caddy
+on the worksurface style
+number. 
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 210
+• Caddy: plastic
+• Pad: 6615 Grey V5 plastic
+• Brace: black
+1 Style number
+2 Plastic color for caddy:
+6009 Arctic White
+6249 Platinum Solid
+6695 Midnight
+3 Options, if selected (see below)
+Options                       U.S. Price               Required to Specify
+Bracing                  • Brace for 54"W and 60"W         No cost                                Specify with brace for 54"W and 60"W
+                                   worksurface                                                                           worksurface.
+                                 • Brace for 66"W and 72"W         No cost                                Specify with brace for 66"W and 72"W
+                                   worksurface                                                                           worksurface.
+Specification Information
+DStyle
+DU.S.
+dNumber              dPrice
+d                               d
+UPC                          $611
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

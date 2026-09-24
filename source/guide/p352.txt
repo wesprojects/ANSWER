@@ -1,0 +1,295 @@
+352                                                                                                                                                                                                            Answer Solutions Specification Guide
+Specification Information
+DCorresponding   DStyle              DU.S.      DOption              DStyle                   DU.S.      DOption
+dPanel
+dNumber         dBase    d(Add $ to               dNumber              dBase    d(Add $ to
+dHeight
+d
+dPrice     dBase Price)           d
+dPrice     dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+C
+d
+d               d                              d
+d               d
+d
+d
+d               dOmit Trim
+d
+d               dOmit Trim
+Painted Trim
+Wood Trim
+42"
+30"
+42"
+TS7434TCTJ
+$258
+–$132
+TS7434TCTJW
+$707
+–$554
+48"
+30"
+48"
+TS7838TCTJ
+$258
+–$132
+TS7838TCTJW
+$707
+–$554
+54"
+30"
+54"
+TS7535TCTJ
+$278
+–$132
+TS7535TCTJW
+$716
+–$554
+66"
+30"
+66"
+TS7636TCTJ
+$309
+–$135
+TS7636TCTJW
+$724
+–$557
+54"
+42"
+54"
+TS7545TCTJ
+$278
+–$132
+TS7545TCTJW
+$716
+–$554
+66"
+42"
+66"
+TS7646TCTJ
+$309
+–$132
+TS7646TCTJW
+$724
+–$554
+78"
+42"
+78"
+TS7747TCTJ
+$370
+–$135
+TS7747TCTJW
+$781
+–$557
+66"
+48"
+66"
+TS7686TCTJ
+$309
+–$132
+TS7686TCTJW
+$724
+–$554
+78"
+48"
+78"
+TS7787TCTJ
+$370
+–$135
+TS7787TCTJW
+$781
+–$557
+66"
+54"
+66"
+TS7656TCTJ
+$309
+–$132
+TS7656TCTJW
+$724
+–$554
+78"
+54"
+78"
+TS7757TCTJ
+$370
+–$132
+TS7757TCTJW
+$781
+–$554
+78"
+66"
+78"
+TS7767TCTJ
+$370
+–$132
+TS7767TCTJW
+$781
+–$554
+d
+d
+d               d
+d
+d               d
+Painted Trim
+Wood Trim
+30"
+30"
+42"
+TS7334TCTJ
+$258
+–$132
+TS7334TCTJW
+$707
+–$554
+30"
+30"
+48"
+TS7338TCTJ
+$258
+–$132
+TS7338TCTJW
+$707
+–$554
+30"
+30"
+54"
+TS7335TCTJ
+$278
+–$132
+TS7335TCTJW
+$716
+–$554
+30"
+30"
+66"
+TS7336TCTJ
+$309
+–$135
+TS7336TCTJW
+$724
+–$557
+42"
+42"
+54"
+TS7445TCTJ
+$278
+–$132
+TS7445TCTJW
+$716
+–$554
+42"
+42"
+66"
+TS7446TCTJ
+$309
+–$132
+TS7446TCTJW
+$724
+–$554
+42"
+42"
+78"
+TS7447TCTJ
+$370
+–$135
+TS7447TCTJW
+$781
+–$557
+48"
+48"
+66"
+TS7886TCTJ
+$309
+–$132
+TS7886TCTJW
+$724
+–$554
+48"
+48"
+78"
+TS7887TCTJ
+$370
+–$135
+TS7887TCTJW
+$781
+–$557
+54"
+54"
+66"
+TS7556TCTJ
+$309
+–$132
+TS7556TCTJW
+$724
+–$554
+54"
+54"
+78"
+TS7557TCTJ
+$370
+–$132
+TS7557TCTJW
+$781
+–$554
+66"
+66"
+78"
+TS7667TCTJ
+$370
+–$132
+TS7667TCTJW
+$781
+–$554
+d
+d
+d               d
+d
+d               d
+cSpecification Information, continued on next page
+Panels—Thin Trim 
+T Change-of-Height Junctions—Thin Trim, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Junction includes:
+• T change-of-height 
+  junction
+• Inside corner light seals
+• T vertical trim
+• T change-of-height trim
+• 90° junction cap
+• Aligners
+A
+B
+C
+cSpecification Information, continued from previous page
+Tip: Junction includes:
+• T change-of-height 
+  junction
+• Inside corner light seals
+• T vertical trim
+• End-of-run change-of-
+  height trim
+• Change-of-height junction 
+  cap
+• Aligners
+Tip: When A and C are dif-
+ferent heights, the junction is
+shipped right-handed. For a
+left-handed junction a post
+will need to be moved during
+installation.
+A
+B
+C
+February 2015

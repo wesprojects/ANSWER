@@ -1,0 +1,72 @@
+676                                                                                                                                                                                                            Answer Solutions Specification Guide
+Counterweight Packages
+For Use with Universal Towers
+Standard Includes                                      Required to Specify
+• Counterweight: black only
+• Attachment hardware
+Style number
+Specification Information
+DPackage
+DStyle          DU.S.
+dName             dNumber      dPrice
+d
+d                      d
+Tower package 1   RAACT1      $  98
+Tower package 2   RAACT2        $122
+d
+d
+d
+Anchor Bracket Package
+Standard Includes                                      Required to Specify
+• Two-piece anchor bracket and attachment hardware
+Style number
+Specification Information
+DStyle              DU.S.
+dNumber         dPrice
+d                           d
+RAANBRK          $33
+d
+d
+Tip: Four anchor bracket
+packages are required for
+each cabinet.
+cNeed help?
+See Storage
+Specification Guide.
+cNeed help?
+See Storage
+Specification Guide.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Counterweight Packages
+For Use with Universal 2H, 3H, 4H, and 5H Lateral Files
+Standard Includes                                      Required to Specify
+• Counterweight: black only
+• Attachment hardware
+Style number
+Specification Information
+DPackage 
+DStyle                    DU.S.                   DPackage 
+DStyle                 DU.S.
+dNumber              dNumber               dPrice                 dNumber              dNumber             dPrice
+d                              d
+d
+d                           d
+d
+Package 1                   RAACW1               $  84                        Package 5                  RAACW5             $176
+Package 2                   RAACW2               $  94                        Package 6                  RAACW6             $176
+Package 3                   RAACW3               $106                        Package 7                  RAACW7               $168
+Package 4                   RAACW4               $139                        Package 8                  RAACW8               $211
+d                             d
+d
+d
+d
+d
+cNeed help?
+See Storage
+Specification Guide.
+Storage Tops, Shelves, and Accessories
+Storage Accessories, continued
+February 2015

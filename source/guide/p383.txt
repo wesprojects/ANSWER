@@ -1,0 +1,112 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            383
+Panels—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 51
+• Top cap: paint or wood
+1 Style number
+2 Paint or wood color number for top cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                   • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+Materials
+Change-of-           • Change-of-height at one             +$6                                       Specify with change-of-height, one end.
+Height                   end of top cap
+Top Cap               • Change-of-height at both            +$6                                       Specify with change-of-height, both ends.
+                                      ends of top cap                           
+Specification Information
+DWidth      DStyle              DU.S.                                   DStyle              DU.S.
+d
+dNumber         dBase                                 dNumber         dBase
+d
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+Painted Top Cap
+Wood Top Cap
+36"
+TS736TTC
+$19
+TS736TTCW
+$202
+42"
+TS742TTC
+$23
+TS742TTCW
+$206
+48"
+TS748TTC
+$28
+TS748TTCW
+$211
+54"
+TS754TTC
+$31
+TS754TTCW
+$275
+60"
+TS760TTC
+$33
+TS760TTCW
+$277
+66"
+TS766TTC
+$36
+TS766TTCW
+$280
+72"
+TS772TTC
+$38
+TS772TTCW
+$282
+78"
+TS778TTC
+$46
+TS778TTCW
+$290
+84"
+TS784TTC
+$55
+TS784TTCW
+$299
+90"
+TS790TTC
+$62
+TS790TTCW
+$306
+96"
+TS796TTC
+$70
+TS796TTCW
+$314
+d
+d
+d
+d
+d
+Panels—Thin Trim 
+Spanning Top Caps—Thin Trim
+For Panel Buildups
+Tip: In-line spanning top cap
+lightseals should be speci-
+fied for each in-line joint top
+cap it is spanning across.
+cSee page 467.
+Tip: Spanning top caps can
+also be used on individual
+panels.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Spanning Top Caps—Thin
+Trim
+February 2015

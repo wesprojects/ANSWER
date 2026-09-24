@@ -1,0 +1,73 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            439
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+                            Options                       U.S. Price               Required to Specify
+  Surface                                                                          24"H      36"H
+  Materials                                                                      to 30"H
+                                     • Paint price group 1                     No cost     No cost              Specify paint color number.
+                              • Paint price group 2                     +$22         +$45                    Specify paint color number.
+                                     • Paint price group 3                     +$38         +$75                    Specify paint color number.
+Specification Information
+24"H                                        30"H                                        36"H
+                     
+                                               
+                                               
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle            DU.S.
+d               dNumber              dBase         dNumber              dBase         dNumber              dBase
+d               d                           dPrice         d                           dPrice         d                           dPrice
+d               d                           d
+d
+d                 d                           d
+18"                TS72418HSF       $100               TS73018HSF       $119               TS73618HSF       $140
+24"                TS72424HSF       $105               TS73024HSF       $129               TS73624HSF     $154
+30"                TS72430HSF       $115               TS73030HSF       $140               TS73630HSF     $165
+36"                TS72436HSF       $122               TS73036HSF       $149               TS73636HSF     $177
+42"                TS72442HSF       $129               TS73042HSF       $158               TS73642HSF     $188
+48"                TS72448HSF       $137               TS73048HSF       $172               TS73648HSF     $207
+60"                TS72460HSF       $157               TS73060HSF       $192               TS73660HSF     $226
+72"                TS72472HSF       $173               TS73072HSF       $213               TS73672HSF     $254
+d               d                           d
+d
+d                 d                           d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 108
+• Steel panel skin:  paint price group 1
+1 Style number
+2 Paint color number for skin surface
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Remember to omit base
+trim(s) on horizontal frame
+package when using a skin
+to the ﬂoor. 
+Tip: Steel skins cannot
+accommodate power recep-
+tacles or communication out-
+lets. Use a fabric skin for
+power access.
+Tip: 30"H skins only work on
+junctions manufactured on
+or after October 10, 2011.
+Tip: When specifying skins,
+the total skin height will be
+6" less than the panel
+height. When ordering skins
+to the floor an F suffix will be
+added to the end of the style
+number for the skin in the
+lowest position on the panel.
+The total skin height will still
+be 6" less than the panel
+height. 
+cSee Panel Buildups, page 
+12, for more information.
+Shared Components and Wiring and Cabling
+Steel To The Floor Skins
+For Panel Buildups
+Steel To The Floor Skins
+February 2015

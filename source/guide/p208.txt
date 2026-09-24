@@ -1,0 +1,180 @@
+208                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Universal Systems Worksurfaces, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+3 mm edge visitor
+worksurfaces must be
+supported by either a can-
+tilever and a center support
+panel, or by a cantilever, a
+side support bracket, and a
+leg.
+In P-edge profile work-
+surface applications, a
+side support bracket, a 
+cantilever, and a leg must be
+used for support. A center
+support panel should not be
+used because the unfinished
+top edge of the support
+panel would be exposed.
+Connections
+Worksurfaces can be
+used freestanding or in panel-
+supported installations.
+Supports are ordered
+separately and installed in
+the field.
+For panel-supported
+applications you can use:
+• Closed loop
+• Open loop
+• Half loop
+• Intermediate support
+• Off-module worksurface-
+  to-panel connector
+• Side support brackets
+• Cantilever with tie plate
+• End panel
+• Standing-height end panel
+• Support plate
+• Center support panel with
+tie plate
+• Standing-height center 
+  support panel with tie plate
+• Columns or legs
+cSee page 180 for
+Panel-Mounted Universal
+Systems Worksurface
+Supports.
+• Universal pedestal with
+  filler
+• Universal lateral file with 
+  underworksurface lateral 
+  file filler.
+cSee Storage Specification
+Guide.
+Tip: Selected worksurfaces
+with P-edge profile include
+alignment slots to accept
+cabby legs for column 
+support:
+• Use two legs for panel-
+  mounted spanner, bullet 
+  peninsula, linking 
+  peninsula, jetty, and 
+  bubble jetty worksurfaces.
+• Use one leg for visitor and 
+  linking worksurfaces.
+For Answer
+Freestanding desk
+applications you can use:
+• End supports
+• Peninsula supports
+• Corner support
+• Columns and legs
+• Closed loop or open loop
+• Modesty panels
+• Pedestals
+• Lateral files and 
+  storage cabinets
+cSee Answer Freestanding
+Specification Guide.
+Tip: Peninsula support is not
+compatible with P-edge bul-
+let peninsula, jetty, or bubble
+jetty worksurfaces. Legs or
+other alternate supports are
+recommended.
+For leg-based applica-
+tions you can use:
+• Closed loop
+• Open loop
+• Intermediate support
+• Post legs
+• Double post leg
+• Double post C-leg
+• Support plate
+cSee page 224 for Legs
+and Columns for Universal
+Systems Worksurfaces.
+Tip: Pedestal can also
+be used in leg-based free-
+standing installations.
+Intermediate supports
+replace the need for other
+types of worksurface support
+when used with 1-High or
+1.5-High Universal storage.
+Long worksurface
+spans must be supported
+with cantilevers, pedestals,
+legs, or other supports at
+least every 54". Reinforcing
+channel (TS7WKSPT)
+allows the distance between
+supports to be increased to
+60" for worksurfaces that will
+be heavily loaded, or up to
+72" for worksurfaces with
+lighter expected loads.
+Reinforcing channel must be
+specified separately.
+cPage 546
+Knife edge worksur-
+faces require reinforcement
+channels for unsupported
+spans greater than 48". Use
+TS7WKSPT39 for 54"W
+worksurfaces, TS7WKSPT
+for 60"W and 66"W worksur-
+faces, and TS7WKSPT72 for
+72" worksurfaces.
+Soft edge worksur-
+faces and power and
+data access door and
+tray worksurfaces
+require reinforcement 
+channel or other support on
+worksurfaces 60" or larger.
+Wiring & Cabling
+Worksurface depth is
+1⁄2" less than nominal and
+allows cords and cables to
+pass over at any point. Cable
+scallops provide space for
+plugs to pass over the back
+edge of the worksurface.
+Cable scallop allows
+cord plugs to easily pass
+below the worksurface.
+Worksurface wire managers
+are available to convert
+cable scallops into grommets
+in freestanding applications.
+Wire managers are included
+with wood veneer worksur-
+faces. Wire managers for
+use with laminate worksur-
+face must be ordered 
+separately.
+Corner worksurfaces
+have scallops located 121⁄2"
+from the rear corner of the
+worksurface to the center of
+the scallop. Taper-flat work-
+surfaces have a single scal-
+lop located 181⁄2" from the
+larger end. Scallops are cen-
+tered on the rear edge of all
+other worksurfaces that
+include them.
+121/2"
+121/2"
+1/2"
+February 2015

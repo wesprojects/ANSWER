@@ -1,0 +1,55 @@
+Answer Solutions Specification Guide                                                                                       cAccessories for Overhead Bins and Shelves, continued  627
+Universal Storage
+Universal Storage 
+Accessories for Overhead
+Bins and Shelves
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+                            Options                       U.S. Price               Required to Specify
+  Surface                   • Fabric price group 1                   No cost                                 Specify fabric color number.
+  Materials                • Fabric price group 2                   +$14                                     Specify fabric color number.
+                                     • Fabric price group 3                   +$25                                     Specify fabric color number.
+                                     • Fabric price group 4                   +$37                                     Specify fabric color number.
+                                     • Fabric price group 5                   +$58                                     Specify fabric color number.
+                                     • Fabric price group COM             +$35                                     Specify fabric color number.
+                                 Fabric direction on 24"W to 60"W tackboards
+                               • Vertical application                     No cost                                 Specify with vertical application.
+  Related                • Wall channels for Universal                                                   cPage 626
+  Products                bins and shelves
+   Speciﬁcation Information
+DDimensions      DStyle                   DU.S.
+dW       H
+dNumber              dBase
+d
+d
+dPrice
+d
+d
+d
+24"         18"             TS71824TB         $122
+30"         18"             TS71830TB         $136
+36"         18"             TS71836TB         $148
+42"         18"             TS71842TB         $163
+48"         18"             TS71848TB         $180
+60"         18"             TS71860TB         $230
+72"         18"             TS71872TB         $283
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+• Tackboard, fabric direction with horizontal application:
+fabric price group 1
+1 Style number
+2 Fabric color number
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: 72"W tackboards
+accommodate fabric in the
+horizontal direction only.
+Tip: For further information
+about fabric direction,
+cPage 713.
+Tackboards for Use with Wall Channels
+February 2015

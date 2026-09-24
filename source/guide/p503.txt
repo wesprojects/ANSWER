@@ -1,0 +1,41 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            503
+TS Series
+Worksurfaces
+   Speciﬁcation Information
+DDimensions        DStyle               DU.S.
+d                           dNumber           dBase
+d                           d                       dPrice
+d                           d                       d
+Cantilever with Tie Plate
+16"D         13"H          TSATCANT        $  89         
+  d                                d                            d
+Side Support Brackets to Connect Worksurface to Panel
+                                   TSATSIDE        $  36         
+  d                                d                            d
+In-Line Support Plates
+14"D                            TSATPL14        $  65         
+20"D                            TSATPL20        $  65         
+  d                                d                            d
+Package of Six Tie Plates for Side-by-Side Worksurfaces
+7"L                       TSATTIE          $  94         
+d                                d                            d
+Reinforcing Channels
+39"W                           TSATRC39       $  45
+48"W                           TSATRC48       $  48
+57"W                           TSATRC57       $  48         
+72"W                           TSATRC72       $110         
+  d                                d                            d
+cSpeciﬁcation Information, continued from previous page
+Tip: Cantilever with tie plate
+is for use with left-hand,
+right-hand, or shared 
+application.
+TS Series Worksurfaces 
+                                                                                                                     
+TS Series Worksurface 
+Legs and Supports
+February 2015

@@ -1,0 +1,86 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            469
+Sliding Panel Doors
+Shared Components
+Shared Components and Wiring and Cabling
+Sliding Panel Doors                                                                                     
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials                • Paint price group 2                     +$  11                                    Specify paint color number.
+  Door Hand             • Left-hand sliding door                 No cost                                 Specify with left-hand door.
+                                     • Right-hand sliding door              No cost                                 Specify with right-hand door.
+                                       Door panel
+                                     • 6500 Clear tempered glass        +$246                                   Specify with 6500 Clear glass.
+                                     • 6541 White laminated glass       +$383                                   Specify with 6541 White laminated glass.
+  Door Lock              • Lock                                            +$284                                   Specify with lock.
+                                                                                                                                         cSee Lock and Keying, page 724 – 725
+Speciﬁcation Information
+DDimensions          DStyle                   DU.S.
+dD       W       H       dNumber              dBase
+d
+                    d                           dPrice
+d
+                    d                           d
+11⁄4"      36"       66"       TSAPDSA6636     $2029
+11⁄4"      42"       66"       TSAPDSA6642     $2150
+11⁄4"      36"       78"       TSAPDSA7836     $2210
+11⁄4"      42"       78"       TSAPDSA7842     $2328
+d
+d
+d
+Tip: The sliding door is
+located outside of the panel
+system when installed in the
+standard position. 
+Tip: The standard door is
+handed and non-locking.
+When a lock option is speci-
+ﬁed, the lock will be on the
+trail end of the door. The illus-
+tation above shows a left-
+handed sliding door. If a lock
+option is speciﬁed, the lock
+will be on the right (trail) side
+of the door.
+Tip: Width of host panel
+should always be equal to 
+the width of sliding door. 
+Tip: Height of host and
+receiving panels must match
+height of door.
+Tip: Remember to specify
+lock cylinder and key.
+cLock Cylinders, page 726.   
+Tip: When attaching the slid-
+ing door to an Answer panel,
+a junction stabilizer bracket is
+available for added rigidity to
+the host panel. If a host
+and/or receiving panel run
+exceeds 4', a junction stabi-
+lizer bracket must be applied
+to the door end of the host
+and/or receiving panel run.
+On long runs, apply a junc-
+tion stabilizer bracket or per-
+pendicular panel every 8'.
+cPage 403
+20%
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 120
+• Panel door frame and door track: paint price group 1
+• Panel door inﬁll: 6625 Translucent plastic
+• Floor track
+• Attachment bracket 
+1 Style number
+2 Paint color number for panel door frame,
+door track, ﬂoor track, and attachment
+bracket
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

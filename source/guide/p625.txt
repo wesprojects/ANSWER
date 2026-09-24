@@ -1,0 +1,42 @@
+Universal Storage 
+Answer Solutions Specification Guide                                                                                       cAccessories for Overhead Bins and Shelves, continued  625
+Universal Storage
+Accessories for Overhead
+Bins and Shelves
+Standard Overhead Upmount Packages
+For Use on Answer Panels
+For Use with Universal Sliding Door, Universal Over the Case, and Universal In the Case Bins
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 280
+• Pair of steel upmount brackets: paint price group 1
+• Steel back to enclose storage bin
+Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                     No cost                                Specify paint color number.
+  Materials             • Paint price group 2                     +$14                                    Specify paint color number.
+                                     • Paint price group 3                     +$23                                    Specify paint color number.
+Specification Information
+DWidth               DStyle                   DU.S.
+d                         dNumber              dBase
+d                         d                           dPrice
+d                         d                           d
+24"                           RUK24TAK            $167                    
+30"                           RUK30TAK            $167                    
+36"                           RUK36TAK            $167                    
+42"                           RUK42TAK            $167
+48"                           RUK48TAK            $167
+60"                           RUK60TAK            $167
+72"                           RUK72TAK            $167
+d
+d
+d
+1 Style number
+2 Paint color number for brackets and back
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

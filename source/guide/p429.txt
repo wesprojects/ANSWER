@@ -1,0 +1,232 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            429
+Panels—Square and Oval Trim
+                                                                                                                                                                                                                                                             
+Panel Packages— 
+Square Trim
+                            Options                       U.S. Price               Required to Specify
+  Cable Tray             • Cable tray                                   No cost                                 Specify with cable tray.
+  Base Cable Tray • Base cable tray                           +$    5                                   Specify with base cable tray.
+  Power with          • One pass-through power            +$158                                   Specify with one pass-through harness
+  3+1, 2+2, or           harness 18"W to 48"W                                                             and indicate wiring schematic type
+  three separate                                                                                                        (3+1, 2+2, or 3SN).
+  neutrals (3SN)     • One pass-through power            +$176                                   Specify with one pass-through harness
+  wiring                        harness 60"W or 72"W                                                             and indicate wiring schematic type 
+  schematics                                                                                                                (3+1, 2+2, or 3SN).
+                               • One powerkit 24"W to 48"W       +$196                                   Specify with one powerkit and indicate
+                                                                                                                                          wiring schematic type (3+1, 2+2, or 3SN).
+                                     • One powerkit 60"W or 72"W       +$297                                   Specify with one powerkit and indicate
+                                                                                                                                          wiring schematic type (3+1, 2+2, or 3SN).
+cOptions, continued from previous page
+Specification Information
+  
+42"H
+48"H                                        54"H                                        66"H
+                 
+                                              
+                                              
+                                              
+DWidth  DStyle               DU.S.              DStyle               DU.S.              DStyle                 DU.S.            DStyle                 DU.S.
+d           dNumber           dBase             dNumber           dBase             dNumber             dBase          dNumber             dBase
+d
+d
+dPrice
+d
+dPrice
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Full Skin Tackable Acoustical Panel Packages
+18"
+TS74218STF
+$366
+TS74818STF
+$372
+TS75418STF
+$380
+TS76618STF
+$446
+24"
+TS74224STF
+$392
+TS74824STF
+$396
+TS75424STF
+$404
+TS76624STF
+$474
+30"
+TS74230STF
+$421
+TS74830STF
+$427
+TS75430STF
+$435
+TS76630STF
+$501
+36"
+TS74236STF
+$450
+TS74836STF
+$458
+TS75436STF
+$468
+TS76636STF
+$528
+42"
+TS74242STF
+$499
+TS74842STF
+$503
+TS75442STF
+$513
+TS76642STF
+$577
+48"
+TS74248STF
+$565
+TS74848STF
+$573
+TS75448STF
+$587
+TS76648STF
+$647
+60"
+TS74260STF
+$667
+TS74860STF
+$675
+TS75460STF
+$689
+TS76660STF
+$747
+72"
+TS74272STF
+$776
+TS74872STF
+$786
+TS75472STF
+$802
+TS76672STF
+$854
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Full Skin Performance Tackable Acoustical Panel Packages
+18"
+TS74218SPF
+$394
+TS74818SPF
+$404
+TS75418SPF
+$412
+TS76618SPF
+$484
+24"
+TS74224SPF
+$424
+TS74824SPF
+$434
+TS75424SPF
+$442
+TS76624SPF
+$508
+30"
+TS74230SPF
+$457
+TS74830SPF
+$465
+TS75430SPF
+$475
+TS76630SPF
+$539
+36"
+TS74236SPF
+$488
+TS74836SPF
+$496
+TS75436SPF
+$504
+TS76636SPF
+$570
+42"
+TS74242SPF
+$533
+TS74842SPF
+$543
+TS75442SPF
+$551
+TS76642SPF
+$623
+48"
+TS74248SPF
+$611
+TS74848SPF
+$623
+TS75448SPF
+$635
+TS76648SPF
+$705
+60"
+TS74260SPF
+$719
+TS74860SPF
+$731
+TS75460SPF
+$745
+TS76660SPF
+$807
+72"
+TS74272SPF
+$836
+TS74872SPF
+$848
+TS75472SPF
+$858
+TS76672SPF
+$922
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Panels—Square and
+Oval Trim
+February 2015

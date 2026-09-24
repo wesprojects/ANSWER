@@ -1,0 +1,121 @@
+Answer Solutions Specification Guide                                                                                                                                 cStyle Number Index, continued  749
+Style Number Index
+Resources
+TS74860TAF             437    F-Covered To The Flr Skin
+TS74860TF                431    Tack Acst Pnl Pkg
+TS74860TK               435    F-Covered Pnl Skin
+TS74860TKF             437    F-Covered To The Flr Skin
+TS74860TPF             391    Perf Tack Acst Pnl Pkg
+TS74860TTF             391    Tack Acst Pnl Pkg
+TS74872PF                431    Perf Tack Acst Pnl Pkg
+TS74872SPF             429    Perf Tack Acst Pnl Pkg
+TS74872STF             429    Tack Acst Pnl Pkg
+TS74872TA                435    F-Covered Pnl Skin
+TS74872TAF             437    F-Covered To The Flr Skin
+TS74872TF                431    Tack Acst Pnl Pkg
+TS74872TK               435    F-Covered Pnl Skin
+TS74872TKF             437    F-Covered To The Flr Skin
+TS74872TPF             391    Perf Tack Acst Pnl Pkg
+TS74872TTF             391    Tack Acst Pnl Pkg
+TS748BKT         361, 404    Off-Module Pnl Connector
+TS748BT                    392    Base Trim
+TS748BTH                 470    Hardwire Base Trim
+TS748CT                    474    Cable Tray
+TS748EPJ                  399    EOR Base Pnl Jct
+TS748EPJW              399    EOR Base Pnl Jct
+TS748ERUP               411    EOR Jct w/Util Pole
+TS748HB                    626    Horiz Brace
+TS748HF                    422    Base Horiz Frame Pkg
+TS748HFS         382, 423    Stacking Horiz Frame Pkg
+TS748IPJ                   395    In-Line Base Pnl Jct
+TS748JP                    373    Jct Post
+TS748LPJ                  397    L Base Pnl Jct
+TS748LPJW               397    L Base Pnl Jct
+TS748LUP                  411    L/In-Line Jct w/Util Pole
+TS748OBK                 392    Open Base Conversion Kit
+TS748SEPJ               398    EOR Base Pnl Jct
+TS748SEPJW            398    EOR Base Pnl Jct
+TS748SERUP            410    EOR Jct w/Util Pole
+TS748SHF                  421    Base Horiz Frame Pkg
+TS748SIPJ                394    In-Line Base Pnl Jct
+TS748SLPJ                396    L Base Pnl Jct
+TS748SLPJW            396    L Base Pnl Jct
+TS748SLUP               410    L/In-Line Jct w/Util Pole
+TS748SSUC               412    Clg-Access Lay-In Util Pkg
+TS748SSUF               414    Flr-Access Lay-In Util Pkg
+TS748STC                  424    Spanning Top Cap
+TS748STCW              424    Spanning Top Cap
+TS748STPJ               396    T Base Pnl Jct
+TS748STPJW            396    T Base Pnl Jct
+TS748STUP               410    T Jct w/Util Pole
+TS748SUC                 413    Clg-Access Lay-In Util Pkg
+TS748SUF                  415    Flr-Access Lay-In Util Pkg
+TS748SVPJ               400    V Base Pnl Jct
+TS748SXPJ               396    X Base Pnl Jct
+TS748SXPJW            396    X Base Pnl Jct
+TS748SYPJ               400    V Base Pnl Jct
+TS748SYPJW            400    Y Base Pnl Jct
+TS748TEPJ               347    EOR Base Pnl Jct
+TS748TEPJW            347    EOR Base Pnl Jct
+TS748TEVT               367    EOR Vertical Trim
+TS748TEVTW           367    EOR Vertical Trim
+TS748THF                  381    Base Horiz Frame Pkg
+TS748TIPJ                344    In-Line Base Pnl Jct
+TS748TLPJ                345    L Base Pnl Jct
+TS748TLPJW            345    L Base Pnl Jct
+TS748TLVT                368    L Vertical Trim
+TS748TLVTW            368    L Vertical Trim
+TS748TPJ                  397    T Base Pnl Jct
+TS748TPJW              397    T Base Pnl Jct
+TS748TSUC               365    Clg-Access Lay-in Util Pkg
+TS748TSUF               366    Flr-Access Lay-in Util Pkg
+TS748TTC                  383    Spanning Top Cap
+TS748TTCR               389    Top Cap & Aligner Packages – Painted
+TS748TTCW              383    Spanning Top Cap
+TS748TTCWR           389    Top Cap & Aligner Packages – Wood
+TS748TTPJ               345    T Base Pnl Jct
+TS748TTPJW            345    T Base Pnl Jct
+TS748TTVT               368    T Vertical Trim
+TS748TTVTW           368    T Vertical Trim
+TS748TUP                  411    T Jct w/Util Pole
+TS748TVPJ               348    V Base Pnl Jct
+TS748TVPJW            348    V Base Pnl Jct
+TS748TVVT               369    V Vertical Trim
+TS748TVVTW           369    V Vertical Trim
+TS748TXPJ               346    X Base Pnl Jct
+TS748TXPJW            346    X Base Pnl Jct
+TS748TYPJ               348    Y Base Pnl Jct
+TS748TYPJW            348    Y Base Pnl Jct
+TS748VPJW              401    V Base Pnl Jct
+TS748WPJ         359, 402    Wall-Start Jct
+TS748XPJ                  397    X Base Pnl Jct
+TS748XPJW              397    X Base Pnl Jct
+TS748YPJ                  401    Y Base Pnl Jct
+TS748YPJW              401    Y Base Pnl Jct
+TS74SGX                   477    15-Amp Duplex Rcpt
+TS74SGY                   477    15-Amp Duplex Rcpt
+TS74SSX                    477    15-Amp Duplex Rcpt
+TS74SSY                    477    15-Amp Duplex Rcpt
+TS74USBX                 478    USB Receptacle
+TS74USBY                 478    USB Receptacle
+TS7525TCTJCQ       377    Answer to c:scape T Junction–Thin Trim
+TS752TCLJCQ          376    Answer to c:scape L Junction–Thin Trim
+TS7533TCYJ             358    Y Chng-of-Hgt Jct
+TS7533TCYJW         358    Y Chng-of-Hgt Jct
+TS7535TCTJ             352    T Chng-of-Hgt Jct
+TS7535TCTJW         352    T Chng-of-Hgt Jct
+TS75418PF                431    Perf Tack Acst Pnl Pkg
+TS75418SPF             429    Perf Tack Acst Pnl Pkg
+TS75418STF             429    Tack Acst Pnl Pkg
+TS75418TF                431    Tack Acst Pnl Pkg
+TS75418TPF             391    Perf Tack Acst Pnl Pkg
+TS75418TTF             391    Tack Acst Pnl Pkg
+TS75424AWSF          455    Wood To The Flr Skin Set
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

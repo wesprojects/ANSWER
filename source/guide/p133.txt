@@ -1,0 +1,36 @@
+Answer Solutions Specification Guide                                                                                                                                          cStability Guidelines, continued  133
+Stability Guidelines
+...............................................................................................................................................
+...............................................................................................................................................
+Shared Components
+“Y” configuration must have an end panel with a connector
+bracket with the 120° Y junction. The other end needs to be
+supported with a full-height panel, end panel, or a pedestal
+with filler. For 24"D worksurfaces, the center can be supported
+by a cantilever when bins and worksurfaces are used on both
+sides (as shown). 30"D straight and transition worksurfaces
+require additional floor support along the front edge, such as a
+pedestal or post leg.
+Note: When using cantilevers to support a 24" deep worksur-
+face, minimum panel width is 30". Panel width can be reduced
+to 24" to match the worksurface depth if side support brackets
+are applied.
+Guidelines for “Y” Configurations
+Panels without Components
+For additional stability or longer runs, apply a junction 
+stabilizer bracket every 8' bolted to a concrete floor.
+Panels with Components
+If panel is 6' or less, no center support is needed.
+Center support panel is needed every 6'. Cantilevers can be used to tie 
+spanner in. Maximum 8' of shelves or bins per panel run.
+8'
+6' max
+12' max
+8' max
+30" min
+30" min
+30" min
+30" min
+...............................................................................................................................................
+Shared Components
+February 2015

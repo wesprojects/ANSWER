@@ -1,0 +1,185 @@
+Panels—Thin Trim
+V Change-of-Height Junctions—Thin Trim
+Answer Solutions Specification Guide                                                                                                                                                                                                            357
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+V Change-of-Height 
+Junctions—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 18
+• Junction
+• Change-of-height trim and junction cap: 
+paint price group 1 or wood
+• Aligners
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+                                     • Omit trim                                     Prices below                         Specify with omit trim.
+Specification Information
+DCorresponding   DStyle              DU.S.      DOption              DStyle                   DU.S.      DOption
+dPanel
+dNumber         dBase    d(Add $ to               dNumber              dBase    d(Add $ to
+dHeight
+d
+dPrice     dBase Price)           d
+dPrice     dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+d
+d               d                              d
+d               d
+d
+d
+d               dOmit Trim
+d
+d               dOmit Trim
+Painted Trim
+Wood Trim
+30"
+42"
+TS734TCVJ
+$229
+–$147
+TS734TCVJW
+$657
+–$584
+30"
+48"
+TS738TCVJ
+$229
+–$147
+TS738TCVJW
+$657
+–$584
+30"
+54"
+TS735TCVJ
+$238
+–$147
+TS735TCVJW
+$665
+–$584
+30"
+66"
+TS736TCVJ
+$254
+–$150
+TS736TCVJW
+$711
+–$588
+42"
+54"
+TS745TCVJ
+$229
+–$147
+TS745TCVJW
+$657
+–$584
+42"
+66"
+TS746TCVJ
+$238
+–$147
+TS746TCVJW
+$665
+–$584
+42"
+78"
+TS747TCVJ
+$310
+–$150
+TS747TCVJW
+$736
+–$588
+48"
+66"
+TS786TCVJ
+$238
+–$147
+TS786TCVJW
+$665
+–$584
+48"
+78"
+TS787TCVJ
+$310
+–$150
+TS787TCVJW
+$736
+–$588
+54"
+66"
+TS756TCVJ
+$238
+–$147
+TS756TCVJW
+$665
+–$584
+54"
+78"
+TS757TCVJ
+$310
+–$147
+TS757TCVJW
+$736
+–$584
+66"
+78"
+TS767TCVJ
+$310
+–$147
+TS767TCVJW
+$736
+–$584
+d
+d
+d               d
+d
+d               d
+Tip: Junction includes:
+• V change-of-height 
+  junction
+• V vertical trim
+• 120° change-of-height trim
+• 120° junction cap
+• Aligner
+Tip: Omit trim option omits 
+all vertical and change-of-
+height trim. This option is 
+used when stacking on base
+junctions. Vertical and
+change-of-height trim should
+be specified separately to
+span the full height of the
+base junction plus stacking
+junction.
+Tip: Remember to specify
+necessary junction caps and
+aligners if the omit trim
+option is selected.
+Tip: Change-of-height junc-
+tion ships right-handed. For
+a left-handed junction, a
+post will need to be moved
+during installation.
+A
+B
+Panels—Thin Trim
+February 2015

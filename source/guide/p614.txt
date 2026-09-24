@@ -1,0 +1,78 @@
+614                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Storage
+Universal Mobile Pedestals with Flush Steel, Proud Steel, or Proud Wood Fronts, continued
+                                        cOptions, on previous page
+Specification Information
+DActual Dimensions               DStyle                   DU.S. Base Prices
+dD          
+W      H        dNumber              d
+dFlush
+Proud
+         
+d
+dFlush         dProud        dProud 
+dSteel
+Steel/
+d
+dSteel         dSteel         dWood
+dFront
+Wood
+d                                dFront
+dFront
+dFront
+d
+Front
+d                                d                 d                 d
+d
+d                                dSuffix F     dSuffix P     dSuffix W
+Box/File
+171⁄2"        183⁄8"      15"      21"         RPM1821C_         $780               $837               $1078
+225⁄8"        231⁄2"      15"      21"         RPM2421C_         $824               $881               $1122
+d
+d
+d
+d
+d
+Box/Box/File
+171⁄2"        183⁄8"      15"      27"         RPM1827A_         $867               $895               $1137
+225⁄8"        231⁄2"      15"      27"         RPM2427A_         $923               $951               $1193
+d
+d
+d
+d
+d
+File/File
+171⁄2"        183⁄8"      15"      27"         RPM1827B_         $851               $879               $1121
+225⁄8"        231⁄2"      15"      27"         RPM2427B_         $907               $935               $1177
+d
+d
+d
+d
+d
+Pedestal Cushion Top for Field Installation on RPM2421C__ only
+DActual                 DStyle               DU.S.
+dDimensions         dNumber           dBase
+dD     W      H        d                            dPrice
+d                            d
+d
+Cushion Top without Handle
+225⁄8"  15"      21⁄4"       RPXTC24F         $294      (For use with RPM2421CF only)
+231⁄2"  15"      21⁄4"       RPXTC24P         $294      (For use with RPM2421CP and RPM2421CW only)
+Cushion Top with Black Handle
+225⁄8"  15"      21⁄4"       RPXTCH24F      $396      (For use with RPM2421CF only)
+231⁄2"  15"      21⁄4"       RPXTCH24P      $396      (For use with RPM2421CP and RPM2421CW only)
+d
+d
+d
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style (for
+example, RPM1821C__
+becomes RPM1821CP for
+proud steel front).
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

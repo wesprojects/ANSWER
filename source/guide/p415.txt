@@ -1,0 +1,60 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                         415
+Panels—Square and
+Oval Trim
+Panels—Square and Oval Trim
+                                                
+Utility Packages
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Floor-Access Lay-In Utility Packages—Oval Trim
+                            Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$  11                                    Specify paint color number.
+                                     • Paint price group 3                     +$  21                                   Specify paint color number.
+                                 Top cap
+                                     • Wood                                          +$183                                   Specify with wood top cap and select
+                                                                                                                                          wood color number.
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+  Change-                  • Change-of-height cable              +$    6                                   Specify with change-of-height, one end.
+  of-Height                   routing at one end of top
+  Shortened              cap
+  Top Cap               • Change-of-height cable              +$    6                                   Specify with change-of-height, both ends.
+                                        routing at both ends of top
+                                        cap on 36", 42", and 48"W
+                                        packages
+   Speciﬁcation Information
+DWidth    DStyle              DU.S.      
+d              dNumber         dBase    
+d              d                      dPrice    
+d              d                      d             
+30"              TS730SUF       $559         
+36"              TS736SUF       $590         
+42"              TS742SUF       $641         
+48"              TS748SUF       $702         
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 152
+• One top cap, one standard base trim, one modiﬁed
+base trim, and one base utility box: paint price group 1
+• Two lay-in horizontal connecting bars: black paint only
+1 Style number
+2 Paint color number for top cap, base trim,
+and base utility box
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: 30"W lay-in utility
+package with ﬂoor-access is
+only available with change-
+of-height shortened top cap
+at one end.
+Tip: Order multipurpose
+power infeed separately.
+cPage 483
+scale 75
+February 2015

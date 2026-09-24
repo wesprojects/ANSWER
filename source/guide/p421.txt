@@ -1,0 +1,32 @@
+Panels—Square and Oval Trim
+                                                
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            421
+Base Horizontal Frame
+Packages—Square Trim
+   Speciﬁcation Information
+DWidth    DStyle           DU.S.      DOption
+d              dNumber       dBase    d(Add $ to
+d
+d
+dPrice
+dBase Price)
+d                 d                        d               d
+d                 d                        d               dWood
+d                 d                        d               dTop Cap
+18"              TS718SHF    $  80         +$183
+24"              TS724SHF    $  84         +$183
+30"              TS730SHF    $  91         +$183
+36"              TS736SHF    $  96         +$183
+42"              TS742SHF    $109         +$183
+48"              TS748SHF    $115         +$183
+60"              TS760SHF    $147         +$244
+72"              TS772SHF    $202         +$244
+d                 d                        d               d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+scale 75
+Panels—Square and
+Oval Trim
+February 2015

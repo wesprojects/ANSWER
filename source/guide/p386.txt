@@ -1,0 +1,51 @@
+386                                                                                                                                                                                                            Answer Solutions Specification Guide
+Panels—Thin Trim 
+Recessed Frameless Glass Top Cap Connector—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 56
+• One recessed frameless glass top cap connector
+Style number
+Specification Information
+DStyle                DU.S.
+dNumber            dPrice
+d
+d
+TS7TFGRC
+$16
+d
+d
+Tip: Recessed frameless
+glass top cap connector
+needs to be ordered in three
+situations:
+· when using a wall start 
+  junction and putting frame-
+  less glass with recessed 
+  attachment on the panel 
+  directly adjacent to the 
+  wall 
+· when using frameless 
+  glass with recessed 
+  attachment on an off- 
+  module fin panel 
+· when recessed frameless 
+  glass is adjacent to a 
+  corner junction and the 
+  recessed frameless glass 
+  top caps are located at a 
+  lower height than the 
+  junction cap.
+· when recessed frameless 
+  glass is coming into an 
+  in-line change-of-height 
+  condition and the recessed
+  frameless glass top caps 
+  are located on the lower 
+  panel height.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

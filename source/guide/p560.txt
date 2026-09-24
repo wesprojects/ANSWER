@@ -1,0 +1,58 @@
+560                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Universal Worksurface Wire Managers
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 150
+• Set of six ﬁeld installed worksurface wire managers:
+plastic
+• Attachment hardware
+1 Style number
+2 Plastic color number for worksurface
+wire manager:
+6000 Black
+6009 Arctic White
+6052 Milk
+6053 Seagull
+6249 Platinum Solid
+6654 Sand
+6695 Midnight
+6697 Fog
+Speciﬁcation Information
+DStyle          DU.S.
+dNumber      dPrice
+d
+d
+TS7WWM      $132
+d
+d
+Speciﬁcation Information
+DLength      DStyle          DU.S.
+d                 dNumber      dPrice
+d                 d                   d
+Vertebral Cable Riser
+311⁄2"               DAVC           $128
+d                 d                   d
+Vertebral Cable Riser Extension
+153⁄4"               DAVCE        $  37
+d                 d                   d
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 150
+• Vertebral cable riser: black plastic only
+• Attachment hardware
+• Floor plate: Metallic Aluminum only
+Tip: 153⁄4"L cable riser is an
+extension only. Extension
+does not include attachment
+hardware or ﬂoor plate.
+Style number
+Vertebral Cable Riser and Extension
+Wiring and Cabling Accessories, continued
+                                        
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

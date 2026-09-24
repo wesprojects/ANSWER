@@ -1,0 +1,61 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            657
+Universal Storage
+Speciﬁcation Information
+DDimensions                         DCounterweight  DStyle                     DU.S. Base Prices
+dD                      W     H        dPackage            dNumber                 d
+dFlush
+Proud
+d
+d
+dFlush
+dProud        dProud
+dSteel
+Steel/
+d
+d
+dSteel
+dSteel         dWood
+dFront
+Wood
+d                               d                                   dFront               dFront         dFront
+d
+Front
+d                               d                                   d
+d
+d
+d
+d                               d                                   dSufﬁx F          dSufﬁx P     dSufﬁx W
+Tower with Door Hinged on Right
+Four 12"H Drawers
+231⁄8"      24"          24"    52"         Tower package 1     RVD24244RA_      $2091                 $2349            $2792
+291⁄8"      30"          24"    52"         Tower package 1     RVD30244RA_      $2304                $2562             $3005
+Three 12"H Drawers and Two 6"H Drawers
+231⁄8"      24"          24"    52"         Tower package 1     RVD24244RB_      $2267                $2525            $2968
+291⁄8"      30"          24"    52"         Tower package 1     RVD30244RB_      $2481                $2739            $3182
+Four 12"H Drawers and One 131⁄2"H Lift-Up Door with Fixed Shelf
+231⁄8"      24"          24"    651⁄2"     Not required             RVD24245RC_      $2467                $2767            $3168
+291⁄8"      30"          24"    651⁄2"     Not required             RVD30245RC_      $2718                $3018            $3419
+Three 12"H Drawers, Two 6"H Drawers, and One 131⁄2"H Lift-Up Door with Fixed Shelf
+231⁄8"      24"          24"    651⁄2"     Not required             RVD24245RD_      $2642             $2942            $3343
+291⁄8"      30"          24"    651⁄2"     Not required             RVD30245RD_      $2896             $3196            $3597
+d
+d                               d                                   d                         d                 d
+Tip: Height dimension listed
+is for units with 1" top. Overall
+height will vary if another top
+is selected.
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style (for
+example, RVD24244RA__
+becomes RVD24244RAF for
+flush steel front).
+Universal Storage 
+Universal Vertical Drawer Towers 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cSpecification Information, continued from previous page
+February 2015

@@ -1,0 +1,59 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            581
+Universal Tables
+Universal Tables
+Bases for Universal Tables                                                                         
+Options                       U.S. Price                       Required to Specify
+  Surface                  Base
+  Materials             • Paint price group 1                     No cost                              Specify paint color number
+                                     • Paint price group 2                     +$  19                                 Specify paint color number.
+                                     • Paint price group 3                     +$  32                                 Specify paint color number.
+                                     • Polished Chrome column           +$153                                 Specify with 9201 Polished Chrome 
+                                        and base                                                                                column and base.
+                                     • Polished Chrome base               +$153                                 Specify with 9201 Polished Chrome base
+                                        with painted column                                                               only and select paint color number for 
+                                                                                                                                       column.
+                                                                                            
+Speciﬁcation Information
+DWidth         DColumn       DStyle          DU.S.
+d                   dDiameter     dNumber      dBase
+d
+d
+d                      dPrice
+d
+d                        d                      d
+T-Bases
+26"                    21⁄4"                   BT26              $285
+36"                    21⁄4"                   BT36              $351
+d
+d
+d
+d
+X-Bases
+26"                    21⁄4"                   BX26              $320
+36"                    21⁄4"                   BX36              $413
+d
+d
+d
+d
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 237
+• Column: paint
+• Base: paint
+• Adjustable leveling glides: black plastic
+1 Style number
+2 Paint color number for column
+3 Paint color number for base
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: When specifying a 9201
+Polished Chrome base only,
+specify a paint color number
+for the column.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Bases for Universal Tables
+February 2015

@@ -1,0 +1,78 @@
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 116
+• Technology skin with slatwall channels to accommodate
+worktools: paint
+• Trim ring: painted steel
+1 Style number
+2 Paint color number for skin surface and
+trim ring
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                   • Paint price group 1                     No cost                                  Specify paint color number.
+Materials                • Paint price group 2                     +$22                                     Specify paint color number.
+Specification Information
+All Cutouts                             Right-Hand                             Left-Hand
+                                                                  Cutout Only                            Cutout Only
+                     
+                                         
+                                         
+DWidth      DStyle                   DU.S.           DStyle
+DU.S.        DStyle
+DU.S.
+d               dNumber              dBase         dNumber
+dBase       dNumber
+dBase 
+d                  d                                dPrice           d
+dPrice        d
+dPrice
+d                  d                                d                     d
+d                  d
+d
+12" Slatwall Technology Skins
+24"                TS71224TSSW     $248                                                    
+30"                TS71230TSSW    $311               TS71230RTSSW     $296            TS71230LTSSW     $296
+36"                TS71236TSSW    $360               TS71236RTSSW     $344            TS71236LTSSW     $344
+42"                TS71242TSSW    $380               TS71242RTSSW     $365            TS71242LTSSW     $365
+48"                TS71248TSSW    $397               TS71248RTSSW     $381            TS71248LTSSW     $381
+d                  d                                d                     d
+d                  d
+d
+18" Slatwall Technology Skins
+24"                TS71824TSSW     $307                                                    
+30"                TS71830TSSW    $373               TS71830RTSSW     $358            TS71830LTSSW     $358
+36"                TS71836TSSW    $425               TS71836RTSSW     $410            TS71836LTSSW     $410
+42"                TS71842TSSW    $443               TS71842RTSSW     $427            TS71842LTSSW     $427
+48"                TS71848TSSW    $462               TS71848RTSSW     $446            TS71848LTSSW     $446
+d                  d                                d                     d
+d                  d
+d
+Shared Components and Wiring and Cabling
+Slatwall Technology Skins
+Tip: Remember to order
+technology covers to fill the
+cutouts. Only TS7TSCOVER
+style covers can be used
+with this skin.
+Tip: A modular powerkit
+must always be located
+behind the technology skin.
+Tip: Technology skins are
+available with all cutouts or
+handed cutouts on just the
+right side or just the left side
+of the skin.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+460                                                                                                                                                                                                            Answer Solutions Specification Guide
+Tip: 18"H technology skin
+can only attach to junctions 
+manufactured on or after
+October 10, 2011.
+Tip: Slatwall skins cannot be
+used in the bottom 12" of an
+Answer panel.
+February 2015

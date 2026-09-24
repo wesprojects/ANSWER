@@ -1,0 +1,95 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            443
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 112
+• Skin with slatwall channels to accommodate work tools:
+paint
+• Attachment hardware
+1 Style number
+2 Paint color number
+cSee Surface Materials, page 708.
+   Speciﬁcation Information
+                12"H                                          18"H                                          24"H
+                    
+                                     
+                                      
+DWidth    DStyle                DU.S.               DStyle                DU.S.               DStyle                     DU.S.
+d              dNumber            dPrice              dNumber            dPrice              dNumber                 dPrice
+d
+d
+d
+d
+d
+d
+d
+24"              TS71224SW      $225                    TS71824SW      $276
+TS72424SW           $326
+30"              TS71230SW        $260                    TS71830SW      $310
+TS72430SW           $361
+36"              TS71236SW        $310                    TS71836SW      $364
+TS72436SW           $417
+42"              TS71242SW        $330                    TS71842SW      $381
+TS72442SW           $431
+48"              TS71248SW        $348                    TS71848SW      $400
+TS72448SW           $451
+d
+d
+d
+d
+d
+d
+d
+Slatwall Skins
+Tip: 18"H skins only work on
+junctions manufactured on
+or after October 10, 2011.
+Tip: Slatwall skins cannot be
+used in the bottom 12" of an
+Answer panel.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 112
+• Brace packages: black only
+• Attachment hardware
+Style number
+Specification Information
+12"H                                        18"H                                        24"H
+                     
+                                                   
+                                                   
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle                   DU.S.
+d               dNumber              dPrice         dNumber              dPrice         dNumber              dPrice
+d
+d
+d
+d
+d
+d
+d
+24"                TS71224SBP       $71                 TS71824SBP       $  85               TS72424SBP         $  98
+30"                TS71230SBP         $71                 TS71830SBP         $  85               TS72430SBP         $  98
+36"                TS71236SBP         $87                 TS71836SBP         $  92               TS72436SBP         $  98
+42"                TS71242SBP         $87                 TS71842SBP         $108               TS72442SBP         $130
+48"                TS71248SBP         $87                 TS71848SBP         $108               TS72448SBP         $130                      
+d
+d
+d
+d
+d
+d
+d
+Slatwall Skin Brace Packages
+For Use with Answer Slatwall Skins
+Shared Components and Wiring and Cabling
+Slatwall Skins and Slatwall Skin Brace Packages
+                                                
+Slatwall Skins and Slatwall
+Skin Brace Packages
+February 2015

@@ -1,0 +1,114 @@
+148                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Test and verify capaci-
+ties for your individual
+situation. We recommend
+that testing be conducted
+using your specific cable, as
+well as the furniture configu-
+ration you are considering.
+Cable capacities in this
+tabled are based on actual
+cable studies performed by
+an independent contractor
+following EIA/TIA codes and
+practices and can be taken
+as an accurate assessment
+of maximum practical capac-
+ity. Actual cable capacities
+may vary slightly depending
+on which manufacturer pro-
+duced the cable and the spe-
+cific field conditions.
+Cable capacities are
+based on Category 6 and
+Category 6a cables at 55%
+fill capacity for cable study
+performed on junctions man-
+ufacturered on or after
+October 10, 2011.
+Note: Tests were performed
+on junctions with tall sleeves
+installed.
+Cables Tested
+å CommScope 
+    Systimax Gigaspeed 
+    1071E Series 
+    Category 6 Cable
+    OD=0.23"
+∫ CommScope
+    Systimax X10D 
+    1091B Series 
+    Category 6A Cable
+    OD=0.285"
+Power harnesses
+reduce cable capacity.
+An average of 10-15 cables
+will be reduced per harness
+used.  However, this number
+varies according to installa-
+tion practices and the type of
+cables used.
+If glass window is used
+at the top of a panel,
+top cap lay-in cable capacity
+is 20 for category 6 cables.
+When laying cables
+vertically behind skins,
+capacity is dependent on
+skin width.
+When using stacking
+junctions, the fork con-
+nector does not reduce
+cable capacity.
+                                                                                                                                           
+                                                                                                                                           
+å ∫
+Straight Horizontal Routing
+Lay-in cable routing at top of            40   30
+panel (in-line junction)
+Horizontal pass-through (straight)    12    7
+at cable routing opening 
+(available every 12" inside frame) 
+Horizontal pass-through (straight)    72   47
+at rectangular opening for 
+modular power harness
+(available every 12" inside frame)       
+Lay-in cable routing at base of        36   22
+panel with power
+Lay-in cable routing at base of         48   30
+panel without power or with 
+power harness routed above
+cPage 74
+                                                                                                                                                                                              
+                                                                                                                                                                                              
+å ∫
+Straight Vertical Routing
+Vertical cable routing through           11    7
+round openings of horizontal 
+connecting bar; two locations 
+per bar
+Vertical cable routing through          24   16
+rectangular openings of horizontal 
+connecting bars; two locations 
+per bar
+Vertical cable routing inside             48   39
+junction utility pole (used on 
+square and oval in an end, L or T 
+configuration or on thin in an end)
+Vertical cable routing inside thin      42   34
+trim utility pole and exiting via top 
+cable lay-in area
+Vertical cable routing inside thin      50   40
+trim utility pole and exiting into the 
+panel in openings below the top 
+lay-in area                                           
+Vertical cable lay-in in a ceiling-     100  98
+access lay-in utility package
+Vertical cable lay-in in a floor-          80   54
+access lay-in utility package
+Wiring and Cabling
+Cable Capacities
+February 2015

@@ -1,0 +1,72 @@
+Build Your Own Stacking
+Junctions—Thin Trim
+Answer Solutions Specification Guide                                                                                                                                                                                                            43
+Panels—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+Step 10: Junction caps and aligners, continued
+  
+Change-of-height base application stacking to same height application (see drawing)
+Specify: Junction cap: 90° corner
+Junction cap aligner: Number required is equal to the number of panels connecting to the junction cap
+  
+Same height base application stacking to change-of-height application (see drawing)
+Junction cap: 90° corner change-of-height
+Junction cap aligner: Number required is equal to the number of panels at the second tallest height
+120° applications (V or Y) - All 120° applications require:
+  
+Junction cap: 120° junction cap
+  
+Junction cap aligner: Number required is one less than the number of panels connecting to the junction cap
+For complete list of style numbers:
+Junction cap
+cSee page 375.
+Junction cap aligner
+cSee page 375.
+Step 11: Trim
+90° Applications                                                                                           
+Required to Specify
+Level 1
+     One panel at the tallest height                                                                      
+End-of-run/change-of-height trim = tallest height minus second height
+     Two panels at the tallest height in an "L" configuration                                
+L trim = tallest height minus the third height (could be to the floor)
+     Two panels at the tallest height along the spine of a "T" configuration        
+T trim = tallest height minus the third height (could be to the floor). 
+                                                                                                                           
+Look at both sides of the spine individually as two T trims (different 
+                                                                                                                           
+heights) will need to be specified.
+     Three panels at the tallest height                                                                 
+T trim = tallest height minus the fourth height (could be the floor).
+Level 2
+     Two panels at the second height or higher in an "L" configuration               
+L trim - second height minus third height
+     Two panels at the second height along the spine of a "T" configuration      
+T trim = second height minus the third height (could be to the floor). 
+                                                                                                                           
+Look at both sides of the spine individually as two T trims (different 
+                                                                                                                           
+heights) will need to be specified.
+     Three panels at the second height or higher                                                
+T trim - second height minus third height
+Level 3
+     Three panels at third height                                                                          
+T trim - third height minus fourth height
+120° Applications                                                                          
+Required to Specify
+Level 1
+     One panel at the tallest height                                                                      
+120° change-of-height trim = tallest height minus second height
+     Two panels at the tallest height in a "V" configuration                                  
+V trim = tallest height minus the third height (could be to the floor)
+Level 2
+     Two panels at the second height or higher in a "V" configuration                
+V trim = second height minus the third height (could be to the floor)
+Step 12: Inside corner light seal
+Specify Inside corner light seal to match the overall height of the lower panel in the application (used only on 90° applications).
+Step 13: Change-of-height aligners
+If you have both L and T aligners at one junction, an L/T aligner is needed. 
+If you have both 120° and V trims at one junction, a 120°/V aligner is needed.
+Panels—Thin Trim
+February 2015

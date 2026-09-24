@@ -1,0 +1,50 @@
+138                                                                                                                                                                                                            Answer Solutions Specification Guide
+Shared Components
+Stability Guidelines, continued
+...............................................................................................................................................
+Guidelines for Answer Off-Module Bracket Configurations
+...............................................................................................................................................
+...............................................................................................................................................
+Panels with Components
+“U” configuration
+When using an Answer off-modular connector bracket, a cantilever must be
+used with the connector bracket. The other end needs to be supported with
+a panel, end panel, or a pedestal with filler. For 24"D worksurfaces, the 
+center can be supported by a cantilever. 30"D straight and transition work-
+surfaces require additional floor support along the front edge, such as a
+pedestal or post leg. 
+Note: When using cantilevers to support a 24" deep worksurface, minimum
+panel width is 30". Panel width can be reduced to 24" to match the worksur-
+face depth if side support brackets are applied.
+“T” configuration
+When using an Answer off-modular connector bracket, a cantilever must be
+used with the connector bracket. The other end needs to be supported with
+a panel, end panel, or a pedestal with filler. For 24"D worksurfaces, the cen-
+ter can be supported by a cantilever when bins and worksurfaces are used
+on both sides (as shown). 30"D straight and transition worksurfaces require
+additional floor support along the front edge, such as a pedestal or post leg. 
+Wall-start junction must match the fin panel height coming off the spine
+wall. Change-of-height trim is not available to cover exposed wall-start 
+junction.
+Loading on spine wall with change-of-height off-module fin is
+allowed with a maximum of 12" height difference between spine and fin. No
+loading on spine is permitted if the spine is 24"H or higher than the off-mod-
+ule fin. End panels or a pedestal with a filler is required to support a worksur-
+face attached to spine. 
+30" min
+30" min
+8' max.
+42" min.
+30" min
+8' max.
+60" min
+30" min
+42" min.
+No trim
+available
+Fin
+Spine
+8' or less
+12" max
+...........................................................................................................................................
+February 2015

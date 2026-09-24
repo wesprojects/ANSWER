@@ -1,0 +1,120 @@
+756                                                                                                                                                                                                  Answer Solutions Specification Guide
+TS7883TCTJ             353    T Chng-of-Hgt Jct
+TS7883TCTJW         353    T Chng-of-Hgt Jct
+TS78866TCXJ          355    X Chng-of-Hgt Jct
+TS78866TCXJW       355    X Chng-of-Hgt Jct
+TS7886TCTJ             352    T Chng-of-Hgt Jct
+TS7886TCTJW         352    T Chng-of-Hgt Jct
+TS78877TCXJ          355    X Chng-of-Hgt Jct
+TS78877TCXJW       355    X Chng-of-Hgt Jct
+TS7887TCTJ             352    T Chng-of-Hgt Jct
+TS7887TCTJW         352    T Chng-of-Hgt Jct
+TS78883TCXJ          356    X Chng-of-Hgt Jct
+TS78883TCXJW       356    X Chng-of-Hgt Jct
+TS78886TCXJ          355    X Chng-of-Hgt Jct
+TS78886TCXJW       355    X Chng-of-Hgt Jct
+TS78887TCXJ          355    X Chng-of-Hgt Jct
+TS78887TCXJW       355    X Chng-of-Hgt Jct
+TS790COHJC            375    90° Chng-of-Hgt Jct Cap
+TS790COHJCW        375    90° Chng-of-Hgt Jct Cap
+TS790JB3                  374    90° Jct Block, Pkg of 3
+TS790JB4                  374    90° Jct Block, Pkg of 4
+TS790JB5                  374    90° Jct Block, Pkg of 5
+TS790JC                    375    90° Cnr Jct Cap
+TS790JCW                 375    90° Cnr Jct Cap
+TS790STC                  424    Spanning Top Cap
+TS790STCW              424    Spanning Top Cap
+TS790TEVT               367    EOR Vertical Trim
+TS790TEVTW           367    EOR Vertical Trim
+TS790TLVT                368    L Vertical Trim
+TS790TLVTW            368    L Vertical Trim
+TS790TTC                  383    Spanning Top Cap
+TS790TTCW              383    Spanning Top Cap
+TS790TTVT               368    T Vertical Trim
+TS790TTVTW           368    T Vertical Trim
+TS790TVVT               369    V Vertical Trim
+TS790TVVTW           369    V Vertical Trim
+TS796STC                  424    Spanning Top Cap
+TS796STCW              424    Spanning Top Cap
+TS796TTC                  383    Spanning Top Cap
+TS796TTCW              383    Spanning Top Cap
+TS7AV                         628    Avenir to Answer Bracket
+TS7AVH                      628    Avenir to Answer Bracket
+TS7BM                        628    Avenir to Answer Bracket
+TS7BMH                     628    Avenir to Answer Bracket
+TS7BPNY24X            481    Base Power Infeed - NYC
+TS7BPNY24XN         481    Base Power Infeed - NYC
+TS7BPNY24Y            481    Base Power Infeed - NYC
+TS7BPNY24YN         481    Base Power Infeed - NYC
+TS7BPNY24Z            481    Base Power Infeed - NYC
+TS7BPNY24ZN         481    Base Power Infeed - NYC
+TS7BPNY30X            481    Base Power Infeed - NYC
+TS7BPNY30XN         481    Base Power Infeed - NYC
+TS7BPNY30Y            481    Base Power Infeed - NYC
+TS7BPNY30YN         481    Base Power Infeed - NYC
+TS7BPNY30Z            481    Base Power Infeed - NYC
+TS7BPNY30ZN         481    Base Power Infeed - NYC
+TS7BPNY36X            481    Base Power Infeed - NYC
+TS7BPNY36XN         481    Base Power Infeed - NYC
+TS7BPNY36Y            481    Base Power Infeed - NYC
+TS7BPNY36YN         481    Base Power Infeed - NYC
+TS7BPNY36Z            481    Base Power Infeed - NYC
+TS7BPNY36ZN         481    Base Power Infeed - NYC
+TS7BPNY42X            481    Base Power Infeed - NYC
+TS7BPNY42XN         481    Base Power Infeed - NYC
+TS7BPNY42Y            481    Base Power Infeed - NYC
+TS7BPNY42YN         481    Base Power Infeed - NYC
+TS7BPNY42Z            481    Base Power Infeed - NYC
+TS7BPNY42ZN         481    Base Power Infeed - NYC
+TS7BPNY48X            481    Base Power Infeed - NYC
+TS7BPNY48XN         481    Base Power Infeed - NYC
+TS7BPNY48Y            481    Base Power Infeed - NYC
+TS7BPNY48YN         481    Base Power Infeed - NYC
+TS7BPNY48Z            481    Base Power Infeed - NYC
+TS7BPNY48ZN         481    Base Power Infeed - NYC
+TS7BPNY60X            481    Base Power Infeed - NYC
+TS7BPNY60XN         481    Base Power Infeed - NYC
+TS7BPNY60Y            481    Base Power Infeed - NYC
+TS7BPNY60YN         481    Base Power Infeed - NYC
+TS7BPNY60Z            481    Base Power Infeed - NYC
+TS7BPNY60ZN         481    Base Power Infeed - NYC
+TS7BPNY72X            481    Base Power Infeed - NYC
+TS7BPNY72XN         481    Base Power Infeed - NYC
+TS7BPNY72Y            481    Base Power Infeed - NYC
+TS7BPNY72YN         481    Base Power Infeed - NYC
+TS7BPNY72Z            481    Base Power Infeed - NYC
+TS7BPNY72ZN         481    Base Power Infeed - NYC
+TS7BSWHC                626    Wall Channels
+TS7CJCA10               375    Jct Cap Cnr Aligner
+TS7CMB2                   388    Top Cap Mount Storage – Brackets
+TS7CMBA2                388    Top Cap Mount Storage – Brackets
+TS7CMBA3                388    Top Cap Mount Storage – Brackets
+TS7CNTSTKR           488    Controlled Receptacle Stickers
+TS7CPCM                   487    Cnsld Point Cable Mgr
+TS7CPK                      486    Cnsld Point Kit
+TS7CPK24                 482    Hardwired Pwrkit
+TS7CPK30                 482    Hardwired Pwrkit
+TS7CPK36                 482    Hardwired Pwrkit
+TS7CPK42                 482    Hardwired Pwrkit
+TS7CPK48                 482    Hardwired Pwrkit
+TS7CPK60                 482    Hardwired Pwrkit
+TS7CPK72                 482    Hardwired Pwrkit
+TS7CPMB                   487    Cnsld Point Mounting Brkt
+TS7FSLVE                  485    Feed-Thru Horiz Cbl Slv
+TS7GGC10                 373    Gripper Glide Caps
+TS7HSLVE                 486    Grom for Horiz Bar and Jct
+TS7JSLVE                  486    Grommet for Jct
+TS7JTSLVE               485    Jct Tall Sleeve
+TS7LSLVE                  485    Lay-In Jct Cable Sleeve
+TS7LTA4                     375    L to T Trim Aligner
+TS7PK24X                 475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK24XN              475    4-Circ, 3+1 Wrg, Pwrkit
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

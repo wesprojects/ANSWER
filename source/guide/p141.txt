@@ -1,0 +1,43 @@
+Wiring & Cabling
+Answer Solutions Specification Guide                                                                                                                                                                                                            141
+Wiring & Cabling
+Understanding
+Wiring and Cabling
+Statement of Line                                                                    142
+Product Details
+  Wiring Schematics                                                                              145
+  How to Calculate Power Needs                                                     146
+  Cable Capacities                                                                                 148
+  Interface Products
+Ceiling-Access Lay-In Utility Package                                                150
+Floor-Access Lay-In Utility Package                                                   152
+Utility Pole—Thin Trim                                                                        154
+Junction with Utility Pole                                                                     156
+Base Power Infeed                                                                             158
+Special Requirements for New York City                                            159
+Consolidation Point                                                                            160
+  Distribution Products
+Powerkits                                                                                            162
+Pass-Through Powerkits                                                                    162
+Cable Trays                                                                                        162
+Modular Harness                                                                                164
+Multipurpose Power Infeed                                                                 164
+Special Requirements for Hardwired Solution                                    166
+  Access Products
+Duplex Receptacles                                                                           167
+Face Plate                                                                                          167
+  Accessories
+Junction Tall Sleeve                                                                            168
+Lay-In Junction Cable Sleeve                                                             168
+Feed-Through Horizontal Cable Sleeve                                             168
+Grommet for Horizontal Bar and Junction                                          169
+Grommet for Junction                                                                         169
+Series 9000 Duplex Cable Grommet                                                  169
+Vertical Wire Manager                                                                        170
+All Answer electrical
+components are listed 
+by Underwriters Laboratory
+(UL) and certified by the
+Canadian Standards
+Association (CSA).
+February 2015

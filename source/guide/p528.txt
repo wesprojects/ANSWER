@@ -1,0 +1,124 @@
+Universal Systems Worksurfaces
+Bullet Peninsula Worksurfaces
+High-Pressure Laminate or Wood Veneer
+                                        
+528                                                                                                                                                                                                   Answer Solutions Specification Guide
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+                                 Wood veneer worksurfaces
+                               • Premium wood 2                       See information at left         Specify Premium wood 2 finish number.
+                               • Premium wood 3                       See information at left         Specify Premium wood 3 finish number.
+                               • Customiz stain                          No cost                                Specify with Customiz stain. 
+                                                                                                                            cSee Surface Materials Reference Manual.
+                                   • Full-fill finish                              Prices below                        Specify full-fill finish number.
+  Scallop                   • Omit scallop                              No cost                                Specify omit scallop.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Columns                                                                             cPage 554
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Speciﬁcation Information
+                                         U.S. Base Prices
+                                         High-Pressure Laminate        Wood
+                                    
+       
+                  
+      DOption
+DDimensions
+DStyle               DPlastic      DPlastic                DWood        d(Add $ to 
+dA    B              dNumber           d3 mm        dP-Edge                dSquare      dBase Price)
+d                       d                       dEdge         d                           dEdge
+d
+d                       d                       d                 d
+d
+dFull-Fill
+d                       d                       dNo Sufﬁx   dSufﬁx P
+dSufﬁx SW  dFinish
+24"    471⁄2"           UPBC2448         $459              N.A.                          N.A.               N.A.
+24"    591⁄2"           UPBC2460         $468              N.A.                          N.A.               N.A.
+24"    651⁄2"           UPBC2466         $483              N.A.                          N.A.               N.A.
+24"    711⁄2"           UPBC2472         $492              N.A.                          N.A.               N.A.
+30"    471⁄2"           UPBC3048         $534              N.A.                          N.A.               N.A.
+30"    591⁄2"           UPBC3060       $544              $616                         $1145            +$55
+30"    651⁄2"           UPBC3066       $558              $630                         $1159            +$57
+30"    711⁄2"           UPBC3072       $567              $639                         $1168            +$59
+d
+d
+d
+d
+d
+d
+Tip: Supports for freestand-
+ing and panel-mounted
+applications must be speci-
+fied separately.
+Tip: Long worksurface spans
+may require additional sup-
+port, reinforcing channels
+allow for unsupported spans
+greater than 54".
+cSee understanding 
+section for details, 
+page 208
+Premium Wood 
+Pricing: For Premium
+wood 2 or Premium wood 3
+pricing, please refer to the
+electronic catalog or
+SmartTools.
+Tip: Bullet peninsula 
+worksurfaces are recom-
+mended for use with other
+curved-front shapes such
+as corner, curved-front
+worksurfaces.
+cPage 521
+Tip: The same bullet 
+peninsula worksurfaces 
+can be used with either
+worksurfaces with 1⁄2" 
+cord drop or with full 
+depth worksurfaces.
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles,
+add a suffix to the style
+number. (For example,
+UPBC3060 becomes
+UPBC3060SW for wood
+with square edge profile.)
+A
+B
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate or wood veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallop on back edge
+• Wire manager for wood veneer worksurfaces,
+if selected: black
+1 Style number with appropriate edge
+profile suffix
+P Laminate with plastic P-edge
+SW Wood with square edge
+cSee edge profiles below.
+2 High-Pressure Laminate or wood color
+number for worksurface
+3 Plastic color number for front edge on
+laminate worksurface, if selected
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

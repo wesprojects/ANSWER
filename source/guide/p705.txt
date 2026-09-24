@@ -1,0 +1,64 @@
+Transitional Answer Storage
+Answer Solutions Specification Guide                                                                                                                                                                                                            705
+Answer Mobile Pedestals
+Options                       U.S. Price               Required to Specify
+  Tops, continued   • Cushion top for factory installation on TU7MOBILE only
+                                    • Cushion top without handle        +$334                                  Specify with cushion top and indicate
+                                                                                                                                          fabric color number.
+                                     • Cushion top with                         +$425                                  Specify with cushion top and handle and
+                                        black handle                                                                             indicate fabric color number.
+                                 Upholstery on pedestal cushion top
+                              • Fabric price group 1                   No cost                                 Specify fabric color number.
+                                     • Fabric price group 2                   +$  10                                    Specify fabric color number.
+                                     • Fabric price group 3                   +$  38                                    Specify fabric color number.
+                                     • Fabric price group 4                   +$  47                                    Specify fabric color number.
+                                     • Fabric price group 5                   +$  59                                    Specify fabric color number.
+                                     • Fabric price group 6                   +$  83                                    Specify fabric color number.
+                                     • Fabric price group 7                   +$100                                   Specify fabric color number.
+                                     • Fabric price group 8                   +$145                                   Specify fabric color number.
+                                     • Fabric price group 9                   +$186                                   Specify fabric color number.
+                                     • Fabric price group 10                 +$226                                   Specify fabric color number.
+                                     • Leather price group                    +$580                                   Specify leather color number.
+                                     • Elmosoft leather upholstery        +$671                                   Specify Elmosoft leather color number.
+                                                                                                                                       cSee Surface Materials, page 708.
+                                     • Customer’s own material            +$  16                                 cSee Surface Materials Reference Manual
+                                        (COM) or Customer’s own                                                        to specify.
+                                        leather (COL)
+  Related                   • Storage accessories                                                              cPage 671
+  Products
+Specification Information
+DDimensions          DStyle              DU.S.
+dD     W      H         dNumber         dBase
+d                             d                      dPrice
+d                             d                      d
+One Box and One File Drawer 
+231⁄2"  15"      21"          TU7MOBILE     $  917
+d                             d
+d
+Two Box and One File Drawer 
+231⁄2"  15"      27"          TU7BBFM         $1022
+d                             d
+d
+Two File Drawers 
+231⁄2"  15"      27"          TU7FFM            $1000
+d                             d
+d
+Pedestal Cushion Top for Field Installation on TU7MOBILE only
+DActual                 DStyle                DU.S.
+dDimensions         dNumber            dBase
+dD     W      H
+d                              dPrice
+d
+d                              d
+Cushion Top without Handle
+231⁄2"  15"      21⁄4"       RPXTC24P          $294
+Cushion Top with Black Handle
+231⁄2"  15"      21⁄4"       RPXTCH24P       $396
+d
+d
+d
+Transitional
+These products fall into the established category, intended for customers with existing standards. Universal pedestals and lateral files
+are recommended for new customers.
+cOptions, continued from previous page
+February 2015

@@ -1,0 +1,91 @@
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 107
+• Tackable acoustical panel skin, fabric direction with 
+horizontal application, if selected: fabric price group 1
+• Performance tackable acoustical panel skin, fabric 
+direction with horizontal application, if selected: 
+fabric price group 1
+1 Style number
+2 Paint color number for skin surface.
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                 U.S. Price                     Required to Specify
+Surface                                                               12"H and 24"H and 36"H to
+Materials                                                              18"H        30"H        60"H
+                                   • Fabric price group A         –$    3          –$    4          –$    5     Specify fabric color number.
+                                  • Fabric price group 1         No cost        No cost        No cost   Specify fabric color number.
+                                   • Fabric price group 2         +$  14          +$  20          +$  25     Specify fabric color number.
+                                   • Fabric price group 3         +$  25          +$  35          +$  46     Specify fabric color number.
+                                   • Fabric price group 4         +$  37          +$  53          +$  73     Specify fabric color number.
+                                   • Fabric price group 5         +$  58          +$  83          +$114     Specify fabric color number. 
+                                   • Fabric price group 6         +$  79          +$112          +$157     Specify fabric color number.
+                                   • Fabric price group 7         +$101          +$143          +$198     Specify fabric color number.
+                                   • Fabric price group COM   +$  16          +$  16          +$  16     Specify fabric color number.
+                                         Fabric direction on 18"W to 60"W panels
+                                      • Vertical application           No cost                                            Specify with vertical application.
+Shared Components and Wiring and Cabling 
+Fabric Covered Panel Skins
+For Panel Buildups
+Tip: 72"W fabric-covered
+panel skins accommodate
+fabric in the horizontal 
+direction only.
+   Speciﬁcation Information
+  
+12"H                              18"H                              24"H                               30"H
+                  
+                                    
+                                    
+                                     
+                                 
+DWidth   DStyle           DU.S.        DStyle           DU.S.        DStyle           DU.S.         DStyle           DU.S.
+d             dNumber       dBase       dNumber       dBase       dNumber       dBase        dNumber       dBase
+d
+d
+dPrice
+d
+dPrice
+d
+dPrice        d
+dPrice
+d               d                        d                  d                        d                  d                        d                   d                        d
+Tackable Acoustical Skins
+18"             TS71218TK   $  72            TS71818TK   $  87            TS72418TK   $  97             TS73018TK   $125
+24"             TS71224TK  $  79            TS71824TK  $  96            TS72424TK   $106             TS73024TK   $136
+30"             TS71230TK  $  83            TS71830TK  $102            TS72430TK   $113             TS73030TK   $145
+36"             TS71236TK  $  87            TS71836TK  $107            TS72436TK   $119             TS73036TK   $156
+42"             TS71242TK  $  92            TS71842TK  $114            TS72442TK   $127             TS73042TK   $170
+48"             TS71248TK  $100            TS71848TK  $122            TS72448TK   $137             TS73048TK   $194
+60"             TS71260TK  $114            TS71860TK  $139            TS72460TK   $155             TS73060TK   $220
+72"             TS71272TK  $126            TS71872TK  $157            TS72472TK   $175             TS73072TK   $245
+  d               d                        d                  d                        d                  d                        d
+d
+d
+Performance Tackable Acoustical Skins
+18"             TS71218TA   $  78            TS71818TA   $  91            TS72418TA   $104             TS73018TA   $130
+24"             TS71224TA  $  83            TS71824TA  $  98            TS72424TA   $113             TS73024TA   $142
+30"             TS71230TA  $  89            TS71830TA  $105            TS72430TA   $121             TS73030TA   $152
+36"             TS71236TA  $  95            TS71836TA  $111            TS72436TA   $127             TS73036TA   $162
+42"             TS71242TA  $100            TS71842TA  $116            TS72442TA   $134             TS73042TA   $173
+48"             TS71248TA  $109            TS71848TA  $129            TS72448TA   $148             TS73048TA   $198
+60"             TS71260TA  $121            TS71860TA  $144            TS72460TA   $168             TS73060TA   $226
+72"             TS71272TA  $133            TS71872TA  $160            TS72472TA   $187             TS73072TA   $251
+  d               d                        d                  d                        d                  d                        d
+d
+d
+cSpecification Information, continued on next page
+434                                                                                                                                                                                                            Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: For further information
+about fabric direction, see
+page 713.
+Tip: 18"H, 30"H, and 42"H
+skins only work on junctions
+manufactured on or after
+October 10, 2011.
+February 2015

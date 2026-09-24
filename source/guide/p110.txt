@@ -1,0 +1,62 @@
+Shared Components
+Markerboard Skins
+110                                                                                                                                                                                                            Answer Solutions Specification Guide
+Markerboard skins finish
+the appearance of a panel and
+provide a writing surface for dry
+erase markers.
+When ordering skins to the floor
+an F suffix will be added to the
+end of the style number. The
+total height will still be 6" less
+than the panel height. Using the
+same example, if the panel is
+54"H, 48" of skin height will
+need to be specified. 
+cSpecifying, page 441
+...............................................................................................................................................
+Connections
+Skins extend onto junction
+and meet skin of adjacent
+panel. The slotted channel
+of the junction is accessible
+between these two skins.
+Skins sized to go to the
+floor extend to the bottom of
+the panel. They can be used
+on one or both sides of the
+panel. They can only be
+used in the bottom position.
+Tip: Omit base trim option
+should be selected on the
+panel frame when using a
+skin to the floor.
+Wiring & Cabling
+Power and communica-
+tion cannot be accessed in
+markerboard skins.
+Surface Materials
+Markerboard skin
+• White only
+Application Topics
+Panel buildups
+cPage 12
+...............................................................................................................................................
+...............................................................................................................................................
+Markerboard skins
+can be removed and reposi-
+tioned. They are not dedi-
+cated to a specific location.
+Skin is steel construction
+and can accept magnets 
+to display and share 
+information.
+Actual Dimensions
+Width        1753⁄64", 2353⁄64", 2953⁄64", 3553⁄64", 4153⁄64", 4753⁄64",
+                 5953⁄64", and 7153⁄64"
+Height      129⁄32", 187⁄16", 2441⁄64", 3013⁄16", and 37"
+Height      2829⁄64", 345⁄8", and 4013⁄16"
+To the 
+Floor Size
+                 
+February 2015

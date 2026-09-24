@@ -1,0 +1,35 @@
+226                                                                                                                                                                                                            Answer Solutions Specification Guide
+End panels, 27"H standard pedestals, side support brackets and FrameOne
+legs for Universal do not align properly with knife edge worksurfaces. Instead, use
+cantilevers as shown. 
+**Side support brackets will work to support the back end of a worksurface; front
+end is where they won’t align properly.
+Universal Systems Worksurfaces
+Knife Edge Worksurface Application Guidelines
+...............................................................................................................................................
+...............................................................................................................................................
+When planning an L-configuration, two UFB flat brackets should be
+used to support the worksurfaces. A cantilever is not wide enough to support
+the gap where the knife edge worksurface comes together.
+Freestanding L-configuration should be avoided due to profile on the
+backside of the worksurface.
+251/2"H Pedestal                                    Boxfile
+(cantilever supported worksurface)        (cantilever supported worksurface)
+Compatible storage includes 251/2"H pedestal with freestanding conver-
+sion kit, box/file mobile pedestals, and 1-high storage.
+Knife Edge with 27"H Lateral               Knife Edge with 251/2"H Pedestal
+and 27"H Pedestal 
+Knife edge worksurface over 27"H storage can make files difficult
+to access. Use a 251/2"H pedestal that is flush with the front edge of the work-
+surface to avoid this issue.
+Knife edge worksurfaces require reinforcement channels for unsup-
+ported spans greater than 48". Use TS7WKSPT39 for 54"W worksurfaces,
+TS7WKSPT for 60"W and 66"W worksurfaces, and TS7WKSPT72 for 72"
+worksurfaces.
+Although a 251/2"H pedestal looks good when paired with knife
+edge, keep in mind that it does not align with other storage – drawers and
+base trim do not align. Use a box/file mobile pedestal instead.
+Knife edge
+Flat bracket
+...............................................................................................................................................
+February 2015

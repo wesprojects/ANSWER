@@ -1,0 +1,40 @@
+Panels—Square and Oval Trim
+Answer Solutions Specification Guide                                                                                                                                                cStatement of Line, continued  71
+Statement of Line
+Change-of-Height Trim—Square and Oval Trim
+                 Standard                             Stacking            Standard                             Stacking
+                 Slim                                    Slim                   Cable                                   Cable
+                 Profile                                 Profile                Routing                                Routing
+12"H         •                                        •                       •                                         •
+18"H         •                                        •                       •                                         •
+24"H         •                                        •                       •                                         •
+30"H         •                                        •                       •                                         •
+36"H         •                                        •                       •                                         •
+  Understanding
+cPage 80
+  Specifying
+cPages 418-420
+Base Horizontal Frame Packages—Square and Oval Trim
+18"W        24"W        30"W        36"W        42"W        48"W        60"W        72"W
+•             •             •             •             •             •             •      •
+scale 70
+Top cap
+Horizontal
+bars
+Base
+covers
+  Understanding
+cPage 88
+  Specifying
+cPages 422-424
+Stacking Horizontal Frame Packages—Square and Oval Trim
+18"W        24"W        30"W        36"W        42"W        48"W        60"W        72"W
+•             •             •             •             •             •             •      •
+scale 50
+  Understanding
+cPage 92
+  Specifying
+cPage 425
+Panels—Square and
+Oval Trim
+February 2015

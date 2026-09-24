@@ -1,0 +1,80 @@
+TS Series Worksurfaces 
+TS Series Transition Worksurfaces
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+TS Series Transition
+Worksurfaces
+TS Series
+Worksurfaces
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            491
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+  Related                   • Worksurface-height power and communication access        cPage 555
+  Products                • Worksurface legs and supports                                             cPage 502
+                                     • Grommet package                                                                 cPage 504
+   Speciﬁcation Information
+DDepth            DWidth      DStyle                    DU.S.      DStyle                    DU.S.
+dA
+B
+d
+dNumber               dPrice    dNumber               dBase
+d                      d               dLPL                      d
+dHPL                     dPrice
+d                      d               d                            d
+d                            d
+18"         24"          36"              TSAWLX1236        $264         TSAWHX1236       $328
+18"         24"          42"              TSAWLX1242        $289         TSAWHX1242       $359
+18"         24"          48"              TSAWLX1248        $346         TSAWHX1248       $429
+24"         18"          36"              TSAWLX2136        $264         TSAWHX2136       $328
+24"         18"          42"              TSAWLX2142        $289         TSAWHX2142       $359
+24"         18"          48"              TSAWLX2148        $346         TSAWHX2148       $429
+24"         30"          36"              TSAWLX2336        $296         TSAWHX2336       $387                
+24"         30"          42"              TSAWLX2342        $326         TSAWHX2342       $408                
+24"         30"          48"              TSAWLX2348        $387         TSAWHX2348       $473                
+30"         24"          36"              TSAWLX3236        $296         TSAWHX3236       $387                
+30"         24"          42"              TSAWLX3242        $326         TSAWHX3242       $408                
+30"         24"          48"              TSAWLX3248        $387         TSAWHX3248       $473                
+d                      d               d                            d
+d                            d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 176
+• 13⁄16"-thick worksurface: Low-Pressure Laminate or 
+High-Pressure Laminate
+• 3 mm radius proﬁle edge on user’s side: plastic 
+• Side and back edges: plastic default to match user's side
+A
+B
+W
+1 Style number
+2 Low-Pressure Laminate or High-
+Pressure Laminate color number for
+worksurface, as appropriate
+3 Plastic edge band color number for
+worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Standard worksurfaces
+are 13⁄16" thick. However,
+the actual thickness
+between Low-Pressure
+Laminate (LPL) and High-
+Pressure Laminate (HPL)
+worksurfaces is slightly dif-
+ferent. It is recommended
+that only worksurfaces of the
+same type are speciﬁed in a
+given application. In addi-
+tion, there may be sheen or
+texture differences when
+using LPL and HPL in adja-
+cent applications. Please
+use caution when mixing
+and matching different work-
+surface types.
+February 2015

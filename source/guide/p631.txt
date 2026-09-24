@@ -1,0 +1,57 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            631
+Universal Storage
+Accessories for Universal
+Curved Front Bin and
+Universal L-Shelf
+Universal Storage
+Accessories for Universal Curved Front Bin and 
+Universal L-Shelf                                                                                         
+Bookends
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 294
+• Package of two or twenty bookends: 6695 Midnight only
+Style number
+Specification Information
+DStyle          DQuantity       DU.S.
+dNumber      d                     dPrice
+d                      d                         d
+KDIV02          2                       $  27
+KDIV20          20                       $256
+d                      d                         d
+ADA Pull
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 294
+• ADA pull: 6695 Midnight only
+Style number
+Specification Information
+DStyle          DU.S.
+dNumber      dPrice
+d                      d
+KPULL            $47
+d                      d
+Ganging Bracket
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 294
+• Package of one or twenty ganging brackets:
+all paint price groups
+1 Style number
+2 Paint color number
+cSee Surface Materials, page 708.
+Specification Information
+DStyle          DQuantity       DU.S.
+dNumber      d                     dPrice
+d                      d                         d
+KGANG           1                       $  16
+KGANG20      20                       $279
+d                      d                         d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

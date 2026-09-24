@@ -1,0 +1,5333 @@
+{
+ "section": "wiring",
+ "title": "Wiring and Cabling",
+ "pages": [
+  141,
+  488
+ ],
+ "coveredPages": {
+  "understanding": [
+   141,
+   170
+  ],
+  "specifying": [
+   474,
+   488
+  ]
+ },
+ "families": [
+  {
+   "id": "cable-tray",
+   "title": "Cable Trays",
+   "page": 474,
+   "understandingPage": 162,
+   "trim": null,
+   "category": "cabling",
+   "standardIncludes": [
+    "Cable tray: black paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Cables may also be routed in top of powerkit.",
+    "Tip: One cable tray can be optioned at no cost when ordering base horizontal frame or panel packages.",
+    "Tip: Cable carriers can be added to 24\"–72\" wide trays. See Montage Specification Guide for style number ZCC."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "W",
+    "H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS718CT",
+     "desc": "Cable tray, 18\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 18,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 23,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724CT",
+     "desc": "Cable tray, 24\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 24,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 27,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS730CT",
+     "desc": "Cable tray, 30\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 30,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 29,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS736CT",
+     "desc": "Cable tray, 36\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 36,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 36,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS742CT",
+     "desc": "Cable tray, 42\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 42,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS748CT",
+     "desc": "Cable tray, 48\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 48,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 47,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS760CT",
+     "desc": "Cable tray, 60\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 60,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS772CT",
+     "desc": "Cable tray, 72\"W x 2\"H, black paint",
+     "attrs": {
+      "width": 72,
+      "height": 2,
+      "finish": "black paint"
+     },
+     "price": 62,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "powerkit",
+   "title": "Powerkits",
+   "page": 475,
+   "understandingPage": 162,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Powerkit to accommodate modular duplex and USB receptacles on both sides: black plastic",
+    "Supporting powertray: black paint",
+    "Harness with modular connectors"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Remember to order receptacles and faceplates. Pages 477–479"
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Two sub-tables: Powerkits and Non-PVC Powerkits (style suffix N)."
+   ],
+   "columns": [
+    "Width",
+    "Number of Duplex Receptacles Per Side",
+    "Style Number",
+    "U.S. Price",
+    "Non-PVC Style Number",
+    "Non-PVC U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7PK24X",
+     "desc": "Powerkit 24\"W, 3+1 wiring, 1 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 24,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 1,
+      "powerBlocks": 1
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK24XN",
+     "desc": "Powerkit 24\"W, 3+1 wiring, non-PVC, 1 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 24,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 1,
+      "powerBlocks": 1
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK30X",
+     "desc": "Powerkit 30\"W, 3+1 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 30,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK30XN",
+     "desc": "Powerkit 30\"W, 3+1 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 30,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK36X",
+     "desc": "Powerkit 36\"W, 3+1 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 36,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK36XN",
+     "desc": "Powerkit 36\"W, 3+1 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 36,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK42X",
+     "desc": "Powerkit 42\"W, 3+1 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 42,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK42XN",
+     "desc": "Powerkit 42\"W, 3+1 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 42,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK48X",
+     "desc": "Powerkit 48\"W, 3+1 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 48,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK48XN",
+     "desc": "Powerkit 48\"W, 3+1 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 48,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK60X",
+     "desc": "Powerkit 60\"W, 3+1 wiring, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 60,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK60XN",
+     "desc": "Powerkit 60\"W, 3+1 wiring, non-PVC, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 60,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 307,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK72X",
+     "desc": "Powerkit 72\"W, 3+1 wiring, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 72,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK72XN",
+     "desc": "Powerkit 72\"W, 3+1 wiring, non-PVC, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 72,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 307,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK24Y",
+     "desc": "Powerkit 24\"W, 2+2 wiring, 1 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 24,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 1,
+      "powerBlocks": 1
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK24YN",
+     "desc": "Powerkit 24\"W, 2+2 wiring, non-PVC, 1 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 24,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 1,
+      "powerBlocks": 1
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK30Y",
+     "desc": "Powerkit 30\"W, 2+2 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 30,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK30YN",
+     "desc": "Powerkit 30\"W, 2+2 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 30,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK36Y",
+     "desc": "Powerkit 36\"W, 2+2 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 36,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK36YN",
+     "desc": "Powerkit 36\"W, 2+2 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 36,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK42Y",
+     "desc": "Powerkit 42\"W, 2+2 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 42,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK42YN",
+     "desc": "Powerkit 42\"W, 2+2 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 42,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK48Y",
+     "desc": "Powerkit 48\"W, 2+2 wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 48,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK48YN",
+     "desc": "Powerkit 48\"W, 2+2 wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 48,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK60Y",
+     "desc": "Powerkit 60\"W, 2+2 wiring, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 60,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK60YN",
+     "desc": "Powerkit 60\"W, 2+2 wiring, non-PVC, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 60,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 307,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK72Y",
+     "desc": "Powerkit 72\"W, 2+2 wiring, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 72,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK72YN",
+     "desc": "Powerkit 72\"W, 2+2 wiring, non-PVC, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 72,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 307,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK24Z",
+     "desc": "Powerkit 24\"W, 3SN wiring, 1 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 24,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 1,
+      "powerBlocks": 1
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK24ZN",
+     "desc": "Powerkit 24\"W, 3SN wiring, non-PVC, 1 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 24,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 1,
+      "powerBlocks": 1
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK30Z",
+     "desc": "Powerkit 30\"W, 3SN wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 30,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK30ZN",
+     "desc": "Powerkit 30\"W, 3SN wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 30,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK36Z",
+     "desc": "Powerkit 36\"W, 3SN wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 36,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK36ZN",
+     "desc": "Powerkit 36\"W, 3SN wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 36,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK42Z",
+     "desc": "Powerkit 42\"W, 3SN wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 42,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK42ZN",
+     "desc": "Powerkit 42\"W, 3SN wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 42,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK48Z",
+     "desc": "Powerkit 48\"W, 3SN wiring, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 48,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK48ZN",
+     "desc": "Powerkit 48\"W, 3SN wiring, non-PVC, 2 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 48,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 2,
+      "powerBlocks": 2
+     },
+     "price": 207,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK60Z",
+     "desc": "Powerkit 60\"W, 3SN wiring, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 60,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK60ZN",
+     "desc": "Powerkit 60\"W, 3SN wiring, non-PVC, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 60,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 307,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK72Z",
+     "desc": "Powerkit 72\"W, 3SN wiring, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 72,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PK72ZN",
+     "desc": "Powerkit 72\"W, 3SN wiring, non-PVC, 4 duplex receptacle location(s) per side",
+     "attrs": {
+      "width": 72,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 4,
+      "powerBlocks": 4
+     },
+     "price": 307,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7PK<width><X|Y|Z>[N]",
+     "meaning": "width 24/30/36/42/48/60/72; X=4-circuit 3+1, Y=4-circuit 2+2, Z=3-circuit 3SN; trailing N = non-PVC"
+    }
+   ]
+  },
+  {
+   "id": "pass-through-powerkit",
+   "title": "Pass-Through Powerkits",
+   "page": 476,
+   "understandingPage": 162,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Powerkit to accommodate modular receptacles on both sides: black plastic",
+    "Supporting powertray: black paint",
+    "Harness with modular connectors"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Number of Duplex Receptacles Per Side is printed as 0 for every pass-through powerkit.",
+    "Two sub-tables: Pass-Through Powerkits and Non-PVC Pass-Through Powerkits (suffix N)."
+   ],
+   "columns": [
+    "Width",
+    "Number of Duplex Receptacles Per Side",
+    "Style Number",
+    "U.S. Price",
+    "Non-PVC Style Number",
+    "Non-PVC U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7PT18X",
+     "desc": "Pass-through powerkit 18\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 18,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT18XN",
+     "desc": "Pass-through powerkit 18\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 18,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT24X",
+     "desc": "Pass-through powerkit 24\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 24,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT24XN",
+     "desc": "Pass-through powerkit 24\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 24,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT30X",
+     "desc": "Pass-through powerkit 30\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 30,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT30XN",
+     "desc": "Pass-through powerkit 30\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 30,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT36X",
+     "desc": "Pass-through powerkit 36\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 36,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT36XN",
+     "desc": "Pass-through powerkit 36\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 36,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT42X",
+     "desc": "Pass-through powerkit 42\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 42,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT42XN",
+     "desc": "Pass-through powerkit 42\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 42,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT48X",
+     "desc": "Pass-through powerkit 48\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 48,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT48XN",
+     "desc": "Pass-through powerkit 48\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 48,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT60X",
+     "desc": "Pass-through powerkit 60\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 60,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 176,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT60XN",
+     "desc": "Pass-through powerkit 60\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 60,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 188,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT72X",
+     "desc": "Pass-through powerkit 72\"W, 3+1 wiring, no receptacles",
+     "attrs": {
+      "width": 72,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 176,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT72XN",
+     "desc": "Pass-through powerkit 72\"W, 3+1 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 72,
+      "schematic": "3+1",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 188,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT18Y",
+     "desc": "Pass-through powerkit 18\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 18,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT18YN",
+     "desc": "Pass-through powerkit 18\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 18,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT24Y",
+     "desc": "Pass-through powerkit 24\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 24,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT24YN",
+     "desc": "Pass-through powerkit 24\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 24,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT30Y",
+     "desc": "Pass-through powerkit 30\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 30,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT30YN",
+     "desc": "Pass-through powerkit 30\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 30,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT36Y",
+     "desc": "Pass-through powerkit 36\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 36,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT36YN",
+     "desc": "Pass-through powerkit 36\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 36,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT42Y",
+     "desc": "Pass-through powerkit 42\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 42,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT42YN",
+     "desc": "Pass-through powerkit 42\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 42,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT48Y",
+     "desc": "Pass-through powerkit 48\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 48,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT48YN",
+     "desc": "Pass-through powerkit 48\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 48,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT60Y",
+     "desc": "Pass-through powerkit 60\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 60,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 176,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT60YN",
+     "desc": "Pass-through powerkit 60\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 60,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 188,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT72Y",
+     "desc": "Pass-through powerkit 72\"W, 2+2 wiring, no receptacles",
+     "attrs": {
+      "width": 72,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 176,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT72YN",
+     "desc": "Pass-through powerkit 72\"W, 2+2 wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 72,
+      "schematic": "2+2",
+      "circuits": 4,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 188,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT18Z",
+     "desc": "Pass-through powerkit 18\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 18,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT18ZN",
+     "desc": "Pass-through powerkit 18\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 18,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT24Z",
+     "desc": "Pass-through powerkit 24\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 24,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT24ZN",
+     "desc": "Pass-through powerkit 24\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 24,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT30Z",
+     "desc": "Pass-through powerkit 30\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 30,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT30ZN",
+     "desc": "Pass-through powerkit 30\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 30,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT36Z",
+     "desc": "Pass-through powerkit 36\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 36,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT36ZN",
+     "desc": "Pass-through powerkit 36\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 36,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT42Z",
+     "desc": "Pass-through powerkit 42\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 42,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT42ZN",
+     "desc": "Pass-through powerkit 42\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 42,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT48Z",
+     "desc": "Pass-through powerkit 48\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 48,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT48ZN",
+     "desc": "Pass-through powerkit 48\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 48,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 168,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT60Z",
+     "desc": "Pass-through powerkit 60\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 60,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 176,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT60ZN",
+     "desc": "Pass-through powerkit 60\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 60,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 188,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT72Z",
+     "desc": "Pass-through powerkit 72\"W, 3SN wiring, no receptacles",
+     "attrs": {
+      "width": 72,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": false,
+      "receptaclesPerSide": 0
+     },
+     "price": 176,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7PT72ZN",
+     "desc": "Pass-through powerkit 72\"W, 3SN wiring, non-PVC, no receptacles",
+     "attrs": {
+      "width": 72,
+      "schematic": "3SN",
+      "circuits": 3,
+      "nonPVC": true,
+      "receptaclesPerSide": 0
+     },
+     "price": 188,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7PT<width><X|Y|Z>[N]",
+     "meaning": "width 18/24/30/36/42/48/60/72; X=3+1, Y=2+2, Z=3SN; N = non-PVC"
+    }
+   ]
+  },
+  {
+   "id": "duplex-receptacle",
+   "title": "Duplex Receptacles",
+   "page": 477,
+   "understandingPage": 167,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Receptacle: plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for receptacle: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6651 Tungsten, 6652 Titanium, 6654 Sand, 6697 Fog, 6B03 Red"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Columns: 15-Amp Receptacles (System Ground, Isolated Ground) and 20-Amp Receptacles (System Ground, Isolated Ground); rows Line 1-4 per schematic (Line 1-3 for 3SN).",
+    "Orange triangle on receptacle indicates to users the receptacles that are connected to isolated grounds (page 167)."
+   ],
+   "columns": [
+    "Line",
+    "15-Amp System Ground Style Number",
+    "U.S. Price",
+    "15-Amp Isolated Ground Style Number",
+    "U.S. Price",
+    "20-Amp System Ground Style Number",
+    "U.S. Price",
+    "20-Amp Isolated Ground Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS71SSX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 1, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 1,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71SGX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 1, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 1,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R1SGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 1, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 1,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R1IGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 1, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 1,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72SSX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 2, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 2,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72SGX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 2, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 2,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R2SGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 2, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 2,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R2IGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 2, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 2,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73SSX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 3, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 3,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73SGX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 3, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 3,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R3SGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 3, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 3,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R3IGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 3, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 3,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS74SSX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 4, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 4,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS74SGX",
+     "desc": "15-amp duplex receptacle, 3+1 wiring, line 4, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3+1",
+      "line": 4,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R4SGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 4, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 4,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB1R4IGH",
+     "desc": "20-amp duplex receptacle, 3+1 wiring, line 4, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3+1",
+      "line": 4,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71SSY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 1, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 1,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71SGY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 1, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 1,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R1SGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 1, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 1,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R1IGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 1, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 1,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72SSY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 2, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 2,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72SGY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 2, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 2,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R2SGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 2, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 2,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R2IGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 2, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 2,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73SSY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 3, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 3,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73SGY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 3, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 3,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R3SGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 3, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 3,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R3IGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 3, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 3,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS74SSY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 4, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 4,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS74SGY",
+     "desc": "15-amp duplex receptacle, 2+2 wiring, line 4, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "2+2",
+      "line": 4,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R4SGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 4, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 4,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB2R4IGH",
+     "desc": "20-amp duplex receptacle, 2+2 wiring, line 4, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "2+2",
+      "line": 4,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71SSZ",
+     "desc": "15-amp duplex receptacle, 3SN wiring, line 1, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3SN",
+      "line": 1,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71SGZ",
+     "desc": "15-amp duplex receptacle, 3SN wiring, line 1, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3SN",
+      "line": 1,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB3R1SGH",
+     "desc": "20-amp duplex receptacle, 3SN wiring, line 1, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3SN",
+      "line": 1,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB3R1IGH",
+     "desc": "20-amp duplex receptacle, 3SN wiring, line 1, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3SN",
+      "line": 1,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72SSZ",
+     "desc": "15-amp duplex receptacle, 3SN wiring, line 2, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3SN",
+      "line": 2,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72SGZ",
+     "desc": "15-amp duplex receptacle, 3SN wiring, line 2, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3SN",
+      "line": 2,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB3R2SGH",
+     "desc": "20-amp duplex receptacle, 3SN wiring, line 2, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3SN",
+      "line": 2,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB3R2IGH",
+     "desc": "20-amp duplex receptacle, 3SN wiring, line 2, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3SN",
+      "line": 2,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73SSZ",
+     "desc": "15-amp duplex receptacle, 3SN wiring, line 3, system ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3SN",
+      "line": 3,
+      "ground": "system"
+     },
+     "price": 40,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73SGZ",
+     "desc": "15-amp duplex receptacle, 3SN wiring, line 3, isolated ground",
+     "attrs": {
+      "amps": 15,
+      "schematic": "3SN",
+      "line": 3,
+      "ground": "isolated"
+     },
+     "price": 52,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB3R3SGH",
+     "desc": "20-amp duplex receptacle, 3SN wiring, line 3, system ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3SN",
+      "line": 3,
+      "ground": "system"
+     },
+     "price": 67,
+     "optionPrices": {}
+    },
+    {
+     "style": "ZB3R3IGH",
+     "desc": "20-amp duplex receptacle, 3SN wiring, line 3, isolated ground",
+     "attrs": {
+      "amps": 20,
+      "schematic": "3SN",
+      "line": 3,
+      "ground": "isolated"
+     },
+     "price": 86,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7<line>SS<X|Y|Z>",
+     "meaning": "15-amp, system ground"
+    },
+    {
+     "pattern": "TS7<line>SG<X|Y|Z>",
+     "meaning": "15-amp, isolated ground"
+    },
+    {
+     "pattern": "ZB<1|2|3>R<line>SGH",
+     "meaning": "20-amp, system ground; ZB1=3+1, ZB2=2+2, ZB3=3SN"
+    },
+    {
+     "pattern": "ZB<1|2|3>R<line>IGH",
+     "meaning": "20-amp, isolated ground; ZB1=3+1, ZB2=2+2, ZB3=3SN"
+    }
+   ],
+   "finishes": {
+    "plastic": [
+     "6000 Black",
+     "6009 Arctic White",
+     "6249 Platinum Solid",
+     "6651 Tungsten",
+     "6652 Titanium",
+     "6654 Sand",
+     "6697 Fog",
+     "6B03 Red"
+    ]
+   }
+  },
+  {
+   "id": "usb-receptacle",
+   "title": "USB Receptacles",
+   "page": 478,
+   "understandingPage": 167,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "USB receptacle: plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for USB receptacle: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6651 Tungsten, 6652 Titanium, 6654 Sand, 6697 Fog, 6B03 Red"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "USB receptacles offer two charging ports; each port provides 1 amp of output (pages 163, 167)."
+   ],
+   "columns": [
+    "Line",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS71USBX",
+     "desc": "USB receptacle, 3+1 wiring, line 1",
+     "attrs": {
+      "schematic": "3+1",
+      "line": 1,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72USBX",
+     "desc": "USB receptacle, 3+1 wiring, line 2",
+     "attrs": {
+      "schematic": "3+1",
+      "line": 2,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73USBX",
+     "desc": "USB receptacle, 3+1 wiring, line 3",
+     "attrs": {
+      "schematic": "3+1",
+      "line": 3,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS74USBX",
+     "desc": "USB receptacle, 3+1 wiring, line 4",
+     "attrs": {
+      "schematic": "3+1",
+      "line": 4,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71USBY",
+     "desc": "USB receptacle, 2+2 wiring, line 1",
+     "attrs": {
+      "schematic": "2+2",
+      "line": 1,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72USBY",
+     "desc": "USB receptacle, 2+2 wiring, line 2",
+     "attrs": {
+      "schematic": "2+2",
+      "line": 2,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73USBY",
+     "desc": "USB receptacle, 2+2 wiring, line 3",
+     "attrs": {
+      "schematic": "2+2",
+      "line": 3,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS74USBY",
+     "desc": "USB receptacle, 2+2 wiring, line 4",
+     "attrs": {
+      "schematic": "2+2",
+      "line": 4,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS71USBZ",
+     "desc": "USB receptacle, 3SN wiring, line 1",
+     "attrs": {
+      "schematic": "3SN",
+      "line": 1,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS72USBZ",
+     "desc": "USB receptacle, 3SN wiring, line 2",
+     "attrs": {
+      "schematic": "3SN",
+      "line": 2,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS73USBZ",
+     "desc": "USB receptacle, 3SN wiring, line 3",
+     "attrs": {
+      "schematic": "3SN",
+      "line": 3,
+      "usbPorts": 2,
+      "ampsPerPort": 1
+     },
+     "price": 101,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7<line>USB<X|Y|Z>",
+     "meaning": "line 1-4 (1-3 for Z/3SN)"
+    }
+   ],
+   "finishes": {
+    "plastic": [
+     "6000 Black",
+     "6009 Arctic White",
+     "6249 Platinum Solid",
+     "6651 Tungsten",
+     "6652 Titanium",
+     "6654 Sand",
+     "6697 Fog",
+     "6B03 Red"
+    ]
+   }
+  },
+  {
+   "id": "faceplate",
+   "title": "Faceplate",
+   "page": 479,
+   "understandingPage": 167,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "One faceplate: plastic",
+    "Ordered individually"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for faceplate: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6651 Tungsten, 6652 Titanium, 6654 Sand, 6697 Fog"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Faceplate colors exclude 6B03 Red (7 colors)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7UFPLATE",
+     "desc": "Faceplate for duplex receptacle and communications",
+     "attrs": {
+      "use": "duplex receptacle and communications"
+     },
+     "price": 5,
+     "optionPrices": {}
+    }
+   ],
+   "finishes": {
+    "plastic": [
+     "6000 Black",
+     "6009 Arctic White",
+     "6249 Platinum Solid",
+     "6651 Tungsten",
+     "6652 Titanium",
+     "6654 Sand",
+     "6697 Fog"
+    ]
+   }
+  },
+  {
+   "id": "junction-box-faceplate-modular",
+   "title": "Junction Box Faceplate–Modular",
+   "page": 479,
+   "understandingPage": 165,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Non-PVC straight/flush junction box faceplate"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Power schematic",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Power Schematics",
+     "name": "3+1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1."
+    },
+    {
+     "group": "Power Schematics",
+     "name": "2+2",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2."
+    },
+    {
+     "group": "Power Schematics",
+     "name": "3SN",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN."
+    },
+    {
+     "group": "Faceplate",
+     "name": "90° junction box faceplate",
+     "price": 37,
+     "priceText": "+$37",
+     "spec": "Specify with 90° faceplate."
+    },
+    {
+     "group": "PVC",
+     "name": "PVC junction box faceplate",
+     "price": -10,
+     "priceText": "–$10",
+     "spec": "Specify with PVC."
+    }
+   ],
+   "tips": [
+    "Tip: 90° is an option."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Non-PVC is standard; PVC version can be optioned (page 165).",
+    "Used with any modular harness length when 6', 12', and 24' lengths are not appropriate (page 165)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "CQVM",
+     "desc": "Modular junction box faceplate, non-PVC, straight/flush",
+     "attrs": {
+      "shape": "straight/flush",
+      "nonPVC": true
+     },
+     "price": 66,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "base-power-infeed",
+   "title": "Base Power Infeeds",
+   "page": 480,
+   "understandingPage": 158,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Power infeed cover: plastic",
+    "1⁄2\"-diameter conduit: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for power infeed assembly cover: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6651 Tungsten, 6652 Titanium, 6654 Sand, 6697 Fog, 6B03 Red"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Power infeed occupies one receptacle location on powerkit.",
+    "Tip: Power infeed sits proud of the panel approximately 3\" and will interfere with Universal storage with the Universal 3\" base, FrameOne foot base, or c:scape glide."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Separate 'For Use in San Francisco' versions (SF in style number) at the same prices."
+   ],
+   "columns": [
+    "Length",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS76BPX",
+     "desc": "Base power infeed, 6', 3+1 wiring",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3+1",
+      "sanFrancisco": false
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712BPX",
+     "desc": "Base power infeed, 12', 3+1 wiring",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3+1",
+      "sanFrancisco": false
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76BPSFX",
+     "desc": "Base power infeed, 6', 3+1 wiring, for use in San Francisco",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3+1",
+      "sanFrancisco": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712BPSFX",
+     "desc": "Base power infeed, 12', 3+1 wiring, for use in San Francisco",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3+1",
+      "sanFrancisco": true
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76BPY",
+     "desc": "Base power infeed, 6', 2+2 wiring",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "2+2",
+      "sanFrancisco": false
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712BPY",
+     "desc": "Base power infeed, 12', 2+2 wiring",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "2+2",
+      "sanFrancisco": false
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76BPSFY",
+     "desc": "Base power infeed, 6', 2+2 wiring, for use in San Francisco",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "2+2",
+      "sanFrancisco": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712BPSFY",
+     "desc": "Base power infeed, 12', 2+2 wiring, for use in San Francisco",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "2+2",
+      "sanFrancisco": true
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76BPZ",
+     "desc": "Base power infeed, 6', 3SN wiring",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3SN",
+      "sanFrancisco": false
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712BPZ",
+     "desc": "Base power infeed, 12', 3SN wiring",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3SN",
+      "sanFrancisco": false
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76BPSFZ",
+     "desc": "Base power infeed, 6', 3SN wiring, for use in San Francisco",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3SN",
+      "sanFrancisco": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712BPSFZ",
+     "desc": "Base power infeed, 12', 3SN wiring, for use in San Francisco",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3SN",
+      "sanFrancisco": true
+     },
+     "price": 264,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7<6|12>BP[SF]<X|Y|Z>",
+     "meaning": "length 6' or 12'; SF = for use in San Francisco; X/Y/Z schematic"
+    }
+   ],
+   "finishes": {
+    "plastic (cover)": [
+     "6000 Black",
+     "6009 Arctic White",
+     "6249 Platinum Solid",
+     "6651 Tungsten",
+     "6652 Titanium",
+     "6654 Sand",
+     "6697 Fog",
+     "6B03 Red"
+    ]
+   }
+  },
+  {
+   "id": "base-power-infeed-nyc",
+   "title": "Base Power Infeeds for Use in New York City",
+   "page": 481,
+   "understandingPage": 159,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Power infeed assembly",
+    "1⁄2\"-diameter conduit",
+    "Power infeed tray: black paint only",
+    "Power infeed cover: black paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Power infeed sits proud of the panel approximately 3\" and will interfere with Universal storage with the Universal 3\" base, FrameOne foot base, or c:scape glide."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Two sub-tables: standard and Non-PVC (suffix N)."
+   ],
+   "columns": [
+    "Corresponding Panel Width",
+    "Style Number",
+    "U.S. Price",
+    "Non-PVC Corresponding Panel Width",
+    "Non-PVC Style Number",
+    "Non-PVC U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7BPNY24X",
+     "desc": "NYC base power infeed for 24\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 24,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY24XN",
+     "desc": "NYC base power infeed for 24\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 24,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY30X",
+     "desc": "NYC base power infeed for 30\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 30,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY30XN",
+     "desc": "NYC base power infeed for 30\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 30,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY36X",
+     "desc": "NYC base power infeed for 36\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 36,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY36XN",
+     "desc": "NYC base power infeed for 36\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 36,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY42X",
+     "desc": "NYC base power infeed for 42\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 42,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY42XN",
+     "desc": "NYC base power infeed for 42\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 42,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY48X",
+     "desc": "NYC base power infeed for 48\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 48,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY48XN",
+     "desc": "NYC base power infeed for 48\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 48,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY60X",
+     "desc": "NYC base power infeed for 60\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 60,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY60XN",
+     "desc": "NYC base power infeed for 60\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 60,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY72X",
+     "desc": "NYC base power infeed for 72\"W panel, 3+1 wiring",
+     "attrs": {
+      "panelWidth": 72,
+      "schematic": "3+1",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY72XN",
+     "desc": "NYC base power infeed for 72\"W panel, 3+1 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 72,
+      "schematic": "3+1",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY24Y",
+     "desc": "NYC base power infeed for 24\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 24,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY24YN",
+     "desc": "NYC base power infeed for 24\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 24,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY30Y",
+     "desc": "NYC base power infeed for 30\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 30,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY30YN",
+     "desc": "NYC base power infeed for 30\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 30,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY36Y",
+     "desc": "NYC base power infeed for 36\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 36,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY36YN",
+     "desc": "NYC base power infeed for 36\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 36,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY42Y",
+     "desc": "NYC base power infeed for 42\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 42,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY42YN",
+     "desc": "NYC base power infeed for 42\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 42,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY48Y",
+     "desc": "NYC base power infeed for 48\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 48,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY48YN",
+     "desc": "NYC base power infeed for 48\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 48,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY60Y",
+     "desc": "NYC base power infeed for 60\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 60,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY60YN",
+     "desc": "NYC base power infeed for 60\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 60,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY72Y",
+     "desc": "NYC base power infeed for 72\"W panel, 2+2 wiring",
+     "attrs": {
+      "panelWidth": 72,
+      "schematic": "2+2",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY72YN",
+     "desc": "NYC base power infeed for 72\"W panel, 2+2 wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 72,
+      "schematic": "2+2",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY24Z",
+     "desc": "NYC base power infeed for 24\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 24,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY24ZN",
+     "desc": "NYC base power infeed for 24\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 24,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY30Z",
+     "desc": "NYC base power infeed for 30\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 30,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY30ZN",
+     "desc": "NYC base power infeed for 30\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 30,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY36Z",
+     "desc": "NYC base power infeed for 36\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 36,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY36ZN",
+     "desc": "NYC base power infeed for 36\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 36,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY42Z",
+     "desc": "NYC base power infeed for 42\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 42,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY42ZN",
+     "desc": "NYC base power infeed for 42\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 42,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY48Z",
+     "desc": "NYC base power infeed for 48\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 48,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY48ZN",
+     "desc": "NYC base power infeed for 48\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 48,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY60Z",
+     "desc": "NYC base power infeed for 60\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 60,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY60ZN",
+     "desc": "NYC base power infeed for 60\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 60,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY72Z",
+     "desc": "NYC base power infeed for 72\"W panel, 3SN wiring",
+     "attrs": {
+      "panelWidth": 72,
+      "schematic": "3SN",
+      "nonPVC": false,
+      "newYorkCity": true
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7BPNY72ZN",
+     "desc": "NYC base power infeed for 72\"W panel, 3SN wiring, non-PVC",
+     "attrs": {
+      "panelWidth": 72,
+      "schematic": "3SN",
+      "nonPVC": true,
+      "newYorkCity": true
+     },
+     "price": 257,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7BPNY<width><X|Y|Z>[N]",
+     "meaning": "width = corresponding panel width 24-72; N = non-PVC"
+    }
+   ]
+  },
+  {
+   "id": "hardwired-powerkit",
+   "title": "Hardwired Powerkits",
+   "page": 482,
+   "understandingPage": 166,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Power tray",
+    "Junction box(es)",
+    "Cover plate(s)"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Specify hardwire base trims when accessing a hardwire powerkit in the base."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "No wiring-schematic suffix; receptacles, conduits and wiring are supplied by the electrician (page 166)."
+   ],
+   "columns": [
+    "Corresponding Panel Width",
+    "Number of Junction Boxes",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7CPK24",
+     "desc": "Hardwired powerkit for 24\"W panel, 1 junction box",
+     "attrs": {
+      "panelWidth": 24,
+      "junctionBoxes": 1
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7CPK30",
+     "desc": "Hardwired powerkit for 30\"W panel, 2 junction boxes",
+     "attrs": {
+      "panelWidth": 30,
+      "junctionBoxes": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7CPK36",
+     "desc": "Hardwired powerkit for 36\"W panel, 2 junction boxes",
+     "attrs": {
+      "panelWidth": 36,
+      "junctionBoxes": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7CPK42",
+     "desc": "Hardwired powerkit for 42\"W panel, 2 junction boxes",
+     "attrs": {
+      "panelWidth": 42,
+      "junctionBoxes": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7CPK48",
+     "desc": "Hardwired powerkit for 48\"W panel, 2 junction boxes",
+     "attrs": {
+      "panelWidth": 48,
+      "junctionBoxes": 2
+     },
+     "price": 196,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7CPK60",
+     "desc": "Hardwired powerkit for 60\"W panel, 2 junction boxes",
+     "attrs": {
+      "panelWidth": 60,
+      "junctionBoxes": 2
+     },
+     "price": 297,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7CPK72",
+     "desc": "Hardwired powerkit for 72\"W panel, 2 junction boxes",
+     "attrs": {
+      "panelWidth": 72,
+      "junctionBoxes": 2
+     },
+     "price": 297,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "multipurpose-power-infeed",
+   "title": "Multipurpose Power Infeeds",
+   "page": 483,
+   "understandingPage": 164,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Multipurpose power infeed with modular connector",
+    "Insulated color-coded wires for hardwired connection to building power source"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Utility poles must be specified separately. Page 411"
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Two sub-tables: standard and Non-PVC (suffix N). 6' non-PVC price printed as $250 (same as PVC 6'), verified on rendered page."
+   ],
+   "columns": [
+    "Length",
+    "Style Number",
+    "U.S. Price",
+    "Non-PVC Length",
+    "Non-PVC Style Number",
+    "Non-PVC U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS76UPHX",
+     "desc": "Multipurpose power infeed, 6', 3+1 wiring",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3+1",
+      "nonPVC": false
+     },
+     "price": 250,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76UPHXN",
+     "desc": "Multipurpose power infeed, 6', 3+1 wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3+1",
+      "nonPVC": true
+     },
+     "price": 250,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712UPHX",
+     "desc": "Multipurpose power infeed, 12', 3+1 wiring",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3+1",
+      "nonPVC": false
+     },
+     "price": 322,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712UPHXN",
+     "desc": "Multipurpose power infeed, 12', 3+1 wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3+1",
+      "nonPVC": true
+     },
+     "price": 332,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724UPHX",
+     "desc": "Multipurpose power infeed, 24', 3+1 wiring",
+     "attrs": {
+      "lengthFt": 24,
+      "schematic": "3+1",
+      "nonPVC": false
+     },
+     "price": 466,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724UPHXN",
+     "desc": "Multipurpose power infeed, 24', 3+1 wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 24,
+      "schematic": "3+1",
+      "nonPVC": true
+     },
+     "price": 478,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76UPHY",
+     "desc": "Multipurpose power infeed, 6', 2+2 wiring",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "2+2",
+      "nonPVC": false
+     },
+     "price": 250,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76UPHYN",
+     "desc": "Multipurpose power infeed, 6', 2+2 wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "2+2",
+      "nonPVC": true
+     },
+     "price": 250,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712UPHY",
+     "desc": "Multipurpose power infeed, 12', 2+2 wiring",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "2+2",
+      "nonPVC": false
+     },
+     "price": 322,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712UPHYN",
+     "desc": "Multipurpose power infeed, 12', 2+2 wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "2+2",
+      "nonPVC": true
+     },
+     "price": 332,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724UPHY",
+     "desc": "Multipurpose power infeed, 24', 2+2 wiring",
+     "attrs": {
+      "lengthFt": 24,
+      "schematic": "2+2",
+      "nonPVC": false
+     },
+     "price": 466,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724UPHYN",
+     "desc": "Multipurpose power infeed, 24', 2+2 wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 24,
+      "schematic": "2+2",
+      "nonPVC": true
+     },
+     "price": 478,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76UPHZ",
+     "desc": "Multipurpose power infeed, 6', 3SN wiring",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3SN",
+      "nonPVC": false
+     },
+     "price": 250,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS76UPHZN",
+     "desc": "Multipurpose power infeed, 6', 3SN wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 6,
+      "schematic": "3SN",
+      "nonPVC": true
+     },
+     "price": 250,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712UPHZ",
+     "desc": "Multipurpose power infeed, 12', 3SN wiring",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3SN",
+      "nonPVC": false
+     },
+     "price": 322,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS712UPHZN",
+     "desc": "Multipurpose power infeed, 12', 3SN wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 12,
+      "schematic": "3SN",
+      "nonPVC": true
+     },
+     "price": 332,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724UPHZ",
+     "desc": "Multipurpose power infeed, 24', 3SN wiring",
+     "attrs": {
+      "lengthFt": 24,
+      "schematic": "3SN",
+      "nonPVC": false
+     },
+     "price": 466,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS724UPHZN",
+     "desc": "Multipurpose power infeed, 24', 3SN wiring, non-PVC",
+     "attrs": {
+      "lengthFt": 24,
+      "schematic": "3SN",
+      "nonPVC": true
+     },
+     "price": 478,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7<6|12|24>UPH<X|Y|Z>[N]",
+     "meaning": "length in feet; N = non-PVC"
+    }
+   ]
+  },
+  {
+   "id": "modular-harness",
+   "title": "Modular Harnesses",
+   "page": 484,
+   "understandingPage": 164,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Conduit with two modular connectors: black"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "Two sub-tables: standard and Non-PVC (suffix N)."
+   ],
+   "columns": [
+    "Length",
+    "Style Number",
+    "U.S. Price",
+    "Non-PVC Length",
+    "Non-PVC Style Number",
+    "Non-PVC U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS743MHX",
+     "desc": "Modular harness, 43\", 3+1 wiring",
+     "attrs": {
+      "lengthIn": 43,
+      "schematic": "3+1",
+      "nonPVC": false
+     },
+     "price": 142,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS743MHXN",
+     "desc": "Modular harness, 43\", 3+1 wiring, non-PVC",
+     "attrs": {
+      "lengthIn": 43,
+      "schematic": "3+1",
+      "nonPVC": true
+     },
+     "price": 153,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS780MHX",
+     "desc": "Modular harness, 80\", 3+1 wiring",
+     "attrs": {
+      "lengthIn": 80,
+      "schematic": "3+1",
+      "nonPVC": false
+     },
+     "price": 190,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS780MHXN",
+     "desc": "Modular harness, 80\", 3+1 wiring, non-PVC",
+     "attrs": {
+      "lengthIn": 80,
+      "schematic": "3+1",
+      "nonPVC": true
+     },
+     "price": 200,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS743MHY",
+     "desc": "Modular harness, 43\", 2+2 wiring",
+     "attrs": {
+      "lengthIn": 43,
+      "schematic": "2+2",
+      "nonPVC": false
+     },
+     "price": 142,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS743MHYN",
+     "desc": "Modular harness, 43\", 2+2 wiring, non-PVC",
+     "attrs": {
+      "lengthIn": 43,
+      "schematic": "2+2",
+      "nonPVC": true
+     },
+     "price": 153,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS780MHY",
+     "desc": "Modular harness, 80\", 2+2 wiring",
+     "attrs": {
+      "lengthIn": 80,
+      "schematic": "2+2",
+      "nonPVC": false
+     },
+     "price": 190,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS780MHYN",
+     "desc": "Modular harness, 80\", 2+2 wiring, non-PVC",
+     "attrs": {
+      "lengthIn": 80,
+      "schematic": "2+2",
+      "nonPVC": true
+     },
+     "price": 200,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS743MHZ",
+     "desc": "Modular harness, 43\", 3SN wiring",
+     "attrs": {
+      "lengthIn": 43,
+      "schematic": "3SN",
+      "nonPVC": false
+     },
+     "price": 142,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS743MHZN",
+     "desc": "Modular harness, 43\", 3SN wiring, non-PVC",
+     "attrs": {
+      "lengthIn": 43,
+      "schematic": "3SN",
+      "nonPVC": true
+     },
+     "price": 153,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS780MHZ",
+     "desc": "Modular harness, 80\", 3SN wiring",
+     "attrs": {
+      "lengthIn": 80,
+      "schematic": "3SN",
+      "nonPVC": false
+     },
+     "price": 190,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS780MHZN",
+     "desc": "Modular harness, 80\", 3SN wiring, non-PVC",
+     "attrs": {
+      "lengthIn": 80,
+      "schematic": "3SN",
+      "nonPVC": true
+     },
+     "price": 200,
+     "optionPrices": {}
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7<43|80>MH<X|Y|Z>[N]",
+     "meaning": "length in inches; N = non-PVC"
+    }
+   ]
+  },
+  {
+   "id": "junction-tall-sleeve",
+   "title": "Junction Tall Sleeve",
+   "page": 485,
+   "understandingPage": 168,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Package of ten sleeves: red only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "For vertical junctions manufactured on or after October 10, 2011 (page 168)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7JTSLVE",
+     "desc": "Junction tall sleeve, package of 10, red plastic",
+     "attrs": {
+      "packQty": 10,
+      "color": "red"
+     },
+     "price": 65,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "lay-in-junction-cable-sleeve",
+   "title": "Lay-In Junction Cable Sleeve",
+   "page": 485,
+   "understandingPage": 168,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "5' roll of lay-in junction cable sleeve"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7LSLVE",
+     "desc": "Lay-in junction cable sleeve, 5' roll, black plastic",
+     "attrs": {
+      "rollLengthFt": 5,
+      "color": "black"
+     },
+     "price": 93,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "feed-through-horizontal-cable-sleeve",
+   "title": "Feed-Through Horizontal Cable Sleeves",
+   "page": 485,
+   "understandingPage": 168,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Package of 25: black plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "A '500' label appears beside the product image on pages 144/168/485 (figure callout, not a quantity)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7FSLVE",
+     "desc": "Feed-through horizontal cable sleeve, package of 25, black plastic",
+     "attrs": {
+      "packQty": 25,
+      "color": "black"
+     },
+     "price": 93,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "grommet-horizontal-bar-junction",
+   "title": "Grommets for Vertical Junctions (manufactured prior to October 2011) and Horizontal Bars",
+   "page": 486,
+   "understandingPage": 169,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Package of 25: black plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Grommets can be used on power trays and cable trays."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7HSLVE",
+     "desc": "Grommet for vertical junctions (pre-Oct 2011) and horizontal bars, package of 25, black plastic",
+     "attrs": {
+      "packQty": 25,
+      "color": "black",
+      "junctionVintage": "prior to October 2011"
+     },
+     "price": 95,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "grommet-junction",
+   "title": "Grommets for Junction",
+   "page": 486,
+   "understandingPage": 169,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Package of 25: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7JSLVE",
+     "desc": "Grommet for junction (horizontal cable pass-through openings), package of 25, black plastic",
+     "attrs": {
+      "packQty": 25,
+      "color": "black"
+     },
+     "price": 95,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "consolidation-point-kit",
+   "title": "Consolidation Point Kit",
+   "page": 486,
+   "understandingPage": 160,
+   "trim": null,
+   "category": "cabling",
+   "standardIncludes": [
+    "Back panel: black paint",
+    "Mounting hardware",
+    "Two pairs of consolidation point mounting brackets: black only",
+    "Two cable managers: black only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "TS7CPK (consolidation point kit) is distinct from TS7CPK<width> (hardwired powerkits, page 482)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7CPK",
+     "desc": "Consolidation point kit",
+     "attrs": {
+      "fitsPanelWidths": [
+       30,
+       36,
+       42
+      ],
+      "fitsPanelHeights": [
+       54,
+       66,
+       78
+      ]
+     },
+     "price": 337,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "series-9000-duplex-cable-grommet",
+   "title": "Series 9000 Duplex Cable Grommets",
+   "page": 487,
+   "understandingPage": 169,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Carton of five cable grommets: plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for grommets: 6000 Black, 6001 Coffee, 6612 Grey V2 (circled E), 6615 Grey V5, 6655 Warm White, 6697 Fog"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "6612 Grey V2 carries a circled 'E' marker whose meaning is not defined on this page. Colors differ from the standard Answer plastic palette. Page 169 says 'Black plastic only', conflicting with the 6-color list here."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "98863",
+     "desc": "Series 9000 duplex cable grommet, carton of 5, plastic",
+     "attrs": {
+      "packQty": 5
+     },
+     "price": 25,
+     "optionPrices": {}
+    }
+   ],
+   "finishes": {
+    "plastic": [
+     "6000 Black",
+     "6001 Coffee",
+     "6612 Grey V2",
+     "6615 Grey V5",
+     "6655 Warm White",
+     "6697 Fog"
+    ]
+   }
+  },
+  {
+   "id": "consolidation-point-cable-managers",
+   "title": "Consolidation Point Cable Managers",
+   "page": 487,
+   "understandingPage": 161,
+   "trim": null,
+   "category": "cabling",
+   "standardIncludes": [
+    "Two cable managers: black only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Order these cable managers to meet additional cabling needs when necessary."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7CPCM",
+     "desc": "Consolidation point cable managers, two, black",
+     "attrs": {
+      "packQty": 2,
+      "color": "black"
+     },
+     "price": 57,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "consolidation-point-mounting-brackets",
+   "title": "Consolidation Point Mounting Brackets",
+   "page": 487,
+   "understandingPage": 160,
+   "trim": null,
+   "category": "cabling",
+   "standardIncludes": [
+    "Carton of two pairs of mounting brackets: black only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Order these mounting brackets to meet additional cabling needs when necessary."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7CPMB",
+     "desc": "Consolidation point mounting brackets, carton of two pairs, black",
+     "attrs": {
+      "packQty": "2 pairs",
+      "color": "black"
+     },
+     "price": 62,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "controlled-receptacle-stickers",
+   "title": "Controlled Receptacle Stickers",
+   "page": 488,
+   "understandingPage": 168,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Stickers, quantity 40"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: When tying into the building management system, receptables must still indicate that they are controlled."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details.",
+    "'Need help?' points to page 168, which does not describe the stickers."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7CNTSTKR",
+     "desc": "Controlled receptacle stickers, quantity 40",
+     "attrs": {
+      "packQty": 40
+     },
+     "price": 38,
+     "optionPrices": {}
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "page": 141,
+   "topic": "electrical",
+   "text": "All Answer electrical components are listed by Underwriters Laboratory (UL) and certified by the Canadian Standards Association (CSA).",
+   "kind": "requirement"
+  },
+  {
+   "page": 142,
+   "topic": "electrical",
+   "text": "All power components are field installed. The interface is the point at which the utilities within a panel connect to a building's power and communication network.",
+   "kind": "requirement"
+  },
+  {
+   "page": 145,
+   "topic": "schematics",
+   "text": "Three wiring schematics: Four-circuit 3+1 (style suffix X, color-coded Black), Four-circuit 2+2 (suffix Y, Brown), Three-circuit separate neutrals 3SN (suffix Z, Rust).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 145,
+   "topic": "schematics",
+   "text": "All the components in an electrical system must use the same wiring schematic. Components are keyed, labeled and color coded to make it impossible to connect mismatched parts.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 145,
+   "topic": "schematics",
+   "text": "Wire gauges: shared neutrals = 10 gauge; non-shared neutrals = 12 gauge; hot wires = 12 gauge.",
+   "kind": "dimension"
+  },
+  {
+   "page": 145,
+   "topic": "schematics",
+   "text": "3+1: circuits 1, 2 and 3 are distributed from the first circuit panel with one shared neutral and one shared ground; circuit 4 is distributed from a second circuit panel with a separate neutral and ground. On a single 3-phase circuit panel all four circuits are distributed (circuits 1,2,3 neutral; circuit 4 neutral; system ground; isolated ground).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 145,
+   "topic": "schematics",
+   "text": "2+2: circuits 1 and 2 are distributed from two different phases of the first circuit panel with one shared neutral and one shared ground; circuits 3 and 4 are distributed from a second circuit panel with their own shared neutral and ground. On a single 3-phase or a split-phase circuit panel all four circuits are distributed (circuits 1&2 neutral; circuits 3&4 neutral; system ground; isolated ground).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 145,
+   "topic": "schematics",
+   "text": "3SN: circuits 1 and 2 are distributed from two different phases of the first circuit panel, each circuit with its own neutral and a common ground; circuit 3 is distributed from the second circuit panel with its own neutral and ground. On a single 3-phase or split-phase panel three circuits are distributed (circuit 1, 2, 3 neutrals; system ground; isolated ground).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 477,
+   "topic": "receptacles",
+   "text": "Receptacle line (circuit) designations: 3+1 and 2+2 = Line 1, 2, 3, 4; 3SN = Line 1, 2, 3 only (no line-4 duplex or USB receptacles exist for 3SN).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 477,
+   "topic": "receptacles",
+   "text": "Receptacles must match the powerkit's wiring schematic: X-suffix / ZB1 receptacles for 3+1, Y-suffix / ZB2 for 2+2, Z-suffix / ZB3 for 3SN.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 477,
+   "topic": "receptacles",
+   "text": "Duplex receptacles come in 15-amp (TS7...SS/SG) and 20-amp (ZB...) versions, each in system ground and isolated ground.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 167,
+   "topic": "receptacles",
+   "text": "Orange triangle indicates to users the receptacles that are connected to isolated grounds.",
+   "kind": "requirement"
+  },
+  {
+   "page": 146,
+   "topic": "power-calc",
+   "text": "If usage is not known in advance: the National Electrical Code (NEC) allows a maximum of 13 receptacles on each 20-amp circuit. This provides up to 30 receptacles for each 3-circuit power-in and 40 receptacles for each 4-circuit power-in. These numbers refer to receptacles, not outlets; all Answer receptacles are duplex and include two outlets.",
+   "kind": "limit"
+  },
+  {
+   "page": 146,
+   "topic": "power-calc",
+   "text": "If usage is known in advance: add up the amperage used by each piece of equipment. Whenever you reach 60 amps (20 amps x 3 circuits) or 80 amps (20 amps x 4 circuits) from items likely to be used at the same time, you have reached the limit for a single power-in. Specify another power-in and continue until all equipment is powered.",
+   "kind": "limit"
+  },
+  {
+   "page": 146,
+   "topic": "power-calc",
+   "text": "Continuous loads (three or more hours of continuous use, e.g. lights or computers): NEC requires circuit capacity be de-rated by 20 percent; treat such circuits as if rated at 16 amps instead of the regular 20 amps.",
+   "kind": "limit"
+  },
+  {
+   "page": 146,
+   "topic": "power-calc",
+   "text": "To calculate amperage when the wattage of a device is known, divide watts by 120.",
+   "kind": "requirement"
+  },
+  {
+   "page": 146,
+   "topic": "power-calc",
+   "text": "Appliances such as large copiers, coffee makers, or space heaters require most of the current on a 20-amp circuit; it is recommended they be supplied with their own receptacle/circuit directly from the building. Anticipate future increases and build excess capacity into the plan.",
+   "kind": "tip"
+  },
+  {
+   "page": 146,
+   "topic": "power-calc",
+   "text": "Local electrical codes vary. Consult a qualified electrical contractor or engineer for the proper planning of electrical circuits.",
+   "kind": "tip"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "Cable capacities are based on Category 6 (A: CommScope Systimax Gigaspeed 1071E Series, OD=0.23\") and Category 6A (B: CommScope Systimax X10D 1091B Series, OD=0.285\") cables at 55% fill capacity, on junctions manufactured on or after October 10, 2011, with tall sleeves installed. Test and verify capacities for your individual situation.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "Power harnesses reduce cable capacity: an average of 10-15 cables will be reduced per harness used (varies with installation practices and cable type).",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "If glass window is used at the top of a panel, top cap lay-in cable capacity is 20 for category 6 cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "When laying cables vertically behind skins, capacity is dependent on skin width.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "When using stacking junctions, the fork connector does not reduce cable capacity.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Horizontal Routing] Lay-in cable routing at top of panel (in-line junction): max 40 Category 6 cables / 30 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Horizontal Routing] Horizontal pass-through (straight) at cable routing opening (available every 12\" inside frame): max 12 Category 6 cables / 7 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Horizontal Routing] Horizontal pass-through (straight) at rectangular opening for modular power harness (available every 12\" inside frame): max 72 Category 6 cables / 47 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Horizontal Routing] Lay-in cable routing at base of panel with power: max 36 Category 6 cables / 22 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Horizontal Routing] Lay-in cable routing at base of panel without power or with power harness routed above (page 74): max 48 Category 6 cables / 30 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable routing through round openings of horizontal connecting bar; two locations per bar: max 11 Category 6 cables / 7 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable routing through rectangular openings of horizontal connecting bars; two locations per bar: max 24 Category 6 cables / 16 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable routing inside junction utility pole (used on square and oval in an end, L or T configuration or on thin in an end): max 48 Category 6 cables / 39 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable routing inside thin trim utility pole and exiting via top cable lay-in area: max 42 Category 6 cables / 34 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable routing inside thin trim utility pole and exiting into the panel in openings below the top lay-in area: max 50 Category 6 cables / 40 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable lay-in in a ceiling-access lay-in utility package: max 100 Category 6 cables / 98 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 148,
+   "topic": "cable-capacity",
+   "text": "[Straight Vertical Routing] Vertical cable lay-in in a floor-access lay-in utility package: max 80 Category 6 cables / 54 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing at top of panels in L or V configuration: max 16 Category 6 cables / 11 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing at top of panels in T configuration: max 30 Category 6 cables / 20 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing in top of panels in X or Y configuration: max 30 Category 6 cables / 20 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (around the corner) at the top of a panel in T or X configuration: max 16 Category 6 cables / 11 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Horizontal pass-through at cable routing opening (available every 12\" inside frames in L or V configuration): max 8 Category 6 cables / 5 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Horizontal pass-through (corner) at rectangular opening for modular power harness: max 48 Category 6 cables / 26 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Horizontal pass-through (straight) at cable routing opening (available every 12\" inside frames in T configuration): max 12 Category 6 cables / 7 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Horizontal pass-through (straight) at cable routing opening (available every 12\" inside frames in X or Y configuration): max 12 Category 6 cables / 7 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Horizontal pass-through (straight) at rectangular opening for modular power harness (available every 12\" inside frame): max 72 Category 6 cables / 47 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Horizontal pass-through (corner) at cable routing opening (available every 12\" inside frames in T or X configuration): max 8 Category 6 cables / 5 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (corner) at base of panel with power in L, T, or V configuration: max 14 Category 6 cables / 9 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (corner) at base of panel without power in L, T, or V configuration: max 14 Category 6 cables / 9 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (straight) at base of panel with power in X or Y configuration: max 36 Category 6 cables / 22 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (corner) at base of panel with power in X or Y configuration: max 11 Category 6 cables / 6 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (straight) at base of panel without power, or with power harness routed above in X or Y configuration (page 74): max 48 Category 6 cables / 30 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 149,
+   "topic": "cable-capacity",
+   "text": "[L, T, X, V, and Y Horizontal Routing] Lay-in cable routing (corner) at base of panel without power, or with power harness routed above in X or Y configuration (page 74): max 14 Category 6 cables / 9 Category 6A cables.",
+   "kind": "limit"
+  },
+  {
+   "page": 150,
+   "topic": "ceiling-lay-in",
+   "text": "Ceiling-access lay-in utility package includes: utility carrier and cover with hardware, top cap, two lay-in horizontal connecting bars, and two base trims. Available in 30\", 36\", 42\", and 48\" widths; thin, square, or oval top trim. Base cable trays are optional. (Specifying pages 365 and 413.)",
+   "kind": "requirement"
+  },
+  {
+   "page": 150,
+   "topic": "ceiling-lay-in",
+   "text": "Ceiling-access lay-in utility package takes the place of a standard horizontal frame package. Don't double order.",
+   "kind": "requirement"
+  },
+  {
+   "page": 150,
+   "topic": "ceiling-lay-in",
+   "text": "Utility carrier and cover for thin is 96\"H or can be field cut to size. Square and oval are adjustable from 60\"H to 120\"H. The pole's inside dimension is 3\"D x 5 5/8\"W.",
+   "kind": "dimension"
+  },
+  {
+   "page": 150,
+   "topic": "ceiling-lay-in",
+   "text": "Utility carrier is integrated within a panel run and does not exceed the width of the panel. Top cap is shortened to accommodate utility carrier and cover; wood veneer top cap available as an option. Utility carrier and cover stop at top of junction so cables can go in either direction. Standard horizontal connecting bars are used on adjacent panels.",
+   "kind": "dimension"
+  },
+  {
+   "page": 150,
+   "topic": "ceiling-lay-in",
+   "text": "Ceiling attachment carrier and kit secures the top of the utility carrier and cover to the suspended ceiling grid. Hardwired connection to the building's power can be made in the junction box.",
+   "kind": "requirement"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Ceiling-access lay-in utility package was designed to be used with Answer power harnesses. If using any other type of conduit, the conduit diameter cannot be greater than 1/2\"; skins will not install properly if conduit exceeds 1/2\".",
+   "kind": "limit"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Ceiling-access lay-in utility package can be installed in in-line, L, T, X, V, Y, and end-of-run panel configurations. End-of-run condition reduces cable capacity.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Square and oval change-of-height cable routing trim allows lay-in cable routing in change-of-height applications. Specify change-of-height top cap for the lower panel to allow clearance.",
+   "kind": "requirement"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Power harness, ordered separately, acts as a shield to permit the ceiling-access lay-in utility package to accommodate power and communication cable routing at the same time.",
+   "kind": "requirement"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Surface materials: utility carrier and cover, base trim, top cap = paint, wood veneer (option on top cap only); lay-in horizontal connecting bars = black paint; oval junction cap = plastic or wood veneer (included with wood top cap option); square junction cap = paint or wood veneer (included with wood top cap option). Junction cap is included for end-of-run configurations.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Utility carrier and cover are designed to be located at either end of the panel; they can be installed in any location, but field cutting of the top cap will be required.",
+   "kind": "tip"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Utility carrier and cover cannot be located next to a taller panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Back-to-back slatwall skins cannot be installed at the top of a panel when using a ceiling-access lay-in utility package; slatwall can be used on one side only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Windows cannot be installed in the top position of a lay-in frame.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 151,
+   "topic": "ceiling-lay-in",
+   "text": "Bracket attaches the utility carrier to the lay-in horizontal connecting bar. Quick-lock mechanism on the lay-in horizontal connecting bar is the same as on standard horizontal connecting bars.",
+   "kind": "requirement"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Floor-access lay-in utility package includes: top cap, two lay-in horizontal connecting bars, base utility box with hardware, one standard base trim, and one modified base trim. Thin, square, or oval top trim; available in 30\", 36\", 42\", and 48\" widths. (Specifying pages 366 and 414.)",
+   "kind": "requirement"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Floor-access lay-in utility package takes the place of a standard horizontal frame package. Don't double order.",
+   "kind": "requirement"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "24\"W powerkit, ordered separately, can be used in the base of 36\"W, 42\"W, and 48\"W floor-access lay-in utility packages. Powerkit must be located to the right of the base utility box. No powerkit can be used in 30\"W floor-access lay-in utility packages.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Base utility box is positioned at the left-hand side of the modified base trim. Entry on the other end would be accomplished from the other side of the panel.",
+   "kind": "requirement"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Base utility box protrudes 4\" from the base trim on one side of the panel; when planning, locate it underneath a workstation instead of a hallway.",
+   "kind": "dimension"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Base power infeeds are not intended for use with the floor-access lay-in utility package. Base utility box is for routing of cable and power only; not to be used as a termination point or for routing of power cords.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Floor-access lay-in utility package can accommodate up to 80 cat 6 cables. Deduct 10-15 cables for each power harness or modular connector routed through the base utility box.",
+   "kind": "limit"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Floor-access lay-in utility package can be installed in in-line, L, T, X, V, Y, and end-of-run panel configurations. End-of-run condition reduces cable capacity.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Specify change-of-height top cap on your lay-in utility package if it is the lower panel in a change-of-height configuration.",
+   "kind": "requirement"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Power infeed sits proud of the panel approximately 3\" and will interfere with Universal storage with the Universal 3\" base, FrameOne foot base, or c:scape glide.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 153,
+   "topic": "floor-lay-in",
+   "text": "Power harness, ordered separately, is shielded to permit the floor-access lay-in utility package to accommodate power and communication cable routing at the same time. Surface materials: base utility box, base trim, top cap = paint, wood veneer (option on top cap only); lay-in horizontal connecting bars = black paint.",
+   "kind": "requirement"
+  },
+  {
+   "page": 154,
+   "topic": "utility-pole-thin",
+   "text": "Utility pole—thin trim introduces power/cabling into a panel with thin trim only, through openings positioned vertically every 12\". Junction is NOT included; the utility pole connects into the existing panel junction (used with junctions manufactured on or after October 10, 2011). Specifying page 364.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 154,
+   "topic": "utility-pole-thin",
+   "text": "Utility pole—thin trim is flush with the footprint of the panel. It can extend up to 8' above the connection point (two panels at highest height) of the panels.",
+   "kind": "dimension"
+  },
+  {
+   "page": 154,
+   "topic": "utility-pole-thin",
+   "text": "Power harnesses for use with the utility pole (bring power down from the ceiling to make a modular connection to a powerkit) are ordered separately from the utility pole.",
+   "kind": "requirement"
+  },
+  {
+   "page": 155,
+   "topic": "utility-pole-thin",
+   "text": "Utility pole—thin trim works with base and stacking junctions. It can be used at an L, T, or X configuration. It cannot be used in an end-of-run, V, Y, or in-line configuration. Utility pole is not shipped with a junction.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 155,
+   "topic": "utility-pole-thin",
+   "text": "\"X\" application requires two panels at the same height. \"L\" application requires two panels at the same height (utility pole flush with panel run). \"T\" application requires at least two panels at the highest height (utility pole flush with panel run).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 155,
+   "topic": "utility-pole-thin",
+   "text": "Shield on power harness permits a utility pole to accommodate power and communication cable routing at the same time. Where more cable routing is needed, use the utility pole without a power harness or use a lay-in utility package.",
+   "kind": "tip"
+  },
+  {
+   "page": 155,
+   "topic": "electrical",
+   "text": "Chicago and New York have special requirements (pages 159 and 166).",
+   "kind": "requirement"
+  },
+  {
+   "page": 156,
+   "topic": "utility-pole-junction",
+   "text": "Junction with utility pole includes a junction and replaces the need to order one separately (always shipped with a junction, don't double order). Openings positioned vertically every 12 inches. Specifying page 411.",
+   "kind": "requirement"
+  },
+  {
+   "page": 156,
+   "topic": "utility-pole-junction",
+   "text": "Junction with utility pole extends beyond the footprint of the panel. Ceiling heights up to 10' can be accommodated. Power harnesses are ordered separately. Ceiling attachment kit secures pole top to suspended ceiling grid; hardwired connection can be made in the junction box.",
+   "kind": "dimension"
+  },
+  {
+   "page": 157,
+   "topic": "utility-pole-junction",
+   "text": "Junction with utility pole works with base and stacking junctions. It can only be used at an end-of-run, in-line, L- or T-configuration. It cannot be used in an X, V, or Y-configuration.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 157,
+   "topic": "utility-pole-junction",
+   "text": "End-of-run application uses an in-line junction; utility pole extends 3\" beyond the footprint of the panels; works with thin, square, or oval trim.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 157,
+   "topic": "utility-pole-junction",
+   "text": "In-line application uses T junction and adds 3\" to panel run; square or oval trim only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 157,
+   "topic": "utility-pole-junction",
+   "text": "\"L\" application uses T junction; utility pole extends 3\" beyond the footprint of the panels; square or oval trim only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 157,
+   "topic": "utility-pole-junction",
+   "text": "\"T\" application uses X junction; utility pole extends 3\" beyond the footprint of the panels; square or oval trim only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 157,
+   "topic": "utility-pole-junction",
+   "text": "For more cable routing, use the utility pole without a power harness or use a lay-in utility package (pages 366 and 414).",
+   "kind": "tip"
+  },
+  {
+   "page": 158,
+   "topic": "base-power-infeed",
+   "text": "Base power infeed connects power in the building floor to a powerkit in the base of a panel. Infeed occupies one receptacle opening (connector on end of the harness occupies one receptacle location in the power block).",
+   "kind": "limit"
+  },
+  {
+   "page": 158,
+   "topic": "base-power-infeed",
+   "text": "Connector on base power infeed must be placed behind panel base trim and the harness must be backfed through the base trim opening prior to an electrician making the connection to power in the building floor (building monument). Flexible harness makes hardwired connection to building monument.",
+   "kind": "requirement"
+  },
+  {
+   "page": 158,
+   "topic": "base-power-infeed",
+   "text": "Cover is included with base power infeed to conceal the connection.",
+   "kind": "requirement"
+  },
+  {
+   "page": 158,
+   "topic": "base-power-infeed",
+   "text": "Special requirements are needed for San Francisco (use the 'For Use in San Francisco' SF versions, page 480).",
+   "kind": "requirement"
+  },
+  {
+   "page": 159,
+   "topic": "nyc",
+   "text": "New York City electrical code requires modular power components to be field installed by the electrician; Answer power components are always field installed, so they are okay for use in New York.",
+   "kind": "requirement"
+  },
+  {
+   "page": 159,
+   "topic": "nyc",
+   "text": "Order New York City power infeed of the width that corresponds to the width of the panel it will be installed in.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 159,
+   "topic": "nyc",
+   "text": "The panel with the New York City power infeed installed cannot accommodate any receptacles in the base because a powerkit cannot be installed. Install a powerkit higher in the panel to accommodate receptacles or use adjacent panels to install receptacles.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 159,
+   "topic": "nyc",
+   "text": "Modular connector on end of the NYC infeed harness attaches to powerkit in adjacent panel. Junction box, included with infeed, allows electrician to make a hardwire connection to the building power supply; box covers opening in base cover. Conduits supplied by electrician.",
+   "kind": "requirement"
+  },
+  {
+   "page": 160,
+   "topic": "consolidation-point",
+   "text": "Consolidation point kit fits in panels that are 30\"W, 36\"W, or 42\"W, and attaches inside 54\"H, 66\"H, and 78\"H panels.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 160,
+   "topic": "consolidation-point",
+   "text": "Steel skin should be used with consolidation point kit (a steel skin can be used to cover a consolidation point). A tackable acoustical skin cannot be used. Skins on opposite side of panel can be of any type.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 160,
+   "topic": "consolidation-point",
+   "text": "Top horizontal connecting bar is lowered 24\"H to accommodate consolidation points.",
+   "kind": "requirement"
+  },
+  {
+   "page": 160,
+   "topic": "consolidation-point",
+   "text": "Back panel supports punch-down blocks or 19\" patch panels, which are supplied by the data/voice installer / cable contractor (not included).",
+   "kind": "requirement"
+  },
+  {
+   "page": 160,
+   "topic": "consolidation-point",
+   "text": "For accessibility, plan the location of the consolidation point so that it is not blocked by other furniture.",
+   "kind": "tip"
+  },
+  {
+   "page": 161,
+   "topic": "consolidation-point",
+   "text": "Consolidation point can typically accommodate up to 72 connections; capacity depends on neatness of installation.",
+   "kind": "limit"
+  },
+  {
+   "page": 161,
+   "topic": "consolidation-point",
+   "text": "Space inside panel is 3\"D x 30\"W or 36\"W x 20\"H.",
+   "kind": "dimension"
+  },
+  {
+   "page": 161,
+   "topic": "consolidation-point",
+   "text": "Powerkits and cable trays cannot be used in the same location or height as a consolidation point kit.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 161,
+   "topic": "consolidation-point",
+   "text": "Utility pole can route cables from the ceiling to the consolidation point; the pole can also accommodate a power harness. Hardware to attach the consolidation point kit is included.",
+   "kind": "tip"
+  },
+  {
+   "page": 162,
+   "topic": "powerkit",
+   "text": "Powerkits are available in widths that correspond to panel widths (24\", 30\", 36\", 42\", 48\", 60\", 72\"); pass-through powerkits in 18\", 24\", 30\", 36\", 42\", 48\", 60\", 72\".",
+   "kind": "compatibility"
+  },
+  {
+   "page": 162,
+   "topic": "powerkit",
+   "text": "Two modular connectors on end of powerkit accept modular connectors of adjacent powerkit, power infeeds, or modular harness. Modular connector plugs into the connection point on adjacent powerkits.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 162,
+   "topic": "powerkit",
+   "text": "Openings in power tray accommodate voice/data outlets and line up above the power blocks. Communication ports can never be back-to-back.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 162,
+   "topic": "powerkit",
+   "text": "Duplex and USB receptacles are ordered separately and field installed where needed on both faces of power blocks. Power block is attached to underside of power tray.",
+   "kind": "requirement"
+  },
+  {
+   "page": 162,
+   "topic": "powerkit",
+   "text": "Powerkits, pass-through powerkits, modular harnesses, and multipurpose power infeeds may be specified in a non-PVC version (N suffix); for the LEED Innovation in Design credit, non-PVC should be selected.",
+   "kind": "tip"
+  },
+  {
+   "page": 162,
+   "topic": "powerkit",
+   "text": "Pass-through powerkits are for applications where you want to extend the power between panels but have no need for access in a specific panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 162,
+   "topic": "cable-tray",
+   "text": "Cable trays can be installed every 6\" vertically and rearranged at various heights within a panel. Exception: cable tray cannot be used in the base of the panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 162,
+   "topic": "cable-tray",
+   "text": "Cable tray can accept added cable carriers (Montage ZCC) attached below the tray.",
+   "kind": "tip"
+  },
+  {
+   "page": 163,
+   "topic": "powerkit",
+   "text": "Powerkits can be installed every 12\" vertically. Typically they are positioned in the panel base, at worksurface height, or in both locations.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 163,
+   "topic": "powerkit",
+   "text": "Standard base trim, non-base application (width determines receptacle/communication locations): 18\"W pass-through routing only; 24\"W one power block, communication opening above power block on one side of panel only; 30\"W two power blocks, communication openings above the right-hand power block, one opening on each side; 36\"W to 48\"W two power blocks, openings above right-hand power block, one opening each side; 60\"W to 72\"W four power blocks, openings above the right-hand power block of each pair, two openings on each side.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 163,
+   "topic": "powerkit",
+   "text": "Hardwired base trim, non-base application: 18\"W pass-through routing only; 24\"W one power block (communication one side only); 30\"W two power blocks (drawn with 10.3\" dimension vs 12\" on standard); 36\"W two power blocks; 48\"W two power blocks; 60\"W to 72\"W four power blocks, two openings on each side. Communication openings are located 2 1/2\" further right than standard base trims to accommodate wider hardwired junction boxes.",
+   "kind": "dimension"
+  },
+  {
+   "page": 163,
+   "topic": "powerkit",
+   "text": "For base locations, same power block locations apply, but communication openings are located below and to the right of each single or double block.",
+   "kind": "tip"
+  },
+  {
+   "page": 163,
+   "topic": "receptacles",
+   "text": "15-amp or 20-amp duplex receptacles and USB receptacles snap into powerkits on one side or both sides of the panel. Install receptacles only where you want them; add more in the future.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 163,
+   "topic": "receptacles",
+   "text": "Exception: when using technology skins, receptacles are required in all power block locations. If receptacles are not specified for all power block locations, you must order filler through Service Parts (891500350MP, package of 20).",
+   "kind": "requirement"
+  },
+  {
+   "page": 163,
+   "topic": "skins",
+   "text": "Performance tackable acoustical skins and tackable acoustical skins can be field cut for duplex receptacles, USB receptacles and communication outlets; order cutting templates through Service Parts (T500940SR). Steel skins do not have cutouts and cannot accommodate receptacles; install power receptacles and communication ports in the panel base cover below the steel skin or use a technology skin.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 163,
+   "topic": "base-trim",
+   "text": "Knockouts and cutouts for receptacles in the panel base trim and skins are always 10 5/8\" from the outside edges of the panel. Knockouts for communication in base accommodate modular furniture size only. Filler to close unwanted openings in base trim is available from Service Parts.",
+   "kind": "dimension"
+  },
+  {
+   "page": 163,
+   "topic": "electrical",
+   "text": "Wire separators are not required. All electrical harnesses are shielded.",
+   "kind": "requirement"
+  },
+  {
+   "page": 164,
+   "topic": "modular-harness",
+   "text": "Modular harnesses connect powerkits at different heights; available in 43\" and 80\" lengths.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 164,
+   "topic": "modular-harness",
+   "text": "Extra length modular harness is required when connecting two powerkits located at different heights inside the panel in a corner or in-line application.",
+   "kind": "requirement"
+  },
+  {
+   "page": 164,
+   "topic": "modular-harness",
+   "text": "In an in-line application, extra length modular harness is not required when a powerkit is in the bottom (not base) location in a panel with open base.",
+   "kind": "requirement"
+  },
+  {
+   "page": 164,
+   "topic": "modular-harness",
+   "text": "In a corner application, extra length modular harness is required when a powerkit is in the bottom (not base) location in a panel with open base trim; the harness must be routed through the first large opening in the junction located above the powerkit and cannot be routed through the foot area of the panel due to the open base trim.",
+   "kind": "requirement"
+  },
+  {
+   "page": 164,
+   "topic": "modular-harness",
+   "text": "Harnesses plug into connection points on the powerkit; every powerkit has multiple connection points to allow branching of power. T-connection is formed by connecting two harnesses to a power block; X-connection is formed by connecting two harnesses to two successive power blocks.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 164,
+   "topic": "multipurpose-infeed",
+   "text": "Multipurpose power infeed is shielded to allow power and communication routing side by side; available in 6', 12', and 24' lengths; brings power into the panel and makes a modular connection to a powerkit.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 164,
+   "topic": "multipurpose-infeed",
+   "text": "Multipurpose power infeeds can be used with ceiling- and floor-access lay-in utility packages and utility poles. Specify power harness separately. Utility poles must be specified separately (page 411).",
+   "kind": "requirement"
+  },
+  {
+   "page": 165,
+   "topic": "junction-box-faceplate",
+   "text": "Modular junction box faceplate can be ordered separately and used with any modular harness length when 6', 12', and 24' lengths are not appropriate. Straight/flush and 90° faceplates are available. Non-PVC is standard; PVC version can be optioned.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Chicago electrical code requires the power distribution network to be hardwired on site; these installations require hardwired powerkits. Any hardwired installation can use the components of the hardwired powerkit. Order panel without power and order a hardwired powerkit of the corresponding width.",
+   "kind": "requirement"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Hardwired powerkit can be installed in panel base or at 12\" vertical increments. Receptacle openings are knocked out in the field. Power tray is included to secure junction boxes and attach to panel frame; junction boxes are included.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Number of junction boxes is determined by panel width: 24\" = 1; 30\", 36\", 42\", 48\", 60\", 72\" = 2.",
+   "kind": "limit"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "30\"W (only) panel: when hardwire kit is installed in base, only one junction box can be used (installer decides which position). Two junction boxes can be used in all other panel locations. When installing a hardwire kit above the base in a 30\"W panel, an additional set of holes on the tray is used to allow two hardwired boxes.",
+   "kind": "limit"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Junction box can accommodate two receptacles back to back; electrician can use Leviton 5325 or equivalent receptacles. Receptacles, conduits, wires, nuts, and connection to building power supply are supplied by the electrician, who makes all hardwire connections in the field.",
+   "kind": "requirement"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "When power is placed in a non-base application, skins must be field-cut. Technology skins cannot be used with hardwired solution.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Hardwire powerkit applications in the base location require a hardwire base trim for correct alignment of power and data receptacles.",
+   "kind": "requirement"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Junction boxes are typically mounted below the power tray; they can be mounted above when power is routed in a location other than the panel base (bracket included). Approximately 3\" of clearance is required when mounting junction boxes above the power tray; keep the upper horizontal connecting bar location in mind. With segmented skins, junction boxes may need to be installed above the power tray to avoid interference with the skin's steel frame. Discuss junction box location and skin configuration before the electrician installs power.",
+   "kind": "dimension"
+  },
+  {
+   "page": 166,
+   "topic": "hardwired",
+   "text": "Order Chicago-version of shelf lights (built-in circuit breaker).",
+   "kind": "requirement"
+  },
+  {
+   "page": 167,
+   "topic": "faceplate",
+   "text": "Face plate, ordered separately, surrounds face of receptacle when a tackable acoustical skin is field-cut, and surrounds modular furniture size communication or DECORA outlets installed in the panel skin. Templates through Service Parts (T500940SR).",
+   "kind": "requirement"
+  },
+  {
+   "page": 167,
+   "topic": "faceplate",
+   "text": "NEMA-size communication outlets (single gang) do not require a Steelcase face plate. Face plate cannot be used in base.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 167,
+   "topic": "usb",
+   "text": "USB receptacles are available in three wiring schematics with multiple line options; two charging ports, each providing one amp of output. Some devices may not be compatible.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 168,
+   "topic": "accessories",
+   "text": "Junction tall sleeves are ordered separately from vertical junctions, in packages of 10, red plastic only; they cover exposed metal edges in the large cable routing openings of junctions manufactured on or after October 10, 2011.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 168,
+   "topic": "accessories",
+   "text": "Lay-in junction cable sleeves (black plastic) are field-added to cover exposed metal edges in lay-in cable space. Feed-through horizontal connecting bar cable sleeves (black plastic) finish exposed metal edges of vertical cable pass-through openings.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 169,
+   "topic": "accessories",
+   "text": "Grommet for horizontal bar and junctions (TS7HSLVE) is for vertical junctions manufactured prior to October 2011 and horizontal bars; for junctions manufactured after October 2011 use junction tall sleeve (TS7JTSLVE). Grommets can also be used with power trays or cable trays.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 169,
+   "topic": "accessories",
+   "text": "Grommet for junction (TS7JSLVE) finishes exposed metal edges of horizontal cable pass-through openings.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 169,
+   "topic": "accessories",
+   "text": "Series 9000 duplex cable grommets can be inserted in receptacle openings to route cables from the panel base into the panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 170,
+   "topic": "accessories",
+   "text": "Vertical wire manager (specifying page 699) is for use between the bottom of a shelf or overhead storage bin and a worksurface, can also be used below the worksurface, can be cut in the field; hooks fit into vertical channel at edge of panel and snap into slotted channel of the junction. Cover colors: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6652 Titanium, 6654 Sand, 6697 Fog.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 474,
+   "topic": "cable-tray",
+   "text": "One cable tray can be optioned at no cost when ordering base horizontal frame or panel packages. Cable carriers can be added to 24\"–72\" wide trays (not 18\").",
+   "kind": "tip"
+  },
+  {
+   "page": 475,
+   "topic": "powerkit",
+   "text": "Duplex receptacle locations per side by powerkit width: 24\" = 1; 30\", 36\", 42\", 48\" = 2; 60\", 72\" = 4. Pass-through powerkits (18\"–72\") = 0.",
+   "kind": "limit"
+  },
+  {
+   "page": 480,
+   "topic": "base-power-infeed",
+   "text": "Base power infeed occupies one receptacle location on powerkit (reduces available receptacle locations by one).",
+   "kind": "limit"
+  },
+  {
+   "page": 488,
+   "topic": "receptacles",
+   "text": "When tying into the building management system, receptacles must still indicate that they are controlled (controlled receptacle stickers TS7CNTSTKR, quantity 40).",
+   "kind": "requirement"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 145,
+   "subject": "Wire gauges",
+   "text": "Shared neutrals = 10 gauge; Non-shared neutrals = 12 gauge; Hot wires = 12 gauge."
+  },
+  {
+   "page": 150,
+   "subject": "Ceiling-access lay-in utility carrier",
+   "text": "Utility carrier and cover for thin is 96\"H or can be field cut to size. Square and oval are adjustable from 60\"H to 120\"H. The pole's inside dimension is 3\"D x 5 5/8\"W."
+  },
+  {
+   "page": 153,
+   "subject": "Floor-access base utility box",
+   "text": "Base utility box protrudes 4\" from the base trim on one side of the panel. Power infeed sits proud of the panel approximately 3\" (3\" dimension drawn)."
+  },
+  {
+   "page": 154,
+   "subject": "Utility pole—thin trim",
+   "text": "Utility pole can extend up to 8' above the connection point (two panels at highest height). Openings every 12\" vertically. Flush with panel footprint."
+  },
+  {
+   "page": 156,
+   "subject": "Junction with utility pole",
+   "text": "Ceiling heights up to 10' can be accommodated; utility pole extends 3\" beyond the footprint of the panels (in-line application adds 3\" to panel run)."
+  },
+  {
+   "page": 160,
+   "subject": "Consolidation point kit",
+   "text": "Actual Dimensions: Panel depth 3\"; Kit width 28 1/2\" and 34 1/2\"; Kit height 20 17/64\"."
+  },
+  {
+   "page": 161,
+   "subject": "Consolidation point space",
+   "text": "Space inside panel is 3\"D x 30\"W or 36\"W x 20\"H."
+  },
+  {
+   "page": 163,
+   "subject": "Receptacle knockouts",
+   "text": "Knockouts and cutouts for receptacles in the panel base trim and skins are always 10 5/8\" from the outside edges of the panel. Hardwired base trim communication openings are 2 1/2\" further right than standard base trims."
+  },
+  {
+   "page": 166,
+   "subject": "Hardwired junction box clearance",
+   "text": "Approximately 3\" of clearance is required when mounting junction boxes above the power tray."
+  },
+  {
+   "page": 474,
+   "subject": "Cable tray",
+   "text": "Cable trays 18\", 24\", 30\", 36\", 42\", 48\", 60\", 72\" W x 2\" H."
+  },
+  {
+   "page": 480,
+   "subject": "Base power infeed",
+   "text": "Lengths 6' and 12'; 1/2\"-diameter conduit. Sits proud of panel approximately 3\"."
+  },
+  {
+   "page": 483,
+   "subject": "Multipurpose power infeed",
+   "text": "Lengths 6', 12', 24'."
+  },
+  {
+   "page": 484,
+   "subject": "Modular harness",
+   "text": "Lengths 43\" and 80\"."
+  }
+ ],
+ "unresolved": [
+  "p487: circled 'E' marker next to 6612 Grey V2 in Series 9000 grommet colors; meaning not defined on the page.",
+  "p169 vs p487: Series 9000 duplex cable grommet surface material says 'Black plastic only' on p169 but p487 lists six plastic colors (6000, 6001, 6612, 6615, 6655, 6697).",
+  "p160/161: consolidation point kit fits 30\"W, 36\"W, or 42\"W panels, but kit widths are 28 1/2\" and 34 1/2\" and interior space is 30\"W or 36\"W only; only one style (TS7CPK) printed, and which kit width is used in 42\"W panels is not stated.",
+  "p483: 6' non-PVC multipurpose infeed price printed $250, same as PVC 6' (12' and 24' have a non-PVC premium) — transcribed as printed (verified on rendered page).",
+  "p163: hardwired base trim diagrams show 24, 30, 36, 48, 60-72\"W; 42\"W is not drawn (standard base trim says 36\"W to 48\"W), though hardwired powerkit TS7CPK42 exists.",
+  "p488: Controlled Receptacle Stickers 'Need help?' points to page 168, which does not describe them.",
+  "Cross-referenced spec pages outside this section's range, NOT extracted here: utility pole—thin trim (p364), ceiling-access lay-in utility package (p365, p413), floor-access lay-in utility package (p366, p414), junction with utility pole (p411), vertical wire manager (p699).",
+  "p147 is a blank continuation page (How to Calculate Power Needs) — no content."
+ ],
+ "wiringSchematics": [
+  {
+   "code": "X",
+   "name": "4-Circuit, 3+1",
+   "color": "Black",
+   "circuits": 4,
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "maxReceptaclesPerPowerIn": 40,
+   "maxAmpsPerPowerIn": 80,
+   "maxReceptaclesPerCircuit": 13,
+   "neutrals": "circuits 1,2,3 one shared neutral (10 ga); circuit 4 separate neutral",
+   "grounds": "circuits 1-3 one shared ground; circuit 4 separate ground (system ground + isolated ground when fed from a single 3-phase panel)",
+   "feeds": "circuits 1-3 from circuit panel 1 (phases A,B,C); circuit 4 from circuit panel 2; or all four from a single 3-phase panel"
+  },
+  {
+   "code": "Y",
+   "name": "4-Circuit, 2+2",
+   "color": "Brown",
+   "circuits": 4,
+   "lines": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "maxReceptaclesPerPowerIn": 40,
+   "maxAmpsPerPowerIn": 80,
+   "maxReceptaclesPerCircuit": 13,
+   "neutrals": "circuits 1&2 shared neutral; circuits 3&4 shared neutral (10 ga)",
+   "grounds": "circuits 1&2 shared ground; circuits 3&4 own shared ground (system + isolated ground on single/split-phase panel)",
+   "feeds": "circuits 1-2 from two phases of panel 1; circuits 3-4 from panel 2; or all four from a single 3-phase or split-phase panel"
+  },
+  {
+   "code": "Z",
+   "name": "3-Circuit, Separate Neutrals (3SN)",
+   "color": "Rust",
+   "circuits": 3,
+   "lines": [
+    1,
+    2,
+    3
+   ],
+   "maxReceptaclesPerPowerIn": 30,
+   "maxAmpsPerPowerIn": 60,
+   "maxReceptaclesPerCircuit": 13,
+   "neutrals": "each circuit its own neutral (12 ga)",
+   "grounds": "circuits 1&2 common ground; circuit 3 own ground (system + isolated ground on single/split-phase panel)",
+   "feeds": "circuits 1-2 from two phases of panel 1; circuit 3 from panel 2; or all three from a single 3-phase or split-phase panel"
+  }
+ ],
+ "cableCapacities": [
+  {
+   "page": 148,
+   "group": "Straight Horizontal Routing",
+   "location": "Lay-in cable routing at top of panel (in-line junction)",
+   "cat6": 40,
+   "cat6a": 30
+  },
+  {
+   "page": 148,
+   "group": "Straight Horizontal Routing",
+   "location": "Horizontal pass-through (straight) at cable routing opening (available every 12\" inside frame)",
+   "cat6": 12,
+   "cat6a": 7
+  },
+  {
+   "page": 148,
+   "group": "Straight Horizontal Routing",
+   "location": "Horizontal pass-through (straight) at rectangular opening for modular power harness (available every 12\" inside frame)",
+   "cat6": 72,
+   "cat6a": 47
+  },
+  {
+   "page": 148,
+   "group": "Straight Horizontal Routing",
+   "location": "Lay-in cable routing at base of panel with power",
+   "cat6": 36,
+   "cat6a": 22
+  },
+  {
+   "page": 148,
+   "group": "Straight Horizontal Routing",
+   "location": "Lay-in cable routing at base of panel without power or with power harness routed above (page 74)",
+   "cat6": 48,
+   "cat6a": 30
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable routing through round openings of horizontal connecting bar; two locations per bar",
+   "cat6": 11,
+   "cat6a": 7
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable routing through rectangular openings of horizontal connecting bars; two locations per bar",
+   "cat6": 24,
+   "cat6a": 16
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable routing inside junction utility pole (used on square and oval in an end, L or T configuration or on thin in an end)",
+   "cat6": 48,
+   "cat6a": 39
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable routing inside thin trim utility pole and exiting via top cable lay-in area",
+   "cat6": 42,
+   "cat6a": 34
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable routing inside thin trim utility pole and exiting into the panel in openings below the top lay-in area",
+   "cat6": 50,
+   "cat6a": 40
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable lay-in in a ceiling-access lay-in utility package",
+   "cat6": 100,
+   "cat6a": 98
+  },
+  {
+   "page": 148,
+   "group": "Straight Vertical Routing",
+   "location": "Vertical cable lay-in in a floor-access lay-in utility package",
+   "cat6": 80,
+   "cat6a": 54
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing at top of panels in L or V configuration",
+   "cat6": 16,
+   "cat6a": 11
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing at top of panels in T configuration",
+   "cat6": 30,
+   "cat6a": 20
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing in top of panels in X or Y configuration",
+   "cat6": 30,
+   "cat6a": 20
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (around the corner) at the top of a panel in T or X configuration",
+   "cat6": 16,
+   "cat6a": 11
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Horizontal pass-through at cable routing opening (available every 12\" inside frames in L or V configuration)",
+   "cat6": 8,
+   "cat6a": 5
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Horizontal pass-through (corner) at rectangular opening for modular power harness",
+   "cat6": 48,
+   "cat6a": 26
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Horizontal pass-through (straight) at cable routing opening (available every 12\" inside frames in T configuration)",
+   "cat6": 12,
+   "cat6a": 7
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Horizontal pass-through (straight) at cable routing opening (available every 12\" inside frames in X or Y configuration)",
+   "cat6": 12,
+   "cat6a": 7
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Horizontal pass-through (straight) at rectangular opening for modular power harness (available every 12\" inside frame)",
+   "cat6": 72,
+   "cat6a": 47
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Horizontal pass-through (corner) at cable routing opening (available every 12\" inside frames in T or X configuration)",
+   "cat6": 8,
+   "cat6a": 5
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (corner) at base of panel with power in L, T, or V configuration",
+   "cat6": 14,
+   "cat6a": 9
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (corner) at base of panel without power in L, T, or V configuration",
+   "cat6": 14,
+   "cat6a": 9
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (straight) at base of panel with power in X or Y configuration",
+   "cat6": 36,
+   "cat6a": 22
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (corner) at base of panel with power in X or Y configuration",
+   "cat6": 11,
+   "cat6a": 6
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (straight) at base of panel without power, or with power harness routed above in X or Y configuration (page 74)",
+   "cat6": 48,
+   "cat6a": 30
+  },
+  {
+   "page": 149,
+   "group": "L, T, X, V, and Y Horizontal Routing",
+   "location": "Lay-in cable routing (corner) at base of panel without power, or with power harness routed above in X or Y configuration (page 74)",
+   "cat6": 14,
+   "cat6a": 9
+  }
+ ],
+ "amperageTable": {
+  "page": 146,
+  "general": [
+   [
+    "A.C. adapter",
+    "0.05"
+   ],
+   [
+    "Adding machine",
+    "0.05"
+   ],
+   [
+    "Answering machine",
+    "0.08"
+   ],
+   [
+    "Calculator",
+    "0.025"
+   ],
+   [
+    "Clock",
+    "0.03"
+   ],
+   [
+    "Coffee pot",
+    "10.00"
+   ],
+   [
+    "Copy machine",
+    "15.00"
+   ],
+   [
+    "Desk-top copiers",
+    "7.00 to 10.00"
+   ],
+   [
+    "Electric eraser",
+    "0.25"
+   ],
+   [
+    "Fan",
+    "0.50"
+   ],
+   [
+    "Manuscript holder",
+    "0.75"
+   ],
+   [
+    "Microwave",
+    "8.00 to 12.00"
+   ],
+   [
+    "Pencil sharpener",
+    "0.25"
+   ],
+   [
+    "Radio",
+    "0.05"
+   ],
+   [
+    "Space heater, 1000 watts",
+    "8.50"
+   ],
+   [
+    "Space heater, 1500 watts",
+    "12.50"
+   ],
+   [
+    "Stand-alone copiers",
+    "15.00"
+   ]
+  ],
+  "electronic": [
+   [
+    "Desk-top memory storage devices",
+    "0.08 to 0.15"
+   ],
+   [
+    "Desk-top printers",
+    "1.20 to 2.00"
+   ],
+   [
+    "DVD players",
+    "0.13 to 0.20"
+   ],
+   [
+    "Flat-panel screens",
+    "3.50"
+   ],
+   [
+    "Laptops",
+    "3.50 to 5.00"
+   ],
+   [
+    "Modems",
+    "0.15"
+   ],
+   [
+    "Stand-alone printers",
+    "1.50 to 2.50"
+   ],
+   [
+    "VDTs and PCs",
+    "0.08 to 4.80"
+   ]
+  ],
+  "steelcaseLightingActual": [
+   [
+    "Shelf lights 24\" wide, 17 watts",
+    "0.20"
+   ],
+   [
+    "Shelf lights 36\" wide, 25 watts",
+    "0.30"
+   ],
+   [
+    "Shelf lights 48\" wide, 32 watts",
+    "0.30"
+   ]
+  ]
+ }
+}

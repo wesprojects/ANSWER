@@ -1,0 +1,59 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            567
+Universal Tables
+                                                                                                                     
+Straight Tables
+Tip: To specify 3 mm edge
+proﬁle, no sufﬁx is required.
+For other edge proﬁles, add
+sufﬁx to the style number.
+(For example, BFS2430
+becomes BFS2430SW for
+wood square edge proﬁle.)
+A
+B
+Speciﬁcation Information
+                                U.S. Base Prices
+                                High-Pressure 
+                                Laminate                        Wood
+                                
+          
+      
+                              
+DDimensions  DStyle          DPlastic        DPlastic     DWood           DOption
+dA       B         dNumber      d3 mm           dP-Edge     dSquare        d(Add $ to
+d                     d                   dEdge            d                dEdge            dBase Price)
+d                         d                      d                        d                   d                        d                  
+d
+d
+dNo Sufﬁx
+dSufﬁx
+dSufﬁx
+dFull-Fill
+d                     d                   d
+dP
+dSW               dFinish
+24"       293/4"      BFS2430     $218              $264             $  672               +$35
+24"       353/4"      BFS2436     $231              $277             $  693               +$36
+24"       413/4"      BFS2442     $251              $306             $  769               +$41
+24"       473/4"      BFS2448     $295              $350             $  834               +$42
+24"       533/4"      BFS2454     $319              $374             $  860               +$44
+24"       593/4"      BFS2460     $340              $404             $  945               +$47
+24"       653/4"      BFS2466     $376              $440             $  998               +$48
+24"       713/4"      BFS2472     $423              $487             $1060               +$50
+24"       773/4"      BFS2478     $464              $528             $1114                +$51
+30"       353/4"      BFS3036     $321              $367             $  813               +$38
+30"       413/4"      BFS3042     $346              $392             $  894               +$42
+30"       473/4"      BFS3048     $382              $437             $  952               +$44
+30"       533/4"      BFS3054     $410              $465             $  991               +$45
+30"       593/4"      BFS3060     $442              $497             $1079               +$48
+30"       653/4"      BFS3066     $475              $539             $1133                +$50
+30"       713/4"      BFS3072     $517              $581             $1191                +$51
+30"       773/4"      BFS3078     $559              $623             $1247               +$53
+d                         d                      d                        d                   d                        d                  
+d
+Universal Tables
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

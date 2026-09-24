@@ -1,0 +1,48 @@
+442                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Markerboard To The Floor Skins                                                                
+For Panel Buildups
+Tip: 18"H and 30"H skins
+only work on junctions 
+manufactured on or after
+October 10, 2011.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 110
+• Markerboard skin: white
+Style number
+   Speciﬁcation Information
+                24"H                                          30"H                                          36"H
+                    
+                                             
+                                             
+DWidth    DStyle                DU.S.               DStyle                DU.S.               DStyle                DU.S.
+d              dNumber            dPrice              dNumber            dPrice              dNumber            dPrice
+d
+d
+d
+d
+d
+d
+d
+18"               TS72418MBF     $216                    TS73018MBF      $256                   TS73618MBF     $291
+24"               TS72424MBF     $225                    TS73024MBF      $266                   TS73624MBF     $308
+30"               TS72430MBF     $242                    TS73030MBF      $286                   TS73630MBF     $328
+36"               TS72436MBF     $256                    TS73036MBF      $302                   TS73636MBF     $348
+42"               TS72442MBF     $269                    TS73042MBF      $320                   TS73642MBF     $369
+48"               TS72448MBF     $279                    TS73048MBF      $335                   TS73648MBF     $391
+60"               TS72460MBF     $293                    TS73060MBF      $356                   TS73660MBF     $409
+72"               TS72472MBF     $310                    TS73072MBF      $378                   TS73672MBF     $431
+d
+d
+d
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

@@ -1,0 +1,163 @@
+Answer Solutions Specification Guide                                                                                                                                      cSurface Materials, continued  709
+Surface Materials
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Steelcase Surfaces
+Veneer 
+Veneers are matched for proper balance and
+consistency. Veneers are available flat cut or
+quarter cut, except for Oak, which is rift cut.
+Refer to the Surface Materials Reference Manual
+for descriptions of each cut.
+Tip: Answer panel wood trims are only available
+with quarter-cut finishes with the exception of
+maple finishes. Maple on wood trims is only
+available with flat-cut finishes. For ordering sim-
+plicity, both flat-cut and quarter-cut finishes can
+be specified on panel trims. However, for all fin-
+ishes except maple, if a flat-cut finish is selected,
+the trims will have the coordinating quarter-cut
+finish. For maple finishes, if quarter-cut is
+selected, the trims will have the coordinating flat-
+cut finish. Blending panel trims with other wood
+products that have flat-cut finishes may be visu-
+ally acceptable for most applications. If a more
+exact match is desired for non-maple finishes,
+please specify quarter-cut finishes for the entire
+project. If a more exact match is desired for
+maple finishes, please specify flat-cut finishes for
+the entire project.
+Open-pore finish is a medium gloss finish that
+leaves the wood grain texture visible to the eye
+and distinguishable to the touch.
+cSee Surface Materials Reference Manual for a
+listing of available veneers for Victor2.
+Flat-cut open-pore finish choices
+3062   FC/OP Graphite Walnut
+3402   FC/OP Clear Cherry (Aged)
+3412   FC/OP Natural Cherry E
+3422   FC/OP Medium Cherry
+3522   FC/OP Clear Maple*
+3572   FC/OP Amber on Maple E
+3592   FC/OP Blonde on Maple
+3702   FC/OP Clear Walnut
+3712   FC/OP Natural Walnut
+3722   FC/OP Dark Mahogany on Walnut
+3752   FC/OP Medium Walnut
+3762   FC/OP Dark Walnut
+3772   FC/OP Medium Mahogany on Walnut
+Quarter-cut open-pore finish choices
+3042   QC/OP Ash*
+3222   QC/OP Clear Maple*
+3272   QC/OP Amber on Maple E
+3292   QC/OP Blonde on Maple
+3302   QC/OP Clear Walnut
+3312   QC/OP Natural Walnut
+3322   QC/OP Dark Mahogany on Walnut
+3352   QC/OP Medium Walnut
+3362   QC/OP Dark Walnut
+3372   QC/OP Medium Mahogany on Walnut
+3382   QC/OP Graphite Walnut
+Rift-cut open-pore finish choices
+3602   RC/OP Desert Oak
+3612   RC/OP Warm Oak E
+3692   RC/OP Espresso Oak
+Full-fill finish is a medium-gloss finish that
+completely fills the grain texture, yet allows the
+grain pattern to be seen. The wood has a lus-
+trous, satiny look, and it is smooth to the touch.
+This finish is available on the wood worksurface
+or field-installed top only.
+Flat-cut full-fill finish choices
+3064   FC/FF Graphite Walnut
+3404   FC/FF Clear Cherry (Aged)
+3414   FC/FF Natural Cherry E
+3424   FC/FF Medium Cherry
+3524   FC/FF Clear Maple*
+3544   FC/FF Blonde on Maple
+3574   FC/FF Amber on Maple E
+3704   FC/FF Clear Walnut
+3714   FC/FF Natural Walnut
+3724   FC/FF Dark Mahogany on Walnut
+3754   FC/FF Medium Walnut
+3764   FC/FF Dark Walnut
+3774   FC/FF Medium Mahogany on Walnut
+Quarter-cut full-fill finish choices
+3224   QC/FF Clear Maple*
+3274   QC/FF Amber on Maple E
+3294   QC/FF Blonde on Maple
+3304   QC/FF Clear Walnut
+3314   QC/FF Natural Walnut
+3324   QC/FF Dark Mahogany on Walnut
+3354   QC/FF Medium Walnut
+3364   QC/FF Dark Walnut
+3374   QC/FF Medium Mahogany on Walnut
+3384   QC/FF Graphite Walnut
+Rift-cut full-fill finish choices
+3604   RC/FF Desert Oak
+3614   RC/FF Warm Oak E
+3694   RC/FF Espresso Oak
+*To ensure an understanding of the color ranges
+and characteristic variations of natural veneer, a
+sign-off sheet is required prior to orders being
+accepted for this clear-coat finish. The sign-off
+sheet is available through Steelcase advertising
+stock. Please use form number 09-0000756 for
+3042,05-0001370 for 3222 and 3224.
+Surface Materials
+E = Established
+...............................................................................................................................................
+Low-Pressure Laminate
+Applies to:
+• TS Series worksurfaces 
+  and TS Series Storage
+247L Black Version 2 LPL
+25L1 Winter on Maple LPL
+25L5 Virginia Walnut LPL
+25L6 Blackwood LPL
+25L8 Clear Walnut LPL
+25L9 Warm Oak LPL E
+262L Marbled Maple LPL
+264L Chocolate Walnut LPL
+267L Marbled Cherry Version 2 LPL
+26L1 Natural Cherry Version 2 LPL
+2L03 Brushed Silver LPL
+2L09 Clear Maple LPL
+2L30 Arctic White LPL    
+2L50 Vanadium Fiber LPL
+2L52 Tungsten Fiber LPL
+2L83 Seagull LPL
+2L85 Dune LPL
+2LAK Clear Oak LPL
+2LAT Acacia LPL
+Wood
+Applies to:
+• Universal Worksurfaces and tables–wood 
+  veneer
+• Answer pedestal tops and fronts
+• Universal Storage tops and fronts
+• Wood skins and trims
+• Infills for FrameOne legs
+Steelcase carefully selects veneer and solid
+wood for consistent color and grain structure.
+Wood is a natural material and variations will
+occur in color, grain and texture. These variations
+are part of the inherent natural beauty of wood
+and are not considered defects.
+All wood products will darken with age and expo-
+sure to ultraviolet light. This is especially
+apparent with cherry and maple veneer. We 
+recommend that desk accessories be rearranged
+periodically to ensure even aging of wood 
+surfaces.
+When storing your wood furniture, please follow
+the following guidelines:
+• Do not store products in trailers
+• Store products in areas hat simulate office
+  temperatures (60°F to 90°F)
+• Store products in areas that maintain constant,
+  office-like humidity levels
+• Keep product away from light. Cover products 
+  to make sure they are not exposed to light.
+February 2015

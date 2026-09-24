@@ -1,0 +1,81 @@
+114                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+Laminate skins attach to
+frames to finish the appearance of
+a panel and can be used in com-
+bination with any other skin type.
+cSpecifying, page 444
+Tip: When specifying skins, the
+total skin height will be 6" less
+than the panel height. For exam-
+ple if the panel is 54"H the total
+skin height will be 48". When
+ordering skins to the floor an F
+suffix will be added to the end of
+the style number. The total height
+will still be 6" less than the panel
+height. Using the same example,
+if the panel is 54"H, 48" of skin
+height will need to be specified. 
+cSee Panel Buildups, page 
+12, for more information.
+Laminate skins consist
+of a laminate surface cap-
+tured by a painted metal 
+trim border on all sides.
+Laminate skins are
+non-tackable.
+Skins can be
+removed and
+repositioned.
+Actual Dimensions
+Width                         2353⁄64", 2953⁄64", 3553⁄64", 4153⁄64", and 4753⁄64"
+Height
+Standard size            127⁄32", 183⁄8", 2437⁄64", 303⁄4", 3615⁄16", 431⁄8", 4919⁄64", and 6121⁄32"
+Height
+To the floor size         2827⁄64", 345⁄8", 4025⁄32", 47", 539⁄64", and 651⁄2"
+Connections
+Skins extend onto junction
+and meet skin of adjacent
+panel. The slotted channel
+of the junction is accessible
+between these two skins. 
+Skins are available in stan-
+dard heights and to the floor
+heights.
+Standard heights are not
+dedicated to a specific 
+location.
+Skins sized to go to
+the floor extend to the bot-
+tom of the panel. They can
+be used on one or both
+sides of the panel. They can
+only be used in the bottom
+position. 
+Tip: Omit base trim option
+should be selected on the
+panel frame when using a
+skin to the floor.
+Wiring & Cabling
+Power and communica-
+tion cannot be accessed in
+laminate skins. 
+Surface Materials
+Laminate skins
+• Laminate (standard)
+• Open Line laminate 
+  (option)
+Trim
+• Paint
+Individual laminate
+skins are available for use
+in monolithic applications or
+in combination with other
+types of skins on the same
+frame.
+...............................................................................................................................................
+Shared Components
+Laminate Skins
+February 2015

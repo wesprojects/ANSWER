@@ -1,0 +1,181 @@
+724                                                                                                                                                                                                  Answer Solutions Specification Guide
+Lock and Keying for TS Series Storage
+                                        
+Key speciﬁc means that
+you can specify any key
+number from FR305 to
+FR454. This option can be
+used to key all the furniture
+units in a workstation or
+department the same.
+Tip: Designate the quantity
+per key number in your
+specification when ordering
+more than one product with
+the same style number.
+Master key speciﬁc
+means that you can specify
+any key number from
+XF1001 to XF1150. All the
+locks in the XF series can
+be opened with a master
+key. 
+Tip: Designate the quantity
+per key number in your
+specification when ordering
+more than one product with
+the same style number.
+XF1020
+XF1020
+XF Master
+Key
+XF1020
+FR350
+FR350
+FR350
+Key consecutive means
+that you can specify lock
+numbers in a consecutive
+order to ensure that no
+two locks have the same
+key number until the key
+se quence repeats. You
+must select a beginning key
+num ber from FR305 to
+FR454.
+FR350
+FR351
+FR352
+Front-removable lock
+cylinders can be installed
+or removed in the ﬁeld with
+a special tool. This feature
+allows you to ﬁeld install
+lock cylinders after the furni-
+ture is installed.
+All locks are designated
+with key numbers. You can
+specify a key number; how-
+ever, if you don’t specify a
+key number, the locks in
+your order will be keyed
+random.
+Two types of locks are
+available—the standard
+keying system (FR series)
+and the master keying sys-
+tem (XF series). All the
+locks in the XF series can
+be opened with a single
+master key.
+Standard Keying 
+All products are standard
+keyed random.
+Lock face ring
+Lock cylinder
+Step 1
+Furniture will be
+shipped with a plastic
+shipping plug. Specify
+lock cylinder and keying
+options separately. Only
+products with factory-
+installed lock mechanisms
+can accept lock cylinders in
+the field.
+Tip: For TS 200 Series be
+sure to specify a lock color
+number (9201 Polished
+Chrome or 9250 Ember
+Chrome) for the lock face
+ring.
+Step 2
+Order enough lock
+cylinders to fill each lock
+location. You must also
+order a lock tool.
+Tip: Lock tools are
+reusable. You don’t need to
+order additional lock tools
+with every furniture order.
+Lock cylinders and the
+installation tool will be
+shipped separately so that
+you can install the locks
+when you are ready.
+To specify lock cylin-
+ders, list the total number
+of lock cylinders that you
+want with the appropriate
+style number. If you are
+specifying key numbers, list
+the breakdown of the quan-
+tity of each key number. 
+An example of how your
+order should look is shown
+below:
+Example:
+10  LOCK9201FR FR320
+5  LOCK9201FR FR350
+15  LOCK9201XF XF1100
+30 Total
+1    877102003SR standard
+      lock tool
+1    877102002SR master 
+      lock tool
+Key random means that
+the locks will be assigned
+arbitrarily at the factory with
+key numbers ranging from
+FR305 to FR454. 
+Tip: Random keying can
+mean that different furniture
+units will have the same
+key number. If you must
+have all locks keyed differ-
+ently, you should specify
+key numbers for all locks.
+Master key random
+means that the locks will be
+assigned arbitrarily at the
+factory with key numbers
+ranging from XF1001 to
+XF1150. All XF locks can
+be opened with a master
+key.
+Tip: Random keying can
+mean that different furniture
+units will have the same
+key number. If you must
+have all locks keyed differ-
+ently, you should specify
+key numbers for all locks.
+FR305
+FR421
+FR305
+XF1011
+XF1042
+XF Master
+Key
+XF1011
+Keying Options 
+Master key consecu -
+tive means that you can
+specify lock numbers in a
+consecutive order to ensure
+that no two locks have the
+same key number until the
+key sequence repeats. You
+must select a beginning key
+number from XF1001 to
+XF1150. All the locks in the
+XF series can be opened
+with a master key.
+XF1020
+XF1021
+XF Master
+Key
+XF1022
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

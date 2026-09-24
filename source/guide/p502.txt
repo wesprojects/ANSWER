@@ -1,0 +1,59 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+502                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+                            Standard Includes                                          Required to Specify
+cNeed help?
+Product details,
+page 180
+• Worksurface support: black paint
+Exception: You can specify paint color choice for 
+cantilever, legs, and on-module end panel.
+• 2" adjustable glides on post leg
+• 23⁄4" adjustable glides on H-legs
+• Attachment hardware
+1 Style number
+2 Paint color number for cantilever,
+legs, and end panel
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                  Post legs and H-legs
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                              • Paint price group 2                     +$12                                     Specify paint color number.
+                              • Paint price group 3                     +$23                                     Specify paint color number.
+                                 On-module end panel
+                              • Paint price group 1                     No cost                                 Specify paint color number.
+                              • Paint price group 2                     +$28                                     Specify paint color number.
+                              • Paint price group 3                     +$47                                     Specify paint color number.
+Speciﬁcation Information
+DDimensions        DStyle               DU.S.
+d                           dNumber           dBase
+d                           d                       dPrice
+d                           d                       d
+Post Leg
+27"H                            TSATP27          $120         
+  d                                d                            d
+H-Legs
+11"W        27"H          TSATH2711     $164         
+20"W        27"H          TSATH2720     $202         
+  d                                d                            d
+On-Module End Panel
+24"D         27"H          TSATEP24        $368
+30"D         27"H          TSATEP30        $419
+Standing Height
+24"D         40"H          TSATEP24S     $435
+30"D         40"H          TSATEP30S     $491
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+75%
+75%
+75%
+75%
+75%
+TS Series Worksurfaces 
+TS Series Worksurface Legs and Supports
+February 2015

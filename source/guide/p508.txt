@@ -1,0 +1,112 @@
+508                                                                                                                                                                                                   Answer Solutions Specification Guide
+Speciﬁcation Information
+                           U.S. Base Prices              
+U.S. Base Prices
+                           High-Pressure Laminate  Wood
+High-Pressure Laminate
+        
+          
+                                                 
+DDimensions DStyle       DPlastic       DPlastic        DWood          DOption                      DDimensions
+DStyle
+DPlastic
+DPlastic
+dA       B        dNumber  d3 mm          dP-Edge        dSquare        d(Add $ to                        dA
+B
+dNumber
+d3 mm
+dKnife
+d
+d
+dEdge
+d
+dEdge          dBase Price)                    d
+d
+dEdge
+dEdge
+d
+          d               d                   d                    d
+d                                      d
+d
+d
+d
+d                    d               d                   d
+d
+dFull-Fill                           d
+d
+d
+d
+d                    d               dNo Sufﬁx    dSufﬁx P
+dSufﬁx SW   dFinish           
+d
+d
+dNo Sufﬁx dSufﬁx K
+With 1/2" Cord Drop                                                                                 With Full Depth
+291⁄2"   24"        US3024    $250               $282                 $  691             +$35                              30"
+24"
+WS3024
+$250
+$328
+291⁄2"   30"        US3030    $259               $291                 $  700             +$36                              30"
+30"
+WS3030
+$259
+$337
+291⁄2"   36"        US3036    $277               $309                 $  718             +$38                              30"
+36"
+WS3036
+$277
+$355
+291⁄2"   42"        US3042    $291               $336                 $  800             +$42                              30"
+42"
+WS3042
+$291
+$388
+291⁄2"   48"        US3048    $331               $376                 $  840             +$44                              30"
+48"
+WS3048
+$331
+$428
+291⁄2"   54"        US3054    $354               $399                 $  863             +$45                              30"
+54"
+WS3054
+$354
+$451
+291⁄2"   60"        US3060    $376               $427                 $  977             +$48                              30"
+60"
+WS3060
+$376
+$493
+291⁄2"   66"        US3066    $410               $461                 $1011             +$50                              30"
+66"
+WS3066
+$410
+$527
+291⁄2"   72"        US3072    $449               $500                 $1050             +$51                              30"
+72"
+WS3072
+$449
+$566
+351⁄2"   60"        US3660    $410               N.A.                  N.A.                N.A.
+351⁄2"   66"        US3666    $443               N.A.                  N.A.                N.A.
+351⁄2"   72"        US3672    $482               N.A.                  N.A.                N.A.
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Tip: 351⁄2"D worksurfaces can only be used in freestanding applications.
+cSpeciﬁcation Information, continued from previous page
+Universal Systems Worksurfaces
+Straight Worksurfaces, continued
+                                        
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

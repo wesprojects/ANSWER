@@ -1,0 +1,52 @@
+Answer Solutions Specification Guide                                                                                                                                                                                              
+717
+Surface Materials
+Recommended
+Worksurface Edge Finishes
+...............................................................................................................................................
+Recommended Edge Colors—High-Pressure Laminate, continued
+Edges
+The recommended edge color
+will complement the laminate
+color you specify. Edge color is
+specified separately.
+Laminate Color                            Recommended                    Recommended
+                                                     3 mm or 1 mm                     P-Edge Color
+                                                     Edge Color
+Woodgrain Laminate, continued
+2772   Medium Mahogany                    6045    Medium Mahogany         6000     Black
+           on Walnut E                                         on Walnut E
+2HAK Clear Oak                                  6219    Clear Oak                       6654     Sand
+2HAT  Acacia                                       6213    Acacia                            6559     Warm White Solid
+Turnstone Laminate Collection* 
+2535   Virginia Walnut                          6242    Virginia Walnut               6000     Black
+2536   Blackwood                                 6243    Blackwood                      6000     Black
+2612   Marbled Maple                          6676    Marbled Maple               6000     Black
+2614   Chocolate Walnut                      6677    Chocolate Walnut           6000     Black
+2615   Marbled Cherry                         6678    Marbled Cherry              6000     Black
+* A selection of laminates and edge bands in this collection are available on Steelcase brand products. This col-
+lection is available with standard leadtimes and supported like standard laminates to help make ordering easy.
+...............................................................................................................................................
+Low-Pressure                                        Recommended
+Laminate Color                                     Edge Band
+247L     Black Version 2 LPL                          6000     Black
+25L1     Winter on Maple LPL                         6037     Winter On Maple
+25L5     Virginia Walnut LPL                           6242     Virginia Walnut
+25L6     Blackwood LPL                                 6243     Blackwood
+25L8     Clear Walnut LPL                              6245     Clear Walnut
+25L9     Warm Oak LPL E                             6246     Warm Oak E
+262L     Marbled Maple LPL                           6676     Marbled Maple
+264L     Chocolate Walnut LPL                       6677     Chocolate Walnut
+267L     Marbled Cherry Version 2 LPL          6678     Marbled Cherry
+26L1     Natural Cherry Version 2 LPL            6034     Natural Cherry
+2L03     Brushed Silver LPL                           6689     Brushed Silver E
+2L09     Clear Maple LPL                               6237     Clear Maple
+2L30     Arctic White LPL                               6009     Arctic White
+2L50     Vanadium Fiber LPL                          6654     Sand
+2L52     Tungsten Fiber LPL                           6697     Fog
+2L83     Seagull LPL                                       6053     Seagull
+2L85     Dune LPL                                          6654     Sand
+2LAK     Clear Oak LPL                                  6219     Clear Oak
+2LAT     Acacia LPL                                        6213     Acacia
+Recommended Edge Colors—Low-Pressure Laminate
+February 2015

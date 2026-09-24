@@ -1,0 +1,67 @@
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 116
+• Technology skin: paint price group 1
+1 Style number
+2 Paint color number for skin surface
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Paint
+                                  • Paint price group 1                     No cost                                  Specify paint color number.
+Materials                • Paint price group 2                     +$ 22                                   Specify paint color number.
+                                  • Paint price group 3                     +$ 38                                   Specify paint color number.
+                                 Fabric 
+                                  • Fabric on steel technology         +$ 49                                   Specify with fabric.
+                                     skins                                           plus the cost of fabric 
+                                                                                         price group
+                                  • Fabric price group 1                   No cost                                 Specify fabric color number.
+                                  • Fabric price group 2                   +$  14                                   Specify fabric color number.
+                                  • Fabric price group 3                   +$  25                                   Specify fabric color number.
+                                  • Fabric price group 4                   +$  37                                   Specify fabric color number.
+                                  • Fabric price group 5                   +$  58                                   Specify fabric color number.
+                                  • Fabric price group 6                   +$  79                                   Specify fabric color number.
+                                  • Fabric price group 7                   +$101                                   Specify fabric color number.
+                                  • Fabric price group COM             +$  16                                   Specify fabric color number.
+                                         Ribbed Steel
+                                  • Ribbed steel on 12"H and          +$ 22                                   Specify with ribbed steel.
+                                     18"H skins only.
+                                         Fabric direction                                                                    
+                                  • Horizontal application                 No cost                                 Specify with horizontal application.
+                                     (standard)
+                                  • Vertical application                     No cost                                 Specify with vertical application.
+Shared Components and Wiring and Cabling
+Steel Technology Skins
+Tip: Remember to order
+technology covers to fill the
+cutouts. Only TS7TSCOVER
+style covers can be used
+with this skin.
+Tip: A modular powerkit
+must always be located
+behind the technology skin.
+Tip: 72"W technology skins
+accommodate fabric in the
+horizontal application only.
+Tip: Ribbed steel technology
+skins cannot be fabric 
+covered.
+Tip: For further information
+about fabric direction, see
+page 713.
+Tip: Technology skins are
+available with all cutouts or
+handed cutouts on just the
+right side or just the left side
+of the skin.
+  
+  
+  
+  
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+458                                                                                                                                                                                                            Answer Solutions Specification Guide
+February 2015

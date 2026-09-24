@@ -1,0 +1,60 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            441
+Shared Components
+Shared Components and Wiring and Cabling
+Markerboard Skins
+For Panel Buildups
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 110
+• Markerboard skin: white
+Style number
+   Speciﬁcation Information
+               12"H                             18"H                              24"H                                  30"H                              36"H
+                  
+                             
+                              
+                                  
+                              
+DWidth   DStyle             DU.S.      DStyle              DU.S.      DStyle              DU.S.         DStyle              DU.S.      DStyle                  DU.S.
+d             dNumber        dPrice    dNumber         dPrice    dNumber         dPrice        dNumber         dPrice    dNumber              dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+18"             TS71218MB   $140        TS71818MB     $169         TS72418MB     $196             TS73018MB     $232         TS73618MB           $269
+24"             TS71224MB   $149         TS71824MB     $179         TS72424MB     $208             TS73024MB     $246         TS73624MB           $285
+30"             TS71230MB   $160         TS71830MB     $193         TS72430MB     $224             TS73030MB     $265         TS73630MB           $304
+36"             TS71236MB   $169         TS71836MB     $203         TS72436MB     $237             TS73036MB     $280         TS73636MB           $322
+42"             TS71242MB   $181         TS71842MB     $215         TS72442MB     $249             TS73042MB     $296         TS73642MB           $341
+48"             TS71248MB   $194         TS71848MB     $228         TS72448MB     $264             TS73048MB     $316         TS73648MB           $369
+60"             TS71260MB   $207         TS71860MB     $242         TS72460MB     $279             TS73060MB     $339         TS73660MB           $390
+72"             TS71272MB   $221         TS71872MB     $257         TS72472MB     $295             TS73072MB     $354         TS73672MB           $410
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: 18"H and 30"H skins
+only work on junctions man-
+ufactured on or after
+October 10, 2011.
+Markerboard Skins
+February 2015

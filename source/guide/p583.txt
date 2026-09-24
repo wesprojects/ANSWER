@@ -1,0 +1,62 @@
+Answer Solutions Specification Guide                                                                                                                             cLegs for Universal Tables, continued  583
+Universal Tables
+Options                       U.S. Price                      Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$19 per leg                         Specify paint color number.
+Speciﬁcation Information
+DPlanning   DStyle          DU.S.                DPlanning    DStyle          DU.S.
+dHeight       dNumber      dBase               dHeight       dNumber      dBase
+d                 d                   dPrice               d                  d                   dPrice
+d                 d                   d
+d                  d                   d
+Adjustable-Height Leg                  Package of Four Adjustable-Height 
+with Glide                                      Legs with Glides
+251⁄2"–311⁄2"    BADJ              $205                      251⁄2"–311⁄2"   BADJ4           $820
+d                 d                   d
+d                  d                   d
+Adjustable-Height Leg                  Package of Four Adjustable-Height 
+with Caster                                    Legs with Casters
+251⁄2"–311⁄2"    BADJC           $228                      251⁄2"–311⁄2"   BADJ4C        $912
+d                 d                   d
+d                  d                   d
+                                                       Package of Four Adjustable-
+                                                       Height Legs with Two Glides 
+                                                       and Two Casters 
+                                                                               251⁄2"–311⁄2"   BADJ4M        $866
+d
+d
+d
+Tip: Corner tables require a
+leg in the back corner. Be
+sure to order ﬁfth leg if 
+specifying a package of four.
+Tip: Dimensions listed are
+nominal and  include the
+thickness of a table.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 238
+• Table legs: paint
+• Glides, if selected: paint to match legs
+• Locking casters, if selected: paint to match legs
+• Attachment hardware
+1 Style number
+2 Paint color number for leg
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Adjustable-Height Legs
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: See Table and Leg
+Combinations page for 
+number of legs required 
+per table.
+cPage 244
+Universal Tables
+                                                                                                                                                                                       
+                                        
+Legs for Universal Tables
+February 2015

@@ -1,0 +1,95 @@
+418                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Panels—Square and Oval Trim
+Stacking Change-of-Height Trims—Square and Oval Trims
+                            Options                       U.S. Price               Required to Specify
+  Surface                     Change-of-height trim
+  Materials                • Paint price group 1                     No cost                                 Specify paint color number.
+                              • Paint price group 2                     +$11                                      Specify paint color number.
+                                     • Paint price group 3                     +$21                                     Specify paint color number.
+                                 For use on steel trim only
+                                     • Fabric price group 1, 2, 3,          +$52                                     Specify fabric color number for trim.
+                                        4, 5, or COM
+                                     • Fabric direction
+                                        –Horizontal application               No cost                                 Specify with horizontal application.
+                                        –(standard)
+                                        –Vertical application                   No cost                                 Specify with vertical application.
+                                 Wood change-of-height trim
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+   Speciﬁcation Information
+DCorresponding    DStyle                 DU.S. 
+dPanel                   dNumber             dBase
+dHeight                 d                          dPrice
+d                            d                          d
+Steel Trim
+Stacking Change-of-Height Trim with Slim Proﬁle
+12"                                TS712CHST        $  56
+18"                                TS718CHST        $  60
+24"                                TS724CHST        $  63
+Stacking Change-of-Height Trim with Cable Routing Capability
+12"                                TS712CHT          $  56
+18"                                TS718CHT          $  60
+24"                                TS724CHT          $  63
+d                            d                          d
+Wood Trim
+Stacking Change-of-Height Trim with Slim Proﬁle
+12"                                TS712CHSTW     $170
+18"                                TS718CHSTW     $174
+24"                                TS724CHSTW     $178
+Stacking Change-of-Height Trim with Cable Routing Capability
+12"                                TS712CHTW       $170
+18"                                TS718CHTW       $174
+24"                                TS724CHTW       $178
+d                            d                          d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 80
+• Change-of-height trim: paint price group 1 or wood
+• Stacking trim aligner: black plastic only
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Stacking change-of-
+height trim is only used on
+the second tier in a change-
+of-height conﬁguration.
+Tip: Change-of-height junc-
+tion cap is not included with
+stacking change-of-height
+trim. Use the change-of-
+height junction cap from the
+standard change-of-height
+trim you are stacking on.
+Tip: Cable-routing trim 
+provides cable routing
+capacity.
+Tip: For further information
+about fabric direction,
+cPage 713.
+Tip: Stacking change-of-
+height trim works with
+square and oval top trim
+styles but not with thin top
+trim style.
+Standard
+change-
+of-height
+trim
+Stacking
+change-
+of-height
+trim
+Standard
+change-
+of-height
+trim
+Stacking
+change-
+of-height
+trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

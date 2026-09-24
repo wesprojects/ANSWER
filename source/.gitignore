@@ -1,0 +1,4 @@
+dist/
+test/overlap/
+test/*.png
+.build

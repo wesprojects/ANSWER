@@ -1,0 +1,74 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            37
+Panels—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+How to Build Your Own Change-of-Height Applications, continued
+X Change-of-Height Application (4 heights)
+Option 7
+Step 2:
+Vertical Junction Posts
+A      TS7____JP
+B      TS7____JP
+C      TS7____JP
+D      TS7____JP
+Step 3:
+Junction Blocks
+see step 3c on page 34
+Step 4:
+Light seals
+TS7____ICLS
+Step 5:
+Trim 
+End-of-run change-of-
+height = A - D
+TS7__TICHT(W)
+L change-of-height = D - C
+TS7__TCLCHT(W)
+T change-of-height = C - B
+TS7__TCTCHT(W)
+90° change-of-height
+junction cap
+TS790COHJC(W)
+Junction cap aligner
+TS7CJCA10
+(10 pack)
+L to T aligner
+TS7LTA4 (4 pack)
+Option 8
+A      TS7____JP
+B      TS7____JP
+C      TS7____JP
+D      TS7____JP
+Step 3:
+Junction Blocks
+see step 3c on page 34
+Step 4:
+Light seals
+TS7____ICLS
+Step 5:
+Trim 
+End-of-run change-of-
+height = A - C
+TS7__TICHT(W)
+T change-of-height = C - B
+TS7__TCTCHT(W)
+T change-of-height = C - D
+TS7__TCTCHT(W)
+90° change-of-height
+junction cap
+TS790COHJC(W)
+Junction cap aligner
+TS7CJCA10
+(10 pack)
+A
+B
+C
+D
+A
+B
+C
+D
+Panels—Thin Trim
+Build Your Own Change-of-
+Height—Thin Trim
+February 2015

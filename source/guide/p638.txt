@@ -1,0 +1,23 @@
+638                                                                                                                                                                                                            Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 301
+• Pair of tether brackets: black 
+• Attachment hardware
+Style number
+Universal Storage
+Low Storage-to-Beam Tether Bracket
+Specification Information
+DStyle        DU.S.      
+dNumber   dPrice                             
+d
+d
+UFSTB         $15
+d
+d
+February 2015

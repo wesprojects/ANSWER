@@ -1,0 +1,87 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            459
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+                                                                                                                     
+                                                                                                                                                                                                                   
+Steel Technology Skins
+ Specification Information
+All Cutouts                    Right Hand                      Left Hand                        No Cutouts
+                                      Cutout Only                     Cutout Only
+                              
+                                 
+                                 
+DWidth
+DStyle
+DU.S.       DStyle
+DU.S.       DStyle
+DU.S.       DStyle
+DU.S.
+d           dNumber        dBase      dNumber           dBase      dNumber           dBase      dNumber       dBase
+d           d                     dPrice     d                       dPrice      d                       dPrice      d                    dPrice
+d              d                         d
+d                            d
+d                            d
+d                        d
+6"H Steel Technology Skins
+24"           TS7624TSS    $  72                                                                                                           TS7624HS     $52
+30"           TS7630TSS    $  87         TS7630RTSS    $  71         TS7630LTSS     $  71         TS7630HS     $56
+36"           TS7636TSS    $  91         TS7636RTSS    $  75         TS7636LTSS     $  75         TS7636HS     $60
+42"           TS7642TSS    $  94         TS7642RTSS    $  79         TS7642LTSS     $  79         TS7642HS     $63
+48"           TS7648TSS    $103         TS7648RTSS    $  88         TS7648LTSS     $  88         TS7648HS     $72
+60"           TS7660TSS    $118         TS7660RTSS    $103         TS7660LTSS     $103         TS7660HS     $83
+72"           TS7672TSS    $130         TS7672RTSS    $114         TS7672LTSS     $114         TS7672HS     $94
+d              d                         d
+d                            d
+d                            d
+d                        d
+12"H Steel Technology Skins
+24"           TS71224TSS  $  97          
+30"           TS71230TSS  $115         TS71230RTSS  $100         TS71230LTSS  $100          
+36"           TS71236TSS  $121         TS71236RTSS  $106         TS71236LTSS  $106          
+42"           TS71242TSS  $125         TS71242RTSS  $110         TS71242LTSS  $110          
+48"           TS71248TSS  $137         TS71248RTSS  $121         TS71248LTSS  $121          
+60"           TS71260TSS  $159         TS71260RTSS  $143         TS71260LTSS  $143          
+72"           TS71272TSS  $172         TS71272RTSS  $157         TS71272LTSS  $157          
+d              d                         d
+d                            d
+d                            d
+d                        d
+18"H Steel Technology Skins
+24"           TS71824TSS  $124                                                           
+30"           TS71830TSS  $145         TS71830RTSS  $130         TS71830LTSS  $130          
+36"           TS71836TSS  $154         TS71836RTSS  $138         TS71836LTSS  $138          
+42"           TS71842TSS  $161         TS71842RTSS  $145         TS71842LTSS  $145          
+48"           TS71848TSS  $175         TS71848RTSS  $160         TS71848LTSS  $160          
+60"           TS71860TSS  $198         TS71860RTSS  $183         TS71860LTSS  $183          
+72"           TS71872TSS  $221         TS71872RTSS  $206         TS71872LTSS  $206          
+d              d                         d
+d                            d
+d                            d
+d                        d
+Tip: 6"H technology skins
+with cutouts includes a pair
+of powerkit brackets that
+attach the powerkit to the
+junction to correctly position
+it within the panel.
+Tip: 6"H technology skin can
+only attach to junctions 
+manufactured on or after
+October 10, 2011.
+Tip: When using technology
+skin on one side of the panel
+(only used at worksurface
+height) a 12" or 18" skin can
+not be used on the opposite
+side of the panel at the
+same location as the 6"H
+skin.
+Tip: 18"H technology skin
+can only attach to junctions 
+manufactured on or after
+October 10, 2011.
+Shared Components
+February 2015

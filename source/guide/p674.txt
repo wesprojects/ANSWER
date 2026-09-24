@@ -1,0 +1,41 @@
+674                                                                                                                                                                                                            Answer Solutions Specification Guide
+Standard Includes                                      Required to Specify
+• Divider bracket: black only
+• Two dividers: clear plastic
+Specification Information
+DWidth      DStyle               DU.S.
+d               dNumber           dPrice
+d
+d                            d
+30"                RASTDIV30       $88
+36"                RASTDIV36       $88
+42"                RASTDIV42       $88
+d
+d
+d
+Style number
+Shelf Divider Assembly
+Bookends
+Standard Includes                                      Required to Specify
+• Package of two or twenty bookends: 6695 Midnight only
+Style number
+Specification Information
+DStyle          DQuantity       DU.S.
+dNumber      d                     dPrice
+d                      d                         d
+KDIV02          2                       $  27
+KDIV20          20                       $256
+d                      d                         d
+cNeed help?
+See Storage
+Specification Guide.
+cNeed help?
+See Storage
+Specification Guide.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Storage Tops, Shelves, and Accessories
+Storage Accessories, continued
+February 2015

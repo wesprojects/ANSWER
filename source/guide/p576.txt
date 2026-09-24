@@ -1,0 +1,101 @@
+576                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Universal Tables
+Round Tables
+High-Pressure Laminate or Wood Veneer
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 234
+• Table: High-Pressure Laminate or wood veneer
+• Laminate table: plastic 3 mm edge proﬁle 
+or P-edge proﬁle on all sides
+• Wood table: wood square 3 mm
+edge proﬁle on all sides
+1 Style number with appropriate edge
+proﬁle sufﬁx
+P Laminate with plastic P-edge
+K Laminate with knife edge
+SW Wood with square edge
+cSee edge proﬁles below.
+2 High-Pressure Laminate or wood color
+number for table
+3 Plastic color number for edge on
+laminate table, if selected
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price                      Required to Specify
+  Surface                  High-Pressure Laminate tables
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+                                 Wood veneer tables
+                               • Premium wood 2                        See information at left           Specify Premium wood 2 ﬁnish number.
+                               • Premium wood 3                        See information at left           Specify Premium wood 3 ﬁnish number.
+                               • Customiz stain                            No cost                                 Specify with Customiz stain. 
+                                                                                                                               cSee Surface Materials Reference Manual.
+                                     • Full-ﬁll ﬁnish on tables                Prices below                         Specify full-ﬁll ﬁnish number.
+  Related                   • Bases for Universal Tables                                                    cPage 581
+  Products                • Legs for Universal Tables                                                      cPage 582
+Speciﬁcation Information
+                               U.S. Base Prices
+                               High-Pressure 
+                               Laminate                        
+Wood
+                          
+         
+         
+       
+                            
+DDiameter     DStyle          DPlastic       DPlastic      DPlastic      DWood        DOption
+d                    dNumber      d3 mm          dP-Edge      dKnife         dSquare     d(Add $ to
+d                    d                   dEdge          d                 dEdge         dEdge         dBase Price)
+d                        d                      d                      d                     d                     d                    d                    
+d
+d
+dNo Sufﬁx
+dSufﬁx 
+dSufﬁx
+dSufﬁx 
+dFull-Fill
+d                    d                   d
+dP
+dK
+dSW            dFinish
+30"                      BFR30           $395                N.A.               $562               N.A.      
+N.A.
+36"                      BFR36         $420              $508              $587               $1340   
++$42
+42"                      BFR42         $466              $554              $633               $1409   
++$45
+48"                      BFR48         $511              $609              $678               $1570   
++$50
+54"                      BFR54         $614              $725              $781               $1732   
++$53
+d                        d                      d                      d                     d
+d                    d                    
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Premium Wood Pricing:
+For Premium wood 2 or
+Premium wood 3 pricing,
+please refer to the electronic
+catalog or SmartTools.
+Tip: Bases and legs to sup-
+port Universal Tables must
+be speciﬁed separately.
+Tip: For leg and support
+guidelines, see 
+Table and Base Combinations,
+cPage 243
+Table and Leg Combinations,
+cPage 244.
+Tip: To specify 3 mm edge
+proﬁle, no sufﬁx is required.
+For other edge proﬁles, add
+sufﬁx to the style number.
+(For example, BFR36
+becomes BFR36SW for
+wood square edge proﬁle.)
+February 2015

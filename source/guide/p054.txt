@@ -1,0 +1,37 @@
+Panels—Thin Trim
+Stacking Horizontal Frame Packages
+...............................................................................................................................................
+Stacking horizontal
+frame package provides
+structural stability for 
+stacking junctions.
+cSpecifying thin, page 382
+scale150
+Horizontal connecting
+bar is included with each
+stacking horizontal frame
+package. 
+Each stacking seg-
+ment must have one hori-
+zontal connecting bar.
+Exception: If a window is
+used with stacking junctions,
+a horizontal connecting bar
+is not needed.
+Each stacking junction
+is specified separately.
+cPages 362–363
+Skins, ordered separately,
+are added to both sides of
+stacking frame.
+...............................................................................................................................................
+Actual Dimensions
+Width        171⁄4", 231⁄4", 291⁄4", 351⁄4", 411⁄4", 471⁄4", 591⁄4", 
+                 and 711⁄4"
+54                                                                                                                                                                                                              Answer Solutions Specification Guide
+When stacking, vertical
+trim must be specified sepa-
+rately to span the full-height
+of the base junctions plus
+the stacking junction.
+February 2015

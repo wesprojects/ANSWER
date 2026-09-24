@@ -1,0 +1,5817 @@
+{
+ "section": "univ-ws-b",
+ "title": "Universal Systems Worksurfaces (jetty, bubble jetty, visitor/linking, transaction, door & tray, caddy, supports, FrameOne legs, infills, legs/columns) and Worksurface Power and Communication",
+ "pages": [
+  206,
+  564
+ ],
+ "pageRanges": [
+  [
+   206,
+   226
+  ],
+  [
+   532,
+   564
+  ]
+ ],
+ "families": [
+  {
+   "id": "univ-jetty-worksurfaces",
+   "title": "Jetty Worksurfaces",
+   "subtitle": "High-Pressure Laminate or Wood Veneer",
+   "page": [
+    532,
+    533
+   ],
+   "understandingPage": 206,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "Worksurface: High-Pressure Laminate or wood veneer",
+    "Laminate worksurface: –Plastic 3 mm edge profile or plastic P-edge profile on front edge –Plastic default flat profile on side and back edges",
+    "Wood worksurface: –Wood 3 mm edge profile on front edge –Matching veneer flat profile on side and back edges",
+    "Cable scallop on back edge",
+    "Wire manager for wood veneer worksurfaces, if selected: black"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix (P Laminate with plastic P-edge; SW Wood with square edge)",
+    "2 High-Pressure Laminate or wood color number for worksurface",
+    "3 Plastic color number for front edge on laminate worksurface, if selected",
+    "4 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate worksurfaces)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer worksurfaces)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "Prices at right",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Scallop",
+     "name": "Omit scallop",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify omit scallop."
+    }
+   ],
+   "relatedProducts": [
+    "Panel-mounted Universal Systems worksurface supports (page 545)",
+    "Legs and supports for Universal Systems Worksurfaces (page 552)",
+    "Columns (page 554)",
+    "Worksurface screens (page 586)",
+    "Worksurface power and communication components (page 555)"
+   ],
+   "tips": [
+    "Tip: Supports for freestanding and panel-mounted applications must be specified separately.",
+    "Tip: Long worksurface spans may require additional support, reinforcing channels allow for unsupported spans greater than 54\". See understanding section for details, page 208",
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "Tip: Jetty worksurfaces are recommended for use with other curved-front shapes such as corner, curved-front worksurfaces. Page 521",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For all other edge profiles, add a suffix to the style number. (For example, UJC3268L becomes UJC3268LSW for wood with square edge profile.)"
+   ],
+   "notes": [
+    "price = High-Pressure Laminate with plastic 3 mm edge (no suffix). optionPrices 'P-Edge (Suffix P)' and 'Wood Square Edge (Suffix SW)' are complete alternative BASE prices (not adders); 'Full-Fill Finish' is an ADDER to the wood price (full-fill applies to wood veneer). null = N.A.",
+    "Full-depth (WJ...) jetty worksurfaces are priced for High-Pressure Laminate plastic 3 mm edge only (no P-edge or wood columns).",
+    "Left-hand: A=30\" (front depth at left end), B=depth, C=overall width, D=48\". Right-hand: A=depth, B=30\", C=48\", D=overall width (per drawings).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with square (3 mm) edge profile"
+    }
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "UJC3268L",
+     "desc": "Jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 66\"W nominal",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 30,
+      "B": 23.5,
+      "C": 65.5,
+      "D": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 66.0
+     },
+     "price": 774,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 881,
+      "Wood Square Edge (Suffix SW)": 1375,
+      "Full-Fill Finish (add to wood)": 74
+     }
+    },
+    {
+     "style": "UJC3228L",
+     "desc": "Jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 72\"W nominal",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 30,
+      "B": 23.5,
+      "C": 71.5,
+      "D": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 72.0
+     },
+     "price": 801,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 908,
+      "Wood Square Edge (Suffix SW)": 1564,
+      "Full-Fill Finish (add to wood)": 77
+     }
+    },
+    {
+     "style": "UJC3288L",
+     "desc": "Jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 78\"W nominal",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 30,
+      "B": 23.5,
+      "C": 77.5,
+      "D": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 78.0
+     },
+     "price": 828,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 935,
+      "Wood Square Edge (Suffix SW)": 1564,
+      "Full-Fill Finish (add to wood)": 81
+     }
+    },
+    {
+     "style": "UJC3368L",
+     "desc": "Jetty worksurface, left-hand, 1/2\" cord drop, 30\"D x 66\"W nominal",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 30,
+      "B": 29.5,
+      "C": 65.5,
+      "D": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 66.0
+     },
+     "price": 800,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 907,
+      "Wood Square Edge (Suffix SW)": 1401,
+      "Full-Fill Finish (add to wood)": 74
+     }
+    },
+    {
+     "style": "UJC3328L",
+     "desc": "Jetty worksurface, left-hand, 1/2\" cord drop, 30\"D x 72\"W nominal",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 30,
+      "B": 29.5,
+      "C": 71.5,
+      "D": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 72.0
+     },
+     "price": 828,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 935,
+      "Wood Square Edge (Suffix SW)": 1591,
+      "Full-Fill Finish (add to wood)": 77
+     }
+    },
+    {
+     "style": "UJC3388L",
+     "desc": "Jetty worksurface, left-hand, 1/2\" cord drop, 30\"D x 78\"W nominal",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 30,
+      "B": 29.5,
+      "C": 77.5,
+      "D": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 78.0
+     },
+     "price": 857,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 964,
+      "Wood Square Edge (Suffix SW)": 1593,
+      "Full-Fill Finish (add to wood)": 81
+     }
+    },
+    {
+     "style": "UJC2386R",
+     "desc": "Jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 66\"W nominal",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "C": 48,
+      "D": 65.5,
+      "nominalDepth": 24,
+      "nominalWidth": 66.0
+     },
+     "price": 774,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 881,
+      "Wood Square Edge (Suffix SW)": 1375,
+      "Full-Fill Finish (add to wood)": 74
+     }
+    },
+    {
+     "style": "UJC2382R",
+     "desc": "Jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 72\"W nominal",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "C": 48,
+      "D": 71.5,
+      "nominalDepth": 24,
+      "nominalWidth": 72.0
+     },
+     "price": 801,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 908,
+      "Wood Square Edge (Suffix SW)": 1564,
+      "Full-Fill Finish (add to wood)": 77
+     }
+    },
+    {
+     "style": "UJC2388R",
+     "desc": "Jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 78\"W nominal",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "C": 48,
+      "D": 77.5,
+      "nominalDepth": 24,
+      "nominalWidth": 78.0
+     },
+     "price": 828,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 935,
+      "Wood Square Edge (Suffix SW)": 1564,
+      "Full-Fill Finish (add to wood)": 81
+     }
+    },
+    {
+     "style": "UJC3386R",
+     "desc": "Jetty worksurface, right-hand, 1/2\" cord drop, 30\"D x 66\"W nominal",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 30,
+      "C": 48,
+      "D": 65.5,
+      "nominalDepth": 30,
+      "nominalWidth": 66.0
+     },
+     "price": 800,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 907,
+      "Wood Square Edge (Suffix SW)": 1401,
+      "Full-Fill Finish (add to wood)": 74
+     }
+    },
+    {
+     "style": "UJC3382R",
+     "desc": "Jetty worksurface, right-hand, 1/2\" cord drop, 30\"D x 72\"W nominal",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 30,
+      "C": 48,
+      "D": 71.5,
+      "nominalDepth": 30,
+      "nominalWidth": 72.0
+     },
+     "price": 828,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 935,
+      "Wood Square Edge (Suffix SW)": 1591,
+      "Full-Fill Finish (add to wood)": 77
+     }
+    },
+    {
+     "style": "UJC3388R",
+     "desc": "Jetty worksurface, right-hand, 1/2\" cord drop, 30\"D x 78\"W nominal",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 30,
+      "C": 48,
+      "D": 77.5,
+      "nominalDepth": 30,
+      "nominalWidth": 78.0
+     },
+     "price": 857,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 964,
+      "Wood Square Edge (Suffix SW)": 1593,
+      "Full-Fill Finish (add to wood)": 81
+     }
+    },
+    {
+     "style": "WJ326648L",
+     "desc": "Jetty worksurface, left-hand, full depth, 24\"D x 66\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 24,
+      "C": 66,
+      "D": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 66
+     },
+     "price": 774,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ327248L",
+     "desc": "Jetty worksurface, left-hand, full depth, 24\"D x 72\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 24,
+      "C": 72,
+      "D": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 72
+     },
+     "price": 801,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ327848L",
+     "desc": "Jetty worksurface, left-hand, full depth, 24\"D x 78\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 24,
+      "C": 78,
+      "D": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 78
+     },
+     "price": 828,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ336648L",
+     "desc": "Jetty worksurface, left-hand, full depth, 30\"D x 66\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "C": 66,
+      "D": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 66
+     },
+     "price": 800,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ337248L",
+     "desc": "Jetty worksurface, left-hand, full depth, 30\"D x 72\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "C": 72,
+      "D": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 72
+     },
+     "price": 828,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ337848L",
+     "desc": "Jetty worksurface, left-hand, full depth, 30\"D x 78\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "C": 78,
+      "D": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 78
+     },
+     "price": 857,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ234866R",
+     "desc": "Jetty worksurface, right-hand, full depth, 24\"D x 66\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 66,
+      "nominalDepth": 24,
+      "nominalWidth": 66
+     },
+     "price": 774,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ234872R",
+     "desc": "Jetty worksurface, right-hand, full depth, 24\"D x 72\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 72,
+      "nominalDepth": 24,
+      "nominalWidth": 72
+     },
+     "price": 801,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ234878R",
+     "desc": "Jetty worksurface, right-hand, full depth, 24\"D x 78\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 78,
+      "nominalDepth": 24,
+      "nominalWidth": 78
+     },
+     "price": 828,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ334866R",
+     "desc": "Jetty worksurface, right-hand, full depth, 30\"D x 66\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 66,
+      "nominalDepth": 30,
+      "nominalWidth": 66
+     },
+     "price": 800,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ334872R",
+     "desc": "Jetty worksurface, right-hand, full depth, 30\"D x 72\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 72,
+      "nominalDepth": 30,
+      "nominalWidth": 72
+     },
+     "price": 828,
+     "optionPrices": {}
+    },
+    {
+     "style": "WJ334878R",
+     "desc": "Jetty worksurface, right-hand, full depth, 30\"D x 78\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 78,
+      "nominalDepth": 30,
+      "nominalWidth": 78
+     },
+     "price": 857,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-bubble-jetty-worksurfaces",
+   "title": "Bubble Jetty Worksurfaces",
+   "subtitle": "High-Pressure Laminate or Wood Veneer",
+   "page": [
+    534,
+    535
+   ],
+   "understandingPage": 206,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "Worksurface: High-Pressure Laminate or wood veneer",
+    "Laminate worksurface: –Plastic 3 mm edge profile or plastic P-edge profile on front edge –Plastic default flat profile on side and back edges",
+    "Wood worksurface: –Wood 3 mm edge profile on front edge –Matching veneer flat profile on side and back edges"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix (P Laminate with plastic P-edge; SW Wood with square edge)",
+    "2 High-Pressure Laminate color number for worksurface",
+    "3 Plastic color number for front edge",
+    "4 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate worksurfaces)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer worksurfaces)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "Prices below",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "relatedProducts": [
+    "Panel-mounted Universal Systems worksurface supports (page 545)",
+    "Legs and supports for Universal Systems Worksurfaces (page 552)",
+    "Columns (page 554)",
+    "Worksurface power and communication components (page 555)"
+   ],
+   "tips": [
+    "Tip: Supports for freestanding and panel-mounted applications must be specified separately.",
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For all other edge profiles, add a suffix to the style number. (For example, UJBC2430L becomes UJBC2430LSW for wood with square edge profile.)"
+   ],
+   "notes": [
+    "price = High-Pressure Laminate with plastic 3 mm edge (no suffix). optionPrices 'P-Edge (Suffix P)' and 'Wood Square Edge (Suffix SW)' are complete alternative BASE prices (not adders); 'Full-Fill Finish' is an ADDER to the wood price (full-fill applies to wood veneer). null = N.A.",
+    "Bubble jetty page lists no cable scallop / wire manager in Standard Includes and no 'Omit scallop' option; only 1/2\" cord drop versions (no full-depth) are offered.",
+    "Page 535 is blank (continuation header only).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with square (3 mm) edge profile"
+    }
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "UJBC2430L",
+     "desc": "Bubble jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 30\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "nominalDepth": 24,
+      "nominalWidth": 30
+     },
+     "price": 728,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 835,
+      "Wood Square Edge (Suffix SW)": 1329,
+      "Full-Fill Finish (add to wood)": 38
+     }
+    },
+    {
+     "style": "UJBC2436L",
+     "desc": "Bubble jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 36\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 36,
+      "nominalDepth": 24,
+      "nominalWidth": 36
+     },
+     "price": 771,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 878,
+      "Wood Square Edge (Suffix SW)": 1372,
+      "Full-Fill Finish (add to wood)": 41
+     }
+    },
+    {
+     "style": "UJBC2442L",
+     "desc": "Bubble jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 42\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 42,
+      "nominalDepth": 24,
+      "nominalWidth": 42
+     },
+     "price": 817,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 924,
+      "Wood Square Edge (Suffix SW)": 1418,
+      "Full-Fill Finish (add to wood)": 51
+     }
+    },
+    {
+     "style": "UJBC2448L",
+     "desc": "Bubble jetty worksurface, left-hand, 1/2\" cord drop, 24\"D x 48\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 48
+     },
+     "price": 862,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 969,
+      "Wood Square Edge (Suffix SW)": 1463,
+      "Full-Fill Finish (add to wood)": 51
+     }
+    },
+    {
+     "style": "UJBC2430R",
+     "desc": "Bubble jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 30\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "nominalDepth": 24,
+      "nominalWidth": 30
+     },
+     "price": 728,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 835,
+      "Wood Square Edge (Suffix SW)": 1329,
+      "Full-Fill Finish (add to wood)": 38
+     }
+    },
+    {
+     "style": "UJBC2436R",
+     "desc": "Bubble jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 36\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 36,
+      "nominalDepth": 24,
+      "nominalWidth": 36
+     },
+     "price": 771,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 878,
+      "Wood Square Edge (Suffix SW)": 1372,
+      "Full-Fill Finish (add to wood)": 41
+     }
+    },
+    {
+     "style": "UJBC2442R",
+     "desc": "Bubble jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 42\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 42,
+      "nominalDepth": 24,
+      "nominalWidth": 42
+     },
+     "price": 817,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 924,
+      "Wood Square Edge (Suffix SW)": 1418,
+      "Full-Fill Finish (add to wood)": 51
+     }
+    },
+    {
+     "style": "UJBC2448R",
+     "desc": "Bubble jetty worksurface, right-hand, 1/2\" cord drop, 24\"D x 48\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 48
+     },
+     "price": 862,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 969,
+      "Wood Square Edge (Suffix SW)": 1463,
+      "Full-Fill Finish (add to wood)": 51
+     }
+    }
+   ]
+  },
+  {
+   "id": "univ-visitor-worksurfaces",
+   "title": "Visitor and Linking Worksurfaces — Visitor Worksurfaces",
+   "subtitle": "High-Pressure Laminate or Wood Veneer",
+   "page": [
+    536,
+    537
+   ],
+   "understandingPage": 206,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "Worksurface: High-Pressure Laminate or wood veneer",
+    "Laminate worksurface: –Plastic 3 mm edge profile or plastic P-edge profile on front edge –Plastic default flat profile on side and back edges",
+    "Wood worksurface: –Wood 3 mm edge profile on front edge –Matching veneer flat profile on side and back edges",
+    "Cable scallop on back edge of visitor worksurfaces 36\"W and wider",
+    "Wire manager for wood veneer worksurfaces with scallops, if selected: black plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix (P Laminate with plastic P-edge; SW Wood with square edge)",
+    "2 High-Pressure Laminate or wood color number for worksurface",
+    "3 Plastic color number for front edge on laminate worksurface, if selected",
+    "4 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate worksurfaces)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer worksurfaces)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "Prices below and at right",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Scallop",
+     "name": "Omit scallop",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify omit scallop.",
+     "appliesTo": "visitor worksurfaces 36\"W and wider (only these have scallops)"
+    }
+   ],
+   "relatedProducts": [
+    "Panel-mounted Universal Systems worksurface supports (page 545)",
+    "Legs and supports for Universal Systems Worksurfaces (page 552)"
+   ],
+   "tips": [
+    "Tip: Supports for freestanding and panel-mounted applications must be specified separately.",
+    "Tip: Visitor and linking worksurfaces are recommended for use with other curved-front shapes such as corner, curved-front worksurfaces. Page 521",
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "Tip: Scallops are available only on visitor worksurfaces 36\"W and wider."
+   ],
+   "notes": [
+    "price = High-Pressure Laminate with plastic 3 mm edge (no suffix). optionPrices 'P-Edge (Suffix P)' and 'Wood Square Edge (Suffix SW)' are complete alternative BASE prices (not adders); 'Full-Fill Finish' is an ADDER to the wood price (full-fill applies to wood veneer). null = N.A.",
+    "Wood (SW) and full-fill are available only on 24\"D x 24\"W (UVC2424L/R) and 30\"D x 30\"W (UVC3030L/R) cord-drop visitor worksurfaces; all others N.A.",
+    "Full-depth visitor worksurfaces (WVC...) are priced for laminate plastic 3 mm edge only; available sizes 24x24, 24x30, 30x30.",
+    "A = depth, B = width. attrs.cableScallop derived from rule 'cable scallop on visitor worksurfaces 36\"W and wider'.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with square (3 mm) edge profile"
+    }
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "UVC2424L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 24\"D x 24\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 24,
+      "nominalDepth": 24,
+      "nominalWidth": 24,
+      "cableScallop": false
+     },
+     "price": 377,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 431,
+      "Wood Square Edge (Suffix SW)": 978,
+      "Full-Fill Finish (add to wood)": 35
+     },
+     "page": 536
+    },
+    {
+     "style": "UVC2430L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 24\"D x 30\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "nominalDepth": 24,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 406,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 460,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 536
+    },
+    {
+     "style": "UVC2436L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 24\"D x 36\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 36,
+      "nominalDepth": 24,
+      "nominalWidth": 36,
+      "cableScallop": true
+     },
+     "price": 434,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 488,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 536
+    },
+    {
+     "style": "UVC2442L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 24\"D x 42\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 42,
+      "nominalDepth": 24,
+      "nominalWidth": 42,
+      "cableScallop": true
+     },
+     "price": 462,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 516,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 536
+    },
+    {
+     "style": "UVC2448L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 24\"D x 48\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 48,
+      "cableScallop": true
+     },
+     "price": 487,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 541,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 536
+    },
+    {
+     "style": "UVC3030L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 30\"D x 30\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 30,
+      "nominalDepth": 30,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 417,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 471,
+      "Wood Square Edge (Suffix SW)": 1031,
+      "Full-Fill Finish (add to wood)": 35
+     },
+     "page": 536
+    },
+    {
+     "style": "UVC3036L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 30\"D x 36\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 36,
+      "nominalDepth": 30,
+      "nominalWidth": 36,
+      "cableScallop": true
+     },
+     "price": 449,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 503,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC3042L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 30\"D x 42\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 42,
+      "nominalDepth": 30,
+      "nominalWidth": 42,
+      "cableScallop": true
+     },
+     "price": 475,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 529,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC3048L",
+     "desc": "Visitor worksurface, left-hand, 1/2\" cord drop, 30\"D x 48\"W",
+     "attrs": {
+      "handed": "left",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 48,
+      "cableScallop": true
+     },
+     "price": 503,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 557,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC2424R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 24\"D x 24\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 24,
+      "nominalDepth": 24,
+      "nominalWidth": 24,
+      "cableScallop": false
+     },
+     "price": 377,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 431,
+      "Wood Square Edge (Suffix SW)": 978,
+      "Full-Fill Finish (add to wood)": 35
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC2430R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 24\"D x 30\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 30,
+      "nominalDepth": 24,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 406,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 460,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC2436R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 24\"D x 36\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 36,
+      "nominalDepth": 24,
+      "nominalWidth": 36,
+      "cableScallop": true
+     },
+     "price": 434,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 488,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC2442R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 24\"D x 42\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 42,
+      "nominalDepth": 24,
+      "nominalWidth": 42,
+      "cableScallop": true
+     },
+     "price": 462,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 516,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC2448R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 24\"D x 48\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 23.5,
+      "B": 48,
+      "nominalDepth": 24,
+      "nominalWidth": 48,
+      "cableScallop": true
+     },
+     "price": 487,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 541,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC3030R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 30\"D x 30\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 30,
+      "nominalDepth": 30,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 417,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 471,
+      "Wood Square Edge (Suffix SW)": 1031,
+      "Full-Fill Finish (add to wood)": 35
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC3036R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 30\"D x 36\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 36,
+      "nominalDepth": 30,
+      "nominalWidth": 36,
+      "cableScallop": true
+     },
+     "price": 449,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 503,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC3042R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 30\"D x 42\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 42,
+      "nominalDepth": 30,
+      "nominalWidth": 42,
+      "cableScallop": true
+     },
+     "price": 475,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 529,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "UVC3048R",
+     "desc": "Visitor worksurface, right-hand, 1/2\" cord drop, 30\"D x 48\"W",
+     "attrs": {
+      "handed": "right",
+      "construction": "half-inch-cord-drop",
+      "A": 29.5,
+      "B": 48,
+      "nominalDepth": 30,
+      "nominalWidth": 48,
+      "cableScallop": true
+     },
+     "price": 503,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 557,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     },
+     "page": 537
+    },
+    {
+     "style": "WVC2424L",
+     "desc": "Visitor worksurface, left-hand, full depth, 24\"D x 24\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 24,
+      "nominalDepth": 24,
+      "nominalWidth": 24,
+      "cableScallop": false
+     },
+     "price": 377,
+     "optionPrices": {},
+     "page": 536
+    },
+    {
+     "style": "WVC2430L",
+     "desc": "Visitor worksurface, left-hand, full depth, 24\"D x 30\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 30,
+      "nominalDepth": 24,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 406,
+     "optionPrices": {},
+     "page": 536
+    },
+    {
+     "style": "WVC3030L",
+     "desc": "Visitor worksurface, left-hand, full depth, 30\"D x 30\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "left",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "nominalDepth": 30,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 417,
+     "optionPrices": {},
+     "page": 536
+    },
+    {
+     "style": "WVC2424R",
+     "desc": "Visitor worksurface, right-hand, full depth, 24\"D x 24\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 24,
+      "nominalDepth": 24,
+      "nominalWidth": 24,
+      "cableScallop": false
+     },
+     "price": 377,
+     "optionPrices": {},
+     "page": 537
+    },
+    {
+     "style": "WVC2430R",
+     "desc": "Visitor worksurface, right-hand, full depth, 24\"D x 30\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 24,
+      "B": 30,
+      "nominalDepth": 24,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 406,
+     "optionPrices": {},
+     "page": 537
+    },
+    {
+     "style": "WVC3030R",
+     "desc": "Visitor worksurface, right-hand, full depth, 30\"D x 30\"W, laminate 3 mm edge only",
+     "attrs": {
+      "handed": "right",
+      "construction": "full-depth",
+      "A": 30,
+      "B": 30,
+      "nominalDepth": 30,
+      "nominalWidth": 30,
+      "cableScallop": false
+     },
+     "price": 417,
+     "optionPrices": {},
+     "page": 537
+    }
+   ]
+  },
+  {
+   "id": "univ-linking-worksurfaces",
+   "title": "Visitor and Linking Worksurfaces — Linking Worksurfaces",
+   "subtitle": "With 3\" Notch for Use with Answer Panels",
+   "page": 537,
+   "understandingPage": 206,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "Same as visitor worksurfaces (page 536): Worksurface High-Pressure Laminate or wood veneer; laminate plastic 3 mm or P-edge front edge; wood 3 mm front edge"
+   ],
+   "requiredToSpecify": [
+    "See Visitor and Linking Worksurfaces, page 536"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate worksurfaces)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer worksurfaces)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "Prices below and at right",
+     "spec": "Specify full-fill finish number."
+    }
+   ],
+   "tips": [
+    "Tip: Visitor and linking worksurfaces are recommended for use with other curved-front shapes such as corner, curved-front worksurfaces. Page 521"
+   ],
+   "notes": [
+    "price = High-Pressure Laminate with plastic 3 mm edge (no suffix). optionPrices 'P-Edge (Suffix P)' and 'Wood Square Edge (Suffix SW)' are complete alternative BASE prices (not adders); 'Full-Fill Finish' is an ADDER to the wood price (full-fill applies to wood veneer). null = N.A.",
+    "ULC2727 drawing shows 23 1/2\" side depths (A and B legs of the linking shape); table lists A 27\" B 27\".",
+    "Full-depth linking (WLC2727, WLC3333) priced laminate plastic 3 mm edge only.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with square (3 mm) edge profile"
+    }
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "ULC2727",
+     "desc": "Linking worksurface with 3\" notch for use with Answer panels, 1/2\" cord drop, 27\" x 27\"",
+     "attrs": {
+      "construction": "half-inch-cord-drop",
+      "A": 27,
+      "B": 27,
+      "notch": 3,
+      "sideDepths": 23.5
+     },
+     "price": 492,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 546,
+      "Wood Square Edge (Suffix SW)": 1093,
+      "Full-Fill Finish (add to wood)": 35
+     }
+    },
+    {
+     "style": "WLC2727",
+     "desc": "Linking worksurface with 3\" notch for use with Answer panels, full depth, A 24\" B 27\"",
+     "attrs": {
+      "construction": "full-depth",
+      "A": 24,
+      "B": 27,
+      "notch": 3
+     },
+     "price": 492,
+     "optionPrices": {}
+    },
+    {
+     "style": "WLC3333",
+     "desc": "Linking worksurface with 3\" notch for use with Answer panels, full depth, A 30\" B 33\"",
+     "attrs": {
+      "construction": "full-depth",
+      "A": 30,
+      "B": 33,
+      "notch": 3
+     },
+     "price": 530,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-transaction-worksurfaces",
+   "title": "Transaction Worksurfaces",
+   "subtitle": "High-Pressure Laminate or Wood Veneer",
+   "page": [
+    538,
+    539
+   ],
+   "understandingPage": 214,
+   "trim": "any",
+   "category": "worksurface",
+   "standardIncludes": [
+    "Worksurface: High-Pressure Laminate or wood veneer",
+    "Laminate worksurface: —Plastic 3 mm edge profile or plastic P-edge profile on all edges",
+    "Wood worksurface: —Wood 3 mm edge profile on all edges",
+    "Top caps for use with Answer panels, if selected: paint",
+    "Support brackets: black paint only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number with appropriate edge profile suffix (P Laminate with plastic P-edge; SW Wood with square edge)",
+    "2 High-Pressure Laminate or wood color number for worksurface",
+    "3 Plastic color number for edges on laminate worksurface, if selected",
+    "4 Paint color number for top caps, if selected",
+    "5 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate (High-Pressure Laminate worksurfaces)",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 2 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Premium wood 3 (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "See information at left (refer to electronic catalog or SmartTools)",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Customiz stain (wood veneer worksurfaces)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Full-fill finish (wood veneer worksurfaces)",
+     "price": null,
+     "priceText": "Prices at right",
+     "spec": "Specify full-fill finish number."
+    },
+    {
+     "group": "Top caps on laminate worksurfaces for use with Answer panels",
+     "name": "Wood",
+     "price": 111,
+     "priceText": "+$111",
+     "spec": "Specify with wood top cap and select wood color number."
+    },
+    {
+     "group": "Top caps on laminate worksurfaces for use with Answer panels",
+     "name": "Customiz stain on wood",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain."
+    },
+    {
+     "group": "Change-of-Height Cable Management Top Cap",
+     "name": "Change-of-height at both ends, cable management",
+     "price": 6,
+     "priceText": "+$ 6",
+     "spec": "Specify with change-of-height, both ends cable management.",
+     "appliesTo": "For use with Answer panels with square trim"
+    }
+   ],
+   "tips": [
+    "Premium Wood Pricing: For Premium wood 2 or Premium wood 3 pricing, please refer to the electronic catalog or SmartTools.",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For all other edge profiles, add a suffix to the style number. (For example UTR1636TA becomes UTR1636TASA for wood with square edge profile.) [page 538]",
+    "Tip: To specify 3 mm edge profile, no suffix is required. For all other edge profiles, add a suffix to the style number. (For example, UTR1636A becomes UTR1636ASW for wood with square edge profile.) [page 539]",
+    "Tip: Actual width of Answer transaction worksurface using thin trim is 2\" shorter than the nominal planning dimension to accommodate change of panel height applications.",
+    "Tip: Actual width of Answer transaction worksurface, using square and oval trim, is 7\" shorter than the nominal planning dimension to accommodate change of panel height applications."
+   ],
+   "notes": [
+    "price = High-Pressure Laminate with plastic 3 mm edge (no suffix). optionPrices 'P-Edge (Suffix P)' and 'Wood Square Edge (Suffix SW)' are complete alternative BASE prices (not adders); 'Full-Fill Finish' is an ADDER to the wood price (full-fill applies to wood veneer). null = N.A.",
+    "Style suffix by panel trim: TA = thin trim, SA = square trim, A (no letter) = oval trim.",
+    "Wood (SW) and full-fill not available for 30\" panel width (UTR1630TA/SA/A) — N.A.",
+    "All rows: With Brackets and Top Caps for Use with Answer Panels. A = 15\" depth, B = actual width.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "<style> (no suffix)",
+     "meaning": "High-Pressure Laminate with plastic 3 mm edge profile"
+    },
+    {
+     "pattern": "<style>P",
+     "meaning": "High-Pressure Laminate with plastic P-edge profile"
+    },
+    {
+     "pattern": "<style>SW",
+     "meaning": "Wood veneer with square (3 mm) edge profile"
+    }
+   ],
+   "columns": [
+    "Dimensions A B",
+    "Panel Width",
+    "Style Number",
+    "Plastic 3 mm Edge (No Suffix)",
+    "Plastic P-Edge (Suffix P)",
+    "Wood Square Edge (Suffix SW)",
+    "Option (Add $ to Base Price) Full-Fill Finish"
+   ],
+   "items": [
+    {
+     "style": "UTR1630TA",
+     "desc": "Transaction worksurface with brackets and top caps, for 30\"W Answer panel, thin trim (28\"W actual)",
+     "attrs": {
+      "trim": "thin",
+      "A": 15,
+      "B": 28,
+      "panelWidth": 30,
+      "actualWidth": 28,
+      "depth": 15
+     },
+     "price": 296,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 341,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     }
+    },
+    {
+     "style": "UTR1636TA",
+     "desc": "Transaction worksurface with brackets and top caps, for 36\"W Answer panel, thin trim (34\"W actual)",
+     "attrs": {
+      "trim": "thin",
+      "A": 15,
+      "B": 34,
+      "panelWidth": 36,
+      "actualWidth": 34,
+      "depth": 15
+     },
+     "price": 320,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 365,
+      "Wood Square Edge (Suffix SW)": 909,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1642TA",
+     "desc": "Transaction worksurface with brackets and top caps, for 42\"W Answer panel, thin trim (40\"W actual)",
+     "attrs": {
+      "trim": "thin",
+      "A": 15,
+      "B": 40,
+      "panelWidth": 42,
+      "actualWidth": 40,
+      "depth": 15
+     },
+     "price": 345,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 390,
+      "Wood Square Edge (Suffix SW)": 934,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1648TA",
+     "desc": "Transaction worksurface with brackets and top caps, for 48\"W Answer panel, thin trim (46\"W actual)",
+     "attrs": {
+      "trim": "thin",
+      "A": 15,
+      "B": 46,
+      "panelWidth": 48,
+      "actualWidth": 46,
+      "depth": 15
+     },
+     "price": 367,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 418,
+      "Wood Square Edge (Suffix SW)": 956,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1660TA",
+     "desc": "Transaction worksurface with brackets and top caps, for 60\"W Answer panel, thin trim (58\"W actual)",
+     "attrs": {
+      "trim": "thin",
+      "A": 15,
+      "B": 58,
+      "panelWidth": 60,
+      "actualWidth": 58,
+      "depth": 15
+     },
+     "price": 398,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 449,
+      "Wood Square Edge (Suffix SW)": 1051,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1630SA",
+     "desc": "Transaction worksurface with brackets and top caps, for 30\"W Answer panel, square trim (23\"W actual)",
+     "attrs": {
+      "trim": "square",
+      "A": 15,
+      "B": 23,
+      "panelWidth": 30,
+      "actualWidth": 23,
+      "depth": 15
+     },
+     "price": 300,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 345,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     }
+    },
+    {
+     "style": "UTR1636SA",
+     "desc": "Transaction worksurface with brackets and top caps, for 36\"W Answer panel, square trim (29\"W actual)",
+     "attrs": {
+      "trim": "square",
+      "A": 15,
+      "B": 29,
+      "panelWidth": 36,
+      "actualWidth": 29,
+      "depth": 15
+     },
+     "price": 325,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 370,
+      "Wood Square Edge (Suffix SW)": 914,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1642SA",
+     "desc": "Transaction worksurface with brackets and top caps, for 42\"W Answer panel, square trim (35\"W actual)",
+     "attrs": {
+      "trim": "square",
+      "A": 15,
+      "B": 35,
+      "panelWidth": 42,
+      "actualWidth": 35,
+      "depth": 15
+     },
+     "price": 350,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 395,
+      "Wood Square Edge (Suffix SW)": 939,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1648SA",
+     "desc": "Transaction worksurface with brackets and top caps, for 48\"W Answer panel, square trim (41\"W actual)",
+     "attrs": {
+      "trim": "square",
+      "A": 15,
+      "B": 41,
+      "panelWidth": 48,
+      "actualWidth": 41,
+      "depth": 15
+     },
+     "price": 373,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 424,
+      "Wood Square Edge (Suffix SW)": 962,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1660SA",
+     "desc": "Transaction worksurface with brackets and top caps, for 60\"W Answer panel, square trim (53\"W actual)",
+     "attrs": {
+      "trim": "square",
+      "A": 15,
+      "B": 53,
+      "panelWidth": 60,
+      "actualWidth": 53,
+      "depth": 15
+     },
+     "price": 404,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 455,
+      "Wood Square Edge (Suffix SW)": 1057,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1630A",
+     "desc": "Transaction worksurface with brackets and top caps, for 30\"W Answer panel, oval trim (23\"W actual)",
+     "attrs": {
+      "trim": "oval",
+      "A": 15,
+      "B": 23,
+      "panelWidth": 30,
+      "actualWidth": 23,
+      "depth": 15
+     },
+     "price": 300,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 345,
+      "Wood Square Edge (Suffix SW)": null,
+      "Full-Fill Finish (add to wood)": null
+     }
+    },
+    {
+     "style": "UTR1636A",
+     "desc": "Transaction worksurface with brackets and top caps, for 36\"W Answer panel, oval trim (29\"W actual)",
+     "attrs": {
+      "trim": "oval",
+      "A": 15,
+      "B": 29,
+      "panelWidth": 36,
+      "actualWidth": 29,
+      "depth": 15
+     },
+     "price": 325,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 370,
+      "Wood Square Edge (Suffix SW)": 926,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1642A",
+     "desc": "Transaction worksurface with brackets and top caps, for 42\"W Answer panel, oval trim (35\"W actual)",
+     "attrs": {
+      "trim": "oval",
+      "A": 15,
+      "B": 35,
+      "panelWidth": 42,
+      "actualWidth": 35,
+      "depth": 15
+     },
+     "price": 350,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 395,
+      "Wood Square Edge (Suffix SW)": 951,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1648A",
+     "desc": "Transaction worksurface with brackets and top caps, for 48\"W Answer panel, oval trim (41\"W actual)",
+     "attrs": {
+      "trim": "oval",
+      "A": 15,
+      "B": 41,
+      "panelWidth": 48,
+      "actualWidth": 41,
+      "depth": 15
+     },
+     "price": 373,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 424,
+      "Wood Square Edge (Suffix SW)": 974,
+      "Full-Fill Finish (add to wood)": 45
+     }
+    },
+    {
+     "style": "UTR1660A",
+     "desc": "Transaction worksurface with brackets and top caps, for 60\"W Answer panel, oval trim (53\"W actual)",
+     "attrs": {
+      "trim": "oval",
+      "A": 15,
+      "B": 53,
+      "panelWidth": 60,
+      "actualWidth": 53,
+      "depth": 15
+     },
+     "price": 404,
+     "optionPrices": {
+      "P-Edge (Suffix P)": 455,
+      "Wood Square Edge (Suffix SW)": 1060,
+      "Full-Fill Finish (add to wood)": 65
+     }
+    }
+   ]
+  },
+  {
+   "id": "univ-power-data-access-door-tray",
+   "title": "Power and Data Access Door & Tray",
+   "page": [
+    540,
+    541
+   ],
+   "understandingPage": 210,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Door: paint",
+    "Door bezel: 6694 slate",
+    "Inner tray with six simplex receptacles: 7237 slate",
+    "Outer tray with end caps: 7237 slate and 6694 slate",
+    "Grommet (modular and hardwire only): plastic",
+    "Two cord clips or harness clips"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color for door",
+    "3 Plastic color for grommet",
+    "4 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials — Door",
+     "name": "Paint",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color."
+    },
+    {
+     "group": "Surface Materials — Door",
+     "name": "Anodized aluminum",
+     "price": 21,
+     "priceText": "+$21",
+     "spec": "Specify with 8043 clear anodized aluminum."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 1, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 1, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 1, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 1, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 2, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 2, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 2, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 2, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 3, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 3, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 3, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 3, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 4, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 4, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3+1, Line 4, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3+1, line 4, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 1, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 1, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 1, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 1, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 2, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 2, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 2, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 2, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 3, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 3, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 3, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 3, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 4, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 4, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "2+2, Line 4, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 2+2, line 4, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3SN, Line 1, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN, line 1, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3SN, Line 1, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN, line 1, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3SN, Line 2, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN, line 2, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3SN, Line 2, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN, line 2, isolated ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3SN, Line 3, system ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN, line 3, system ground."
+    },
+    {
+     "group": "Power Schematics, Line Options, and Ground Options",
+     "name": "3SN, Line 3, isolated ground",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with 3SN, line 3, isolated ground."
+    }
+   ],
+   "tips": [
+    "Tip: Remember to specify cutout for power and data tray on the worksurface style number."
+   ],
+   "notes": [
+    "Power schematic/line/ground option is a required electrical selection (all no cost): 3+1 lines 1-4, 2+2 lines 1-4, 3SN lines 1-3; each with system or isolated ground.",
+    "Non-PVC versions add N to the style (UTTRM -> UTTRMN etc.) at $994 vs $984.",
+    "Worksurface cutout is ordered on the worksurface (see Soft Edge / Door & Tray worksurfaces, specifying page 510).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Base Price",
+    "Style Number Non-PVC",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UTTRM",
+     "desc": "Power and data access door & tray, Modular Power",
+     "attrs": {
+      "connection": "modular",
+      "nonPVC": false
+     },
+     "price": 984,
+     "optionPrices": {}
+    },
+    {
+     "style": "UTTRMN",
+     "desc": "Power and data access door & tray, Modular Power, non-PVC",
+     "attrs": {
+      "connection": "modular",
+      "nonPVC": true
+     },
+     "price": 994,
+     "optionPrices": {}
+    },
+    {
+     "style": "UTTRHW",
+     "desc": "Power and data access door & tray, Hardwire Power",
+     "attrs": {
+      "connection": "hardwire",
+      "nonPVC": false
+     },
+     "price": 984,
+     "optionPrices": {}
+    },
+    {
+     "style": "UTTRHWN",
+     "desc": "Power and data access door & tray, Hardwire Power, non-PVC",
+     "attrs": {
+      "connection": "hardwire",
+      "nonPVC": true
+     },
+     "price": 994,
+     "optionPrices": {}
+    },
+    {
+     "style": "UTTRC",
+     "desc": "Power and data access door & tray, Cord and Plug",
+     "attrs": {
+      "connection": "cord-and-plug",
+      "nonPVC": false
+     },
+     "price": 984,
+     "optionPrices": {}
+    },
+    {
+     "style": "UTTRCN",
+     "desc": "Power and data access door & tray, Cord and Plug, non-PVC",
+     "attrs": {
+      "connection": "cord-and-plug",
+      "nonPVC": true
+     },
+     "price": 994,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-personal-caddy",
+   "title": "Personal Caddy",
+   "page": 542,
+   "understandingPage": 210,
+   "trim": null,
+   "category": "worksurface-accessory",
+   "standardIncludes": [
+    "Caddy: plastic",
+    "Pad: 6615 Grey V5 plastic",
+    "Brace: black"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color for caddy: 6009 Arctic White, 6249 Platinum Solid, 6695 Midnight",
+    "3 Options, if selected"
+   ],
+   "options": [
+    {
+     "group": "Bracing",
+     "name": "Brace for 54\"W and 60\"W worksurface",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with brace for 54\"W and 60\"W worksurface."
+    },
+    {
+     "group": "Bracing",
+     "name": "Brace for 66\"W and 72\"W worksurface",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with brace for 66\"W and 72\"W worksurface."
+    }
+   ],
+   "tips": [
+    "Tips: Remember to specify cutout for personal caddy on the worksurface style number."
+   ],
+   "notes": [
+    "Caddy plastic colors: 6009 Arctic White, 6249 Platinum Solid, 6695 Midnight.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "UPC",
+     "desc": "Personal caddy (plastic caddy, Grey V5 pad, black brace)",
+     "attrs": {
+      "width": 10,
+      "depth": 18,
+      "height": 8
+     },
+     "price": 611,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-connectors",
+   "title": "Connectors",
+   "page": 543,
+   "understandingPage": 211,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Connector: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Used with modular / hardwire power and data access door & tray: harness can connect to a powerkit or use a harness-to-harness connector or branching harness-to-harness connector (page 211).",
+    "Suffix X = 3+1, Y = 2+2, Z = 3SN (3 separate neutrals).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Description",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "BHHCX",
+     "desc": "Harness-to-harness connector, 4-Circuit, 3+1",
+     "attrs": {
+      "circuit": "4-Circuit, 3+1",
+      "type": "harness-to-harness"
+     },
+     "price": 49,
+     "optionPrices": {}
+    },
+    {
+     "style": "GQTUHCX",
+     "desc": "Branching harness-to-harness connector, 4-Circuit, 3+1",
+     "attrs": {
+      "circuit": "4-Circuit, 3+1",
+      "type": "branching harness-to-harness"
+     },
+     "price": 63,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHHCY",
+     "desc": "Harness-to-harness connector, 4-Circuit, 2+2",
+     "attrs": {
+      "circuit": "4-Circuit, 2+2",
+      "type": "harness-to-harness"
+     },
+     "price": 49,
+     "optionPrices": {}
+    },
+    {
+     "style": "GQTUHCY",
+     "desc": "Branching harness-to-harness connector, 4-Circuit, 2+2",
+     "attrs": {
+      "circuit": "4-Circuit, 2+2",
+      "type": "branching harness-to-harness"
+     },
+     "price": 63,
+     "optionPrices": {}
+    },
+    {
+     "style": "BHHCZ",
+     "desc": "Harness-to-harness connector, 3-Circuit, Separate Neutrals",
+     "attrs": {
+      "circuit": "3-Circuit, Separate Neutrals",
+      "type": "harness-to-harness"
+     },
+     "price": 49,
+     "optionPrices": {}
+    },
+    {
+     "style": "GQTUHCZ",
+     "desc": "Branching harness-to-harness connector, 3-Circuit, Separate Neutrals",
+     "attrs": {
+      "circuit": "3-Circuit, Separate Neutrals",
+      "type": "branching harness-to-harness"
+     },
+     "price": 63,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-filler-package-data",
+   "title": "Filler Package – Data",
+   "page": 544,
+   "understandingPage": 211,
+   "trim": null,
+   "category": "worksurface-accessory",
+   "standardIncludes": [
+    "Package of 20 fillers: black"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Fills unused data cutouts in the power and data tray; ordered separately in packages of 20 (page 211).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "FMVF",
+     "desc": "Filler package – data, package of 20 black fillers",
+     "attrs": {
+      "quantity": 20
+     },
+     "price": 34,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-cantilever",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports — Cantilevers",
+   "subtitle": "For Use with Answer Panels",
+   "page": 545,
+   "understandingPage": 216,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Cantilever: paint",
+    "Tie plate",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Answer panel junctions can accommodate only one cantilever at a seam.",
+    "Tip: 30\"D straight and transition cantilevered worksurfaces require additional floor support along the front edge, such as a pedestal, end panel, post leg, side support bracket, or an adjacent return worksurface."
+   ],
+   "notes": [
+    "Actual dimensions (page 216): height 12 1/4\", depth 15 1/2\". Non-handed; supports worksurfaces at any height in 1\" increments; supports either end of a worksurface or shared between two worksurfaces at the same height. One tie plate ships with each cantilever.",
+    "No paint price group options printed for cantilever (paint color only).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "UCANT",
+     "desc": "On-module cantilever for Answer panels, with tie plate",
+     "attrs": {
+      "module": "on-module",
+      "actualHeight": 12.25,
+      "actualDepth": 15.5
+     },
+     "price": 100,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-side-support-brackets",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports — Side Support Brackets",
+   "page": 545,
+   "understandingPage": 216,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Pair of handed side support brackets: black paint only",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Side support bracket includes a pair of handed brackets, only one of which is required for rear corner support of panel-mounted corner worksurfaces. Specify one for every two corner worksurfaces in on-module applications. Order an additional supply for off-module fin wall applications."
+   ],
+   "notes": [
+    "Ships as a left- and right-hand pair; supports worksurfaces at any height in 1\" increments (page 216).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "USSBR",
+     "desc": "Side support brackets, pair (left and right), black",
+     "attrs": {
+      "quantity": 2,
+      "handed": "pair"
+     },
+     "price": 36,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-support-plate",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports for Use with Answer Panels — Support Plate",
+   "page": 546,
+   "understandingPage": 224,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Support plate: black paint only",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Support plate can also be used in freestanding applications."
+   ],
+   "notes": [
+    "Support plate can be used with a double post leg to join and support two worksurfaces; plate is 14\"D or 20\"D and 3 11/16\"W (page 224).",
+    "'Need help? Product details, page 180' as printed.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS714WSP",
+     "desc": "Support plate, 14\"D, black",
+     "attrs": {
+      "depth": 14,
+      "actualWidth": 3.6875
+     },
+     "price": 64,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS720WSP",
+     "desc": "Support plate, 20\"D, black",
+     "attrs": {
+      "depth": 20,
+      "actualWidth": 3.6875
+     },
+     "price": 64,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-tie-plates",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports for Use with Answer Panels — Tie Plates",
+   "page": 546,
+   "understandingPage": null,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Package of six tie plates: black paint only",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "One tie plate ships with each cantilever and each center support panel; this package is for additional tie plates.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7TIEPLATE",
+     "desc": "Tie plates, package of six, 3 3/4\"L, black",
+     "attrs": {
+      "length": 3.75,
+      "quantity": 6
+     },
+     "price": 94,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-reinforcing-channels",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports for Use with Answer Panels — Reinforcing Channels",
+   "page": 546,
+   "understandingPage": 181,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Reinforcing channel: black paint only",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Reinforcing channel can also be used in freestanding applications."
+   ],
+   "notes": [
+    "Worksurface widths served (page 208/226, knife edge): TS7WKSPT39 for 54\"W worksurfaces, TS7WKSPT for 60\"W and 66\"W worksurfaces, TS7WKSPT72 for 72\"W worksurfaces.",
+    "'Need help? Product details, page 181' as printed.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7WKSPT39",
+     "desc": "Reinforcing channel, 39\"W (for 54\"W worksurfaces)",
+     "attrs": {
+      "width": 39,
+      "forWorksurfaceWidths": [
+       54
+      ]
+     },
+     "price": 47,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7WKSPT",
+     "desc": "Reinforcing channel, 57\"W (for 60\"W and 66\"W worksurfaces)",
+     "attrs": {
+      "width": 57,
+      "forWorksurfaceWidths": [
+       60,
+       66
+      ]
+     },
+     "price": 47,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS7WKSPT72",
+     "desc": "Reinforcing channel, 72\"W (for 72\"W worksurfaces)",
+     "attrs": {
+      "width": 72,
+      "forWorksurfaceWidths": [
+       72
+      ]
+     },
+     "price": 47,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-center-support-panels",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports — Center Support Panels",
+   "page": 547,
+   "understandingPage": 216,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Center support panel: paint price group 1",
+    "Tie plate",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for center support panel",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 12,
+     "priceText": "+$12",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 20,
+     "priceText": "+$20",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Glide range 1 1/4\" (page 216). Heights include worksurface thickness.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UCSP",
+     "desc": "On-module center support panel, 11\"D x 28 1/2\"H, with tie plate",
+     "attrs": {
+      "module": "on-module",
+      "depth": 11,
+      "height": 28.5,
+      "standingHeight": false
+     },
+     "price": 131,
+     "optionPrices": {}
+    },
+    {
+     "style": "UCSPS",
+     "desc": "On-module center support panel, standing height, 11\"D x 40 7/8\"H, with tie plate",
+     "attrs": {
+      "module": "on-module",
+      "depth": 11,
+      "height": 40.875,
+      "standingHeight": true
+     },
+     "price": 154,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-end-panels",
+   "title": "Panel-Mounted Universal Systems Worksurface Supports — End Panels",
+   "page": 547,
+   "understandingPage": 216,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "End panel: paint price group 1",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for end panel",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 28,
+     "priceText": "+$28",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 47,
+     "priceText": "+$47",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Actual depth 23 3/4\" (24\"D) or 29 3/4\" (30\"D); glide range 1 1/4\" (page 216).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UEP24",
+     "desc": "On-module end panel, 24\"D x 28 1/2\"H",
+     "attrs": {
+      "module": "on-module",
+      "depth": 24,
+      "actualDepth": 23.75,
+      "height": 28.5,
+      "standingHeight": false
+     },
+     "price": 359,
+     "optionPrices": {}
+    },
+    {
+     "style": "UEP30",
+     "desc": "On-module end panel, 30\"D x 28 1/2\"H",
+     "attrs": {
+      "module": "on-module",
+      "depth": 30,
+      "actualDepth": 29.75,
+      "height": 28.5,
+      "standingHeight": false
+     },
+     "price": 408,
+     "optionPrices": {}
+    },
+    {
+     "style": "UEP24S",
+     "desc": "On-module end panel, standing height, 24\"D x 40 7/8\"H",
+     "attrs": {
+      "module": "on-module",
+      "depth": 24,
+      "actualDepth": 23.75,
+      "height": 40.875,
+      "standingHeight": true
+     },
+     "price": 425,
+     "optionPrices": {}
+    },
+    {
+     "style": "UEP30S",
+     "desc": "On-module end panel, standing height, 30\"D x 40 7/8\"H",
+     "attrs": {
+      "module": "on-module",
+      "depth": 30,
+      "actualDepth": 29.75,
+      "height": 40.875,
+      "standingHeight": true
+     },
+     "price": 477,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-off-module-ws-to-panel-connector",
+   "title": "Off-Module Worksurface-to-Panel Connector",
+   "page": 548,
+   "understandingPage": 218,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Connector: paint",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for connector",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 11,
+     "priceText": "+$11",
+     "spec": "Specify paint color."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 21,
+     "priceText": "+$21",
+     "spec": "Specify paint color."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Connects 18\"D, 24\"D, and 30\"D worksurfaces to wider panels (page 218); connector attaches into the slotted channels of the panel junctions, so its width corresponds to the panel width it spans (interpretation — 'width' is the printed column).",
+    "Actual dimensions: width 24\", 30\", 36\", 42\", 48\", 60\", or 72\"; height 3\"; depth 1/2\" (page 219).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Width",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UFS24ANS",
+     "desc": "Off-module worksurface-to-panel connector, 24\"W",
+     "attrs": {
+      "width": 24,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 114,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS30ANS",
+     "desc": "Off-module worksurface-to-panel connector, 30\"W",
+     "attrs": {
+      "width": 30,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 124,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS36ANS",
+     "desc": "Off-module worksurface-to-panel connector, 36\"W",
+     "attrs": {
+      "width": 36,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 135,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS42ANS",
+     "desc": "Off-module worksurface-to-panel connector, 42\"W",
+     "attrs": {
+      "width": 42,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 145,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS48ANS",
+     "desc": "Off-module worksurface-to-panel connector, 48\"W",
+     "attrs": {
+      "width": 48,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 155,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS60ANS",
+     "desc": "Off-module worksurface-to-panel connector, 60\"W",
+     "attrs": {
+      "width": 60,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 239,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS72ANS",
+     "desc": "Off-module worksurface-to-panel connector, 72\"W",
+     "attrs": {
+      "width": 72,
+      "actualHeight": 3,
+      "actualDepth": 0.5,
+      "forWorksurfaceDepths": [
+       18,
+       24,
+       30
+      ]
+     },
+     "price": 254,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-frameone-legs-supports",
+   "title": "FrameOne Legs and Supports for Universal Worksurfaces",
+   "page": 549,
+   "understandingPage": 220,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Legs and intermediate support: paint",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for legs and support",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color.",
+     "appliesTo": "legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color.",
+     "appliesTo": "legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 32,
+     "priceText": "+$32 per leg",
+     "spec": "Specify paint color.",
+     "appliesTo": "legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color.",
+     "appliesTo": "intermediate support"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 12,
+     "priceText": "+$12 per leg",
+     "spec": "Specify paint color.",
+     "appliesTo": "intermediate support"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 20,
+     "priceText": "+$20 per leg",
+     "spec": "Specify paint color.",
+     "appliesTo": "intermediate support"
+    },
+    {
+     "group": "Intermediate Support bracing",
+     "name": "No brace",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with no brace.",
+     "appliesTo": "For laminate or wood storage tops"
+    },
+    {
+     "group": "Intermediate Support bracing",
+     "name": "One brace (30\", 36\", or 42\"W)",
+     "price": 47,
+     "priceText": "+$47",
+     "spec": "Specify with one brace.",
+     "appliesTo": "For steel storage tops"
+    },
+    {
+     "group": "Intermediate Support bracing",
+     "name": "Two braces (30\", 36\", or 42\"W)",
+     "price": 47,
+     "priceText": "+$47",
+     "spec": "Specify with two braces.",
+     "appliesTo": "For steel storage tops"
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Two braces option printed as +$47 (same as one brace) — recorded as printed.",
+    "LHANS/RHANS = panel supporting, handed (left/right when facing the front of the worksurface); no suffix = tethered application; T suffix = table application.",
+    "Half loop legs are available only in panel-supporting (handed) versions. Post leg (UFP) has no depth.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Planning Height",
+    "Depth",
+    "Style Number (Panel Supporting Left-Hand)",
+    "U.S. Base Price",
+    "Style Number (Panel Supporting Right-Hand)",
+    "U.S. Base Price",
+    "Style Number (Tethered Application)",
+    "U.S. Base Price",
+    "Style Number (Table Application)",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UFC24LHANS",
+     "desc": "FrameOne closed loop leg, 24\"D, panel supporting, left-hand",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "left"
+     },
+     "price": 562,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC24RHANS",
+     "desc": "FrameOne closed loop leg, 24\"D, panel supporting, right-hand",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "right"
+     },
+     "price": 562,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC24",
+     "desc": "FrameOne closed loop leg, 24\"D, tethered application (non-handed)",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "tethered",
+      "handed": null
+     },
+     "price": 562,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC24T",
+     "desc": "FrameOne closed loop leg, 24\"D, table application (non-handed)",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "table",
+      "handed": null
+     },
+     "price": 613,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC30LHANS",
+     "desc": "FrameOne closed loop leg, 30\"D, panel supporting, left-hand",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "left"
+     },
+     "price": 562,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC30RHANS",
+     "desc": "FrameOne closed loop leg, 30\"D, panel supporting, right-hand",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "right"
+     },
+     "price": 562,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC30",
+     "desc": "FrameOne closed loop leg, 30\"D, tethered application (non-handed)",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "tethered",
+      "handed": null
+     },
+     "price": 562,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFC30T",
+     "desc": "FrameOne closed loop leg, 30\"D, table application (non-handed)",
+     "attrs": {
+      "type": "closed-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "table",
+      "handed": null
+     },
+     "price": 613,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ24LHANS",
+     "desc": "FrameOne open loop leg, 24\"D, panel supporting, left-hand",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "left"
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ24RHANS",
+     "desc": "FrameOne open loop leg, 24\"D, panel supporting, right-hand",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "right"
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ24",
+     "desc": "FrameOne open loop leg, 24\"D, tethered application (non-handed)",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "tethered",
+      "handed": null
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ24T",
+     "desc": "FrameOne open loop leg, 24\"D, table application (non-handed)",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "table",
+      "handed": null
+     },
+     "price": 460,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ30LHANS",
+     "desc": "FrameOne open loop leg, 30\"D, panel supporting, left-hand",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "left"
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ30RHANS",
+     "desc": "FrameOne open loop leg, 30\"D, panel supporting, right-hand",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "right"
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ30",
+     "desc": "FrameOne open loop leg, 30\"D, tethered application (non-handed)",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "tethered",
+      "handed": null
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFQ30T",
+     "desc": "FrameOne open loop leg, 30\"D, table application (non-handed)",
+     "attrs": {
+      "type": "open-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "table",
+      "handed": null
+     },
+     "price": 460,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFH24LHANS",
+     "desc": "FrameOne half loop leg, 24\"D, panel supporting, left-hand",
+     "attrs": {
+      "type": "half-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "left"
+     },
+     "price": 355,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFH24RHANS",
+     "desc": "FrameOne half loop leg, 24\"D, panel supporting, right-hand",
+     "attrs": {
+      "type": "half-loop",
+      "depth": 24,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "right"
+     },
+     "price": 355,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFH30LHANS",
+     "desc": "FrameOne half loop leg, 30\"D, panel supporting, left-hand",
+     "attrs": {
+      "type": "half-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "left"
+     },
+     "price": 355,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFH30RHANS",
+     "desc": "FrameOne half loop leg, 30\"D, panel supporting, right-hand",
+     "attrs": {
+      "type": "half-loop",
+      "depth": 30,
+      "height": 28.5,
+      "application": "panel-supporting",
+      "handed": "right"
+     },
+     "price": 355,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFP",
+     "desc": "FrameOne post leg, 28 1/2\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 28.5
+     },
+     "price": 161,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS1610H",
+     "desc": "FrameOne intermediate support, 16\"D, for use with One-High Universal storage",
+     "attrs": {
+      "type": "intermediate-support",
+      "depth": 16,
+      "height": 28.5,
+      "storage": "one-high",
+      "actualHeight": 11.25,
+      "actualWidth": 2.1875
+     },
+     "price": 249,
+     "optionPrices": {}
+    },
+    {
+     "style": "UFS1615H",
+     "desc": "FrameOne intermediate support, 16\"D, for use with 1.5-High Universal storage",
+     "attrs": {
+      "type": "intermediate-support",
+      "depth": 16,
+      "height": 28.5,
+      "storage": "1.5-high",
+      "actualHeight": 5.25,
+      "actualWidth": 2.1875
+     },
+     "price": 227,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-frameone-infills",
+   "title": "Infills for FrameOne Legs for Universal Worksurfaces",
+   "page": [
+    550,
+    551
+   ],
+   "understandingPage": 223,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "High-Pressure Laminate infills",
+    "Brackets and caps"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Laminate color number for infill",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials — High-Pressure Laminate",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$ 65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual."
+    },
+    {
+     "group": "Surface Materials — Wood Veneer",
+     "name": "Wood veneer surface with wood veneer edges",
+     "price": null,
+     "priceText": "Prices below",
+     "spec": "Specify with wood veneer and indicate wood color number."
+    },
+    {
+     "group": "Surface Materials — Wood Veneer",
+     "name": "Premium wood 2",
+     "price": 98,
+     "priceText": "+$ 98",
+     "spec": "Specify Premium wood 2 finish number."
+    },
+    {
+     "group": "Surface Materials — Wood Veneer",
+     "name": "Premium wood 3",
+     "price": 343,
+     "priceText": "+$343",
+     "spec": "Specify Premium wood 3 finish number."
+    },
+    {
+     "group": "Surface Materials — Wood Veneer",
+     "name": "Customiz stain",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with Customiz stain. See Surface Materials Reference Manual."
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "price = High-Pressure Laminate; 'Wood Veneer (add)' is an adder to the base price (Option (Add $ to Base Price) Wood Veneer).",
+    "Page 551 is blank (continuation header only).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Planning Width",
+    "Style Number",
+    "U.S. Base Price High-Pressure Laminate",
+    "Option (Add $ to Base Price) Wood Veneer"
+   ],
+   "items": [
+    {
+     "style": "UFC24NF",
+     "desc": "Infill for FrameOne closed loop legs, 24\"W",
+     "attrs": {
+      "forLeg": "closed-loop",
+      "width": 24
+     },
+     "price": 549,
+     "optionPrices": {
+      "Wood Veneer (add)": 183
+     }
+    },
+    {
+     "style": "UFC30NF",
+     "desc": "Infill for FrameOne closed loop legs, 30\"W",
+     "attrs": {
+      "forLeg": "closed-loop",
+      "width": 30
+     },
+     "price": 611,
+     "optionPrices": {
+      "Wood Veneer (add)": 199
+     }
+    },
+    {
+     "style": "UFQ24NF",
+     "desc": "Infill for FrameOne open loop legs, 24\"W",
+     "attrs": {
+      "forLeg": "open-loop",
+      "width": 24
+     },
+     "price": 549,
+     "optionPrices": {
+      "Wood Veneer (add)": 183
+     }
+    },
+    {
+     "style": "UFQ30NF",
+     "desc": "Infill for FrameOne open loop legs, 30\"W",
+     "attrs": {
+      "forLeg": "open-loop",
+      "width": 30
+     },
+     "price": 611,
+     "optionPrices": {
+      "Wood Veneer (add)": 199
+     }
+    }
+   ]
+  },
+  {
+   "id": "univ-post-legs-double-post-legs",
+   "title": "Legs and Columns for Universal Systems Worksurfaces Without Alignment Tab — Post Legs and Double Post Legs",
+   "page": [
+    552,
+    553
+   ],
+   "understandingPage": 224,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Legs: paint",
+    "Attachment hardware",
+    "Non-locking caster, if selected: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for leg",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 32,
+     "priceText": "+$32 per leg",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Height dimensions listed are nominal and include the thickness of a worksurface.",
+    "Tip: Standing height legs can be used as column support in panel-mounted applications only.",
+    "Tip: Corner worksurfaces require a leg in the back corner. Be sure to order fifth leg if specifying a package of four.",
+    "Tip: Double post legs can be used as a shared or column support in applications with other post legs."
+   ],
+   "notes": [
+    "Paint price group adders are per leg (package of four = 4 legs).",
+    "N prefix (UNPL...) = 26\"H nesting height; H prefix (UHPL, UHDPL) = 40 7/8\"H standing height; C suffix = caster; 4 = package of four; 4M = two glides + two casters.",
+    "Actual glide range: post leg 3/4\", double post leg 3/4\", double post C-leg 3/4\" (page 224).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price",
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UNPL",
+     "desc": "Post leg with glide, 26\"H (nesting)",
+     "attrs": {
+      "type": "post-leg",
+      "height": 26,
+      "quantity": 1,
+      "glides": 1,
+      "casters": 0
+     },
+     "price": 118,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UPL",
+     "desc": "Post leg with glide, 28 1/2\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 28.5,
+      "quantity": 1,
+      "glides": 1,
+      "casters": 0
+     },
+     "price": 118,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UHPL",
+     "desc": "Post leg with glide, 40 7/8\"H (standing height)",
+     "attrs": {
+      "type": "post-leg",
+      "height": 40.875,
+      "quantity": 1,
+      "glides": 1,
+      "casters": 0
+     },
+     "price": 150,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UNPL4",
+     "desc": "Package of four post legs with glides, 26\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 26,
+      "quantity": 4,
+      "glides": 4,
+      "casters": 0
+     },
+     "price": 472,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UPL4",
+     "desc": "Package of four post legs with glides, 28 1/2\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 28.5,
+      "quantity": 4,
+      "glides": 4,
+      "casters": 0
+     },
+     "price": 472,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UNPLC",
+     "desc": "Post leg with caster, 26\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 26,
+      "quantity": 1,
+      "glides": 0,
+      "casters": 1
+     },
+     "price": 135,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UPLC",
+     "desc": "Post leg with caster, 28 1/2\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 28.5,
+      "quantity": 1,
+      "glides": 0,
+      "casters": 1
+     },
+     "price": 135,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UNPL4C",
+     "desc": "Package of four post legs with casters, 26\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 26,
+      "quantity": 4,
+      "glides": 0,
+      "casters": 4
+     },
+     "price": 540,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UPL4C",
+     "desc": "Package of four post legs with casters, 28 1/2\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 28.5,
+      "quantity": 4,
+      "glides": 0,
+      "casters": 4
+     },
+     "price": 540,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UNPL4M",
+     "desc": "Package of four post legs with two glides and two casters, 26\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 26,
+      "quantity": 4,
+      "glides": 2,
+      "casters": 2
+     },
+     "price": 506,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UPL4M",
+     "desc": "Package of four post legs with two glides and two casters, 28 1/2\"H",
+     "attrs": {
+      "type": "post-leg",
+      "height": 28.5,
+      "quantity": 4,
+      "glides": 2,
+      "casters": 2
+     },
+     "price": 506,
+     "optionPrices": {},
+     "page": 552
+    },
+    {
+     "style": "UDPL",
+     "desc": "Double post leg with glides, 28 1/2\"H",
+     "attrs": {
+      "type": "double-post-leg",
+      "height": 28.5,
+      "quantity": 1
+     },
+     "price": 334,
+     "optionPrices": {},
+     "page": 553
+    },
+    {
+     "style": "UHDPL",
+     "desc": "Double post leg with glides, 40 7/8\"H (standing height)",
+     "attrs": {
+      "type": "double-post-leg",
+      "height": 40.875,
+      "quantity": 1
+     },
+     "price": 392,
+     "optionPrices": {},
+     "page": 553
+    },
+    {
+     "style": "UCL",
+     "desc": "Double post C-leg with glides, 28 1/2\"H",
+     "attrs": {
+      "type": "double-post-c-leg",
+      "height": 28.5,
+      "quantity": 1
+     },
+     "price": 378,
+     "optionPrices": {},
+     "page": 553
+    }
+   ]
+  },
+  {
+   "id": "univ-adjustable-height-legs",
+   "title": "Legs and Columns for Universal Systems Worksurfaces without Alignment Tab, continued — Adjustable-Height Legs",
+   "page": 554,
+   "understandingPage": 224,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Worksurface legs: paint",
+    "Glides, if selected: paint to match legs",
+    "Locking casters, if selected: paint to match legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for leg",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Corner worksurfaces require a leg in the back corner. Be sure to order fifth leg if specifying a package of four.",
+    "Tip: See Table and Leg Combinations page for number of legs required per worksurface. Page 244",
+    "Tip: Height dimensions listed include the thickness of a worksurface."
+   ],
+   "notes": [
+    "Only paint price groups 1 and 2 are offered for adjustable-height legs (no group 3).",
+    "Adjustable-height leg colors (page 225): 4750 Champagne Metallic, 4798 Sterling Metallic, 4799 Platinum Metallic, 7207 Black, 7225 Sand, 7239 Midnight.",
+    "Adjusts from 25 1/2\"H to 31 1/2\"H in 3/4\" increments; glide range 3/4\" (page 224).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price",
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UADJ",
+     "desc": "Adjustable-height leg with glide, 25 1/2\"-31 1/2\"H",
+     "attrs": {
+      "type": "adjustable-height-leg",
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "quantity": 1,
+      "glides": 1,
+      "casters": 0
+     },
+     "price": 195,
+     "optionPrices": {}
+    },
+    {
+     "style": "UADJ4",
+     "desc": "Package of four adjustable-height legs with glides",
+     "attrs": {
+      "type": "adjustable-height-leg",
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "quantity": 4,
+      "glides": 4,
+      "casters": 0
+     },
+     "price": 780,
+     "optionPrices": {}
+    },
+    {
+     "style": "UADJC",
+     "desc": "Adjustable-height leg with caster, 25 1/2\"-31 1/2\"H",
+     "attrs": {
+      "type": "adjustable-height-leg",
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "quantity": 1,
+      "glides": 0,
+      "casters": 1
+     },
+     "price": 218,
+     "optionPrices": {}
+    },
+    {
+     "style": "UADJ4C",
+     "desc": "Package of four adjustable-height legs with casters",
+     "attrs": {
+      "type": "adjustable-height-leg",
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "quantity": 4,
+      "glides": 0,
+      "casters": 4
+     },
+     "price": 872,
+     "optionPrices": {}
+    },
+    {
+     "style": "UADJ4M",
+     "desc": "Package of four adjustable-height legs with two glides and two casters",
+     "attrs": {
+      "type": "adjustable-height-leg",
+      "heightMin": 25.5,
+      "heightMax": 31.5,
+      "quantity": 4,
+      "glides": 2,
+      "casters": 2
+     },
+     "price": 826,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "univ-columns",
+   "title": "Legs and Columns for Universal Systems Worksurfaces without Alignment Tab, continued — Columns",
+   "page": 554,
+   "understandingPage": 224,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Column: paint",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for column",
+    "3 Options, if selected",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 19,
+     "priceText": "+$19 per leg",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 32,
+     "priceText": "+$32 per leg",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Tip: Columns have a different aesthetic than post legs (round vs. elliptical). Columns can be used as column supports in applications without post legs.",
+    "Tip: Height dimensions listed include the thickness of a worksurface."
+   ],
+   "notes": [
+    "Column is 4\" in diameter (page 224). Glide range: column 1 1/2\", adjustable column 3 1/8\".",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Planning Height",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "UCOL",
+     "desc": "Column, 28 1/2\"H, 4\" diameter",
+     "attrs": {
+      "type": "column",
+      "height": 28.5,
+      "adjustable": false,
+      "diameter": 4
+     },
+     "price": 262,
+     "optionPrices": {}
+    },
+    {
+     "style": "UADJCOL",
+     "desc": "Adjustable column, 28 1/2\"-31 5/8\"H",
+     "attrs": {
+      "type": "column",
+      "heightMin": 28.5,
+      "heightMax": 31.625,
+      "adjustable": true,
+      "diameter": 4
+     },
+     "price": 323,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-power-data-strips",
+   "title": "Wiring and Cabling Accessories — Power and Data Strips with Cord",
+   "page": 556,
+   "understandingPage": 246,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Power and data strip with cord: 8043 Clear Anodized Aluminum cover with black faceplate",
+    "Worksurface attachment bracket, if selected: 4799 Platinum paint only",
+    "Slatwall attachment bracket, if selected: 4799 Platinum paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "BPDSWSPL",
+     "desc": "Power and data strip with cord with worksurface attachment bracket",
+     "attrs": {
+      "depth": 2.25,
+      "width": 10.25,
+      "height": 3,
+      "bracket": "worksurface"
+     },
+     "price": 222,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPDSSWPL",
+     "desc": "Power and data strip with cord with slatwall attachment bracket",
+     "attrs": {
+      "depth": 2.25,
+      "width": 10.25,
+      "height": 3,
+      "bracket": "slatwall"
+     },
+     "price": 222,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPDSWB",
+     "desc": "Worksurface attachment bracket only",
+     "attrs": {
+      "bracket": "worksurface",
+      "bracketOnly": true
+     },
+     "price": 41,
+     "optionPrices": {}
+    },
+    {
+     "style": "BPDSSB",
+     "desc": "Slatwall attachment bracket only",
+     "attrs": {
+      "bracket": "slatwall",
+      "bracketOnly": true
+     },
+     "price": 41,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-power-spheres",
+   "title": "Wiring and Cabling Accessories — Power Spheres",
+   "page": 557,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Sphere with four simplex electrical outlets: black plastic only",
+    "Two 6' power cords (each rated at 15 amps), if selected: black plastic only",
+    "Two 6' Greenfield conduits (each rated at 15 amps), if selected: metal only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Sphere is field installed. Use 3\"-diameter drill to cut mounting hole at desired location."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "PTDMGB1",
+     "desc": "Power sphere, four electrical outlets with two 6' power cords",
+     "attrs": {
+      "depth": 3.375,
+      "width": 3.375,
+      "height": 3,
+      "outlets": 4,
+      "connection": "two 6' power cords"
+     },
+     "price": 242,
+     "optionPrices": {}
+    },
+    {
+     "style": "PTDMGB2",
+     "desc": "Power sphere, four electrical outlets with two 6' Greenfield conduits for hardwiring",
+     "attrs": {
+      "depth": 3.375,
+      "width": 3.375,
+      "height": 3,
+      "outlets": 4,
+      "connection": "two 6' Greenfield conduits (hardwire)"
+     },
+     "price": 422,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-power-comm-spheres",
+   "title": "Wiring and Cabling Accessories — Power and Communication Spheres",
+   "page": 557,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Sphere with two simplex electrical outlets: black plastic only",
+    "Face plates to accommodate two customer-supplied voice/data jacks: black plastic only",
+    "6' power cord with plug rated at 15 amps, if selected: black plastic only",
+    "6' Greenfield conduit for hardwiring, if selected: metal only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Sphere is field installed. Use 3\"-diameter drill to cut mounting hole at desired location.",
+    "Tip: Face plates in sphere accommodates standard voice/data jacks."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "PTDMGB3",
+     "desc": "Power and communication sphere with one 6' power cord",
+     "attrs": {
+      "depth": 3.375,
+      "width": 3.375,
+      "height": 3,
+      "outlets": 2,
+      "dataJacks": 2,
+      "connection": "6' power cord"
+     },
+     "price": 242,
+     "optionPrices": {}
+    },
+    {
+     "style": "PTDMGB4",
+     "desc": "Power and communication sphere with one 6' Greenfield conduit for hardwiring",
+     "attrs": {
+      "depth": 3.375,
+      "width": 3.375,
+      "height": 3,
+      "outlets": 2,
+      "dataJacks": 2,
+      "connection": "6' Greenfield conduit (hardwire)"
+     },
+     "price": 347,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-communication-sphere",
+   "title": "Wiring and Cabling Accessories — Communication Sphere",
+   "page": 558,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "cabling",
+   "standardIncludes": [
+    "Sphere with face plates to accommodate four customer-supplied voice/data jacks: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Sphere is field installed. Use 3\"-diameter drill to cut mounting hole at desired location.",
+    "Tip: Face plates in sphere accommodates standard voice/data jacks."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "PTDMGB5",
+     "desc": "Communication sphere, face plates for four customer-supplied voice/data jacks",
+     "attrs": {
+      "depth": 3.375,
+      "width": 3.375,
+      "height": 3,
+      "dataJacks": 4
+     },
+     "price": 242,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-power-comm-port",
+   "title": "Wiring and Cabling Accessories — Power and Communication Port",
+   "page": 558,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Port with two electrical outlets: black plastic only",
+    "6' power cord with plug rated at 15 amps: black plastic only",
+    "Adapters for two customer-supplied data couplers/jacks"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Port is field installed. Use a 3 1/2\"-diameter drill to cut mounting hole at desired location."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "PTRSGB1",
+     "desc": "Power and communication port, two outlets, 6' cord, two data adapters",
+     "attrs": {
+      "depth": 4.25,
+      "width": 4.25,
+      "height": 4.3125,
+      "outlets": 2,
+      "dataJacks": 2
+     },
+     "price": 326,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-power-data-boxes",
+   "title": "Wiring and Cabling Accessories — Power/Data Boxes",
+   "page": 559,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "power",
+   "standardIncludes": [
+    "Power/data box",
+    "Power/power box",
+    "Data/data box"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Style-to-description taken from the spec page (AWVBP = Power/Power Box, AWVBD = Data/Data Box); the Style Number Index lists them the other way around.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "AWVBC",
+     "desc": "Power/data box",
+     "attrs": {
+      "depth": 3,
+      "width": 3,
+      "height": 1,
+      "config": "power/data"
+     },
+     "price": 225,
+     "optionPrices": {}
+    },
+    {
+     "style": "AWVBP",
+     "desc": "Power/power box",
+     "attrs": {
+      "depth": 3,
+      "width": 3,
+      "height": 1,
+      "config": "power/power"
+     },
+     "price": 225,
+     "optionPrices": {}
+    },
+    {
+     "style": "AWVBD",
+     "desc": "Data/data box",
+     "attrs": {
+      "depth": 3,
+      "width": 3,
+      "height": 1,
+      "config": "data/data"
+     },
+     "price": 225,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-round-grommet",
+   "title": "Wiring and Cabling Accessories — Field-Installed Round Grommet",
+   "page": 559,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Grommet: paint or metal",
+    "Installation instructions"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint or metal color number",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Grommet AWAG2 is for use on worksurfaces only."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "AWAG2",
+     "desc": "Field-installed round grommet, 2 1/2\" (worksurfaces only)",
+     "attrs": {
+      "depth": 2.5,
+      "width": 2.5
+     },
+     "price": 65,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-universal-ws-wire-managers",
+   "title": "Wiring and Cabling Accessories — Universal Worksurface Wire Managers",
+   "page": 560,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Set of six field installed worksurface wire managers: plastic",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for worksurface wire manager: 6000 Black, 6009 Arctic White, 6052 Milk, 6053 Seagull, 6249 Platinum Solid, 6654 Sand, 6695 Midnight, 6697 Fog"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Converts cable scallops into grommets in freestanding applications; included with wood veneer worksurfaces, must be ordered separately for laminate worksurfaces (page 208).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7WWM",
+     "desc": "Universal worksurface wire managers, set of six, field installed",
+     "attrs": {
+      "quantity": 6
+     },
+     "price": 132,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-vertebral-cable-riser",
+   "title": "Wiring and Cabling Accessories — Vertebral Cable Riser and Extension",
+   "page": 560,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Vertebral cable riser: black plastic only",
+    "Attachment hardware",
+    "Floor plate: Metallic Aluminum only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: 15 3/4\"L cable riser is an extension only. Extension does not include attachment hardware or floor plate."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Length",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "DAVC",
+     "desc": "Vertebral cable riser, 31 1/2\"L",
+     "attrs": {
+      "length": 31.5
+     },
+     "price": 128,
+     "optionPrices": {}
+    },
+    {
+     "style": "DAVCE",
+     "desc": "Vertebral cable riser extension, 15 3/4\"L (no attachment hardware or floor plate)",
+     "attrs": {
+      "length": 15.75,
+      "extensionOnly": true
+     },
+     "price": 37,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-skeleton-bone-wire-managers",
+   "title": "Wiring and Cabling Accessories — Skeleton Bone Wire Managers",
+   "page": 561,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Wire manager: black plastic",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Note: This product is Turnstone, NOT Steelcase. It is included here to simplify your planning. Remember that Steelcase has different pricing terms than Turnstone products.",
+    "Drawing shows a 3\" base dimension.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS5SKLBNE",
+     "desc": "Skeleton bone wire manager, 38\"H (Turnstone)",
+     "attrs": {
+      "depth": 1.5,
+      "width": 1.375,
+      "height": 38
+     },
+     "price": 165,
+     "optionPrices": {}
+    },
+    {
+     "style": "TS5SKEXT",
+     "desc": "Skeleton bone wire manager extension, 36\"H (Turnstone)",
+     "attrs": {
+      "depth": 1.5,
+      "width": 1.375,
+      "height": 36
+     },
+     "price": 140,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-cable-fiber-reels",
+   "title": "Wiring and Cabling Accessories — Cable and Fiber Reels",
+   "page": 561,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Package of four reels: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "98766",
+     "desc": "Cable and fiber reels, package of four",
+     "attrs": {
+      "quantity": 4
+     },
+     "price": 130,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-termination-plate",
+   "title": "Wiring and Cabling Accessories — Termination Plate",
+   "page": 561,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "cabling",
+   "standardIncludes": [
+    "Termination plate: black paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "98765",
+     "desc": "Termination plate",
+     "attrs": {
+      "depth": 0.75,
+      "width": 7.125,
+      "height": 7.125
+     },
+     "price": 19,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-cord-reels",
+   "title": "Wiring and Cabling Accessories — Cord Reels",
+   "page": 562,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Carton of six cord reels: black paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "98767",
+     "desc": "Cord reels, carton of six",
+     "attrs": {
+      "quantity": 6
+     },
+     "price": 55,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-cable-storage-tray",
+   "title": "Wiring and Cabling Accessories — Cable Storage Tray",
+   "page": 562,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Cable storage tray: black paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "98768",
+     "desc": "Cable storage tray",
+     "attrs": {
+      "depth": 2,
+      "width": 24,
+      "height": 2.5
+     },
+     "price": 43,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-wire-guide-clips",
+   "title": "Wiring and Cabling Accessories — Wire Guide Clips",
+   "page": 562,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Carton of 20 adhesive-backed wire guide clips: black plastic only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "32WCP",
+     "desc": "Wire guide clips, carton of 20, adhesive-backed",
+     "attrs": {
+      "quantity": 20
+     },
+     "price": 30,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-wire-clips",
+   "title": "Wiring and Cabling Accessories — Wire Clips",
+   "page": 563,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Carton of six: black plastic only",
+    "Foam tape",
+    "Mounting screws"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "999CHT",
+     "desc": "Wire clips, carton of six",
+     "attrs": {
+      "quantity": 6
+     },
+     "price": 54,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-velcro-wire-clips",
+   "title": "Wiring and Cabling Accessories — Velcro Wire Clips",
+   "page": 563,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "Package of six wire clips: velcro",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Attaches under worksurfaces with screws or around leg."
+   ],
+   "notes": [
+    "Note: This product is Turnstone, NOT Steelcase. It is included here to simplify your planning. Remember that Steelcase has different pricing terms than Turnstone products.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS5LEGCLP",
+     "desc": "Velcro wire clips, package of six (Turnstone)",
+     "attrs": {
+      "depth": 0.5,
+      "width": 8,
+      "height": 0.5,
+      "quantity": 6
+     },
+     "price": 47,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "wc-wire-manager",
+   "title": "Wiring and Cabling Accessories — Wire Manager",
+   "page": 563,
+   "understandingPage": 150,
+   "trim": null,
+   "category": "wire-management",
+   "standardIncludes": [
+    "25\" wire manager with double-sided tape: black plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor (see page 1)."
+   ],
+   "columns": [
+    "Dimensions D W H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "AWVW",
+     "desc": "Wire manager, 25\", with double-sided tape",
+     "attrs": {
+      "depth": 1,
+      "width": 0.75,
+      "height": 25
+     },
+     "price": 15,
+     "optionPrices": {}
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "page": 206,
+   "topic": "worksurfaces",
+   "text": "Systems worksurfaces with 1/2\" Cord Drop allow cords to drop below the worksurface at any point along the back edge; Full Depth worksurfaces fit flush against panels and cords/cables are routed through cable scallops.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 206,
+   "topic": "edge-profile",
+   "text": "Laminate worksurfaces: front (user's) edge available in 3 mm edge profile or P-edge profile; knife edge with 3 mm user edge is available on straight and tapered systems worksurfaces and on round tables. Back and side edges are flat.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 206,
+   "topic": "edge-profile",
+   "text": "Wood veneer worksurfaces have a square (3 mm) edge profile only on the front edge; back edge and edges that join adjacent worksurfaces are flat; wood edge color matches worksurface finish.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 206,
+   "topic": "edge-profile",
+   "text": "Edge profile finishes are specified separately from laminate color. Edge profile is applied to front (user's) edge only.",
+   "kind": "requirement"
+  },
+  {
+   "page": 206,
+   "topic": "cable-scallop",
+   "text": "Cable scallops allow cords and plugs to pass behind the worksurface; cable scallops can be omitted as an option.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 206,
+   "topic": "materials",
+   "text": "PVC-free 3 mm edge profiles are proprietary polyolefin blend for all solid colors and seven woodgrain finishes; matching 1 mm side and back edges are also PVC-free.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 207,
+   "topic": "p-edge",
+   "text": "P-edge profile worksurface depths are 3/8\" deeper than 3 mm edge profile worksurfaces; both provide a flush interface with universal pedestals.",
+   "kind": "dimension"
+  },
+  {
+   "page": 207,
+   "topic": "dual-worksurface",
+   "text": "Keyboard surface on dual worksurface adjusts up to 6\" higher or 5\" lower than the monitor worksurface; tilts with a range of 25° (+15°/-10°). A 1\" gap separates keyboard surface sides from adjacent worksurfaces; 1 1/2\" space between keyboard and monitor surfaces.",
+   "kind": "dimension"
+  },
+  {
+   "page": 207,
+   "topic": "support",
+   "text": "30\"D straight, tapered, and transition cantilevered worksurfaces require additional floor support along the front edge, such as a pedestal, end panel, post leg, side support bracket, or an adjacent return worksurface.",
+   "kind": "requirement"
+  },
+  {
+   "page": 207,
+   "topic": "support",
+   "text": "Taper-flat worksurfaces can be supported at the larger end with a side support bracket and a post leg. If the larger end is 30\"D, a 24\"D end panel can also be used.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 207,
+   "topic": "spanner",
+   "text": "Spanner worksurfaces with 3\" notch accommodate Answer panels; legs and cantilevers or column and cantilevers must be used for support. Notch is not included on spanner worksurfaces for freestanding applications without panels.",
+   "kind": "requirement"
+  },
+  {
+   "page": 207,
+   "topic": "support",
+   "text": "3 mm edge bullet peninsula, jetty, and bubble jetty worksurfaces can be supported two ways: (a) a cantilever, a center support panel and a column; or (b) a cantilever, a side support bracket, and two post legs.",
+   "kind": "requirement"
+  },
+  {
+   "page": 207,
+   "topic": "support",
+   "text": "A center support panel should not be used (unfinished top edge would be exposed) for: bullet peninsula with P-edge, jetty with P-edge, bubble jetty with P-edge, angled peninsula with 3 mm edge and 1/2\" cord drop. Use a cantilever, a side support bracket, and two post legs instead.",
+   "kind": "requirement"
+  },
+  {
+   "page": 207,
+   "topic": "support",
+   "text": "Linking peninsula and linking worksurfaces with 3\" notch accommodate Answer panels. Legs and cantilevers or column and cantilevers must be used to support linking peninsula worksurfaces. One leg and two cantilevers must be used to support linking worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "3 mm edge visitor worksurfaces must be supported by either a cantilever and a center support panel, or by a cantilever, a side support bracket, and a leg.",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "In P-edge profile worksurface applications (visitor), a side support bracket, a cantilever, and a leg must be used for support; a center support panel should not be used because its unfinished top edge would be exposed.",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "connections",
+   "text": "Worksurfaces can be used freestanding or in panel-supported installations. Supports are ordered separately and installed in the field.",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "Panel-supported applications can use: closed loop, open loop, half loop, intermediate support, off-module worksurface-to-panel connector, side support brackets, cantilever with tie plate, end panel, standing-height end panel, support plate, center support panel with tie plate, standing-height center support panel with tie plate, columns or legs, Universal pedestal with filler, Universal lateral file with underworksurface lateral file filler.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "Tip: Selected worksurfaces with P-edge profile include alignment slots to accept cabby legs for column support: use two legs for panel-mounted spanner, bullet peninsula, linking peninsula, jetty, and bubble jetty worksurfaces; use one leg for visitor and linking worksurfaces.",
+   "kind": "tip"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "Answer Freestanding desk applications can use: end supports, peninsula supports, corner support, columns and legs, closed loop or open loop, modesty panels, pedestals, lateral files and storage cabinets (see Answer Freestanding Specification Guide).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "Answer Freestanding peninsula support is not compatible with P-edge bullet peninsula, jetty, or bubble jetty worksurfaces. Legs or other alternate supports are recommended.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 208,
+   "topic": "support",
+   "text": "Leg-based applications can use: closed loop, open loop, intermediate support, post legs, double post leg, double post C-leg, support plate. Pedestal can also be used in leg-based freestanding installations.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 208,
+   "topic": "intermediate-support",
+   "text": "Intermediate supports replace the need for other types of worksurface support when used with 1-High or 1.5-High Universal storage.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 208,
+   "topic": "span",
+   "text": "Long worksurface spans must be supported with cantilevers, pedestals, legs, or other supports at least every 54\". Reinforcing channel (TS7WKSPT) allows the distance between supports to be increased to 60\" for heavily loaded worksurfaces, or up to 72\" for lighter expected loads. Reinforcing channel must be specified separately.",
+   "kind": "limit"
+  },
+  {
+   "page": 208,
+   "topic": "knife-edge",
+   "text": "Knife edge worksurfaces require reinforcement channels for unsupported spans greater than 48\": TS7WKSPT39 for 54\"W, TS7WKSPT for 60\"W and 66\"W, TS7WKSPT72 for 72\"W worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "reinforcement",
+   "text": "Soft edge worksurfaces and power and data access door and tray worksurfaces require reinforcement channel or other support on worksurfaces 60\" or larger.",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "wiring",
+   "text": "Worksurface depth is 1/2\" less than nominal (cord drop) and allows cords and cables to pass over at any point. Cable scallops provide space for plugs to pass over the back edge.",
+   "kind": "dimension"
+  },
+  {
+   "page": 208,
+   "topic": "wire-manager",
+   "text": "Worksurface wire managers convert cable scallops into grommets in freestanding applications. Wire managers are included with wood veneer worksurfaces; wire managers for laminate worksurfaces must be ordered separately (TS7WWM).",
+   "kind": "requirement"
+  },
+  {
+   "page": 208,
+   "topic": "cable-scallop",
+   "text": "Corner worksurfaces have scallops located 12 1/2\" from the rear corner to the center of the scallop. Taper-flat worksurfaces have a single scallop located 18 1/2\" from the larger end. Scallops are centered on the rear edge of all other worksurfaces that include them.",
+   "kind": "dimension"
+  },
+  {
+   "page": 209,
+   "topic": "cable-scallop",
+   "text": "Cable scallop can be omitted for freestanding applications or panel-supported applications where plugs do not need to pass over the back edge.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "materials",
+   "text": "Laminate worksurfaces: laminate; Open Line laminate (option, non-Steelcase laminates). Front edge: plastic; back and side edges: plastic color defaults to match user's edge. Wood veneer worksurfaces: wood veneer (standard), Customiz stain (option), full-fill finish (option); square (3 mm) edge profile wood veneer to match worksurface; front edge wood edge band.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "p-edge",
+   "text": "P-edge profiles produce a valley when installed perpendicular to adjacent worksurfaces. The additional 3/8\" depth of P-edge profiles causes an interference fit in on-module panel-mounted applications. For L-configurations using two worksurfaces, the 3 mm edge profile is recommended.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "p-edge",
+   "text": "P-edge profile worksurface depth prevents modesty panels from fitting properly in return or bridge Answer Freestanding desk applications. Modesty panels cannot be used when a return or bridge worksurface is attached to the front edge of a P-edge worksurface. 3 mm edge profile recommended for return or bridge applications.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "planning",
+   "text": "Full-depth worksurfaces provide an uninterrupted working surface and allow traditional corner or L-configuration planning without uneven gaps.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "planning",
+   "text": "Plan using worksurface actual dimensions when panel-wrapping. Straight and transition worksurfaces are full-width to correspond directly with panel width. Corner, extended corner, 120° corner, bullet peninsula, jetty, visitor, and linking worksurfaces are 1/2\" less than panel width to allow a consistent 1/2\" cable-management gap when used with straight worksurfaces.",
+   "kind": "dimension"
+  },
+  {
+   "page": 209,
+   "topic": "planning",
+   "text": "Tip: To avoid uneven gaps in panel-supported applications, use full-depth worksurfaces to create L-configurations.",
+   "kind": "tip"
+  },
+  {
+   "page": 209,
+   "topic": "screens",
+   "text": "Screens mount to worksurfaces in privacy position or below the worksurface for modesty (see Screens, page 586).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "stability",
+   "text": "Worksurfaces used in panel-supported installations must follow applicable panel stability guidelines (page 124).",
+   "kind": "requirement"
+  },
+  {
+   "page": 209,
+   "topic": "storage",
+   "text": "Do not use a Universal Systems Worksurface as a top for storage that matches the worksurface width; worksurfaces are slightly undersized for panel-wrapped applications and will not fit over full-width storage. Use field-installed storage tops.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 209,
+   "topic": "knife-edge",
+   "text": "Knife edge worksurfaces have limitations for support options and application restrictions (see page 226).",
+   "kind": "requirement"
+  },
+  {
+   "page": 209,
+   "topic": "shipping",
+   "text": "Identical worksurfaces ordered on the same line item are packed on pallets containing 5–50 worksurfaces depending on size; remaining are packed individually in cartons. If palletizing is not desired, order in quantities of four or less per line item. Wood veneer worksurfaces cannot be palletized.",
+   "kind": "requirement"
+  },
+  {
+   "page": 210,
+   "topic": "soft-edge-door-caddy",
+   "text": "Soft edge and power and data access door and tray are available on straight and taper Universal Systems Worksurfaces with 1/2\" cord drop and full depth. Personal caddy is available on straight Universal Systems Worksurfaces with 1/2\" cord drop and full depth.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 210,
+   "topic": "soft-edge-door-caddy",
+   "text": "Door/tray cutout is optional; power and data access door and tray is ordered separately. 24\"W cutout is centered near the back of the worksurface. Caddy cutout is optional; personal caddy is ordered separately; cutout is available on the left- or right-hand side.",
+   "kind": "requirement"
+  },
+  {
+   "page": 210,
+   "topic": "soft-edge-door-caddy",
+   "text": "Soft edge is 36\" wide centered on the worksurface; balance of front edge is 3 mm radius. Back and side edges are flat.",
+   "kind": "dimension"
+  },
+  {
+   "page": 210,
+   "topic": "soft-edge-door-caddy",
+   "text": "Availability matrix (1 = only soft edge, only power & data access door & tray, or both; 2 = only personal caddy; 3 = personal caddy and power & data access door & tray; 4 = soft edge, door & tray, and personal caddy): Straights 23 1/2\"D/24\"D and 29 1/2\"D/30\"D — 48\"W: 1; 54\"W: 1,2; 60\"W: 1,2; 66\"W: 1,2,3; 72\"W: 1,2,3,4; 78\"W, 84\"W, 90\"W, 96\"W: 1. Tapered 29 1/2\"D or 30\"D to 23 1/2\"D or 24\"D — 48\"W: 1; 60\"W: 1; 72\"W: 1.",
+   "kind": "limit"
+  },
+  {
+   "page": 210,
+   "topic": "power-door-tray",
+   "text": "Power and data access door and tray is available with cord or with modular or hardwire connection. Tray includes six simplex receptacles and cutout for data access.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "soft-edge",
+   "text": "Soft edge profile is polyurethane and is available with Bactiblock antimicrobial protection. Scallops are omitted on worksurface when door and tray cutout option is selected.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "power-door-tray",
+   "text": "Data cutout in tray can accommodate either a single gang or a modular furniture communication faceplate; tray includes adapter for modular faceplate. Filler packages (FMVF) fill unused data cutouts; order separately in packages of 20.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "power-door-tray",
+   "text": "Corded version includes 10' cord with plug. Modular and hardwire versions each include 8' of harness. Non-PVC versions are available for each power solution.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "power-door-tray",
+   "text": "Three wiring schematics are available in the modular version – 3+1, 2+2, and 3 separate neutrals (3SN). Each has a single circuit. 3+1 and 2+2 have the option for line 1, 2, 3, or 4 with either a system or isolated ground. 3SN has the option for line 1, 2, or 3 with either a system or isolated ground.",
+   "kind": "limit"
+  },
+  {
+   "page": 211,
+   "topic": "power-door-tray",
+   "text": "With the modular and hardwire version, the harness enters the panel through a field cut opening in a fabric skin; a grommet is included to provide a finished edge. Inside the panel the harness can connect to a powerkit or it can use either a harness to harness connector or a branching harness to harness connector to connect to other modular harness trays or modular harnesses.",
+   "kind": "requirement"
+  },
+  {
+   "page": 211,
+   "topic": "power-door-tray",
+   "text": "Cord and plug version has an integrated overload circuit breaker.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "caddy",
+   "text": "Caddy is available in three molded plastic colors: Midnight, Platinum Solid, and Arctic White; pad is Grey V5.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "soft-edge",
+   "text": "Fixed storage can be used with worksurfaces with soft edge but must not encroach the 36\" width of the edge. Worksurfaces connected perpendicular should not encroach the 36\" width of the soft edge.",
+   "kind": "limit"
+  },
+  {
+   "page": 211,
+   "topic": "soft-edge",
+   "text": "Soft edge worksurfaces are available with the same support options and follow the same application rules as other Universal Systems worksurfaces. Exception: 48\"W worksurface with soft edge used with the FrameOne post leg has some limitations.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 211,
+   "topic": "soft-edge",
+   "text": "In an end-of-run condition, the FrameOne post leg will not fit when used with 48\"W soft edge worksurfaces; use half, open, or closed loop legs. In shared applications, the FrameOne post leg can be angled and positioned at the front edge or for a square orientation it must be inset 1\" from the front edge when used with 48\"W soft edge worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 211,
+   "topic": "power-door-tray",
+   "text": "Access holes in tray allow power and data to be routed straight back when worksurface is against the panel or routed to the sides when the worksurface is perpendicular to the panel. Worksurfaces with power and data access door and tray follow the same support options and application rules as other Universal Systems worksurfaces.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 212,
+   "topic": "power-door-tray",
+   "text": "Tray with cord and plug can be used in a freestanding table application. Worksurfaces with power and data access door and tray with modular or hardwire power cannot be used in a freestanding application: the worksurface must either be attached to a panel on one end, or if attached to low storage with an intermediate support on one end, the cabinet must be attached to the panel or ganged to another storage cabinet. Applies to both parallel and perpendicular to the panel applications.",
+   "kind": "requirement"
+  },
+  {
+   "page": 212,
+   "topic": "power-door-tray",
+   "text": "Height of tray is 4 3/4\" so lower storage height must be accounted for when used adjacent to tray. Width of outer tray below the worksurface is 27 1/8\" so adjacent lower storage dimensions must be accounted for on each worksurface width.",
+   "kind": "dimension"
+  },
+  {
+   "page": 212,
+   "topic": "power-door-tray",
+   "text": "Tray with modular or hardwire harness includes two harness clips; tray with cord and plug includes two cord clips.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 212,
+   "topic": "reinforcement",
+   "text": "Soft edge worksurfaces and power and data access door and tray worksurfaces require reinforcement channel or other support on worksurfaces 60\"W or larger.",
+   "kind": "requirement"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "Personal caddy is available on straight worksurfaces with 3 mm, soft or wood square edges, 24\"D or 30\"D. Caddy is available on worksurfaces 54\"W to 72\"W (if only with caddy), 66\"W and 72\"W (if with tray and caddy), and 72\"W (if with soft edge and caddy).",
+   "kind": "limit"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "Worksurface and caddy bracing is included with the caddy package. Two brace lengths are available and length is specified as an option: the shorter brace fits 54\"W and 60\"W worksurfaces; the longer brace fits 66\"W and 72\"W.",
+   "kind": "requirement"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "Tip: In panel-mounted applications where a 24\"D worksurface is applied parallel to the panel, the caddy brace will interfere with panel-mounted cantilevers that are within 54\" of the side edge of the worksurface where the caddy is positioned. Use center support panel as an alternative in this condition.",
+   "kind": "tip"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "Worksurfaces greater than 72\"W (with caddy) require additional support such as cantilevers, pedestals, or legs beyond the brace.",
+   "kind": "requirement"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "Caddy cutout is 6 5/8\" from edge of worksurface, bracing is 5 1/2\" from the edge.",
+   "kind": "dimension"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "FrameOne legs for Universal (closed, open, and half loops) work in conjunction with personal caddy. FrameOne post version only works in shared worksurface applications where the leg is angled to the front edge of the worksurface. Cabby leg will work on worksurfaces with personal caddy only if leg is in 90° orientation. Universal double post leg will work in shared worksurface applications. Tip: Legs other than those shown will not work adjacent to the personal caddy.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 212,
+   "topic": "caddy",
+   "text": "Front edge support is recommended if two caddies are planned side-by-side.",
+   "kind": "requirement"
+  },
+  {
+   "page": 212,
+   "topic": "electrical",
+   "text": "Chicago, New York, and Los Angeles have special requirements. The power and data tray is UL listed, designed to meet U.S. and Canadian national electrical and energy codes and most local building codes; consult local authority having jurisdiction.",
+   "kind": "requirement"
+  },
+  {
+   "page": 213,
+   "topic": "materials",
+   "text": "Soft edge: 6615 Grey V5 plastic. Door: paint or anodized aluminum. Door bezel: 6694 Slate plastic. Inner and outer tray: 7237 Slate paint. End caps for outer tray: 6694 Slate plastic. Panel grommet plastic: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6654 Sand, 6697 Fog. Personal caddy plastic: 6009 Arctic White, 6249 Platinum Solid, 6695 Midnight; pad 6615 Grey V5.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 214,
+   "topic": "transaction",
+   "text": "Transaction worksurface provides a surface for standing visitors or a shelf. Attachment brackets are included. Shortened top caps are included; available in thin, square, or oval styles, compatible with same-height or change-of-height applications.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 214,
+   "topic": "transaction",
+   "text": "Edge profile (3 mm or P-edge, plastic, or wood 3 mm) is applied to all edges; plastic edges specified separately from laminate color.",
+   "kind": "requirement"
+  },
+  {
+   "page": 214,
+   "topic": "transaction",
+   "text": "Tip: Wood veneer transaction worksurfaces are not available in 23\"W.",
+   "kind": "limit"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Transaction worksurface support brackets connect to the top of a horizontal connecting bar. Horizontal bar must be connected to junctions in top position.",
+   "kind": "requirement"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Transaction worksurfaces cannot be used when a transparent window, pass-thru window, or consolidation point cabinet are assembled at the top of a panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "In square and oval trim applications, a transaction top cannot be used on a 48\"H panel when the panel is connected to a taller panel in a change-of-height condition.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Spanning two panels is possible with thin trim (28\" over 30\"; 34\" over 18\"+18\"; 40\" over 18\"+24\"; 46\" over 24\"+24\"). Exception: 58\"W transaction worksurface cannot span multi-panels (additional support bracket conflicts with junction between two 30\"W panels).",
+   "kind": "limit"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Spanning two panels is possible with square or oval trim (23\" over 30\"; 29\" over 18\"+18\"; 35\" over 18\"+24\"; 41\" over 24\"+24\"). Exception: 53\"W transaction worksurface cannot span multi-panels (additional support bracket conflicts with the junction between two 30\"W panels).",
+   "kind": "limit"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Width of transaction worksurface with thin trim is 2\" shorter than the width of corresponding panel; with square and oval trim it is 7\" shorter, to accommodate change-of-height applications.",
+   "kind": "dimension"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Panels on one or both sides of the transaction worksurface can be higher or lower than the panel that supports it. Thin or oval trim transaction worksurfaces include top trim that accommodates all standard and change-of-height applications (one end or both ends). Square trim transaction worksurfaces include top trim for standard and slim change-of-height applications; change-of-height option must be specified when used adjacent to cable management change-of-height (one end or both ends).",
+   "kind": "requirement"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Recommended standing height for transaction worksurface is achieved by attaching it to 42\"H panels.",
+   "kind": "tip"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Transaction worksurface must be centered on the panel.",
+   "kind": "requirement"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Utility2 shelf lights can be installed beneath transaction worksurfaces using screws and keyhole slots in light fixture. Transaction worksurface blocks cable routing in the top cable tray but cable routing is still available lower in the panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 215,
+   "topic": "transaction",
+   "text": "Surface materials: laminate or Open Line laminate; edges plastic; top caps paint or wood; support brackets black paint only; wood veneer (standard), Customiz stain, full-fill finish; square (3 mm) edge wood veneer to match.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 216,
+   "topic": "panel-supports",
+   "text": "On-module supports can be used to panel support worksurfaces in various configurations; they engage the slots in the vertical uprights of Answer panels.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 216,
+   "topic": "panel-supports",
+   "text": "Worksurface supports feature an alignment tab used to set a depth for Universal Systems Worksurfaces with 1/2\" cord drop. This tab is bent down when installing full-depth worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 216,
+   "topic": "panel-supports",
+   "text": "Cantilever can panel-support a worksurface at any height. End panel can support the end of a worksurface. Center support panel can be shared by two worksurfaces and may be required for longer runs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 216,
+   "topic": "panel-supports",
+   "text": "Side support brackets support the ends of straight and corner worksurfaces and the back corner of any corner worksurface; support worksurfaces at any height in 1\" increments; ship as a left- and right-hand pair and are ordered separately. They can support the end of a worksurface wrapped by a panel with the same width dimension that matches the worksurface depth.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "Single side support bracket can support the rear corner of corner, extended corner, and 120° corner worksurfaces, and the user's side rear corner of bullet peninsula, angled peninsula, visitor, jetty, and bubble jetty worksurfaces. Tip: For off-module fin wall applications, the single side support bracket must be handed appropriately for connection to the fin wall.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "Cantilevers support worksurfaces at any height in 1\" increments; cantilever is non-handed and can support either end of a worksurface, or be shared to support two worksurfaces at the same height simultaneously. One tie plate ships with each cantilever.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "Adjacent cantilevered worksurfaces must be the same height in order to connect with a tie plate and provide panel stability. Tip: Answer panel junctions can accommodate only one support at each worksurface seam.",
+   "kind": "limit"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "Center support panel is an alternative to a cantilever in supporting longer runs of worksurfaces for additional panel stability. Center support panels are available in seated and standing heights, cannot be used in freestanding applications or as a substitute for an end panel. One tie plate ships with each center support panel.",
+   "kind": "requirement"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "Center support panels should not be installed along the user's edge on P-edge profile jetty and visitor worksurfaces (unfinished top edge exposed). Use single side support bracket and a post or cabby leg.",
+   "kind": "requirement"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "End panels can support the end of a worksurface for additional panel stability; available in seated and standing heights, and cannot be used in freestanding applications.",
+   "kind": "requirement"
+  },
+  {
+   "page": 217,
+   "topic": "panel-supports",
+   "text": "Pedestals and lateral files with a filler can support the end of a worksurface in place of an end panel. All panel mounted supports can be removed and repositioned later without permanent damage to panels or skins.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 217,
+   "topic": "materials",
+   "text": "Side support bracket and reinforcing channel: black paint only. Cantilever, center support panel, and end panel: paint.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 218,
+   "topic": "off-module-connector",
+   "text": "Off-module worksurface-to-panel connector connects 18\"D, 24\"D, and 30\"D worksurfaces to wider panels, eliminating the need to match panel width to worksurface depth. Replaces side supports, cantilevers, and the need for front edge support with 30\"D worksurfaces. Connector attaches into the slotted channels of the panel junctions.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 218,
+   "topic": "off-module-connector",
+   "text": "Worksurface can be positioned anywhere along the width of the off-module connector.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 218,
+   "topic": "off-module-connector",
+   "text": "Off-module worksurface to panel connector cannot be used at the same elevation on adjacent inline panels.",
+   "kind": "limit"
+  },
+  {
+   "page": 218,
+   "topic": "off-module-connector",
+   "text": "Off-module worksurface to panel connector can support a single worksurface only.",
+   "kind": "limit"
+  },
+  {
+   "page": 218,
+   "topic": "off-module-connector",
+   "text": "Off-module worksurface to panel connector cannot replace cantilevers and side support brackets when worksurface is parallel to the panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 219,
+   "topic": "off-module-connector",
+   "text": "Off-module worksurface to panel connector cannot be used in front of or on the adjacent panel next to a 12\"H or a 24\"H slatwall skin positioned in the second 12\" skin module from the base of the panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 220,
+   "topic": "frameone",
+   "text": "FrameOne legs and supports share a common visual with FrameOne bench and support Universal worksurfaces in freestanding, storage-supported, or panel-supported applications. Spacers between top of legs and worksurface provide a floating look.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 220,
+   "topic": "frameone",
+   "text": "Closed, open, and half-loop legs are handed when panel supporting and must be specified left or right when facing the front of the worksurface. Freestanding tethered and table versions are non-handed.",
+   "kind": "requirement"
+  },
+  {
+   "page": 220,
+   "topic": "frameone",
+   "text": "Closed, open, and half-loop legs in panel supporting versions support the ends of worksurface; they are not shared supports between two worksurfaces.",
+   "kind": "limit"
+  },
+  {
+   "page": 220,
+   "topic": "frameone",
+   "text": "Closed and open-loop legs are available in tethered versions in which one side of the worksurface is attached to a panel or storage.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 220,
+   "topic": "frameone",
+   "text": "Intermediate support is used with Universal One-High or 1.5-High storage as a worksurface support allowing for nesting of low storage. Post leg is square and can be used as a column support.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Closed and open-loop legs are available in table versions in which both sides of the worksurface are supported by the legs. Post legs can also be used to create freestanding tables.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Half-loop leg is always panel supporting; however panels cannot exceed 48\"H or support overhead storage above.",
+   "kind": "limit"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Closed, open, and half-loop legs do not align properly with knife-edge worksurfaces; use cantilevers instead (see page 226).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "27\"H mobile, freestanding, or fixed pedestals do not fit flush to the inside of the closed, open, or half-loop leg (3\" gap due to worksurface support plate); 25 1/2\"H freestanding pedestals or 21\"H mobile pedestals will fit flush.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "27\"H mobile, freestanding, or fixed pedestals do not fit flush to the inside of the post leg (5 3/4\" gap due to worksurface support plate); 25 1/2\"H freestanding pedestals or 21\"H mobile pedestals will fit flush.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Post leg can be shared between two worksurfaces; in shared applications it can be square or oriented angled to the front edge of the worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Intermediate supports replace the need for other types of worksurface support when used with One-High or 1.5-High Universal storage. Steel top storage requires additional bracing inside the storage when used with an intermediate support (bracing is an option specified to match the width of the storage). Bracing is field-installed. Storage with laminate or wood tops do not require additional bracing.",
+   "kind": "requirement"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Number of braces is determined by the orientation of the intermediate support to storage, not the orientation of the worksurface to storage: side-to-side (parallel) orientation requires one brace; front-to-back (perpendicular) orientation requires two braces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Side-to-side (parallel) application allows worksurface to be oriented perpendicular to storage; front-to-back (perpendicular) application allows worksurface to be oriented in-line with storage.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "Intermediate support must be at least 1\" from the front, back, or side edges of the storage unit to allow clearance for installation.",
+   "kind": "limit"
+  },
+  {
+   "page": 221,
+   "topic": "frameone",
+   "text": "On cabinets with steel tops (parallel or perpendicular applications), the intermediate support can be positioned left or right 1\" or 7\" from the side edge of the storage unit to align with bracing hole locations and can be positioned anywhere front to back. On cabinets with laminate or wood tops it can be positioned left or right anywhere between 1\" and 7\" from the side edge of the storage unit.",
+   "kind": "limit"
+  },
+  {
+   "page": 222,
+   "topic": "frameone",
+   "text": "Worksurfaces 18\"D or 24\"D allow the intermediate support to be positioned below the worksurface 1\" from the front or back. Worksurfaces 30\"D require intermediate support centered below the worksurface.",
+   "kind": "requirement"
+  },
+  {
+   "page": 222,
+   "topic": "frameone",
+   "text": "Worksurface may extend up to 10\" maximum overhang of intermediate support as long as the other end of the worksurface is anchored to the panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 222,
+   "topic": "frameone",
+   "text": "Surface materials: legs and intermediate support paint; spacer caps for panel attached legs black plastic only; glide cap for legs 6694 Slate only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 222,
+   "topic": "frameone",
+   "text": "Closed, open, and half-loop legs are packed in boxes of six when ordered on the same line item. Bracing for intermediate supports ships separately from intermediate supports and is field installed into storage cases.",
+   "kind": "requirement"
+  },
+  {
+   "page": 223,
+   "topic": "infills",
+   "text": "Infills are available in laminate and veneer and are used with open and closed loop FrameOne legs (both panel connected and freestanding versions) for added privacy. Connectors attach to the back side of the legs. Infills are available 24\"W and 30\"W.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 224,
+   "topic": "legs",
+   "text": "Double post C-leg can be used on a single worksurface or in a shared application. Post leg can be used on a single worksurface; non-locking caster and glide versions are available. Column is 4\" in diameter and can be used as a column support on a single worksurface; adjustable and non-adjustable versions are available.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 224,
+   "topic": "legs",
+   "text": "Double post leg can be used as a column support on a single worksurface or to support a shared application. Support plate can be used with a double post leg to join and support two worksurfaces; plate is 14\"D or 20\"D and 3 11/16\"W.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 224,
+   "topic": "legs",
+   "text": "Adjustable-height leg adjusts from 25 1/2\"H to 31 1/2\"H in 3/4\" increments; can be used with a single worksurface; locking caster and glide versions are available.",
+   "kind": "limit"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Legs support Systems Worksurfaces at 26\"H nesting, 28 1/2\"H standard, 40 7/8\"H standing or 25 1/2\"H to 31 1/2\"H adjustable heights.",
+   "kind": "limit"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Legs for Systems Worksurfaces do not include alignment tabs; pilot holes help the installer locate the proper leg position under the worksurface. Post legs are always installed at a 45° orientation.",
+   "kind": "requirement"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "26\"H nesting height legs allow worksurfaces to nest underneath an adjacent worksurface supported with 28 1/2\"H legs or a panel-supported worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Post leg in conjunction with two cantilevers or center support panels can be used as column support for linking worksurfaces. Post leg in conjunction with a side support bracket can support the end of a visitor or taper-flat worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Two post legs can be used in place of one double post leg as column support for spanner, jetty, bubble jetty, bullet peninsula, and angled peninsula worksurfaces for added stability.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Standing-height post or double post legs can be used as column support in panel-mounted applications only.",
+   "kind": "limit"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Double post leg can be used in a shared application with a support plate, or as a column support for spanner, jetty, bubble jetty, bullet peninsula, angled peninsula, and linking peninsula worksurfaces in panel-mounted applications.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Column can be used on spanner, bullet peninsula, angled peninsula, linking peninsula, jetty, and bubble jetty worksurfaces in panel supported applications. For Answer Freestanding desk applications, column can be used on bullet peninsula and jetty worksurfaces. Column cannot be used in a shared application.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Column is not recommended for applications that include post legs (round vs elliptical shape). Use single or double post legs as a column support in applications that include other post legs.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Adjustable-height legs can be used to support the primary worksurface, or legs can support a worksurface in a nesting application.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "P-edge profile worksurfaces include alignment slots to accept cabby legs as an alternative column support for visual consistency in applications that include tables with cabby legs. Panel-mounted spanner, bullet peninsula, linking peninsula, jetty, and bubble jetty worksurfaces accept two legs. Visitor and linking worksurfaces accept one leg.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "span",
+   "text": "Long worksurface spans must be supported with cantilevers, pedestals, legs, or other supports at least every 54\". Reinforcing channel (TS7WKSPT) allows 60\" for heavily loaded, up to 72\" for lighter loads; must be specified separately.",
+   "kind": "limit"
+  },
+  {
+   "page": 225,
+   "topic": "materials",
+   "text": "Post legs, C-leg, and adjustable column: paint. Post leg caster: black plastic only. Adjustable-height leg colors: 4750 Champagne Metallic, 4798 Sterling Metallic, 4799 Platinum Metallic, 7207 Black, 7225 Sand, 7239 Midnight. Support plate and reinforcing channel: black paint only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 225,
+   "topic": "legs",
+   "text": "Freestanding Guidelines for Systems Worksurfaces: see page 182.",
+   "kind": "requirement"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "When planning an L-configuration with knife edge worksurfaces, two UFB flat brackets should be used to support the worksurfaces; a cantilever is not wide enough to support the gap where the knife edge worksurfaces come together.",
+   "kind": "requirement"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "Freestanding L-configuration should be avoided due to profile on the backside of the knife edge worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "Compatible storage includes 25 1/2\"H pedestal with freestanding conversion kit, box/file mobile pedestals, and 1-high storage.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "Knife edge worksurface over 27\"H storage (lateral or pedestal) can make files difficult to access; use a 25 1/2\"H pedestal that is flush with the front edge of the worksurface.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "Knife edge worksurfaces require reinforcement channels for unsupported spans greater than 48\": TS7WKSPT39 for 54\"W, TS7WKSPT for 60\"W and 66\"W, TS7WKSPT72 for 72\"W worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "Although a 25 1/2\"H pedestal looks good with knife edge, it does not align with other storage (drawers and base trim do not align); use a box/file mobile pedestal instead.",
+   "kind": "tip"
+  },
+  {
+   "page": 226,
+   "topic": "knife-edge",
+   "text": "End panels, 27\"H standard pedestals, side support brackets and FrameOne legs for Universal do not align properly with knife edge worksurfaces; use cantilevers instead. Side support brackets will work to support the back end of a worksurface; the front end is where they won't align properly.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 533,
+   "topic": "edge-suffix",
+   "text": "Edge-profile suffix appended to worksurface style number: none = laminate plastic 3 mm edge; P = laminate plastic P-edge; SW = wood with square edge (e.g., UJC3268L -> UJC3268LSW).",
+   "kind": "requirement"
+  },
+  {
+   "page": 533,
+   "topic": "jetty",
+   "text": "Full-depth jetty (WJ...) available only in laminate with plastic 3 mm edge (no P-edge, no wood).",
+   "kind": "limit"
+  },
+  {
+   "page": 536,
+   "topic": "visitor",
+   "text": "Scallops are available only on visitor worksurfaces 36\"W and wider; omit scallop option at no cost.",
+   "kind": "limit"
+  },
+  {
+   "page": 536,
+   "topic": "visitor",
+   "text": "Wood (SW) and full-fill finish available only on UVC2424L/R and UVC3030L/R visitor worksurfaces (all others N.A.). Full-depth visitor/linking (WVC/WLC) laminate plastic 3 mm edge only.",
+   "kind": "limit"
+  },
+  {
+   "page": 539,
+   "topic": "transaction",
+   "text": "Transaction worksurface style suffix identifies panel trim: TA thin trim, SA square trim, A oval trim. Wood not available for 30\" panel width (UTR1630TA/SA/A).",
+   "kind": "requirement"
+  },
+  {
+   "page": 540,
+   "topic": "power-door-tray",
+   "text": "Remember to specify cutout for power and data tray on the worksurface style number; door/tray (UTTR...) is ordered separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 540,
+   "topic": "power-door-tray",
+   "text": "Power schematic, line and ground must be specified: 3+1 (line 1-4), 2+2 (line 1-4), or 3SN (line 1-3), each with system or isolated ground (no cost).",
+   "kind": "requirement"
+  },
+  {
+   "page": 542,
+   "topic": "caddy",
+   "text": "Remember to specify cutout for personal caddy on the worksurface style number. Specify brace: for 54\"W and 60\"W worksurface, or for 66\"W and 72\"W worksurface (no cost).",
+   "kind": "requirement"
+  },
+  {
+   "page": 545,
+   "topic": "panel-supports",
+   "text": "Answer panel junctions can accommodate only one cantilever at a seam.",
+   "kind": "limit"
+  },
+  {
+   "page": 545,
+   "topic": "panel-supports",
+   "text": "Side support bracket (USSBR) is a pair of handed brackets; only one is required for rear corner support of panel-mounted corner worksurfaces. Specify one USSBR for every two corner worksurfaces in on-module applications. Order an additional supply for off-module fin wall applications.",
+   "kind": "requirement"
+  },
+  {
+   "page": 549,
+   "topic": "frameone",
+   "text": "Intermediate support bracing option: laminate or wood storage tops — no brace; steel storage tops — one brace or two braces (30\", 36\", or 42\"W) +$47.",
+   "kind": "requirement"
+  },
+  {
+   "page": 552,
+   "topic": "legs",
+   "text": "Corner worksurfaces require a leg in the back corner; order fifth leg if specifying a package of four.",
+   "kind": "requirement"
+  },
+  {
+   "page": 554,
+   "topic": "legs",
+   "text": "See Table and Leg Combinations page (page 244) for number of adjustable-height legs required per worksurface.",
+   "kind": "requirement"
+  },
+  {
+   "page": 557,
+   "topic": "spheres",
+   "text": "Power/communication spheres are field installed; use a 3\"-diameter drill to cut mounting hole. Power and communication port uses a 3 1/2\"-diameter drill hole.",
+   "kind": "requirement"
+  },
+  {
+   "page": 559,
+   "topic": "grommet",
+   "text": "Grommet AWAG2 is for use on worksurfaces only.",
+   "kind": "limit"
+  },
+  {
+   "page": 560,
+   "topic": "riser",
+   "text": "15 3/4\"L cable riser (DAVCE) is an extension only; it does not include attachment hardware or floor plate.",
+   "kind": "requirement"
+  },
+  {
+   "page": 561,
+   "topic": "turnstone",
+   "text": "TS5SKLBNE, TS5SKEXT and TS5LEGCLP are Turnstone products (not Steelcase), with different pricing terms.",
+   "kind": "requirement"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 206,
+   "subject": "Universal Systems Worksurface",
+   "text": "Worksurface has a wood core with a High-Pressure Laminate or wood veneer surface and is 1 3/16\" thick."
+  },
+  {
+   "page": 207,
+   "subject": "P-edge",
+   "text": "P-edge profile worksurface depths are 3/8\" deeper than 3 mm edge profile worksurfaces."
+  },
+  {
+   "page": 208,
+   "subject": "Cord drop / scallops",
+   "text": "Worksurface depth is 1/2\" less than nominal. Corner worksurface scallops 12 1/2\" from rear corner to scallop center; taper-flat single scallop 18 1/2\" from larger end."
+  },
+  {
+   "page": 210,
+   "subject": "Soft edge / door & tray / caddy",
+   "text": "Soft edge: width 36\", depth 3\", thickness 1/2\" at front. Cutout for door: width 24\", depth 4 5/8\". Tray (below worksurface): width 27 1/8\", depth 6\", height 4 3/4\". Caddy: width 10\", depth 18\", height 8\"."
+  },
+  {
+   "page": 212,
+   "subject": "Caddy cutout",
+   "text": "Cutout is 6 5/8\" from edge of worksurface; bracing is 5 1/2\" from the edge. Tray height 4 3/4\"; outer tray width 27 1/8\" (tray drawing: 6\" x 4 3/4\" x 27 1/8\")."
+  },
+  {
+   "page": 214,
+   "subject": "Transaction worksurfaces actual dimensions",
+   "text": "Square and Oval: 15\" x 23\" (30\"W panel), 15\" x 29\" (36\"W), 15\" x 35\" (42\"W), 15\" x 41\" (48\"W), 15\" x 53\" (60\"W). Thin: 15\" x 28\" (30\"W), 15\" x 34\" (36\"W), 15\" x 40\" (42\"W), 15\" x 46\" (48\"W), 15\" x 58\" (60\"W)."
+  },
+  {
+   "page": 216,
+   "subject": "Panel-mounted supports actual dimensions",
+   "text": "Cantilever: height 12 1/4\", depth 15 1/2\", glide range N.A. Center support panel: height 28 1/2\" or 40 7/8\"*, depth 11\", glide range 1 1/4\". End panel: height 28 1/2\" or 40 7/8\"*, depth 23 3/4\" or 29 3/4\", glide range 1 1/4\". *Height includes thickness of a worksurface."
+  },
+  {
+   "page": 219,
+   "subject": "Off-module worksurface-to-panel connector",
+   "text": "Width - 24\", 30\", 36\", 42\", 48\", 60\", or 72\"; Height - 3\"; Depth - 1/2\"."
+  },
+  {
+   "page": 220,
+   "subject": "FrameOne legs and supports",
+   "text": "Closed, open, and half-loop legs: height* 28 1/2\", depth 24\" or 30\", glide range 2 1/4\". Post leg: height* 28 1/2\", glide range 1\". Intermediate support for One-High storage: height* 28 1/2\", height 11 1/4\", depth 16\", width 2 3/16\". For 1.5-High storage: height* 28 1/2\", height 5 1/4\", depth 16\", width 2 3/16\". *Height includes thickness of the worksurface."
+  },
+  {
+   "page": 221,
+   "subject": "FrameOne / pedestals",
+   "text": "27\"H pedestal inside closed/open/half-loop leg: 3\" gap (27 1/4\" / 27 1/8\" shown). Inside post leg: 5 3/4\" gap. Intermediate support position on steel-top cabinets: 1\" or 7\" from side edge; minimum 1\" from front/back/side edges."
+  },
+  {
+   "page": 222,
+   "subject": "FrameOne intermediate support overhang",
+   "text": "Worksurface may overhang intermediate support up to 10\" max (other end anchored to panel)."
+  },
+  {
+   "page": 224,
+   "subject": "Legs and columns actual dimensions",
+   "text": "Column: height* 28 1/2\", glide range 1 1/2\". Adjustable column: 28 1/2\"–31 5/8\", glide 3 1/8\". Double post leg: 28 1/2\" or 40 7/8\", glide 3/4\". Post leg: 26\", 28 1/2\", or 40 7/8\", glide 3/4\". Adjustable-height leg: 25 1/2\"–31 1/2\", glide 3/4\". Double post C-leg: 28 1/2\", glide 3/4\". Support plate: N.A. (14\"D or 20\"D and 3 11/16\"W). *Height includes thickness of a worksurface."
+  },
+  {
+   "page": 215,
+   "subject": "Transaction spanning",
+   "text": "Thin trim: 28\" on 30\"; 34\" on 18\"+18\"; 40\" on 18\"+24\"; 46\" on 24\"+24\"; 58\" on 30\"+30\" not allowed. Square/oval: 23\" on 30\"; 29\" on 18\"+18\"; 35\" on 18\"+24\"; 41\" on 24\"+24\"; 53\" on 30\"+30\" not allowed."
+  },
+  {
+   "page": 209,
+   "subject": "Screens",
+   "text": "Screen drawing: 15\"/15\" above worksurface, 43 1/2\" shown."
+  }
+ ],
+ "unresolved": [
+  "p549: 'Two braces (30\", 36\", or 42\"W)' is printed at +$47, the same as 'One brace' — may be a guide error; recorded as printed.",
+  "p559 vs Style Index: spec page prints AWVBP under 'Power/Power Box' and AWVBD under 'Data/Data Box'; style_index.json has AWVBD='Power/Power Box' and AWVBP='Data/Data Box'. Page used; verify with Steelcase.",
+  "p538 tip example says 'UTR1636TA becomes UTR1636TASA for wood with square edge profile' while p539 tip says 'UTR1636A becomes UTR1636ASW' and the required-to-specify suffix is SW; 'TASA' is likely a typo for 'TASW'.",
+  "p544 heading is 'Filler Package – Data'; style index describes FMVF as 'Filler Package – Power/Data'.",
+  "p537 linking worksurfaces: ULC2727 drawing shows 23 1/2\" side dimensions while the table gives A 27\" B 27\"; full-depth WLC2727 A 24\" B 27\", WLC3333 A 30\" B 33\" — meaning of A/B on the linking shape is not fully clear from the drawing.",
+  "p548 off-module connector: table column is 'Width' only; interpretation that width equals the panel width spanned is inferred from p218 ('connects ... worksurface to wider panels').",
+  "p545/546/547 cantilever/side-bracket/support-plate/center-support/end-panel pages reference 'Product details, page 180' (and reinforcing channel page 181) although this guide's understanding pages for these are 216-217/224; recorded as printed in notes only.",
+  "p220 intermediate support 'Width 2 3/16\"' recorded as printed.",
+  "Pages 535, 551 and 564 are blank (no data)."
+ ]
+}

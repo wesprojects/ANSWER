@@ -1,0 +1,59 @@
+472                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Posts
+                                                
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 122
+• Base: 4799 Platinum paint only
+• Base extension: 8043 Clear Anodized Aluminum only
+• Post: 8043 Clear Anodized Aluminum only
+• Leveling puck
+• Top cap: 6694 Slate plastic only
+• Standard 12 mm vertical slot on all sides
+• 3" vertical adjustability
+Style number
+                            Related Products
+                               • Hub mounts                                                                            cSee Post and Beam Solutions 
+                                                                                                                                          Speciﬁcation Guide.
+                                     • Vertical post tubes                                                                 cSee Post and Beam Solutions 
+                                                                                                                                          Speciﬁcation Guide.
+                                     • Post top caps                                                                         cSee Post and Beam Solutions 
+                                                                                                                                          Speciﬁcation Guide.
+                                     • Post base shim                                                                      cSee Post and Beam Solutions 
+                                                                                                                                          Speciﬁcation Guide.
+Speciﬁcation Information
+DDimensions
+DStyle           DU.S.
+dD        W         H          dNumber       dPrice
+d                                        d
+d
+X-Post with Large Base
+4"         4"           33"          BXP36          $350
+d
+d
+d
+X-Post with Small Base
+4"         4"           33"          BXPS36        $350
+d
+d
+d
+Y-Post with Large Base
+4"         4"           33"          BYP36          $350
+d
+d
+d
+Y-Post with Small Base
+4"         4"           33"          BYPS36        $350
+d
+d
+d
+Tip: Posts with small base
+cannot be anchored to the
+ﬂoor.
+February 2015

@@ -1,0 +1,79 @@
+Universal Tables
+Table and Base Combinations
+Answer Solutions Specification Guide                                                                                                                                                                                                            243
+Table and Base
+Combinations
+Universal Tables
+24"D x 36"W 
+Straight Tables
+Capsule Tables
+30"D x 36"W–42"W
+30"D x 48"W–78"W
+24"D x 48"W
+30"D x 60"W
+36"D x 72"W
+42"D x 84"W
+48"D x 96"W
+Round Tables
+30" diameter
+36" diameter
+42" diameter
+48" diameter
+54" diameter
+48"D x 48"W
+54"D x 54"W
+Square Tables
+30"D x 30"W
+36"D x 36"W
+42"D x 42"W
+Rectangle Tables
+36"D x 60"W
+36"D x 66"W
+36"D x 72"W
+30"D x 60"W
+36"D x 72"W
+42"D x 78"W
+42"D x 84"W
+48"D x 96"W
+26"W X-Base 
+36"W X-Base
+26"W T-Base
+36"W T-Base
+1
+1
+1
+1
+1
+1
+1
+1
+2
+2
+2
+2
+2
+2
+2
+Oval Tables
+Hex Conference Tables
+30"D x 42"W
+2
+2
+2
+3
+36"D x 48"W
+48"D x 96"W
+36"D x 60"W
+36"D x 66"W
+36"D x 72"W
+48"D x 120"W
+48"D x 150"W
+48"D x 180"W
+42"D x 96"W
+2
+! = Number of bases to order.
+         Blank spaces in matrix designate table and 
+         base combinations that are not valid.
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

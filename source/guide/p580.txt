@@ -1,0 +1,70 @@
+580                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Universal Tables
+Hex Conference Tables
+High-Pressure Laminate
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 234
+• Tables: High-Pressure Laminate 
+• Laminate table: plastic 3 mm edge proﬁle 
+on all sides
+• Reinforcing channels, for tables 120"W or wider
+• Tight-joint fasteners for tables 150"W or wider
+1 Style number 
+2 High-Pressure Laminate color number 
+for table
+3 Plastic color number for edge on
+laminate table
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price                      Required to Specify
+  Surface                  High-Pressure Laminate tables
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate            
+  Related                   • Bases for Universal Tables                                                      cPage 581
+  Products              
+Speciﬁcation Information
+                                      U.S. Base Price
+                                      High-Pressure Laminate
+                                 
+                      
+DDimensions
+DStyle               DPlastic                  
+dA   B    C       dNumber           d3 mm 
+d                      d                       dEdge                         
+d                           d                            d            
+d
+d
+dNo Sufﬁx
+30"   36"   60"       BHEX3660       $  603
+30"   36"   66"       BHEX3666       $  639  
+30"   36"   72"       BHEX3672       $  681  
+36"   42"   96"       BHEX4296       $1163  
+38"   48"   120"     BHEX48120       $2812  
+38"   48"   150"     BHEX48150     $4107
+38"   48"   180"     BHEX48180     $4270
+d                           d                            d
+Tip: Hex conference tables
+150"W or larger are shipped
+in two pieces. Tight-joint 
+fasteners are supplied for
+proper assembly.
+Tip: Bases to support
+Universal Tables must be
+speciﬁed separately.
+Tip: To specify 3 mm edge
+proﬁle, no sufﬁx is required. 
+C
+B
+A
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+  Tip: For leg and support
+  guidelines, see Table and 
+   Leg Combinations, 
+  cPage 244.
+February 2015

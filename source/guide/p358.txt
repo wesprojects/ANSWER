@@ -1,0 +1,308 @@
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 18
+• Junction
+• Change-of-height trim and junction cap: 
+paint price group 1 or wood
+• Aligners
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+                                     • Omit trim                                     Prices below                         Specify with omit trim.
+Specification Information
+DCorresponding   DStyle              DU.S.      DOption              DStyle                   DU.S.      DOption
+dPanel
+dNumber         dBase    d(Add $ to               dNumber              dBase    d(Add $ to
+dHeight
+d
+dPrice     dBase Price)           d
+dPrice     dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+C
+d
+d               d                              d
+d               d
+d
+d
+d               dOmit Trim
+d
+d               dOmit Trim
+Painted Trim
+Wood Trim
+42"
+30"
+30"
+TS7433TCYJ
+$289
+–$70
+TS7433TCYJW
+$510
+–$290
+48"
+30"
+30"
+TS7833TCYJ
+$289
+–$70
+TS7833TCYJW
+$510
+–$290
+54"
+30"
+30"
+TS7533TCYJ
+$306
+–$70
+TS7533TCYJW
+$527
+–$290
+66"
+30"
+30"
+TS7633TCYJ
+$336
+–$73
+TS7633TCYJW
+$558
+–$293
+54"
+42"
+42"
+TS7544TCYJ
+$306
+–$70
+TS7544TCYJW
+$527
+–$290
+66"
+42"
+42"
+TS7644TCYJ
+$336
+–$70
+TS7644TCYJW
+$558
+–$290
+78"
+42"
+42"
+TS7744TCYJ
+$358
+–$73
+TS7744TCYJW
+$579
+–$290
+66"
+48"
+48"
+TS7688TCYJ
+$336
+–$70
+TS7688TCYJW
+$558
+–$290
+78"
+48"
+48"
+TS7788TCYJ
+$385
+–$73
+TS7788TCYJW
+$607
+–$293
+66"
+54"
+54"
+TS7655TCYJ
+$336
+–$70
+TS7655TCYJW
+$558
+–$290
+78"
+54"
+54"
+TS7755TCYJ
+$385
+–$70
+TS7755TCYJW
+$607
+–$290
+78"
+66"
+66"
+TS7766TCYJ
+$385
+–$70
+TS7766TCYJW
+$607
+–$290
+d
+d
+d               d
+d
+d               d
+Painted Trim
+Wood Trim
+30"
+42"
+42"
+TS7344TCYJ
+$289
+–$70
+TS7344TCYJW
+$510
+–$290
+30"
+48"
+48"
+TS7388TCYJ
+$289
+–$70
+TS7388TCYJW
+$510
+–$290
+30"
+54"
+54"
+TS7355TCYJ
+$306
+–$70
+TS7355TCYJW
+$527
+–$290
+30"
+66"
+66"
+TS7366TCYJ
+$336
+–$73
+TS7366TCYJW
+$558
+–$293
+42"
+54"
+54"
+TS7455TCYJ
+$306
+–$70
+TS7455TCYJW
+$527
+–$290
+42"
+66"
+66"
+TS7466TCYJ
+$336
+–$70
+TS7466TCYJW
+$558
+–$290
+42"
+78"
+78"
+TS7477TCYJ
+$358
+–$73
+TS7477TCYJW
+$579
+–$290
+48"
+66"
+66"
+TS7866TCYJ
+$336
+–$70
+TS7866TCYJW
+$558
+–$290
+48"
+78"
+78"
+TS7877TCYJ
+$385
+–$73
+TS7877TCYJW
+$607
+–$293
+54"
+66"
+66"
+TS7566TCYJ
+$336
+–$70
+TS7566TCYJW
+$558
+–$290
+54"
+78"
+78"
+TS7577TCYJ
+$385
+–$70
+TS7577TCYJW
+$607
+–$290
+66"
+78"
+78"
+TS7677TCYJ
+$385
+–$70
+TS7677TCYJW
+$607
+–$290
+d
+d
+d               d
+d
+d               d
+Panels—Thin Trim
+Y Change-of-Height Junctions—Thin Trim
+Tip: Junction includes:
+• Y change-of-height 
+  junction
+• 120° change-of-height trim
+• 120° junction cap
+B
+A
+C
+Tip: Omit trim option omits
+all change-of-height trim.
+This option is used when
+stacking on base junctions.
+Change-of-height trim
+should be specified sepa-
+rately to span the full height
+of the base junction plus
+stacking junction.
+Tip: Remember to specify
+necessary junction caps and
+aligners if the omit trim
+option is selected.
+358                                                                                                                                                                                                            Answer Solutions Specification Guide
+Tip: Junction includes:
+• Y change-of-height 
+  junction
+• V change-of-height trim
+• 120° junction cap
+• Aligner
+B
+A
+C
+February 2015

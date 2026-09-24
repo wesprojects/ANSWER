@@ -1,0 +1,73 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   547
+Panel-Mounted Universal
+Systems Worksurface
+Supports 
+Universal Systems Worksurfaces
+                                                                                                                     
+                                                                                                                                                                                                                   
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems
+Worksurfaces
+Center Support Panels
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 180
+• Center support panel: paint price group 1
+• Tie plate
+• Attachment hardware
+1 Style number
+2 Paint color number for center support
+panel
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                    No cost                                Specify paint color number.
+  Materials             • Paint price group 2                    +$12                                    Specify paint color number.
+                              • Paint price group 3                    +$20                                    Specify paint color number.
+Speciﬁcation Information
+DDimensions    DStyle           DU.S.
+dD        H          dNumber       dBase
+d
+               d                       dPrice
+d                           d                       d
+On-Module Center Support Panel
+11"        281⁄2"       UCSP            $131
+Standing Height
+11"        407⁄8"       UCSPS          $154
+d
+d
+d
+End Panels
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 180
+• End panel: paint price group 1
+• Attachment hardware
+1 Style number
+2 Paint color number for end panel
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                    No cost                                Specify paint color number.
+  Materials             • Paint price group 2                    +$28                                    Specify paint color number.
+                              • Paint price group 3                    +$47                                    Specify paint color number.
+Speciﬁcation Information
+DDimensions    DStyle              DU.S.
+dD        H          dNumber         dBase
+d                         d                          dPrice
+d                           d                          d
+On-Module End Panel
+24"        281⁄2"       UEP24             $359
+30"        281⁄2"       UEP30             $408
+Standing Height
+24"        407⁄8"       UEP24S           $425
+30"        407⁄8"       UEP30S           $477
+d
+d
+d
+February 2015

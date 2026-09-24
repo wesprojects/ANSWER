@@ -1,0 +1,69 @@
+714                                                                                                                                                                                                   Answer Solutions Specification Guide
+...............................................................................................................................................
+Paint Color Availability Matrix
+4242 Milk
+7207 Black
+7225 Sand
+7230 Basalt
+7236 Fog E
+7237 Slate E
+7238 Fieldstone
+7239 Midnight
+7241 Arctic White
+7243 Seagull
+7278 Dark Bronze
+7360 Merle
+4728 Nickel Metallic
+4743 Mineral Metallic
+4744 Pearl Metallic 
+4750 Champagne Metallic
+4752 Steel Metallic E
+4788 Gold Dust Metallic E
+4798 Sterling Metallic 
+4799 Platinum Metallic
+4803 Near Black Metallic
+7245 Carbon Metallic
+7246 Midnight Metallic
+Legend
+˜ = Not available
+Å = Available
+˛ = Available with exceptions
+E = Established
+Panels
+Panel trim components                                         AAAAAAAAAAAAAAAAAAAAAAAAA
+Skins and Related Products
+Steel skins and technology skins                            AAAAAAAAAAAAAAAAAAAAAAAAA
+Slatwall skins                                                          AAAAAAAAAAAAAAAAAAAAAAAAA
+Glass windows                                                        AAAAAAAAAAAAAAAAAAAAAAAAA
+Laminate skin trim                                                   AAAAAAAAAAAAAAAAAAAAAAAAA
+Wood skin trim                                                        AAAAAAAAAAAAAAAAAAAAAAAAA
+Panel top screen supports                                      NAAAANNNNANANNNNNNNNNANNN
+(for square trim only)
+Sliding panel doors                                                 AAAAAAAAAAAAAAAAAAAAAAAAA
+Storage
+Universal storage                                                    AAAAAAAAAAAAAAAAAAAAAAAAA
+Universal curved front bin and L-shelf                     AAAAAAAAAAAAAAAAAAAAAAAAA
+Universal overhead bins and shelves,                     AAAAAAAAAAAAAAAAAAAAAAAAA
+upmount bin brackets, and hutch kits                      
+TS Series Storage                                                   AAAAAAAAAAAAAAAAAAAAAAAAA
+Answer storage components                                   AAAAAAAAAAAAAAAAAAAAAAAAA
+Duo storage legs and brackets                               NNNNNNNNNNNNNNNNNNNNNANNN
+Duo storage steel interior cover                              AAAAAAAAAAAAAAAAAAAAAAAAA
+Worksurfaces, Desks, and Tables
+Cantilevers, center support panels,                         AAAAAAAAAAAAAAAAAAAAAAAAA
+and end panels
+Universal legs, double post                                     AAAAAAAAAAAAAAAAAAAAAAXAA
+C-Legs, and columns
+TS Series Post and H-Legs                                     AAAANANANAAANANAAANNAANAA
+Cabby legs                                                              NAAAXNNNANNANNNANANNAAXNN
+Adjustable-height legs                                             NAAAXNNNANNNNNNNNANNAAXNN
+Elliptical legs                                                           NAANANNNNNNNNNNNNNNNNANNN
+Universal table bases                                              AAAAAAAAAAAAAAAAAAAAAAAAA
+FrameOne legs and supports                                  AAAAAAAAAAAAAAAAAAAAAAAAA
+Lighting
+Shelf lights                                                              NAAAAAAAAAAAANANNAAAAANNA
+Paint Price Group 1 (Smooth)
+Paint Price Group 2 (Metallic)
+...............................................................................................................................................
+Paint Price Group 1 (Textured)
+February 2015

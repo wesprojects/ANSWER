@@ -1,0 +1,107 @@
+   Speciﬁcation Information
+                    24"H                                                                                  30"H
+                     
+                                                                                                  
+DWidth      DStyle                   DU.S.      DOptions                                DStyle                   DU.S.      DOptions
+d               dNumber              dBase    d(Add $ to                                       dNumber              dBase    d(Add $ to
+d
+d
+dPrice
+dBase Price)
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+dPremium Wood
+d
+d
+dPremium Wood
+d
+d
+d
+d               
+d
+d
+d
+d
+d
+d
+dWood 2
+dWood 3
+d
+d
+dWood 2
+dWood 3
+24"                TS72424WSF       $455         +$53         +$186                            TS73024WSF       $526         +$  89       +$312
+30"                TS72430WSF       $479         +$53         +$186                            TS73030WSF       $554         +$  89       +$312
+36"                TS72436WSF       $508         +$89         +$312                            TS73036WSF       $585         +$  89       +$312
+42"                TS72442WSF       $538         +$89         +$312                            TS73042WSF       $618         +$132       +$461
+48"                TS72448WSF       $567         +$89         +$312                            TS73048WSF       $661         +$132       +$461
+d
+d
+d
+d
+d
+d
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+448                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Wood To The Floor Skins
+                                                
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 115
+• Skin: wood veneer
+• Trim: paint
+• Attachment hardware
+1 Style number
+2 Wood veneer color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+                            Options                   U.S. Price                   Required to Specify
+  Surface                • Premium wood 2                   Prices below and at right            Specify Premium wood 2 ﬁnish number.
+  Materials             • Premium wood 3                   Prices below and at right            Specify Premium wood 3 ﬁnish number.
+                               • Customiz stain                  No cost                                       Specify with Customiz stain.
+                                                                                                                       cSee Surface Materials Reference Manual.
+                                     
+                                     
+Tip: Remember to omit base
+trim(s) on horizontal frame
+package when using a skin
+to the ﬂoor.
+Tip: 18"H, 30"H, and 42"H
+skins only work on junctions
+manufactured on or after
+October 10, 2011.
+Tip: When specifying skins,
+the total skin height will be
+6" less than the panel
+height. When ordering skins
+to the floor an F suffix will be
+added to the end of the style
+number for the skin in the
+lowest position on the panel.
+The total skin height will still
+be 6" less than the panel
+height. 
+cSee Panel Buildups, page 
+12, for more information.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

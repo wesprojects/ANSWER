@@ -1,0 +1,91 @@
+Build Your Own Stacking
+Junctions—Thin Trim
+Answer Solutions Specification Guide                                                                                   cBuild Your Own Stacking Junctions—Thin Trim, continued  41
+Panels—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+Step 5: Look at your application in total. Does your application have an in-line or corner (L, T, X, V, or Y) stacking junction?
+  
+• For in-line stacking, go to step 6
+  
+• For corner (L, T, X, V, or Y) stacking go to step 7
+Step 6: In-line stacking junctions
+Step 6a: Specify in-line stacking junction for the shared junction. The height specified is the shortest height of the stacking 
+junction. In this example it would be the height of stacking junction D (12").
+Step 6b: Specify an end-of-run stacking junction for the difference between the tallest stacking junction and the lowest 
+stacking junction. In this example it would be the height of stacking junction C minus the height of stacking 
+junction D (24" - 12" = 12").
+Step 6c: Go to step 7 to specify end-of-run stacking junctions for the stacking junctions that are not in-line. To complete 
+specifying the stacking junctions in this example, one 24" end-of-run and one 12" end-of-run stacking junction 
+would need to be specified.
+Step 7: Corner (L, T or X, V, or Y) stacking junctions
+Look at each panel individually. Start with panel A and determine what you would like to stack to that panel (if anything). Repeat on the remaining panels in the
+application.
+Base panel A: Add 12" thin end-of-run stacking junction (Panel D)              Base panel A: Add 12" thin end-of-run stacking junction (Panel D)
+Base panel B: No change
+                                                                          Base panel B: Add 12" thin end-of-run stacking junction (Panel E)
+Base panel C: Add 12" thin end-of-run stacking junction (Panel E)             Base panel C: No change  
+  Specify the proper height and type of stacking junction                            
+  1. End-of-run stacking junction                                                                  Stacking junction panel D: 12" stacking junction requires one 12" end-of-run stacking 
+  2. L, T, X, V, or Y stacking junction                                                                                                        junction and a 12" "L" to be shared with panel E
+                            
+                                                                          Stacking junction panel E: 12" stacking junction requires one 12" end-of-run stacking
+Stacking junction panel D: 12" stacking junction requires two 12"                                                          junction
+                            
+end-of-run stacking junctions
+Stacking junction panel E: 12" stacking junction requires two 12" 
+                            
+end-of-run stacking junctions
+Note: 1. Corner stacking junctions are created by attaching thin end-of-run stacking junctions and junction blocks.
+  
+2. Thin end-of-run stacking junctions are also used when creating an in-line change-of-height condition.
+  
+3. In-line stacking junctions are only used when creating in-line stacking conditions when adjacent panels are the same height.
+cSee pages 362-363 to specify.
+A
+D
+C
+B
+E
+12"
+42"
+42"
+12"
+42"
+36"
+36"
+36"
+42"
+24"
+36"
+36"
+12"
+42"
+A
+D
+C
+B
+42"
+12"
+42"
+12"
+36"
+36"
+36"
+A
+D
+C
+B
+E
+42"
+24"
+36"
+36"
+12"
+42"
+A
+D
+C
+B
+Panels—Thin Trim
+February 2015

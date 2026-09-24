@@ -1,0 +1,392 @@
+Answer Solutions Specification Guide
+19
+Panels
+Base Junctions
+18
+Answer Solutions Specification Guide
+Base Junctions
+Base junctions complete
+the structure of panel pack-
+ages and panel buildups.
+Answer panels always share
+a junction with adjacent pan-
+els. You order the style of
+junction you need separately.
+cSpecifying, pages 312–316
+Junction cap is included
+with junction when needed.
+Opening in top of junction
+allows lay-in cable routing
+beneath top caps.
+Slots in junction accept the
+panel’s horizontal bars,
+cable trays and powerkits.
+Slotted channels in
+junction accommodate work-
+surface supports and over-
+head storage components at
+1" increments.
+Trim is included with L, T,
+V, and end-of-run junctions
+to finish exposed surfaces.
+Trim is standard with paint
+and available with fabric
+wrapped or wood veneer
+options.
+Leveling glides adjust to
+install panels on uneven
+floors. Range is 2".
+Aligners ensure correct fit
+with adjacent panel top caps.
+Product Details
+End-of-run base junc-
+tion includes junction, verti-
+cal trim, and junction cap.
+End-of-run trim adds 1" to
+footprint.
+In-line base junction 
+includes junction and plastic 
+top cap aligner.
+L-base junction includes 
+junction, vertical trim, junc-
+tion cap, and plastic top cap
+aligner.
+T-base junction includes 
+junction, vertical trim, junc-
+tion cap, and two plastic top
+cap aligners.
+X-base junction includes 
+junction, junction cap, and
+three plastic top cap aligners.
+V-base junction includes 
+junction, vertical trim, junc-
+tion cap, and plastic top cap
+aligner.
+Actual Dimensions
+Depth 
+3"
+(76 mm)
+Height
+2913⁄16",* 403⁄4", 531⁄8", 6531⁄64", and 7727⁄32"
+(757 mm, 1035 mm, 1349 mm, 1663 mm, 
+and 1977 mm)
+*Note: Wall start junctions are not available 2913⁄16"H.
+Y-base junction includes 
+junction, junction cap, and
+two plastic top cap aligners.
+Wall start junction 
+secures to the stud in a 
+structural wall or drywall 
+fasteners can be used. 
+Vertical trim is not needed.
+Also used in off-module
+applications. Wall start 
+junction does not add any
+dimension to panel run.
+An in-line top cap
+aligner is included with 
+in-line junctions.
+Top cap aligners are
+included with L, T, V, X, 
+and Y junctions.
+cPages 313 and 315
+Connections
+Quick lock on both ends
+of the panel’s horizontal
+connecting bars engage the
+junction in a tight structural
+connection.
+Base junctions can
+accept a stacking junction 
+of the same type only. 
+Example: An L-base junc-
+tion will accept an L-stack-
+ing junction.
+Skins extend onto junction
+and meet skin of adjacent
+panel. The slotted channel
+of the junction is accessible
+between these two skins.
+Panels can support work-
+surfaces, shelves, and bins.
+Wiring and Cabling
+Horizontal routing
+through junctions is accom-
+modated by openings for
+modular harnesses and
+cables. Openings at top of
+junction accept lay-in cable
+routing.
+Lay-in junction cable
+sleeves can be added 
+in the field to cover the
+exposed metal edges in 
+lay-in cable space.
+Modular harnesses
+that are 43" or 80" are avail-
+able to change the height at
+which you are routing power
+kits or to route power from
+the panel base to different
+heights. 
+Modular harness is used
+to route power through an 
+L, T, V, X, or Y junction.
+Only the large opening in
+the junction at worksurface
+height allows enough space
+to accommodate the bend in
+the harness. Modular har-
+ness is not needed to route
+power at worksurface
+height. 
+Large opening at work-
+surface height in 42"H,
+54"H, 66"H, and 78"H junc-
+tions must be used to route
+power through an L, T, V, 
+X, or Y base junction. A
+modular harness is required
+if power is routed at any
+location other than worksur-
+face height.
+...............................................................................................................................................
+Skins attach to junction
+with concealed hardware.
+30"H junction does not 
+have a large opening. A
+modular harness must be 
+used to route power in a
+30"H L, T, V, X, or Y junc-
+tion. Only the base of the
+junction allows enough
+space to accommodate the
+bend in the harness. 
+Surface Materials
+Base junction
+•Black paint
+Junction is hidden when 
+properly installed.
+Vertical trim
+•Paint (standard)
+•Fabric (option)
+•Wood (option only if wood 
+junction cap is specified.)
+Application Topics
+Stacking junctions can
+be used with any height
+base junction.
+Stability Guidelines
+for application rules.
+cSee page 47
+Tip 4
+Study the product detail 
+pages in the Understanding 
+section to learn everything an 
+expert knows about specific 
+products. Each product detail 
+page in this section contains 
+the following features, where 
+applicable:
+• Product Drawing
+• Actual Dimensions
+• Product Details
+• Connections
+• Wiring and Cabling
+• Surface Materials
+• Application Topics
+2                                                                                                                                                                                                       Answer Solutions Specification Guide
+Ten Tips: 
+How to Get the Most Out of This Book
+...............................................................................................................................................
+...............................................................................................................................................
+Tip 1
+Watch the tabs on the
+right-hand edges of the
+pages. They’ll always indi-
+cate which chapter you 
+are in.
+Chapter Name
+Tip 2
+Use the Statement of
+Line pages for an over view
+of the available components,
+their sizes, and page refer-
+ences for additional infor-
+mation. Each Under standing
+chapter includes a state-
+ment of line after the table
+of contents.
+Tip 3
+Find cross references
+by looking for page num-
+bers flagged with an arrow.
+8
+Answer Specification Guide
+Panels
+Statement of Line
+Understanding
+cPage 14
+Specifying
+cPages 162–170,
+179
+Understanding
+cPage 16
+Specifying
+cPages 184–185
+Understanding
+cPage 18
+Specifying
+cPages 171–174
+Stacking Junctions
+Stacking
+Stacking
+Stacking L
+Stacking T
+Stacking X
+Stacking V
+Stacking Y
+Stacking
+End-of-Run
+In-line
+Junctions
+Junctions
+Junctions
+Junctions
+Junctions
+Wall Start
+Junctions
+Junctions
+Junctions
+12"H
+•
+•
+•
+•
+•
+•
+•
+•
+24"H
+•
+•
+•
+•
+•
+•
+•
+•
+Base Junctions
+End-of-Run
+In-line
+L-Base
+T-Base
+X-Base
+V-Base
+Y-Base
+Wall-Start
+Base
+Base
+Junctions
+Junctions
+Junctions
+Junctions
+Junctions
+Junctions
+Junctions
+Junctions
+30"H
+•
+•
+•
+•
+•
+•
+•
+42"H
+•
+•
+•
+•
+•
+•
+•
+•
+54"H
+•
+•
+•
+•
+•
+•
+•
+•
+66"H
+•
+•
+•
+•
+•
+•
+•
+•
+78"H
+•
+•
+•
+•
+•
+•
+•
+•
+Top cap
+Cable tray
+Horizontal
+bars
+Base
+covers
+Base Horizontal Frame Package
+18"W
+24"W
+30"W
+36"W
+42"W
+48"W
+60"W
+72"W
+•
+•
+•
+•
+•
+•
+•
+•
+Product Drawing 
+shows you what the product
+looks like and points out
+important features.
+Product Details
+gives specific information
+on the product and how 
+it is used.
+Connections
+describes how the product
+is assembled or how it
+attaches to another 
+product.
+Actual Dimensions 
+table lists the dimensions 
+of the product.
+Wiring and Cabling
+details the power and 
+cable-management and 
+cable routing capabilities 
+of the product.
+Surface Materials
+lists what material is used
+for each part of the 
+product.
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

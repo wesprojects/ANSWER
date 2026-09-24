@@ -1,0 +1,56 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            681
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 316
+• Tall storage box: laminate
+• Painted steel interior divider cover on tall storage:
+paint price group 1
+1 Style number
+2 Paint color number fot top cap
+3 Paint color number for interior
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                  Interior divider cover
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                                     • Paint price group 2                     +$14                                    Specify paint color number.
+                                     • Paint price group 3                     +$23                                    Specify paint color number.
+                               • Open Line laminate on box        +$65                                 cSee Surface Materials Reference Manual.
+                                                                            plus cost of laminate
+Specification Information
+DDimensions
+DStyle           DU.S.
+dD        W         H          dNumber       dBase
+d
+d
+dPrice
+d                                        d
+d
+Individual Tall Storage
+18"         54"         15"           BDTS54          $680
+18"         66"         15"           BDTS66          $790
+d
+d
+d
+Shared Tall Storage
+18"         54"         15"           BDTD54          $770
+18"         66"         15"           BDTD66          $880
+d
+d
+d
+Slim Storage
+25"         54"         71⁄2"          BDS54            $625
+25"         66"         71⁄2"          BDS66            $725
+d
+d
+d
+Duo Storage Products
+Duo Storage
+For Use with Top Cap Mounted Storage
+Duo Storage
+Duo Storage
+February 2015

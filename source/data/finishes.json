@@ -1,0 +1,6875 @@
+{
+ "section": "finishes",
+ "title": "Surface Materials",
+ "pages": [
+  707,
+  722
+ ],
+ "additionalPages": [
+  [
+   1,
+   4
+  ]
+ ],
+ "families": [
+  {
+   "id": "surface-materials-listing",
+   "title": "Surface Materials",
+   "page": [
+    708,
+    712
+   ],
+   "understandingPage": null,
+   "trim": null,
+   "category": "finish",
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [
+    {
+     "group": "Laminate",
+     "name": "Open Line Laminate (OLL)",
+     "price": 65,
+     "priceText": "$65 U.S. per worksurface or top, plus the cost of the laminate",
+     "spec": "Specify 2900 in the laminate finish field and enter the OLL manufacturer information."
+    },
+    {
+     "group": "Wood",
+     "name": "Customiz stain-matching fee",
+     "price": 425,
+     "priceText": "$425",
+     "spec": "Per CUSTOMIZ request (see exceptions)."
+    },
+    {
+     "group": "Wood",
+     "name": "Customiz initiation fee",
+     "price": 5000,
+     "priceText": "$5,000",
+     "spec": "Charged prior to first order entry; activates finish for 18 months."
+    },
+    {
+     "group": "Wood",
+     "name": "Customiz reactivation fee",
+     "price": 1000,
+     "priceText": "$1,000",
+     "spec": "Reactivates for another 18 months within five years of initiation."
+    }
+   ],
+   "tips": [
+    "Tip: All products may not be available in all colors listed below.",
+    "Tip: Turnstone Laminate Collection are not available on doors or bullnose laminate storage tops.",
+    "Tip: Answer panel wood trims are only available with quarter-cut finishes with the exception of maple finishes. (see materials.woodInfo.panelTrimTip)"
+   ],
+   "notes": [
+    "Finish catalog is in top-level 'materials' (paint, fabric, laminate, wood, plastic, metal, glass, acrylic, edge)."
+   ],
+   "columns": [],
+   "items": []
+  },
+  {
+   "id": "directional-fabrics",
+   "title": "Specification Guidelines for Directional Fabrics",
+   "page": 713,
+   "category": "finish",
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "See materials.directional.fabric"
+   ],
+   "columns": [],
+   "items": []
+  },
+  {
+   "id": "paint-color-availability-matrix",
+   "title": "Paint Color Availability Matrix",
+   "page": [
+    714,
+    715
+   ],
+   "category": "finish",
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "See materials.paintAvailabilityMatrix and per-paint materials.paint[].availability",
+    "Page 715 is blank (facing page)."
+   ],
+   "columns": [
+    "Component",
+    "4242",
+    "7207",
+    "7225",
+    "7230",
+    "7236",
+    "7237",
+    "7238",
+    "7239",
+    "7241",
+    "7243",
+    "7278",
+    "7360",
+    "4728",
+    "4743",
+    "4744",
+    "4750",
+    "4752",
+    "4788",
+    "4798",
+    "4799",
+    "4803",
+    "7245",
+    "7246"
+   ],
+   "items": []
+  },
+  {
+   "id": "recommended-worksurface-edge-finishes",
+   "title": "Recommended Worksurface Edge Finishes",
+   "page": [
+    716,
+    717
+   ],
+   "category": "finish",
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "See materials.edge.recommended"
+   ],
+   "columns": [
+    "Laminate Color",
+    "Recommended 3 mm or 1 mm Edge Color",
+    "Recommended P-Edge Color"
+   ],
+   "items": []
+  },
+  {
+   "id": "directional-laminate-grain",
+   "title": "Directional Laminate Grain Directions",
+   "page": [
+    718,
+    719
+   ],
+   "category": "finish",
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "See materials.directional.laminateGrain"
+   ],
+   "columns": [],
+   "items": []
+  },
+  {
+   "id": "wood-veneer-grain",
+   "title": "Wood Veneer Grain Directions",
+   "page": [
+    720,
+    721
+   ],
+   "category": "finish",
+   "trim": null,
+   "standardIncludes": [],
+   "requiredToSpecify": [],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "See materials.directional.woodGrain"
+   ],
+   "columns": [],
+   "items": []
+  }
+ ],
+ "rules": [
+  {
+   "page": 1,
+   "topic": "pricing",
+   "text": "Electronic price list updated with release 180.F (U.S.) and 146.F (Canada), dated February 16, 2015.",
+   "kind": "requirement"
+  },
+  {
+   "page": 1,
+   "topic": "pricing",
+   "text": "For Canadian Pricing, calculate in the following order to avoid rounding errors: Multiply the base price and each option by 1.09. Round each to the nearest dollar. Add base and options for total list price.",
+   "kind": "requirement"
+  },
+  {
+   "page": 1,
+   "topic": "transitional",
+   "text": "Transitional products in this specification guide are maintained for existing customers only and are likely to be phased out over time; they are indicated with a S symbol. Products scheduled to be culled are indicated with a G symbol, followed by the last order entry date.",
+   "kind": "requirement"
+  },
+  {
+   "page": 1,
+   "topic": "pricing",
+   "text": "This specification guide contains multiple Steelcase and Turnstone product lines designed into one guide; each product may be subject to different pricing terms and conditions.",
+   "kind": "tip"
+  },
+  {
+   "page": 3,
+   "topic": "pricing",
+   "text": "For Canadian Orders (sample page): the 'ship-to' destination will determine whether Zone 1 pricing or Zone 2 pricing should be used. (Illustrative sample spec page; actual spec pages in this guide instead say: 'Multiply U.S. Price by the Canadian price factor. See page 1 for details.')",
+   "kind": "tip"
+  },
+  {
+   "page": 3,
+   "topic": "fabric",
+   "text": "Sample-page tip (illustrative, p3): COM option is priced as fabric price group 2.",
+   "kind": "tip"
+  },
+  {
+   "page": 3,
+   "topic": "spec-page",
+   "text": "Italic typeface on specifying pages usually identifies wording that you should use in your order.",
+   "kind": "tip"
+  },
+  {
+   "page": 3,
+   "topic": "spec-page",
+   "text": "Use the surface materials listings in the Surface Materials section (page 708) to find surface material color numbers; use the style number index (page 730) to find the page for a known style number.",
+   "kind": "tip"
+  },
+  {
+   "page": 4,
+   "topic": "resources",
+   "text": "Additional storage products can be found in the Storage Specification Guide; Turnstone Kick products and storage are in the Turnstone Furniture Specification Guide.",
+   "kind": "tip"
+  },
+  {
+   "page": 708,
+   "topic": "paint",
+   "text": "Paint Price Group 1 = Smooth Paint (4242) and Textured Paint (7207, 7225, 7230, 7236, 7237, 7238, 7239, 7241, 7243, 7278, 7360). Paint Price Group 2 = Smooth Metallic Paint (4728, 4743, 4744, 4750, 4752, 4788, 4798, 4799, 4803) and Textured Metallic Paint (7245, 7246). Paint Price Group 3 = Select Surfaces Accent paint and Custom Surfaces PerfectMatch.",
+   "kind": "requirement"
+  },
+  {
+   "page": 708,
+   "topic": "paint",
+   "text": "All products may not be available in all colors listed; use the Paint Color Availability Matrix (p714) for the paint colors available on each component.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Panel top screen supports (for square trim only) are available only in 7207, 7225, 7230, 7241, 7278 and 4799.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Duo storage legs and brackets are available only in 4799 Platinum Metallic.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Universal legs, double post C-Legs, and columns: all listed paints available except 4803 Near Black Metallic = available with exceptions.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "TS Series Post and H-Legs available in 4242, 7207, 7225, 7236, 7238, 7241, 7243, 7278, 4743, 4744, 4750, 4798, 4799, 7245, 7246; not available in 7230, 7237, 7239, 7360, 4728, 4752, 4788, 4803.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Cabby legs available in 7207, 7225, 7239, 7278, 4743, 4750, 4798, 4799; available with exceptions in 7230 and 4803; not available in all others.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Adjustable-height legs available in 7207, 7225, 7239, 4750, 4798, 4799; available with exceptions in 7230 and 4803; not available in all others.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Elliptical legs available only in 7207, 7230 and 4799.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "Shelf lights: not available in 4242 Milk, 4743, 4744, 4803, 7245; available in all other matrix colors.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 714,
+   "topic": "paint",
+   "text": "All other matrix rows (panel trim, steel/technology/slatwall skins, glass windows, laminate/wood skin trim, sliding panel doors, Universal storage, curved front bin and L-shelf, overhead bins/shelves/upmount brackets/hutch kits, TS Series Storage, Answer storage components, Duo steel interior cover, cantilevers/center support/end panels, Universal table bases, FrameOne legs and supports) are available in all 23 matrix paint colors.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 708,
+   "topic": "laminate",
+   "text": "2503 Brushed Silver metallic laminate is only available on TS Series worksurfaces and TS Series common shelves.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 708,
+   "topic": "laminate",
+   "text": "Turnstone Laminate Collection (2535, 2536, 2612, 2614, 2615) is not available on doors or bullnose laminate storage tops.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 708,
+   "topic": "laminate",
+   "text": "Woodgrain Laminates and the Turnstone Laminate Collection are not available as matched sets; grain patterns will not align; not recommended for fully segmented skin applications.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 708,
+   "topic": "laminate",
+   "text": "Open Line Laminate (OLL): non-standard laminate at an additional processing fee of $65 U.S. per worksurface or top, plus the cost of the laminate. For Universal worksurfaces and Universal Storage tops specify 2900 in the laminate finish field, enter the OLL manufacturer information, and enter the required edge finish as for a standard laminate.",
+   "kind": "requirement"
+  },
+  {
+   "page": 708,
+   "topic": "laminate",
+   "text": "Duo Storage boxes use Steelcase Surfaces solid laminate: 2722, 2730, 2746, 2759, 2811, 2883, 2884, 2885.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 709,
+   "topic": "laminate",
+   "text": "Low-pressure laminate (LPL) applies to TS Series worksurfaces and TS Series Storage only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 709,
+   "topic": "wood",
+   "text": "Veneers are available flat cut or quarter cut, except Oak, which is rift cut.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 709,
+   "topic": "wood",
+   "text": "Full-fill finish is available on the wood worksurface or field-installed top only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 709,
+   "topic": "wood",
+   "text": "Answer panel wood trims are only available with quarter-cut finishes except maple finishes; maple on wood trims is only available with flat-cut finishes. If a flat-cut (non-maple) finish is selected, trims get the coordinating quarter-cut finish; if a quarter-cut maple finish is selected, trims get the coordinating flat-cut finish. For exact match, specify quarter-cut for the whole project (non-maple) or flat-cut for the whole project (maple).",
+   "kind": "requirement"
+  },
+  {
+   "page": 709,
+   "topic": "wood",
+   "text": "Sign-off sheet required prior to order acceptance for clear-coat finishes marked *: form 09-0000756 for 3042; form 05-0001370 for 3222 and 3224 (3522 and 3524 also carry the * mark; no form number printed for them).",
+   "kind": "requirement"
+  },
+  {
+   "page": 710,
+   "topic": "wood",
+   "text": "Composite veneers: only open-pore finishes; Graded-In as Wood Group 1 pricing; not available as solid nosing substitute; mixing with natural solid nosings not recommended; sign-off sheet (form 14-0000141) required prior to orders being accepted for composite projects.",
+   "kind": "requirement"
+  },
+  {
+   "page": 710,
+   "topic": "wood",
+   "text": "Premium veneers are Graded-In as Wood Group 2 (3032, 3052) and Wood Group 3 (3832, 3842), all clear-coat; orders scheduled individually (leadtimes vary); sign-off sheet required: 09-0000755 (3032), 09-0000757 (3052), 09-0000758 (3832), 09-0000759 (3842).",
+   "kind": "requirement"
+  },
+  {
+   "page": 710,
+   "topic": "customiz",
+   "text": "Customiz stain available on all product lines that offer wood veneer. $425 stain-matching fee per CUSTOMIZ request (not applied to matches to Coalesse standard finishes or low-gloss request on a standard color), charged whether or not product is ordered. Approval form required. $5,000 initiation fee before first order entry activates finish for 18 months; reactivation $1,000 per additional 18 months within five years of initiation; otherwise finish is culled and $5,000 must be paid again. Style-number Customiz charges are no cost as of April 2014. Fees not discountable. 10 days to formulate (custom veneers: quoted by specials group, 2 to 4 weeks).",
+   "kind": "requirement"
+  },
+  {
+   "page": 710,
+   "topic": "plastic",
+   "text": "6651 Tungsten and 6652 Titanium plastics (oval trim components, oval pulls) are available for existing customers only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 711,
+   "topic": "edge",
+   "text": "6689 Brushed Silver edge is only available on TS Series products.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 711,
+   "topic": "edge",
+   "text": "P-edge and 1 mm profile on Universal Systems Worksurfaces and Tables with HPL available in: 6000, 6009, 6052, 6053, 6249, 6654, 6694, 6695, 6697, 6698.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 716,
+   "topic": "edge",
+   "text": "Edge color is specified separately from laminate color; recommended edge colors per laminate are in the Recommended Edge Colors tables (pp716-717).",
+   "kind": "requirement"
+  },
+  {
+   "page": 711,
+   "topic": "fabric",
+   "text": "Vertical surface fabric (Steelcase Surfaces Price Groups A, 1, 2 and Custom Surfaces COM) applies to fabric skins and trims and Hutch kit tackboards. Knit screens use B902 Soft White, B903 Fog, B904 Sand.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 712,
+   "topic": "fabric",
+   "text": "Seating upholstery is available on mobile pedestal cushion top only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 712,
+   "topic": "fabric",
+   "text": "COM: confirm material testing / yardage via www.steelcase.com; for additional information call 1.888.STEELCASE (1.888.783.3522) or email lineone@steelcase.com.",
+   "kind": "requirement"
+  },
+  {
+   "page": 713,
+   "topic": "fabric",
+   "text": "Standard fabric application direction on Answer panels, skins, and Hutch kit tackboard is warp horizontal; warp vertical is optional (most commonly used on COMs designed for warp vertical application).",
+   "kind": "requirement"
+  },
+  {
+   "page": 718,
+   "topic": "laminate",
+   "text": "Directional laminates are standard with the grain directions shown (pp718-719).",
+   "kind": "requirement"
+  },
+  {
+   "page": 720,
+   "topic": "wood",
+   "text": "Wood veneer polarization is often noticed on worksurfaces installed at a 90-degree angle with each other; refer to grain direction illustrations (pp720-721).",
+   "kind": "tip"
+  },
+  {
+   "page": 711,
+   "topic": "plastic",
+   "text": "Personal Caddy plastic colors: 6009 Arctic White, 6249 Platinum Solid, 6695 Midnight.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 711,
+   "topic": "metal",
+   "text": "Elliptical leg metal: 9201 Polished Chrome. Field-installed round grommet: 9201 Polished Chrome or 9211 Nickel. Universal Storage pulls plated metal: 0835 Black, 9201 Polished Chrome, 9211 Nickel, 9212 Silver.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 711,
+   "topic": "paint",
+   "text": "Accessory paint 4140 Arctic White Gloss / 4144 Black Gloss applies to Cabby legs with glides, Adjustable-height legs with glides, Universal table bases, Universal lateral files with c:scape pulls.",
+   "kind": "compatibility"
+  }
+ ],
+ "dimensions": [],
+ "materials": {
+  "legend": {
+   "established": "E = Established (flagged with a circled E in the guide)"
+  },
+  "paint": [
+   {
+    "code": "4242",
+    "name": "Milk",
+    "priceGroup": 1,
+    "finishType": "Smooth Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "not available"
+    }
+   },
+   {
+    "code": "7207",
+    "name": "Black",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "available",
+     "Elliptical legs": "available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7225",
+    "name": "Sand",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7230",
+    "name": "Basalt",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "available with exceptions",
+     "Adjustable-height legs": "available with exceptions",
+     "Elliptical legs": "available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7236",
+    "name": "Fog",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": true,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7237",
+    "name": "Slate",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": true,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7238",
+    "name": "Fieldstone",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7239",
+    "name": "Midnight",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7241",
+    "name": "Arctic White",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7243",
+    "name": "Seagull",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7278",
+    "name": "Dark Bronze",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "7360",
+    "name": "Merle",
+    "priceGroup": 1,
+    "finishType": "Textured Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4728",
+    "name": "Nickel Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4743",
+    "name": "Mineral Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "not available"
+    }
+   },
+   {
+    "code": "4744",
+    "name": "Pearl Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "not available"
+    }
+   },
+   {
+    "code": "4750",
+    "name": "Champagne Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4752",
+    "name": "Steel Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": true,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4788",
+    "name": "Gold Dust Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": true,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4798",
+    "name": "Sterling Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4799",
+    "name": "Platinum Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "available",
+     "Adjustable-height legs": "available",
+     "Elliptical legs": "available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   },
+   {
+    "code": "4803",
+    "name": "Near Black Metallic",
+    "priceGroup": 2,
+    "finishType": "Smooth Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available with exceptions",
+     "TS Series Post and H-Legs": "not available",
+     "Cabby legs": "available with exceptions",
+     "Adjustable-height legs": "available with exceptions",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "not available"
+    }
+   },
+   {
+    "code": "7245",
+    "name": "Carbon Metallic",
+    "priceGroup": 2,
+    "finishType": "Textured Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "not available"
+    }
+   },
+   {
+    "code": "7246",
+    "name": "Midnight Metallic",
+    "priceGroup": 2,
+    "finishType": "Textured Metallic Paint",
+    "brand": "Steelcase Surfaces",
+    "established": false,
+    "availability": {
+     "Panel trim components": "available",
+     "Steel skins and technology skins": "available",
+     "Slatwall skins": "available",
+     "Glass windows": "available",
+     "Laminate skin trim": "available",
+     "Wood skin trim": "available",
+     "Panel top screen supports (for square trim only)": "not available",
+     "Sliding panel doors": "available",
+     "Universal storage": "available",
+     "Universal curved front bin and L-shelf": "available",
+     "Universal overhead bins and shelves, upmount bin brackets, and hutch kits": "available",
+     "TS Series Storage": "available",
+     "Answer storage components": "available",
+     "Duo storage legs and brackets": "not available",
+     "Duo storage steel interior cover": "available",
+     "Cantilevers, center support panels, and end panels": "available",
+     "Universal legs, double post C-Legs, and columns": "available",
+     "TS Series Post and H-Legs": "available",
+     "Cabby legs": "not available",
+     "Adjustable-height legs": "not available",
+     "Elliptical legs": "not available",
+     "Universal table bases": "available",
+     "FrameOne legs and supports": "available",
+     "Shelf lights": "available"
+    }
+   }
+  ],
+  "paintColumnsOrder": [
+   "4242",
+   "7207",
+   "7225",
+   "7230",
+   "7236",
+   "7237",
+   "7238",
+   "7239",
+   "7241",
+   "7243",
+   "7278",
+   "7360",
+   "4728",
+   "4743",
+   "4744",
+   "4750",
+   "4752",
+   "4788",
+   "4798",
+   "4799",
+   "4803",
+   "7245",
+   "7246"
+  ],
+  "paintAvailabilityMatrix": {
+   "page": 714,
+   "note": "Page 715 is the facing page of the spread and is blank (header only). Matrix columns, left to right, exactly as printed: Paint Price Group 1 (Smooth): 4242 Milk | Paint Price Group 1 (Textured): 7207 Black, 7225 Sand, 7230 Basalt, 7236 Fog E, 7237 Slate E, 7238 Fieldstone, 7239 Midnight, 7241 Arctic White, 7243 Seagull, 7278 Dark Bronze, 7360 Merle | Paint Price Group 2 (Metallic): 4728 Nickel Metallic, 4743 Mineral Metallic, 4744 Pearl Metallic, 4750 Champagne Metallic, 4752 Steel Metallic E, 4788 Gold Dust Metallic E, 4798 Sterling Metallic, 4799 Platinum Metallic, 4803 Near Black Metallic, 7245 Carbon Metallic, 7246 Midnight Metallic",
+   "columnGroups": [
+    {
+     "header": "Paint Price Group 1 (Smooth)",
+     "codes": [
+      "4242"
+     ]
+    },
+    {
+     "header": "Paint Price Group 1 (Textured)",
+     "codes": [
+      "7207",
+      "7225",
+      "7230",
+      "7236",
+      "7237",
+      "7238",
+      "7239",
+      "7241",
+      "7243",
+      "7278",
+      "7360"
+     ]
+    },
+    {
+     "header": "Paint Price Group 2 (Metallic)",
+     "codes": [
+      "4728",
+      "4743",
+      "4744",
+      "4750",
+      "4752",
+      "4788",
+      "4798",
+      "4799",
+      "4803",
+      "7245",
+      "7246"
+     ]
+    }
+   ],
+   "columns": [
+    "4242",
+    "7207",
+    "7225",
+    "7230",
+    "7236",
+    "7237",
+    "7238",
+    "7239",
+    "7241",
+    "7243",
+    "7278",
+    "7360",
+    "4728",
+    "4743",
+    "4744",
+    "4750",
+    "4752",
+    "4788",
+    "4798",
+    "4799",
+    "4803",
+    "7245",
+    "7246"
+   ],
+   "legend": {
+    "available": "filled square = Available",
+    "not available": "dot = Not available",
+    "available with exceptions": "open square = Available with exceptions (exceptions not detailed on p714)"
+   },
+   "rows": [
+    {
+     "group": "Panels",
+     "component": "Panel trim components",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Steel skins and technology skins",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Slatwall skins",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Glass windows",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Laminate skin trim",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Wood skin trim",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Panel top screen supports (for square trim only)",
+     "values": {
+      "4242": "not available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "not available",
+      "7237": "not available",
+      "7238": "not available",
+      "7239": "not available",
+      "7241": "available",
+      "7243": "not available",
+      "7278": "available",
+      "7360": "not available",
+      "4728": "not available",
+      "4743": "not available",
+      "4744": "not available",
+      "4750": "not available",
+      "4752": "not available",
+      "4788": "not available",
+      "4798": "not available",
+      "4799": "available",
+      "4803": "not available",
+      "7245": "not available",
+      "7246": "not available"
+     }
+    },
+    {
+     "group": "Skins and Related Products",
+     "component": "Sliding panel doors",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "Universal storage",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "Universal curved front bin and L-shelf",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "Universal overhead bins and shelves, upmount bin brackets, and hutch kits",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "TS Series Storage",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "Answer storage components",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "Duo storage legs and brackets",
+     "values": {
+      "4242": "not available",
+      "7207": "not available",
+      "7225": "not available",
+      "7230": "not available",
+      "7236": "not available",
+      "7237": "not available",
+      "7238": "not available",
+      "7239": "not available",
+      "7241": "not available",
+      "7243": "not available",
+      "7278": "not available",
+      "7360": "not available",
+      "4728": "not available",
+      "4743": "not available",
+      "4744": "not available",
+      "4750": "not available",
+      "4752": "not available",
+      "4788": "not available",
+      "4798": "not available",
+      "4799": "available",
+      "4803": "not available",
+      "7245": "not available",
+      "7246": "not available"
+     }
+    },
+    {
+     "group": "Storage",
+     "component": "Duo storage steel interior cover",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "Cantilevers, center support panels, and end panels",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "Universal legs, double post C-Legs, and columns",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available with exceptions",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "TS Series Post and H-Legs",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "not available",
+      "7236": "available",
+      "7237": "not available",
+      "7238": "available",
+      "7239": "not available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "not available",
+      "4728": "not available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "not available",
+      "4788": "not available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "not available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "Cabby legs",
+     "values": {
+      "4242": "not available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available with exceptions",
+      "7236": "not available",
+      "7237": "not available",
+      "7238": "not available",
+      "7239": "available",
+      "7241": "not available",
+      "7243": "not available",
+      "7278": "available",
+      "7360": "not available",
+      "4728": "not available",
+      "4743": "available",
+      "4744": "not available",
+      "4750": "available",
+      "4752": "not available",
+      "4788": "not available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available with exceptions",
+      "7245": "not available",
+      "7246": "not available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "Adjustable-height legs",
+     "values": {
+      "4242": "not available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available with exceptions",
+      "7236": "not available",
+      "7237": "not available",
+      "7238": "not available",
+      "7239": "available",
+      "7241": "not available",
+      "7243": "not available",
+      "7278": "not available",
+      "7360": "not available",
+      "4728": "not available",
+      "4743": "not available",
+      "4744": "not available",
+      "4750": "available",
+      "4752": "not available",
+      "4788": "not available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available with exceptions",
+      "7245": "not available",
+      "7246": "not available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "Elliptical legs",
+     "values": {
+      "4242": "not available",
+      "7207": "available",
+      "7225": "not available",
+      "7230": "available",
+      "7236": "not available",
+      "7237": "not available",
+      "7238": "not available",
+      "7239": "not available",
+      "7241": "not available",
+      "7243": "not available",
+      "7278": "not available",
+      "7360": "not available",
+      "4728": "not available",
+      "4743": "not available",
+      "4744": "not available",
+      "4750": "not available",
+      "4752": "not available",
+      "4788": "not available",
+      "4798": "not available",
+      "4799": "available",
+      "4803": "not available",
+      "7245": "not available",
+      "7246": "not available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "Universal table bases",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Worksurfaces, Desks, and Tables",
+     "component": "FrameOne legs and supports",
+     "values": {
+      "4242": "available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "available",
+      "4744": "available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "available",
+      "7245": "available",
+      "7246": "available"
+     }
+    },
+    {
+     "group": "Lighting",
+     "component": "Shelf lights",
+     "values": {
+      "4242": "not available",
+      "7207": "available",
+      "7225": "available",
+      "7230": "available",
+      "7236": "available",
+      "7237": "available",
+      "7238": "available",
+      "7239": "available",
+      "7241": "available",
+      "7243": "available",
+      "7278": "available",
+      "7360": "available",
+      "4728": "available",
+      "4743": "not available",
+      "4744": "not available",
+      "4750": "available",
+      "4752": "available",
+      "4788": "available",
+      "4798": "available",
+      "4799": "available",
+      "4803": "not available",
+      "7245": "not available",
+      "7246": "available"
+     }
+    }
+   ],
+   "tip": "Tip: All products may not be available in all colors listed below. See page 714 for an overview of the paint colors available on each component. (p708)"
+  },
+  "paintPrograms": [
+   {
+    "name": "Accent paint",
+    "priceGroup": 3,
+    "brand": "Select Surfaces",
+    "code": null,
+    "text": "Accent paints allow you to choose from a pre-matched color palette of trend driven colors that are available without the PerfectMatch registration fee. Refer to the Surface Materials Reference Manual for more information about this program.",
+    "page": 708
+   },
+   {
+    "name": "PerfectMatch",
+    "priceGroup": 3,
+    "brand": "Custom Surfaces",
+    "code": null,
+    "text": "PerfectMatch is a service that allows you to create your own paint color. Refer to the Surface Materials Reference Manual for more information about this program.",
+    "page": 708
+   }
+  ],
+  "accessoryPaint": {
+   "page": 711,
+   "brand": "Steelcase Surfaces",
+   "appliesTo": [
+    "Cabby legs with glides",
+    "Adjustable-height legs with glides",
+    "Universal table bases",
+    "Universal lateral files with c:scape pulls"
+   ],
+   "colors": [
+    {
+     "code": "4140",
+     "name": "Arctic White Gloss"
+    },
+    {
+     "code": "4144",
+     "name": "Black Gloss"
+    }
+   ]
+  },
+  "paintNotes": [
+   "See Surface Materials Reference Manual for a listing of available paints for Victor2. (p708)",
+   "Paint price group 3 = Select Surfaces Accent paint and Custom Surfaces PerfectMatch (no color numbers printed)."
+  ],
+  "fabric": {
+   "verticalSurface": {
+    "pages": [
+     711,
+     712
+    ],
+    "appliesTo": [
+     "Fabric skins and trims",
+     "Hutch kit tackboards"
+    ],
+    "gradesListed": [
+     "A",
+     "1",
+     "2",
+     "COM"
+    ],
+    "note": "Vertical Surface Fabric listing. Grades as printed: Steelcase Surfaces Price Group A, Price Group 1, Price Group 2; Custom Surfaces Price Group COM (Customer's Own Material). Select Surfaces fabrics (Designtex, Gabriel, Kvadrat, Pollack): see Surface Materials Reference Manual or www.steelcase.com/selectsurfaces. See Surface Materials Reference Manual for a listing of available fabrics for Divisio side screen.",
+    "lines": [
+     {
+      "name": "Lido",
+      "grade": "A",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "R159",
+        "name": "Oak Bluffs"
+       },
+       {
+        "code": "R160",
+        "name": "Cape May"
+       },
+       {
+        "code": "R162",
+        "name": "Hermosa"
+       }
+      ]
+     },
+     {
+      "name": "Sprite",
+      "grade": "A",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "5540",
+        "name": "Khaki"
+       },
+       {
+        "code": "5541",
+        "name": "Snow"
+       },
+       {
+        "code": "5542",
+        "name": "Butter"
+       },
+       {
+        "code": "5543",
+        "name": "Linen"
+       },
+       {
+        "code": "5544",
+        "name": "Sherbet"
+       },
+       {
+        "code": "5545",
+        "name": "Powder"
+       },
+       {
+        "code": "5546",
+        "name": "Harvest"
+       },
+       {
+        "code": "5547",
+        "name": "Sky"
+       },
+       {
+        "code": "5548",
+        "name": "Kiwi"
+       }
+      ]
+     },
+     {
+      "name": "Abacus",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P122",
+        "name": "Entasis"
+       },
+       {
+        "code": "P123",
+        "name": "Portico"
+       },
+       {
+        "code": "P124",
+        "name": "Opus"
+       },
+       {
+        "code": "P125",
+        "name": "Cusp"
+       },
+       {
+        "code": "P126",
+        "name": "Artifact"
+       },
+       {
+        "code": "P129",
+        "name": "Atlas"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Acadia",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "G031",
+        "name": "Tin"
+       },
+       {
+        "code": "G033",
+        "name": "Iron"
+       },
+       {
+        "code": "G034",
+        "name": "Pewter"
+       },
+       {
+        "code": "G039",
+        "name": "Silica"
+       },
+       {
+        "code": "G041",
+        "name": "Brimstone"
+       },
+       {
+        "code": "G043",
+        "name": "Azurite"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Alloy",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P525",
+        "name": "Polar"
+       },
+       {
+        "code": "P526",
+        "name": "Skim"
+       },
+       {
+        "code": "P527",
+        "name": "Bubbly"
+       },
+       {
+        "code": "P528",
+        "name": "Tern"
+       },
+       {
+        "code": "P529",
+        "name": "Shore"
+       },
+       {
+        "code": "P530",
+        "name": "Asti"
+       },
+       {
+        "code": "P531",
+        "name": "Silver"
+       },
+       {
+        "code": "P532",
+        "name": "Oxide"
+       },
+       {
+        "code": "P533",
+        "name": "Element"
+       },
+       {
+        "code": "P534",
+        "name": "Construct"
+       },
+       {
+        "code": "P535",
+        "name": "Currency"
+       },
+       {
+        "code": "P536",
+        "name": "Iron"
+       }
+      ]
+     },
+     {
+      "name": "Boccie",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P200",
+        "name": "New Rice"
+       },
+       {
+        "code": "P201",
+        "name": "New Almond"
+       },
+       {
+        "code": "P202",
+        "name": "New Nutmeg"
+       },
+       {
+        "code": "P203",
+        "name": "New Camel"
+       },
+       {
+        "code": "P204",
+        "name": "New Opal"
+       },
+       {
+        "code": "P205",
+        "name": "New Mist"
+       },
+       {
+        "code": "P206",
+        "name": "New Plum"
+       },
+       {
+        "code": "P207",
+        "name": "New Lichen"
+       },
+       {
+        "code": "P208",
+        "name": "New Spearmint"
+       },
+       {
+        "code": "P209",
+        "name": "New Sky"
+       }
+      ]
+     },
+     {
+      "name": "Buzz2",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "5F01",
+        "name": "Camel",
+        "established": true
+       },
+       {
+        "code": "5F03",
+        "name": "Tomato"
+       },
+       {
+        "code": "5F04",
+        "name": "Red",
+        "established": true
+       },
+       {
+        "code": "5F05",
+        "name": "Burgundy"
+       },
+       {
+        "code": "5F06",
+        "name": "Sky",
+        "established": true
+       },
+       {
+        "code": "5F07",
+        "name": "Blue"
+       },
+       {
+        "code": "5F08",
+        "name": "Navy"
+       },
+       {
+        "code": "5F10",
+        "name": "Grape",
+        "established": true
+       },
+       {
+        "code": "5F11",
+        "name": "Eggplant",
+        "established": true
+       },
+       {
+        "code": "5F15",
+        "name": "Stone"
+       },
+       {
+        "code": "5F16",
+        "name": "Grey"
+       },
+       {
+        "code": "5F17",
+        "name": "Black"
+       },
+       {
+        "code": "5G50",
+        "name": "Dunegrass"
+       },
+       {
+        "code": "5G51",
+        "name": "Sable"
+       },
+       {
+        "code": "5G52",
+        "name": "Barley"
+       },
+       {
+        "code": "5G53",
+        "name": "Sunrise"
+       },
+       {
+        "code": "5G54",
+        "name": "Carrot"
+       },
+       {
+        "code": "5G55",
+        "name": "Pumpkin"
+       },
+       {
+        "code": "5G56",
+        "name": "Timber"
+       },
+       {
+        "code": "5G57",
+        "name": "Rouge"
+       },
+       {
+        "code": "5G58",
+        "name": "Chocolate"
+       },
+       {
+        "code": "5G59",
+        "name": "Meadow"
+       },
+       {
+        "code": "5G60",
+        "name": "Ivy"
+       },
+       {
+        "code": "5G61",
+        "name": "Cyan"
+       },
+       {
+        "code": "5G62",
+        "name": "Atlantic"
+       },
+       {
+        "code": "5G63",
+        "name": "Crocus"
+       },
+       {
+        "code": "5G64",
+        "name": "Alpine"
+       },
+       {
+        "code": "5G65",
+        "name": "Tornado"
+       }
+      ]
+     },
+     {
+      "name": "Charm",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P504",
+        "name": "Tint"
+       },
+       {
+        "code": "P505",
+        "name": "Shell"
+       },
+       {
+        "code": "P506",
+        "name": "Mimosa"
+       },
+       {
+        "code": "P507",
+        "name": "Birch"
+       },
+       {
+        "code": "P508",
+        "name": "Sparkle"
+       },
+       {
+        "code": "P509",
+        "name": "Ginkgo"
+       },
+       {
+        "code": "P510",
+        "name": "Debut"
+       },
+       {
+        "code": "P511",
+        "name": "Clover"
+       },
+       {
+        "code": "P512",
+        "name": "Spicy"
+       },
+       {
+        "code": "P513",
+        "name": "Twilight"
+       }
+      ]
+     },
+     {
+      "name": "Embrasure",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P140",
+        "name": "Colonnade"
+       },
+       {
+        "code": "P141",
+        "name": "Rotunda"
+       },
+       {
+        "code": "P143",
+        "name": "Baluster"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Lapel",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P409",
+        "name": "Cement"
+       },
+       {
+        "code": "P410",
+        "name": "Pebble"
+       },
+       {
+        "code": "P411",
+        "name": "Beech"
+       },
+       {
+        "code": "P412",
+        "name": "Dune"
+       },
+       {
+        "code": "P413",
+        "name": "Grain"
+       },
+       {
+        "code": "P414",
+        "name": "Sprout"
+       },
+       {
+        "code": "P415",
+        "name": "Misty Blue"
+       },
+       {
+        "code": "P416",
+        "name": "Maple"
+       },
+       {
+        "code": "P417",
+        "name": "Slate"
+       }
+      ]
+     },
+     {
+      "name": "Optic",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 711,
+      "colors": [
+       {
+        "code": "P540",
+        "name": "Hazel"
+       },
+       {
+        "code": "P541",
+        "name": "Twinkle"
+       },
+       {
+        "code": "P542",
+        "name": "Orion"
+       },
+       {
+        "code": "P543",
+        "name": "Seaglass"
+       },
+       {
+        "code": "P544",
+        "name": "Shine"
+       },
+       {
+        "code": "P545",
+        "name": "Halo"
+       },
+       {
+        "code": "P546",
+        "name": "Whiskey"
+       },
+       {
+        "code": "P547",
+        "name": "Bath"
+       },
+       {
+        "code": "P548",
+        "name": "Whisper"
+       },
+       {
+        "code": "P549",
+        "name": "Breezy"
+       },
+       {
+        "code": "P550",
+        "name": "Wry"
+       },
+       {
+        "code": "P551",
+        "name": "Glimmer"
+       }
+      ]
+     },
+     {
+      "name": "Pianista",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "P420",
+        "name": "Sand"
+       },
+       {
+        "code": "P421",
+        "name": "Mist"
+       },
+       {
+        "code": "P422",
+        "name": "Rain"
+       },
+       {
+        "code": "P423",
+        "name": "Natural"
+       },
+       {
+        "code": "P424",
+        "name": "Café"
+       },
+       {
+        "code": "P425",
+        "name": "Denim"
+       },
+       {
+        "code": "P426",
+        "name": "Carbon"
+       },
+       {
+        "code": "P427",
+        "name": "Stone"
+       },
+       {
+        "code": "P428",
+        "name": "Flax"
+       },
+       {
+        "code": "P429",
+        "name": "Oat"
+       },
+       {
+        "code": "P430",
+        "name": "Wheat"
+       },
+       {
+        "code": "P431",
+        "name": "Maize"
+       }
+      ]
+     },
+     {
+      "name": "Rhythm",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "P555",
+        "name": "Allegro"
+       },
+       {
+        "code": "P556",
+        "name": "Tempo"
+       },
+       {
+        "code": "P557",
+        "name": "Refrain"
+       },
+       {
+        "code": "P558",
+        "name": "Pitch"
+       },
+       {
+        "code": "P559",
+        "name": "Harmony"
+       },
+       {
+        "code": "P560",
+        "name": "Melody"
+       },
+       {
+        "code": "P561",
+        "name": "Stanza"
+       },
+       {
+        "code": "P562",
+        "name": "Opus"
+       }
+      ]
+     },
+     {
+      "name": "Tinsel",
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "P515",
+        "name": "Sugar"
+       },
+       {
+        "code": "P516",
+        "name": "Lit"
+       },
+       {
+        "code": "P517",
+        "name": "Ego"
+       },
+       {
+        "code": "P518",
+        "name": "Fizz"
+       },
+       {
+        "code": "P519",
+        "name": "Muse"
+       },
+       {
+        "code": "P520",
+        "name": "Depth"
+       },
+       {
+        "code": "P521",
+        "name": "Bliss"
+       },
+       {
+        "code": "P522",
+        "name": "Grow"
+       },
+       {
+        "code": "P523",
+        "name": "Dolce"
+       },
+       {
+        "code": "P524",
+        "name": "Boost"
+       }
+      ]
+     },
+     {
+      "name": "Amiranté",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5664",
+        "name": "Mink"
+       },
+       {
+        "code": "5665",
+        "name": "Ivory"
+       },
+       {
+        "code": "5666",
+        "name": "Silver Frost"
+       },
+       {
+        "code": "5677",
+        "name": "Moonglo"
+       },
+       {
+        "code": "5679",
+        "name": "Woodbine"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Ashanti Reverse",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5638",
+        "name": "Mink"
+       },
+       {
+        "code": "5648",
+        "name": "Moonglo"
+       },
+       {
+        "code": "5650",
+        "name": "Woodbine"
+       },
+       {
+        "code": "5654",
+        "name": "Quince"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Bariolage",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "G200",
+        "name": "New Etude"
+       },
+       {
+        "code": "G201",
+        "name": "New Andante"
+       },
+       {
+        "code": "G202",
+        "name": "New Cantata"
+       },
+       {
+        "code": "G203",
+        "name": "New Adagio"
+       },
+       {
+        "code": "G205",
+        "name": "New Ballata"
+       },
+       {
+        "code": "G206",
+        "name": "New Sonata"
+       }
+      ]
+     },
+     {
+      "name": "Bouquet",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "P165",
+        "name": "Hosta"
+       },
+       {
+        "code": "P166",
+        "name": "Dundee"
+       },
+       {
+        "code": "P169",
+        "name": "Argenta"
+       },
+       {
+        "code": "P170",
+        "name": "Hoya"
+       },
+       {
+        "code": "P173",
+        "name": "Camomile"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Cogent: Geode Seating",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5S47",
+        "name": "Coal"
+       },
+       {
+        "code": "5S48",
+        "name": "Smoke"
+       },
+       {
+        "code": "5S49",
+        "name": "Cobalt"
+       },
+       {
+        "code": "5S50",
+        "name": "Ink"
+       },
+       {
+        "code": "5S55",
+        "name": "Sunset"
+       },
+       {
+        "code": "5S57",
+        "name": "Thunder"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Cogent: Geode Vertical",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5S32",
+        "name": "Canyon"
+       },
+       {
+        "code": "5S35",
+        "name": "Slate"
+       },
+       {
+        "code": "5S36",
+        "name": "Cement"
+       },
+       {
+        "code": "5S37",
+        "name": "Rock"
+       },
+       {
+        "code": "5S38",
+        "name": "Oyster"
+       },
+       {
+        "code": "5S40",
+        "name": "Toast"
+       },
+       {
+        "code": "5S41",
+        "name": "Sesame"
+       },
+       {
+        "code": "5S42",
+        "name": "Ecru"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Flip: Orbit",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5F85",
+        "name": "Mud Pie"
+       },
+       {
+        "code": "5F86",
+        "name": "Hummus"
+       },
+       {
+        "code": "5F87",
+        "name": "Petoskey"
+       },
+       {
+        "code": "5F88",
+        "name": "Pluto"
+       },
+       {
+        "code": "5F89",
+        "name": "Papyrus"
+       },
+       {
+        "code": "5F91",
+        "name": "Blizzard"
+       },
+       {
+        "code": "5F92",
+        "name": "Briquette"
+       }
+      ]
+     },
+     {
+      "name": "Flip: Plain Jane",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5F70",
+        "name": "Mud Pie"
+       },
+       {
+        "code": "5F71",
+        "name": "Hummus"
+       },
+       {
+        "code": "5F72",
+        "name": "Petoskey"
+       },
+       {
+        "code": "5F73",
+        "name": "Pluto"
+       },
+       {
+        "code": "5F74",
+        "name": "Papyrus"
+       },
+       {
+        "code": "5F94",
+        "name": "Blizzard"
+       },
+       {
+        "code": "5F95",
+        "name": "Briquette"
+       }
+      ]
+     },
+     {
+      "name": "Flip: TexHex",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "5F75",
+        "name": "Mud Pie"
+       },
+       {
+        "code": "5F76",
+        "name": "Hummus"
+       },
+       {
+        "code": "5F77",
+        "name": "Petoskey"
+       },
+       {
+        "code": "5F78",
+        "name": "Pluto"
+       },
+       {
+        "code": "5F79",
+        "name": "Papyrus"
+       },
+       {
+        "code": "5F97",
+        "name": "Blizzard"
+       },
+       {
+        "code": "5F98",
+        "name": "Briquette"
+       }
+      ]
+     },
+     {
+      "name": "Fresco",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "G001",
+        "name": "Sandrift"
+       },
+       {
+        "code": "G002",
+        "name": "Mistiblu"
+       },
+       {
+        "code": "G003",
+        "name": "Faon"
+       },
+       {
+        "code": "G006",
+        "name": "Chamoline"
+       },
+       {
+        "code": "G007",
+        "name": "Grapenut"
+       },
+       {
+        "code": "G017",
+        "name": "Flint"
+       }
+      ]
+     },
+     {
+      "name": "Milano",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "N001",
+        "name": "Oyster"
+       },
+       {
+        "code": "N002",
+        "name": "Delft"
+       },
+       {
+        "code": "N003",
+        "name": "Woodland"
+       },
+       {
+        "code": "N004",
+        "name": "Sunshadow"
+       },
+       {
+        "code": "N005",
+        "name": "Olivine"
+       },
+       {
+        "code": "N012",
+        "name": "Teakwood"
+       }
+      ],
+      "established": true
+     },
+     {
+      "name": "Regatta",
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "page": 712,
+      "colors": [
+       {
+        "code": "D011",
+        "name": "Licorice"
+       },
+       {
+        "code": "5335",
+        "name": "Warm Brown V1"
+       },
+       {
+        "code": "5338",
+        "name": "Tan V1"
+       }
+      ],
+      "established": true
+     }
+    ],
+    "com": {
+     "grade": "COM",
+     "brand": "Custom Surfaces",
+     "name": "Customer's Own Material",
+     "text": "Fabric Approval and Yardage: To confirm whether a particular COM material has already been tested for use on a specific Steelcase product or to determine actual yardage requirements: Visit www.steelcase.com. For additional information regarding Customer's Own Material, call 1.888.STEELCASE (1.888.783.3522) or send an e-mail to lineone@steelcase.com.",
+     "page": 712
+    }
+   },
+   "knitScreens": {
+    "page": 711,
+    "appliesTo": [
+     "Knit screens"
+    ],
+    "grade": null,
+    "brand": "Steelcase Surfaces",
+    "colors": [
+     {
+      "code": "B902",
+      "name": "Soft White"
+     },
+     {
+      "code": "B903",
+      "name": "Fog"
+     },
+     {
+      "code": "B904",
+      "name": "Sand"
+     }
+    ]
+   },
+   "seatingUpholstery": {
+    "page": 712,
+    "appliesTo": [
+     "Available on mobile pedestal cushion top only."
+    ],
+    "note": "See Surface Materials Reference Manual for a listing of available seating upholstery colors (color numbers not printed in this guide). See Surface Materials Reference Manual for a listing of available fabrics for Divisio side screen.",
+    "groups": [
+     {
+      "grade": "1",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Buzz2"
+       },
+       {
+        "name": "Jacks"
+       },
+       {
+        "name": "Link"
+       },
+       {
+        "name": "Playground"
+       }
+      ]
+     },
+     {
+      "grade": "2",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Chainmail"
+       },
+       {
+        "name": "Cogent: Connect"
+       },
+       {
+        "name": "Cogent: Geode Seating",
+        "established": true
+       },
+       {
+        "name": "Cogent: Geode Vertical",
+        "established": true
+       },
+       {
+        "name": "Cogent: Trails"
+       },
+       {
+        "name": "Cricket",
+        "established": true
+       },
+       {
+        "name": "Crosswalk"
+       },
+       {
+        "name": "Nitelights"
+       },
+       {
+        "name": "Seating Vinyl",
+        "established": true
+       },
+       {
+        "name": "Spyder",
+        "established": true
+       },
+       {
+        "name": "Stand In"
+       },
+       {
+        "name": "Zoe2"
+       }
+      ]
+     },
+     {
+      "grade": "3",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Gaja—C2C"
+       },
+       {
+        "name": "Imperma"
+       },
+       {
+        "name": "Redeem"
+       },
+       {
+        "name": "Retrieve"
+       },
+       {
+        "name": "Texel"
+       }
+      ]
+     },
+     {
+      "grade": "5",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Bo Peep"
+       },
+       {
+        "name": "Remix"
+       }
+      ]
+     },
+     {
+      "grade": "6",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Brisa"
+       }
+      ]
+     },
+     {
+      "grade": "7",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Steelcut Trio"
+       }
+      ]
+     },
+     {
+      "grade": "Leather",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Steelcase Leather"
+       }
+      ]
+     },
+     {
+      "grade": "Elmosoft Leather",
+      "brand": "Steelcase Surfaces",
+      "lines": [
+       {
+        "name": "Elmosoft Leather"
+       }
+      ]
+     },
+     {
+      "grade": "COM",
+      "brand": "Custom Surfaces",
+      "lines": [
+       {
+        "name": "Customer's Own Material"
+       }
+      ],
+      "text": "Fabric Approval and Yardage: To confirm whether a particular COM material has already been tested for use on a specific Steelcase product or to determine actual yardage requirements: Visit www.steelcase.com"
+     }
+    ],
+    "selectSurfaces": "For information on products within Select Surfaces, including accent paints and fabrics from Designtex, Gabriel, Kvadrat, and Pollack, please refer to the Surface Materials Reference Manual or visit www.steelcase.com/selectsurfaces."
+   }
+  },
+  "laminate": [
+   {
+    "code": "2722",
+    "name": "Cream",
+    "established": true,
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2730",
+    "name": "Arctic White",
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2746",
+    "name": "Black",
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2759",
+    "name": "Warm White",
+    "established": true,
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2811",
+    "name": "Mist",
+    "established": true,
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2883",
+    "name": "Seagull",
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2884",
+    "name": "Milk",
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2885",
+    "name": "Dune",
+    "type": "Steelcase Surfaces laminate (Duo)",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Duo Storage boxes"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2850",
+    "name": "Vanadium Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2851",
+    "name": "Rhyme Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2852",
+    "name": "Tungsten Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2854",
+    "name": "Vellum Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2859",
+    "name": "Novell Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2860",
+    "name": "Granite Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2861",
+    "name": "Coconut Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2862",
+    "name": "Stucco Fiber",
+    "type": "HPL",
+    "group": "Fiber Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2503",
+    "name": "Brushed Silver",
+    "type": "HPL",
+    "group": "Metallic Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708,
+    "restriction": "*Only available on TS Series worksurfaces and TS Series common shelves."
+   },
+   {
+    "code": "2920",
+    "name": "Marl Micro",
+    "type": "HPL",
+    "group": "Micro Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2921",
+    "name": "Gypsum Micro",
+    "type": "HPL",
+    "group": "Micro Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2922",
+    "name": "Clay Micro",
+    "type": "HPL",
+    "group": "Micro Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2923",
+    "name": "Shadow Micro",
+    "type": "HPL",
+    "group": "Micro Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2870",
+    "name": "Blonde Bronze Patina",
+    "type": "HPL",
+    "group": "Patina Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2871",
+    "name": "Blackened Bronze Patina",
+    "type": "HPL",
+    "group": "Patina Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2873",
+    "name": "Instant Iron Patina",
+    "type": "HPL",
+    "group": "Patina Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2722",
+    "name": "Cream",
+    "established": true,
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2730",
+    "name": "Arctic White",
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2746",
+    "name": "Black",
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2759",
+    "name": "Warm White",
+    "established": true,
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2811",
+    "name": "Mist",
+    "established": true,
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2883",
+    "name": "Seagull",
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2884",
+    "name": "Milk",
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2885",
+    "name": "Dune",
+    "type": "HPL",
+    "group": "Solid Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2820",
+    "name": "Coffee Speckle",
+    "type": "HPL",
+    "group": "Speckle Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2822",
+    "name": "Woodrose Speckle",
+    "type": "HPL",
+    "group": "Speckle Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2823",
+    "name": "Driftwood Speckle",
+    "type": "HPL",
+    "group": "Speckle Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2824",
+    "name": "Smoke Speckle",
+    "type": "HPL",
+    "group": "Speckle Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2825",
+    "name": "Vanadium Speckle",
+    "type": "HPL",
+    "group": "Speckle Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2406",
+    "name": "Clear Cherry",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2409",
+    "name": "Clear Maple",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2410",
+    "name": "Graphite Walnut",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2412",
+    "name": "Natural Cherry",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2422",
+    "name": "Medium Cherry",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2511",
+    "name": "Winter on Maple",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2535",
+    "name": "Virginia Walnut",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2536",
+    "name": "Blackwood",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2538",
+    "name": "Clear Walnut",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2539",
+    "name": "Warm Oak",
+    "established": true,
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2592",
+    "name": "Blonde on Maple",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2714",
+    "name": "Natural Walnut",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2772",
+    "name": "Medium Mahogany on Walnut",
+    "established": true,
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2HAK",
+    "name": "Clear Oak",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2HAT",
+    "name": "Acacia",
+    "type": "HPL",
+    "group": "Woodgrain Laminate",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708
+   },
+   {
+    "code": "2535",
+    "name": "Virginia Walnut",
+    "type": "HPL",
+    "group": "Turnstone Laminate Collection",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708,
+    "restriction": "Tip: Turnstone Laminate Collection are not available on doors or bullnose laminate storage tops."
+   },
+   {
+    "code": "2536",
+    "name": "Blackwood",
+    "type": "HPL",
+    "group": "Turnstone Laminate Collection",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708,
+    "restriction": "Tip: Turnstone Laminate Collection are not available on doors or bullnose laminate storage tops."
+   },
+   {
+    "code": "2612",
+    "name": "Marbled Maple",
+    "type": "HPL",
+    "group": "Turnstone Laminate Collection",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708,
+    "restriction": "Tip: Turnstone Laminate Collection are not available on doors or bullnose laminate storage tops."
+   },
+   {
+    "code": "2614",
+    "name": "Chocolate Walnut",
+    "type": "HPL",
+    "group": "Turnstone Laminate Collection",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708,
+    "restriction": "Tip: Turnstone Laminate Collection are not available on doors or bullnose laminate storage tops."
+   },
+   {
+    "code": "2615",
+    "name": "Marbled Cherry",
+    "type": "HPL",
+    "group": "Turnstone Laminate Collection",
+    "appliesTo": [
+     "Answer Laminate Skins",
+     "Universal Worksurfaces and Tables—High-Pressure Laminate",
+     "Answer mobile pedestal tops",
+     "Universal Storage tops",
+     "TS Series Worksurfaces",
+     "TS Series Storage",
+     "Infills for FrameOne legs"
+    ],
+    "page": 708,
+    "restriction": "Tip: Turnstone Laminate Collection are not available on doors or bullnose laminate storage tops."
+   },
+   {
+    "code": "247L",
+    "name": "Black Version 2 LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "25L1",
+    "name": "Winter on Maple LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "25L5",
+    "name": "Virginia Walnut LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "25L6",
+    "name": "Blackwood LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "25L8",
+    "name": "Clear Walnut LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "25L9",
+    "name": "Warm Oak LPL",
+    "established": true,
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "262L",
+    "name": "Marbled Maple LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "264L",
+    "name": "Chocolate Walnut LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "267L",
+    "name": "Marbled Cherry Version 2 LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "26L1",
+    "name": "Natural Cherry Version 2 LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L03",
+    "name": "Brushed Silver LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L09",
+    "name": "Clear Maple LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L30",
+    "name": "Arctic White LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L50",
+    "name": "Vanadium Fiber LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L52",
+    "name": "Tungsten Fiber LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L83",
+    "name": "Seagull LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2L85",
+    "name": "Dune LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2LAK",
+    "name": "Clear Oak LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2LAT",
+    "name": "Acacia LPL",
+    "type": "LPL",
+    "group": "Low-Pressure Laminate",
+    "appliesTo": [
+     "TS Series worksurfaces and TS Series Storage"
+    ],
+    "page": 709
+   },
+   {
+    "code": "2900",
+    "name": "Open Line Laminate (OLL)",
+    "type": "HPL (custom)",
+    "group": "Custom Surfaces",
+    "appliesTo": [
+     "Universal worksurfaces",
+     "Universal Storage tops"
+    ],
+    "page": 708,
+    "text": "This service allows you to order non-standard laminate at an additional processing fee of $65 U.S. per worksurface or top, plus the cost of the laminate. When processing orders for Open Line laminate on Universal worksurfaces and Universal Storage tops, specify 2900 in the laminate finish field and enter the OLL manufacturer information. Enter the required edge finish as you would a standard laminate.",
+    "fee": 65,
+    "feeText": "$65 U.S. per worksurface or top, plus the cost of the laminate"
+   }
+  ],
+  "laminateNotes": [
+   {
+    "page": 708,
+    "text": "See Surface Materials Reference Manual for a listing of available laminates for Victor2."
+   },
+   {
+    "page": 708,
+    "text": "Note: Some wood veneer finishes and woodgrain laminates share the same name. Because of the difference in materials, veneers and laminates of the same name are not an exact match but do coordinate with each other."
+   },
+   {
+    "page": 708,
+    "text": "Note: Woodgrain Laminates and the Turnstone Laminate Collection are not available as matched sets. The grain patterns will not align. These are not recommended for fully segmented skin applications."
+   },
+   {
+    "page": 708,
+    "text": "Turnstone Laminate Collection: A selection of laminates and edge bands in this collection are available on Steelcase brand products. This collection is available with standard leadtimes and supported like standard laminates to help make ordering easy. Please see the Turnstone section of village.steelcase.com for swatching information."
+   },
+   {
+    "page": 708,
+    "text": "Laminate Approval and Material Requirements: To confirm whether a particular laminate has already been tested for use on a specific Steelcase product or to determine material square foot requirements: Visit www.steelcase.com"
+   }
+  ],
+  "wood": [
+   {
+    "code": "3062",
+    "name": "Graphite Walnut",
+    "printedName": "FC/OP Graphite Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3402",
+    "name": "Clear Cherry (Aged)",
+    "printedName": "FC/OP Clear Cherry (Aged)",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3412",
+    "name": "Natural Cherry",
+    "established": true,
+    "printedName": "FC/OP Natural Cherry",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3422",
+    "name": "Medium Cherry",
+    "printedName": "FC/OP Medium Cherry",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3522",
+    "name": "Clear Maple",
+    "printedName": "FC/OP Clear Maple*",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709,
+    "signOffRequired": true
+   },
+   {
+    "code": "3572",
+    "name": "Amber on Maple",
+    "established": true,
+    "printedName": "FC/OP Amber on Maple",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3592",
+    "name": "Blonde on Maple",
+    "printedName": "FC/OP Blonde on Maple",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3702",
+    "name": "Clear Walnut",
+    "printedName": "FC/OP Clear Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3712",
+    "name": "Natural Walnut",
+    "printedName": "FC/OP Natural Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3722",
+    "name": "Dark Mahogany on Walnut",
+    "printedName": "FC/OP Dark Mahogany on Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3752",
+    "name": "Medium Walnut",
+    "printedName": "FC/OP Medium Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3762",
+    "name": "Dark Walnut",
+    "printedName": "FC/OP Dark Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3772",
+    "name": "Medium Mahogany on Walnut",
+    "printedName": "FC/OP Medium Mahogany on Walnut",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3042",
+    "name": "Ash",
+    "printedName": "QC/OP Ash*",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709,
+    "signOffRequired": true,
+    "signOffForm": "09-0000756"
+   },
+   {
+    "code": "3222",
+    "name": "Clear Maple",
+    "printedName": "QC/OP Clear Maple*",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709,
+    "signOffRequired": true,
+    "signOffForm": "05-0001370"
+   },
+   {
+    "code": "3272",
+    "name": "Amber on Maple",
+    "established": true,
+    "printedName": "QC/OP Amber on Maple",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3292",
+    "name": "Blonde on Maple",
+    "printedName": "QC/OP Blonde on Maple",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3302",
+    "name": "Clear Walnut",
+    "printedName": "QC/OP Clear Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3312",
+    "name": "Natural Walnut",
+    "printedName": "QC/OP Natural Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3322",
+    "name": "Dark Mahogany on Walnut",
+    "printedName": "QC/OP Dark Mahogany on Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3352",
+    "name": "Medium Walnut",
+    "printedName": "QC/OP Medium Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3362",
+    "name": "Dark Walnut",
+    "printedName": "QC/OP Dark Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3372",
+    "name": "Medium Mahogany on Walnut",
+    "printedName": "QC/OP Medium Mahogany on Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3382",
+    "name": "Graphite Walnut",
+    "printedName": "QC/OP Graphite Walnut",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3602",
+    "name": "Desert Oak",
+    "printedName": "RC/OP Desert Oak",
+    "cut": "rift",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3612",
+    "name": "Warm Oak",
+    "established": true,
+    "printedName": "RC/OP Warm Oak",
+    "cut": "rift",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3692",
+    "name": "Espresso Oak",
+    "printedName": "RC/OP Espresso Oak",
+    "cut": "rift",
+    "finish": "open-pore",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3064",
+    "name": "Graphite Walnut",
+    "printedName": "FC/FF Graphite Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3404",
+    "name": "Clear Cherry (Aged)",
+    "printedName": "FC/FF Clear Cherry (Aged)",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3414",
+    "name": "Natural Cherry",
+    "established": true,
+    "printedName": "FC/FF Natural Cherry",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3424",
+    "name": "Medium Cherry",
+    "printedName": "FC/FF Medium Cherry",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3524",
+    "name": "Clear Maple",
+    "printedName": "FC/FF Clear Maple*",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709,
+    "signOffRequired": true
+   },
+   {
+    "code": "3544",
+    "name": "Blonde on Maple",
+    "printedName": "FC/FF Blonde on Maple",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3574",
+    "name": "Amber on Maple",
+    "established": true,
+    "printedName": "FC/FF Amber on Maple",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3704",
+    "name": "Clear Walnut",
+    "printedName": "FC/FF Clear Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3714",
+    "name": "Natural Walnut",
+    "printedName": "FC/FF Natural Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3724",
+    "name": "Dark Mahogany on Walnut",
+    "printedName": "FC/FF Dark Mahogany on Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3754",
+    "name": "Medium Walnut",
+    "printedName": "FC/FF Medium Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3764",
+    "name": "Dark Walnut",
+    "printedName": "FC/FF Dark Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3774",
+    "name": "Medium Mahogany on Walnut",
+    "printedName": "FC/FF Medium Mahogany on Walnut",
+    "cut": "flat",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3224",
+    "name": "Clear Maple",
+    "printedName": "QC/FF Clear Maple*",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709,
+    "signOffRequired": true,
+    "signOffForm": "05-0001370"
+   },
+   {
+    "code": "3274",
+    "name": "Amber on Maple",
+    "established": true,
+    "printedName": "QC/FF Amber on Maple",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3294",
+    "name": "Blonde on Maple",
+    "printedName": "QC/FF Blonde on Maple",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3304",
+    "name": "Clear Walnut",
+    "printedName": "QC/FF Clear Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3314",
+    "name": "Natural Walnut",
+    "printedName": "QC/FF Natural Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3324",
+    "name": "Dark Mahogany on Walnut",
+    "printedName": "QC/FF Dark Mahogany on Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3354",
+    "name": "Medium Walnut",
+    "printedName": "QC/FF Medium Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3364",
+    "name": "Dark Walnut",
+    "printedName": "QC/FF Dark Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3374",
+    "name": "Medium Mahogany on Walnut",
+    "printedName": "QC/FF Medium Mahogany on Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3384",
+    "name": "Graphite Walnut",
+    "printedName": "QC/FF Graphite Walnut",
+    "cut": "quarter",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3604",
+    "name": "Desert Oak",
+    "printedName": "RC/FF Desert Oak",
+    "cut": "rift",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3614",
+    "name": "Warm Oak",
+    "established": true,
+    "printedName": "RC/FF Warm Oak",
+    "cut": "rift",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3694",
+    "name": "Espresso Oak",
+    "printedName": "RC/FF Espresso Oak",
+    "cut": "rift",
+    "finish": "full-fill",
+    "priceTier": "standard",
+    "page": 709
+   },
+   {
+    "code": "3JDX",
+    "name": "Oak Composite",
+    "printedName": "FC/OP Oak Composite",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3JFX",
+    "name": "Maple Composite",
+    "printedName": "FC/OP Maple Composite",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3JHX",
+    "name": "Cherry Composite",
+    "printedName": "FC/OP Cherry Composite",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3JJX",
+    "name": "Walnut Composite",
+    "printedName": "FC/OP Walnut Composite",
+    "cut": "flat",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3HGX",
+    "name": "Oak Composite",
+    "printedName": "QC/OP Oak Composite",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3JEX",
+    "name": "Maple Composite",
+    "printedName": "QC/OP Maple Composite",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3JGX",
+    "name": "Cherry Composite",
+    "printedName": "QC/OP Cherry Composite",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "composite (Graded-In as Wood Group 1 pricing)",
+    "page": 710,
+    "composite": true,
+    "signOffRequired": true,
+    "signOffForm": "14-0000141",
+    "woodGroup": 1
+   },
+   {
+    "code": "3032",
+    "name": "Dark Thin Line Bamboo",
+    "printedName": "QC/OP Dark Thin Line Bamboo",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "Premium Wood Group 2",
+    "page": 710,
+    "signOffForm": "09-0000755",
+    "premium": true,
+    "woodGroup": 2,
+    "signOffRequired": true,
+    "clearCoat": true
+   },
+   {
+    "code": "3052",
+    "name": "Ribbon Sapele",
+    "printedName": "QC/OP Ribbon Sapele",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "Premium Wood Group 2",
+    "page": 710,
+    "signOffForm": "09-0000757",
+    "premium": true,
+    "woodGroup": 2,
+    "signOffRequired": true,
+    "clearCoat": true
+   },
+   {
+    "code": "3832",
+    "name": "Figured Anegre",
+    "printedName": "QC/OP Figured Anegre",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "Premium Wood Group 3",
+    "page": 710,
+    "signOffForm": "09-0000758",
+    "premium": true,
+    "woodGroup": 3,
+    "signOffRequired": true,
+    "clearCoat": true
+   },
+   {
+    "code": "3842",
+    "name": "Figured Makore",
+    "printedName": "QC/OP Figured Makore",
+    "cut": "quarter",
+    "finish": "open-pore",
+    "priceTier": "Premium Wood Group 3",
+    "page": 710,
+    "signOffForm": "09-0000759",
+    "premium": true,
+    "woodGroup": 3,
+    "signOffRequired": true,
+    "clearCoat": true
+   }
+  ],
+  "woodInfo": {
+   "appliesTo": [
+    "Universal Worksurfaces and tables–wood veneer",
+    "Answer pedestal tops and fronts",
+    "Universal Storage tops and fronts",
+    "Wood skins and trims",
+    "Infills for FrameOne legs"
+   ],
+   "cutCodes": {
+    "FC": "flat cut",
+    "QC": "quarter cut",
+    "RC": "rift cut"
+   },
+   "finishCodes": {
+    "OP": "open-pore",
+    "FF": "full-fill"
+   },
+   "pages": [
+    709,
+    710
+   ],
+   "notes": [
+    "Veneers are matched for proper balance and consistency. Veneers are available flat cut or quarter cut, except for Oak, which is rift cut. Refer to the Surface Materials Reference Manual for descriptions of each cut.",
+    "Open-pore finish is a medium gloss finish that leaves the wood grain texture visible to the eye and distinguishable to the touch.",
+    "Full-fill finish is a medium-gloss finish that completely fills the grain texture, yet allows the grain pattern to be seen. The wood has a lustrous, satiny look, and it is smooth to the touch. This finish is available on the wood worksurface or field-installed top only.",
+    "See Surface Materials Reference Manual for a listing of available veneers for Victor2.",
+    "*To ensure an understanding of the color ranges and characteristic variations of natural veneer, a sign-off sheet is required prior to orders being accepted for this clear-coat finish. The sign-off sheet is available through Steelcase advertising stock. Please use form number 09-0000756 for 3042,05-0001370 for 3222 and 3224.",
+    "Composite veneers are an engineered wood intended to create specific grain patterns and characteristics. They are pre-stained and finished with Steelcase's Clarity water-borne UV topcoat. Only open-pore finishes are available on composite wood. Composite veneer and matching edge bands are available on most Steelcase brand products. Composites, for use as a solid nosing substitute, are not available. Steelcase does not recommend mixing composite veneers with natural solid nosings because composite and natural wood grain and color matching are rarely compatible. Composite veneers are Graded-In as Wood Group 1 pricing.",
+    "Note: To understand more about composite ordering, leadtimes, and pricing, please consult the composite sign-off sheet available through Steelcase advertising stock, form number 14-0000141. A sign-off sheet is required prior to orders being accepted for composite projects.",
+    "Premium Veneers: A selection of Premium veneers in this collection are available on most Steelcase brand products. The collection will be available as close to standard leadtimes as possible. However, because adequate supplies of veneer and solids must be secured, all orders will be scheduled individually. Leadtimes will vary based on Premium veneer and Premium solids availability at the time the order is placed. The collection is Graded-In as Wood Group 2 and Wood Group 3, and supported like standard veneers to make ordering easy. All premium veneers are in clear-coat.",
+    "Premium veneers: a sign-off sheet is required prior to orders being accepted for this clear-coat finish. Use form number 09-0000755 for 3032, form number 09-0000757 for 3052, form number 09-0000758 for 3832, and form number 09-0000759 for 3842.",
+    "Steelcase carefully selects veneer and solid wood for consistent color and grain structure. Wood is a natural material and variations will occur in color, grain and texture. These variations are part of the inherent natural beauty of wood and are not considered defects.",
+    "All wood products will darken with age and exposure to ultraviolet light. This is especially apparent with cherry and maple veneer. We recommend that desk accessories be rearranged periodically to ensure even aging of wood surfaces.",
+    "Storage guidelines: Do not store products in trailers; Store products in areas that simulate office temperatures (60°F to 90°F); Store products in areas that maintain constant, office-like humidity levels; Keep product away from light. Cover products to make sure they are not exposed to light."
+   ],
+   "panelTrimTip": "Tip: Answer panel wood trims are only available with quarter-cut finishes with the exception of maple finishes. Maple on wood trims is only available with flat-cut finishes. For ordering simplicity, both flat-cut and quarter-cut finishes can be specified on panel trims. However, for all finishes except maple, if a flat-cut finish is selected, the trims will have the coordinating quarter-cut finish. For maple finishes, if quarter-cut is selected, the trims will have the coordinating flat-cut finish. Blending panel trims with other wood products that have flat-cut finishes may be visually acceptable for most applications. If a more exact match is desired for non-maple finishes, please specify quarter-cut finishes for the entire project. If a more exact match is desired for maple finishes, please specify flat-cut finishes for the entire project.",
+   "unresolvedNote": "Standard (non-premium, non-composite) veneers on p709 carry no printed wood group number; they are the base wood price. Premium veneers are Wood Group 2 / 3 (options 'Premium Wood 2'/'Premium Wood 3' on spec pages)."
+  },
+  "customiz": {
+   "page": 710,
+   "brand": "Custom Surfaces",
+   "name": "Customiz stain",
+   "text": "Customiz stain is a service that allows you to create your own stain colors and finishes on standard veneer. Customiz stain color is available on all product lines that offer wood veneer.",
+   "fees": [
+    {
+     "name": "Stain-matching fee",
+     "amount": 425,
+     "text": "A $425 stain-matching fee applies on CUSTOMIZ requests (Exception: The $425 fee does not apply on matches to Coalesse standard finishes or for a low-gloss finish request on a standard color). The $425 fee covers the cost of formulating the Customiz color finish and applies regardless of whether or not an order for product is placed."
+    },
+    {
+     "name": "Initiation fee",
+     "amount": 5000,
+     "text": "A $5,000 initiation fee will be charged prior to first order entry. This initiation fee activates the finish for unlimited use on any Steelcase product for an 18 month time period."
+    },
+    {
+     "name": "Reactivation fee",
+     "amount": 1000,
+     "text": "After the 18 month time period has lapsed, the Customiz finish may be reactivated for another 18 months for a $1,000 fee at any point within five years after the $5,000 initiation fee was paid. If the finish is not reactivated within five years after the $5,000 initiation fee was paid, the finish will be culled and the customer will need to pay the $5,000 initiation fee again."
+    }
+   ],
+   "rules": [
+    "An approval form must be signed to indicate customer acceptance of Customiz match.",
+    "All style number related Customiz charges products are no cost as of April 2014.",
+    "The matching and initiation fees are not discountable.",
+    "Customiz stain takes 10 days to formulate.",
+    "Custom veneers are also available and must be quoted by Steelcase specials group. Customiz stain on custom veneers takes 2 to 4 weeks to formulate.",
+    "Requirements and information on ordering a Customiz stain color are found in the Surface Materials Reference Manual."
+   ],
+   "styleNumberOptionPrice": 0
+  },
+  "markerboard": {
+   "listedInSurfaceMaterials": false,
+   "note": "No markerboard finish is listed in Surface Materials (pp707-722). Markerboard skin specifying pages (pp441, 442, 461) state standard 'Markerboard skin: white' with no color number."
+  },
+  "glass": {
+   "page": 711,
+   "brand": "Steelcase Surfaces",
+   "appliesTo": [
+    "Universal over the case or Universal in the case bin picture frame door glass insert"
+   ],
+   "colors": [
+    {
+     "code": "6580",
+     "name": "Ice White"
+    }
+   ],
+   "note": "Only glass finish listed in Surface Materials. (Paint availability for 'Glass windows' frames is in the paint matrix, p714.)"
+  },
+  "acrylic": {
+   "page": 711,
+   "brand": "Steelcase Surfaces",
+   "appliesTo": [
+    "Universal over the case or Universal in the case bin picture frame door acrylic insert"
+   ],
+   "colors": [
+    {
+     "code": "6538",
+     "name": "Satin"
+    }
+   ]
+  },
+  "plastic": [
+   {
+    "page": 710,
+    "appliesTo": [
+     "Oval trim components"
+    ],
+    "colors": [
+     {
+      "code": "6000",
+      "name": "Black"
+     },
+     {
+      "code": "6009",
+      "name": "Arctic White"
+     },
+     {
+      "code": "6052",
+      "name": "Milk"
+     },
+     {
+      "code": "6053",
+      "name": "Seagull"
+     },
+     {
+      "code": "6055",
+      "name": "Carbon Metallic"
+     },
+     {
+      "code": "6056",
+      "name": "Midnight Metallic"
+     },
+     {
+      "code": "6094",
+      "name": "Mineral Metallic"
+     },
+     {
+      "code": "6654",
+      "name": "Sand"
+     },
+     {
+      "code": "6685",
+      "name": "Champagne"
+     },
+     {
+      "code": "6686",
+      "name": "Gold Dust",
+      "established": true
+     },
+     {
+      "code": "6688",
+      "name": "Steel",
+      "established": true
+     },
+     {
+      "code": "6694",
+      "name": "Slate"
+     },
+     {
+      "code": "6695",
+      "name": "Midnight"
+     },
+     {
+      "code": "6696",
+      "name": "Sterling",
+      "established": true
+     },
+     {
+      "code": "6697",
+      "name": "Fog"
+     },
+     {
+      "code": "6698",
+      "name": "Fieldstone"
+     },
+     {
+      "code": "6699",
+      "name": "Platinum"
+     }
+    ]
+   },
+   {
+    "page": 710,
+    "appliesTo": [
+     "Oval pull"
+    ],
+    "colors": [
+     {
+      "code": "6000",
+      "name": "Black"
+     },
+     {
+      "code": "6249",
+      "name": "Platinum Solid"
+     },
+     {
+      "code": "6654",
+      "name": "Sand"
+     },
+     {
+      "code": "6694",
+      "name": "Slate"
+     },
+     {
+      "code": "6695",
+      "name": "Midnight"
+     },
+     {
+      "code": "6698",
+      "name": "Fieldstone"
+     }
+    ]
+   },
+   {
+    "page": 710,
+    "appliesTo": [
+     "Oval trim components",
+     "Oval pulls"
+    ],
+    "existingCustomersOnly": true,
+    "note": "Note: The following two plastics are available for existing customers only. The matching paints have moved to the Surface Materials Reference Manual.",
+    "colors": [
+     {
+      "code": "6651",
+      "name": "Tungsten"
+     },
+     {
+      "code": "6652",
+      "name": "Titanium"
+     }
+    ]
+   },
+   {
+    "page": 711,
+    "appliesTo": [
+     "Personal Caddy"
+    ],
+    "colors": [
+     {
+      "code": "6009",
+      "name": "Arctic White"
+     },
+     {
+      "code": "6249",
+      "name": "Platinum Solid"
+     },
+     {
+      "code": "6695",
+      "name": "Midnight"
+     }
+    ]
+   }
+  ],
+  "platedMetal": {
+   "page": 711,
+   "brand": "Steelcase Surfaces",
+   "appliesTo": [
+    "Universal Storage pulls"
+   ],
+   "colors": [
+    {
+     "code": "0835",
+     "name": "Black",
+     "established": true
+    },
+    {
+     "code": "9201",
+     "name": "Polished Chrome"
+    },
+    {
+     "code": "9211",
+     "name": "Nickel"
+    },
+    {
+     "code": "9212",
+     "name": "Silver"
+    }
+   ]
+  },
+  "metal": [
+   {
+    "page": 711,
+    "appliesTo": [
+     "Elliptical leg"
+    ],
+    "colors": [
+     {
+      "code": "9201",
+      "name": "Polished Chrome"
+     }
+    ]
+   },
+   {
+    "page": 711,
+    "appliesTo": [
+     "Field-installed round grommet"
+    ],
+    "colors": [
+     {
+      "code": "9201",
+      "name": "Polished Chrome"
+     },
+     {
+      "code": "9211",
+      "name": "Nickel"
+     }
+    ]
+   }
+  ],
+  "edge": {
+   "pages": [
+    711,
+    716,
+    717
+   ],
+   "edgeBandColors": [
+    {
+     "page": 711,
+     "profileAppliesTo": [
+      "3 mm and 1 mm front edge profile on Universal Systems Worksurfaces and Tables and TS Series Worksurfaces",
+      "1 mm square edge profile on Universal Storage laminate tops",
+      "3 mm front edge radius profile on TS Series Shelves",
+      "Square edge laminate top on TS 200 Series"
+     ],
+     "colors": [
+      {
+       "code": "6000",
+       "name": "Black",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6001",
+       "name": "Coffee",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6009",
+       "name": "Arctic White",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6034",
+       "name": "Natural Cherry",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6036",
+       "name": "Medium Cherry",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6037",
+       "name": "Winter on Maple",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6038",
+       "name": "Blonde on Maple",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6041",
+       "name": "Natural Walnut",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6045",
+       "name": "Medium Mahogany on Walnut",
+       "established": true,
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6052",
+       "name": "Milk",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6053",
+       "name": "Seagull",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6213",
+       "name": "Acacia",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6219",
+       "name": "Clear Oak",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6231",
+       "name": "Graphite Walnut",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6234",
+       "name": "Clear Cherry",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6237",
+       "name": "Clear Maple",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6242",
+       "name": "Virginia Walnut",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6243",
+       "name": "Blackwood",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6245",
+       "name": "Clear Walnut",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6246",
+       "name": "Warm Oak",
+       "established": true,
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6249",
+       "name": "Platinum Solid",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6615",
+       "name": "Grey V5",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6619",
+       "name": "Ice",
+       "established": true,
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6631",
+       "name": "Cream",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6635",
+       "name": "Dawn",
+       "established": true,
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6636",
+       "name": "Mist",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6654",
+       "name": "Sand",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6655",
+       "name": "Warm White",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6676",
+       "name": "Marbled Maple",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6677",
+       "name": "Chocolate Walnut",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6678",
+       "name": "Marbled Cherry",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6689",
+       "name": "Brushed Silver",
+       "established": true,
+       "restriction": "Only available on TS Series products.",
+       "polyolefinPVCFree": false
+      },
+      {
+       "code": "6694",
+       "name": "Slate",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6695",
+       "name": "Midnight",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6697",
+       "name": "Fog",
+       "polyolefinPVCFree": true
+      },
+      {
+       "code": "6698",
+       "name": "Fieldstone",
+       "polyolefinPVCFree": true
+      }
+     ],
+     "notes": [
+      "*These solid color and wood grain edge colors are a polyolefin blend, PVC-free material for 3 mm and 1 mm edge bandings.",
+      "**6689 Brushed Silver is only available on TS Series products.",
+      "Note: Light color plastic edges are susceptible to degradation due to normal wear and tear. Staining (e.g., ball point pen or clothing dyes such as blue jeans) and dirt effects are more pronounced in light colors and are not considered defects."
+     ]
+    },
+    {
+     "page": 711,
+     "profileAppliesTo": [
+      "P-edge and 1 mm profile on Universal Systems Worksurfaces and Tables with High-Pressure Laminate"
+     ],
+     "colors": [
+      {
+       "code": "6000",
+       "name": "Black"
+      },
+      {
+       "code": "6009",
+       "name": "Arctic White"
+      },
+      {
+       "code": "6052",
+       "name": "Milk"
+      },
+      {
+       "code": "6053",
+       "name": "Seagull"
+      },
+      {
+       "code": "6249",
+       "name": "Platinum Solid"
+      },
+      {
+       "code": "6654",
+       "name": "Sand"
+      },
+      {
+       "code": "6694",
+       "name": "Slate"
+      },
+      {
+       "code": "6695",
+       "name": "Midnight"
+      },
+      {
+       "code": "6697",
+       "name": "Fog"
+      },
+      {
+       "code": "6698",
+       "name": "Fieldstone"
+      }
+     ]
+    }
+   ],
+   "recommended": {
+    "highPressureLaminate": {
+     "pages": [
+      716,
+      717
+     ],
+     "text": "Edges: The recommended edge color will complement the laminate color you specify. Edge color is specified separately.",
+     "columns": [
+      "Laminate Color",
+      "Recommended 3 mm or 1 mm Edge Color",
+      "Recommended P-Edge Color"
+     ],
+     "groups": {
+      "Fiber Laminate": [
+       {
+        "laminate": {
+         "code": "2850",
+         "name": "Vanadium Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6654",
+         "name": "Sand"
+        },
+        "pEdge": {
+         "code": "6697",
+         "name": "Fog"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2851",
+         "name": "Rhyme Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6631",
+         "name": "Cream"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2852",
+         "name": "Tungsten Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6636",
+         "name": "Mist"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2854",
+         "name": "Vellum Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6655",
+         "name": "Warm White"
+        },
+        "pEdge": {
+         "code": "6697",
+         "name": "Fog"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2859",
+         "name": "Novell Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6001",
+         "name": "Coffee"
+        },
+        "pEdge": {
+         "code": "6697",
+         "name": "Fog"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2860",
+         "name": "Granite Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6000",
+         "name": "Black"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2861",
+         "name": "Coconut Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6654",
+         "name": "Sand"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2862",
+         "name": "Stucco Fiber"
+        },
+        "edge3mmOr1mm": {
+         "code": "6053",
+         "name": "Seagull"
+        },
+        "pEdge": {
+         "code": "6053",
+         "name": "Seagull"
+        }
+       }
+      ],
+      "Micro Laminate": [
+       {
+        "laminate": {
+         "code": "2920",
+         "name": "Marl Micro"
+        },
+        "edge3mmOr1mm": {
+         "code": "6053",
+         "name": "Seagull"
+        },
+        "pEdge": {
+         "code": "6053",
+         "name": "Seagull"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2921",
+         "name": "Gypsum Micro"
+        },
+        "edge3mmOr1mm": {
+         "code": "6654",
+         "name": "Sand"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2922",
+         "name": "Clay Micro"
+        },
+        "edge3mmOr1mm": {
+         "code": "6654",
+         "name": "Sand"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2923",
+         "name": "Shadow Micro"
+        },
+        "edge3mmOr1mm": {
+         "code": "6249",
+         "name": "Platinum Solid"
+        },
+        "pEdge": {
+         "code": "6249",
+         "name": "Platinum Solid"
+        }
+       }
+      ],
+      "Patina Laminate": [
+       {
+        "laminate": {
+         "code": "2870",
+         "name": "Blonde Bronze Patina"
+        },
+        "edge3mmOr1mm": {
+         "code": "6654",
+         "name": "Sand"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2871",
+         "name": "Blackened Bronze Patina"
+        },
+        "edge3mmOr1mm": {
+         "code": "6615",
+         "name": "Grey V5"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2873",
+         "name": "Instant Iron Patina"
+        },
+        "edge3mmOr1mm": {
+         "code": "6615",
+         "name": "Grey V5"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       }
+      ],
+      "Solid Laminate": [
+       {
+        "laminate": {
+         "code": "2722",
+         "name": "Cream",
+         "established": true
+        },
+        "edge3mmOr1mm": {
+         "code": "6631",
+         "name": "Cream"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2730",
+         "name": "Arctic White"
+        },
+        "edge3mmOr1mm": {
+         "code": "6009",
+         "name": "Arctic White"
+        },
+        "pEdge": {
+         "code": "6009",
+         "name": "Arctic White"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2746",
+         "name": "Black"
+        },
+        "edge3mmOr1mm": {
+         "code": "6000",
+         "name": "Black"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2759",
+         "name": "Warm White",
+         "established": true
+        },
+        "edge3mmOr1mm": {
+         "code": "6655",
+         "name": "Warm White"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2811",
+         "name": "Mist",
+         "established": true
+        },
+        "edge3mmOr1mm": {
+         "code": "6636",
+         "name": "Mist"
+        },
+        "pEdge": {
+         "code": "6697",
+         "name": "Fog"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2883",
+         "name": "Seagull"
+        },
+        "edge3mmOr1mm": {
+         "code": "6053",
+         "name": "Seagull"
+        },
+        "pEdge": {
+         "code": "6053",
+         "name": "Seagull"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2884",
+         "name": "Milk"
+        },
+        "edge3mmOr1mm": {
+         "code": "6052",
+         "name": "Milk"
+        },
+        "pEdge": {
+         "code": "6052",
+         "name": "Milk"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2885",
+         "name": "Dune"
+        },
+        "edge3mmOr1mm": {
+         "code": "6654",
+         "name": "Sand"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       }
+      ],
+      "Speckle Laminate": [
+       {
+        "laminate": {
+         "code": "2820",
+         "name": "Coffee Speckle"
+        },
+        "edge3mmOr1mm": {
+         "code": "6631",
+         "name": "Cream"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2822",
+         "name": "Woodrose Speckle"
+        },
+        "edge3mmOr1mm": {
+         "code": "6635",
+         "name": "Dawn",
+         "established": true
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2823",
+         "name": "Driftwood Speckle"
+        },
+        "edge3mmOr1mm": {
+         "code": "6631",
+         "name": "Cream"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2824",
+         "name": "Smoke Speckle"
+        },
+        "edge3mmOr1mm": {
+         "code": "6636",
+         "name": "Mist"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2825",
+         "name": "Vanadium Speckle"
+        },
+        "edge3mmOr1mm": {
+         "code": "6619",
+         "name": "Ice",
+         "established": true
+        },
+        "pEdge": {
+         "code": "6697",
+         "name": "Fog"
+        }
+       }
+      ],
+      "Woodgrain Laminate": [
+       {
+        "laminate": {
+         "code": "2406",
+         "name": "Clear Cherry"
+        },
+        "edge3mmOr1mm": {
+         "code": "6234",
+         "name": "Clear Cherry"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2409",
+         "name": "Clear Maple"
+        },
+        "edge3mmOr1mm": {
+         "code": "6237",
+         "name": "Clear Maple"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2410",
+         "name": "Graphite Walnut"
+        },
+        "edge3mmOr1mm": {
+         "code": "6231",
+         "name": "Graphite Walnut"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2412",
+         "name": "Natural Cherry"
+        },
+        "edge3mmOr1mm": {
+         "code": "6034",
+         "name": "Natural Cherry"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2422",
+         "name": "Medium Cherry"
+        },
+        "edge3mmOr1mm": {
+         "code": "6036",
+         "name": "Medium Cherry"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2511",
+         "name": "Winter on Maple"
+        },
+        "edge3mmOr1mm": {
+         "code": "6037",
+         "name": "Winter on Maple"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2538",
+         "name": "Clear Walnut"
+        },
+        "edge3mmOr1mm": {
+         "code": "6245",
+         "name": "Clear Walnut"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2539",
+         "name": "Warm Oak",
+         "established": true
+        },
+        "edge3mmOr1mm": {
+         "code": "6246",
+         "name": "Warm Oak",
+         "established": true
+        },
+        "pEdge": {
+         "code": "6246",
+         "name": "Warm Oak",
+         "established": true
+        }
+       },
+       {
+        "laminate": {
+         "code": "2592",
+         "name": "Blonde on Maple"
+        },
+        "edge3mmOr1mm": {
+         "code": "6038",
+         "name": "Blonde on Maple"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2714",
+         "name": "Natural Walnut"
+        },
+        "edge3mmOr1mm": {
+         "code": "6041",
+         "name": "Natural Walnut"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2772",
+         "name": "Medium Mahogany on Walnut",
+         "established": true
+        },
+        "edge3mmOr1mm": {
+         "code": "6045",
+         "name": "Medium Mahogany on Walnut",
+         "established": true
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2HAK",
+         "name": "Clear Oak"
+        },
+        "edge3mmOr1mm": {
+         "code": "6219",
+         "name": "Clear Oak"
+        },
+        "pEdge": {
+         "code": "6654",
+         "name": "Sand"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2HAT",
+         "name": "Acacia"
+        },
+        "edge3mmOr1mm": {
+         "code": "6213",
+         "name": "Acacia"
+        },
+        "pEdge": {
+         "code": "6559",
+         "name": "Warm White Solid"
+        }
+       }
+      ],
+      "Turnstone Laminate Collection*": [
+       {
+        "laminate": {
+         "code": "2535",
+         "name": "Virginia Walnut"
+        },
+        "edge3mmOr1mm": {
+         "code": "6242",
+         "name": "Virginia Walnut"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2536",
+         "name": "Blackwood"
+        },
+        "edge3mmOr1mm": {
+         "code": "6243",
+         "name": "Blackwood"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2612",
+         "name": "Marbled Maple"
+        },
+        "edge3mmOr1mm": {
+         "code": "6676",
+         "name": "Marbled Maple"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2614",
+         "name": "Chocolate Walnut"
+        },
+        "edge3mmOr1mm": {
+         "code": "6677",
+         "name": "Chocolate Walnut"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       },
+       {
+        "laminate": {
+         "code": "2615",
+         "name": "Marbled Cherry"
+        },
+        "edge3mmOr1mm": {
+         "code": "6678",
+         "name": "Marbled Cherry"
+        },
+        "pEdge": {
+         "code": "6000",
+         "name": "Black"
+        }
+       }
+      ]
+     },
+     "footnote": "* A selection of laminates and edge bands in this collection are available on Steelcase brand products. This collection is available with standard leadtimes and supported like standard laminates to help make ordering easy."
+    },
+    "lowPressureLaminate": {
+     "page": 717,
+     "columns": [
+      "Low-Pressure Laminate Color",
+      "Recommended Edge Band"
+     ],
+     "rows": [
+      {
+       "laminate": {
+        "code": "247L",
+        "name": "Black Version 2 LPL"
+       },
+       "edgeBand": {
+        "code": "6000",
+        "name": "Black"
+       }
+      },
+      {
+       "laminate": {
+        "code": "25L1",
+        "name": "Winter on Maple LPL"
+       },
+       "edgeBand": {
+        "code": "6037",
+        "name": "Winter On Maple"
+       }
+      },
+      {
+       "laminate": {
+        "code": "25L5",
+        "name": "Virginia Walnut LPL"
+       },
+       "edgeBand": {
+        "code": "6242",
+        "name": "Virginia Walnut"
+       }
+      },
+      {
+       "laminate": {
+        "code": "25L6",
+        "name": "Blackwood LPL"
+       },
+       "edgeBand": {
+        "code": "6243",
+        "name": "Blackwood"
+       }
+      },
+      {
+       "laminate": {
+        "code": "25L8",
+        "name": "Clear Walnut LPL"
+       },
+       "edgeBand": {
+        "code": "6245",
+        "name": "Clear Walnut"
+       }
+      },
+      {
+       "laminate": {
+        "code": "25L9",
+        "name": "Warm Oak LPL",
+        "established": true
+       },
+       "edgeBand": {
+        "code": "6246",
+        "name": "Warm Oak",
+        "established": true
+       }
+      },
+      {
+       "laminate": {
+        "code": "262L",
+        "name": "Marbled Maple LPL"
+       },
+       "edgeBand": {
+        "code": "6676",
+        "name": "Marbled Maple"
+       }
+      },
+      {
+       "laminate": {
+        "code": "264L",
+        "name": "Chocolate Walnut LPL"
+       },
+       "edgeBand": {
+        "code": "6677",
+        "name": "Chocolate Walnut"
+       }
+      },
+      {
+       "laminate": {
+        "code": "267L",
+        "name": "Marbled Cherry Version 2 LPL"
+       },
+       "edgeBand": {
+        "code": "6678",
+        "name": "Marbled Cherry"
+       }
+      },
+      {
+       "laminate": {
+        "code": "26L1",
+        "name": "Natural Cherry Version 2 LPL"
+       },
+       "edgeBand": {
+        "code": "6034",
+        "name": "Natural Cherry"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L03",
+        "name": "Brushed Silver LPL"
+       },
+       "edgeBand": {
+        "code": "6689",
+        "name": "Brushed Silver",
+        "established": true
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L09",
+        "name": "Clear Maple LPL"
+       },
+       "edgeBand": {
+        "code": "6237",
+        "name": "Clear Maple"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L30",
+        "name": "Arctic White LPL"
+       },
+       "edgeBand": {
+        "code": "6009",
+        "name": "Arctic White"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L50",
+        "name": "Vanadium Fiber LPL"
+       },
+       "edgeBand": {
+        "code": "6654",
+        "name": "Sand"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L52",
+        "name": "Tungsten Fiber LPL"
+       },
+       "edgeBand": {
+        "code": "6697",
+        "name": "Fog"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L83",
+        "name": "Seagull LPL"
+       },
+       "edgeBand": {
+        "code": "6053",
+        "name": "Seagull"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2L85",
+        "name": "Dune LPL"
+       },
+       "edgeBand": {
+        "code": "6654",
+        "name": "Sand"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2LAK",
+        "name": "Clear Oak LPL"
+       },
+       "edgeBand": {
+        "code": "6219",
+        "name": "Clear Oak"
+       }
+      },
+      {
+       "laminate": {
+        "code": "2LAT",
+        "name": "Acacia LPL"
+       },
+       "edgeBand": {
+        "code": "6213",
+        "name": "Acacia"
+       }
+      }
+     ]
+    }
+   }
+  },
+  "directional": {
+   "fabric": {
+    "page": 713,
+    "standard": "warp horizontal",
+    "optional": "warp vertical",
+    "fabricWidthShown": 66,
+    "rules": [
+     "The standard application direction of fabric on Answer panels, skins, and Hutch kit tackboard is warp horizontal. Standard Steelcase fabrics were designed for this application direction.",
+     "The optional application direction of fabrics on Answer panels, skins, and Hutch kit tackboard is warp vertical. This is most commonly used on COMs designed for warp vertical application.",
+     "For more information about the warp direction of fabrics, see the Surface Materials Reference Manual."
+    ],
+    "diagramNote": "Diagrams show a 66\" fabric width roll; warp horizontal = warp direction runs along the panel width (roll width spans panel height); warp vertical = warp direction runs up the panel height (roll width spans panel width)."
+   },
+   "laminateGrain": {
+    "pages": [
+     718,
+     719
+    ],
+    "text": "Directional laminates are standard with the grain directions shown.",
+    "note": "Grain directions are shown only as drawings. Reading of drawings: grain runs left-to-right as drawn (parallel to the long/front edge of the drawn shape) for all shapes except Linking Peninsula Worksurface and Linking Worksurface, which are drawn with diagonal (approx. 45°) grain.",
+    "universalSystemsWorksurfacesHPL": [
+     {
+      "shape": "Straight Worksurface",
+      "grain": "horizontal (parallel to front edge)"
+     },
+     {
+      "shape": "Transition Worksurface",
+      "grain": "horizontal (parallel to straight back edge)"
+     },
+     {
+      "shape": "Tapered Worksurface",
+      "grain": "horizontal (parallel to back edge)"
+     },
+     {
+      "shape": "Taper-Flat Worksurface",
+      "grain": "horizontal (parallel to back edge)"
+     },
+     {
+      "shape": "Single-Tapered Worksurface",
+      "grain": "horizontal (parallel to back edge)"
+     },
+     {
+      "shape": "Corner, Flat-Front Worksurface",
+      "grain": "horizontal as drawn (parallel to flat front edge, diagonal to both panel-side edges)"
+     },
+     {
+      "shape": "Dual Corner, Flat-Front Worksurface",
+      "grain": "horizontal as drawn (parallel to front, diagonal to both panel-side edges)"
+     },
+     {
+      "shape": "Corner, Straight-Front Worksurface",
+      "grain": "horizontal as drawn (parallel to front, diagonal to both panel-side edges)"
+     },
+     {
+      "shape": "Corner, Curved-Front Worksurface",
+      "grain": "horizontal as drawn (parallel to front chord, diagonal to both panel-side edges)"
+     },
+     {
+      "shape": "Extended Corner, Straight-Front Worksurface",
+      "grain": "horizontal (parallel to the long back edge)"
+     },
+     {
+      "shape": "Extended Corner, Curved-Front Worksurface",
+      "grain": "horizontal (parallel to the long back edge)"
+     },
+     {
+      "shape": "Corner, 120° Worksurface",
+      "grain": "horizontal as drawn (parallel to front chord)"
+     },
+     {
+      "shape": "Corner, 120° Worksurface with Keyboard",
+      "grain": "horizontal as drawn (parallel to front chord)"
+     },
+     {
+      "shape": "Spanner Worksurface",
+      "grain": "horizontal (parallel to straight back edge)"
+     },
+     {
+      "shape": "Bullet Peninsula Worksurface",
+      "grain": "horizontal (along length)"
+     },
+     {
+      "shape": "Angled Peninsula Worksurface",
+      "grain": "horizontal (along length)"
+     },
+     {
+      "shape": "Linking Peninsula Worksurface",
+      "grain": "diagonal (approx. 45°)"
+     },
+     {
+      "shape": "Jetty Worksurface",
+      "grain": "horizontal (parallel to long back edge)"
+     },
+     {
+      "shape": "Bubble Jetty Worksurface",
+      "grain": "horizontal (parallel to back edge)"
+     },
+     {
+      "shape": "Visitor Worksurface",
+      "grain": "horizontal"
+     },
+     {
+      "shape": "Linking Worksurface",
+      "grain": "diagonal (approx. 45°); drawing also shows a diagonal line across the surface"
+     },
+     {
+      "shape": "Transaction Worksurface",
+      "grain": "horizontal (along length)"
+     }
+    ],
+    "universalTablesHPL": [
+     {
+      "shape": "Straight Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Transition Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Corner, 120° Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Capsule Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Spanner Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Peninsula Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Tapered Peninsula Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Bubble Jetty Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Round Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Square Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Rectangle Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Oval Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Hex Conference Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     }
+    ]
+   },
+   "woodGrain": {
+    "pages": [
+     720,
+     721
+    ],
+    "text": "The appearance of wood veneer may change slightly depending on the angle from which it is viewed. This natural phenomenon is called polarization, and it can be seen on natural veneer, and to a lesser extent on composite veneer. Polarization is often noticed on worksurfaces installed at a 90-degree angle with each other. Please refer to the following illustrations for an understanding of grain direction on your installation.",
+    "note": "Grain directions are shown only as drawings; read as: horizontal (left-to-right as drawn, parallel to the long/front edge) except Linking Peninsula Worksurface and Linking Worksurface (diagonal).",
+    "universalSystemsWorksurfacesWood": [
+     {
+      "shape": "Straight Worksurface",
+      "grain": "horizontal (parallel to front edge)"
+     },
+     {
+      "shape": "Transition Worksurface",
+      "grain": "horizontal"
+     },
+     {
+      "shape": "Corner, Curved-Front Worksurface",
+      "grain": "horizontal as drawn (parallel to front chord, diagonal to panel-side edges)"
+     },
+     {
+      "shape": "Extended Corner, Curved-Front Worksurface",
+      "grain": "horizontal (parallel to long back edge)"
+     },
+     {
+      "shape": "Corner, 120° Worksurface",
+      "grain": "horizontal as drawn (parallel to front chord)"
+     },
+     {
+      "shape": "Spanner Worksurface",
+      "grain": "horizontal"
+     },
+     {
+      "shape": "Bullet Peninsula Worksurface",
+      "grain": "horizontal (along length)"
+     },
+     {
+      "shape": "Linking Peninsula Worksurface",
+      "grain": "diagonal (approx. 45°)"
+     },
+     {
+      "shape": "Jetty Worksurface",
+      "grain": "horizontal"
+     },
+     {
+      "shape": "Bubble Jetty Worksurface",
+      "grain": "horizontal"
+     },
+     {
+      "shape": "Visitor Worksurface",
+      "grain": "horizontal"
+     },
+     {
+      "shape": "Linking Worksurface",
+      "grain": "diagonal (approx. 45°)"
+     },
+     {
+      "shape": "Transaction Worksurface",
+      "grain": "horizontal (along length)"
+     }
+    ],
+    "universalTablesWood": [
+     {
+      "shape": "Straight Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Transition Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Corner, 120° Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Capsule Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Spanner Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Peninsula Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Tapered Peninsula Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Bubble Jetty Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Round Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Square Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Rectangle Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Oval Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     },
+     {
+      "shape": "Hex Conference Table",
+      "grain": "horizontal (along the length / parallel to the long edge as drawn)"
+     }
+    ],
+    "shapesNotShownForWood": [
+     "Tapered Worksurface",
+     "Taper-Flat Worksurface",
+     "Single-Tapered Worksurface",
+     "Corner, Flat-Front Worksurface",
+     "Dual Corner, Flat-Front Worksurface",
+     "Corner, Straight-Front Worksurface",
+     "Extended Corner, Straight-Front Worksurface",
+     "Corner, 120° Worksurface with Keyboard",
+     "Angled Peninsula Worksurface"
+    ]
+   },
+   "related": [
+    {
+     "page": 708,
+     "text": "Note: Woodgrain Laminates and the Turnstone Laminate Collection are not available as matched sets. The grain patterns will not align. These are not recommended for fully segmented skin applications."
+    },
+    {
+     "page": 3,
+     "text": "Sample-page tip (illustrative): 78\"H full-skin panels cannot accommodate directional fabrics. Use segmented panels for directional fabrics."
+    }
+   ]
+  }
+ },
+ "unresolved": [
+  "p714: 'Available with exceptions' (open square) cells — Universal legs/C-Legs/columns x 4803; Cabby legs x 7230, 4803; Adjustable-height legs x 7230, 4803 — the exceptions themselves are not described on p714.",
+  "p717: Recommended P-edge color for 2HAT Acacia is printed as '6559 Warm White Solid', a code that does not appear in any edge/plastic color list on p711 (P-edge list has no 6559). Also 2539 Warm Oak recommends P-edge 6246 Warm Oak, which is not in the p711 P-edge list. Verify with Steelcase before enforcing.",
+  "p709: 3522 FC/OP Clear Maple* and 3524 FC/FF Clear Maple* carry the sign-off asterisk but the footnote only gives form numbers for 3042, 3222 and 3224.",
+  "p709: standard veneers have no printed wood group number (treated as base/standard tier); Premium = Wood Group 2/3; composites Graded-In as Wood Group 1.",
+  "pp718-721: grain directions are drawings only; the 'grain' strings are an interpretation of the drawings (horizontal as drawn vs. diagonal). Linking Worksurface drawing on p718 also shows a diagonal line (possible seam) — meaning not stated.",
+  "p712: seating upholstery grades list line names only; color numbers are in the Surface Materials Reference Manual (not in this guide). No Price Group 4 is listed for seating upholstery (groups 1,2,3,5,6,7, Leather, Elmosoft Leather, COM).",
+  "Markerboard: no markerboard finish listed in Surface Materials; markerboard skins are 'white' per pp441/442/461.",
+  "p3: the sample spec page (TS74218PF etc., Zone 1/Zone 2 Canadian columns, 'page 000' refs) is an illustrative mock-up, not orderable data; not extracted as items."
+ ]
+}

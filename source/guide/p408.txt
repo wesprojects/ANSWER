@@ -1,0 +1,69 @@
+Panels—Square and Oval Trim
+Stacking V and Y Panel Junctions—Square and Oval Trims                     
+408                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+                            Options                       U.S. Price               Required to Specify
+  Surface                      Trim
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                               • Paint price group 2                     +$11                                      Specify paint color number.
+                                     • Paint price group 3                     +$21                                     Specify paint color number.
+                                 Steel V junction trim only
+                                     • Fabric price group 1, 2, 3,          +$80                                     Specify fabric color number for trim.
+                                        4, 5, or COM
+                                     • Fabric direction
+                                        –Horizontal application               No cost                                 Specify with horizontal application.
+                                        –(standard)
+                                        –Vertical application                   No cost                                 Specify with vertical application.
+                                 Wood V junction trim
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+   Speciﬁcation Information
+                V Panel Junctions                  Y Panel Junctions
+                
+                                                    
+DHeight   DStyle               DU.S.              DStyle               DU.S.
+d              dNumber           dBase             dNumber           dBase
+d              d                       dPrice               d
+dPrice
+d              d                       d                         d
+d
+Steel Trim
+12"              TS712VPJS      $399                   TS712YPJS      $376
+18"              TS718VPJS      $399                   TS718YPJS      $376
+24"              TS724VPJS      $399                   TS724YPJS      $376
+d
+d
+d
+d
+d
+Wood Trim
+12"              TS712VPJSW   $512                   
+18"              TS718VPJSW   $512                   
+24"              TS724VPJSW   $512                   
+d
+d
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 84
+• Junction
+• Trim on V junctions: paint price group 1 or wood
+• Fork connectors
+• Stacking trim aligner on V junctions: black plastic only
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Junction cap is not
+included. Use the junction
+cap from the base junction
+you are stacking on.
+Tip: For further information
+about fabric direction,
+cPage 713.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

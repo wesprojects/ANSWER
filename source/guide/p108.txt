@@ -1,0 +1,96 @@
+108                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...........................................................................................................................
+Steel panel skins finish the
+appearance of a panel. Skin
+combinations can vary to
+accommodate a variety of
+appearances and functions of
+the workspace.
+cSpecifying, page 438
+Tip: When specifying skins, the
+total skin height will be 6" less
+than the panel height. For
+example if the panel is 54"H
+the total skin height will be 48".
+When ordering skins to the
+floor an F suffix will be added
+to the end of the style number.
+The total height will still be 6"
+less than the panel height.
+Using the same example, if the
+panel is 54"H, 48" of skin
+height will need to be specified. 
+cSee Panel Buildups, page 
+12, for more information.
+Connections
+Skins extend onto junction
+and meet skin of adjacent
+panel. The slotted channel
+of the junction is accessible
+between these two skins. 
+Skins are available in stan-
+dard heights and to the floor
+heights. Standard height
+skins are not dedicated to a
+specific location.
+Skins sized to go to the
+floor extend to the bottom of
+the panel. They can be used
+on one or both sides of the
+panel. They can only be
+used in the bottom position.
+Tip: Omit base trim option
+should be selected on the
+panel frame when using a
+skin to the floor.
+Wiring & Cabling
+Power and communica-
+tion cannot be accessed in
+steel skins.
+Ribbed option is
+available on 12"H,
+18"H, and 24"H panels
+only.
+Steel skins can be
+removed and repositioned. 
+...............................................................................................................................................
+Perforated option is
+available on 12"H, 18"H, and
+24"H panels only. Horizontal
+beam and back of opposite
+skin is visible through 
+perforated skin.
+Actual Dimensions
+Width        1753⁄64", 2353⁄64", 2953⁄64", 3553⁄64", 4153⁄64", 4753⁄64",
+                 5953⁄64", and 7153⁄64"
+Height      129⁄32", 187⁄16", 2441⁄64", 3013⁄16", and 37"
+Height      2829⁄64", 345⁄8", and 4013⁄16"
+To the 
+Floor Size
+                 
+...............................................................................................................................................
+Surface Materials
+Skins
+• Painted steel
+• Ribbed steel (option)
+• Perforated steel (option)
+Application Topics
+Panel buildups
+cPage 12
+Horizontal connecting
+bars will be visible when
+perforated skins are used on
+the panel.
+When specifying the
+perforated option, order
+perforated skins for both
+sides of the panel to maxi-
+mize the visual aesthetic.
+Perforated skins cannot
+be used in installation with
+steel or ribbed steel skins
+made prior to July 10, 2000.
+Shared Components
+Steel Panel Skins
+February 2015

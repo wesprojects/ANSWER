@@ -1,0 +1,105 @@
+428                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Panels—Square and Oval Trim
+Panel Packages—Square Trim                                                                                                                                                 
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 98
+• Tackable acoustical skins on both sides of panel,
+fabric direction with horizontal application, if selected:
+fabric price group 1
+• Performance tackable acoustical skins on both
+sides of panel, fabric direction with horizontal application,
+if selected: fabric price group 1
+• Standard length top cap: color default determined by 
+trim paint color
+• Base trim with knockouts: painted steel
+• Two horizontal connecting bars
+1 Style number
+2 Fabric color number for side 1
+3 Fabric color number for side 2
+4 Paint color number for trim
+5 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: You must order junc-
+tions separately to connect
+adjacent panels.
+cPage 394– 395
+Tip: Remember to order
+receptacles and face plates.
+cPages 477–479
+Tip: 18"W panels can
+accommodate pass-through
+power only.
+Tip: 72"W panels accommo-
+date fabric in the horizontal 
+application only.
+Tip: For further information
+about fabric direction,
+cPage 713.
+Tip: Specify omit top cap
+when adding a frameless
+glass screen to a panel or
+when ordering spanning top
+caps.
+Side 1
+Side 2
+                            Options                           U.S. Price           Required to Specify
+  Surface                      Skin surface
+  Materials                • Fabric price group A each side         –$    5                              Specify fabric color number.
+                                     • Fabric price group 1 each side         No cost                            Specify fabric color number.
+                                     • Fabric price group 2 each side         +$  25                              Specify fabric color number.
+                                     • Fabric price group 3 each side         +$  46                              Specify fabric color number.
+                                     • Fabric price group 4 each side         +$  73                              Specify fabric color number.
+                                     • Fabric price group 5 each side         +$114                              Specify fabric color number.
+                                     • Fabric price group 6 each side         +$157                              Specify fabric color number.
+                                     • Fabric price group 7 each side         +$198                              Specify fabric color number.
+                                     • Fabric price group COM                   +$  16                              Specify fabric color number.
+                                        each side
+                                 Fabric direction on 18"W to 60"W panels
+                               • Vertical application, side 1               No cost                            Specify with vertical application.
+                                     • Vertical application, side 2               No cost                            Specify with vertical application.
+                                 Trim
+                                    • Paint price group 1                           No cost                            Specify paint color number.
+                              • Paint price group 2                           +$  11                              Specify paint color number.
+                                     • Paint price group 3                           +$  21                              Specify paint color number.
+                                         Top Cap
+                                      • Omit top cap                                     No cost                            Specify omit top cap.
+                                     • Wood (18"W to 48"W)                      +$183                              Specify with wood top cap and select 
+                                                                                                                                          wood color number.
+                                     • Wood (60"W to 72"W)                      +$244                              Specify with wood top cap and select 
+                                                                                                                                          wood color number.
+                                      • Customiz stain on wood                   No cost                            Specify with Customiz stain.
+  Change-               • Change-of-height at one end           +$   6                              Specify with change-of-height, one end 
+  of-Height                   of top cap, slim                                                                         slim.
+  Top Cap                  • Change-of-height at one end           +$   6                              Specify with change-of-height, one end 
+                                        of top cap, cable management                                                 cable management.
+                                     • Change-of-height at both ends        +$   6                              Specify with change-of-height, both ends 
+                                        of top cap on 36”W and wider                                                  slim.
+                                        packages, slim
+                                     • Change-of-height at both ends        +$   6                              Specify with change-of-height, both ends
+                                        of top cap on 36”W and wider                                                  cable management.
+                                        packages, cable management                                               
+                              • Change-of-height at both ends        +$   6                              Specify with change-of-height, one end
+                                        of top cap on 36"W and wider                                                  slim, one end cable management.
+                                        packages, 1 end slim and one
+                                        end cable management
+  Base Trim              • Knockouts one side                          No cost                            Specify with knockouts one side, plain
+                                        plain one side (24"-72"W only)                                                 one side.
+                                     • Plain both sides (24"-72"W only)      No cost                            Specify with plain both sides.
+cOptions, continued on next page
+Tip: Remember to specify an
+optional change-of-height
+top cap on any panel in 
+a change-of-height 
+conﬁguration.
+Exception: The tallest panel
+in the conﬁguration never
+needs a change-of-height
+top cap.
+cPage 80
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

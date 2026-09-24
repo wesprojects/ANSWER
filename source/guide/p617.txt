@@ -1,0 +1,38 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            617
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Storage
+Universal Sliding Door Bins
+with Steel or Wood Fronts
+Specification Information
+DDimensions                    DStyle                 DU.S.              DStyle               DU.S.
+dD         W          H           dNumber             dBase             dNumber           dBase
+d                                       d                          dPrice            d                       dPrice
+d
+d
+d
+d
+d
+                                   Steel                                 Wood          
+153⁄4"      36"          161⁄4"         RSB36TAK           $  608                 RSB36WTAK     $  981                                                  
+153⁄4"      42"          161⁄4"             RSB42TAK           $  630                 RSB42WTAK     $1003                                                  
+153⁄4"      48"          161⁄4"             RSB48TAK           $  651                 RSB48WTAK     $1024                                                  
+153⁄4"      60"          161⁄4"             RSB60TAK           $  983                 RSB60WTAK     $1637                                                  
+153⁄4"      66"          161⁄4"             RSB66TAK      $1036                 RSB66WTAK  $1690                                                  
+153⁄4"      72"          161⁄4"             RSB72TAK           $1076                 RSB72WTAK     $1730                                                  
+d
+d
+d
+d
+d
+Tip:  Overhead storage bins
+with a "TAK" suffix can be
+used with Privacy Wall as
+well. 
+cSee Architectural Solutions
+Specification Guide for
+attachment information.
+Universal Storage
+February 2015

@@ -1,0 +1,154 @@
+384                                                                                                                                                                                                            Answer Solutions Specification Guide
+Panels—Thin Trim 
+Frameless Glass Screens with Recessed Attachment—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 56
+• Glass screen: 6500 Clear Glass
+• Two supports for 24"–72" wide
+• Three supports for 78"–96" wide
+• Two top caps—thin trim: paint
+1 Style number
+2 Paint color number for top caps
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Top Cap
+Materials             • Paint price group 1                     No cost                                  Specify paint color number.
+                                   • Paint price group 2                     +$11                                      Specify paint color number.
+                                   • Paint price group 3                     +$21                                      Specify paint color number.
+                                      • Wood                                           Prices below and at right       Specify with wood top cap and select 
+                                                                                                                                          wood color number.
+                                   • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+Change–of–          • Change–of–height at one           +$  6                                     Specify with change–of–height, one end.
+Height                   end of top cap
+Top Cap
+Wall Start            • Wall start application                  No cost                                  Specify with wall start application.
+Application
+Glass Screen        • Omit glass screen                       Prices below and at right      Specify with omit screen.
+                            • Frosted glass                              Prices below and at right      Specify with 6530 Frosted Laminated 
+                                                                                                                                          Glass.
+Specification Information
+DWidth      DStyle                   DU.S.      DOptions
+d
+dNumber              dBase    d(Add $ to
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+dWood         dOmit          dFrosted
+d
+d
+d
+dTop Cap     dGlass         dGlass
+6"H Recessed Frameless Glass
+24"
+TS7624TFGR
+$325
++$183
+–$  67
++$  30
+30"
+TS7630TFGR
+$343
++$183
+–$  75
++$  42
+36"
+TS7636TFGR
+$363
++$183
+–$  78
++$  70
+42"
+TS7642TFGR
+$381
++$183
+–$  81
++$108
+48"
+TS7648TFGR
+$398
++$183
+–$  87
++$119
+54"
+TS7654TFGR
+$424
++$244
+–$  90
++$136
+60"
+TS7660TFGR
+$453
++$244
+–$  95
++$153
+66"
+TS7666TFGR
+$476
++$244
+–$  98
++$166
+72"
+TS7672TFGR
+$499
++$244
+–$101
++$179
+78"
+TS7678TFGR
+$551
++$244
+–$108
++$187
+84"
+TS7684TFGR
+$605
++$244
+–$114
++$191
+90"
+TS7690TFGR
+$658
++$244
+–$121
++$208
+96"
+TS7696TFGR
+$709
++$244
+–$129
++$217
+d
+d
+d
+d                  d                  d
+cSpecification Information, continued on next page
+Tip: These screens are only
+to be used on panels with
+thin trims. 
+Tip: Remember to specify 
+in-line spanning top cap
+lightseals if frameless glass
+screen is spanning two or
+more panels.
+cSee page 467.
+Tip: Wall start application
+should be specified when
+using a wall start junction to
+attach to a wall or to be used
+in an off-module condition.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

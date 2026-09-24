@@ -1,0 +1,92 @@
+586                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Universal Tables
+Worksurface Screens                                                                                  
+   Specification Information
+DWidth      DStyle           DU.S.
+d               dNumber       dPrice
+d               d                    d
+15"H Knit Screen
+24"                DALK24        $219
+30"                DALK30          $240
+36"                DALK36          $258
+42"                DALK42          $278
+  d                  d                        d
+Tip: Attachment clamps are
+not included with screens.
+Clamps must be specified
+separately.
+50%
+42"W
+Standard Includes                                      Required to Specify
+• Screen: knit
+• Frame and foot: 4799 Platinum only
+1 Style number
+2 Color number for knit screen
+cSee Surface Materials, page 708.
+cNeed help?
+Product details,
+page 240
+Knit Screens
+Divisio Side Screen
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 242
+• Screen: fabric price group A
+• Top cap and clamp: 4799 Platinum paint
+1 Style number
+2 Fabric color number 
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                  Fabric
+Materials                • Fabric price group A                   No cost                                Specify fabric color number.
+                                  • Fabric price group 1                   No cost                                Specify fabric color number.
+                                  • Fabric price group 2                   +$14                                     Specify fabric color number.
+                                  • Customer’s Own Material           +$16                                   cSee Surface Materials Reference Manual.
+                                      (COM)                                                                                    
+Specification Information
+DDimensions
+DStyle
+DU.S.
+dD             H
+dNumber
+dBase
+d               
+d
+dPrice
+d               
+d
+d
+291⁄2"           115⁄8"
+DVSS2912
+$309
+d                  
+d
+d
+Tip: The Divisio side screen
+can be used on any 3/4"- to
+11/2"-thick worksurface.
+Tip: The Divisio side screen
+has an overhang of 8". This
+is important when planning
+for returns or storage.
+Tip: The Divisio side screen
+weighs approximately 141/2
+pounds. Take this into con-
+sideration when planning for
+use on Height-AdjusTable 
+worksurfaces. 
+Tip: The Divisio side screen
+is intended for use on the
+front of a worksurface. 
+Tip: The Divisio side screen
+does not work on knife edge
+profiles.
+Note: Divisio side
+screen is included here
+to simplify your planning.
+It may have different pric-
+ing terms than other prod-
+ucts in this specification
+guide.
+February 2015

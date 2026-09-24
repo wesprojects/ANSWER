@@ -1,0 +1,64 @@
+Storage Tops, Shelves, and Accessories
+Storage Accessories
+Answer Solutions Specification Guide                                                                                                                                       cStorage Accessories, continued  675
+Storage
+Accessories
+Wood Drawer Pulls
+Standard Includes                                      Required to Specify
+• Pull: wood
+1 Style number
+2 Wood color number
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Customiz stain                            No cost                                 Specify with Customiz stain.
+  Materials                                                                                                                  cSee Surface Materials Reference Manual.
+Specification Information
+DWidth       DStyle                DU.S.
+d                dNumber            dPrice
+d
+d
+d
+15"                 RPULL15W          $131
+30"                 RPULL30W          $179
+36"                 RPULL36W          $203
+42"                 RPULL42W          $226
+d
+d
+d
+cNeed help?
+See Storage
+Specification Guide.
+cNeed help?
+See Storage
+Specification Guide.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes                                      Required to Specify
+• Counterweight: black only 
+• Attachment hardware
+Specification Information
+DPackage 
+DStyle                    DU.S.                   DPackage 
+DStyle                 DU.S.
+dName                 dNumber               dPrice                 dName                 dNumber             dPrice
+d                              d
+d
+d                           d
+d
+Package A                  RAACWA                   $193                        Package F                 RAACWF               $165
+Package B                  RAACWB                   $193                        Package G                  RAACWG               $221
+Package C                  RAACWC                   $193                        Package H                  RAACWH               $280
+Package D                  RAACWD                   $165                        Package J                   RAACWJ                $280
+Package E                  RAACWE                   $165                        
+d                             d
+d
+d
+d
+d
+Counterweight Packages 
+For Use with Universal One-High and 1.5-High Lateral Files
+Style number
+February 2015

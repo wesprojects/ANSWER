@@ -1,0 +1,26 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                                 5
+Panels—Thin Trim
+Understanding
+Panels—Thin Trim
+Statement of Line                                                                        6
+Product Details
+Answer Panel Overview—Thin Trim                                                     11
+Panel Buildups                                                                        12
+Base Junctions—Thin Trim                                                        14
+Change-of-Height—Thin Trim                                                    18
+Change-of-Height Visual Overview—Thin Trim                              20
+Off-Module Panel Connector—Thin Trim                                      24
+Stacking Junctions—Thin Trim                                                   26
+Build Your Own Elements—Thin Trim                                          28
+Build Your Own—Thin Trim                                                        33
+Practice Examples—Thin Trim                                                   38
+Build Your Own Stacking Junctions—Thin Trim                              40
+Reconfiguring with Answer—General Guidelines                           44
+Base Horizontal Frame Packages—Thin Trim                               50
+Stacking Horizontal Frame Packages                                          54
+Frameless Glass Screens with Recessed Attachment—Thin Trim     56
+Frameless Glass Screens with Clip Attachment—Thin Trim              60
+Top Cap Mounted Storage                                                                    62
+Panel Packages—Thin Trim                                                      66
+Stability Guidelines                                                                  124
+February 2015

@@ -1,0 +1,69 @@
+464                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Glass Windows 
+For Panel Buildups
+Options                       U.S. Price               Required to Specify
+  Surface                      Frame
+  Materials                • Paint price group 1                  No cost                                 Specify paint color number.
+                              • Paint price group 2                  +$  22                                   Specify paint color number.
+                              • Paint price group 3                  +$  38                                   Specify paint color number.
+                                 Single-pane glass window
+                              • Frosted glass in 12"H window   +$  55                                   Specify with 6530 Frosted Glass.
+                              • Frosted glass in 18"H window   +$  83                                   Specify with 6530 Frosted Glass.
+                                     • Frosted glass in 24"H window   +$109                                   Specify with 6530 Frosted Glass.
+Specification Information
+Single Pane
+12"H                                        18"H                                        24"H
+                     
+                                                
+                                                
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle                   DU.S.
+d               dNumber              dBase         dNumber              dBase         dNumber              dBase 
+d                  d                                dPrice           d                                dPrice           d                                dPrice
+d                  d                                d                     d                                d                     d                                d
+24"               TS71224SPW       $  403             TS71824SPW       $  471             TS72424SPW       $  537
+30"               TS71230SPW       $  433             TS71830SPW       $  503             TS72430SPW       $  571
+36"               TS71236SPW       $  466             TS71836SPW       $  535             TS72436SPW       $  606
+42"               TS71242SPW       $  498             TS71842SPW       $  570             TS72442SPW       $  641
+48"               TS71248SPW       $  525             TS71848SPW       $  612             TS72448SPW       $  700
+60"               TS71260SPW       $  607             TS71860SPW       $  693             TS72460SPW       $  780
+72"               TS71272SPW       $  677             TS71872SPW       $  783             TS72472SPW       $  888
+78"               TS71278SPW       $  775             TS71878SPW       $  875             TS72478SPW       $  975
+84"               TS71284SPW       $  851             TS71884SPW       $  956             TS72484SPW       $1063
+90"               TS71290SPW       $  927             TS71890SPW       $1037             TS72490SPW       $1148
+96"               TS71296SPW       $1001             TS71896SPW       $1118             TS72496SPW       $1234
+d                  d                                d                     d                                d                     d                                d
+cSpeciﬁcation Information, continued on next page
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 118
+• Single-pane glass window, if selected: 6500 Clear Glass
+• Double-pane glass window, if selected: 6530 Frosted Glass
+• Frame: paint
+1 Style number
+2 Paint color number for frame
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Remember to specify
+spanning window in-line
+supports if window is span-
+ning two or more panels.
+Tip: When specifying a win-
+dow span over two or more
+panels, it is recommended
+that the same size spanning
+top cap also be speciﬁed for
+use with the window.
+Tip: When ordering a 72"W
+or wider single pane window
+kit to be used with steel or
+fabric skins located directly
+below it, two clips
+(T521328SR) should be
+ordered and installed.
+February 2015

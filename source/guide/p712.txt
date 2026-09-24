@@ -1,0 +1,233 @@
+712                                                                                                                                                                                                   Answer Solutions Specification Guide
+Surface Materials, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Pianista
+P420 Sand
+P421 Mist
+P422 Rain
+P423 Natural
+P424 Café
+P425 Denim
+P426 Carbon
+P427 Stone
+P428 Flax
+P429 Oat
+P430 Wheat
+P431 Maize
+Rhythm   
+P555 Allegro   
+P556 Tempo   
+P557 Refrain   
+P558 Pitch   
+P559 Harmony   
+P560 Melody   
+P561 Stanza   
+P562 Opus
+Tinsel 
+P515 Sugar
+P516 Lit
+P517 Ego
+P518 Fizz
+P519 Muse
+P520 Depth
+P521 Bliss
+P522 Grow
+P523 Dolce
+P524 Boost
+Price Group 2
+Amiranté E
+5664  Mink                          
+5665  Ivory                         
+5666  Silver Frost               
+5677  Moonglo                    
+5679  Woodbine
+Ashanti Reverse E
+5638  Mink
+5648  Moonglo                    
+5650  Woodbine                  
+5654  Quince
+Bariolage 
+G200 New Etude                
+G201 New Andante            
+G202 New Cantata             
+G203 New Adagio               
+G205 New Ballata               
+G206 New Sonata
+Bouquet E                      
+P165 Hosta
+P166 Dundee             
+P169 Argenta             
+P170 Hoya                 
+P173 Camomile
+Cogent: Geode 
+Seating E
+5S47 Coal
+5S48 Smoke
+5S49 Cobalt
+5S50 Ink
+5S55 Sunset
+5S57 Thunder
+Cogent: Geode 
+Vertical E
+5S32 Canyon
+5S35 Slate
+5S36 Cement
+5S37 Rock
+5S38 Oyster
+5S40 Toast
+5S41 Sesame
+5S42 Ecru
+Flip: Orbit
+5F85 Mud Pie                    
+5F86 Hummus                   
+5F87 Petoskey                  
+5F88 Pluto                         
+5F89 Papyrus
+5F91 Blizzard
+5F92 Briquette
+Flip: Plain Jane
+5F70 Mud Pie                    
+5F71 Hummus                   
+5F72 Petoskey                  
+5F73 Pluto                         
+5F74 Papyrus
+5F94 Blizzard
+5F95 Briquette
+Flip: TexHex
+5F75 Mud Pie                    
+5F76 Hummus                   
+5F77 Petoskey                  
+5F78 Pluto                         
+5F79 Papyrus                    
+5F97 Blizzard
+5F98 Briquette
+Fresco 
+G001 Sandrift                     
+G002 Mistiblu                     
+G003 Faon                         
+G006 Chamoline                
+G007 Grapenut                  
+G017 Flint
+Milano E
+N001 Oyster                       
+N002 Delft                          
+N003 Woodland                  
+N004 Sunshadow               
+N005 Olivine
+N012 Teakwood                 
+Regatta E
+D011 Licorice
+5335  Warm Brown V1
+5338  Tan V1
+E = Established
+Select Surfaces
+For information on
+products within Select
+Surfaces, including
+accent paints and fabrics
+from Designtex, Gabriel,
+Kvadrat, and Pollack,
+please refer to the Surface
+Materials Reference Manual
+or visit www.steelcase.com/
+selectsurfaces.
+Custom Surfaces
+Price Group COM
+(Customer’s Own
+Material)
+Fabric Approval and
+Yardage
+To confirm whether a 
+particular COM material 
+has already been tested 
+for use on a specific
+Steelcase product or to
+determine actual yardage
+requirements:
+• Visit www.steelcase.com
+For additional
+information regarding
+Customer’s Own
+Material, call
+1.888.STEELCASE
+(1.888.783.3522) or 
+send an e-mail to 
+lineone@steelcase.com. 
+cSee Surface Materials
+Reference Manual for a 
+listing of available seating
+upholstery colors.
+Seating Upholstery
+cSee Surface Materials
+Reference Manual for a 
+listing of available fabrics
+for Divisio side screen.
+• Available on mobile
+  pedestal cushion top only.
+Steelcase Surfaces
+Price Group 1
+Buzz2
+Jacks
+Link
+Playground
+Price Group 2
+Chainmail
+Cogent: Connect
+Cogent: Geode Seating E
+Cogent: Geode Vertical E
+Cogent: Trails
+Cricket E
+Crosswalk
+Nitelights
+Seating Vinyl E
+Spyder E
+Stand In
+Zoe2
+Price Group 3
+Gaja—C2C
+Imperma
+Redeem
+Retrieve
+Texel
+Price Group 5
+Bo Peep
+Remix
+Price Group 6
+Brisa
+Price Group 7
+Steelcut Trio
+Leather
+Steelcase Leather
+Elmosoft Leather
+Elmosoft Leather
+Select Surfaces
+For information on
+products within Select
+Surfaces, including
+accent paints and fabrics
+from Designtex, Gabriel,
+Kvadrat, and Pollack,
+please refer to the Surface
+Materials Reference Manual
+or visit www.steelcase.com/
+selectsurfaces.
+Custom Surfaces
+Price Group COM
+(Customer’s Own
+Material)
+Fabric Approval and
+Yardage
+To confirm whether a 
+particular COM material 
+has already been tested 
+for use on a specific
+Steelcase product or to
+determine actual yardage
+requirements:
+• Visit www.steelcase.com
+February 2015

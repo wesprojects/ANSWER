@@ -1,0 +1,71 @@
+Panels—Thin Trim
+End-of-Run Base Panel Junctions—Thin Trim
+Answer Solutions Specification Guide                                                                                                                                                                                                            347
+End-of-Run Base Panel
+Junctions—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 14
+• Junction
+• Trim on end-of-run junction: paint price group 1 or wood
+• Aligner
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+                                     • Omit trim                                     Prices below                         Specify with omit trim.
+Specification Information
+DCorresponding      DStyle                   DU.S.           DOption
+dPanel
+              dNumber              dBase         d(Add $ to
+dHeight
+d
+dPrice           dBase Price)
+d
+d
+d                     d
+d
+d
+d                     dOmit Trim
+Painted Trim
+30"                                 TS730TEPJ           $100               –$  61
+42"                                 TS742TEPJ           $100               –$  61 
+48"                                 TS748TEPJ           $100               –$  61
+54"                                 TS754TEPJ           $100               –$  61
+66"                                 TS766TEPJ           $100               –$  61
+78"                                 TS778TEPJ           $143               –$  78
+d
+d
+d                     d
+Wood Trim
+30"                                 TS730TEPJW        $311               –$264
+42"                                 TS742TEPJW        $311               –$264
+48"                                 TS748TEPJW        $311               –$264
+54"                                 TS754TEPJW        $311               –$264
+66"                                 TS766TEPJW        $311               –$264
+78"                                 TS778TEPJW        $408               –$333
+d
+d
+d                     d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: End-of-run trim adds 1/2"
+to footprint.
+Tip: Omit trim option is used
+when stacking on base
+panel junctions. Vertical trim
+should be specified sepa-
+rately to span the full height
+of the base panel junction
+plus the stacking junction.
+Panels—Thin Trim
+February 2015

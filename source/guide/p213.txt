@@ -1,0 +1,75 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            213
+Universal Systems Worksurfaces
+Universal Systems
+Worksurfaces
+Universal Systems
+Worksurfaces with Soft
+Edge, Power and Data
+Access Door and Tray, and
+Personal Caddy
+Surface Materials
+High-Pressure 
+Laminate Worksurfaces
+• Laminate
+cSee Surface Materials
+Reference Manual.
+• Open Line laminate
+  (option)
+A program including non-
+Steelcase laminates which
+are suitable for use on
+Steelcase products.
+cSee Surface Materials
+Reference Manual.
+Soft edge
+• 6615 Grey V5 Plastic
+3 mm front edge
+• Plastic
+Back and side edges
+• Plastic color default to 
+  match 3 mm front edge
+Wood Veneer
+Worksurfaces
+• Wood veneer (standard)
+• Customiz stain (option)
+• Full-fill finish (option)
+Soft edge 
+• 6615 Grey V5 Plastic
+Square (3 mm) edge
+profile
+• Wood veneer to match
+  worksurface
+Front (user’s) edge(s)
+• Wood edge band
+Power and Data
+Access Door and Tray
+Door
+• Paint
+• Anodized aluminum
+Door bezel
+• 6694 Slate Plastic 
+Inner and outer tray
+• 7237 Slate Paint 
+End caps for outer tray
+• 6694 Slate Plastic 
+Panel grommet
+• Plastic:
+  6000 Black
+  6009 Arctic White
+  6249 Platinum Solid
+  6654 Sand
+  6697 Fog
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Personal Caddy
+• Plastic:
+  6009 Arctic White
+  6249 Platinum Solid
+  6695 Midnight
+Pad
+• 6615 Grey V5 Plastic
+February 2015

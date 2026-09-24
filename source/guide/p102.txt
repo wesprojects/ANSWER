@@ -1,0 +1,34 @@
+102                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Performance Tackable Acoustical Fabric-Covered Panel Skins
+                 18"W           24"W           30"W           36"W           42"W           48"W           60"W           72"W
+12"H         •         •         •         •         •         •         •         •
+18"H         •         •         •         •         •         •         •         •
+24"H         •F        •F        •F        •F        •F        •F        •F        •F
+30"H         •F        •F        •F        •F        •F        •F        •F        •F
+36"H         •F        •F        •F        •F        •F        •F        •F        •F
+42"H         •F        •F        •F        •F        •F        •F        •F        •F
+48"H         •F        •F        •F        •F        •F        •F        •F        •F
+60"H         •F        •F        •F        •F        •F        •F        •F        •
+F = To the floor sizes
+Tackable Acoustical Fabric-Covered Panel Skins
+                 18"W           24"W           30"W           36"W           42"W           48"W           60"W           72"W
+12"H         •         •         •         •         •         •         •         •
+18"H         •         •         •         •         •         •         •         •
+24"H         •F        •F        •F        •F        •F        •F        •F        •F
+30"H         •F        •F        •F        •F        •F        •F        •F        •F
+36"H         •F        •F        •F        •F        •F        •F        •F        •F
+42"H         •F        •F        •F        •F        •F        •F        •F        •F
+48"H         •F        •F        •F        •F        •F        •F        •F        •F
+60"H         •F        •F        •F        •F        •F        •F        •F        •
+F = To the floor sizes
+  Understanding
+cPage 107
+  Specifying
+cPage 434
+Shared Components
+Statement of Line
+  Understanding
+cPage 107
+  Specifying
+cPage 434
+February 2015

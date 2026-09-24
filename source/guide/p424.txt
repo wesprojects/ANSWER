@@ -1,0 +1,67 @@
+424                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Panels—Square and Oval Trim
+Spanning Top Caps—Square Trim                                                              
+                            Options                       U.S. Price               Required to Specify
+  Surface                   • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+  Materials             
+  Change-               • Change-of-height at one end      +$6                                       Specify with change-of-height, one end
+  of-Height                   of top cap, slim                                                                         slim.
+  Shortened              • Change-of-height at one end      +$6                                       Specify with change-of-height, one end
+  Top Cap                     of top cap, cable management                                                 cable management.
+                                     • Change-of-height at both ends   +$6                                       Specify with change-of-height, both ends
+                                        of top cap, slim                                                                         slim.
+                                     • Change-of-height at both ends   +$6                                       Specify with change-of-height, both ends
+                                        of top cap, cable management                                                 cable management.
+                                     • Change-of-height at both ends   +$6                                       Specify with change-of-height, one end 
+                                        of top cap, one end slim and                                                    slim, one end cable management.
+                                        one end cable management
+   Speciﬁcation Information
+DWidth    DStyle           DU.S.      
+d              dNumber       dBase    
+d
+d
+dPrice
+                         
+d                 d                        d               
+Painted Top Caps
+36"             TS736STC      $  20                                    
+42"             TS742STC      $  24                                    
+48"             TS748STC      $  29                                    
+60"             TS760STC      $  34                                    
+72"             TS772STC      $  39
+78"             TS778STC      $  47
+84"             TS784STC      $  56
+90"             TS790STC      $  63
+96"             TS796STC      $  71
+d                 d                        d
+Wood Top Caps
+36"             TS736STCW   $203                                    
+42"             TS742STCW   $207                                    
+48"             TS748STCW   $212                                    
+60"             TS760STCW   $278                                    
+72"             TS772STCW   $283
+78"             TS778STCW   $291
+84"             TS784STCW   $300
+90"             TS790STCW   $307
+96"             TS796STCW   $315
+d                 d                        d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 89
+• Top cap: paint or wood
+1 Style number
+2 Paint color number or wood ﬁnish num-
+ber for top cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: In-line spanning top cap
+lightseals should be speci-
+ﬁed for each in-line joint top
+cap is spanning across.
+cPage 467
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

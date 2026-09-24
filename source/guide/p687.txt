@@ -1,0 +1,39 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            687
+Victor2
+Speciﬁcation Information
+DDimensions          DStyle                            DU.S.           DOptions
+dD     W       H        dNumber                        dBase         d(Add $ to
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d                     dPremium Wood       
+d
+d
+d                     dWood front and back                                
+d
+d
+d                     d                                      
+d
+d
+d                     dWood 2   dWood 3         
+Freestanding Unit - 4 Openings
+25"      48"       36"         AWRF254836                    $5202             +$118       +$414
+Freestanding Unit - 5 Openings
+25"      60"       36"         AWRF256036                    $6555             +$149       +$521
+d
+d
+d                     d               d                     
+Victor2
+Freestanding Units
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

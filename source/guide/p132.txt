@@ -1,0 +1,24 @@
+132                                                                                                                                                                                                            Answer Solutions Specification Guide
+Shared Components
+Stability Guidelines, continued
+...............................................................................................................................................
+...............................................................................................................................................
+Guidelines for “V” Configurations
+Panels with Components
+If A is up to 12' or less, you need to have either a pedestal with filler, a jetty or bubble jetty worksurface, or an end panel on end. 30"D straight and 
+transition worksurfaces require additional floor support along the front edge, such as a pedestal or post leg. Maximum 8' of shelves or bins per panel run.
+“U” configuration must have a cantilever with the 120° V
+junction. The other end needs to be supported with a full-height panel, end
+panel, or a pedestal with filler. 
+No components can be hung on back side of panel run 
+unless in a “Y” configuration.
+A
+12' max
+A
+12' max
+12' max
+12' max
+8' max
+36" min
+24" min
+February 2015

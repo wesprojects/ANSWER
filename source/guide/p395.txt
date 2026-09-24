@@ -1,0 +1,38 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            395
+Panels—Square and Oval Trim
+In-Line Base Panel Junctions—Oval Trim
+                                                
+   Speciﬁcation Information
+DCorresponding
+DStyle           DU.S.
+dPanel                  dNumber       dPrice
+dHeight                d                        d
+d                                d                        d
+30"                              TS730IPJ     $  76
+42"                              TS742IPJ     $  76
+48"                              TS748IPJ     $  76
+54"                              TS754IPJ     $  76
+66"                              TS766IPJ     $  76
+78"                              TS778IPJ     $108
+d
+d
+d
+Tip: In-line base panel junc-
+tions do not require junction
+cap and trim. 
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 76
+• Junction
+• Aligner
+Style number
+In-Line Base Panel
+Junctions—Oval Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Square and
+Oval Trim
+February 2015

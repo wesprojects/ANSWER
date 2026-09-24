@@ -1,0 +1,4711 @@
+{
+ "section": "shared-other",
+ "title": "Shared Components and Wiring and Cabling — Technology Skins, Glass Windows, Sliding Doors, Tackboard, Hardwire Base Trim, Fence/Posts/Beams; Stability Guidelines",
+ "pages": [
+  [
+   116,
+   140
+  ],
+  [
+   458,
+   473
+  ]
+ ],
+ "families": [
+  {
+   "id": "steel-technology-skins",
+   "title": "Steel Technology Skins",
+   "page": [
+    458,
+    459
+   ],
+   "understandingPage": 116,
+   "trim": null,
+   "category": "technology-skin",
+   "standardIncludes": [
+    "Technology skin: paint price group 1"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for skin surface",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 22,
+     "priceText": "+$ 22",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 38,
+     "priceText": "+$ 38",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric on steel technology skins",
+     "price": 49,
+     "priceText": "+$ 49 plus the cost of fabric price group",
+     "spec": "Specify with fabric."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 2",
+     "price": 14,
+     "priceText": "+$ 14",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 3",
+     "price": 25,
+     "priceText": "+$ 25",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 4",
+     "price": 37,
+     "priceText": "+$ 37",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 5",
+     "price": 58,
+     "priceText": "+$ 58",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 6",
+     "price": 79,
+     "priceText": "+$ 79",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group 7",
+     "price": 101,
+     "priceText": "+$101",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Fabric",
+     "name": "Fabric price group COM",
+     "price": 16,
+     "priceText": "+$ 16",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials – Ribbed Steel",
+     "name": "Ribbed steel on 12\"H and 18\"H skins only",
+     "price": 22,
+     "priceText": "+$ 22",
+     "spec": "Specify with ribbed steel.",
+     "appliesTo": "12\"H and 18\"H skins only"
+    },
+    {
+     "group": "Fabric direction",
+     "name": "Horizontal application (standard)",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with horizontal application."
+    },
+    {
+     "group": "Fabric direction",
+     "name": "Vertical application",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with vertical application.",
+     "appliesTo": "not 72\"W (72\"W accommodates horizontal fabric only)"
+    }
+   ],
+   "tips": [
+    "Remember to order technology covers to fill the cutouts. Only TS7TSCOVER style covers can be used with this skin.",
+    "A modular powerkit must always be located behind the technology skin.",
+    "72\"W technology skins accommodate fabric in the horizontal application only.",
+    "Ribbed steel technology skins cannot be fabric covered.",
+    "For further information about fabric direction, see page 713.",
+    "Technology skins are available with all cutouts or handed cutouts on just the right side or just the left side of the skin.",
+    "6\"H technology skins with cutouts includes a pair of powerkit brackets that attach the powerkit to the junction to correctly position it within the panel.",
+    "6\"H technology skin can only attach to junctions manufactured on or after October 10, 2011.",
+    "When using technology skin on one side of the panel (only used at worksurface height) a 12\" or 18\" skin can not be used on the opposite side of the panel at the same location as the 6\"H skin.",
+    "18\"H technology skin can only attach to junctions manufactured on or after October 10, 2011."
+   ],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "24\"W skins are offered only with all cutouts (one cutout); no right-hand/left-hand-only versions printed for 24\"W.",
+    "No-cutouts (HS) versions are printed only for 6\"H skins.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Width",
+    "All Cutouts Style Number",
+    "All Cutouts U.S. Base Price",
+    "Right Hand Cutout Only Style Number",
+    "Right Hand Cutout Only U.S. Base Price",
+    "Left Hand Cutout Only Style Number",
+    "Left Hand Cutout Only U.S. Base Price",
+    "No Cutouts Style Number",
+    "No Cutouts U.S. Base Price"
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TS7{H}{W}TSS",
+     "meaning": "steel technology skin, all cutouts (H=6/12/18, W=24..72)"
+    },
+    {
+     "pattern": "TS7{H}{W}RTSS / LTSS",
+     "meaning": "right-hand / left-hand cutout only"
+    },
+    {
+     "pattern": "TS76{W}HS",
+     "meaning": "6\"H steel technology skin, no cutouts"
+    }
+   ],
+   "items": [
+    {
+     "style": "TS7624TSS",
+     "desc": "6\"H x 24\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 24,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 72
+    },
+    {
+     "style": "TS7624HS",
+     "desc": "6\"H x 24\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 24,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 52
+    },
+    {
+     "style": "TS7630TSS",
+     "desc": "6\"H x 30\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 87
+    },
+    {
+     "style": "TS7630RTSS",
+     "desc": "6\"H x 30\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 71
+    },
+    {
+     "style": "TS7630LTSS",
+     "desc": "6\"H x 30\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 71
+    },
+    {
+     "style": "TS7630HS",
+     "desc": "6\"H x 30\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 56
+    },
+    {
+     "style": "TS7636TSS",
+     "desc": "6\"H x 36\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 91
+    },
+    {
+     "style": "TS7636RTSS",
+     "desc": "6\"H x 36\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 75
+    },
+    {
+     "style": "TS7636LTSS",
+     "desc": "6\"H x 36\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 75
+    },
+    {
+     "style": "TS7636HS",
+     "desc": "6\"H x 36\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 60
+    },
+    {
+     "style": "TS7642TSS",
+     "desc": "6\"H x 42\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 94
+    },
+    {
+     "style": "TS7642RTSS",
+     "desc": "6\"H x 42\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 79
+    },
+    {
+     "style": "TS7642LTSS",
+     "desc": "6\"H x 42\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 79
+    },
+    {
+     "style": "TS7642HS",
+     "desc": "6\"H x 42\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 63
+    },
+    {
+     "style": "TS7648TSS",
+     "desc": "6\"H x 48\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 103
+    },
+    {
+     "style": "TS7648RTSS",
+     "desc": "6\"H x 48\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 88
+    },
+    {
+     "style": "TS7648LTSS",
+     "desc": "6\"H x 48\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 88
+    },
+    {
+     "style": "TS7648HS",
+     "desc": "6\"H x 48\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 72
+    },
+    {
+     "style": "TS7660TSS",
+     "desc": "6\"H x 60\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 118
+    },
+    {
+     "style": "TS7660RTSS",
+     "desc": "6\"H x 60\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 103
+    },
+    {
+     "style": "TS7660LTSS",
+     "desc": "6\"H x 60\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 103
+    },
+    {
+     "style": "TS7660HS",
+     "desc": "6\"H x 60\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 83
+    },
+    {
+     "style": "TS7672TSS",
+     "desc": "6\"H x 72\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 130
+    },
+    {
+     "style": "TS7672RTSS",
+     "desc": "6\"H x 72\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 114
+    },
+    {
+     "style": "TS7672LTSS",
+     "desc": "6\"H x 72\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 6,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 114
+    },
+    {
+     "style": "TS7672HS",
+     "desc": "6\"H x 72\"W steel technology skin, no cutouts",
+     "attrs": {
+      "height": 6,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "none"
+     },
+     "price": 94
+    },
+    {
+     "style": "TS71224TSS",
+     "desc": "12\"H x 24\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 24,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 97
+    },
+    {
+     "style": "TS71230TSS",
+     "desc": "12\"H x 30\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 115
+    },
+    {
+     "style": "TS71230RTSS",
+     "desc": "12\"H x 30\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 100
+    },
+    {
+     "style": "TS71230LTSS",
+     "desc": "12\"H x 30\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 100
+    },
+    {
+     "style": "TS71236TSS",
+     "desc": "12\"H x 36\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 121
+    },
+    {
+     "style": "TS71236RTSS",
+     "desc": "12\"H x 36\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 106
+    },
+    {
+     "style": "TS71236LTSS",
+     "desc": "12\"H x 36\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 106
+    },
+    {
+     "style": "TS71242TSS",
+     "desc": "12\"H x 42\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 125
+    },
+    {
+     "style": "TS71242RTSS",
+     "desc": "12\"H x 42\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 110
+    },
+    {
+     "style": "TS71242LTSS",
+     "desc": "12\"H x 42\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 110
+    },
+    {
+     "style": "TS71248TSS",
+     "desc": "12\"H x 48\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 137
+    },
+    {
+     "style": "TS71248RTSS",
+     "desc": "12\"H x 48\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 121
+    },
+    {
+     "style": "TS71248LTSS",
+     "desc": "12\"H x 48\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 121
+    },
+    {
+     "style": "TS71260TSS",
+     "desc": "12\"H x 60\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 159
+    },
+    {
+     "style": "TS71260RTSS",
+     "desc": "12\"H x 60\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 143
+    },
+    {
+     "style": "TS71260LTSS",
+     "desc": "12\"H x 60\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 143
+    },
+    {
+     "style": "TS71272TSS",
+     "desc": "12\"H x 72\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 172
+    },
+    {
+     "style": "TS71272RTSS",
+     "desc": "12\"H x 72\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 157
+    },
+    {
+     "style": "TS71272LTSS",
+     "desc": "12\"H x 72\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 157
+    },
+    {
+     "style": "TS71824TSS",
+     "desc": "18\"H x 24\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 24,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 124
+    },
+    {
+     "style": "TS71830TSS",
+     "desc": "18\"H x 30\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 145
+    },
+    {
+     "style": "TS71830RTSS",
+     "desc": "18\"H x 30\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 130
+    },
+    {
+     "style": "TS71830LTSS",
+     "desc": "18\"H x 30\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 130
+    },
+    {
+     "style": "TS71836TSS",
+     "desc": "18\"H x 36\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 154
+    },
+    {
+     "style": "TS71836RTSS",
+     "desc": "18\"H x 36\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 138
+    },
+    {
+     "style": "TS71836LTSS",
+     "desc": "18\"H x 36\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 138
+    },
+    {
+     "style": "TS71842TSS",
+     "desc": "18\"H x 42\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 161
+    },
+    {
+     "style": "TS71842RTSS",
+     "desc": "18\"H x 42\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 145
+    },
+    {
+     "style": "TS71842LTSS",
+     "desc": "18\"H x 42\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 145
+    },
+    {
+     "style": "TS71848TSS",
+     "desc": "18\"H x 48\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 175
+    },
+    {
+     "style": "TS71848RTSS",
+     "desc": "18\"H x 48\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 160
+    },
+    {
+     "style": "TS71848LTSS",
+     "desc": "18\"H x 48\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 160
+    },
+    {
+     "style": "TS71860TSS",
+     "desc": "18\"H x 60\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 198
+    },
+    {
+     "style": "TS71860RTSS",
+     "desc": "18\"H x 60\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 183
+    },
+    {
+     "style": "TS71860LTSS",
+     "desc": "18\"H x 60\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 60,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 183
+    },
+    {
+     "style": "TS71872TSS",
+     "desc": "18\"H x 72\"W steel technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "all"
+     },
+     "price": 221
+    },
+    {
+     "style": "TS71872RTSS",
+     "desc": "18\"H x 72\"W steel technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "right"
+     },
+     "price": 206
+    },
+    {
+     "style": "TS71872LTSS",
+     "desc": "18\"H x 72\"W steel technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 72,
+      "material": "steel",
+      "cutouts": "left"
+     },
+     "price": 206
+    }
+   ]
+  },
+  {
+   "id": "slatwall-technology-skins",
+   "title": "Slatwall Technology Skins",
+   "page": 460,
+   "understandingPage": 116,
+   "trim": null,
+   "category": "technology-skin",
+   "standardIncludes": [
+    "Technology skin with slatwall channels to accommodate worktools: paint",
+    "Trim ring: painted steel"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for skin surface and trim ring"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 22,
+     "priceText": "+$ 22",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Remember to order technology covers to fill the cutouts. Only TS7TSCOVER style covers can be used with this skin.",
+    "A modular powerkit must always be located behind the technology skin.",
+    "Technology skins are available with all cutouts or handed cutouts on just the right side or just the left side of the skin.",
+    "18\"H technology skin can only attach to junctions manufactured on or after October 10, 2011.",
+    "Slatwall skins cannot be used in the bottom 12\" of an Answer panel."
+   ],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "Only paint price groups 1 and 2 offered.",
+    "Widths 24\"-48\" only; 24\"W offered only with all cutouts.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Width",
+    "All Cutouts Style Number",
+    "All Cutouts U.S. Base Price",
+    "Right-Hand Cutout Only Style Number",
+    "Right-Hand Cutout Only U.S. Base Price",
+    "Left-Hand Cutout Only Style Number",
+    "Left-Hand Cutout Only U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS71224TSSW",
+     "desc": "12\"H x 24\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 24,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 248
+    },
+    {
+     "style": "TS71230TSSW",
+     "desc": "12\"H x 30\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 311
+    },
+    {
+     "style": "TS71230RTSSW",
+     "desc": "12\"H x 30\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 296
+    },
+    {
+     "style": "TS71230LTSSW",
+     "desc": "12\"H x 30\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 296
+    },
+    {
+     "style": "TS71236TSSW",
+     "desc": "12\"H x 36\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 360
+    },
+    {
+     "style": "TS71236RTSSW",
+     "desc": "12\"H x 36\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 344
+    },
+    {
+     "style": "TS71236LTSSW",
+     "desc": "12\"H x 36\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 344
+    },
+    {
+     "style": "TS71242TSSW",
+     "desc": "12\"H x 42\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 380
+    },
+    {
+     "style": "TS71242RTSSW",
+     "desc": "12\"H x 42\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 365
+    },
+    {
+     "style": "TS71242LTSSW",
+     "desc": "12\"H x 42\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 365
+    },
+    {
+     "style": "TS71248TSSW",
+     "desc": "12\"H x 48\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 397
+    },
+    {
+     "style": "TS71248RTSSW",
+     "desc": "12\"H x 48\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 381
+    },
+    {
+     "style": "TS71248LTSSW",
+     "desc": "12\"H x 48\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 381
+    },
+    {
+     "style": "TS71824TSSW",
+     "desc": "18\"H x 24\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 24,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 307
+    },
+    {
+     "style": "TS71830TSSW",
+     "desc": "18\"H x 30\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 373
+    },
+    {
+     "style": "TS71830RTSSW",
+     "desc": "18\"H x 30\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 358
+    },
+    {
+     "style": "TS71830LTSSW",
+     "desc": "18\"H x 30\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 358
+    },
+    {
+     "style": "TS71836TSSW",
+     "desc": "18\"H x 36\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 425
+    },
+    {
+     "style": "TS71836RTSSW",
+     "desc": "18\"H x 36\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 410
+    },
+    {
+     "style": "TS71836LTSSW",
+     "desc": "18\"H x 36\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 410
+    },
+    {
+     "style": "TS71842TSSW",
+     "desc": "18\"H x 42\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 443
+    },
+    {
+     "style": "TS71842RTSSW",
+     "desc": "18\"H x 42\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 427
+    },
+    {
+     "style": "TS71842LTSSW",
+     "desc": "18\"H x 42\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 427
+    },
+    {
+     "style": "TS71848TSSW",
+     "desc": "18\"H x 48\"W slatwall technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "slatwall",
+      "cutouts": "all"
+     },
+     "price": 462
+    },
+    {
+     "style": "TS71848RTSSW",
+     "desc": "18\"H x 48\"W slatwall technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "slatwall",
+      "cutouts": "right"
+     },
+     "price": 446
+    },
+    {
+     "style": "TS71848LTSSW",
+     "desc": "18\"H x 48\"W slatwall technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "slatwall",
+      "cutouts": "left"
+     },
+     "price": 446
+    }
+   ]
+  },
+  {
+   "id": "markerboard-technology-skins",
+   "title": "Markerboard Technology Skins",
+   "page": 461,
+   "understandingPage": 116,
+   "trim": null,
+   "category": "technology-skin",
+   "standardIncludes": [
+    "Markerboard skin: white"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Remember to order technology covers to fill the cutouts. Only TS7TSCOVER style covers can be used with this skin.",
+    "A modular powerkit must always be located behind the technology skin.",
+    "Technology skins are available with all cutouts or handed cutouts on just the right side or just the left side of the skin.",
+    "18\"H technology skin can only attach to junctions manufactured on or after October 10, 2011."
+   ],
+   "notes": [
+    "No finish options; white only.",
+    "Widths 24\"-48\" only; 24\"W offered only with all cutouts.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Width",
+    "All Cutouts Style Number",
+    "All Cutouts U.S. Price",
+    "Right-Hand Cutout Only Style Number",
+    "Right-Hand Cutout Only U.S. Price",
+    "Left-Hand Cutout Only Style Number",
+    "Left-Hand Cutout Only U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS71224TSMB",
+     "desc": "12\"H x 24\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 24,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 174
+    },
+    {
+     "style": "TS71230TSMB",
+     "desc": "12\"H x 30\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 215
+    },
+    {
+     "style": "TS71230RTSMB",
+     "desc": "12\"H x 30\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 200
+    },
+    {
+     "style": "TS71230LTSMB",
+     "desc": "12\"H x 30\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 200
+    },
+    {
+     "style": "TS71236TSMB",
+     "desc": "12\"H x 36\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 224
+    },
+    {
+     "style": "TS71236RTSMB",
+     "desc": "12\"H x 36\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 209
+    },
+    {
+     "style": "TS71236LTSMB",
+     "desc": "12\"H x 36\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 209
+    },
+    {
+     "style": "TS71242TSMB",
+     "desc": "12\"H x 42\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 235
+    },
+    {
+     "style": "TS71242RTSMB",
+     "desc": "12\"H x 42\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 219
+    },
+    {
+     "style": "TS71242LTSMB",
+     "desc": "12\"H x 42\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 219
+    },
+    {
+     "style": "TS71248TSMB",
+     "desc": "12\"H x 48\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 248
+    },
+    {
+     "style": "TS71248RTSMB",
+     "desc": "12\"H x 48\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 233
+    },
+    {
+     "style": "TS71248LTSMB",
+     "desc": "12\"H x 48\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 233
+    },
+    {
+     "style": "TS71824TSMB",
+     "desc": "18\"H x 24\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 24,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 210
+    },
+    {
+     "style": "TS71830TSMB",
+     "desc": "18\"H x 30\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 255
+    },
+    {
+     "style": "TS71830RTSMB",
+     "desc": "18\"H x 30\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 239
+    },
+    {
+     "style": "TS71830LTSMB",
+     "desc": "18\"H x 30\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 239
+    },
+    {
+     "style": "TS71836TSMB",
+     "desc": "18\"H x 36\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 266
+    },
+    {
+     "style": "TS71836RTSMB",
+     "desc": "18\"H x 36\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 250
+    },
+    {
+     "style": "TS71836LTSMB",
+     "desc": "18\"H x 36\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 250
+    },
+    {
+     "style": "TS71842TSMB",
+     "desc": "18\"H x 42\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 277
+    },
+    {
+     "style": "TS71842RTSMB",
+     "desc": "18\"H x 42\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 262
+    },
+    {
+     "style": "TS71842LTSMB",
+     "desc": "18\"H x 42\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 262
+    },
+    {
+     "style": "TS71848TSMB",
+     "desc": "18\"H x 48\"W markerboard technology skin, all cutouts",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "all"
+     },
+     "price": 292
+    },
+    {
+     "style": "TS71848RTSMB",
+     "desc": "18\"H x 48\"W markerboard technology skin, right-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "right"
+     },
+     "price": 276
+    },
+    {
+     "style": "TS71848LTSMB",
+     "desc": "18\"H x 48\"W markerboard technology skin, left-hand cutout only",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "material": "markerboard",
+      "finish": "white",
+      "cutouts": "left"
+     },
+     "price": 276
+    }
+   ]
+  },
+  {
+   "id": "technology-skin-cover",
+   "title": "Technology Skin Cover",
+   "page": 462,
+   "understandingPage": 117,
+   "trim": null,
+   "category": "technology-skin",
+   "standardIncludes": [
+    "Technology skin cover: plastic"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Plastic color number for technology skin cover: 6000 Black, 6009 Arctic White, 6249 Platinum Solid, 6654 Sand, 6697 Fog"
+   ],
+   "options": [
+    {
+     "group": "Plastic color",
+     "name": "6000 Black",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify plastic color number."
+    },
+    {
+     "group": "Plastic color",
+     "name": "6009 Arctic White",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify plastic color number."
+    },
+    {
+     "group": "Plastic color",
+     "name": "6249 Platinum Solid",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify plastic color number."
+    },
+    {
+     "group": "Plastic color",
+     "name": "6654 Sand",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify plastic color number."
+    },
+    {
+     "group": "Plastic color",
+     "name": "6697 Fog",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify plastic color number."
+    }
+   ],
+   "tips": [
+    "Receptacle filler to close unused openings is available through Service Parts (891700204MP, package of 20)."
+   ],
+   "notes": [
+    "Plastic colors listed are the only colors; no price differences shown.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7TSCOVER",
+     "desc": "Technology skin cover (plastic), one per cutout",
+     "attrs": {
+      "material": "plastic"
+     },
+     "price": 10
+    }
+   ]
+  },
+  {
+   "id": "technology-skin-cover-fillers",
+   "title": "Technology Skin Cover Fillers",
+   "page": 462,
+   "understandingPage": 117,
+   "trim": null,
+   "category": "technology-skin",
+   "standardIncludes": [
+    "Technology skin cover filler: paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for filler"
+   ],
+   "options": [],
+   "tips": [
+    "Technology skin cover filler is required when using a TS7TSCOVER technology skin cover on skins manufactured before November 21, 2011.",
+    "This technology skin cover filler is also included as standard with slatwall technology skins and can be used for replacement part needs on that skin as well."
+   ],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "Paint price group options not listed on this page.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "Description",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7TSCFS",
+     "desc": "Technology skin cover filler, single cutout",
+     "attrs": {
+      "cutout": "single"
+     },
+     "price": 5
+    },
+    {
+     "style": "TS7TSCFD",
+     "desc": "Technology skin cover filler, double cutout",
+     "attrs": {
+      "cutout": "double"
+     },
+     "price": 5
+    }
+   ]
+  },
+  {
+   "id": "glass-windows",
+   "title": "Glass Windows For Panel Buildups",
+   "page": [
+    464,
+    465
+   ],
+   "understandingPage": 118,
+   "trim": null,
+   "category": "window",
+   "standardIncludes": [
+    "Single-pane glass window, if selected: 6500 Clear Glass",
+    "Double-pane glass window, if selected: 6530 Frosted Glass",
+    "Frame: paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for frame",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials – Frame",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials – Frame",
+     "name": "Paint price group 2",
+     "price": 22,
+     "priceText": "+$ 22",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials – Frame",
+     "name": "Paint price group 3",
+     "price": 38,
+     "priceText": "+$ 38",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Single-pane glass window",
+     "name": "Frosted glass in 12\"H window",
+     "price": 55,
+     "priceText": "+$ 55",
+     "spec": "Specify with 6530 Frosted Glass.",
+     "appliesTo": "12\"H single-pane (SPW)"
+    },
+    {
+     "group": "Single-pane glass window",
+     "name": "Frosted glass in 18\"H window",
+     "price": 83,
+     "priceText": "+$ 83",
+     "spec": "Specify with 6530 Frosted Glass.",
+     "appliesTo": "18\"H single-pane (SPW)"
+    },
+    {
+     "group": "Single-pane glass window",
+     "name": "Frosted glass in 24\"H window",
+     "price": 109,
+     "priceText": "+$109",
+     "spec": "Specify with 6530 Frosted Glass.",
+     "appliesTo": "24\"H single-pane (SPW)"
+    }
+   ],
+   "tips": [
+    "Remember to specify spanning window in-line supports if window is spanning two or more panels.",
+    "When specifying a window span over two or more panels, it is recommended that the same size spanning top cap also be specified for use with the window.",
+    "When ordering a 72\"W or wider single pane window kit to be used with steel or fabric skins located directly below it, two clips (T521328SR) should be ordered and installed."
+   ],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "Double-pane windows: 18\"H and 24\"H are printed only up to 72\"W; 78\"-96\"W double-pane printed for 12\"H only.",
+    "Widths over 48\" (60\"-96\") exceed standard panel widths and are spanning windows over two or more in-line panels.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Width",
+    "12\"H Style Number",
+    "12\"H U.S. Base Price",
+    "18\"H Style Number",
+    "18\"H U.S. Base Price",
+    "24\"H Style Number",
+    "24\"H U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS71224SPW",
+     "desc": "12\"H x 24\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 24,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 403
+    },
+    {
+     "style": "TS71824SPW",
+     "desc": "18\"H x 24\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 24,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 471
+    },
+    {
+     "style": "TS72424SPW",
+     "desc": "24\"H x 24\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 24,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 537
+    },
+    {
+     "style": "TS71230SPW",
+     "desc": "12\"H x 30\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 433
+    },
+    {
+     "style": "TS71830SPW",
+     "desc": "18\"H x 30\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 503
+    },
+    {
+     "style": "TS72430SPW",
+     "desc": "24\"H x 30\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 30,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 571
+    },
+    {
+     "style": "TS71236SPW",
+     "desc": "12\"H x 36\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 466
+    },
+    {
+     "style": "TS71836SPW",
+     "desc": "18\"H x 36\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 535
+    },
+    {
+     "style": "TS72436SPW",
+     "desc": "24\"H x 36\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 36,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 606
+    },
+    {
+     "style": "TS71242SPW",
+     "desc": "12\"H x 42\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 498
+    },
+    {
+     "style": "TS71842SPW",
+     "desc": "18\"H x 42\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 570
+    },
+    {
+     "style": "TS72442SPW",
+     "desc": "24\"H x 42\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 42,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 641
+    },
+    {
+     "style": "TS71248SPW",
+     "desc": "12\"H x 48\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 525
+    },
+    {
+     "style": "TS71848SPW",
+     "desc": "18\"H x 48\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 612
+    },
+    {
+     "style": "TS72448SPW",
+     "desc": "24\"H x 48\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 48,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 700
+    },
+    {
+     "style": "TS71260SPW",
+     "desc": "12\"H x 60\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 60,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 607
+    },
+    {
+     "style": "TS71860SPW",
+     "desc": "18\"H x 60\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 60,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 693
+    },
+    {
+     "style": "TS72460SPW",
+     "desc": "24\"H x 60\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 60,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 780
+    },
+    {
+     "style": "TS71272SPW",
+     "desc": "12\"H x 72\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 72,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 677
+    },
+    {
+     "style": "TS71872SPW",
+     "desc": "18\"H x 72\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 72,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 783
+    },
+    {
+     "style": "TS72472SPW",
+     "desc": "24\"H x 72\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 72,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 888
+    },
+    {
+     "style": "TS71278SPW",
+     "desc": "12\"H x 78\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 78,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 775
+    },
+    {
+     "style": "TS71878SPW",
+     "desc": "18\"H x 78\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 78,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 875
+    },
+    {
+     "style": "TS72478SPW",
+     "desc": "24\"H x 78\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 78,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 975
+    },
+    {
+     "style": "TS71284SPW",
+     "desc": "12\"H x 84\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 84,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 851
+    },
+    {
+     "style": "TS71884SPW",
+     "desc": "18\"H x 84\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 84,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 956
+    },
+    {
+     "style": "TS72484SPW",
+     "desc": "24\"H x 84\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 84,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 1063
+    },
+    {
+     "style": "TS71290SPW",
+     "desc": "12\"H x 90\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 90,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 927
+    },
+    {
+     "style": "TS71890SPW",
+     "desc": "18\"H x 90\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 90,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 1037
+    },
+    {
+     "style": "TS72490SPW",
+     "desc": "24\"H x 90\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 90,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 1148
+    },
+    {
+     "style": "TS71296SPW",
+     "desc": "12\"H x 96\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 12,
+      "width": 96,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 1001
+    },
+    {
+     "style": "TS71896SPW",
+     "desc": "18\"H x 96\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 18,
+      "width": 96,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 1118
+    },
+    {
+     "style": "TS72496SPW",
+     "desc": "24\"H x 96\"W single-pane glass window (6500 Clear standard)",
+     "attrs": {
+      "height": 24,
+      "width": 96,
+      "pane": "single",
+      "standardGlass": "6500 Clear Glass"
+     },
+     "price": 1234
+    },
+    {
+     "style": "TS71224DPW",
+     "desc": "12\"H x 24\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 24,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 527
+    },
+    {
+     "style": "TS71824DPW",
+     "desc": "18\"H x 24\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 24,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 628
+    },
+    {
+     "style": "TS72424DPW",
+     "desc": "24\"H x 24\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 24,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 730
+    },
+    {
+     "style": "TS71230DPW",
+     "desc": "12\"H x 30\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 560
+    },
+    {
+     "style": "TS71830DPW",
+     "desc": "18\"H x 30\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 664
+    },
+    {
+     "style": "TS72430DPW",
+     "desc": "24\"H x 30\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 30,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 764
+    },
+    {
+     "style": "TS71236DPW",
+     "desc": "12\"H x 36\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 594
+    },
+    {
+     "style": "TS71836DPW",
+     "desc": "18\"H x 36\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 699
+    },
+    {
+     "style": "TS72436DPW",
+     "desc": "24\"H x 36\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 36,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 801
+    },
+    {
+     "style": "TS71242DPW",
+     "desc": "12\"H x 42\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 627
+    },
+    {
+     "style": "TS71842DPW",
+     "desc": "18\"H x 42\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 735
+    },
+    {
+     "style": "TS72442DPW",
+     "desc": "24\"H x 42\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 42,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 842
+    },
+    {
+     "style": "TS71248DPW",
+     "desc": "12\"H x 48\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 660
+    },
+    {
+     "style": "TS71848DPW",
+     "desc": "18\"H x 48\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 784
+    },
+    {
+     "style": "TS72448DPW",
+     "desc": "24\"H x 48\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 48,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 907
+    },
+    {
+     "style": "TS71260DPW",
+     "desc": "12\"H x 60\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 60,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 749
+    },
+    {
+     "style": "TS71860DPW",
+     "desc": "18\"H x 60\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 60,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 873
+    },
+    {
+     "style": "TS72460DPW",
+     "desc": "24\"H x 60\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 60,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 996
+    },
+    {
+     "style": "TS71272DPW",
+     "desc": "12\"H x 72\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 72,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 829
+    },
+    {
+     "style": "TS71872DPW",
+     "desc": "18\"H x 72\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 18,
+      "width": 72,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 978
+    },
+    {
+     "style": "TS72472DPW",
+     "desc": "24\"H x 72\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 24,
+      "width": 72,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 1125
+    },
+    {
+     "style": "TS71278DPW",
+     "desc": "12\"H x 78\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 78,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 943
+    },
+    {
+     "style": "TS71284DPW",
+     "desc": "12\"H x 84\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 84,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 1035
+    },
+    {
+     "style": "TS71290DPW",
+     "desc": "12\"H x 90\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 90,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 1126
+    },
+    {
+     "style": "TS71296DPW",
+     "desc": "12\"H x 96\"W double-pane glass window (6530 Frosted)",
+     "attrs": {
+      "height": 12,
+      "width": 96,
+      "pane": "double",
+      "standardGlass": "6530 Frosted Glass"
+     },
+     "price": 1218
+    }
+   ]
+  },
+  {
+   "id": "single-pane-custom-glass-window-kits",
+   "title": "Single-Pane Glass Window Kits for Use with Custom Glass For Panel Buildups",
+   "page": 466,
+   "understandingPage": 118,
+   "trim": null,
+   "category": "window",
+   "standardIncludes": [
+    "Frame: paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for frame",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 22,
+     "priceText": "+$ 22",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 38,
+     "priceText": "+$ 38",
+     "spec": "Specify paint color number."
+    }
+   ],
+   "tips": [
+    "Custom glass must be ordered separately. See page 119 for the dimensions of custom inserts.",
+    "Glass window kits are available for single pane only.",
+    "Remember to specify spanning window in-line supports if window is spanning two or more panels.",
+    "When specifying a window to span over two or more panels, it is recommended that the same size spanning top cap also be specified for use with the window."
+   ],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "Custom glass insert dimensions (page 119): kits accommodate 4 mm – 6 mm glass; glass height 9.760\" (12\"H), 15.940\" (18\"H), 22.120\" (24\"H); glass width = nominal width minus 2.720\" (21.280\" for 24\"W ... 93.280\" for 96\"W); maximum thickness 0.245\".",
+    "Safety glass is not provided when custom glass window kit is ordered.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Width",
+    "12\"H Style Number",
+    "12\"H U.S. Base Price",
+    "18\"H Style Number",
+    "18\"H U.S. Base Price",
+    "24\"H Style Number",
+    "24\"H U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS71224SCW",
+     "desc": "12\"H x 24\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 24,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 21.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 315
+    },
+    {
+     "style": "TS71824SCW",
+     "desc": "18\"H x 24\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 24,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 21.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 368
+    },
+    {
+     "style": "TS72424SCW",
+     "desc": "24\"H x 24\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 24,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 21.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 420
+    },
+    {
+     "style": "TS71230SCW",
+     "desc": "12\"H x 30\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 30,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 27.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 338
+    },
+    {
+     "style": "TS71830SCW",
+     "desc": "18\"H x 30\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 30,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 27.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 392
+    },
+    {
+     "style": "TS72430SCW",
+     "desc": "24\"H x 30\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 30,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 27.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 445
+    },
+    {
+     "style": "TS71236SCW",
+     "desc": "12\"H x 36\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 36,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 33.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 361
+    },
+    {
+     "style": "TS71836SCW",
+     "desc": "18\"H x 36\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 36,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 33.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 416
+    },
+    {
+     "style": "TS72436SCW",
+     "desc": "24\"H x 36\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 36,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 33.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 471
+    },
+    {
+     "style": "TS71242SCW",
+     "desc": "12\"H x 42\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 42,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 39.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 385
+    },
+    {
+     "style": "TS71842SCW",
+     "desc": "18\"H x 42\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 42,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 39.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 443
+    },
+    {
+     "style": "TS72442SCW",
+     "desc": "24\"H x 42\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 42,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 39.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 500
+    },
+    {
+     "style": "TS71248SCW",
+     "desc": "12\"H x 48\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 48,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 45.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 408
+    },
+    {
+     "style": "TS71848SCW",
+     "desc": "18\"H x 48\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 48,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 45.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 476
+    },
+    {
+     "style": "TS72448SCW",
+     "desc": "24\"H x 48\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 48,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 45.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 544
+    },
+    {
+     "style": "TS71260SCW",
+     "desc": "12\"H x 60\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 60,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 57.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 479
+    },
+    {
+     "style": "TS71860SCW",
+     "desc": "18\"H x 60\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 60,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 57.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 542
+    },
+    {
+     "style": "TS72460SCW",
+     "desc": "24\"H x 60\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 60,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 57.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 606
+    },
+    {
+     "style": "TS71272SCW",
+     "desc": "12\"H x 72\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 72,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 69.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 536
+    },
+    {
+     "style": "TS71872SCW",
+     "desc": "18\"H x 72\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 72,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 69.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 614
+    },
+    {
+     "style": "TS72472SCW",
+     "desc": "24\"H x 72\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 72,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 69.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 692
+    },
+    {
+     "style": "TS71278SCW",
+     "desc": "12\"H x 78\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 78,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 75.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 605
+    },
+    {
+     "style": "TS71878SCW",
+     "desc": "18\"H x 78\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 78,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 75.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 682
+    },
+    {
+     "style": "TS72478SCW",
+     "desc": "24\"H x 78\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 78,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 75.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 761
+    },
+    {
+     "style": "TS71284SCW",
+     "desc": "12\"H x 84\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 84,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 81.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 664
+    },
+    {
+     "style": "TS71884SCW",
+     "desc": "18\"H x 84\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 84,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 81.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 745
+    },
+    {
+     "style": "TS72484SCW",
+     "desc": "24\"H x 84\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 84,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 81.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 828
+    },
+    {
+     "style": "TS71290SCW",
+     "desc": "12\"H x 90\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 90,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 87.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 723
+    },
+    {
+     "style": "TS71890SCW",
+     "desc": "18\"H x 90\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 90,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 87.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 810
+    },
+    {
+     "style": "TS72490SCW",
+     "desc": "24\"H x 90\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 90,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 87.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 895
+    },
+    {
+     "style": "TS71296SCW",
+     "desc": "12\"H x 96\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 12,
+      "width": 96,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 9.76,
+      "customGlassWidth": 93.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 781
+    },
+    {
+     "style": "TS71896SCW",
+     "desc": "18\"H x 96\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 18,
+      "width": 96,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 15.94,
+      "customGlassWidth": 93.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 873
+    },
+    {
+     "style": "TS72496SCW",
+     "desc": "24\"H x 96\"W single-pane window kit for custom glass (no glass)",
+     "attrs": {
+      "height": 24,
+      "width": 96,
+      "pane": "single",
+      "glass": "none – custom glass ordered separately",
+      "customGlassHeight": 22.12,
+      "customGlassWidth": 93.28,
+      "customGlassMaxThickness": 0.245
+     },
+     "price": 964
+    }
+   ]
+  },
+  {
+   "id": "spanning-window-in-line-support",
+   "title": "Spanning Window In-Line Support",
+   "page": 467,
+   "understandingPage": 119,
+   "trim": null,
+   "category": "window",
+   "standardIncludes": [
+    "Spanning window in-line support: black"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Spanning window in-line support is needed when spanning a single window across two or more panels. Specify one support for each in-line junction window spans."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7SWS",
+     "desc": "Spanning window in-line support, black (one per in-line junction spanned)",
+     "attrs": {
+      "color": "black"
+     },
+     "price": 43
+    }
+   ]
+  },
+  {
+   "id": "in-line-spanning-top-cap-lightseal",
+   "title": "In-Line Spanning Top Cap Lightseal",
+   "page": 467,
+   "understandingPage": 95,
+   "trim": null,
+   "category": "top-cap",
+   "standardIncludes": [
+    "In-line top cap lightseal: black"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "These lightseals are only needed when spanning two or more panels with a single top cap or frameless glass screen."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "Quantity",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS7STLS1",
+     "desc": "In-line spanning top cap lightseal, black, qty 1",
+     "attrs": {
+      "quantity": 1,
+      "color": "black"
+     },
+     "price": 16
+    },
+    {
+     "style": "TS7STLS10",
+     "desc": "In-line spanning top cap lightseal, black, pack of 10",
+     "attrs": {
+      "quantity": 10,
+      "color": "black"
+     },
+     "price": 160
+    }
+   ]
+  },
+  {
+   "id": "tackboard-wall-channels",
+   "title": "Tackboard for Use with Wall Channels",
+   "page": 468,
+   "understandingPage": null,
+   "trim": null,
+   "category": "other",
+   "standardIncludes": [
+    "Tackboard, fabric direction with horizontal application: fabric price group 1"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Fabric color number",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Fabric price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Fabric price group 2",
+     "price": 14,
+     "priceText": "+$14",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Fabric price group 3",
+     "price": 25,
+     "priceText": "+$25",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Fabric price group 4",
+     "price": 37,
+     "priceText": "+$37",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Fabric price group 5",
+     "price": 58,
+     "priceText": "+$58",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Fabric price group COM",
+     "price": 35,
+     "priceText": "+$35",
+     "spec": "Specify fabric color number."
+    },
+    {
+     "group": "Fabric direction on 24\"W to 60\"W tackboards",
+     "name": "Vertical application",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with vertical application.",
+     "appliesTo": "24\"W to 60\"W"
+    }
+   ],
+   "tips": [
+    "72\"W tackboards accommodate fabric in the horizontal direction only.",
+    "For further information about fabric direction, see page 713."
+   ],
+   "notes": [
+    "Fabric price groups offered: 1-5 and COM only (no groups 6, 7).",
+    "Related Products: Wall channels for Universal bins and shelves, page 626.",
+    "No 'Need help?' understanding page reference given.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions W",
+    "Dimensions H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TS71824TB",
+     "desc": "24\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 24,
+      "height": 18
+     },
+     "price": 122
+    },
+    {
+     "style": "TS71830TB",
+     "desc": "30\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 30,
+      "height": 18
+     },
+     "price": 136
+    },
+    {
+     "style": "TS71836TB",
+     "desc": "36\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 36,
+      "height": 18
+     },
+     "price": 148
+    },
+    {
+     "style": "TS71842TB",
+     "desc": "42\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 42,
+      "height": 18
+     },
+     "price": 163
+    },
+    {
+     "style": "TS71848TB",
+     "desc": "48\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 48,
+      "height": 18
+     },
+     "price": 180
+    },
+    {
+     "style": "TS71860TB",
+     "desc": "60\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 60,
+      "height": 18
+     },
+     "price": 230
+    },
+    {
+     "style": "TS71872TB",
+     "desc": "72\"W x 18\"H tackboard for wall channels",
+     "attrs": {
+      "width": 72,
+      "height": 18
+     },
+     "price": 283
+    }
+   ]
+  },
+  {
+   "id": "sliding-panel-doors",
+   "title": "Sliding Panel Doors",
+   "page": 469,
+   "understandingPage": 120,
+   "trim": null,
+   "category": "door",
+   "standardIncludes": [
+    "Panel door frame and door track: paint price group 1",
+    "Panel door infill: 6625 Translucent plastic",
+    "Floor track",
+    "Attachment bracket"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for panel door frame, door track, floor track, and attachment bracket",
+    "3 Options, if selected (see below)"
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 11,
+     "priceText": "+$ 11",
+     "spec": "Specify paint color number."
+    },
+    {
+     "group": "Door Hand",
+     "name": "Left-hand sliding door",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with left-hand door."
+    },
+    {
+     "group": "Door Hand",
+     "name": "Right-hand sliding door",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify with right-hand door."
+    },
+    {
+     "group": "Door panel",
+     "name": "6500 Clear tempered glass",
+     "price": 246,
+     "priceText": "+$246",
+     "spec": "Specify with 6500 Clear glass."
+    },
+    {
+     "group": "Door panel",
+     "name": "6541 White laminated glass",
+     "price": 383,
+     "priceText": "+$383",
+     "spec": "Specify with 6541 White laminated glass."
+    },
+    {
+     "group": "Door Lock",
+     "name": "Lock",
+     "price": 284,
+     "priceText": "+$284",
+     "spec": "Specify with lock. See Lock and Keying, page 724 – 725"
+    }
+   ],
+   "tips": [
+    "The sliding door is located outside of the panel system when installed in the standard position.",
+    "The standard door is handed and non-locking. When a lock option is specified, the lock will be on the trail end of the door. The illustration above shows a left-handed sliding door. If a lock option is specified, the lock will be on the right (trail) side of the door.",
+    "Width of host panel should always be equal to the width of sliding door.",
+    "Height of host and receiving panels must match height of door.",
+    "Remember to specify lock cylinder and key. Lock Cylinders, page 726.",
+    "When attaching the sliding door to an Answer panel, a junction stabilizer bracket is available for added rigidity to the host panel. If a host and/or receiving panel run exceeds 4', a junction stabilizer bracket must be applied to the door end of the host and/or receiving panel run. On long runs, apply a junction stabilizer bracket or perpendicular panel every 8'. Page 403"
+   ],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "Door hand (left or right) must be specified.",
+    "Only paint price groups 1 and 2 offered.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions D",
+    "Dimensions W",
+    "Dimensions H",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAPDSA6636",
+     "desc": "Sliding panel door 36\"W x 66\"H",
+     "attrs": {
+      "depth": 1.25,
+      "width": 36,
+      "height": 66
+     },
+     "price": 2029
+    },
+    {
+     "style": "TSAPDSA6642",
+     "desc": "Sliding panel door 42\"W x 66\"H",
+     "attrs": {
+      "depth": 1.25,
+      "width": 42,
+      "height": 66
+     },
+     "price": 2150
+    },
+    {
+     "style": "TSAPDSA7836",
+     "desc": "Sliding panel door 36\"W x 78\"H",
+     "attrs": {
+      "depth": 1.25,
+      "width": 36,
+      "height": 78
+     },
+     "price": 2210
+    },
+    {
+     "style": "TSAPDSA7842",
+     "desc": "Sliding panel door 42\"W x 78\"H",
+     "attrs": {
+      "depth": 1.25,
+      "width": 42,
+      "height": 78
+     },
+     "price": 2328
+    }
+   ]
+  },
+  {
+   "id": "hardwire-base-trim",
+   "title": "Hardwire Base Trim",
+   "page": 470,
+   "understandingPage": null,
+   "trim": null,
+   "category": "base-trim",
+   "standardIncludes": [
+    "Base trim with knockouts for hardwired power kit: paint"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number from trim"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "See Surface Materials, page 708.",
+    "No paint price group options listed on this page.",
+    "No 'Need help?' understanding page reference given.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Width",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TS724BTH",
+     "desc": "24\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 24
+     },
+     "price": 18
+    },
+    {
+     "style": "TS730BTH",
+     "desc": "30\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 30
+     },
+     "price": 19
+    },
+    {
+     "style": "TS736BTH",
+     "desc": "36\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 36
+     },
+     "price": 20
+    },
+    {
+     "style": "TS742BTH",
+     "desc": "42\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 42
+     },
+     "price": 21
+    },
+    {
+     "style": "TS748BTH",
+     "desc": "48\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 48
+     },
+     "price": 22
+    },
+    {
+     "style": "TS760BTH",
+     "desc": "60\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 60
+     },
+     "price": 24
+    },
+    {
+     "style": "TS772BTH",
+     "desc": "72\"W hardwire base trim with knockouts for hardwired power kit",
+     "attrs": {
+      "width": 72
+     },
+     "price": 27
+    }
+   ]
+  },
+  {
+   "id": "fence-connectors",
+   "title": "Fence Connectors",
+   "page": 471,
+   "understandingPage": 122,
+   "trim": null,
+   "category": "fence",
+   "standardIncludes": [
+    "Fence connector: 8043 Clear Anodized aluminum",
+    "Post top cap: 6694 Slate plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Refer to Post and Beam Solutions Specification Guide for post and beam information."
+   ],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "CFENCELC",
+     "desc": "Left-hand fence connector",
+     "attrs": {
+      "handed": "left",
+      "finish": "8043 Clear Anodized aluminum"
+     },
+     "price": 114
+    },
+    {
+     "style": "CFENCERC",
+     "desc": "Right-hand fence connector",
+     "attrs": {
+      "handed": "right",
+      "finish": "8043 Clear Anodized aluminum"
+     },
+     "price": 114
+    }
+   ]
+  },
+  {
+   "id": "fence-vertical-post-tube",
+   "title": "Fence Vertical Post Tube",
+   "page": 471,
+   "understandingPage": 123,
+   "trim": null,
+   "category": "fence",
+   "standardIncludes": [
+    "Tube: 6644 Fusion Dark plastic only",
+    "Bracket: 4799 Platinum paint only",
+    "Floor transition: 4799 Platinum paint only"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "BFENCEVPT",
+     "desc": "Fence vertical post tube (conceals power/communication cables between panel and fence)",
+     "attrs": {},
+     "price": 168
+    }
+   ]
+  },
+  {
+   "id": "posts",
+   "title": "Posts",
+   "page": 472,
+   "understandingPage": 122,
+   "trim": null,
+   "category": "fence",
+   "standardIncludes": [
+    "Base: 4799 Platinum paint only",
+    "Base extension: 8043 Clear Anodized Aluminum only",
+    "Post: 8043 Clear Anodized Aluminum only",
+    "Leveling puck",
+    "Top cap: 6694 Slate plastic only",
+    "Standard 12 mm vertical slot on all sides",
+    "3\" vertical adjustability"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Posts with small base cannot be anchored to the floor."
+   ],
+   "notes": [
+    "Related Products (see Post and Beam Solutions Specification Guide): Hub mounts; Vertical post tubes; Post top caps; Post base shim.",
+    "Large post base is 8 1/2\" in diameter; small post base is 4 1/2\" in diameter (page 122).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions D",
+    "Dimensions W",
+    "Dimensions H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "BXP36",
+     "desc": "X-Post with large base",
+     "attrs": {
+      "depth": 4,
+      "width": 4,
+      "height": 33,
+      "type": "X",
+      "base": "large"
+     },
+     "price": 350
+    },
+    {
+     "style": "BXPS36",
+     "desc": "X-Post with small base",
+     "attrs": {
+      "depth": 4,
+      "width": 4,
+      "height": 33,
+      "type": "X",
+      "base": "small"
+     },
+     "price": 350
+    },
+    {
+     "style": "BYP36",
+     "desc": "Y-Post with large base",
+     "attrs": {
+      "depth": 4,
+      "width": 4,
+      "height": 33,
+      "type": "Y",
+      "base": "large"
+     },
+     "price": 350
+    },
+    {
+     "style": "BYPS36",
+     "desc": "Y-Post with small base",
+     "attrs": {
+      "depth": 4,
+      "width": 4,
+      "height": 33,
+      "type": "Y",
+      "base": "small"
+     },
+     "price": 350
+    }
+   ]
+  },
+  {
+   "id": "beams",
+   "title": "Beams",
+   "page": 473,
+   "understandingPage": 122,
+   "trim": null,
+   "category": "fence",
+   "standardIncludes": [
+    "Beam extrusion: 8043 Clear Anodized Aluminum only",
+    "Beam-to-post connectors and attachment hardware",
+    "Standard 12 mm T-slots on top, bottom, and sides of beams to allow for infill and accessory interface"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Beams are most easily attached to posts via a ball driver (drill drive—3/8\", 1/4\" ball x 6\") available from Steelcase (946800104CS) or many hardware manufacturers.",
+    "Beam dimensions are nominal to center of post. See Application Topics in Post and Beam Solutions Specification Guide."
+   ],
+   "notes": [
+    "Related Products (see Post and Beam Solutions Specification Guide): Infills; Horizontal fence tubes.",
+    "Table section: Fence Applications.",
+    "BB042 width printed as 3'4\" (40\") although the style number suggests 42\"; recorded as printed.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions D",
+    "Dimensions W",
+    "Dimensions H",
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "BB042",
+     "desc": "Fence application beam, 3'4\" nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "3'4\"",
+      "width": 40,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 288
+    },
+    {
+     "style": "BB048",
+     "desc": "Fence application beam, 4' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "4'",
+      "width": 48,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 314
+    },
+    {
+     "style": "BB060",
+     "desc": "Fence application beam, 5' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "5'",
+      "width": 60,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 360
+    },
+    {
+     "style": "BB072",
+     "desc": "Fence application beam, 6' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "6'",
+      "width": 72,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 431
+    },
+    {
+     "style": "BB084",
+     "desc": "Fence application beam, 7' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "7'",
+      "width": 84,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 497
+    },
+    {
+     "style": "BB096",
+     "desc": "Fence application beam, 8' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "8'",
+      "width": 96,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 563
+    },
+    {
+     "style": "BB108",
+     "desc": "Fence application beam, 9' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "9'",
+      "width": 108,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 631
+    },
+    {
+     "style": "BB120",
+     "desc": "Fence application beam, 10' nominal (center of post)",
+     "attrs": {
+      "depth": 1.375,
+      "widthText": "10'",
+      "width": 120,
+      "height": 8.5,
+      "application": "fence"
+     },
+     "price": 697
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "Technology skins are available in 24\" to 72\" widths to match standard panel widths.",
+   "kind": "dimension"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "Technology skins are available in steel, ribbed steel, fabric over steel, slatwall, or markerboard. Not all materials are available on all skin heights or widths (steel 6/12/18\"H x 24-72\"W; slatwall and markerboard 12/18\"H x 24-48\"W only).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "Technology skins 30\" or under are available with all cutouts or with only right- or left-hand cutouts (as printed, 24\"W skins are listed with all cutouts only; RH/LH-only begin at 30\"W).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "60\"W and 72\"W skins will have double cutouts and can be optioned to have them on both sides, right hand only or left hand only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "6\"H technology skin has an option to omit all cutouts (TS76xxHS).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "Technology cover is specified separately and can accommodate a receptacle and a NEMA or DECORA communication port. Order TS7TSCOVER covers to fill cutouts; only TS7TSCOVER style covers can be used with steel, slatwall and markerboard technology skins.",
+   "kind": "requirement"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Number of technology covers specified must match the number of cutouts in a skin.",
+   "kind": "requirement"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "Slatwall technology skins include a painted trim for each cutout that is used behind the technology cover, painted to match the skin.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 116,
+   "topic": "technology-skins",
+   "text": "Slatwall technology skins must follow the same vertical placement rules as slatwall skins (see page 112).",
+   "kind": "requirement"
+  },
+  {
+   "page": 460,
+   "topic": "technology-skins",
+   "text": "Slatwall skins cannot be used in the bottom 12\" of an Answer panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Surface materials: 6\"H technology skins – painted steel, fabric covered steel (option). 12\"H and 18\"H – painted steel, ribbed steel (option), fabric covered steel (option), slatwall–painted, markerboard.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Ribbed steel is available on 12\"H and 18\"H steel technology skins only; ribbed steel technology skins cannot be fabric covered.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Fabric application is standard in the warp horizontal direction; warp vertical is available as an option. 72\"W technology skins accommodate fabric in the horizontal application only. See Specification Guidelines for Directional Fabrics, page 713.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Skin attaches to junctions with the same clip used on all Answer skins. Technology covers snap on to the powerkit after receptacle is installed.",
+   "kind": "dimension"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Standard modular powerkits must be used with technology skins and covers; they cannot be used with hardwire kits. A modular powerkit must always be located behind the technology skin.",
+   "kind": "requirement"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Top opening of cover accommodates a NEMA or modular communication port, designed around ANSI/TIA-569-C standards. Communication ports can never be back-to-back. Cover also includes a filler if no communication is being used.",
+   "kind": "limit"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Receptacle cover is available through Service Parts (891700204MP) to cover the receptacle opening if no receptacle is specified (receptacle filler package of 20).",
+   "kind": "tip"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "24\"W technology skins have one cutout. Communication ports cannot be supported back to back, so in this skin width communication can only be accommodated on one side of the panel at the same elevation.",
+   "kind": "limit"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "All 36\"W, 42\"W, and 48\"W technology skins have one or two cutouts. The right-hand cutout can accommodate power only or power and communication. Left-hand cutout can only accommodate the power.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "All 30\"W, 60\"W, and 72\"W technology skins have one or two cutouts. For each double cutout the right-hand opening can accommodate power only or power and communication. Left-hand cutout can only accommodate the power.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "If using powerkits shipped prior to April 2000 in an existing application, power and communication cover must be placed on the left-hand side of the technology skin.",
+   "kind": "requirement"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Technology skin cover fillers allow technology skin cover to work with technology skins manufactured before October 10, 2011; fillers are available for single or double cutouts and are painted.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "Slatwall skin brace package is required when mounting a Details flat panel monitor arm on an Answer slatwall technology skin. One Details single monitor arm can be mounted on a 12\"H or 18\"H slatwall technology skin with a single cutout; the skin must have an installed brace package.",
+   "kind": "requirement"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "6\"H technology skin can only be used in the position just above the worksurface. The skin (with cutouts) includes powerkit brackets to reposition the powerkit location on the junction.",
+   "kind": "limit"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "When using a 6\" technology skin on one side of the panel (only used at worksurface height) a 12\" or 18\" technology skin cannot be used on the opposite side of the panel at the same location as the 6\"H skin.",
+   "kind": "limit"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "6\"H technology skins cannot be used on a 30\" high panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 117,
+   "topic": "technology-skins",
+   "text": "6\"H technology skins with no cutouts can be used in any 6\" position on the panel with the exception of the bottom 12\" of the panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 459,
+   "topic": "technology-skins",
+   "text": "6\"H and 18\"H technology skins can only attach to junctions manufactured on or after October 10, 2011.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 462,
+   "topic": "technology-skins",
+   "text": "Technology skin cover filler (TS7TSCFS single / TS7TSCFD double) is required when using a TS7TSCOVER technology skin cover on skins manufactured before November 21, 2011. The filler is included as standard with slatwall technology skins.",
+   "kind": "requirement"
+  },
+  {
+   "page": 459,
+   "topic": "technology-skins",
+   "text": "6\"H technology skins with cutouts include a pair of powerkit brackets that attach the powerkit to the junction to correctly position it within the panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 458,
+   "topic": "technology-skins",
+   "text": "Fabric on steel technology skins: +$49 plus the cost of fabric price group (groups 1-7, COM). Paint price groups 1-3 on steel skins; slatwall skins paint groups 1-2 only; markerboard white only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Glass windows are available in single pane or double pane; single pane kit ships without glass for use with custom glass ordered separately. Safety glass is provided unless custom glass window kit is ordered.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Glass window is secured by brackets in the window frame; metal frame is painted and fully assembled.",
+   "kind": "dimension"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Power and cables cannot be routed vertically or accessed in a glass window.",
+   "kind": "limit"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Top channel of a window used in the top position of a panel can accommodate lay-in cable routing beneath top cap.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Surface materials: Frame – paint. Single-pane window – 6500 Clear Glass (standard) or 6530 Frosted Glass (option). Double-pane window – 6530 Frosted Glass only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "12\"H, 18\"H, and 24\"H glass windows can be placed in the top position of a panel either by using stacking junctions, or by lowering the top horizontal connecting bar (24\" maximum) in the base panel. See Stability Guidelines for rules regarding stacking and glass windows, page 124.",
+   "kind": "requirement"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "A 24\"H glass window installed in the top of a base panel (lowered horizontal bar) cannot accommodate any windows stacked on top. Tackable acoustical skins and steel skins can be stacked.",
+   "kind": "limit"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "No more than two windows may be stacked on top of each other.",
+   "kind": "limit"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Glass window cannot be used at the base of a panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 118,
+   "topic": "glass-windows",
+   "text": "Hanging components cannot be hung in front of a double-pane window.",
+   "kind": "limit"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "Hanging components cannot be used next to a double-pane window at a 90° corner.",
+   "kind": "limit"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "Open design upmount bin and shelf bracket cannot be used when double-pane window is in top position of panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "Sliding panel door cannot be used when a double-pane window is used in the host panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "When installing windows, you must consider ceiling height. Windows slide into junctions from the top and require clearance above the panel.",
+   "kind": "requirement"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "A single glass window can span over two or more in-line panels. Spanning windows should be used in the top position only.",
+   "kind": "limit"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "Spanning window in-line support (TS7SWS) must be specified separately when spanning windows. One support is used at each in-line junction to provide a light seal and help support the window.",
+   "kind": "requirement"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "When a spanning window is used, it is recommended that the same size spanning top cap also be specified for use on the window.",
+   "kind": "tip"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "Spanning windows of any width cannot be stacked on top of each other.",
+   "kind": "limit"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "When double stacking junctions, at least one of the stacking junctions must be connected with a horizontal beam.",
+   "kind": "requirement"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "When ordering a 78\"W or wider single pane window kit to be used with steel or fabric skins located directly below it, two clips (T521328SR) should be ordered and installed. (Spec page 464 tip says 72\"W or wider.)",
+   "kind": "requirement"
+  },
+  {
+   "page": 119,
+   "topic": "glass-windows",
+   "text": "Field-installed single-pane custom glass kits (SCW) accommodate 4 mm – 6 mm glass; glass size: height 9.760\" (12\"H), 15.940\" (18\"H), 22.120\" (24\"H); width 21.280\" (24\"W), 27.280\" (30\"W), 33.280\" (36\"W), 39.280\" (42\"W), 45.280\" (48\"W), 57.280\" (60\"W), 69.280\" (72\"W), 75.280\" (78\"W), 81.280\" (84\"W), 87.280\" (90\"W), 93.280\" (96\"W); maximum thickness 0.245\".",
+   "kind": "dimension"
+  },
+  {
+   "page": 466,
+   "topic": "glass-windows",
+   "text": "Glass window kits for custom glass are available for single pane only; custom glass must be ordered separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 467,
+   "topic": "glass-windows",
+   "text": "In-line spanning top cap lightseals (TS7STLS1 / TS7STLS10) are only needed when spanning two or more panels with a single top cap or frameless glass screen.",
+   "kind": "requirement"
+  },
+  {
+   "page": 120,
+   "topic": "sliding-panel-doors",
+   "text": "Sliding door is handed (right-hand or left-hand must be specified). Left-hand sliding door closes from right to left; lock mechanism on the right-hand side. Right-hand sliding door closes from left to right; lock mechanism on the left-hand side.",
+   "kind": "requirement"
+  },
+  {
+   "page": 120,
+   "topic": "sliding-panel-doors",
+   "text": "Door must be installed on the outside of the workstation.",
+   "kind": "requirement"
+  },
+  {
+   "page": 121,
+   "topic": "sliding-panel-doors",
+   "text": "Sliding door is not freestanding. It must mount to panels. Door is attached to the host panel only; stability of the door is related to the stability of the host panel. Door track is attached to both host panel and opposite (receiving) panel.",
+   "kind": "requirement"
+  },
+  {
+   "page": 121,
+   "topic": "sliding-panel-doors",
+   "text": "Height of door must match height of host panel – 66\"H or 78\"H. Height of receiving panel must match height of the door.",
+   "kind": "requirement"
+  },
+  {
+   "page": 121,
+   "topic": "sliding-panel-doors",
+   "text": "Match the width of the host panel to the width of the door, if possible (spec page: width of host panel should always be equal to the width of sliding door; doors 36\"W or 42\"W).",
+   "kind": "requirement"
+  },
+  {
+   "page": 121,
+   "topic": "sliding-panel-doors",
+   "text": "Sliding door can be specified with lock option; specify lock cylinder and key separately (Lock Cylinders, page 726). Standard door is non-locking; lock is on the trail end of the door.",
+   "kind": "requirement"
+  },
+  {
+   "page": 121,
+   "topic": "sliding-panel-doors",
+   "text": "Door insert is standard in ribbed, translucent plastic (6625); clear tempered glass (6500) and white laminated glass (6541) are options. Frame and door track: paint.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 120,
+   "topic": "sliding-panel-doors",
+   "text": "Sliding door frame and threshold are extruded aluminum and painted. Door handle is integral and ADA compliant. Door slides along threshold on wheels with 1\" adjustment for uneven floors; threshold is ADA compliant.",
+   "kind": "dimension"
+  },
+  {
+   "page": 121,
+   "topic": "sliding-panel-doors",
+   "text": "Sliding panel door cannot attach to a host panel with a double-pane window.",
+   "kind": "limit"
+  },
+  {
+   "page": 139,
+   "topic": "sliding-panel-doors",
+   "text": "Host panel: if host panel run exceeds 4', a junction stabilizer bracket must be applied to the door end of the host panel run. On long host panel runs, apply a junction stabilizer bracket or perpendicular panel every 8'.",
+   "kind": "requirement"
+  },
+  {
+   "page": 139,
+   "topic": "sliding-panel-doors",
+   "text": "Receiving panel: if receiving panel run exceeds 4', a junction stabilizer bracket must be applied to the door end of the receiving panel run. On long receiving panel runs, apply a junction stabilizer bracket or perpendicular panel every 8'.",
+   "kind": "requirement"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Fence connectors attach Post and Beam perpendicular to Answer panels forming a fin wall support. Connector engages in the vertical slot; connector is handed for attachment on either the left- or right-hand side of the frame.",
+   "kind": "requirement"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Minimum beam length is 4'. Maximum beam length is 10'. (BB042 printed as 3'4\" is listed in the spec table.)",
+   "kind": "limit"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Post attaches to beams in in-line, L-, T-, X-, or Y- (120°) configurations.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Connector occupies vertical slots in the frame 32 1/2\" measured up from the bottom edge of the base trim.",
+   "kind": "dimension"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Large post base is 8 1/2\" in diameter. Small post base is 4 1/2\" in diameter. Posts with small base cannot be anchored to the floor.",
+   "kind": "dimension"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Leveling capability is provided by 3\" adjustability between the post and base extension (7/8\" to 3 7/8\"); height-adjustment jack available through Service Parts (946800103SR).",
+   "kind": "dimension"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Post base shims, ordered separately, can be used under post base to raise to the appropriate carpet level.",
+   "kind": "tip"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Beams may be field cut to any dimension. An anchor block drilling fixture must be ordered through Service Parts (946800102SR) to place new anchor block holes after cutting.",
+   "kind": "requirement"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "When attaching screens to Post and Beam fence, remember to order attachment hardware separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Fence dust covers can be inserted into top T-slot on fence beam; come in 10-foot lengths and can be cut to size in the field.",
+   "kind": "tip"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Fence connector is mounted within the module width of the frame. Horizontal space within that frame is reduced by 1 1/4\"; width of panel-mounted worksurfaces is affected by this change in module.",
+   "kind": "dimension"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Monolithic skins and lower segmented skins up to 32 1/2\" measured from the bottom of the base trim are trapped by the fence connector once installed on the panel frame. Base trim is not trapped.",
+   "kind": "tip"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Cantilevers cannot occupy the same vertical slots as the fence connector bracket.",
+   "kind": "limit"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Fence connector cannot be used when panels are stacked and loaded with bins and shelves.",
+   "kind": "limit"
+  },
+  {
+   "page": 122,
+   "topic": "fence-post-beam",
+   "text": "Fence connector cannot be placed between two slatwall skins.",
+   "kind": "limit"
+  },
+  {
+   "page": 123,
+   "topic": "fence-post-beam",
+   "text": "Screens can be mounted above or below beams. Shelves sit above the worksurface and are 35 1/4\" high. Infill (fabric screen) stretches overhead beam to floor, overhead beam to fence beam, or fence beam to floor. Horizontal fence tubes provide power/cable management at fence beam locations. Vertical post tube conceals power/communication cables routed between panel and fence.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 123,
+   "topic": "fence-post-beam",
+   "text": "Tether brackets can be used to side support worksurfaces; use of tether brackets as side supports further reduces horizontal space available by 1 1/2\" each side and affects planning of mounted worksurfaces.",
+   "kind": "dimension"
+  },
+  {
+   "page": 123,
+   "topic": "fence-post-beam",
+   "text": "Surface materials: fence connector 8043 Clear Anodized aluminum only; post top cap 6694 Slate plastic only; vertical post tube 6644 Fusion Dark plastic only.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 124,
+   "topic": "stability",
+   "text": "When panel height exceeds six feet in seismic geographical areas rated at a 3 or 4, floor plans must be submitted to a certified structural engineering firm to assure the product application complies with applicable building codes. Steelcase is not responsible for consultation fees.",
+   "kind": "requirement"
+  },
+  {
+   "page": 124,
+   "topic": "stability",
+   "text": "Maximum allowable stacked panel height is 90\".",
+   "kind": "limit"
+  },
+  {
+   "page": 124,
+   "topic": "stability",
+   "text": "Change-of-height has no effect on these stability guidelines unless otherwise specified.",
+   "kind": "tip"
+  },
+  {
+   "page": 124,
+   "topic": "stability",
+   "text": "Ways to anchor the end of a panel run: with a return panel; with an end panel; with a pedestal, pedestal filler, or a lateral file with a storage-to-panel connector.",
+   "kind": "requirement"
+  },
+  {
+   "page": 124,
+   "topic": "stability",
+   "text": "Consult your local dealer or Steelcase representative prior to deviating from these guidelines.",
+   "kind": "tip"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "Panel-hung components: guidelines treat shelves and bins as interchangeable.",
+   "kind": "tip"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "If bins or shelves are applied at an elevation higher than 66\", a perpendicular panel of same height (or up to 24\" lesser height) is required.",
+   "kind": "requirement"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "Top of universal sliding door bin is not designed to support the weight of a seated person.",
+   "kind": "limit"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "When ganging bins or shelves, the use of a tie plate is required.",
+   "kind": "requirement"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "In all cases, up to two panel-hung components may be used per panel, per side (e.g., one on one side, one on each side, two on one side, two on each side).",
+   "kind": "limit"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "When 24\"W return panels are placed adjacent to each end of components, you may use up to four shelves or bins on a panel (without worksurfaces).",
+   "kind": "limit"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "Three shelves or bins (with 24\"W returns at each end, no worksurfaces): 48\" maximum vertical loading space including top; component run 6' max.; return footprint dimensioned 48\" min.",
+   "kind": "limit"
+  },
+  {
+   "page": 125,
+   "topic": "stability",
+   "text": "Four shelves or bins (with 24\"W returns at each end, no worksurfaces): 60\" maximum vertical loading space including top; component run 5' max.; return footprint dimensioned 48\" min.",
+   "kind": "limit"
+  },
+  {
+   "page": 126,
+   "topic": "stability",
+   "text": "\"L\" configurations, panels with panel-hung components: if A (each leg) is up to 12' or less, you need to have either a pedestal with filler, a jetty or bubble jetty worksurface, or an end panel on end. Maximum 8' of shelves or bins per panel run.",
+   "kind": "requirement"
+  },
+  {
+   "page": 126,
+   "topic": "stability",
+   "text": "\"T\" configurations, panels without panel-hung components: an 8' run with no panel-hung component does not require a return panel (stem 5' min./8' max.; crossbar panels 30\" min./60\" max. each side). For additional stability or longer runs, apply a junction stabilizer bracket every 8' bolted to a concrete floor.",
+   "kind": "limit"
+  },
+  {
+   "page": 126,
+   "topic": "stability",
+   "text": "\"T\" configurations without panel-hung components: for runs over 8' up to 18', you must use at least a 30\"W return panel at the end (crossbar panels 30\" min./60\" max. each side; 18' max.).",
+   "kind": "requirement"
+  },
+  {
+   "page": 127,
+   "topic": "stability",
+   "text": "\"T\" configurations without panel-hung components: for runs over 18', you must locate a 48\"W perpendicular panel every 12' (12' max. between supports; 5' min. starting crossbar; 30\" min. end return).",
+   "kind": "requirement"
+  },
+  {
+   "page": 127,
+   "topic": "stability",
+   "text": "\"T\" with panel-hung components counterbalanced on both sides: if A is 4' long and B is 6' long, you must use an end panel and a cantilever.",
+   "kind": "requirement"
+  },
+  {
+   "page": 127,
+   "topic": "stability",
+   "text": "\"T\" counterbalanced: if B is 6' to 12', you must use one center support panel per side (12' max.). Maximum 8' of shelves or bins per panel run.",
+   "kind": "requirement"
+  },
+  {
+   "page": 127,
+   "topic": "stability",
+   "text": "\"T\" counterbalanced: if B is up to 6' long (A 6' max.), you can use cantilevers to support adjoining worksurfaces.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 127,
+   "topic": "stability",
+   "text": "\"T\" counterbalanced: if B is up to 6' long (with 12' max. run), you can use cantilevers to support adjoining worksurfaces. Maximum 8' of shelves or bins per panel run.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "Support brackets—no overheads: panel run 12' max., panel height 66\" max. One end of panel run must be supported by a panel that is minimum 24\" wide, or a tower with tall storage-to-panel connector (24\" or 30\"D).",
+   "kind": "requirement"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "Support brackets—no overheads: other end of panel run can be supported by open loop leg, closed loop leg, pedestal with filler, end panel, or 1.5H or 2H storage with storage-to-panel connector (18\" or 24\" deep cabinet in perpendicular application; 24\" deep cabinet in parallel application).",
+   "kind": "requirement"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "When using a tower with a storage-to-panel connector to support the panel run, counterweight is required for towers that need them, unless the panel run is equal to or greater than 5'.",
+   "kind": "requirement"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "24\" deep worksurfaces can be completely supported by cantilever brackets or a combination of cantilever and side support brackets, pedestals, legs (post, open loop, closed loop), end panel support, and 1.5H storage with intermediate support.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "When using cantilevers to support a 24\" deep worksurface, minimum return panel width is 30\". Panel width can be reduced to 24\" to match the worksurface depth if side support brackets are applied.",
+   "kind": "requirement"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "30\" deep worksurfaces: straight and transition worksurfaces require additional floor support along the front edge at each end, such as side support brackets, pedestal, or post leg.",
+   "kind": "requirement"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "Support brackets—overheads: panel run 8' max., panel height 66\" max.; same end-support rules as without overheads (one end: panel min. 24\" wide or tower with tall storage-to-panel connector 24\" or 30\"D; other end: open/closed loop leg, pedestal with filler, end panel, 1.5H or 2H storage with storage-to-panel connector).",
+   "kind": "limit"
+  },
+  {
+   "page": 128,
+   "topic": "stability",
+   "text": "Overhead bin or shelf cannot span over or be positioned over tower.",
+   "kind": "limit"
+  },
+  {
+   "page": 129,
+   "topic": "stability",
+   "text": "Support brackets—no panel-hung components: panel run 12' max., 66\" max. panel height; one end supported by panel min. 24\" wide or tower with tall storage-to-panel connector (24\" or 30\"D); other end by open loop leg, closed loop leg, pedestal with filler, end panel, or 1.5H/2H storage with storage-to-panel connector (18\" or 24\" deep cabinet perpendicular; 24\" deep cabinet parallel). Same 24\"D/30\"D worksurface rules apply.",
+   "kind": "limit"
+  },
+  {
+   "page": 129,
+   "topic": "stability",
+   "text": "Support brackets—panel-hung components: panel run 8' max., 66\" max. panel height; same end-support and worksurface rules; overhead bin or shelf cannot span over or be positioned over tower; tower counterweight required unless panel run is 5' or greater.",
+   "kind": "limit"
+  },
+  {
+   "page": 130,
+   "topic": "stability",
+   "text": "Support brackets: if A is between 8' and 10' (10' max.), side support brackets are required at each end of the run. Both ends of loaded panel run must be supported by perpendicular panels (24\" min. wide, 42\" min. high).",
+   "kind": "requirement"
+  },
+  {
+   "page": 130,
+   "topic": "stability",
+   "text": "Note: panel fin on one side can be replaced by a tower with a tall storage-to-panel connector as long as the tower is not outside the panel run and the overhead bin or shelf is not spanning over or positioned over the tower.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 130,
+   "topic": "stability",
+   "text": "Support brackets: if A is greater than 10', side support brackets are required at both ends of each worksurface. Full height perpendicular panels need to support the loaded panels every 8' (8' max. between supports; perpendicular panels 24\" min.).",
+   "kind": "requirement"
+  },
+  {
+   "page": 130,
+   "topic": "stability",
+   "text": "\"U\" configurations: if A is 12' or less, no floor support is required mid-run. Maximum 8' of shelves or bins per panel run.",
+   "kind": "limit"
+  },
+  {
+   "page": 130,
+   "topic": "stability",
+   "text": "\"U\" configurations: if A is between 12' and 16' (16' max.), some type of floor support is required mid-run. Maximum 8' of shelves or bins per panel run.",
+   "kind": "requirement"
+  },
+  {
+   "page": 131,
+   "topic": "stability",
+   "text": "\"X\" configurations, panels without components (8' legs shown): for additional stability or longer runs, apply a junction stabilizer bracket every 8' bolted to a concrete floor.",
+   "kind": "requirement"
+  },
+  {
+   "page": 131,
+   "topic": "stability",
+   "text": "\"X\" configurations with components: if panel is 6' or less, no center support is needed.",
+   "kind": "limit"
+  },
+  {
+   "page": 131,
+   "topic": "stability",
+   "text": "\"X\" configurations with components (12' max.): center support panel is needed every 6'. Cantilevers can be used to tie spanner in. Maximum 8' of shelves or bins per panel run.",
+   "kind": "requirement"
+  },
+  {
+   "page": 132,
+   "topic": "stability",
+   "text": "\"V\" configurations with components: if A is up to 12' or less, you need to have either a pedestal with filler, a jetty or bubble jetty worksurface, or an end panel on end. 30\"D straight and transition worksurfaces require additional floor support along the front edge, such as a pedestal or post leg. Maximum 8' of shelves or bins per panel run.",
+   "kind": "requirement"
+  },
+  {
+   "page": 132,
+   "topic": "stability",
+   "text": "\"U\" configuration (with 120° V junction): must have a cantilever with the 120° V junction. The other end needs to be supported with a full-height panel, end panel, or a pedestal with filler (36\" min. start panel, 8' max. run, 24\" min. end support).",
+   "kind": "requirement"
+  },
+  {
+   "page": 132,
+   "topic": "stability",
+   "text": "No components can be hung on back side of panel run (V configuration) unless in a \"Y\" configuration.",
+   "kind": "limit"
+  },
+  {
+   "page": 133,
+   "topic": "stability",
+   "text": "\"Y\" configurations without components (8' legs shown): for additional stability or longer runs, apply a junction stabilizer bracket every 8' bolted to a concrete floor.",
+   "kind": "requirement"
+  },
+  {
+   "page": 133,
+   "topic": "stability",
+   "text": "\"Y\" configurations with components: if panel is 6' or less, no center support is needed.",
+   "kind": "limit"
+  },
+  {
+   "page": 133,
+   "topic": "stability",
+   "text": "\"Y\" configurations with components (12' max.): center support panel is needed every 6'. Cantilevers can be used to tie spanner in. Maximum 8' of shelves or bins per panel run.",
+   "kind": "requirement"
+  },
+  {
+   "page": 133,
+   "topic": "stability",
+   "text": "\"Y\" configuration must have an end panel with a connector bracket with the 120° Y junction. The other end needs to be supported with a full-height panel, end panel, or a pedestal with filler. For 24\"D worksurfaces the center can be supported by a cantilever when bins and worksurfaces are used on both sides. 30\"D straight and transition worksurfaces require additional floor support along the front edge, such as a pedestal or post leg (30\" min. panels at Y; 8' max. run; 30\" min. end supports).",
+   "kind": "requirement"
+  },
+  {
+   "page": 133,
+   "topic": "stability",
+   "text": "Note (Y): when using cantilevers to support a 24\" deep worksurface, minimum panel width is 30\". Panel width can be reduced to 24\" to match the worksurface depth if side support brackets are applied.",
+   "kind": "requirement"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench without top cap mounted storage, single sided: panel run 5' min., 24' max.; panel height 48\" max.; 12' max. between front supports; 24\" worksurface depth.",
+   "kind": "limit"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench without top cap mounted storage, double sided: panel run no min., 24' max.; panel height 48\" max.; 12' max. between supports.",
+   "kind": "limit"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench with cabinet storage-to-panel support: 12' max. run, 48\" max. panel height. When using a 1H, 1.5H, or 2H cabinet with a storage-to-panel bracket to support the panel run, counterweights are required for cabinets that need them, unless the application is mirrored and the panel run is equal to or greater than 6'.",
+   "kind": "requirement"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Single sided bench applications using half loop leg require a cantilever between the leg and the next support.",
+   "kind": "requirement"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench end-of-run support options: post leg and cantilever; half loop leg; open loop leg; closed loop leg; worksurface end panel; pedestal with filler; 1H, 1.5H, or 2H (18\" on 24\"D) cabinet with panel-to-storage connector in perpendicular application; 1H, 1.5H, or 2H (24\"D) cabinet with panel-to-storage connector in parallel application. Note: 1H and 1.5H cabinet requires intermediate support.",
+   "kind": "requirement"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench without top cap storage: maximum worksurface depth is 24\" with front support every 12'.",
+   "kind": "limit"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench: 30\"D worksurfaces require legs in the front of each worksurface on both ends of the worksurface.",
+   "kind": "requirement"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench: center support panels cannot be used as supports.",
+   "kind": "limit"
+  },
+  {
+   "page": 134,
+   "topic": "stability",
+   "text": "Bench: slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "Single sided bench with aisleway top cap mounted storage: panel run 5' min., 20' max.; 10' max. between legs; 48\" max. panel height.",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "Double sided bench with center top cap mounted storage: panel run no min., 20' max.; 10' max. between legs; 48\" max. panel height.",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "The maximum panel height with Duo and Elective Elements storage is 48\". The maximum panel height with c:scape storage is 42\".",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "10' max between legs when using legs and cantilevers to support panel.",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "In aisleway applications, the back of the storage overhangs the panel 3.5\". Aisleway mounting can accept storage up to 17\"D.",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "When top cap storage is center maintained, the storage is shared equally on top of the panel. Center mounting can accept storage up to 25\"D.",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "When using storage to panel connectors to support the panel application, the maximum distance between storage to panel connection is 6' (48\" max panel height).",
+   "kind": "limit"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "Bench with top cap storage end-of-run support options: post leg and cantilever; half loop leg; open loop leg; closed loop leg; worksurface end panel; pedestal with filler; 1H, 1.5H, or 2H (18\" on 24\"D) cabinet with panel-to-storage connector in perpendicular application; 1H, 1.5H, or 2H (24\"D) cabinet with panel-to-storage connector in parallel application. Note: 1H and 1.5H cabinet requires intermediate support.",
+   "kind": "requirement"
+  },
+  {
+   "page": 135,
+   "topic": "stability",
+   "text": "Bench with top cap storage: maximum worksurface depth is 24\" with front support every 10'. 30\"D worksurfaces require legs in the front of each worksurface on both ends. Center support panels cannot be used as supports. Slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.",
+   "kind": "limit"
+  },
+  {
+   "page": 136,
+   "topic": "stability",
+   "text": "Post and beam fence (no components): beams 4' to 10' in length; fences spaced no more than 10' apart can stabilize a wall; maximum panel height 78\"H.",
+   "kind": "limit"
+  },
+  {
+   "page": 136,
+   "topic": "stability",
+   "text": "Post and beam fence with a single panel-mounted component: beams 4' to 10' in length; maximum panel height 78\"H; maximum panel run unlimited; fences spaced no more than 10' apart can stabilize a wall with a single panel-mounted component installed on the same side as the fence for each 10' run.",
+   "kind": "limit"
+  },
+  {
+   "page": 136,
+   "topic": "stability",
+   "text": "Post and beam fence with upper storage: beams 3 1/2' to 8' in length; maximum panel height 78\"H; maximum panel run 16'; fences spaced no more than 8' apart can stabilize a wall with upper storage.",
+   "kind": "limit"
+  },
+  {
+   "page": 136,
+   "topic": "stability",
+   "text": "When hanging components on a stacked frame, you cannot use a fence connector.",
+   "kind": "limit"
+  },
+  {
+   "page": 137,
+   "topic": "stability",
+   "text": "When using a wall-start junction, an end panel must be used with the wall-start junction and the other end must be supported by a full panel, an end panel, or a pedestal with a filler. For 24\"D worksurfaces, the center can be supported by a cantilever. 30\"D straight and transition worksurfaces require additional floor support along the front edge, such as a pedestal or post leg.",
+   "kind": "requirement"
+  },
+  {
+   "page": 137,
+   "topic": "stability",
+   "text": "Wall-start junction with components: 10' max. run when the other end is a full-height return panel; 8' max. run when the other end is an end panel or a pedestal with filler (single- and double-sided).",
+   "kind": "limit"
+  },
+  {
+   "page": 137,
+   "topic": "stability",
+   "text": "Wall hang channels for shelves and overhead storage bins cannot be used with a wall-start junction.",
+   "kind": "limit"
+  },
+  {
+   "page": 137,
+   "topic": "stability",
+   "text": "Wall-start junctions must secure to the stud in a building wall or use drywall fasteners.",
+   "kind": "requirement"
+  },
+  {
+   "page": 138,
+   "topic": "stability",
+   "text": "Off-module bracket \"U\" configuration: when using an Answer off-modular connector bracket, a cantilever must be used with the connector bracket. The other end needs to be supported with a panel, end panel, or a pedestal with filler. For 24\"D worksurfaces, the center can be supported by a cantilever. 30\"D straight and transition worksurfaces require additional floor support along the front edge, such as a pedestal or post leg (30\" min. spine panel, 8' max. run, end support 42\" min. high x 30\" min. wide).",
+   "kind": "requirement"
+  },
+  {
+   "page": 138,
+   "topic": "stability",
+   "text": "Note (off-module U): when using cantilevers to support a 24\" deep worksurface, minimum panel width is 30\". Panel width can be reduced to 24\" to match the worksurface depth if side support brackets are applied.",
+   "kind": "requirement"
+  },
+  {
+   "page": 138,
+   "topic": "stability",
+   "text": "Off-module bracket \"T\" configuration: a cantilever must be used with the connector bracket. The other end needs to be supported with a panel, end panel, or a pedestal with filler. For 24\"D worksurfaces, the center can be supported by a cantilever when bins and worksurfaces are used on both sides. 30\"D straight and transition worksurfaces require additional floor support along the front edge, such as a pedestal or post leg (60\" min. spine panel, 8' max. run, end panels 42\" min. high, 30\" min. each side).",
+   "kind": "requirement"
+  },
+  {
+   "page": 138,
+   "topic": "stability",
+   "text": "Wall-start junction must match the fin panel height coming off the spine wall. Change-of-height trim is not available to cover exposed wall-start junction.",
+   "kind": "requirement"
+  },
+  {
+   "page": 138,
+   "topic": "stability",
+   "text": "Loading on spine wall with change-of-height off-module fin is allowed with a maximum of 12\" height difference between spine and fin (fin run 8' or less). No loading on spine is permitted if the spine is 24\"H or higher than the off-module fin. End panels or a pedestal with a filler is required to support a worksurface attached to spine.",
+   "kind": "limit"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 116,
+   "subject": "Technology skins",
+   "text": "Actual Dimensions — Width: 23 53/64\", 29 53/64\", 35 53/64\", 41 53/64\", 47 53/64\", 59 53/64\", and 71 53/64\"; Height: 6 1/8\", 12 9/32\", and 18 7/16\"; Thickness: 13/32\"."
+  },
+  {
+   "page": 117,
+   "subject": "Technology skin cutout positions (diagrams)",
+   "text": "Cutout layouts (dimension strings left to right along skin width): 24\"W – 9\", 6\" (single cutout), 9\"; 30\"W – 9\", 12\" (double cutout), 9\"; 36\"W – 9\", 6\", 6\", 6\", 9\" (two single cutouts); 42\"W – 9\", 6\", 12\", 6\", 9\"; 48\"W – 9\", 6\", 18\", 6\", 9\"; 60\"W – 9\", 12\", 18\", 12\", 9\" (two double cutouts); 72\"W – 9\", 12\", 30\", 12\", 9\" (two double cutouts). Single cutout opening 6\" wide, double cutout 12\" wide."
+  },
+  {
+   "page": 118,
+   "subject": "Glass windows",
+   "text": "Actual Dimensions — Depth: 2 7/8\" (single pane) and 3 11/64\" (double pane); Width: 23 51/64\", 29 51/64\", 35 51/64\", 41 51/64\", 47 51/64\", 59 51/64\", 71 51/64\", 77 51/64\", 83 51/64\", 89 51/64\", and 95 51/64\"; Height: 12 9/32\", 18 7/16\", and 24 41/64\"."
+  },
+  {
+   "page": 119,
+   "subject": "Custom glass inserts for SCW kits",
+   "text": "Field-installed single-pane custom glass kits accommodate 4 mm – 6 mm glass. Glass height 9.760\" (12\"H frame), 15.940\" (18\"H), 22.120\" (24\"H). Glass width 21.280\" (24\"W), 27.280\" (30\"W), 33.280\" (36\"W), 39.280\" (42\"W), 45.280\" (48\"W), 57.280\" (60\"W), 69.280\" (72\"W), 75.280\" (78\"W), 81.280\" (84\"W), 87.280\" (90\"W), 93.280\" (96\"W). Maximum thickness 0.245\"."
+  },
+  {
+   "page": 120,
+   "subject": "Sliding panel doors",
+   "text": "Actual Dimensions — Door height 66\" and 78\"; Door width 36\" and 42\"; Door thickness 1 1/4\"."
+  },
+  {
+   "page": 122,
+   "subject": "Fence connectors, posts, beams",
+   "text": "Actual Dimensions — Fence Connectors: Depth 2\", Width 1 3/8\", Height 32 1/2\", Leveling N.A. Posts: Depth 4\", Width 4\", Height 33\", Leveling mechanism range 3\". Beams: Depth 1 3/8\", Width 3'4\", 4', 5', 6', 7', 8', 9', 10', Height 8 1/2\", Leveling N.A."
+  }
+ ],
+ "unresolved": [
+  "Page 473/122: BB042 beam width printed as 3'4\" (40\") while style number implies 42\"; also page 122 states minimum beam length is 4'. Recorded width as printed (width attr 40).",
+  "Page 464 tip says clips T521328SR needed for 72\"W or wider single pane window kits over steel/fabric skins; page 119 says 78\"W or wider. Both recorded.",
+  "Page 125: the '48\" min.' dimension in the four-shelf/three-shelf diagrams appears to measure the return-panel footprint perpendicular to the loaded panel; interpretation uncertain.",
+  "Page 462: Technology skin cover filler tip says required on skins manufactured before November 21, 2011, while page 117 says fillers are for skins manufactured before October 10, 2011. Both recorded.",
+  "Page 468 (tackboard) and page 470 (hardwire base trim) have no 'Need help? Product details' reference; understandingPage set to null.",
+  "Page 463 is intentionally blank (header only); page 140 blank."
+ ]
+}

@@ -1,0 +1,55 @@
+Answer Solutions Specification Guide                                                                                                                          cUniversal Mobile Pedestals, continued  613
+Universal Storage
+Universal Storage 
+Universal Mobile Pedestals 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cOptions, continued from previous page
+Options                       U.S. Price               Required to Specify
+  Tops, cont              Upholstery on pedestal cushion top
+                               • Fabric price group 1                   No cost                                 Specify fabric color number.
+                                     • Fabric price group 2                   +$  10                                    Specify fabric color number.
+                                     • Fabric price group 3                   +$  38                                    Specify fabric color number.
+                                     • Fabric price group 4                   +$  47                                    Specify fabric color number.
+                                     • Fabric price group 5                   +$  59                                    Specify fabric color number.
+                                     • Fabric price group 6                   +$  83                                    Specify fabric color number.
+                                     • Fabric price group 7                   +$100                                   Specify fabric color number.
+                                     • Fabric price group 8                   +$145                                   Specify fabric color number.
+                                     • Fabric price group 9                   +$186                                   Specify fabric color number.
+                                     • Fabric price group 10                 +$226                                   Specify fabric color number.
+                                     • Leather price group                    +$580                                   Specify leather color number.
+                                     • Elmosoft leather price group      +$671                                   Specify Elmosoft leather color number.
+                                                                                                                                       cSee Surface Materials, page 708.
+                                     • Customer’s Own Material           +$  16                                 cSee Surface Materials Reference Manual
+                                        (COM) or Customer’s Own                                                       to specify.
+                                        Leather (COL)
+  Pulls                       Flush steel fronts
+                               • Full-width wood veneer pull        +$246                                  Specify with wood pull and indicate
+                                                                                                                                  wood color number.
+                                     • Customiz stain on wood             No cost                                Specify with Customiz stain.
+                                        veneer pull                                                                             cSee Surface Materials Reference Manual.
+                                       Proud steel or wood fronts            
+                                     • Contemporary                             No cost                                 Specify with contemporary pull.
+                                     • Handle                                        No cost                                 Specify with handle pull.
+                              • Jazz                                            +$  17 per pull                       Specify with jazz pull.
+                                     • Bar                                              +$  25 per pull                       Specify with bar pull.
+                                       Proud steel fronts only
+                                     • c:scape                                       +$  28 per pull                       Specify with c:scape pull.
+  Drawer                   Rails
+  Accessories          • Two side-to-side hanging           No cost                                 Specify with rails.
+                                        rails per file drawer
+  Basic Drawer           Box/file and box/box/file pedestals
+  Interiors                 • No rails, pencil trays, or              –$  49                                    Specify with basic drawers.
+                                box drawer dividers
+  Lock and                   Lock 
+  Keying                 • Ember Chrome                           No cost                                Specify with 9250 Ember Chrome lock.
+                                 Individual locking drawers 
+                                     • File/file pedestals only                +$122                                  Specify with individual drawer lock.
+                                        Keying
+                                     • Factory- and field-installed keying                                        cPage 726
+  Related                   • Storage accessories                                                              cPage 671
+  Products
+cSpecification Information, on next page
+February 2015

@@ -1,0 +1,121 @@
+TS Series Worksurfaces 
+Answer Solutions Speciﬁcation Guide                                                                                                                                 cTS Series Worksurfaces, continued  177
+TS Series
+Worksurfaces
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+TS Series Worksurfaces
+120° Worksurface
+Peninsula
+Bullet peninsula,
+angled peninsula, and
+jetty worksurfaces can
+be supported two ways:
+• With a cantilever, a center 
+  support panel, and a 
+  column
+• With a cantilever, a side 
+  support bracket, and two 
+  post legs
+Angled Peninsula
+Linking worksurfaces
+with 3" notch accommodate
+Answer panels. One leg 
+and two cantilevers must be
+used to support linking 
+worksurfaces.
+Cantilever with tie plate
+works in left-hand, right-
+hand, or shared 
+applications.
+Side support 
+brackets
+Cantilever with 
+tie plate
+In-line support 
+plate
+Tie plates
+Reinforcing channel
+H-leg with 
+bracket
+End panels—
+standard height
+and standing height
+Post leg
+Connections
+Supports are ordered sep-
+arately and installed in the
+ﬁeld. The following supports
+are available for use with
+Kick worksurfaces:
+• Post leg
+• H-leg
+• Cantilever with tie plate
+• Side support brackets
+• Tie plates
+• In-line support plate
+• Reinforcing channel
+• On-module end panel
+Surface Materials
+High-Pressure and Low-
+Pressure Laminate
+Worksurfaces
+• Laminate
+cSee Surface Materials
+Reference Manual.
+• Open Line laminate
+  (option)
+  A program including non-
+  Steelcase laminates which
+  are suitable for use on
+  Steelcase products.
+cSee Surface Materials
+Reference Manual.
+Front (user’s) edge(s)
+• Plastic
+Back and side edges
+• Plastic color default to
+  match user’s edge
+Kick is available in a wide
+variety of worksurface
+shapes. Directional lami-
+nate grain direction is
+shown.
+Peninsula
+120° Corner
+Angled 
+peninsula
+Spanner
+Right-hand extended 
+curved corner
+Left-hand extended 
+curved corner
+Straight
+Transition
+Straight
+corner
+Curved
+corner
+Long worksurface
+spans must be supported
+with cantilevers, pedestals,
+legs, or other supports at
+least every 54". Reinforcing
+channel (TS7WKSPT)
+allows the distance between
+supports to be increased to
+60" for worksurfaces that will
+be heavily loaded, or up to
+72" for worksurfaces with
+lighter expected loads.
+Reinforcing channel must be
+specified separately.
+cPage 546
+Wiring & Cabling
+Grommet is standard on
+corner worksurfaces.
+February 2015

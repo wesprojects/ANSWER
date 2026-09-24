@@ -1,0 +1,78 @@
+Panels—Square and Oval Trim
+Stacking L, T, and X Panel Junctions—Square and 
+Oval Trims                                                                                                    
+406                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+                            Options                       U.S. Price               Required to Specify
+  Surface                      Trim
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                               • Paint price group 2                     +$11                                      Specify paint color number.
+                                     • Paint price group 3                     +$21                                     Specify paint color number.
+                                 Steel L and T junction trim only
+                                     • Fabric price group 1, 2, 3,          +$80                                     Specify fabric color number for trim.
+                                        4, 5, or COM
+                                     • Fabric direction
+                                        –Horizontal application               No cost                                 Specify with horizontal application.
+                                        –(standard)
+                                        –Vertical application                   No cost                                 Specify with vertical application.
+                                 Wood L and T junction trim
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+   Speciﬁcation Information
+                L Panel Junctions                  T Panel Junctions                  X Panel Junctions
+                
+                                                  
+                                                  
+DHeight   DStyle               DU.S.              DStyle               DU.S.              DStyle               DU.S.
+d              dNumber           dBase             dNumber           dBase             dNumber           dBase
+d              d                       dPrice               d
+dPrice            d
+dPrice
+d              d                       d                         d
+d                     d
+d
+Steel Trim
+12"              TS712LPJS      $316                   TS712TPJS      $316                   TS712XPJS      $299
+18"              TS718LPJS      $316                   TS718TPJS      $316                   TS718XPJS      $299
+24"              TS724LPJS      $316                   TS724TPJS      $316                   TS724XPJS      $299
+d
+d
+d
+d
+d
+d
+d
+Wood Trim
+12"              TS712LPJSW   $427                   TS712TPJSW   $427                   
+18"              TS718LPJSW   $427                   TS718TPJSW   $427                   
+24"              TS724LPJSW  $427                   TS724TPJSW   $427                   
+d
+d
+d
+d
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 84
+• Junction
+• Trim on L and T junctions: paint price group 1 or wood
+• Fork connectors
+• Stacking trim aligner on L and T junctions:
+black plastic only
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Junction cap is not
+included. Use the junction
+cap from the base junction
+you are stacking on.
+Tip: For further information
+about fabric direction,
+cPage 713.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

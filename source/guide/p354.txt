@@ -1,0 +1,208 @@
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 18
+• Junction
+• Inside corner light seals
+• Trim/junction cap: paint price group 1 or wood
+• Aligners
+1 Style number
+2 Paint or wood color number for junction
+cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+                                      • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+                                     • Omit trim                                     Prices below                         Specify with omit trim.
+                                                                                              and at right
+Specification Information
+DCorresponding
+        DStyle                   DU.S.      DOption       DStyle                     DU.S.     DOption
+dPanel
+dNumber              dBase    d(Add $ to      dNumber                 dBase   d(Add $ to
+dHeight
+d
+dPrice     dBase Price)  d
+dPrice    dBase Price)
+d
+d
+d               d
+d
+d
+d
+dA
+B
+C
+D
+d
+d               d                     d
+d              d
+d
+d
+d               dOmit Trim
+d
+d              dOmit Trim
+Painted Trim
+Wood Trim
+30"
+42"
+30"
+42"
+TS73434TCXJ
+$273
+–$129
+TS73434TCXJW
+$648
+–$500
+30"
+48"
+30"
+48"
+TS73838TCXJ
+$273
+–$129
+TS73838TCXJW
+$648
+–$500
+30"
+54"
+30"
+54"
+TS73535TCXJ
+$291
+–$129
+TS73535TCXJW
+$666
+–$500
+30"
+66"
+30"
+66"
+TS73636TCXJ
+$320
+–$135
+TS73636TCXJW
+$696
+–$506
+42"
+54"
+42"
+54"
+TS74545TCXJ
+$291
+–$129
+TS74545TCXJW
+$666
+–$500
+42"
+66"
+42"
+66"
+TS74646TCXJ
+$320
+–$129
+TS74646TCXJW
+$696
+–$500
+42"
+78"
+42"
+78"
+TS74747TCXJ
+$370
+–$135
+TS74747TCXJW
+$744
+–$506
+48"
+66"
+48"
+66"
+TS78686TCXJ
+$320
+–$129
+TS78686TCXJW
+$696
+–$500
+48"
+78"
+48"
+78"
+TS78787TCXJ
+$370
+–$135
+TS78787TCXJW
+$744
+–$506
+54"
+66"
+54"
+66"
+TS75656TCXJ
+$320
+–$129
+TS75656TCXJW
+$696
+–$500
+54"
+78"
+54"
+78"
+TS75757TCXJ
+$370
+–$129
+TS75757TCXJW
+$744
+–$500
+66"
+78"
+66"
+78"
+TS76767TCXJ
+$370
+–$129
+TS76767TCXJW
+$744
+–$500
+d
+d
+d               d
+d
+d              d
+cSpecification Information, continued on next page
+Panels—Thin Trim
+X Change-of-Height Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Omit trim option omits
+all change-of-height trim.
+This option is used when
+stacking on base junctions.
+Change-of-height trim
+should be specified sepa-
+rately to span the full height
+of the base junction plus
+stacking junction.
+Tip: Remember to specify
+necessary junction cap and
+aligners if the omit trim
+option is selected.
+Tip: Junction includes:
+• X change-of-height 
+  junction
+• Two T change-of-height 
+  trims
+• 90° junction cap
+• Aligners
+A
+B
+C
+D
+354                                                                                                                                                                                                            Answer Solutions Specification Guide
+February 2015

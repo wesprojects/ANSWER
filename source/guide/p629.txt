@@ -1,0 +1,104 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            629
+Universal Storage
+Universal Curved Front Bins with Steel and Wood Doors
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 290
+• Overhead storage bin: paint price group 1
+• Door: paint or wood
+• Basic attachment bracket: black only
+• Lock, keyed random: 9201 Polished Chrome
+1 Style number with appropriate bracket
+suffix:
+ANS = Answer
+NON = NO BASIC BRACKET
+              (see bracket options below)
+2 Paint or wood color number for storage bin
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$  47                                    Specify paint color number.
+                               • Premium wood 2 on wood door  See information at left           Specify Premium wood 2 finish number.
+                               • Premium wood 3 on wood door  See information at left           Specify Premium wood 3 finish number.
+                              • Customiz stain on wood door     No cost                                 Specify with Customiz stain.
+                                                                                                                                       cSee Surface Materials Reference Manual.
+  Brackets                Upmount
+                                     • Basic upmount bracket               +$  38                                    Specify with basic upmount bracket.
+                                     • Open design upmount bracket   +$118                                    Specify with open design upmount 
+                                                                                                                                            bracket.
+  Lock and                   Lock 
+  Keying                 • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                        Keying
+                                     • Factory- and field-installed keying                                        cPage 726
+  Related                • Stationary shelf                                                                      cPage 630
+  Products              • Bookends                                                                               cPage 674
+                              • ADA pull                                                                                 cPage 631
+                              • Underline task light                                                                cPage 698
+Specification Information
+DDimensions              DStyle                     DU.S.
+dD        W         H        dNumber                 dBase
+d                                 d                             dPrice
+d                                 d                             d
+With Steel Doors
+161⁄2"     30"         15"         KBIN30L_                $  844
+161⁄2"     36"         15"         KBIN36L_                $  971
+161⁄2"     42"         15"         KBIN42L_                $1114
+161⁄2"     48"         15"         KBIN48L_                $1240
+d                                 d                             d
+With Wood Doors
+161⁄2"     30"         15"         KBIN30LW_            $1447
+161⁄2"     36"         15"         KBIN36LW_            $1574
+161⁄2"     42"         15"         KBIN42LW_            $1717
+161⁄2"     48"         15"         KBIN48LW_            $1843
+d                                 d                             d
+Tip: Basic attachment
+bracket allows only 12" 
+off-module configurations on
+panels with vertical attach -
+ment. Bin must be the same
+width or up to 12" wider than
+the panel.
+Premium Wood 
+Pricing: For Premium
+wood 2 or Premium wood 3
+pricing, please refer to the
+electronic catalog or
+SmartTools.
+Tip: Bin is upmountable on
+Answer panel. Specify with
+suffix “NON” and choose
+the upmount bracket option
+Tip: Universal curved front
+bins can be upmounted on
+Answer slatwall skins as
+long as there is not another
+slatwall skin on the adjacent
+in-line panel
+Tip: Open design upmount
+bracket cannot be used
+when double-pane window
+is in top position of panel.
+Tip: When using upmount
+brackets with overhead stor-
+age and daisy chaining
+lights, use the open design
+upmount bracket for better
+cord management.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+42" W
+scale 30
+42" W
+scale 30
+Tip: Only the door is wood.
+Cabinet is painted metal and
+end panels are ABS.
+Universal Storage
+Universal Curved Front Bins
+with Steel and Wood Doors
+February 2015

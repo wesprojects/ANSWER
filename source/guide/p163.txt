@@ -1,0 +1,202 @@
+Hardwired Base Trim
+Width of panel in a
+non-base application
+deter mines how many
+receptacle  and communica-
+tion loca tions are available
+for non-base applications.
+Tip: For base locations,
+same power block locations
+apply, but communication
+openings are located below
+and to the right of each sin-
+gle or double block.
+Tip: Communication open-
+ings are located 21⁄2" further
+right than standard base
+trims to accommodate wider
+hardwired junction boxes.
+24"W with one power block.
+Communication opening
+lines up above power block
+on one side of panel only.
+48"W with two power
+blocks. Communication
+openings line up above the
+right-hand power block.
+One opening on each side
+of panel.
+36"W with two power
+blocks. Communication
+openings line up above the
+right-hand power block.
+One opening on each side
+of panel.
+60"W to 72"W with four
+power blocks. Communication
+openings line up above the
+right-hand power block of
+each pair. Two openings on
+each side of panel.
+18"W Pass through
+routing only.
+12"
+12"
+12"
+12"
+30"W with two power
+blocks. Communication
+openings line up above the
+right-hand power block.
+One opening on each side
+of panel.
+10.3"
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Answer Solutions Specification Guide                                                                                                                                      cDistribution Products, continued  163
+Distribution Products
+Wiring & Cabling
+Product Details
+Powerkits can be installed
+every 12" vertically. Typically
+they are positioned in the
+panel base, at worksurface
+height, or in both locations. 
+Pass-through power -
+ kits extend power between 
+panels.
+Standard Base Trim
+Width of panel in a
+non-base application
+deter mines how many
+receptacle  and communica-
+tion loca tions are available
+for non-base applications.
+Tip: For base locations,
+same power block locations
+apply, but communication
+openings are located below
+and to the right of each sin-
+gle or double block.
+24"W with one power block.
+Communication opening
+lines up above power block
+on one side of panel only.
+36"W to 48"W with two power
+blocks. Communication
+openings line up above the
+right-hand power block.
+One opening on each side
+of panel.
+30"W with two power
+blocks. Communication
+openings line up above the
+right-hand power block.
+One opening on each side
+of panel.
+60"W to 72"W with four
+power blocks. Communication
+openings line up above the
+right-hand power block of
+each pair. Two openings on
+each side of panel.
+18"W Pass through
+routing only.
+12"
+12"
+12"
+12"
+15-amp or 20-amp
+duplex recep tacles
+snap into powerkits on one
+side or both sides of the
+panel. 
+USB recep tacles avail-
+able in three wiring schemat-
+ics with multiple line options,
+snap into powerkits on one
+side or both sides of the
+panel. USB receptacles offer
+easy access to two charging
+ports. Each port provides 1
+amperage of output. USB
+receptacles conveniently
+charge a wide range of 
+electronic devices. Some
+devices may not be 
+compatible. 
+Install duplex or USB
+receptacles only where
+you want them. Add more
+recep tacles in the future.
+Exception: When using tech-
+nology skins, recepta cles
+are required in all power
+block locations.
+Tip: If receptacles are not
+specified for all power block
+locations, you must order
+filler through Service Parts
+(891500350MP, package 
+of 20).
+Three wiring schemat -
+ics are available—3+1,
+2+2, and three circuits with 
+separate neutrals (3SN). All
+the components in an elec-
+trical distribution system
+must use the same wiring
+schematic. For safety the
+components are keyed,
+labeled, and color-coded to
+make it impossible to con-
+nect mismatched parts.
+cPage 145
+Performance tackable
+acousti cal skins and
+tackable acoustical
+skins can be cut in the 
+field to allow access to
+duplex receptacles, USB
+receptacles, and communi -
+cation outlets. Order cutting
+templates through Service
+Parts (T500940SR). Steel
+skins do not have cutouts
+and cannot accom modate
+receptacles. Install power
+receptacles and communi -
+cation ports in the panel
+base cover below the steel
+skin or use a technology
+skin.
+Knockouts and cutouts
+for receptacles in the panel
+base trim and skins are
+always 105⁄8" from the out -
+side edges of the panel.
+Knockouts for communica -
+tion in base accommodate
+modular furniture size only.
+Filler to close unwanted
+openings in base trim is
+avail able from Service Parts.
+Wire separators are
+not required. All electrical
+harnesses are shielded. 
+Local electrical codes
+vary. Consult a qualified
+electrical contractor or engi-
+neer for the proper installa-
+tion of all electrical
+components.
+Chicago and New York
+have special requirements.
+cPages 159 and 166
+Knockout
+Wiring and Cabling
+February 2015

@@ -1,0 +1,120 @@
+758                                                                                                                                                                                                  Answer Solutions Specification Guide
+TSAPDSA7842          469    Sliding Pnl Doors
+TSASHCL24              597    Kick Common Shelf
+TSASHCL30              597    Kick Common Shelf
+TSASHCL36              597    Kick Common Shelf
+TSASHCL42              597    Kick Common Shelf
+TSASHCL48              597    Kick Common Shelf
+TSASLCL24               597    Kick Common Shelf
+TSASLCL30               597    Kick Common Shelf
+TSASLCL36               597    Kick Common Shelf
+TSASLCL42               597    Kick Common Shelf
+TSASLCL48               597    Kick Common Shelf
+TSASUB24L              595    Kick Bin
+TSASUB30L              595    Kick Bin
+TSASUB36L              595    Kick Bin
+TSASUB42L              595    Kick Bin
+TSASUB48L              595    Kick Bin
+TSASUB60L              595    Kick Bin
+TSASUB72L              595    Kick Bin
+TSASUBC24L            595    Kick Bin
+TSASUBC30L            595    Kick Bin
+TSASUBC36L            595    Kick Bin
+TSASUBC42L            595    Kick Bin
+TSASUBC48L            595    Kick Bin
+TSASUBC60L            595    Kick Bin
+TSASUBC72L            595    Kick Bin
+TSATCANT                503    Kick Cantilever
+TSATEP24                  502    Kick On-Mod End Pnl
+TSATEP24S               502    Kick On-Mod End Pnl
+TSATEP30                  502    Kick On-Mod End Pnl
+TSATEP30S               502    Kick On-Mod End Pnl
+TSATH2711               502    Kick H-Leg
+TSATH2720               502    Kick H-Leg
+TSATP27                    502    Post Leg
+TSATPL14                  503    Support Plate
+TSATPL20                  503    Support Plate
+TSATRC39                 503    Reinforcing Channel
+TSATRC48                 503    Reinforcing Channel
+TSATRC57                 503    Reinforcing Channel
+TSATRC72                 503    Reinforcing Channel
+TSATSIDE                  503    Kick Bracket
+TSATTIE                     503    Tie Plates
+TSAWH2727A           500    Linking Worksurface
+TSAWH2733A           500    Linking Worksurface
+TSAWH3327A           500    Linking Worksurface
+TSAWH3333A           500    Linking Worksurface
+TSAWHCC1836         493    Curved Corner Wksf
+TSAWHCC1842         493    Curved Corner Wksf
+TSAWHCC1848         493    Curved Corner Wksf
+TSAWHCC2436         493    Curved Corner Wksf
+TSAWHCC2442         493    Curved Corner Wksf
+TSAWHCC2448         493    Curved Corner Wksf
+TSAWHCC3048         493    Curved Corner Wksf
+TSAWHCF2436         492    Straight Corner Wksf
+TSAWHCF2442         492    Straight Corner Wksf
+TSAWHCF2448         492    Straight Corner Wksf
+TSAWHCF3048         492    Straight Corner Wksf
+TSAWHE2246           495    Ext Curved Corner Wksf
+TSAWHE2247           495    Ext Curved Corner Wksf
+TSAWHE2264           494    Ext Curved Corner Wksf
+TSAWHE2274           494    Ext Curved Corner Wksf
+TSAWHE2346           495    Ext Curved Corner Wksf
+TSAWHE2347           495    Ext Curved Corner Wksf
+TSAWHE2364           494    Ext Curved Corner Wksf
+TSAWHE2374           494    Ext Curved Corner Wksf
+TSAWHE3246           495    Ext Curved Corner Wksf
+TSAWHE3247           495    Ext Curved Corner Wksf
+TSAWHE3264           494    Ext Curved Corner Wksf
+TSAWHE3274           494    Ext Curved Corner Wksf
+TSAWHE3346           495    Ext Curved Corner Wksf
+TSAWHE3347           495    Ext Curved Corner Wksf
+TSAWHE3364           494    Ext Curved Corner Wksf
+TSAWHE3374           494    Ext Curved Corner Wksf
+TSAWHN51A             499    Spanner Worksurface
+TSAWHN63A             499    Spanner Worksurface
+TSAWHP3048           497    Peninsula Worksurface
+TSAWHP3060           497    Peninsula Worksurface
+TSAWHP3072           497    Peninsula Worksurface
+TSAWHPA2448         498    Angled Peninsula Wksf
+TSAWHPA3048         498    Angled Peninsula Wksf
+TSAWHR1824           490    Straight Worksurface
+TSAWHR1830           490    Straight Worksurface
+TSAWHR1836           490    Straight Worksurface
+TSAWHR1842           490    Straight Worksurface
+TSAWHR1848           490    Straight Worksurface
+TSAWHR1854           490    Straight Worksurface
+TSAWHR1860           490    Straight Worksurface
+TSAWHR1866           490    Straight Worksurface
+TSAWHR1872           490    Straight Worksurface
+TSAWHR2424           490    Straight Worksurface
+TSAWHR2430           490    Straight Worksurface
+TSAWHR2436           490    Straight Worksurface
+TSAWHR2442           490    Straight Worksurface
+TSAWHR2448           490    Straight Worksurface
+TSAWHR2454           490    Straight Worksurface
+TSAWHR2460           490    Straight Worksurface
+TSAWHR2466           490    Straight Worksurface
+TSAWHR2472           490    Straight Worksurface
+TSAWHR3024           490    Straight Worksurface
+TSAWHR3030           490    Straight Worksurface
+TSAWHR3036           490    Straight Worksurface
+TSAWHR3042           490    Straight Worksurface
+TSAWHR3048           490    Straight Worksurface
+TSAWHR3054           490    Straight Worksurface
+TSAWHR3060           490    Straight Worksurface
+TSAWHR3066           490    Straight Worksurface
+TSAWHR3072           490    Straight Worksurface
+TSAWHX1236            491    Transition Worksurface
+TSAWHX1242            491    Transition Worksurface
+TSAWHX1248            491    Transition Worksurface
+TSAWHX2136           491    Transition Worksurface
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

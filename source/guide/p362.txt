@@ -1,0 +1,77 @@
+362                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Panels—Thin Trim
+Stacking Junctions                                                                                     
+   Speciﬁcation Information
+DHeight    DStyle              DU.S.
+d               dNumber         dPrice
+d               d                      d
+12"                TS712IPJS      $116
+18"                TS718IPJS      $116
+24"                TS724IPJS      $116
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 26
+• Junction
+• Fork connectors
+Style number
+Tip: Stacking in-line junc-
+tions do not require junction
+cap and trim.
+Stacking In-Line Panel Junctions–Thin Trim
+Stacking End-of-Run Panel Junctions–Thin Trim
+Stacking Wall-Start Junctions
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 26
+• Junction
+• Fork connector
+Style number
+Specification Information
+DHeight    DStyle                 DU.S.
+d               dNumber             dPrice
+d
+d                               d
+12"                TS712TEPJS       $156
+18"                TS718TEPJS       $156
+24"                TS724TEPJS       $156
+36"                TS736TEPJS       $156
+d
+d                               d
+Tip: Stacking end-of-run
+junctions do not include trim.
+Trim is specified separately
+to span entire height of base
+junction plus stacking 
+junction.
+Tip: 36" stacker is only used
+in build your own change-of-
+height applications. It should
+never be used as an end-of-
+run stacking junction.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 26
+• Junction
+• Fork connector
+Style number
+   Speciﬁcation Information
+DHeight   DStyle              DU.S.
+d              dNumber         dPrice
+d              d                      d
+12"              TS712WPJS    $299
+18"              TS718WPJS    $299
+24"              TS724WPJS    $299
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

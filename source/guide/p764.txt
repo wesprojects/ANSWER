@@ -1,0 +1,109 @@
+764                                                                                                                                                                                                  Answer Solutions Specification Guide
+WS2484S                    511    Strgt Wksf w/Soft Edg Prof
+WS2490                      507    Univ Str WS FD
+WS2490S                    511    Strgt Wksf w/Soft Edg Prof
+WS2496                      507    Univ Str WS FD
+WS2496S                    511    Strgt Wksf w/Soft Edg Prof
+WS3024                      508    Univ Str WS FD
+WS3030                      508    Univ Str WS FD
+WS3036                      508    Univ Str WS FD
+WS3042                      508    Univ Str WS FD
+WS3048                      508    Univ Str WS FD
+WS3048S                    511    Strgt Wksf w/Soft Edg Prof
+WS3054                      508    Univ Str WS FD
+WS3054S                    511    Strgt Wksf w/Soft Edg Prof
+WS3060                      508    Univ Str WS FD
+WS3060S                    511    Strgt Wksf w/Soft Edg Prof
+WS3066                      508    Univ Str WS FD
+WS3066S                    511    Strgt Wksf w/Soft Edg Prof
+WS3072                      508    Univ Str WS FD
+WS3072S                    511    Strgt Wksf w/Soft Edg Prof
+WSPC4824                 527    Univ Spnr WS FD
+WSPC5126                 527    Univ Spnr WS CD/FD
+WSPC6030                 527    Univ Spnr WS FD
+WSPC6332                 527    Univ Spnr WS CD/FD
+WST1260                    517    Univ Sgl-Taprd WS FD
+WST1272                    517    Univ Sgl-Taprd WS FD
+WST2160                   517    Univ Sgl-Taprd WS FD
+WST2172                   517    Univ Sgl-Taprd WS FD
+WST2360                   517    Univ Sgl-Taprd WS FD
+WST2372                   517    Univ Sgl-Taprd WS FD
+WST3260                   517    Univ Sgl-Taprd WS FD
+WST3272                   517    Univ Sgl-Taprd WS FD
+WT2336                      513    Univ Trans WS FD
+WT2342                      513    Univ Trans WS—FD0
+WT2348                      513    Univ Trans WS—FD
+WT2354                      513    Univ Trans WS—FD
+WT2360                      513    Univ Trans WS—FD
+WT3236                      513    Univ Trans WS—FD
+WT3242                      513    Univ Trans WS—FD
+WT3248                      513    Univ Trans WS—FD
+WT3254                      513    Univ Trans WS—FD
+WT3260                      513    Univ Trans WS—FD
+WTT1248                    514    Univ Taprd WS—FD
+WTT1260                    514    Univ Taprd WS—FD
+WTT1272                    514    Univ Taprd WS—FD
+WTT2148                   514    Univ Taprd WS—FD
+WTT2160                   514    Univ Taprd WS—FD
+WTT2172                   514    Univ Taprd WS—FD
+WTT2348                   514    Univ Taprd WS—FD
+WTT2348S                 515    Tprd Wksf w/Soft Edg Prof
+WTT2360                   514    Univ Taprd WS—FD
+WTT2360S                 515    Tprd Wksf w/Soft Edg Prof
+WTT2372                   514    Univ Taprd WS—FD
+WTT2372S                 515    Tprd Wksf w/Soft Edg Prof
+WTT3248                   514    Univ Taprd WS—FD
+WTT3248S                 515    Tprd Wksf w/Soft Edg Prof
+WTT3260                   514    Univ Taprd WS—FD
+WTT3260S                 515    Tprd Wksf w/Soft Edg Prof
+WTT3272                   514    Univ Taprd WS—FD
+WTT3272S                 515    Tprd Wksf w/Soft Edg Prof
+WTTF1260                 516    Univ Taper-Flat WS—FD
+WTTF1272                 516    Univ Taper-Flat WS—FD
+WTTF1360                 516    Univ Taper-Flat WS—FD
+WTTF1372                 516    Univ Taper-Flat WS—FD
+WTTF2160                 516    Univ Taper-Flat WS—FD
+WTTF2172                 516    Univ Taper-Flat WS—FD
+WTTF2360                 516    Univ Taper-Flat WS—FD
+WTTF2372                 516    Univ Taper-Flat WS—FD
+WTTF3160                 516    Univ Taper-Flat WS—FD
+WTTF3172                 516    Univ Taper-Flat WS—FD
+WTTF3260                 516    Univ Taper-Flat WS—FD
+WTTF3272                 516    Univ Taper-Flat WS—FD
+WVC2424L                 536    Univ Visitor Wksf
+WVC2424R                537    Univ Visitor Wksf
+WVC2430L                 536    Univ Visitor Wksf
+WVC2430R                537    Univ Visitor Wksf
+WVC3030L                 536    Univ Visitor Wksf
+WVC3030R                537    Univ Visitor Wksf
+ZB1R1IGH                 477    20-Amp Duplex Rcpt
+ZB1R1SGH                477    20-Amp Duplex Rcpt
+ZB1R2IGH                 477    20-Amp Duplex Rcpt
+ZB1R2SGH                477    20-Amp Duplex Rcpt
+ZB1R3IGH                 477    20-Amp Duplex Rcpt
+ZB1R3SGH                477    20-Amp Duplex Rcpt
+ZB1R4IGH                 477    20-Amp Duplex Rcpt
+ZB1R4SGH                477    20-Amp Duplex Rcpt
+ZB2R1IGH                 477    20-Amp Duplex Rcpt
+ZB2R1SGH                477    20-Amp Duplex Rcpt
+ZB2R2IGH                 477    20-Amp Duplex Rcpt
+ZB2R2SGH                477    20-Amp Duplex Rcpt
+ZB2R3IGH                 477    20-Amp Duplex Rcpt
+ZB2R3SGH                477    20-Amp Duplex Rcpt
+ZB2R4IGH                 477    20-Amp Duplex Rcpt
+ZB2R4SGH                477    20-Amp Duplex Rcpt
+ZB3R1IGH                 477    20-Amp Duplex Rcpt
+ZB3R1SGH                477    20-Amp Duplex Rcpt
+ZB3R2IGH                 477    20-Amp Duplex Rcpt
+ZB3R2SGH                477    20-Amp Duplex Rcpt
+ZB3R3IGH                 477    20-Amp Duplex Rcpt
+ZB3R3SGH                477    20-Amp Duplex Rcpt
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

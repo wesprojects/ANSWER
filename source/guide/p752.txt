@@ -1,0 +1,120 @@
+752                                                                                                                                                                                                  Answer Solutions Specification Guide
+TS76048TAF             437    F-Covered To The Flr Skin
+TS76048TK               435    F-Covered Pnl Skin
+TS76048TKF             437    F-Covered To The Flr Skin
+TS76048WS               447    Wood Skin
+TS76048WSF            449    Wood To The Flr Skin
+TS76060TA                435    F-Covered Pnl Skin
+TS76060TAF             437    F-Covered To The Flr Skin
+TS76060TK               435    F-Covered Pnl Skin
+TS76060TKF             437    F-Covered To The Flr Skin
+TS76072TA                435    F-Covered Pnl Skin
+TS76072TK               435    F-Covered Pnl Skin
+TS760BKT         361, 404    Off-Module Pnl Connector
+TS760BT                    392    Base Trim
+TS760BTH                 470    Hardwire Base Trim
+TS760CT                    474    Cable Tray
+TS760HB                    626    Horiz Brace
+TS760HF                    422    Base Horiz Frame Pkg
+TS760HFS         382, 423    Stacking Horiz Frame Pkg
+TS760OBK                 392    Open Base Conversion Kit
+TS760SHF                  421    Base Horiz Frame Pkg
+TS760STC                  424    Spanning Top Cap
+TS760STCW              424    Spanning Top Cap
+TS760TEVT               367    EOR Vertical Trim
+TS760TEVTW           367    EOR Vertical Trim
+TS760THF                  381    Base Horiz Frame Pkg
+TS760TLVT                368    L Vertical Trim
+TS760TLVTW            368    L Vertical Trim
+TS760TTC                  383    Spanning Top Cap
+TS760TTCR               389    Top Cap & Aligner Packages – Painted
+TS760TTCW              383    Spanning Top Cap
+TS760TTCWR           389    Top Cap & Aligner Packages – Wood
+TS760TTVT               368    T Vertical Trim
+TS760TTVTW           368    T Vertical Trim
+TS760TVVT               369    V Vertical Trim
+TS760TVVTW           369    V Vertical Trim
+TS7624HS                  459    Steel Tech Skin, No Co
+TS7624TFGR            384    Frameless Glass
+TS7624TSS               459    Steel Tech Skin
+TS7630HS                  459    Steel Tech Skin, No Co
+TS7630LTSS             459    Steel Tech Skin, LH Co
+TS7630RTSS             459    Steel Tech Skin, RH Co
+TS7630TFGR            384    Frameless Glass
+TS7630TSS               459    Steel Tech Skin
+TS7633TCYJ             358    Y Chng-of-Hgt Jct
+TS7633TCYJW         358    Y Chng-of-Hgt Jct
+TS7636HS                  459    Steel Tech Skin, No Co
+TS7636LTSS             459    Steel Tech Skin, LH Co
+TS7636RTSS             459    Steel Tech Skin, RH Co
+TS7636TCTJ             352    T Chng-of-Hgt Jct
+TS7636TCTJW         352    T Chng-of-Hgt Jct
+TS7636TFGR            384    Frameless Glass
+TS7636TSS               459    Steel Tech Skin
+TS7642HS                  459    Steel Tech Skin, No Co
+TS7642LTSS             459    Steel Tech Skin, LH Co
+TS7642RTSS             459    Steel Tech Skin, RH Co
+TS7642TFGR            384    Frameless Glass
+TS7642TSS               459    Steel Tech Skin
+TS7644TCYJ             358    Y Chng-of-Hgt Jct
+TS7644TCYJW         358    Y Chng-of-Hgt Jct
+TS7646TCTJ             352    T Chng-of-Hgt Jct
+TS7646TCTJW         352    T Chng-of-Hgt Jct
+TS7648HS                  459    Steel Tech Skin, No Co
+TS7648LTSS             459    Steel Tech Skin, LH Co
+TS7648RTSS             459    Steel Tech Skin, RH Co
+TS7648TFGR            384    Frameless Glass
+TS7648TSS               459    Steel Tech Skin
+TS7654TFGR            384    Frameless Glass
+TS7655TCYJ             358    Y Chng-of-Hgt Jct
+TS7655TCYJW         358    Y Chng-of-Hgt Jct
+TS7656TCTJ             352    T Chng-of-Hgt Jct
+TS7656TCTJW         352    T Chng-of-Hgt Jct
+TS7660HS                  459    Steel Tech Skin, No Co
+TS7660LTSS             459    Steel Tech Skin, LH Co
+TS7660RTSS             459    Steel Tech Skin, RH Co
+TS7660TFGR            384    Frameless Glass
+TS7660TSS               459    Steel Tech Skin
+TS76618PF                431    Perf Tack Acst Pnl Pkg
+TS76618SPF             429    Perf Tack Acst Pnl Pkg
+TS76618STF             429    Tack Acst Pnl Pkg
+TS76618TF                431    Tack Acst Pnl Pkg
+TS76618TPF             391    Perf Tack Acst Pnl Pkg
+TS76618TTF             391    Tack Acst Pnl Pkg
+TS76624AWSF          455    Wood To The Flr Skin Set
+TS76624AWSS         451    Wood Skin Set
+TS76624BWSF          456    Wood To The Flr Skin Set
+TS76624BWSS         452    Wood Skin Set
+TS76624CWSF          456    Wood To The Flr Skin Set
+TS76624CWSS         452    Wood Skin Set
+TS76624PF                431    Perf Tack Acst Pnl Pkg
+TS76624SPF             429    Perf Tack Acst Pnl Pkg
+TS76624STF             429    Tack Acst Pnl Pkg
+TS76624TF                431    Tack Acst Pnl Pkg
+TS76624TPF             391    Perf Tack Acst Pnl Pkg
+TS76624TTF             391    Tack Acst Pnl Pkg
+TS76630AWSF          455    Wood To The Flr Skin Set
+TS76630AWSS         451    Wood Skin Set
+TS76630BWSF          456    Wood To The Flr Skin Set
+TS76630BWSS         452    Wood Skin Set
+TS76630CWSF          456    Wood To The Flr Skin Set
+TS76630CWSS         452    Wood Skin Set
+TS76630PF                431    Perf Tack Acst Pnl Pkg
+TS76630SPF             429    Perf Tack Acst Pnl Pkg
+TS76630STF             429    Tack Acst Pnl Pkg
+TS76630TF                431    Tack Acst Pnl Pkg
+TS76630TPF             391    Perf Tack Acst Pnl Pkg
+TS76630TTF             391    Tack Acst Pnl Pkg
+TS76636AWSF          455    Wood To The Flr Skin Set
+TS76636AWSS         451    Wood Skin Set
+TS76636BWSF          456    Wood To The Flr Skin Set
+TS76636BWSS         452    Wood Skin Set
+Style Number Index, continued
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+February 2015

@@ -1,0 +1,97 @@
+Panels—Square and Oval Trim
+Answer Panel Overview—Square and Oval Trim
+74                                                                                                                                                                                                              Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+Panel buildups allow 
+you to create unique config-
+urations by mixing surface
+materials and colors on seg-
+mented panels. Order skins
+and horizontal frame pack-
+ages separately.
+Panel frame is made up
+of two major elements—
+vertical base junctions and
+base horizontal connecting
+bars. Vertical junctions are
+ordered separately.
+Stacking components
+can be used on both 
+panel buildups and panel
+packages.
+Powerkits include power-
+blocks attached to a 
+supporting power tray.
+cPage 162
+Stacking change-of-
+height trim has a straight
+bottom edge to fit on top of
+standard change-of-height
+trim.
+cPage 420
+Standard change-of-
+height trim has either a
+rounded bottom edge to fit
+the curve of oval panel top
+caps or a straight edge to fit
+square panel top caps.
+cPage 419
+Stacking junctions 
+are always shared by adja-
+cent panels and can be used
+in panel buildups and panel
+packages. They are avail-
+able for in-line, L, T, 
+V, X, Y, and end-of-run 
+configurations. 
+cPages 407–411
+Base junctions, are
+always shared by adjacent
+panels. They are available
+for in-line, L, T, V, X, Y, and
+end-of-run configurations.
+Wall-start junctions and off-
+module connectors are also
+available.
+cPages 397–406
+Base horizontal con-
+necting bars lock into the
+vertical junctions at the top
+and the bottom location of
+base junction to provide
+structural stability for the
+panels.
+cPage 424
+Stacking horizontal
+frame package must be
+used with stacking junctions.
+cPage 425
+Leveling glides adjust to
+install panels on uneven
+floors. Range is 23/4".
+Panel packages are
+used to create common 
+configurations quickly and
+easily. Packages include a
+horizontal frame package
+and skins for both sides 
+of the panel.
+Skins attach to frame
+without tools and can be
+removed and repositioned
+easily.
+cPages 107–117
+Alternate powerkit 
+harness routing can be
+accommodated through the
+junction opening. In in-line
+applications installed on
+uneven floors, route harness
+through junction opening to
+prevent harness from being
+exposed.
+Actual Dimensions
+Height      293⁄8", 413⁄4", 4715⁄16", 541⁄8", 6615⁄32", and 7827⁄32"
+Note: Height is minimum from floor to top of top caps. Leveling glides can extend 23⁄4".
+February 2015

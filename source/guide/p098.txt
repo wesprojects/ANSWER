@@ -1,0 +1,91 @@
+98                                                                                                                                                                                                              Answer Solutions Specification Guide
+scale124
+Panel packages include
+two monolithic fabric skins
+and a horizontal frame 
+package.
+Tip: Answer panels always
+share a junction with adjacent
+panels. Order the style of
+junction you need separately.
+cSpecifying, pages 430–433
+Actual Dimensions
+Depth       3" 
+Width        1751⁄64", 2351⁄64", 2951⁄64", 3551⁄64", 4151⁄64", 4751⁄64",
+                 5951⁄64", and 7151⁄64"
+Height      413⁄4", 4715⁄16", 541⁄8", and 667⁄16"
+Optional cable tray can
+be used for additional sup-
+port of cables. Addi tional
+cable trays can be installed
+and arranged at various
+heights within the frame for
+communications access and
+cable routing.
+Top cap snaps onto top
+of panel skins. Top caps are
+available in two styles –
+square or oval. Change-of-
+height top caps to accom-
+modate change-of-height
+cable routing are also avail-
+able. Wood veneer top cap
+is available as an option on
+both square and oval trim.
+Omit top cap is available as
+an option on square trim
+only.
+Power can be field-installed
+every 12" vertically using
+powerkits.
+Junctions, ordered sepa-
+rately, are always shared by
+adjacent panels. They are
+available for in-line, L, T, V,
+X, Y, and end-of-run configu-
+rations. Wall-start junctions
+and off-module connector
+brackets are also available.
+Powerkits include power-
+blocks attached to a 
+supporting power tray.
+cPage 162
+Base cover has knockouts
+to accommodate power and
+communication terminations.
+Top knockout is for power,
+bottom knockout is for com-
+munication. Filler to close
+unwanted knockouts is avail-
+able from Service Parts
+(TS7BTFSR).
+Horizontal connecting
+bars lock into the vertical
+junctions at the top and the
+bottom location to provide
+structural stability for the
+panels.
+...............................................................................................................................................
+...............................................................................................................................................
+Skins attach to frame 
+without tools and can be
+removed and repositioned
+easily. They are not dedi-
+cated to a specific location.
+Power and communica-
+tion can be accessed 
+by cutting skin in the field.
+Templates for cutting both
+receptacle and commu -
+nication cutouts are avail-
+able from Service Parts
+(T500940SR). Filler to 
+close unwanted cutout in 
+a skin is available from
+Service Parts (TS7STFSR).
+Optional base cable
+tray can be used to support
+lay-in of cables.
+Panels—Square and Oval Trim
+Panel Packages—Square and Oval Trim
+February 2015

@@ -1,0 +1,72 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            597
+                            Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 2                     +$14                                     Specify paint color number.
+  Materials             • Paint price group 3                     +$23                                     Specify paint color number.
+                                 High-Pressure Laminate worksurfaces
+                                    • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                             plus cost of laminate
+   Speciﬁcation Information
+DDimensions          DStyle               DU.S.     DStyle                DU.S.                                           
+dD       W       H       dNumber           dPrice   dNumber           dBase
+d                             dLPL                 d            dHPL
+dPrice
+d                             d                       d
+d
+d
+15"       24"       73⁄4"     TSASLCL24      $114         TSASHCL24     $141
+15"       30"       73⁄4"     TSASLCL30      $118         TSASHCL30     $146
+15"       36"       73⁄4"     TSASLCL36      $126         TSASHCL36     $156
+15"       42"       73⁄4"     TSASLCL42      $136         TSASHCL42     $168
+15"       48"       73⁄4"     TSASLCL48      $147         TSASHCL48     $183
+d                             d                       d
+d
+d
+Tip: For anticipated heavy
+loads on 42" and 48"W lami-
+nate common shelves, a
+field-installed reinforcing
+channel (TSATRC39) can 
+be used.
+Tip: Standard worksurfaces
+are 11⁄8" thick. However, the
+actual thickness between
+Low-Pressure Laminate
+(LPL) and High-Pressure
+Laminate (HPL) worksur-
+faces is slightly different. It is
+recommended that only
+worksurfaces of the same
+type are specified in a given
+application. In addition, there
+may be sheen or texture
+differences when using LPL
+and HPL in adjacent applica-
+tions. Please use caution
+when mixing and matching
+different worksurface types.
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 254
+• 13⁄16"-thick shelf: Low-Pressure Laminate or High-Pressure
+Laminate
+• 3 mm radius proﬁle edge: plastic 
+• Support brackets: paint price group 1
+1 Style number
+2 Low-Pressure Laminate or High-Pressure
+Laminate color number for shelf
+3 Plastic edge band color number for 
+worksurface
+4 Paint color number for support bracket
+5 Options, if selected (see below)
+cSee Surface Materials, page 708.
+TS Series Laminate
+Common Shelves
+TS Series Storage 
+TS Series Laminate Common Shelves
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+TS Series Storage
+February 2015

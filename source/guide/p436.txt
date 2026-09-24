@@ -1,0 +1,102 @@
+Shared Components and Wiring and Cabling
+Fabric Covered Panel Skins To The Floor                                                  
+For Panel Buildups
+                            Options                       U.S. Price               Required to Specify
+  Surface                                                                          24" and    36" to 
+  Materials                                                                      30"H          60"H
+                                     • Fabric price group A                   –$    4          –$    5               Specify fabric color number.
+                              • Fabric price group 1                   No cost       No cost           Specify fabric color number.
+                                     • Fabric price group 2                   +$  20          +$  25               Specify fabric color number.
+                                     • Fabric price group 3                   +$  35          +$  46             Specify fabric color number.
+                                     • Fabric price group 4                   +$  53          +$  73             Specify fabric color number.
+                                     • Fabric price group 5                   +$  83          +$114              Specify fabric color number.
+                                     • Fabric price group 6                   +$112          +$157             Specify fabric color number.
+                                     • Fabric price group 7                   +$143          +$198             Specify fabric color number.
+                                     • Fabric price group COM             +$  16          +$  16             Specify fabric color number.
+                                 Fabric direction on 18"W to 60"W skins               
+                               • Vertical application                     No cost                               Specify with vertical application.
+   Speciﬁcation Information
+  
+24"H                                        30"H                                        36"H                                                
+                  
+                                               
+                                               
+DWidth   DStyle              DU.S.               DStyle              DU.S.               DStyle              DU.S.
+d             dNumber         dBase              dNumber         dBase              dNumber         dBase
+d
+d
+dPrice
+d
+dPrice
+d
+dPrice
+d               d                           d                           d                           d                           d                           d
+Tackable Acoustical Skins
+18"             TS72418TKF   $105                    TS73018TKF   $135                    TS73618TKF   $153
+24"             TS72424TKF   $114                     TS73024TKF   $144                    TS73624TKF   $163
+30"             TS72430TKF   $122                    TS73030TKF   $155                    TS73630TKF   $173
+36"             TS72436TKF   $129                    TS73036TKF   $164                    TS73636TKF   $186
+42"             TS72442TKF   $136                    TS73042TKF   $178                    TS73642TKF   $204
+48"             TS72448TKF   $145                    TS73048TKF   $202                    TS73648TKF   $235
+60"             TS72460TKF   $164                    TS73060TKF   $229                    TS73660TKF   $268
+72"             TS72472TKF   $184                    TS73072TKF   $254                    TS73672TKF   $295                              
+d               d                           d                           d                           d                           d                           d
+Performance Tackable Acoustical Skins
+18"             TS72418TAF   $112                     TS73018TAF   $146                    TS73618TAF   $166
+24"             TS72424TAF   $122                    TS73024TAF   $158                    TS73624TAF   $179
+30"             TS72430TAF   $130                    TS73030TAF   $168                    TS73630TAF   $191
+36"             TS72436TAF   $136                    TS73036TAF   $179                    TS73636TAF   $205
+42"             TS72442TAF   $142                    TS73042TAF   $192                    TS73642TAF   $220
+48"             TS72448TAF   $157                    TS73048TAF   $220                    TS73648TAF   $258
+60"             TS72460TAF   $177                    TS73060TAF   $251                    TS73660TAF   $294
+72"             TS72472TAF   $195                    TS73072TAF   $278                    TS73672TAF   $325
+d               d                           d                           d                           d                           d                           d
+cSpecification Information, continued on next page
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 107
+• Panel skins, fabric direction application, if selected:
+fabric price group 1
+1 Style number
+2 Fabric color number for skin surface
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Remember to omit base
+trim(s) on a horizontal frame
+package when using a skin
+to the floor.
+Tip: 48"H and 60"H fabric
+covered panel skins accom-
+modate fabric in the vertical
+direction only. 
+Tip: 72"W fabric covered
+panel skins accommodate
+fabric in the horizontal 
+direction only.
+Tip: For further information
+about fabric direction, see
+page 713.
+Tip: 30"H and 42"H skins
+only work on junctions 
+manufactured on or after
+October 10, 2011.
+Tip: When specifying skins,
+the total skin height will be
+6" less than the panel
+height. When ordering skins
+to the floor an F suffix will be
+added to the end of the style
+number for the skin in the
+lowest position on the panel.
+The total skin height will still
+be 6" less than the panel
+height. 
+cSee Panel Buildups, page 
+12, for more information.
+436                                                                                                                                                                                                            Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

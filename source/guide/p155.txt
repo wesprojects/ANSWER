@@ -1,0 +1,77 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            155
+Wiring & Cabling
+Utility Pole—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Shield on power harness
+permits a utility pole to
+accommodate power and
+communication cable routing
+at the same time. For appli-
+cations where more cable
+routing is needed, you can
+use the utility pole without a
+power harness or use a lay-
+in utility package.
+Connections
+Utility pole—thin trim
+works with base and stack-
+ing junctions.  It can be used
+at an L, T, or X configuration.
+It cannot be used in an end-
+of-run, V, Y, or in-line config-
+uration.  Utility pole is not
+shipped with a junction.
+"L" application requires
+two panels at the same
+height. Utility pole is flush
+with the panel run.
+"T" application requires
+at least two panels at the
+highest height. Utility pole is
+flush with the panel run.
+3"
+Utility Pole
+L Junction
+3"
+Utility Pole
+T Junction
+"X" application requires
+two panels at the same
+height.
+Wiring & Cabling
+Three wiring schemat-
+ics are available–3+1, 2+2,
+and three circuits with sepa-
+rate neutrals (3SN). All the
+components in an electrical
+distribution system must use
+the same wiring schematic.
+For safety the components
+are keyed, labeled, and
+color-coded to make it
+impossible to connect mis-
+matched parts.
+All Answer electrical
+components are listed by
+Underwriters Laboratory
+(UL) and certified by the
+Canadian Standards
+Association (CSA).
+Local electrical codes
+vary. Consult a qualified
+electrical contractor or engi-
+neer for the proper installa-
+tion of all electrical
+components.
+Chicago and New York
+have special requirements.
+3"
+Utility Pole
+X Junction
+Wiring and Cabling
+February 2015

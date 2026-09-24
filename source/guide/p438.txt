@@ -1,0 +1,126 @@
+438                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Steel Panel Skins
+For Panel Buildups
+                                                
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 108
+Steel panel skin: paint price group 1
+1 Style number
+2 Paint color number for skin surface
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Steel skins cannot
+accommodate power recep-
+tacles or communication out-
+lets. Use the base or fabric
+skin for power access.
+Tip: Horizontal beam and
+the back of the opposite skin
+is visible through a perfo-
+rated skin.
+Tip: 18"H and 30"H skins
+only work on junctions man-
+ufactured on or after
+October 10, 2011.
+                            Options                   U.S. Price                   Required to Specify
+  Surface                                                         12"H to 30"H    36"H
+  Materials                                                                 24"H
+                                     • Paint price group 1             No cost    No cost  No cost       Specify paint color number.
+                                     • Paint price group 2                +$22        +$22      +$45            Specify paint color number.
+                                     • Paint price group 3                +$38        +$38      +$75            Specify paint color number.
+                                     • Ribbed steel on 12"H to       +$22        N.A.       N.A.             Specify with ribbed steel.
+                                        24"H panel skins only
+                                     • Perforated steel on 12"H       Prices       N.A.       N.A.             Specify with perforated steel.
+                                        to 24"H panel skins only       below       
+   Speciﬁcation Information
+  
+12"H
+18"H                                                           24"H
+                     
+                                                                      
+                                                                      
+DWidth      DStyle                   DU.S.   DOption              DStyle                   DU.S.   DOption              DStyle                   DU.S.   DOption
+d               dNumber              dBase  d(Add $ to               dNumber              dBase  d(Add $ to               dNumber              dBase  d(Add $ to
+d
+d
+dPrice dBase Price)
+d
+dPrice dBase Price)           d
+dPrice dBase Price)
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+dPerforated
+d
+d
+dPerforated             d
+d
+dPerforated
+d
+d
+d
+dSteel
+d
+d
+dSteel                     d
+d
+dSteel
+18"                TS71218HS         $  56      +$35                       TS71818HS         $  73      +$  57                     TS72418HS         $  91      +$  57
+24"                TS71224HS         $  60      +$38                       TS71824HS         $  79      +$  65                     TS72424HS         $  97      +$  65
+30"                TS71230HS         $  68      +$42                       TS71830HS         $  88      +$  70                     TS72430HS         $107      +$  70
+36"                TS71236HS         $  72      +$45                       TS71836HS         $  93      +$  74                     TS72436HS         $113      +$  74
+42"                TS71242HS         $  75      +$47                       TS71842HS         $  98      +$  78                     TS72442HS         $119      +$  78
+48"                TS71248HS         $  83      +$52                       TS71848HS         $105      +$  85                     TS72448HS         $129      +$  85
+60"                TS71260HS         $  92      +$59                       TS71860HS         $119      +$  96                     TS72460HS         $148      +$  96
+72"                TS71272HS         $103      +$69                       TS71872HS         $134      +$107                     TS72472HS         $165      +$107
+d
+d
+d
+d
+d
+d
+d                              d
+d
+d
+                    30"H                                                           36"H
+                     
+                                                                      
+DWidth      DStyle                   DU.S.                              DStyle                   DU.S.
+d               dNumber              dBase                            dNumber              dBase
+d
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+18"                TS73018HS         $111                                      TS73618HS         $132
+24"                TS73024HS         $120                                      TS73624HS         $144
+30"                TS73030HS         $131                                      TS73630HS         $156
+36"                TS73036HS         $141                                      TS73636HS         $168
+42"                TS73042HS         $149                                      TS73642HS         $179
+48"                TS73048HS         $164                                      TS73648HS         $198
+60"                TS73060HS         $184                                      TS73660HS         $218
+72"                TS73072HS         $205                                      TS73672HS         $245
+d
+d
+d
+d
+d
+February 2015

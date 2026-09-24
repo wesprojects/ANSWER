@@ -1,0 +1,159 @@
+Panels—Thin Trim
+Panels—Thin Trim
+Frameless Glass Screens
+with Recessed Attachment—
+Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Application Topics
+Frameless glass
+screen can be placed on
+the top of a panel only. Top
+beam in the panel must be
+located in the top position 
+of the frame in order to 
+support frameless glass.
+Frameless glass can be
+used on base panels or
+stacking panels.
+Frameless glass scr -
+een cannot be used when a
+window is located in the top
+position of the panel.
+At an in-line change-of-
+height condition, a
+change-of-height top cap
+should be specified.
+Change-of-height top cap
+option is available to allow
+for positioning of glass next
+to change-of-height trim on
+one side only. Glass is short-
+ened and top cap provided
+supports change-of-height
+on one end only. A change-
+of-height top cap is not
+needed at a corner change-
+of-height condition.
+Frameless glass
+screen will not fit between
+two in-line change-of-height
+trims.
+Frameless glass kit is 
+available without glass
+screen to accommodate
+customer’s own glass. See
+chart of field installed glass
+size requirements for spe-
+cific dimensions required for
+glass to fit in frameless glass
+brackets. Steelcase recom-
+mends the use of safety
+glass meeting ANSI Z97.1
+for field installed glass.
+Check with your local build-
+ing authority for require-
+ments in your area.
+A single frameless
+glass screen can span
+over two or more inline 
+panels up to 96".
+Frameless glass
+screens with recessed
+attachment cannot span
+a corner junction.
+In-line spanning top
+cap lightseal must be
+specified separately when
+used in this application.
+Spanning top cap lightseal
+attaches to underside of top
+cap to fill space between
+skin lightseals. Specify one
+for each in-line junction the
+frameless glass screen
+spans.
+Plastic end-of-run and
+junction cap aligners
+manufactured after
+November 2012 will have
+features to accommodate
+recessed frameless glass.
+Aligners manufactured
+before November 2012 will
+not be able to accommodate
+recessed frameless glass
+and new aligners will need
+to be ordered. 
+Each Answer frame-
+less glass with
+recessed attachment
+kit will come with two 
+aligners to align top caps
+when two frameless glass
+kits are used in an inline
+condition.
+When specifying frame-
+less glass in a wall-
+start application or
+when frameless glass
+is on an off-module fin
+panel, the wall-start option
+should be selected. A
+recessed frameless glass
+top cap connector
+(TS7TFGRC) must also be
+ordered for this application.
+Before
+November
+2012
+After
+November
+2012
+...............................................................................................................................................
+Answer Solutions Specification Guide                                              cFrameless Glass Screens with Recessed Attachment—Thin Trim, continued  57
+...............................................................................................................................................
+A recessed frameless
+glass top cap connec-
+tor (TS7TFGRC) must be
+specified when a frameless
+glass screen is adjacent to a
+corner junction and the
+frameless glass top caps are
+located at a different (lower)
+height than the junction cap.
+When using frameless
+glass on a spine panel
+with a same height off-
+module panel connec-
+tions, the off-module
+cannot connect within 10" 
+of an end-of-run or in-line
+junction connection.
+10" min
+In-line or
+end-of-run
+junction
+Fin
+Spine
+...............................................................................................................................................
+...............................................................................................................................................
+When omitting glass
+and using acrylic or 3
+form material in place
+of glass additional sup-
+port clamps may need
+to be ordered as service
+parts (T522096SR or
+T522097SR). Frameless
+glass kits 54" to 72" will also
+require additional support
+clamps to be ordered. When
+installing the support clamps
+the maximum allowed dis-
+tance between the clamps is
+48".
+48" max
+February 2015

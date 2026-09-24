@@ -1,0 +1,100 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                         
+377
+Panels—Thin Trim
+Panels—Thin Trim
+Answer to c:scape T Junctions—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+See c:scape
+Specification Guide
+• Junction
+• Inside corner light seals
+• Trim and junction cap: paint price group 1 
+• Aligners
+1 Style number
+2 Paint color number for trim and junction
+cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+Bracket                   • Desk-to-panel bracket                 +$35                                      Specify with desk-to-panel bracket.
+Specification Information
+DCorresponding   DStyle                            DU.S.
+dPanel
+dNumber                        dBase
+dHeight
+d
+dPrice
+d
+d
+d                                                                
+dA
+B
+C
+d
+d
+For Two Panels and One Beam
+30"
+24"
+30"
+TS7323TCTJCQ
+$464
+42"
+24"
+42"
+TS7424TCTJCQ
+$464
+48"
+24"
+48"
+TS7828TCTJCQ
+$464
+54"
+24"
+54"
+TS7525TCTJCQ
+$464
+d
+d
+d
+For Two Beams and One Panel
+24"
+30"
+24"
+TS7232TCTJCQ
+$464
+24"
+42"
+24"
+TS7242TCTJCQ
+$464
+24"
+48"
+24"
+TS7282TCTJCQ
+$464
+24"
+54"
+24"
+TS7252TCTJCQ
+$464
+d
+d
+d
+A
+B
+C
+A
+B
+C
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Answer to c:scape T
+Junctions—Thin Trim
+February 2015

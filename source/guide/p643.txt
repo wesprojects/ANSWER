@@ -1,0 +1,113 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            643
+Universal Storage
+                                                                                                                     
+                                        
+Universal Open Side Towers 
+Specification Information
+DDimensions                         DStyle                      DU.S. Base Prices   
+DCounterweights
+dD                      W     H        dNumber                  d
+d
+d
+d
+d
+dSteel Fronts                    dWood Fronts
+dFlush
+Proud
+d
+dFlush
+dProud      dProud
+dUniversal dFrameOne    dUniversal
+dFrameOne
+dSteel
+Steel/
+d
+dSteel
+dSteel      dWood
+d3" Base
+dFoot and       d3" Base
+dFoot and
+dFront
+Wood
+d                                     dFront      dFront      dFront
+d
+dc:scape        d
+dc:scape
+d
+Front
+d                                     d                 d
+d
+d
+dGlide 
+d
+dGlide 
+d
+d                                     dSuffix F  dSuffix P  dSuffix W d
+dBases
+d
+dBases
+Tower with Door Hinged on Right
+One 6"H Drawer and Two 12"H Drawers
+18"          187⁄8"      24"    471⁄2"     RQS182448RA_   $1882        $2186          $2630
+Package 1
+Package 1          Package 2
+Package 2
+231⁄8"      24"          24"    471⁄2"     RQS242448RA_   $2084        $2388          $2832
+Not required
+Package 1          Not required
+Package 1
+291⁄8"      30"          24"    471⁄2"     RQS302448RA_   $2286        $2590          $3034
+Not required
+Not required       Not required
+Not required
+d
+d                                     d                 d               d
+d
+d
+d
+d
+One Adjustable Shelf, One 6"H Drawer, and Two 12"H Drawers
+18"          187⁄8"      24"    52"         RQS18244RA_     $1944        $2248          $2692
+Package 1
+Package 1          Package 1
+Package 1
+231⁄8"      24"          24"    52"         RQS24244RA_       $2162       $2466         $2910
+Not required
+Not required       Not required
+Not required
+291⁄8"      30"          24"    52"         RQS30244RA_       $2381       $2685         $3129
+Not required
+Not required       Not required
+Not required
+d
+d                                     d                 d               d
+d
+d
+d
+d
+Two Adjustable Shelves, One 6"H Drawer, and Two 12"H Drawers
+18"          187⁄8"      24"    651⁄2"     RQS18245RC_       $2293       $2597         $3041
+Package 1
+Package 1          Package 1
+Package 1
+231⁄2"      24"          24"    651⁄2"     RQS24245RC_       $2548       $2852         $3296
+Not required
+Not required       Not required
+Not required
+291⁄8"      30"          24"    651⁄2"     RQS30245RC_       $2803       $3107         $3551
+Not required
+Not required       Not required
+Not required
+d
+d                                     d                 d               d
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cSpecification Information, continued from previous page
+Universal Storage
+February 2015

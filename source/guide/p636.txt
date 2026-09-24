@@ -1,0 +1,131 @@
+636                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Storage
+Universal One-High, 1.5-High, and Two Drawer Lateral Files with Flush Steel, Proud Steel, Proud Wood, 
+or Open Fronts, continued
+                                        
+Universal One-High, 1.5-High, and Two Drawer Lateral Files with Flush Steel, Proud Steel, Proud Wood, 
+or Open Fronts, continued
+                                        cOptions, continued from previous page
+Options                       U.S. Price               Required to Specify
+  Counterweights,     Two Drawer with c:scape Glide and FrameOne Foot Bases
+  continued            • Package 7                                  +$168                                   Specify with counterweight.
+                                     • Package 8                                  +$211                                    Specify with counterweight.
+  Lock and                   Lock 
+  Keying                 • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                       Individual locking drawers
+                               • 18"D with two drawers                +$122                                   Specify with individual lock.
+                                     • 24"D with two drawers                +$136                                   Specify with individual lock.
+                                       Keying
+                                     • Factory- and field-installed keying                                         cPage 726
+  Related                   • Cushion tops                                                                          cPage 639
+  Products                 • Field-installed tops                                                                 cPage 668
+                                     • Storage accessories                                                              cPage 591
+                              • Bookends                                                                               cPage 674
+                                     • Counterweight packages                                                       cPage 676
+                                     • Low storage-to-beam tether bracket                                      cPage 638
+Tip: The suffix for open-open
+configurations define the unit
+as flush steel or proud steel
+to match additional Universal
+storage. 
+Tip: For open-open units,
+the shelf is affixed with
+screws. The screws can be
+removed to adjust the
+clips/shelf to a different
+height. 
+Tip: The suffix for open
+configurations define the unit
+as flush steel or proud steel
+to match additional Universal
+storage. 
+Tip: Height dimension listed
+is for units with 1" top.
+Overall height will vary if
+another top is selected.
+Tip: A tether bracket is now
+available to attach universal
+units to the c:scape beam.
+cPage 638
+Tip: Your specification is
+not complete until you add
+a suffix to the style number
+to define the front style (for
+example, RLF18301__
+becomes RLF18301F for
+flush steel front).
+Specification Information
+DDimensions                   DCounterweight                 DStyle              DU.S. Base Prices
+dD                    W   H     dPackages                         dNumber         d
+dFlush Proud
+d
+d
+dFlush
+dProud   dProud
+dSteel
+Steel/
+dUniversal
+dFrameOne 
+d
+dSteel
+dSteel    dWood    
+d
+Wood
+d3" Base
+dFoot and
+d                           dFront        dFront    dFront
+d
+d
+dc:scape
+d                           d                  d
+d
+d
+d
+dGlide Bases d                           d                  d
+d
+d
+d
+d
+d                           d                  d
+d
+d
+d
+d
+d
+dSuffix F   dSuffix PdSuffix W
+One 12"H Drawer
+18"         187⁄8"     30"  16"      Package A        Package G        RLF18301_    $  744          $  765       $1516
+18"         187⁄8"     36"  16"      Package B        Package H        RLF18361_    $  824          $  855       $1602
+18"         187⁄8"     42"  16"      Package C        Package J         RLF18421_    $  904          $  942       $1683
+231⁄8"     24"         30"  16"      Package A        Package G        RLF24301_    $  839          $  875       $1621
+231⁄8"     24"         36"  16"      Package B        Package H        RLF24361_    $  973          $1019       $1756
+d
+d
+d
+d                           d                  d
+d
+Open Configurations
+18"         187⁄8"     30"  16"      Not required      Not required      RSC18301A_ $  633          $  686       N.A.
+18"         187⁄8"     36"  16"      Not required      Not required      RSC18361A_ $  741          $  805       N.A.
+18"         187⁄8"     42"  16"      Not required      Not required      RSC18421A_ $  841          $  913       N.A.
+231⁄8"     24"         30"  16"      Not required      Not required      RSC24301A_ $  771          $  832       N.A.
+231⁄8"     24"         36"  16"      Not required      Not required      RSC24361A_ $  941          $1020       N.A.
+d
+d
+d
+d                           d                  d
+d
+Open–Open Configurations
+One 6"H Opening with Fixed Shelf and One 12"H Opening with Fixed Shelf 
+18"         187⁄8"     30"  22"      Not required      Not required      RLF18301A_  $  668        $  724       N.A.
+18"         187⁄8"     36"  22"      Not required      Not required      RLF18361A_  $  802        $  870       N.A.
+18"         187⁄8"     42"  22"      Not required      Not required      RLF18421A_  $  930        $1007       N.A.
+231⁄8"     24"         30"  22"      Not required      Not required      RLF24301A_  $  881        $  952       N.A.
+231⁄8"     24"         36"  22"      Not required      Not required      RLF24361A_  $1051        $1134       N.A.
+d
+d
+d
+d                           d                  d
+d
+cSpecification Information, continued on next page
+February 2015

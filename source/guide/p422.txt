@@ -1,0 +1,109 @@
+Panels—Square and Oval Trim
+Base Horizontal Frame Packages—Oval Trim                                            
+For Panel Buildups
+                            Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$11                                      Specify paint color number.
+                                     • Paint price group 3                     +$21                                     Specify paint color number.
+                                 Top cap
+                                     • Wood                                          Prices below                         Specify with wood top cap and select
+                                                                                                                                          wood color number.
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+  Change-               • Change-of-height at one end      +$  6                                     Specify with change-of-height, one end.
+  of-Height                   of top cap
+  Shortened              • Change-of-height at both ends   +$  6                                     Specify with change-of-height, both ends.
+  Top Cap                     of top cap on 36"W and wider
+                                        frame packages
+  Base Trim            • Knockouts one side,                   No cost                                 Specify with knockouts one side, plain 
+                                        plain one side                                                                           one side.
+                                        (24"-72"W only)
+                                     • Plain both sides,                         No cost                                 Specify with plain both sides. 
+                                        (24"-72"W only)
+                                     • Omit one side, knockouts one    –$  3                                      Specify with omit one side, knockouts 
+                                        side, 18"W to 36"W                                                                  one side.
+                                     • Omit one side, knockouts one    –$  4                                      Specify with omit one side, knockouts 
+                                        side, 42"W to 48"W                                                                  one side.
+                                     • Omit one side, knockouts one    –$  5                                      Specify with omit one side, knockouts 
+                                        side, 60"W to 72"W                                                                  one side.
+                                     • Omit one side, plain one side,    –$  3                                      Specify with omit one side, plain one  
+                                        18"W to 36"W                                                                           side.
+                                     • Omit one side, plain one side,    –$  4                                      Specify with omit one side, plain one  
+                                        42"W to 48"W                                                                           side.
+                                     • Omit one side, plain one side,    –$  5                                      Specify with omit one side, plain one  
+                                        60"W to 72"W                                                                           side.
+                                     • Omit both sides, 18"W to 36"W  –$  6                                      Specify with omit both sides.  
+                                     • Omit both sides, 42"W to 48"W  –$  8                                      Specify with omit both sides.
+                                     • Omit both sides, 60"W to 72"W  –$10                                      Specify with omit both sides.  
+  Cable Tray           • Cable tray                                   No cost                                 Specify with cable tray.
+  Base Cable Tray • Base cable tray                           +$  5                                     Specify with base cable tray.
+   Speciﬁcation Information
+DWidth    DStyle           DU.S.      DOption
+d              dNumber       dBase    d(Add $ to 
+d
+d
+dPrice
+dBase Price)
+d                 d                        d               d
+d                 d                        d               dWood
+d                 d                        d               dTop Cap
+18"              TS718HF      $  93         +$183
+24"              TS724HF      $  97         +$183
+30"              TS730HF      $107         +$183
+36"              TS736HF      $112         +$183
+42"              TS742HF      $128         +$183
+48"              TS748HF      $137         +$183
+60"              TS760HF      $173         +$244
+72"              TS772HF      $237         +$244
+d
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 88
+• Standard length top cap: color default determined 
+by base trim paint color
+• Base trim with knockouts: paint price group 1
+• Two horizontal connecting bars: black paint only
+1 Style number
+2 Paint color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: You must order vertical
+junctions separately to 
+complete your frame.
+cPage 394– 395
+Tip: Remember to specify an
+optional shortened change-
+of-height top cap 
+on any panel in a change-
+of-height conﬁguration.
+Exception: The tallest panel
+in the conﬁguration never
+needs a shortened change-
+of-height top cap.
+Tip: Remember to omit base
+trim(s) when using skins to
+the ﬂoor or when using an
+open base trim conversion
+kit.
+Tip: Base cable tray cannot
+be used if omit base trim is
+selected for one or both
+sides of panel.
+Tip: Remember to order
+skins to complete the panel.
+cPage 434.
+Tip: Omit standard base trim
+and specify separate hard-
+wire base trim when access-
+ing hardwire power in the
+base. 
+scale 75
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+422                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+February 2015

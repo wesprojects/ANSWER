@@ -1,0 +1,102 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            119
+Glass Windows 
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Field-Installed, Single-Pane Custom Glass
+Kits will accommodate 4 mm – 6 mm glass
+Frame Size  Style            Height    Width   Maximum
+                     Number                                   Thickness
+12"H     24"W   TS71224SCW  9.760"        21.280"   0.245"
+             30"W   TS71230SCW  9.760"        27.280"   0.245"
+             36"W   TS71236SCW  9.760"        33.280"   0.245"
+             42"W   TS71242SCW  9.760"        39.280"   0.245"
+             48"W   TS71248SCW  9.760"        45.280"   0.245"
+             60"W   TS71260SCW  9.760"        57.280"   0.245"
+             72"W   TS71272SCW  9.760"        69.280"   0.245"
+              78"W   TS71278SCW  9.760"        75.280"   0.245"
+              84"W   TS71284SCW  9.760"        81.280"   0.245"
+              90"W   TS71290SCW  9.760"        87.280"   0.245"
+              96"W   TS71296SCW  9.760"        93.280"   0.245"
+18"H     24"W   TS71824SCW  15.940"      21.280"   0.245"
+             30"W   TS71830SCW  15.940"      27.280"   0.245"
+             36"W   TS71836SCW  15.940"      33.280"   0.245"
+             42"W   TS71842SCW  15.940"      39.280"   0.245"
+             48"W   TS71848SCW  15.940"      45.280"   0.245"
+             60"W   TS71860SCW  15.940"      57.280"   0.245"
+              72"W   TS71872SCW  15.940"      69.280"   0.245"
+              78"W   TS71878SCW  15.940"      75.280"   0.245"
+              84"W   TS71884SCW  15.940"      81.280"   0.245"
+              90"W   TS71890SCW  15.940"      87.280"   0.245"
+              96"W   TS71896SCW  15.940"      93.280"   0.245"
+24"H     24"W   TS72424SCW  22.120"      21.280"   0.245"
+             30"W   TS72430SCW  22.120"      27.280"   0.245"
+             36"W   TS72436SCW  22.120"      33.280"   0.245"
+             42"W   TS72442SCW  22.120"      39.280"   0.245"
+             48"W   TS72448SCW  22.120"      45.280"   0.245"
+             60"W   TS72460SCW  22.120"      57.280"   0.245"
+              72"W   TS72472SCW  22.120"      69.280"   0.245"
+              78"W   TS72478SCW  22.120"      75.280"   0.245"
+              84"W   TS72484SCW  22.120"      81.280"   0.245"
+              90"W   TS72490SCW  22.120"      87.280"   0.245"
+              96"W   TS72496SCW  22.120"      93.280"   0.245"
+Hanging components
+cannot be used next to a
+double-pane window at a
+90° corner.
+Open design upmount
+bin and shelf bracket
+cannot be used when
+double-pane window is 
+in top position of panel.
+Sliding panel door cannot
+be used when a double-
+pane window is used in the
+host panel.
+When installing win-
+dows, you must consider
+ceiling height. Windows slide
+into junctions from the top
+and require clearance above
+the panel.
+A single glass window
+can span over two or more
+in-line panels.
+Spanning windows
+should be used in the top
+position only.
+Spanning window 
+in-line support must be
+specified separately when
+spanning windows. One 
+support is used at each 
+in-line junction to provide a
+light seal and help support
+the window.
+Spanning windows of
+any width cannot be
+stacked on top of each other.
+When a spanning win-
+dow is used, it is recom-
+mended that the same size
+spanning top cap also be
+specified for use on the 
+window.
+When double stacking
+junctions, at least one of
+the stacking junctions must
+be connected with a 
+horizontal beam.
+When ordering a 78"W
+or wider single pane
+window kit to be used
+with steel or fabric
+skins located directly
+below it, two clips
+(T521328SR) should be
+ordered and installed. 
+...............................................................................................................................................
+Shared Components
+Shared Components
+February 2015

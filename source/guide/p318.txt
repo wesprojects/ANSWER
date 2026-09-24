@@ -1,0 +1,44 @@
+318                                                                                                                                                                                                            Answer Solutions Specification Guide
+Stability Guidelines
+...............................................................................................................................................
+...............................................................................................................................................
+Stability Guidelines for Answer and Duo Tall Storage
+         
+Duo Tall Storage cannot be mounted off-module.                                      If Duo Tall Storage is mounted in an end-of-run application, a 30"W
+                                                                                                                                 minimum panel return must be used on the other end of the run.
+A minimum 30"W Answer panel return at 90° or 36"W at 120° 
+must be used with Duo Tall Storage.
+         
+Duo Tall Storage cannot be mounted off-module.                                              A 30"W minimum panel return is required when Duo Tall Storage
+                                                                                                                                 is used on a panel that is supporting additional components.
+A minimum 30"W Answer panel return at 90° or 120° 
+must be used with Duo Tall Storage.
+Guideline
+s for Answer and Duo Tall Storage
+Stability Guidelines for Duo Tall Storage-to-Answer Panel Application in Seismic Zones
+• Follow traditional planning guidelines. 
+• Tall Storage leg base  must be bolted to the floor per local building code. 
+• Worksurface brackets included must be installed.
+12' maximum
+30"W
+minimum
+  4' minimum
+18' maximum
+42"H
+minimum
+30"W
+minimum
+  4' minimum
+18' maximum
+30"W
+minimum
+42"H
+minimum
+  4' minimum
+18' maximum
+42"H
+minimum
+30"W
+minimum
+Duo Storage
+February 2015

@@ -1,0 +1,51 @@
+Answer Solutions Specification Guide                                                                                                                                          cStability Guidelines, continued  127
+Stability Guidelines
+Shared Components
+Shared Components
+...............................................................................................................................................
+...............................................................................................................................................
+Guidelines for “T” Configurations, continued
+Panels without Panel-Hung Components
+ 
+For runs over 18', you must locate a 48"W
+perpendicular panel every 12'.
+Panels with Panel-Hung Components Counterbalanced on Both Sides
+               
+If A is 4' long and B is 6' long, you must use                                  If B is 6' to 12', you must use one center support panel per side.
+an end panel and a cantilever.                                                                   Maximum 8' of shelves or bins per panel run.
+                 
+If B is up to 6' long, you can use cantilevers                                      If B is up to 6' long, you can use cantilevers to support adjoining 
+to support adjoining worksurfaces.                                                             worksurfaces. Maximum 8' of shelves or bins per panel run.
+48"
+12' max.
+12' max.
+30" min.
+5' min.
+Over 18'
+48"
+12' max.
+12' max.
+Over 18'
+30" min.
+5' min.
+48"
+30" min.
+5' min.
+Over 18'
+12' max.
+12' max.
+6'
+4'
+B
+A
+12' max.
+12' max.
+B
+6' max.
+6' max.
+B
+A
+6'
+12' max.
+B
+February 2015

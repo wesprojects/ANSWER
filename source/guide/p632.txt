@@ -1,0 +1,44 @@
+632                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Storage
+Slim Shelves
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 295
+• Shelf: paint price group 1
+• Attachment brackets: paint to match shelf
+1 Style number 
+2 Paint color number for shelf
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$14                                     Specify paint color number.
+                              • Paint price group 3                     +$23                                     Specify paint color number.
+Specification Information
+DDimensions          DStyle              DU.S.
+dD        W                dNumber         dBase
+d                             d                      dPrice
+d                             d                      d
+6"           24"                   RSS24TAK      $185
+6"           30"                   RSS30TAK      $198
+6"           36"                   RSS36TAK      $212
+6"           42"                   RSS42TAK      $227
+6"           48"                   RSS48TAK      $242
+6"           60"                   RSS60TAK      $302
+6"           72"                   RSS72TAK      $332
+6"           96"                   RSS96TAK      $391             
+d                             d
+d
+Tip: Slim shelves with a
+“TAK” suffix can attach to
+Privacy Wall. 
+cSee Architectural Solutions
+Specification Guide for attach-
+ment information.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

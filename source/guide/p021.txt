@@ -1,0 +1,197 @@
+Panels—Thin Trim
+Answer Solutions Specification Guide                                                                                      cChange-of-Height Visual Overview—Thin Trim, continued  21
+Change-of-Height Visual
+Overview—Thin Trim
+T Junctions
+Panels—Thin Trim
+A
+B    C         Style Number
+30"
+42"   30"         TS7343TCTJ
+30"
+48"   30"         TS7383TCTJ
+30"
+54"   30"         TS7353TCTJ
+30"
+66"   30"         TS7363TCTJ
+42"
+54"   42"         TS7454TCTJ
+42"
+66"   42"         TS7464TCTJ
+42"
+78"   42"         TS7474TCTJ
+48"
+66"   48"         TS7868TCTJ
+48"
+78"   48"         TS7878TCTJ
+54"
+66"   54"         TS7565TCTJ
+54"
+78"   54"         TS7575TCTJ
+66"
+78"   66"         TS7676TCTJ
+cPages 351-353 to specify
+Junction includes
+T change-of-height junction
+Inside corner light seals
+T vertical trim
+End-of-run change-of-height trim
+Change-of-height junction cap
+Aligners
+Tip: Style numbers for wood junc-
+tions require a W to be added to the
+end of the style number.
+A
+B
+C
+A
+B    C         Style Number
+42"
+30"   42"
+TS7434TCTJ
+48"
+30"   48"
+TS7838TCTJ
+54"
+30"   54"
+TS7535TCTJ
+66"
+30"   66"
+TS7636TCTJ
+54"
+42"   54"
+TS7545TCTJ
+66"
+42"   66"
+TS7646TCTJ
+78"
+42"   78"
+TS7747TCTJ
+66"
+48"   66"
+TS7686TCTJ
+78"
+48"   78"
+TS7787TCTJ
+66"
+54"   66"
+TS7656TCTJ
+78"
+54"   78"
+TS7757TCTJ
+78"
+66"   78"
+TS7767TCTJ
+cPages 351-353 to specify
+Junction includes
+T change-of-height junction
+Inside corner light seals
+T vertical trim
+T change-of-height trim
+90° junction cap
+Aligner
+Tip: Style numbers for wood junc-
+tions require a W to be added to the
+end of the style number.
+A
+B
+C
+A
+B    C         Style Number
+30"
+30"   42"         TS7334TCTJ
+30"
+30"   48"         TS7338TCTJ
+30"
+30"   54"         TS7335TCTJ
+30"
+30"   66"         TS7336TCTJ
+42"
+42"   54"         TS7445TCTJ
+42"
+42"   66"         TS7446TCTJ
+42"
+42"   78"         TS7447TCTJ
+48"
+48"   66"         TS7886TCTJ
+48"
+48"   78"         TS7887TCTJ
+54"
+54"   66"         TS7556TCTJ
+54"
+54"   78"         TS7557TCTJ
+66"
+66"   78"         TS7667TCTJ
+cPages 351-353 to specify
+Junction includes
+T change-of-height junction
+Inside corner light seals
+T vertical trim
+End-of-run change-of-height trim
+Change-of-height junction cap
+Aligners
+Tip: Style numbers for wood junc-
+tions require a W to be added to the
+end of the style number.
+Tip: When specifying remember this
+junction is handed and the other
+hand is not supported by style num-
+bers. While in the field, installers
+may need to move a post to achieve
+the desired configuration.
+A
+B
+C
+...............................................................................................................................................
+...............................................................................................................................................
+A
+B    C         Style Number
+42"
+42"   30"         TS7443TCTJ
+48"
+48"   30"
+TS7883TCTJ
+54"
+54"   30"         TS7553TCTJ
+66"
+66"   30"         TS7663TCTJ
+54"
+54"   42"         TS7554TCTJ
+66"
+66"   42"         TS7664TCTJ
+78"
+78"   42"         TS7774TCTJ
+66"
+66"   48"         TS7668TCTJ
+78"
+78"   48"         TS7778TCTJ
+66"
+66"   54"         TS7665TCTJ
+78"
+78"   54"         TS7775TCTJ
+78"
+78"   66"         TS7776TCTJ
+cPages 351-353 to specify
+Junction includes
+T change-of-height junction
+Inside corner light seals
+T vertical trim
+L change-of-height trim
+90° junction cap
+Aligner
+Tip: Style numbers for wood junc-
+tions require a W to be added to the
+end of the style number.
+Tip: When specifying remember this
+junction is handed and the other
+hand is not supported by style num-
+bers. While in the field, installers
+may need to move a post to achieve
+the desired configuration.
+A
+B
+C
+...........................................................................................................................................
+...........................................................................................................................................
+...........................................................................................................................................
+February 2015

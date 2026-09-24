@@ -1,0 +1,72 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                            cWiring and Cabling, continued  475
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Wiring and Cabling
+Shared Components and Wiring and Cabling
+Powerkits
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 162
+• Powerkit to accommodate modular duplex and 
+USB receptacles on both sides: black plastic
+• Supporting powertray: black paint
+• Harness with modular connectors
+Style number
+Speciﬁcation Information
+               Powerkits                                                                 Non-PVC Powerkits
+DWidth   DNumber of Duplex     DStyle               DU.S.            DStyle                     DU.S.                     
+d             dReceptacles              dNumber           dPrice
+dNumber                 dPrice
+d
+dPer Side
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+4-Circuit, 3+1 Wiring Schematic                           
+24"             1                                         TS7PK24X       $196                TS7PK24XN           $207
+30"             2                                         TS7PK30X       $196                TS7PK30XN           $207
+36"             2                                         TS7PK36X       $196                TS7PK36XN           $207
+42"             2                                         TS7PK42X       $196                TS7PK42XN           $207
+48"             2                                         TS7PK48X       $196                TS7PK48XN           $207
+60"             4                                         TS7PK60X       $297                TS7PK60XN           $307
+72"             4                                         TS7PK72X       $297                TS7PK72XN           $307
+  d               d                                         d                            d
+d
+d
+4-Circuit, 2+2 Wiring Schematic
+24"             1                                         TS7PK24Y       $196                TS7PK24YN           $207
+30"             2                                         TS7PK30Y       $196                TS7PK30YN           $207
+36"             2                                         TS7PK36Y       $196                TS7PK36YN           $207
+42"             2                                         TS7PK42Y       $196                TS7PK42YN           $207
+48"             2                                         TS7PK48Y       $196                TS7PK48YN           $207
+60"             4                                         TS7PK60Y       $297                TS7PK60YN           $307
+72"             4                                         TS7PK72Y       $297                TS7PK72YN           $307
+  d               d                                         d                            d
+d
+d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+24"             1                                         TS7PK24Z        $196                TS7PK24ZN           $207
+30"             2                                         TS7PK30Z        $196                TS7PK30ZN           $207
+36"             2                                         TS7PK36Z        $196                TS7PK36ZN           $207
+42"             2                                         TS7PK42Z        $196                TS7PK42ZN           $207
+48"             2                                         TS7PK48Z         $196                TS7PK48ZN           $207
+60"             4                                         TS7PK60Z        $297                TS7PK60ZN           $307
+72"             4                                         TS7PK72Z        $297                TS7PK72ZN           $307
+  d               d                                         d                            d
+d
+d
+Tip: Remember to order
+receptacles and faceplates.
+cPages 477–479
+February 2015

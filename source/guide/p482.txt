@@ -1,0 +1,39 @@
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+482                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Tip: Specify hardwire base
+trims when accessing a
+hardwire powerkit in the
+base. 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Hardwired Powerkits 
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 166
+• Power tray
+• Junction box(es)
+• Cover plate(s)
+Style number
+   Speciﬁcation Information
+DCorresponding
+DNumber of
+DStyle                DU.S.
+dPanel                  dJunction     dNumber            dPrice
+dWidth                  dBoxes          d                              d
+d                                d                        d                              d
+24"                              1                       TS7CPK24         $196
+30"                              2                       TS7CPK30         $196
+36"                              2                       TS7CPK36         $196
+42"                              2                       TS7CPK42         $196
+48"                              2                       TS7CPK48         $196
+60"                              2                       TS7CPK60         $297
+72"                              2                       TS7CPK72         $297
+d
+d
+d
+d
+February 2015

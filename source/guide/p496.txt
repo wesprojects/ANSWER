@@ -1,0 +1,71 @@
+496                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cNeed help?
+Product details,
+page 176
+• 13⁄16"-thick worksurface: Low-Pressure Laminate or 
+High-Pressure Laminate
+• 3 mm radius proﬁle edge on user’s side: plastic 
+• Side and back edges: plastic default to match user's side
+• Grommet: black plastic only
+• Corner bracket: black paint only
+1 Style number
+2 Low-Pressure Laminate or High-Pressure
+Laminate color number for worksurface,
+as appropriate
+3 Plastic edge band color number for work-
+surface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+A
+B
+D
+B
+C
+A
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+  Related                   • Worksurface-height power and communication access        cPage 555
+  Products                • Worksurface legs and supports                                             cPage 502
+   Speciﬁcation Information
+DDimensions                          DStyle                    DU.S.        DStyle                     DU.S.
+dA       B        C
+D
+dNumber               dPrice      dNumber                dBase
+d                                             dLPL                      d
+dHPL                       dPrice
+d                                             d                            d
+d                             d
+24"       36"       301⁄2"    6311⁄32"      TSAWLY2436        $532         TSAWHY2436        $659
+24"       42"       301⁄2"    723⁄4"         TSAWLY2442        $569         TSAWHY2442        $705
+24"       48"       301⁄2"    855⁄32"       TSAWLY2448        $628         TSAWHY2448        $778
+d                                             d                            d
+d                             d
+                            Standard Includes                                      Required to Specify
+TS Series Worksurfaces 
+TS Series 120° Corner Worksurfaces                                                         
+                                                                                                                     
+Tip: Standard worksurfaces
+are 13⁄16" thick. However,
+the actual thickness
+between Low-Pressure
+Laminate (LPL) and High-
+Pressure Laminate (HPL)
+worksurfaces is slightly dif-
+ferent. It is recommended
+that only worksurfaces of the
+same type are speciﬁed in a
+given application. In addi-
+tion, there may be sheen or
+texture differences when
+using LPL and HPL in adja-
+cent applications. Please
+use caution when mixing
+and matching different work-
+surface types.
+February 2015

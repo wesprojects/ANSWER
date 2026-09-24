@@ -1,0 +1,33 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            465
+Shared Components and Wiring and Cabling
+                                                                                                                                                                                                                   
+Glass Windows
+Specification Information
+Double Pane
+12"H                                        18"H                                        24"H
+                     
+                                                
+                                                
+DWidth      DStyle                   DU.S.           DStyle                   DU.S.           DStyle                   DU.S.
+d               dNumber              dBase         dNumber              dBase         dNumber              dBase 
+d                  d                                dPrice           d                                dPrice           d                                dPrice
+d                  d                                d                     d                                d                     d                                d
+24"                TS71224DPW      $  527             TS71824DPW      $628               TS72424DPW      $  730
+30"                TS71230DPW      $  560             TS71830DPW      $664               TS72430DPW      $  764
+36"                TS71236DPW      $  594             TS71836DPW      $699               TS72436DPW      $  801
+42"                TS71242DPW      $  627             TS71842DPW      $735               TS72442DPW      $  842
+48"                TS71248DPW      $  660             TS71848DPW      $784               TS72448DPW      $  907
+60"                TS71260DPW      $  749             TS71860DPW      $873               TS72460DPW      $  996
+72"                TS71272DPW      $  829             TS71872DPW      $978               TS72472DPW      $1125
+78"                TS71278DPW      $  943                                               
+84"                TS71284DPW      $1035                                               
+90"                TS71290DPW      $1126                                               
+96"                TS71296DPW      $1218                                               
+d                  d                                d                     d                                d                     d                                d
+cSpeciﬁcation Information, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components
+February 2015

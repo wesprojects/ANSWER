@@ -1,0 +1,107 @@
+392                                                                                                                                                                                                            Answer Solutions Specification Guide
+Panels—Thin Trim 
+Base Trims and Open Base Conversion Kits
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 51
+• Base trim with knockouts: paint
+1 Style number
+2 Paint color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Base Trim            • Plain                                           No cost                                  Specify with no knockouts.
+                                      (24"W to 72"W only)
+Specification Information
+DWidth      DStyle                   DU.S.
+d
+dNumber              dPrice
+d
+d
+d
+18"
+TS718BT
+$17
+24"
+TS724BT
+$18
+30"
+TS730BT
+$19
+36"
+TS736BT
+$20
+42"
+TS742BT
+$21
+48"
+TS748BT
+$22
+60"
+TS760BT
+$24
+72"
+TS772BT
+$27
+d
+d
+d
+Tip: 18" wide base trim is
+only available in plain (no
+knockouts).
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 51
+• Trim: paint
+1 Style number
+2 Paint color number for trim
+cSee Surface Materials, page 708.
+Specification Information
+DWidth      DStyle                   DU.S.
+d
+dNumber              dPrice
+d
+d
+d
+18"
+TS718OBK
+$35
+24"
+TS724OBK
+$37
+30"
+TS730OBK
+$39
+36"
+TS736OBK
+$41
+42"
+TS742OBK
+$43
+48"
+TS748OBK
+$45
+60"
+TS760OBK
+$49
+72"
+TS772OBK
+$54
+d
+d
+d
+Tip: Open base trim can only
+be used on junctions manu-
+factured on or after October
+10, 2011.
+31/4"
+21/2"
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Base Trims
+Open Base Conversion Kits
+February 2015

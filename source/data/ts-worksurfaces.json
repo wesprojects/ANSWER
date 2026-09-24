@@ -1,0 +1,4288 @@
+{
+ "section": "ts-worksurfaces",
+ "title": "TS Series Worksurfaces and Supports",
+ "pages": [
+  171,
+  504
+ ],
+ "coveredPages": {
+  "understanding": [
+   171,
+   184
+  ],
+  "specifying": [
+   489,
+   504
+  ]
+ },
+ "families": [
+  {
+   "id": "ts-straight-worksurface",
+   "title": "TS Series Straight Worksurfaces",
+   "page": 490,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Long worksurface spans require additional support. Reinforcing channels allow for unsupported spans up to 72\". Page 503",
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502); Reinforcing channel (page 503); Grommet package (page 504).",
+    "Non-handed rectangle. Grommet not standard (field-installed grommet package TSAEGROM requires 3\" diameter hole).",
+    "Understanding p176/p181: 30\"D straight cantilevered worksurfaces require additional floor support along the front edge (pedestal, end panel, post leg, side support bracket, or adjacent return worksurface).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}R{DD}{WW}",
+     "meaning": "L = Low-Pressure Laminate, H = High-Pressure Laminate; R = straight (rectangular); DD = depth (18/24/30); WW = width (24-72 in 6\" steps)"
+    }
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLR1824",
+     "desc": "Straight worksurface 18\"D x 24\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 24,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 119,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1824",
+     "desc": "Straight worksurface 18\"D x 24\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 24,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 158,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1830",
+     "desc": "Straight worksurface 18\"D x 30\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 30,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 123,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1830",
+     "desc": "Straight worksurface 18\"D x 30\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 30,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 170,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1836",
+     "desc": "Straight worksurface 18\"D x 36\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 36,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 139,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1836",
+     "desc": "Straight worksurface 18\"D x 36\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 36,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 182,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1842",
+     "desc": "Straight worksurface 18\"D x 42\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 42,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 151,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1842",
+     "desc": "Straight worksurface 18\"D x 42\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 42,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 197,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1848",
+     "desc": "Straight worksurface 18\"D x 48\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 48,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 175,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1848",
+     "desc": "Straight worksurface 18\"D x 48\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 48,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 237,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1854",
+     "desc": "Straight worksurface 18\"D x 54\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 54,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 204,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1854",
+     "desc": "Straight worksurface 18\"D x 54\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 54,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 255,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1860",
+     "desc": "Straight worksurface 18\"D x 60\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 60,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 219,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1860",
+     "desc": "Straight worksurface 18\"D x 60\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 60,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 273,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1866",
+     "desc": "Straight worksurface 18\"D x 66\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 66,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 236,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1866",
+     "desc": "Straight worksurface 18\"D x 66\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 66,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 319,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR1872",
+     "desc": "Straight worksurface 18\"D x 72\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 72,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 246,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR1872",
+     "desc": "Straight worksurface 18\"D x 72\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 72,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 357,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2424",
+     "desc": "Straight worksurface 24\"D x 24\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 24,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 134,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2424",
+     "desc": "Straight worksurface 24\"D x 24\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 24,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 175,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2430",
+     "desc": "Straight worksurface 24\"D x 30\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 30,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 140,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2430",
+     "desc": "Straight worksurface 24\"D x 30\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 30,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 187,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2436",
+     "desc": "Straight worksurface 24\"D x 36\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 36,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 154,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2436",
+     "desc": "Straight worksurface 24\"D x 36\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 36,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 198,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2442",
+     "desc": "Straight worksurface 24\"D x 42\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 42,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 175,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2442",
+     "desc": "Straight worksurface 24\"D x 42\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 42,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 216,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2448",
+     "desc": "Straight worksurface 24\"D x 48\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 48,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 201,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2448",
+     "desc": "Straight worksurface 24\"D x 48\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 48,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 257,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2454",
+     "desc": "Straight worksurface 24\"D x 54\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 54,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 228,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2454",
+     "desc": "Straight worksurface 24\"D x 54\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 54,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 272,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2460",
+     "desc": "Straight worksurface 24\"D x 60\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 60,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 252,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2460",
+     "desc": "Straight worksurface 24\"D x 60\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 60,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 293,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2466",
+     "desc": "Straight worksurface 24\"D x 66\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 66,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 273,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2466",
+     "desc": "Straight worksurface 24\"D x 66\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 66,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 329,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR2472",
+     "desc": "Straight worksurface 24\"D x 72\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 72,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 282,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR2472",
+     "desc": "Straight worksurface 24\"D x 72\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 72,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 367,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3024",
+     "desc": "Straight worksurface 30\"D x 24\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 24,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 149,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3024",
+     "desc": "Straight worksurface 30\"D x 24\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 24,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 185,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3030",
+     "desc": "Straight worksurface 30\"D x 30\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 30,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 165,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3030",
+     "desc": "Straight worksurface 30\"D x 30\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 30,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 205,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3036",
+     "desc": "Straight worksurface 30\"D x 36\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 36,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 180,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3036",
+     "desc": "Straight worksurface 30\"D x 36\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 36,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 224,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3042",
+     "desc": "Straight worksurface 30\"D x 42\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 42,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 204,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3042",
+     "desc": "Straight worksurface 30\"D x 42\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 42,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 253,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3048",
+     "desc": "Straight worksurface 30\"D x 48\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 48,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 223,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3048",
+     "desc": "Straight worksurface 30\"D x 48\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 48,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 245,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3054",
+     "desc": "Straight worksurface 30\"D x 54\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 54,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 256,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3054",
+     "desc": "Straight worksurface 30\"D x 54\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 54,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 318,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3060",
+     "desc": "Straight worksurface 30\"D x 60\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 60,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 288,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3060",
+     "desc": "Straight worksurface 30\"D x 60\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 60,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 356,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3066",
+     "desc": "Straight worksurface 30\"D x 66\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 66,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 310,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3066",
+     "desc": "Straight worksurface 30\"D x 66\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 66,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 384,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLR3072",
+     "desc": "Straight worksurface 30\"D x 72\"W, LPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 72,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 337,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHR3072",
+     "desc": "Straight worksurface 30\"D x 72\"W, HPL",
+     "attrs": {
+      "shape": "straight",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 72,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 417,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-transition-worksurface",
+   "title": "TS Series Transition Worksurfaces",
+   "page": 491,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502); Grommet package (page 504).",
+    "Depth A and depth B are the depths at the two ends (spec diagram: A at left end, B at right end; transition curve along the front edge). Handing is expressed by which end is deeper (e.g., 18/24 vs 24/18) - there is no separate L/R suffix. 'deeperEnd' attr is derived from the p172 plan drawings (A = left, B = right).",
+    "Understanding p176/p181: 30\"D transition cantilevered worksurfaces require additional floor support along the front edge (pedestal, end panel, post leg, side support bracket, or adjacent return worksurface).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}X{a}{b}{WW}",
+     "meaning": "X = transition; a/b = end depth codes (1 = 18\", 2 = 24\", 3 = 30\") for depth A then depth B; WW = width 36/42/48"
+    }
+   ],
+   "columns": [
+    "Depth A",
+    "Depth B",
+    "Width",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLX1236",
+     "desc": "Transition worksurface 36\"W, depth A 18\" / depth B 24\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 36,
+      "depthA": 18,
+      "depthB": 24,
+      "depth": 24,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 808,
+      "thickness": 1.1875
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX1236",
+     "desc": "Transition worksurface 36\"W, depth A 18\" / depth B 24\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 36,
+      "depthA": 18,
+      "depthB": 24,
+      "depth": 24,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 808,
+      "thickness": 1.1875
+     },
+     "price": 328,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX1242",
+     "desc": "Transition worksurface 42\"W, depth A 18\" / depth B 24\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 42,
+      "depthA": 18,
+      "depthB": 24,
+      "depth": 24,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 952,
+      "thickness": 1.1875
+     },
+     "price": 289,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX1242",
+     "desc": "Transition worksurface 42\"W, depth A 18\" / depth B 24\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 42,
+      "depthA": 18,
+      "depthB": 24,
+      "depth": 24,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 952,
+      "thickness": 1.1875
+     },
+     "price": 359,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX1248",
+     "desc": "Transition worksurface 48\"W, depth A 18\" / depth B 24\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 48,
+      "depthA": 18,
+      "depthB": 24,
+      "depth": 24,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1096,
+      "thickness": 1.1875
+     },
+     "price": 346,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX1248",
+     "desc": "Transition worksurface 48\"W, depth A 18\" / depth B 24\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 48,
+      "depthA": 18,
+      "depthB": 24,
+      "depth": 24,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1096,
+      "thickness": 1.1875
+     },
+     "price": 429,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX2136",
+     "desc": "Transition worksurface 36\"W, depth A 24\" / depth B 18\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 36,
+      "depthA": 24,
+      "depthB": 18,
+      "depth": 24,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 808,
+      "thickness": 1.1875
+     },
+     "price": 264,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX2136",
+     "desc": "Transition worksurface 36\"W, depth A 24\" / depth B 18\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 36,
+      "depthA": 24,
+      "depthB": 18,
+      "depth": 24,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 808,
+      "thickness": 1.1875
+     },
+     "price": 328,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX2142",
+     "desc": "Transition worksurface 42\"W, depth A 24\" / depth B 18\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 42,
+      "depthA": 24,
+      "depthB": 18,
+      "depth": 24,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 952,
+      "thickness": 1.1875
+     },
+     "price": 289,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX2142",
+     "desc": "Transition worksurface 42\"W, depth A 24\" / depth B 18\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 42,
+      "depthA": 24,
+      "depthB": 18,
+      "depth": 24,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 952,
+      "thickness": 1.1875
+     },
+     "price": 359,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX2148",
+     "desc": "Transition worksurface 48\"W, depth A 24\" / depth B 18\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 48,
+      "depthA": 24,
+      "depthB": 18,
+      "depth": 24,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1096,
+      "thickness": 1.1875
+     },
+     "price": 346,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX2148",
+     "desc": "Transition worksurface 48\"W, depth A 24\" / depth B 18\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 48,
+      "depthA": 24,
+      "depthB": 18,
+      "depth": 24,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1096,
+      "thickness": 1.1875
+     },
+     "price": 429,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX2336",
+     "desc": "Transition worksurface 36\"W, depth A 24\" / depth B 30\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 36,
+      "depthA": 24,
+      "depthB": 30,
+      "depth": 30,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1024,
+      "thickness": 1.1875
+     },
+     "price": 296,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX2336",
+     "desc": "Transition worksurface 36\"W, depth A 24\" / depth B 30\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 36,
+      "depthA": 24,
+      "depthB": 30,
+      "depth": 30,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1024,
+      "thickness": 1.1875
+     },
+     "price": 387,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX2342",
+     "desc": "Transition worksurface 42\"W, depth A 24\" / depth B 30\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 42,
+      "depthA": 24,
+      "depthB": 30,
+      "depth": 30,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1204,
+      "thickness": 1.1875
+     },
+     "price": 326,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX2342",
+     "desc": "Transition worksurface 42\"W, depth A 24\" / depth B 30\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 42,
+      "depthA": 24,
+      "depthB": 30,
+      "depth": 30,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1204,
+      "thickness": 1.1875
+     },
+     "price": 408,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX2348",
+     "desc": "Transition worksurface 48\"W, depth A 24\" / depth B 30\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 48,
+      "depthA": 24,
+      "depthB": 30,
+      "depth": 30,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1384,
+      "thickness": 1.1875
+     },
+     "price": 387,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX2348",
+     "desc": "Transition worksurface 48\"W, depth A 24\" / depth B 30\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 48,
+      "depthA": 24,
+      "depthB": 30,
+      "depth": 30,
+      "deeperEnd": "B (right)",
+      "areaSqIn": 1384,
+      "thickness": 1.1875
+     },
+     "price": 473,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX3236",
+     "desc": "Transition worksurface 36\"W, depth A 30\" / depth B 24\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 36,
+      "depthA": 30,
+      "depthB": 24,
+      "depth": 30,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1024,
+      "thickness": 1.1875
+     },
+     "price": 296,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX3236",
+     "desc": "Transition worksurface 36\"W, depth A 30\" / depth B 24\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 36,
+      "depthA": 30,
+      "depthB": 24,
+      "depth": 30,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1024,
+      "thickness": 1.1875
+     },
+     "price": 387,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX3242",
+     "desc": "Transition worksurface 42\"W, depth A 30\" / depth B 24\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 42,
+      "depthA": 30,
+      "depthB": 24,
+      "depth": 30,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1204,
+      "thickness": 1.1875
+     },
+     "price": 326,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX3242",
+     "desc": "Transition worksurface 42\"W, depth A 30\" / depth B 24\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 42,
+      "depthA": 30,
+      "depthB": 24,
+      "depth": 30,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1204,
+      "thickness": 1.1875
+     },
+     "price": 408,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLX3248",
+     "desc": "Transition worksurface 48\"W, depth A 30\" / depth B 24\", LPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "LPL",
+      "width": 48,
+      "depthA": 30,
+      "depthB": 24,
+      "depth": 30,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1384,
+      "thickness": 1.1875
+     },
+     "price": 387,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHX3248",
+     "desc": "Transition worksurface 48\"W, depth A 30\" / depth B 24\", HPL",
+     "attrs": {
+      "shape": "transition",
+      "laminate": "HPL",
+      "width": 48,
+      "depthA": 30,
+      "depthB": 24,
+      "depth": 30,
+      "deeperEnd": "A (left)",
+      "areaSqIn": 1384,
+      "thickness": 1.1875
+     },
+     "price": 473,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-straight-corner-worksurface",
+   "title": "TS Series Straight Corner Worksurfaces",
+   "page": 492,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side",
+    "Grommet: black plastic only",
+    "Corner bracket: black paint only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502).",
+    "Symmetric (non-handed) corner: both runs are W long and both end depths are D. Straight (chamfered) front edge; front-edge length from p173 recorded as attrs.frontEdge.",
+    "Grommet (black plastic) and corner bracket (black paint, connects back corner to panels) are standard.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}CF{DD}{WW}",
+     "meaning": "CF = straight (flat-front) corner; DD = depth; WW = each run length"
+    }
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLCF2436",
+     "desc": "Straight corner worksurface 36\"x36\"W, 24\"D, LPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 36,
+      "widthB": 36,
+      "handed": null,
+      "frontEdge": 17,
+      "areaSqIn": 1221,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 286,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCF2436",
+     "desc": "Straight corner worksurface 36\"x36\"W, 24\"D, HPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 36,
+      "widthB": 36,
+      "handed": null,
+      "frontEdge": 17,
+      "areaSqIn": 1221,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 356,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCF2442",
+     "desc": "Straight corner worksurface 42\"x42\"W, 24\"D, LPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 42,
+      "widthB": 42,
+      "handed": null,
+      "frontEdge": 25.5,
+      "areaSqIn": 1599,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 329,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCF2442",
+     "desc": "Straight corner worksurface 42\"x42\"W, 24\"D, HPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 42,
+      "widthB": 42,
+      "handed": null,
+      "frontEdge": 25.5,
+      "areaSqIn": 1599,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 409,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCF2448",
+     "desc": "Straight corner worksurface 48\"x48\"W, 24\"D, LPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "frontEdge": 34,
+      "areaSqIn": 2013,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 353,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCF2448",
+     "desc": "Straight corner worksurface 48\"x48\"W, 24\"D, HPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "frontEdge": 34,
+      "areaSqIn": 2013,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 438,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCF3048",
+     "desc": "Straight corner worksurface 48\"x48\"W, 30\"D, LPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "frontEdge": 25.5,
+      "areaSqIn": 2139,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 382,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCF3048",
+     "desc": "Straight corner worksurface 48\"x48\"W, 30\"D, HPL",
+     "attrs": {
+      "shape": "straight-corner",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "frontEdge": 25.5,
+      "areaSqIn": 2139,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 474,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-curved-corner-worksurface",
+   "title": "TS Series Curved Corner Worksurfaces",
+   "page": 493,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side",
+    "Grommet: black plastic only",
+    "Corner bracket: black paint only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502).",
+    "Symmetric (non-handed) corner: both runs W, both end depths D, concave radius at inside corner (radius from p173: 12\"r on 24D x 36W, 18\"r on all others).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}CC{DD}{WW}",
+     "meaning": "CC = curved corner; DD = depth; WW = each run length"
+    }
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLCC1836",
+     "desc": "Curved corner worksurface 36\"x36\"W, 18\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 36,
+      "widthB": 36,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1042,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 326,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC1836",
+     "desc": "Curved corner worksurface 36\"x36\"W, 18\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 36,
+      "widthB": 36,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1042,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 402,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCC1842",
+     "desc": "Curved corner worksurface 42\"x42\"W, 18\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 42,
+      "widthB": 42,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1258,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 361,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC1842",
+     "desc": "Curved corner worksurface 42\"x42\"W, 18\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 42,
+      "widthB": 42,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1258,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 429,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCC1848",
+     "desc": "Curved corner worksurface 48\"x48\"W, 18\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 18,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1474,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 398,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC1848",
+     "desc": "Curved corner worksurface 48\"x48\"W, 18\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 18,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1474,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 481,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCC2436",
+     "desc": "Curved corner worksurface 36\"x36\"W, 24\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 36,
+      "widthB": 36,
+      "handed": null,
+      "insideRadius": 12,
+      "areaSqIn": 1180,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 313,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC2436",
+     "desc": "Curved corner worksurface 36\"x36\"W, 24\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 36,
+      "widthB": 36,
+      "handed": null,
+      "insideRadius": 12,
+      "areaSqIn": 1180,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 388,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCC2442",
+     "desc": "Curved corner worksurface 42\"x42\"W, 24\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 42,
+      "widthB": 42,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1506,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 346,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC2442",
+     "desc": "Curved corner worksurface 42\"x42\"W, 24\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 42,
+      "widthB": 42,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1506,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 429,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCC2448",
+     "desc": "Curved corner worksurface 48\"x48\"W, 24\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1794,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 382,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC2448",
+     "desc": "Curved corner worksurface 48\"x48\"W, 24\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 1794,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 474,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLCC3048",
+     "desc": "Curved corner worksurface 48\"x48\"W, 30\"D, LPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 2046,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 441,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHCC3048",
+     "desc": "Curved corner worksurface 48\"x48\"W, 30\"D, HPL",
+     "attrs": {
+      "shape": "curved-corner",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 48,
+      "widthB": 48,
+      "handed": null,
+      "insideRadius": 18,
+      "areaSqIn": 2046,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 548,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-lh-extended-curved-corner-worksurface",
+   "title": "TS Series Left-Hand Extended Curved Corner Worksurfaces",
+   "page": 494,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side",
+    "Grommet: black plastic only",
+    "Corner bracket: black paint only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Long worksurface spans require additional support. Reinforcing channels allow for unsupported spans up to 72\". Page 503",
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502); Reinforcing channel (page 503).",
+    "Left-hand: C = length of the extended run (60\" or 72\"), D = length of the other run (48\"). Per the spec-page diagram, C and D are the back (panel-side) edges meeting at the grommet corner; A is the end depth of the C run and B is the end depth of the D run (24\" or 30\"). Inside corner radius 18\"r (p174).",
+    "Handing is encoded by digit order in the style number (LH: ...E{a}{b}{6|7}4; RH: ...E{a}{b}4{6|7}); there is no L/R letter. The Statement of Line (p174) shows left-hand; right-hand also available.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}E{a}{b}{c}{d}",
+     "meaning": "E = extended curved corner; a = A depth code, b = B depth code (2 = 24\", 3 = 30\"); c = C length code, d = D length code (4 = 48\", 6 = 60\", 7 = 72\"). LH has c = 6/7, d = 4; RH has c = 4, d = 6/7."
+    }
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "D",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLE2264",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 24\" C 60\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 24,
+      "B": 24,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2082
+     },
+     "price": 516,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2264",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 24\" C 60\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 24,
+      "B": 24,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2082
+     },
+     "price": 674,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE2274",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 24\" C 72\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 24,
+      "B": 24,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2370
+     },
+     "price": 616,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2274",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 24\" C 72\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 24,
+      "B": 24,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2370
+     },
+     "price": 789,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE2364",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 30\" C 60\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 24,
+      "B": 30,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2217
+     },
+     "price": 532,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2364",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 30\" C 60\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 24,
+      "B": 30,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2217
+     },
+     "price": 735,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE2374",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 30\" C 72\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 24,
+      "B": 30,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2504
+     },
+     "price": 632,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2374",
+     "desc": "Left-hand extended curved corner worksurface, A 24\" B 30\" C 72\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 24,
+      "B": 30,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2504
+     },
+     "price": 854,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3264",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 24\" C 60\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2289
+     },
+     "price": 532,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3264",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 24\" C 60\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2289
+     },
+     "price": 659,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3274",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 24\" C 72\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2648
+     },
+     "price": 632,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3274",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 24\" C 72\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 30,
+      "B": 24,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2648
+     },
+     "price": 783,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3364",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 30\" C 60\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 30,
+      "B": 30,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2406
+     },
+     "price": 547,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3364",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 30\" C 60\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 30,
+      "B": 30,
+      "C": 60,
+      "D": 48,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2406
+     },
+     "price": 679,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3374",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 30\" C 72\" D 48\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "left",
+      "A": 30,
+      "B": 30,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2766
+     },
+     "price": 649,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3374",
+     "desc": "Left-hand extended curved corner worksurface, A 30\" B 30\" C 72\" D 48\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "left",
+      "A": 30,
+      "B": 30,
+      "C": 72,
+      "D": 48,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875,
+      "areaSqIn": 2766
+     },
+     "price": 805,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-rh-extended-curved-corner-worksurface",
+   "title": "TS Series Right-Hand Extended Curved Corner Worksurfaces",
+   "page": 495,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side",
+    "Grommet: black plastic only",
+    "Corner bracket: black paint only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Long worksurface spans require additional support. Reinforcing channels allow for unsupported spans up to 72\". Page 503",
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502); Reinforcing channel (page 503).",
+    "Right-hand: C = length of the 48\" run, D = length of the extended run (60\" or 72\"). Per the spec-page diagram, C and D are the back (panel-side) edges meeting at the grommet corner; A is the end depth of the C run and B is the end depth of the D run (24\" or 30\"). Inside corner radius 18\"r (p174).",
+    "Handing is encoded by digit order in the style number (LH: ...E{a}{b}{6|7}4; RH: ...E{a}{b}4{6|7}); there is no L/R letter. The Statement of Line (p174) shows left-hand; right-hand also available.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}E{a}{b}{c}{d}",
+     "meaning": "E = extended curved corner; a = A depth code, b = B depth code (2 = 24\", 3 = 30\"); c = C length code, d = D length code (4 = 48\", 6 = 60\", 7 = 72\"). LH has c = 6/7, d = 4; RH has c = 4, d = 6/7."
+    }
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "D",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLE2246",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 24\" C 48\" D 60\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 24,
+      "B": 24,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 516,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2246",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 24\" C 48\" D 60\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 24,
+      "B": 24,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 674,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE2247",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 24\" C 48\" D 72\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 24,
+      "B": 24,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 616,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2247",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 24\" C 48\" D 72\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 24,
+      "B": 24,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 789,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE2346",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 30\" C 48\" D 60\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 532,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2346",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 30\" C 48\" D 60\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 735,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE2347",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 30\" C 48\" D 72\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 632,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE2347",
+     "desc": "Right-hand extended curved corner worksurface, A 24\" B 30\" C 48\" D 72\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 24,
+      "B": 30,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 854,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3246",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 24\" C 48\" D 60\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 30,
+      "B": 24,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 532,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3246",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 24\" C 48\" D 60\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 30,
+      "B": 24,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 659,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3247",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 24\" C 48\" D 72\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 30,
+      "B": 24,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 632,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3247",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 24\" C 48\" D 72\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 30,
+      "B": 24,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 783,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3346",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 30\" C 48\" D 60\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 547,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3346",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 30\" C 48\" D 60\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 60,
+      "extendedRun": 60,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 679,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLE3347",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 30\" C 48\" D 72\", LPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "LPL",
+      "handed": "right",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 649,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHE3347",
+     "desc": "Right-hand extended curved corner worksurface, A 30\" B 30\" C 48\" D 72\", HPL",
+     "attrs": {
+      "shape": "extended-curved-corner",
+      "laminate": "HPL",
+      "handed": "right",
+      "A": 30,
+      "B": 30,
+      "C": 48,
+      "D": 72,
+      "extendedRun": 72,
+      "shortRun": 48,
+      "insideRadius": 18,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 805,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-120-corner-worksurface",
+   "title": "TS Series 120° Corner Worksurfaces",
+   "page": 496,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side and back edges: plastic default to match user's side",
+    "Grommet: black plastic only",
+    "Corner bracket: black paint only"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502).",
+    "Symmetric (non-handed) 120° corner. Diagram: A = end depth of each run (24\"), B = back-edge length of each run (36/42/48), C = depth at the corner (30 1/2\"), D = overall width across the ends.",
+    "D printed on spec p496 is 63 11/32 / 72 3/4 / 85 5/32; Statement of Line p174 prints 62 11/32 / 72 3/4 / 83 5/32. The p174 values equal B x sqrt(3) (the 120° geometry), so p496 values for 36\" and 48\" are likely misprints. attrs.D keeps p496 values; attrs.D_p174 holds p174 values.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}Y{DD}{WW}",
+     "meaning": "Y = 120° corner; DD = depth (24); WW = back-edge length of each run (B)"
+    }
+   ],
+   "columns": [
+    "Dimensions A",
+    "B",
+    "C",
+    "D",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLY2436",
+     "desc": "120° corner worksurface, 36\" runs x 24\"D, LPL",
+     "attrs": {
+      "shape": "120-corner",
+      "laminate": "LPL",
+      "handed": null,
+      "A": 24,
+      "B": 36,
+      "C": 30.5,
+      "D": 63.34375,
+      "D_p174": 62.34375,
+      "depth": 24,
+      "width": 36,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 532,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHY2436",
+     "desc": "120° corner worksurface, 36\" runs x 24\"D, HPL",
+     "attrs": {
+      "shape": "120-corner",
+      "laminate": "HPL",
+      "handed": null,
+      "A": 24,
+      "B": 36,
+      "C": 30.5,
+      "D": 63.34375,
+      "D_p174": 62.34375,
+      "depth": 24,
+      "width": 36,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 659,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLY2442",
+     "desc": "120° corner worksurface, 42\" runs x 24\"D, LPL",
+     "attrs": {
+      "shape": "120-corner",
+      "laminate": "LPL",
+      "handed": null,
+      "A": 24,
+      "B": 42,
+      "C": 30.5,
+      "D": 72.75,
+      "D_p174": 72.75,
+      "depth": 24,
+      "width": 42,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 569,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHY2442",
+     "desc": "120° corner worksurface, 42\" runs x 24\"D, HPL",
+     "attrs": {
+      "shape": "120-corner",
+      "laminate": "HPL",
+      "handed": null,
+      "A": 24,
+      "B": 42,
+      "C": 30.5,
+      "D": 72.75,
+      "D_p174": 72.75,
+      "depth": 24,
+      "width": 42,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 705,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLY2448",
+     "desc": "120° corner worksurface, 48\" runs x 24\"D, LPL",
+     "attrs": {
+      "shape": "120-corner",
+      "laminate": "LPL",
+      "handed": null,
+      "A": 24,
+      "B": 48,
+      "C": 30.5,
+      "D": 85.15625,
+      "D_p174": 83.15625,
+      "depth": 24,
+      "width": 48,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 628,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHY2448",
+     "desc": "120° corner worksurface, 48\" runs x 24\"D, HPL",
+     "attrs": {
+      "shape": "120-corner",
+      "laminate": "HPL",
+      "handed": null,
+      "A": 24,
+      "B": 48,
+      "C": 30.5,
+      "D": 85.15625,
+      "D_p174": 83.15625,
+      "depth": 24,
+      "width": 48,
+      "grommet": true,
+      "cornerBracket": true,
+      "thickness": 1.1875
+     },
+     "price": 778,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-peninsula-worksurface",
+   "title": "TS Series Peninsula Worksurfaces",
+   "page": 497,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side edge: plastic default to match user's side"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Long worksurface spans require additional support. Reinforcing channels allow for unsupported spans up to 72\". Page 503",
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface legs and supports (page 502); Reinforcing channel (page 503). (Power/communication access is not listed as a related product on this page.)",
+    "Bullet-shaped (rounded end) peninsula; non-handed.",
+    "Understanding p177: bullet peninsula, angled peninsula, and jetty worksurfaces can be supported two ways: (1) cantilever, center support panel, and a column; (2) cantilever, side support bracket, and two post legs.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}P{DD}{WW}",
+     "meaning": "P = peninsula; DD = depth 30; WW = 48/60/72"
+    }
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLP3048",
+     "desc": "Peninsula worksurface 48\"W x 30\"D, LPL",
+     "attrs": {
+      "shape": "peninsula",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 48,
+      "handed": null,
+      "areaSqIn": 1246,
+      "thickness": 1.1875
+     },
+     "price": 499,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHP3048",
+     "desc": "Peninsula worksurface 48\"W x 30\"D, HPL",
+     "attrs": {
+      "shape": "peninsula",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 48,
+      "handed": null,
+      "areaSqIn": 1246,
+      "thickness": 1.1875
+     },
+     "price": 527,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLP3060",
+     "desc": "Peninsula worksurface 60\"W x 30\"D, LPL",
+     "attrs": {
+      "shape": "peninsula",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 60,
+      "handed": null,
+      "areaSqIn": 1606,
+      "thickness": 1.1875
+     },
+     "price": 509,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHP3060",
+     "desc": "Peninsula worksurface 60\"W x 30\"D, HPL",
+     "attrs": {
+      "shape": "peninsula",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 60,
+      "handed": null,
+      "areaSqIn": 1606,
+      "thickness": 1.1875
+     },
+     "price": 537,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLP3072",
+     "desc": "Peninsula worksurface 72\"W x 30\"D, LPL",
+     "attrs": {
+      "shape": "peninsula",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 72,
+      "handed": null,
+      "areaSqIn": 1966,
+      "thickness": 1.1875
+     },
+     "price": 520,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHP3072",
+     "desc": "Peninsula worksurface 72\"W x 30\"D, HPL",
+     "attrs": {
+      "shape": "peninsula",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 72,
+      "handed": null,
+      "areaSqIn": 1966,
+      "thickness": 1.1875
+     },
+     "price": 563,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-angled-peninsula-worksurface",
+   "title": "TS Series Angled Peninsula Worksurfaces",
+   "page": 498,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side edge: plastic default to match user's side"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Related Products: Worksurface legs and supports (page 502).",
+    "Understanding p177: bullet peninsula, angled peninsula, and jetty worksurfaces can be supported two ways: (1) cantilever, center support panel, and a column; (2) cantilever, side support bracket, and two post legs.",
+    "Diagram shows D on the angled attachment edge and W as overall width; not handed (no L/R versions listed).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}PA{DD}{WW}",
+     "meaning": "PA = angled peninsula; DD = depth 24/30; WW = 48"
+    }
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLPA2448",
+     "desc": "Angled peninsula worksurface 48\"W x 24\"D, LPL",
+     "attrs": {
+      "shape": "angled-peninsula",
+      "laminate": "LPL",
+      "depth": 24,
+      "width": 48,
+      "handed": null,
+      "areaSqIn": 1147,
+      "thickness": 1.1875
+     },
+     "price": 489,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHPA2448",
+     "desc": "Angled peninsula worksurface 48\"W x 24\"D, HPL",
+     "attrs": {
+      "shape": "angled-peninsula",
+      "laminate": "HPL",
+      "depth": 24,
+      "width": 48,
+      "handed": null,
+      "areaSqIn": 1147,
+      "thickness": 1.1875
+     },
+     "price": 577,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLPA3048",
+     "desc": "Angled peninsula worksurface 48\"W x 30\"D, LPL",
+     "attrs": {
+      "shape": "angled-peninsula",
+      "laminate": "LPL",
+      "depth": 30,
+      "width": 48,
+      "handed": null,
+      "areaSqIn": 1288,
+      "thickness": 1.1875
+     },
+     "price": 505,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHPA3048",
+     "desc": "Angled peninsula worksurface 48\"W x 30\"D, HPL",
+     "attrs": {
+      "shape": "angled-peninsula",
+      "laminate": "HPL",
+      "depth": 30,
+      "width": 48,
+      "handed": null,
+      "areaSqIn": 1288,
+      "thickness": 1.1875
+     },
+     "price": 578,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-spanner-worksurface",
+   "title": "TS Series Spanner Worksurfaces",
+   "page": 499,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: Low-Pressure Laminate or High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side edge: plastic default to match user's side",
+    "Cutout"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Low-Pressure Laminate or High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Remember to specify two cantilevers and a post leg to attach spanner worksurface to adjacent worksurfaces on 50\" and 62\" spanner tops.",
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types."
+   ],
+   "notes": [
+    "Surface: Low-Pressure Laminate (LPL, style letter L after TSAW) or High-Pressure Laminate (HPL, style letter H after TSAW) - laminate color per Surface Materials page 708; Open Line (non-Steelcase) laminate program available on HPL only (+$65 plus cost of laminate). Edge: plastic (PVC-free 3 mm polyolefin profile on user's edge, matching 1 mm side/back edges); edge band color specified separately from laminate color. No wood/veneer or paint surface options on TS Series worksurfaces.",
+    "Table subheading: Spanner Worksurfaces for Use with 3\" Panels.",
+    "Related Products: Worksurface legs and supports (page 502).",
+    "Understanding p176: Spanner worksurfaces with 3\" notch accommodate Kick panels. Legs and cantilevers or column and cantilevers must be used for support.",
+    "Half-round shape with 3\" notch (cutout) at center of straight edge; non-handed.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAW{L|H}N{WW}A",
+     "meaning": "N = spanner; WW = width 51/63; A suffix as printed"
+    }
+   ],
+   "columns": [
+    "Dimensions D",
+    "W",
+    "Style Number LPL",
+    "U.S. Price",
+    "Style Number HPL",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWLN51A",
+     "desc": "Spanner worksurface 51\"W x 25\"D, for 3\" panels, LPL",
+     "attrs": {
+      "shape": "spanner",
+      "laminate": "LPL",
+      "depth": 25,
+      "width": 51,
+      "handed": null,
+      "panelThickness": 3,
+      "notch": 3,
+      "areaSqIn": 1017,
+      "thickness": 1.1875
+     },
+     "price": 340,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHN51A",
+     "desc": "Spanner worksurface 51\"W x 25\"D, for 3\" panels, HPL",
+     "attrs": {
+      "shape": "spanner",
+      "laminate": "HPL",
+      "depth": 25,
+      "width": 51,
+      "handed": null,
+      "panelThickness": 3,
+      "notch": 3,
+      "areaSqIn": 1017,
+      "thickness": 1.1875
+     },
+     "price": 415,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWLN63A",
+     "desc": "Spanner worksurface 63\"W x 31\"D, for 3\" panels, LPL",
+     "attrs": {
+      "shape": "spanner",
+      "laminate": "LPL",
+      "depth": 31,
+      "width": 63,
+      "handed": null,
+      "panelThickness": 3,
+      "notch": 3,
+      "areaSqIn": 1554,
+      "thickness": 1.1875
+     },
+     "price": 436,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWHN63A",
+     "desc": "Spanner worksurface 63\"W x 31\"D, for 3\" panels, HPL",
+     "attrs": {
+      "shape": "spanner",
+      "laminate": "HPL",
+      "depth": 31,
+      "width": 63,
+      "handed": null,
+      "panelThickness": 3,
+      "notch": 3,
+      "areaSqIn": 1554,
+      "thickness": 1.1875
+     },
+     "price": 531,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-linking-worksurface",
+   "title": "TS Series Linking Worksurfaces",
+   "page": 500,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface",
+   "standardIncludes": [
+    "1 3/16\"-thick worksurface: High-Pressure Laminate",
+    "3 mm radius profile edge on user’s side: plastic",
+    "Side edge: plastic default to match user's side",
+    "Cutout on linking worksurface"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 High-Pressure Laminate color number for worksurface, as appropriate",
+    "3 Plastic edge band color number for worksurface",
+    "4 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Open Line laminate",
+     "price": 65,
+     "priceText": "+$65 plus cost of laminate",
+     "spec": "See Surface Materials Reference Manual.",
+     "appliesTo": "High-Pressure Laminate worksurfaces only"
+    }
+   ],
+   "tips": [
+    "Tip: Standard worksurfaces are 1 3/16\" thick. However, the actual thickness between Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) worksurfaces is slightly different. It is recommended that only worksurfaces of the same type are specified in a given application. In addition, there may be sheen or texture differences when using LPL and HPL in adjacent applications. Please use caution when mixing and matching different worksurface types.",
+    "Tip: Remember to order cantilevers to connect linking worksurfaces to adjacent worksurfaces. Page 503"
+   ],
+   "notes": [
+    "HPL ONLY - no Low-Pressure Laminate version. Open Line laminate option available (+$65 plus cost of laminate). Plastic edge band color specified separately.",
+    "Table subheading: Linking Worksurfaces For Use with 3\" Panel Systems.",
+    "Related Products: Worksurface-height power and communication access (page 555); Worksurface legs and supports (page 502).",
+    "Understanding p177: Linking worksurfaces with 3\" notch accommodate Answer panels. One leg and two cantilevers must be used to support linking worksurfaces.",
+    "Depth Left / Depth Right per diagram (L and R edges); 27x33 and 33x27 are mirror versions.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSAWH{LL}{RR}A",
+     "meaning": "H = HPL; LL = left depth 27/33; RR = right depth 27/33; A suffix as printed"
+    }
+   ],
+   "columns": [
+    "Depth Left",
+    "Depth Right",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSAWH2727A",
+     "desc": "Linking worksurface, left depth 27\" x right depth 27\", HPL, for 3\" panel systems",
+     "attrs": {
+      "shape": "linking",
+      "laminate": "HPL",
+      "depthLeft": 27,
+      "depthRight": 27,
+      "panelThickness": 3,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 427,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWH2733A",
+     "desc": "Linking worksurface, left depth 27\" x right depth 33\", HPL, for 3\" panel systems",
+     "attrs": {
+      "shape": "linking",
+      "laminate": "HPL",
+      "depthLeft": 27,
+      "depthRight": 33,
+      "panelThickness": 3,
+      "handed": "right-deeper",
+      "thickness": 1.1875
+     },
+     "price": 454,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWH3327A",
+     "desc": "Linking worksurface, left depth 33\" x right depth 27\", HPL, for 3\" panel systems",
+     "attrs": {
+      "shape": "linking",
+      "laminate": "HPL",
+      "depthLeft": 33,
+      "depthRight": 27,
+      "panelThickness": 3,
+      "handed": "left-deeper",
+      "thickness": 1.1875
+     },
+     "price": 454,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSAWH3333A",
+     "desc": "Linking worksurface, left depth 33\" x right depth 33\", HPL, for 3\" panel systems",
+     "attrs": {
+      "shape": "linking",
+      "laminate": "HPL",
+      "depthLeft": 33,
+      "depthRight": 33,
+      "panelThickness": 3,
+      "handed": null,
+      "thickness": 1.1875
+     },
+     "price": 474,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-post-leg",
+   "title": "TS Series Worksurface Legs and Supports — Post Leg",
+   "page": 502,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number.",
+     "appliesTo": "Post legs and H-legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 12,
+     "priceText": "+$12",
+     "spec": "Specify paint color number.",
+     "appliesTo": "Post legs and H-legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number.",
+     "appliesTo": "Post legs and H-legs"
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "Post leg: 2\" adjustable glides. Actual height 28 1/2\" (p180). Paint color selectable (paint price groups 1-3).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATP27",
+     "desc": "Post leg, 27\"H",
+     "attrs": {
+      "height": 27,
+      "actualHeight": 28.5,
+      "glideRange": 2,
+      "paintSelectable": true
+     },
+     "price": 120,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 12,
+      "Paint price group 3": 23
+     }
+    }
+   ]
+  },
+  {
+   "id": "ts-h-legs",
+   "title": "TS Series Worksurface Legs and Supports — H-Legs",
+   "page": 502,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "leg",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number.",
+     "appliesTo": "Post legs and H-legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 12,
+     "priceText": "+$12",
+     "spec": "Specify paint color number.",
+     "appliesTo": "Post legs and H-legs"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 23,
+     "priceText": "+$23",
+     "spec": "Specify paint color number.",
+     "appliesTo": "Post legs and H-legs"
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "H-legs: 2 3/4\" adjustable glides; actual height 28 1/2\"; actual depth 14\" or 22 3/4\" (p180) - presumably 14\" for the 11\"W and 22 3/4\" for the 20\"W H-leg (mapping inferred, not stated).",
+    "Illustration shows H-leg with bracket (p177/p180 'H-leg with bracket').",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATH2711",
+     "desc": "H-leg, 11\"W x 27\"H",
+     "attrs": {
+      "width": 11,
+      "height": 27,
+      "actualHeight": 28.5,
+      "glideRange": 2.75,
+      "paintSelectable": true
+     },
+     "price": 164,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 12,
+      "Paint price group 3": 23
+     }
+    },
+    {
+     "style": "TSATH2720",
+     "desc": "H-leg, 20\"W x 27\"H",
+     "attrs": {
+      "width": 20,
+      "height": 27,
+      "actualHeight": 28.5,
+      "glideRange": 2.75,
+      "paintSelectable": true
+     },
+     "price": 202,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 12,
+      "Paint price group 3": 23
+     }
+    }
+   ]
+  },
+  {
+   "id": "ts-on-module-end-panel",
+   "title": "TS Series Worksurface Legs and Supports — On-Module End Panel",
+   "page": 502,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 1",
+     "price": 0,
+     "priceText": "No cost",
+     "spec": "Specify paint color number.",
+     "appliesTo": "On-module end panel"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 2",
+     "price": 28,
+     "priceText": "+$28",
+     "spec": "Specify paint color number.",
+     "appliesTo": "On-module end panel"
+    },
+    {
+     "group": "Surface Materials",
+     "name": "Paint price group 3",
+     "price": 47,
+     "priceText": "+$47",
+     "spec": "Specify paint color number.",
+     "appliesTo": "On-module end panel"
+    }
+   ],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "End panel supports the end of a worksurface at standard seated height (27\"H) or standing height (40\"H). Actual heights 28 1/2\" or 40 7/8\" including worksurface thickness; actual depth 23 3/4\" or 29 3/4\"; glide range 1 1/4\" (p180).",
+    "End panels cannot be used in freestanding applications (p181). On-module supports engage the slots in the vertical uprights of Kick panels (p180).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATEP24",
+     "desc": "On-module end panel, 24\"D x 27\"H (seated height)",
+     "attrs": {
+      "depth": 24,
+      "height": 27,
+      "actualDepth": 23.75,
+      "actualHeight": 28.5,
+      "heightType": "seated",
+      "glideRange": 1.25
+     },
+     "price": 368,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 28,
+      "Paint price group 3": 47
+     }
+    },
+    {
+     "style": "TSATEP30",
+     "desc": "On-module end panel, 30\"D x 27\"H (seated height)",
+     "attrs": {
+      "depth": 30,
+      "height": 27,
+      "actualDepth": 29.75,
+      "actualHeight": 28.5,
+      "heightType": "seated",
+      "glideRange": 1.25
+     },
+     "price": 419,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 28,
+      "Paint price group 3": 47
+     }
+    },
+    {
+     "style": "TSATEP24S",
+     "desc": "On-module end panel, standing height, 24\"D x 40\"H",
+     "attrs": {
+      "depth": 24,
+      "height": 40,
+      "actualDepth": 23.75,
+      "actualHeight": 40.875,
+      "heightType": "standing",
+      "glideRange": 1.25
+     },
+     "price": 435,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 28,
+      "Paint price group 3": 47
+     }
+    },
+    {
+     "style": "TSATEP30S",
+     "desc": "On-module end panel, standing height, 30\"D x 40\"H",
+     "attrs": {
+      "depth": 30,
+      "height": 40,
+      "actualDepth": 29.75,
+      "actualHeight": 40.875,
+      "heightType": "standing",
+      "glideRange": 1.25
+     },
+     "price": 491,
+     "optionPrices": {
+      "Paint price group 1": 0,
+      "Paint price group 2": 28,
+      "Paint price group 3": 47
+     }
+    }
+   ],
+   "stylePatterns": [
+    {
+     "pattern": "TSATEP{DD}[S]",
+     "meaning": "DD = depth 24/30; S suffix = standing height (40\"H)"
+    }
+   ]
+  },
+  {
+   "id": "ts-cantilever",
+   "title": "TS Series Worksurface Legs and Supports — Cantilever with Tie Plate",
+   "page": 503,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Cantilever with tie plate is for use with left-hand, right-hand, or shared application."
+   ],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "Cantilever: 16\"D x 13\"H actual (p180). Non-handed; supports worksurfaces at any height in 1\" increments; can support either end of a worksurface or be shared to support two worksurfaces at the same height simultaneously. One tie plate ships with each cantilever (p181).",
+    "Paint color is specifiable for the cantilever (standard-includes exception) but no paint price-group upcharges are listed for it on p502.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATCANT",
+     "desc": "Cantilever with tie plate, 16\"D x 13\"H",
+     "attrs": {
+      "depth": 16,
+      "height": 13,
+      "handed": "non-handed (left, right, or shared)",
+      "includesTiePlate": 1,
+      "paintSelectable": true
+     },
+     "price": 89,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-side-support-brackets",
+   "title": "TS Series Worksurface Legs and Supports — Side Support Brackets to Connect Worksurface to Panel",
+   "page": 503,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "bracket",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "Black paint only (p181).",
+    "Brackets ship as a left- and right-hand pair and are ordered separately (p180). Support worksurfaces at any height in 1\" increments.",
+    "Used to support the ends of straight and corner worksurfaces and the back corner of any corner worksurface; can support the end of a worksurface wrapped by a panel whose width matches the worksurface depth. A single side support bracket is standard with corner, extended corner, and 120° corner worksurfaces (p180).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATSIDE",
+     "desc": "Side support brackets (left/right pair) to connect worksurface to panel",
+     "attrs": {
+      "quantity": "pair (LH + RH)",
+      "finish": "black paint only"
+     },
+     "price": 36,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-in-line-support-plates",
+   "title": "TS Series Worksurface Legs and Supports — In-Line Support Plates",
+   "page": 503,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "Black paint (standard). Joins/supports side-by-side worksurfaces in line.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATPL14",
+     "desc": "In-line support plate, 14\"D",
+     "attrs": {
+      "depth": 14
+     },
+     "price": 65,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSATPL20",
+     "desc": "In-line support plate, 20\"D",
+     "attrs": {
+      "depth": 20
+     },
+     "price": 65,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-tie-plates",
+   "title": "TS Series Worksurface Legs and Supports — Package of Six Tie Plates for Side-by-Side Worksurfaces",
+   "page": 503,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "connector",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "Package of six. Tie plate recommended to align worksurfaces in freestanding leg configurations (p182-183).",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATTIE",
+     "desc": "Package of six tie plates, 7\"L, for side-by-side worksurfaces",
+     "attrs": {
+      "length": 7,
+      "packQuantity": 6
+     },
+     "price": 94,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-reinforcing-channels",
+   "title": "TS Series Worksurface Legs and Supports — Reinforcing Channels",
+   "page": 503,
+   "understandingPage": 180,
+   "trim": null,
+   "category": "worksurface-support",
+   "standardIncludes": [
+    "Worksurface support: black paint. Exception: You can specify paint color choice for cantilever, legs, and on-module end panel.",
+    "2\" adjustable glides on post leg",
+    "2 3/4\" adjustable glides on H-legs",
+    "Attachment hardware"
+   ],
+   "requiredToSpecify": [
+    "1 Style number",
+    "2 Paint color number for cantilever, legs, and end panel",
+    "3 Options, if selected (see below)",
+    "See Surface Materials, page 708."
+   ],
+   "options": [],
+   "tips": [],
+   "notes": [
+    "Page heading: TS Series Worksurface Legs and Supports (pp. 502-503); family split by table subheading.",
+    "Black paint only (p181). Must be specified separately. Allows distance between supports to be increased from 54\" to 60\" (heavily loaded) or up to 72\" (lighter loads).",
+    "p183 references TSATRC57 for worksurfaces with 60\" or more unsupported kneespace that are heavily loaded.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Dimensions",
+    "Style Number",
+    "U.S. Base Price"
+   ],
+   "items": [
+    {
+     "style": "TSATRC39",
+     "desc": "Reinforcing channel, 39\"W",
+     "attrs": {
+      "width": 39
+     },
+     "price": 45,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSATRC48",
+     "desc": "Reinforcing channel, 48\"W",
+     "attrs": {
+      "width": 48
+     },
+     "price": 48,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSATRC57",
+     "desc": "Reinforcing channel, 57\"W",
+     "attrs": {
+      "width": 57
+     },
+     "price": 48,
+     "optionPrices": {}
+    },
+    {
+     "style": "TSATRC72",
+     "desc": "Reinforcing channel, 72\"W",
+     "attrs": {
+      "width": 72
+     },
+     "price": 110,
+     "optionPrices": {}
+    }
+   ]
+  },
+  {
+   "id": "ts-grommet-package",
+   "title": "Grommet Package",
+   "page": 504,
+   "understandingPage": 176,
+   "trim": null,
+   "category": "worksurface-accessory",
+   "standardIncludes": [
+    "Package of 10 grommets: black plastic"
+   ],
+   "requiredToSpecify": [
+    "Style number"
+   ],
+   "options": [],
+   "tips": [
+    "Tip: Grommet requires a 3\" diameter hole in the worksurface."
+   ],
+   "notes": [
+    "Grommet is standard on corner worksurfaces only; this package is for field installation in other worksurfaces.",
+    "For Canadian Pricing: Multiply U.S. Price by the Canadian price factor. See page 1 for details."
+   ],
+   "columns": [
+    "Style Number",
+    "U.S. Price"
+   ],
+   "items": [
+    {
+     "style": "TSAEGROM",
+     "desc": "Grommet package, 10 black plastic grommets",
+     "attrs": {
+      "packQuantity": 10,
+      "holeDiameter": 3,
+      "color": "black"
+     },
+     "price": 50,
+     "optionPrices": {}
+    }
+   ]
+  }
+ ],
+ "rules": [
+  {
+   "page": 176,
+   "topic": "construction",
+   "text": "TS Series worksurfaces have a wood core with a High-Pressure or Low-Pressure Laminate surface and are 1 3/16\" thick; laminate top with plastic edge band. Full-depth worksurfaces fit flush against panels.",
+   "kind": "dimension"
+  },
+  {
+   "page": 176,
+   "topic": "surface-material",
+   "text": "Both Low-Pressure Laminate (LPL) and High-Pressure Laminate (HPL) are available (except linking worksurfaces: HPL only). Plastic edge band color is selectable and specified separately from laminate color.",
+   "kind": "requirement"
+  },
+  {
+   "page": 176,
+   "topic": "edge",
+   "text": "Front (user's) edge is a plastic edge band with a 3 mm radius; back and side edges are flat. Edge profile is applied to front (user's) edge only. Back and side edge plastic color defaults to match user's edge.",
+   "kind": "requirement"
+  },
+  {
+   "page": 176,
+   "topic": "edge",
+   "text": "PVC-free 3 mm edge profiles are a proprietary polyolefin blend for all solid colors and seven woodgrain finishes; matching 1 mm side and back edges are also PVC-free. See surface material listing for PVC-free availability.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 176,
+   "topic": "grommet",
+   "text": "Grommet is standard on corner worksurfaces only (straight corner, curved corner, LH/RH extended curved corner, 120° corner). Field-installed grommet (TSAEGROM package) requires a 3\" diameter hole in the worksurface.",
+   "kind": "requirement"
+  },
+  {
+   "page": 176,
+   "topic": "corner-bracket",
+   "text": "Corner bracket is included with corner worksurfaces to connect the back corner of the worksurface to panels.",
+   "kind": "requirement"
+  },
+  {
+   "page": 176,
+   "topic": "support",
+   "text": "30\"D straight and transition cantilevered worksurfaces require additional floor support along the front edge, such as a pedestal, end panel, post leg, side support bracket, or an adjacent return worksurface. (p181 also lists 30\"D tapered.)",
+   "kind": "requirement"
+  },
+  {
+   "page": 176,
+   "topic": "spanner",
+   "text": "Spanner worksurfaces with 3\" notch accommodate Kick panels. Legs and cantilevers or column and cantilevers must be used for support.",
+   "kind": "requirement"
+  },
+  {
+   "page": 499,
+   "topic": "spanner",
+   "text": "Specify two cantilevers (TSATCANT) and a post leg (TSATP27) to attach a spanner worksurface to adjacent worksurfaces (tip refers to 50\" and 62\" spanner tops; listed widths are 51\" and 63\").",
+   "kind": "requirement"
+  },
+  {
+   "page": 177,
+   "topic": "linking",
+   "text": "Linking worksurfaces with 3\" notch accommodate Answer panels. One leg and two cantilevers must be used to support linking worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 500,
+   "topic": "linking",
+   "text": "Order cantilevers (TSATCANT, p503) to connect linking worksurfaces to adjacent worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 177,
+   "topic": "peninsula",
+   "text": "Bullet peninsula, angled peninsula, and jetty worksurfaces can be supported two ways: (1) with a cantilever, a center support panel, and a column; or (2) with a cantilever, a side support bracket, and two post legs.",
+   "kind": "requirement"
+  },
+  {
+   "page": 177,
+   "topic": "supports",
+   "text": "Supports are ordered separately and installed in the field. Supports available for use with Kick (TS Series) worksurfaces: post leg, H-leg, cantilever with tie plate, side support brackets, tie plates, in-line support plate, reinforcing channel, on-module end panel.",
+   "kind": "requirement"
+  },
+  {
+   "page": 177,
+   "topic": "span",
+   "text": "Long worksurface spans must be supported with cantilevers, pedestals, legs, or other supports at least every 54\". Reinforcing channel allows the distance between supports to be increased to 60\" for worksurfaces that will be heavily loaded, or up to 72\" for worksurfaces with lighter expected loads. Reinforcing channel must be specified separately.",
+   "kind": "limit"
+  },
+  {
+   "page": 177,
+   "topic": "span",
+   "text": "Page 177/181 name the reinforcing channel as TS7WKSPT (Universal Systems, spec p546); the TS Series page 503 lists TSATRC39/48/57/72. p183 cites TSATRC57 for heavily loaded worksurfaces with 60\" or more unsupported kneespace.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 490,
+   "topic": "surface-material",
+   "text": "LPL and HPL worksurfaces differ slightly in actual thickness and may differ in sheen/texture; specify only one worksurface type (LPL or HPL) within a given application.",
+   "kind": "tip"
+  },
+  {
+   "page": 490,
+   "topic": "surface-material",
+   "text": "Open Line laminate program (non-Steelcase laminates suitable for Steelcase products) is available on High-Pressure Laminate worksurfaces only: +$65 plus cost of laminate; see Surface Materials Reference Manual.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 177,
+   "topic": "surface-material",
+   "text": "Kick (TS Series) is available in a wide variety of worksurface shapes; directional laminate grain direction for each shape (straight, transition, straight corner, curved corner, LH/RH extended curved corner, 120° corner, peninsula, angled peninsula, spanner) is shown by arrows in the p177 illustrations (grain generally runs along the longest dimension).",
+   "kind": "tip"
+  },
+  {
+   "page": 178,
+   "topic": "shipping",
+   "text": "Identical worksurfaces ordered on the same line item are packed on pallets containing 10-20 worksurfaces; remaining worksurfaces are packed individually in cartons. If palletizing is not desired, order in quantities of nine or less per line item.",
+   "kind": "requirement"
+  },
+  {
+   "page": 178,
+   "topic": "surface-material",
+   "text": "HPLs are more durable (7-15 layers of resin-soaked paper) and cost more; generally used in higher-traffic areas (cafeterias, conference rooms). LPLs (melamine-dipped paper bonded to wood core) suit lower-impact areas, vertical applications, and workstation/private office tops.",
+   "kind": "tip"
+  },
+  {
+   "page": 180,
+   "topic": "supports",
+   "text": "On-module worksurface supports engage the slots in the vertical uprights of Kick panels. On-module supports can be used to panel-support worksurfaces in various configurations (see Specifying page 545 for panel-mounted Universal Systems supports for Answer panels).",
+   "kind": "compatibility"
+  },
+  {
+   "page": 180,
+   "topic": "end-panel",
+   "text": "End panel can be used to support the end of a worksurface at standard seated height (TSATEP24/30, 27\"H) or standing height (TSATEP24S/30S, 40\"H).",
+   "kind": "requirement"
+  },
+  {
+   "page": 181,
+   "topic": "end-panel",
+   "text": "End panels can be used to support the end of a worksurface for additional panel stability (refer to panel stability guidelines). End panels are available in seated and standing heights and cannot be used in freestanding applications.",
+   "kind": "limit"
+  },
+  {
+   "page": 180,
+   "topic": "side-support-bracket",
+   "text": "Side support brackets support worksurfaces at any height in 1\" increments. Brackets ship as a left- and right-hand pair (TSATSIDE) and are ordered separately.",
+   "kind": "requirement"
+  },
+  {
+   "page": 180,
+   "topic": "side-support-bracket",
+   "text": "Side support brackets can support the ends of straight and corner worksurfaces and the back corner of any corner worksurface; they can support the end of a worksurface that is wrapped by a panel with the same width dimension that matches the worksurface depth.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 180,
+   "topic": "side-support-bracket",
+   "text": "A single side support bracket can be used to support the rear corner of corner, extended corner, and 120° corner worksurfaces. It is standard with these corner worksurfaces.",
+   "kind": "requirement"
+  },
+  {
+   "page": 180,
+   "topic": "cantilever",
+   "text": "Cantilever can be used to panel-support a worksurface at any height.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 181,
+   "topic": "cantilever",
+   "text": "Cantilevers support worksurfaces at any height in 1\" increments. Cantilever is non-handed and can be used to support either end of a worksurface, or shared to support two worksurfaces at the same height simultaneously. One tie plate ships with each cantilever.",
+   "kind": "requirement"
+  },
+  {
+   "page": 181,
+   "topic": "supports",
+   "text": "All panel-mounted supports can be removed and repositioned later without any permanent damage to panels or skins.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 181,
+   "topic": "supports",
+   "text": "Pedestals and lateral files with a filler can be used to support the end of a worksurface in place of an end panel.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 181,
+   "topic": "stability",
+   "text": "Worksurfaces used in panel-supported installations must follow applicable panel stability guidelines (page 124).",
+   "kind": "requirement"
+  },
+  {
+   "page": 181,
+   "topic": "finish",
+   "text": "Side support bracket and reinforcing channel: black paint only. Cantilever, center support panel, and end panel: paint (color selectable). Post legs and H-legs: paint price groups 1-3 (No cost/+$12/+$23). On-module end panel: paint price groups 1-3 (No cost/+$28/+$47). Tie plates and in-line support plates: black paint.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 502,
+   "topic": "glides",
+   "text": "Post leg has 2\" adjustable glides; H-legs have 2 3/4\" adjustable glides; center support panel and end panel glide range 1 1/4\"; cantilever N.A.",
+   "kind": "dimension"
+  },
+  {
+   "page": 182,
+   "topic": "freestanding",
+   "text": "Freestanding guidelines: consult local dealer or Steelcase representative prior to deviating from these guidelines. Ends of a freestanding worksurface can be supported with post legs, a 20\"W H-leg, or a 22\"D or 28\"D pedestal.",
+   "kind": "requirement"
+  },
+  {
+   "page": 182,
+   "topic": "freestanding",
+   "text": "Single freestanding worksurface supported by 20\"W H-leg: 72\" max. width. Supported by a 22\"D or 28\"D pedestal at one end: 72\" max. width.",
+   "kind": "limit"
+  },
+  {
+   "page": 182,
+   "topic": "freestanding",
+   "text": "20\"W H-leg can support adjacent worksurfaces up to 72\"W each (72\" max. + 72\" max., post legs at outer ends).",
+   "kind": "limit"
+  },
+  {
+   "page": 182,
+   "topic": "freestanding",
+   "text": "Combined worksurfaces can give each other support when joined with an 11\"W H-leg and tie plate.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 182,
+   "topic": "freestanding",
+   "text": "Corner worksurface attached to adjacent worksurfaces requires an 11\"W H-leg (TSATH2711). Tie plate is recommended to align worksurfaces. This application is only good for 48\"W corner worksurfaces; the 36\"W and 42\"W corner worksurfaces do not meet ADA requirements.",
+   "kind": "requirement"
+  },
+  {
+   "page": 182,
+   "topic": "freestanding",
+   "text": "11\"W H-leg can be used to support a corner worksurface and adjacent worksurfaces up to 72\"W (diagram: 72\" max. + 72\" max. along one side, 48\" max. return).",
+   "kind": "limit"
+  },
+  {
+   "page": 183,
+   "topic": "freestanding",
+   "text": "120° worksurface freestanding: 11\"W H-leg, tie plates and post legs; diagram limits 36\" max. on one side and 114\" max. on the other.",
+   "kind": "limit"
+  },
+  {
+   "page": 183,
+   "topic": "freestanding",
+   "text": "H-leg can be used to support adjacent perpendicular worksurfaces up to 72\"W (diagram: 72\" max. by 72\" max. with peninsula end).",
+   "kind": "limit"
+  },
+  {
+   "page": 183,
+   "topic": "freestanding",
+   "text": "11\"W H-leg can be used to support a corner worksurface and adjacent worksurfaces up to 72\"W; U-configuration with peninsula: peninsula 60\" or 72\" only, corner return 48\" only, other run 72\" max.",
+   "kind": "limit"
+  },
+  {
+   "page": 183,
+   "topic": "freestanding",
+   "text": "Reinforcing channel (TSATRC57) is available to add support to worksurfaces that have 60\" or more of unsupported kneespace and that are heavily loaded.",
+   "kind": "requirement"
+  },
+  {
+   "page": 545,
+   "topic": "panel-mounted-supports",
+   "text": "Cross-reference (outside this section): panel-mounted supports for Answer panels are on Universal Systems spec pages 545-547 - on-module cantilever UCANT, side support brackets USSBR (only one of the handed pair is required for rear-corner support of a panel-mounted corner worksurface; specify one per two corner worksurfaces on-module), support plates TS714WSP/TS720WSP, tie plates TS7TIEPLATE, reinforcing channels TS7WKSPT39/TS7WKSPT/TS7WKSPT72, center support panels (p547). Answer panel junctions can accommodate only one cantilever at a seam. No panel-width-based cantilever/end-support table exists in the TS Series pages 171-184/489-504.",
+   "kind": "compatibility"
+  },
+  {
+   "page": 490,
+   "topic": "related",
+   "text": "Worksurface-height power and communication access (page 555) is listed as a related product for straight, transition, straight corner, curved corner, extended curved corner, 120° corner and linking worksurfaces (not for peninsula, angled peninsula, spanner).",
+   "kind": "compatibility"
+  }
+ ],
+ "dimensions": [
+  {
+   "page": 172,
+   "subject": "Straight worksurfaces (Statement of Line)",
+   "text": "Depths 18\", 24\", 30\" x widths 24\", 30\", 36\", 42\", 48\", 54\", 60\", 66\", 72\" (area = D x W, e.g., 18x24 = 432 sq. in., 30x72 = 2160 sq. in.)."
+  },
+  {
+   "page": 172,
+   "subject": "Transition worksurfaces (Statement of Line)",
+   "text": "Widths 36\", 42\", 48\"; end depth pairs 18/24, 24/18, 24/30, 30/24. Areas: 36W 808/808/1024/1024; 42W 952/952/1204/1204; 48W 1096/1096/1384/1384 sq. in."
+  },
+  {
+   "page": 173,
+   "subject": "Straight corner worksurfaces",
+   "text": "36x36 24D front edge 17\" 1221 sq. in.; 42x42 24D front edge 25 1/2\" 1599 sq. in.; 48x48 24D front edge 34\" 2013 sq. in.; 48x48 30D front edge 25 1/2\" 2139 sq. in."
+  },
+  {
+   "page": 173,
+   "subject": "Curved corner worksurfaces",
+   "text": "36x36 18D 18\"r 1042; 42x42 18D 18\"r 1258; 48x48 18D 18\"r 1474; 36x36 24D 12\"r 1180; 42x42 24D 18\"r 1506; 48x48 24D 18\"r 1794; 48x48 30D 18\"r 2046 sq. in."
+  },
+  {
+   "page": 174,
+   "subject": "Extended curved corner worksurfaces (left-hand shown)",
+   "text": "48\" run x 60\" or 72\" run, 18\"r inside. End depths (60/72 run end, 48 run end) and area: 24/24 60 = 2082, 24/24 72 = 2370, 30/30 60 = 2406, 30/30 72 = 2766, 24/30 60 = 2217, 24/30 72 = 2504, 30/24 60 = 2289, 30/24 72 = 2648 sq. in. Right-hand is also available."
+  },
+  {
+   "page": 174,
+   "subject": "120° corner worksurfaces",
+   "text": "Runs 36\"/42\"/48\" at 24\" depth, 30 1/2\" corner depth; overall front 62 11/32\", 72 3/4\", 83 5/32\" (spec p496 prints 63 11/32\", 72 3/4\", 85 5/32\")."
+  },
+  {
+   "page": 175,
+   "subject": "Peninsula worksurfaces",
+   "text": "30\"D x 48\"/60\"/72\"W: 1246, 1606, 1966 sq. in."
+  },
+  {
+   "page": 175,
+   "subject": "Angled peninsula worksurfaces",
+   "text": "48\"W with 24\" or 30\" attachment depth: 1147, 1288 sq. in."
+  },
+  {
+   "page": 175,
+   "subject": "Spanner worksurfaces for use with 3\" panels",
+   "text": "51\"W x 25\"D 1017 sq. in.; 63\"W x 31\"D 1554 sq. in."
+  },
+  {
+   "page": 175,
+   "subject": "Linking worksurfaces for use with 3\" panels",
+   "text": "27x27 678 sq. in.; 33x27 840; 27x33 840; 33x33 996 sq. in."
+  },
+  {
+   "page": 176,
+   "subject": "Worksurface thickness",
+   "text": "Worksurface is 1 3/16\" thick; 3 mm radius front edge profile; 1 mm side and back edges."
+  },
+  {
+   "page": 180,
+   "subject": "Supports actual dimensions",
+   "text": "Cantilever: height 13\", depth 16\", glide N.A. Center support panel: height 28 1/2\" or 40 7/8\"*, depth 11\", glide 1 1/4\". End panel: height 28 1/2\" or 40 7/8\"*, depth 23 3/4\" or 29 3/4\", glide 1 1/4\". Post leg: height 28 1/2\", depth N.A., glide 2\". H-legs: height 28 1/2\", depth 14\" or 22 3/4\", glide 2 3/4\". *Height dimensions include the thickness of a worksurface."
+  }
+ ],
+ "unresolved": [
+  "p496 vs p174: 120° corner overall dimension D printed as 63 11/32\" and 85 5/32\" on spec p496 but 62 11/32\" and 83 5/32\" on Statement of Line p174 (72 3/4\" agrees). Geometry (B x sqrt3) supports p174; p496 values likely misprints. Both recorded.",
+  "p499 spanner tip says '50\" and 62\" spanner tops' while the table lists 51\" and 63\" widths (TSAWLN51A/TSAWLN63A); presumably the same products.",
+  "p494/p495: RH extended corner style numbers are not simple mirrors of LH digit order in terms of which run carries the 24\" vs 30\" depth (e.g., LH E2364 and RH E2346 share identical prices). A/B semantics recorded per spec-page diagrams (A = end depth of C run, B = end depth of D run); verify with Steelcase before relying on A/B for geometry.",
+  "p180: H-leg actual depths 14\" or 22 3/4\" are not explicitly tied to 11\"W vs 20\"W; mapping (11W->14, 20W->22 3/4) is inferred and recorded only in notes.",
+  "p177/p181 cite reinforcing channel 'TS7WKSPT' (Universal Systems, p546) whereas TS spec p503 lists TSATRC39/48/57/72; p183 cites TSATRC57. Both families exist; which is preferred for Kick worksurfaces is not stated.",
+  "Transition worksurfaces: 'deeperEnd' (left/right) derived from diagram orientation (A left, B right) on p172/p491; the guide does not use the word 'handed' for transitions.",
+  "Linking worksurfaces: Statement of Line p175 area drawings do not label left/right, so areas (678/840/840/996) were not mapped to individual styles.",
+  "Cantilever (TSATCANT) paint color is specifiable per p502 exception, but no paint price-group upcharge is listed for it; center support panel referenced on p177/p180/p181 is not in the TS spec pages (see Universal Systems p547).",
+  "The guide provides no table of required cantilevers/end supports by panel width for TS Series worksurfaces; support requirements are captured as rules only."
+ ]
+}

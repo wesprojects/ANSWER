@@ -1,0 +1,42 @@
+126                                                                                                                                                                                                            Answer Solutions Specification Guide
+Shared Components
+Stability Guidelines, continued
+...............................................................................................................................................
+...............................................................................................................................................
+Guidelines for “L” Configurations
+Panels with Panel-Hung Components
+If A is up to 12' or less, you need to have either a pedestal with filler, a jetty or bubble jetty worksurface, or an end panel on end. Maximum 8' of shelves
+or bins per panel run.
+               
+Guidelines for “T” Configurations
+Panels without Panel-Hung Components
+                                                                                              
+An 8' run with no panel-hung component                                              For runs over 8' up to 18', you must use at 
+does not require a return panel. For additional stability                                                 least a 30"W return panel.
+or longer runs, apply a junction stabilizer bracket 
+every 8' bolted to a concrete floor.
+12' max.
+12' max.
+A
+A
+12' max.
+12' max.
+A
+A
+12' max.
+12' max.
+A
+A
+18' max.
+30" 
+30" min.
+60" max.
+30" min.
+60" max.
+8' max.
+30" min.
+60" max.
+30" min.
+60" max.
+5' min.
+February 2015

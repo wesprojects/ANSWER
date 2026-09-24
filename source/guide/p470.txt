@@ -1,0 +1,28 @@
+Standard Includes                                      Required to Specify
+• Base trim with knockouts for hardwired power kit: paint
+1 Style number
+2 Paint color number from trim
+cSee Surface Materials, page 708.
+Specification Information
+DWidth               DStyle
+DU.S.
+d                         dNumber              dPrice
+d                              d
+d
+24"                           TS724BTH             $18
+30"                           TS730BTH             $19
+36"                           TS736BTH             $20
+42"                           TS742BTH             $21
+48"                           TS748BTH             $22
+60"                           TS760BTH             $24
+72"                           TS772BTH             $27
+d                              d
+d
+Shared Components and Wiring and Cabling
+Hardwire Base Trim
+470                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

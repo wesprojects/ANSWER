@@ -1,0 +1,70 @@
+616                                                                                                                                                                                                            Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Storage
+Universal Sliding Door Bins with Steel or Wood Fronts
+For Use with Answer
+                                        
+Standard Includes                                      Required to Specify
+• Overhead bin: paint price group 1
+• Sliding door: paint or wood
+• Recess beneath unit to accommodate shelf light
+• Shelf backstop
+• On-module attachment brackets with safety catch: 
+black paint only
+• Vertical off-module attachment brackets, if selected: 
+black paint only
+• Lock, keyed random: 9201 Polished Chrome
+Options                       U.S. Price               Required to Specify
+  Surface                  Overhead bin with one steel door
+  Materials                • Paint price group 1                     No cost                                 Specify paint color number.
+                                     • Paint price group 2                     +$  42                                   Specify paint color number.
+                                     • Paint price group 3                     +$  71                                   Specify paint color number.
+                                         Overhead bin with one wood door
+                                     • Paint price group 1                     No cost                                 Specify paint color number.
+                                     • Paint price group 2                     +$  42                                   Specify paint color number.
+                                     • Paint price group 3                     +$  63                                   Specify paint color number.
+                               • Premium wood 2 on                   See information at left           Specify Premium wood 2 finish number.
+                                        wood door
+                               • Premium wood 3 on                   See information at left           Specify Premium wood 3 finish number.
+                                        wood door
+                                     • Customiz stain on wood door     No cost                                Specify with Customiz stain.
+                                                                                                                                       cSee Surface Materials Reference Manual.
+  Brackets                   Off-module attachment brackets
+                                     • One vertical off-module              +$  58                                    Specify with one vertical off-module 
+                                        bracket                                                                                      bracket.
+                                     • Two vertical off-module              +$116                                    Specify with two vertical off-module 
+                                        brackets                                                                                    brackets.
+                                 Upmount brackets
+                                     • Upmount kit                                +$171                                  Specify with upmount kit.
+                                 No brackets
+                                     • Omit brackets                             –$  20                                   Specify omit brackets.
+  Shelf                        • Four dividers: white plastic         +$  44                                   Specify with dividers.
+  Accessories        
+  Lock and                   Lock 
+  Keying                 • No lock                                       –$  59                                    Specify with no lock.
+                                     • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                        Keying
+                                     • Factory- and field-installed keying                                         cPage 726
+  Related                   • Accessories                                                                           cPage 623
+  Products              • Shelf lights                                                                             cPages 690–693
+cNeed help?
+Product details,
+page 276
+1 Style number
+2 Paint color number for overhead bin 
+3 Paint or wood color number for door
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Premium Wood 
+Pricing: For Premium
+wood 2 or Premium wood 3
+pricing, please refer to the
+electronic catalog or
+SmartTools.
+Tip: Upmount brackets
+include steel back to enclose
+storage bin.
+February 2015

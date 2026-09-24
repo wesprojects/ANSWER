@@ -1,0 +1,64 @@
+628                                                                                                                                                                                                            Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Brackets to Attach Avenir Bins and Shelves to Answer Panels
+For Use with Overhead Storage Products Introduced prior to March 2007
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 287
+• Pair of brackets: paint
+1 Style number
+2 Paint color number for brackets
+cSee Surface Materials, page 708.
+   Specification Information
+DStyle           DU.S.
+dNumber       dPrice
+d                    d
+For Use with Avenir Bin with Flush Door
+TS7AV              $162
+d                    d
+For Use with Avenir Bin with Integral Door and Avenir Full-Height Shelves with
+Radius and Square End Supports
+TS7BM             $162
+d                    d
+For Use with Avenir Half-Height Shelves with Square End Supports
+TS7AVH           $162
+d                    d
+For Use with Avenir Half-Height Shelves with Radius End Supports
+TS7BMH          $162
+  d                        d
+Tip: Brackets only work
+on Avenir bins and shelves
+manufactured since May
+1997. Bins and shelves
+manufactured prior to this
+date would require brackets
+manufactured through
+Specials.
+Tip: Avenir binder bins 
+cannot hang on a stacked 
+segment of an Answer panel.
+Standard Includes                                      Required to Specify
+• Flexible, magnetic markerboard surface to attach 
+to door of overhead storage bin: white plastic
+Specification Information
+DDimensions       DStyle              DU.S.                       
+dW       H             dNumber         dPrice                     
+d
+d                           d                                                                                             
+30"         161⁄4"           R30MBB            $101                             
+36"         161⁄4"           R36MBB            $108                             
+42"         161⁄4"           R42MBB            $112                             
+48"         161⁄4"           R48MBB            $119                             
+d
+d                      d
+Style number
+Flexible Markerboard Surface
+For Use with Universal Over the Case Bins
+Universal Storage
+Accessories for Overhead Bins and Shelves, continued
+                                        
+February 2015

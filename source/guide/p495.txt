@@ -1,0 +1,88 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            495
+TS Series
+Worksurfaces
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cNeed help?
+Product details,
+page 176
+• 13⁄16"-thick worksurface: Low-Pressure Laminate or 
+High-Pressure Laminate
+• 3 mm radius proﬁle edge on user’s side: plastic 
+• Side and back edges: plastic default to match user's side
+• Grommet: black plastic only
+• Corner bracket: black paint only
+1 Style number
+2 Low-Pressure Laminate or High-
+Pressure Laminate color number for
+worksurface, as appropriate
+3 Plastic edge band color number for
+worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Long worksurface spans
+require additional support.
+Reinforcing channels allow for
+unsupported spans up to 72".
+cPage 503
+Right-
+hand
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+  Related                   • Worksurface-height power and communication access        cPage 555
+  Products                • Worksurface legs and supports                                             cPage 502
+                                     • Reinforcing channel                                                               cPage 503
+   Speciﬁcation Information
+DDimensions                      DStyle                    DU.S.       DStyle                    DU.S.
+dA       B        C
+D
+dNumber               dPrice      dNumber                dBase
+d                                         dLPL                      d
+dHPL                      dPrice
+d                                         d                            d
+d                             d
+24"       24"       48"       60"         TSAWLE2246        $516          TSAWHE2246        $674
+24"       24"       48"       72"         TSAWLE2247        $616          TSAWHE2247        $789
+24"       30"       48"       60"         TSAWLE2346        $532          TSAWHE2346        $735
+24"       30"       48"       72"         TSAWLE2347        $632          TSAWHE2347        $854
+30"       24"       48"       60"         TSAWLE3246        $532          TSAWHE3246        $659
+30"       24"       48"       72"         TSAWLE3247        $632          TSAWHE3247        $783
+30"       30"       48"       60"         TSAWLE3346        $547          TSAWHE3346        $679
+30"       30"       48"       72"         TSAWLE3347        $649          TSAWHE3347        $805
+d                                           d                            d
+d                             d
+B
+A
+C
+D
+                            Standard Includes                                      Required to Specify
+TS Series Worksurfaces 
+TS Series Right-Hand Extended Curved Corner
+Worksurfaces                                                                                              
+                                                                                                                     
+Tip: Standard worksurfaces
+are 13⁄16" thick. However,
+the actual thickness
+between Low-Pressure
+Laminate (LPL) and High-
+Pressure Laminate (HPL)
+worksurfaces is slightly dif-
+ferent. It is recommended
+that only worksurfaces of the
+same type are speciﬁed in a
+given application. In addi-
+tion, there may be sheen or
+texture differences when
+using LPL and HPL in adja-
+cent applications. Please
+use caution when mixing
+and matching different work-
+surface types.
+TS Series Right-Hand
+Extended Curved Corner
+Worksurfaces
+February 2015

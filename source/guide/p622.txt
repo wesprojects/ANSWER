@@ -1,0 +1,91 @@
+622                                                                                                                                                                                                            Answer Solutions Specification Guide
+Universal Shelves
+Universal Storage
+Universal Shelves
+For Use with Answer
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 284
+• Shelf: paint price group 1
+• Recess beneath unit to accommodate shelf light
+• Shelf backstop
+• On-module attachment hooks with safety catch
+Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials                • Paint price group 2                     +$14                                    Specify paint color number.
+                                     • Paint price group 3                     +$23                                    Specify paint color number.
+  Related                   • Accessories                                                                           cPage 623
+  Products              • Shelf lights                                                                             cPages 690–697
+Specification Information
+DDimensions                    DStyle                DU.S.
+dD         W          H           dNumber            dBase
+d                                       d                         dPrice
+d
+d
+d
+143⁄4"      24"          71⁄2"          RSH24TAK          $178
+143⁄4"      30"          71⁄2"           RSH30TAK          $186
+143⁄4"      36"          71⁄2"           RSH36TAK          $198
+143⁄4"      42"          71⁄2"           RSH42TAK          $210
+143⁄4"      48"          71⁄2"           RSH48TAK          $227
+143⁄4"      60"          71⁄2"           RSH60TAK          $253
+143⁄4"      72"          71⁄2"           RSH72TAK          $282
+d
+d
+d
+1 Style number
+2 Paint color number for shelf
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Overhead storage 
+bins and shelves with a 
+“TAK” suffix can be used
+with Privacy Wall as well.
+cSee Architectural Solutions
+Specification Guide for 
+attachment information.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 284
+• Personal shelf: paint price group1
+• Recess beneath unit to accommodate shelf light
+• On-module attachment hooks
+Options                       U.S. Price               Required to Specify
+  Surface                   • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials             • Paint price group 2                     +$14                                    Specify paint color number.
+                                     • Paint price group 3                     +$23                                    Specify paint color number.
+Specification Information
+DDimensions            DStyle               DU.S.
+dD             W            dNumber           dBase
+d                               d                       dPrice
+d
+d
+d
+1311⁄16"       24"              RDS24TAK        $178
+1311⁄16"        30"              RDS30TAK        $186
+1311⁄16"        36"              RDS36TAK        $198
+1311⁄16"        42"              RDS42TAK        $210
+1311⁄16"        48"              RDS48TAK        $227
+d
+d
+d
+1 Style number
+2 Paint color number for personal shelf
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Overhead storage 
+bins and shelves with a 
+“TAK” suffix can be used
+with Privacy Wall as well.
+cSee Architectural Solutions
+Specification Guide for 
+attachment information.
+Universal Personal Shelves
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

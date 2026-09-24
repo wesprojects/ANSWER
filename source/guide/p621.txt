@@ -1,0 +1,107 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            621
+Universal Storage
+Universal Storage 
+Options                       U.S. Price               Required to Specify
+Picture Frame      • Omit insert                                  Prices below                         Specify omit insert.
+Door on Flat        • Acrylic insert                               Prices below                         Specify with acrylic insert.
+Fronts                      • Markerboard insert G4/15           Prices below                         Specify with markerboard insert.
+                                  • Glass insert (assist                     Prices below                         Specify with glass insert.
+                                     mechanism recommended)
+Door                         • Assist mechanism for                  +$171 per door                      Specify with assist mechanism. 
+Mechanism            standard door, markerboard
+                                      insert, glass insert, or omit insert
+  Shelf                        • Four dividers: white plastic         +$  44                                   Specify with dividers.
+  Accessories        
+  Lock and                   Lock 
+  Keying                 • No lock                                       –$  59 per door                     Specify with no lock.
+                                     • Ember Chrome                           No cost                                 Specify with 9250 Ember Chrome lock.
+                                        Keying
+                                     • Factory- and field-installed keying                                         cPage 726
+  Related                   • Accessories                                                                           cPage 623
+  Products              • Shelf lights                                                                             cPages 690–697
+Specification Information
+DDimensions                   DNumber     DStyle               DU.S.     DOptions
+dD         W          H          dof Doors    dNumber           dBase   d(Add $ to
+d                                      d                 d                       dPrice   dBase Price)
+d
+d
+d
+d
+d
+d
+d
+d
+d
+dPicture Frame Door Inserts
+d                                             d                     d                            d              dOmit        dAcrylic      dMarker-         dGlass             
+d                                      d                 d                       d           dInsert      dInsert        dboard            dInsert            
+d                                      d                 d                       d           d             d              dInsert G4/15 d
+Bins with Steel Flat Fronts
+153⁄4"      24"          161⁄4"        1                     RBB24TAK        $  545      +$238       +$339        +$362 G4/15  +$406
+153⁄4"      30"          161⁄4"        1                     RBB30TAK        $  567      +$251       +$358        +$383 G4/15  +$433
+153⁄4"      36"          161⁄4"        1                     RBB36TAK        $  595      +$263       +$375        +$406 G4/15  +$460
+153⁄4"      42"          161⁄4"        1                     RBB42TAK        $  617      +$274       +$393        +$427 G4/15  +$507
+153⁄4"      48"          161⁄4"        1                     RBB48TAK        $  637      +$286       +$414        +$448 G4/15  +$553
+153⁄4"      60"          161⁄4"        2                     RBB60TAK        $1020     +$468       +$655        +$710 G4/15  +$825
+153⁄4"      66"          161⁄4"        2                     RBB66TAK        $1071     +$480       +$674        +$733 G4/15  +$874
+153⁄4"      72"          161⁄4"        2                     RBB72TAK        $1111      +$490       +$692        +$756 G4/15  +$921
+d
+d
+d
+d
+d
+d
+d
+d
+Bins with Wood Flat Fronts
+153⁄4"      24"          161⁄4"        1                     RBB24WTAK     $  918      N.A.          N.A.           N.A.                N.A.
+153⁄4"      30"          161⁄4"        1                     RBB30WTAK     $  940      N.A.          N.A.           N.A.
+N.A.
+153⁄4"      36"          161⁄4"        1                     RBB36WTAK     $  968      N.A.          N.A.           N.A.               N.A.
+153⁄4"      42"          161⁄4"        1                     RBB42WTAK     $  990      N.A.          N.A.           N.A.               N.A.
+153⁄4"      48"          161⁄4"        1                     RBB48WTAK     $1010     N.A.          N.A.           N.A.               N.A.
+153⁄4"      60"          161⁄4"        2                     RBB60WTAK     $1674     N.A.          N.A.           N.A.               N.A.
+153⁄4"      66"          161⁄4"        2                     RBB66WTAK     $1725     N.A.          N.A.           N.A.               N.A.
+153⁄4"      72"          161⁄4"        2                     RBB72WTAK     $1765     N.A.          N.A.           N.A.               N.A.
+d
+d
+d
+d
+d
+d
+d
+d
+Universal In the Case 
+Bins with Steel and Wood
+Flat Fronts
+Tip: When ordering the omit
+insert option, remember that
+custom material cannot be
+factory installed. Custom
+material must be ordered
+from a material vendor.
+Tip: A door assist mecha-
+nism cannot be used with an
+acrylic door insert.
+Tip: Overhead storage 
+bins and shelves with a 
+“TAK” suffix can be used
+with Privacy Wall as well.
+cSee Architectural Solutions
+Specification Guide for 
+attachment information.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cOptions, continued from previous page
+Tip: Overhead storage 
+bins and shelves with a 
+“TAK” suffix can be used
+with Privacy Wall as well.
+cSee Architectural Solutions
+Specification Guide for 
+attachment information.
+G4/15 = Last order entry
+April 19, 2015
+February 2015

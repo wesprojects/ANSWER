@@ -1,0 +1,151 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   533
+Universal Systems Worksurfaces
+                                                                                                                     
+Jetty Worksurfaces
+Speciﬁcation Information
+                                             U.S. Base Prices              
+U.S. Base Price
+                                             High-Pressure Laminate  Wood
+High-Pressure Laminate
+    
+              
+DDimensions
+DStyle           DPlastic    DPlastic            DWood
+DOption
+DDimensions
+DStyle
+DPlastic
+dA    B      C      D      dNumber      d3 mm      dP-Edge            dSquare    d(Add $ to  
+dA
+B
+C
+D
+dNumber
+d3 mm
+d                                 d                   dEdge       d                       dEdge        dBase Price)
+d
+d
+dEdge
+d                                 d                   d               d                       d
+d                
+d
+d
+d
+d                                 d                   d               d
+d
+dFull-Fill     
+d
+d
+d
+d                                 d                   dNo Sufﬁx dSufﬁx P
+dSufﬁx SW dFinish       
+d
+d
+dNo Sufﬁx
+                                                                          
+Left-Hand With 1/2" Cord Drop                                                             
+Left-Hand With Full Depth
+30"    231⁄2" 651⁄2" 48"       UJC3268L   $774           $881                     $1375          +$74          
+30"
+24
+66" 48" WJ326648L
+$774
+30"    231⁄2" 711⁄2" 48"       UJC3228L   $801           $908                     $1564          +$77          
+30"
+24"
+72" 48" WJ327248L
+$801
+30"    231⁄2" 771⁄2" 48"       UJC3288L   $828           $935                     $1564          +$81          
+30"
+24"
+78" 48" WJ327848L
+$828
+30"    291⁄2" 651⁄2" 48"       UJC3368L   $800           $907                     $1401          +$74          
+30"
+30"
+66" 48" WJ336648L
+$800
+30"    291⁄2" 711⁄2" 48"       UJC3328L   $828           $935                     $1591          +$77          
+30"
+30"
+72" 48" WJ337248L
+$828
+30"    291⁄2" 771⁄2" 48"       UJC3388L   $857           $964                     $1593          +$81          
+30"
+30"
+78" 48" WJ337848L
+$857
+d
+d
+d
+d
+d
+d
+d
+d
+d
+                          
+Right-Hand With 1/2" Cord Drop                                                            
+Right-Hand With Full Depth
+231⁄2" 30"     48"    651⁄2"   UJC2386R   $774           $881                     $1375          +$74          
+24"
+30"
+48" 66" WJ234866R
+$774
+231⁄2" 30"     48"    711⁄2"   UJC2382R   $801           $908                     $1564          +$77          
+24"
+30"
+48" 72" WJ234872R
+$801
+231⁄2" 30"     48"    771⁄2"   UJC2388R   $828           $935                     $1564          +$81          
+24"
+30"
+48" 78" WJ234878R
+$828
+291⁄2" 30"     48"    651⁄2"   UJC3386R   $800           $907                     $1401          +$74          
+30"
+30"
+48" 66" WJ334866R
+$800
+291⁄2" 30"     48"    711⁄2"   UJC3382R   $828           $935                     $1591          +$77          
+30"
+30"
+48" 72" WJ334872R
+$828
+291⁄2" 30"     48"    771⁄2"   UJC3388R   $857           $964                     $1593          +$81          
+30"
+30"
+48" 78" WJ334878R
+$857
+d
+d
+d
+d
+d
+d
+d
+d
+d
+A
+D
+C
+B
+B
+C
+A
+D
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles,
+add a suffix to the style 
+number. (For example,
+UJC3268L becomes
+UJC3268LSW for wood 
+with square edge profile.)
+Universal Systems
+Worksurfaces
+February 2015

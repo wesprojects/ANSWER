@@ -1,0 +1,38 @@
+72                                                                                                                                                                                                              Answer Solutions Speciﬁcation Guide
+Panels—Square and Oval Trim
+Statement of Line, continued
+Panel Top Screens—Square and Oval Trim 
+                 24"W*          30"W           36"W           42"W           48"W
+12"H         •         •         •         •         •
+*Tip: 24"W is only available for panel top screens with square trim.
+  Understanding
+cPage 96
+  Specifying
+cPage 428
+Performance Tackable Acoustical Panel Packages—Square and Oval Trim
+                 18"W           24"W           30"W           36"W           42"W           48"W           60"W           72"W
+42"H         •                 •                 •                 •                 •                 •                 •                 •
+48"H         •                 •                 •                 •                 •                 •                 •                 •
+54"H         •                 •                 •                 •                 •                 •                 •                 •
+66"H         •                 •                 •                 •                 •                 •                 •                 •
+  Understanding
+cPage 98
+  Specifying
+cPages 430-433
+Side 2
+Side 1
+Horizontal frame
+package
+scale 75
+Performance
+Tackable 
+Acoustical 
+Skins
+Spanning Top Caps—Square Trim
+36"W        42"W        48"W        60"W        72"W        78"W        84"W        90"W        96"W
+•             •             •             •             •             •             •      •      •
+  Understanding
+cPage 89
+  Specifying
+cPage 426
+February 2015

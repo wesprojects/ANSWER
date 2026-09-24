@@ -1,0 +1,102 @@
+518                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Corner, Flat-Front Worksurfaces
+High-Pressure Laminate
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Scallops                 • Omit scallops                            No cost                                Specify omit scallops.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Tip: Supports must be spec-
+ified separately, including
+side support brackets for
+rear corner support in
+panel-mounted applications.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallops on back edges
+1 Style number
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+A
+B
+C
+D
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Speciﬁcation Information
+                                                    U.S. Base Price         
+U.S. Base Price
+                                                    High-Pressure Laminate
+High-Pressure Laminate
+                         
+DDimensions                  DStyle              DPlastic                                DDimensions
+DStyle
+DPlastic
+dA     B       C      D        dNumber         d3 mm                                   dA
+B
+C
+D
+dNumber
+d3 mm
+d                                     d                      dEdge                                    d
+d
+dEdge
+d                                     d                      d         
+d
+d
+d
+With 1/2" Cord Drop                                                          With Full Depth
+231⁄2"  231⁄2"  351⁄2" 351⁄2"    UCF223636     $349                                           24"
+24"
+36"
+36"
+WCF223636
+$349
+231⁄2"  231⁄2"  411⁄2" 411⁄2"    UCF224242     $381                                           24"
+24"
+42"
+42"
+WCF224242
+$381
+231⁄2"  231⁄2"  471⁄2" 471⁄2"    UCF224848     $433                                           24"
+24"
+48"
+48"
+WCF224848
+$433
+291⁄2"  291⁄2"  411⁄2" 411⁄2"    UCF334242     $419                                           30"
+30"
+42"
+42"
+WCF334242
+$419
+291⁄2"  291⁄2"  471⁄2" 471⁄2"    UCF334848     $475                                           30"
+30"
+48"
+48"
+WCF334848
+$475
+d                                     d                      d         
+d
+d
+d
+February 2015

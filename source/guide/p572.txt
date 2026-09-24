@@ -1,0 +1,91 @@
+572                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Universal Tables
+Spanner Tables
+High-Pressure Laminate or Wood Veneer
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 234
+• Table: High-Pressure Laminate or wood veneer
+• Laminate table: plastic 3 mm edge proﬁle 
+or P-edge proﬁle on all sides
+• Wood table: wood square 3 mm 
+edge proﬁle on all sides
+1 Style number with appropriate edge
+proﬁle sufﬁx
+P Laminate with plastic P-edge
+SW Wood with square edge
+2 High-Pressure Laminate or wood color
+number for table
+3 Plastic color number for edge on
+laminate table, if selected
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price                      Required to Specify
+  Surface                  High-Pressure Laminate tables
+  Materials                • Open Line laminate                    +$65                                   cSee Surface Materials Reference Manual.
+                                                                                              plus cost of laminate
+                                 Wood veneer tables
+                               • Premium wood 2                        See information at left           Specify Premium wood 2 ﬁnish number.
+                               • Premium wood 3                        See information at left           Specify Premium wood 3 ﬁnish number.
+                               • Customiz stain                            No cost                                 Specify with Customiz stain. 
+                                                                                                                               cSee Surface Materials Reference Manual.
+                                     • Full-ﬁll ﬁnish on tables                Prices below                         Specify full-ﬁll ﬁnish number.
+  Related                   • Legs for Universal Tables                                                      cPage 582
+  Products              • Worksurface screens                                                              cPage 586
+                                      • Worksurface power and communication components           cPage 555
+Speciﬁcation Information
+                              U.S. Base Prices
+                              High-Pressure 
+                              Laminate                         Wood
+                         
+          
+        
+                                
+DDimensions
+DStyle        DPlastic        DPlastic      DWood            DOption
+dA   B             dNumber   d3 mm           dP-Edge      dSquare         d(Add $ to
+d                     d                dEdge            d                 dEdge             dBase Price)
+d                         d                   d                        d                     d                         d                  
+d
+d
+dNo Sufﬁx
+dSufﬁx
+dSufﬁx
+dFull-Fill
+d                     d                d
+dP
+dSW                dFinish
+30"   48"              BFSP48     $446              $534               $1070                 +$58
+30"   52"              BFSP52     $472              $560               $1070                 +$60
+36"   60"              BFSP60     $497              $585               $1325                 +$61
+36"   64"              BFSP64     $522              $610               $1326                 +$62
+d                         d                   d                        d                     d                         d                  
+           
+B
+A
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Premium Wood Pricing:
+For Premium wood 2 or
+Premium wood 3 pricing,
+please refer to the electronic
+catalog or SmartTools.
+Tip: Legs to support
+Universal Tables must be
+speciﬁed separately.
+Tip: For leg and support
+guidelines, see Table and 
+Leg Combinations, 
+cPage 244.
+Tip: To specify 3 mm edge
+proﬁle, no sufﬁx is required.
+For other edge proﬁles, add
+sufﬁx to the style number.
+(For example, BFSP48
+becomes BFSP48SW for
+wood square edge proﬁle.)
+February 2015

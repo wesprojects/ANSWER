@@ -1,0 +1,50 @@
+Panels—Thin Trim
+Answer Solutions Specification Guide                                                                                                                                                   cStatement of Line, continued  9
+Statement of Line
+Performance Tackable Acoustical Panel Packages—Thin Trim
+                 18"W           24"W           30"W           36"W           42"W           48"W           60"W           72"W
+42"H         •                 •                 •                 •                 •                 •                 •                 •
+48"H         •                 •                 •                 •                 •                 •                 •                 •
+54"H         •                 •                 •                 •                 •                 •                 •                 •
+66"H         •                 •                 •                 •                 •                 •                 •                 •
+  Understanding
+cPage 66
+  Specifying
+cPage 390
+Side 2
+Side 1
+Horizontal frame
+package
+scale 75
+Performance
+Tackable 
+Acoustical 
+Skins
+Tackable Acoustical Panel Packages—Thin Trim
+                 18"W           24"W           30"W           36"W           42"W           48"W           60"W           72"W
+42"H         •                 •                 •                 •                 •                 •                 •                 •
+48"H         •                 •                 •                 •                 •                 •                 •                 •
+54"H         •                 •                 •                 •                 •                 •                 •                 •
+66"H         •                 •                 •                 •                 •                 •                 •                 •
+  Understanding
+cPage 66
+  Specifying
+cPage 390
+Side 2
+Side 1
+Horizontal frame
+package
+scale 75
+Tackable 
+Acoustical 
+Skins
+Stacking Horizontal Frame Packages
+18"W        24"W        30"W        36"W        42"W        48"W        60"W        72"W
+•              •              •              •              •              •              •       •
+scale 50
+  Understanding
+cPage 54
+  Specifying
+cPage 382
+Panels—Thin Trim
+February 2015

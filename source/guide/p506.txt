@@ -1,0 +1,124 @@
+506                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Straight Worksurfaces
+High-Pressure Laminate or Wood Veneer
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+                                 Wood veneer worksurfaces
+                               • Premium wood 2                       See information at left         Specify Premium wood 2 finish number.
+                               • Premium wood 3                       See information at left         Specify Premium wood 3 finish number.
+                               • Customiz stain                          No cost                                Specify with Customiz stain. 
+                                                                                                                            cSee Surface Materials Reference Manual.
+                                   • Full-fill finish                              Prices at right                      Specify full-fill finish number.
+  Scallop                   • Omit scallop                              No cost                                Specify omit scallop.
+  Cutout for Power • Cutout                                       No cost                                Specify with cutout for power and data
+  and Data Access                                                                                     access door.
+  Door and Tray
+  Cutout for            • Cutout                                       No cost                                Specify with cutout left-hand.
+  Personal Caddy                                                                                       Specify with cutout right-hand.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Reinforcing channel                                                            cPage 546
+                                   • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+                                   • Personal caddy                                                                  cPage 542
+Tip: Supports for freestand-
+ing and panel-mounted
+applications must be speci-
+fied separately.
+Tip: Long worksurface spans
+may require additional sup-
+port, reinforcing channels
+allow for unsupported spans
+greater than 54".
+cSee understanding 
+section for details, 
+page 208
+Premium Wood 
+Pricing: For Premium wood
+2 or Premium wood 3 pric-
+ing, please refer to the elec-
+tronic catalog or SmartTools.
+Tip: Worksurfaces with per-
+sonal caddy do not require
+an additional reinforcing
+channel but may require
+additional support for longer
+spans.
+cSee page 210
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles,
+add a suffix to the style num-
+ber. (For example, US1830
+becomes US1830SW for
+wood with square edge
+profile.)
+Tip: Power and data access
+door and tray is ordered 
+separately to be used with
+cutout. 
+cSee page 540
+cSee page 210 for worksur-
+face size availability matrix.
+Tip: Personal caddy is
+ordered separately to be
+used with cutout.
+cSee page 210
+Exception: 48"W worksur-
+face with soft edge used
+with FrameOne post leg has
+some limitations.
+cSee page 211 for 
+connections.
+A
+B
+Exception: Worksurfaces
+with personal caddy have 
+leg restrictions.
+cSee page 210 for 
+connections
+Tip: Personal caddy is avail-
+able on worksurfaces with 
+3 mm, soft or wood square
+edges, 24"D or 30"D. Caddy
+is available on worksurfaces
+54"W to 72"W (if only with
+caddy), 66"W and 72"W (if
+with tray and caddy), and
+72"W (if with soft edge and
+caddy).
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate or wood veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or P-edge profile on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallop on back edge
+• Wire manager for wood veneer worksurfaces,
+if selected: black
+1 Style number with appropriate edge
+profile suffix 
+K Laminate with knife edge
+P Laminate with plastic P-edge
+SW Wood with square edge
+cSee edge profiles below.
+2 High-Pressure Laminate or wood color
+number for worksurface
+3 Plastic color number for front edge on
+laminate worksurface, if selected
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

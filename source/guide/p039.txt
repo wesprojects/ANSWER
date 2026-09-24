@@ -1,0 +1,50 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            39
+Panels—Thin Trim
+Build Your Own 3" Inline Junction—Thin Trim
+Panels—Thin Trim
+Build Your Own 3" Inline
+Junction—Thin Trim
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Usage Rules
+If you need to add inches to
+your application while plan-
+ning, order the following
+parts in the appropriate
+heights to create an "I"
+junction or a 3" inline junc-
+tion connection.
+How to Build Your Own 3" Inline Junction
+Step 1:                 Panel Junction
+              2               TS7____TEPJ
+Step 2:                 Junction Blocks (3 pack - need 2)
+              2               
+Step 3:                 Junction Cap
+              1               TS790JC
+Step 4:                 Junction Cap Aligner (10 pack - need 2)
+              2               TS7CJCA10
+Step 5:                 T Vertical Trim
+              2               TS7____TTVT
+Practice Example
+Quantity                             Style Number
+2                                                 TS754TEPJ
+2                                                 TS790JB3
+1                                                 TS790JC
+2                                                 TS7CJCA10
+2                                                 TS754TTVT
+..........................................................................................................
+Junction
+post
+3"
+Junction
+block
+TOP VIEW
+Junction
+post
+3"
+Normal Inline
+Connection
+3" Inline
+Junction
+February 2015

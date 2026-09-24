@@ -1,0 +1,121 @@
+166                                                                                                                                                                                                            Answer Solutions Specification Guide
+Wiring and Cabling
+Special Requirements for Hardwired Solution
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Chicago electrical
+code requires the power
+distribution network to be
+hardwired on site. These
+installations require hard -
+wired powerkits.
+cSpecifying, page 482
+Tip: Any hardwired installa-
+tion can use the components
+of the hardwired powerkit.
+Order panel without power
+and order a hardwired
+power kit of the corre spond -
+ing width.
+cPage 483
+Connections
+Powerkit can be installed
+in panel base or at 12" 
+verti cal increments.
+Junction boxes are typi-
+cally mounted below the
+power tray; however, they
+can be mounted above
+when power is routed in a
+location other than the panel
+base. A bracket is included
+for mounting junction boxes
+above the powertray.
+When using a hard -
+wired solution with
+segmented skins, you
+may need to install junction
+boxes above the power tray
+to avoid interference with 
+the steel frame of the skin.
+Approximately 3" of clear -
+ance is required when
+mounting junction boxes
+above the power tray. Keep
+in mind the upper horizontal
+connecting bar location to
+ensure enough space for
+mounting junction boxes
+above.
+Tip: Don’t forget to discuss
+junction box location and skin
+configuration prior to electri -
+cian installing the power.
+Conduits are supplied by
+the electrician.
+Receptacles are supplied
+by the electrician.
+Junction boxes are
+included in hardwired
+powerkit.
+Receptacle openings
+are knocked out in the field.
+Power tray is included in
+hardwired powerkit to secure
+junction boxes and to attach
+to panel frame.
+When power is placed
+in a non-base application,
+skins must be field-cut.
+Technology skins cannot be
+used with hardwired 
+solution.
+Tip: Hardwire powerkit appli-
+cations in the base location
+require a hardwire base trim
+for correct alignment of
+power and data receptacles.
+Number of Junction Boxes is Determined by Panel Width
+Panel width           Junction boxes
+24"                                1
+30"                                2
+36"                                2
+42"                                2
+48"                                2
+60"                                2
+72"                                2
+Wiring & Cabling
+Junction box can accom -
+modate two receptacles
+back to back. Electrician can
+use Leviton 5325 or equiv -
+alent receptacles.
+30"W (only) panel when
+hardwire kit is installed in
+base, only one junction box
+can be used (installer to
+decide which position to uti-
+lize). Two junction boxes can
+be used in all other panel
+locations.
+When installing a hard-
+wire kit above the
+base in a 30"W panel,
+there is an additional set of
+holes on the tray that will
+need to be utilized to allow
+two hardwired boxes to be
+accommodated.
+Electrician must make all
+hardwire connections in the
+field. Electrician must supply
+all conduits, wires, nuts, and
+connection to building power
+supply.
+Order Chicago-version
+of shelf lights. These
+lights have a built-in circuit
+breaker.
+..........................................................................
+February 2015

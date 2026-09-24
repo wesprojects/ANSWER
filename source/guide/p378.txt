@@ -1,0 +1,75 @@
+378                                                                                                                                                                                                            Answer Solutions Specification Guide
+A
+B
+C
+D
+Panels—Thin Trim
+Answer to c:scape X Junctions—Thin Trim
+Standard Includes                                      Required to Specify
+cNeed help?
+See c:scape
+Specification Guide
+• Junction
+• Inside corner light seals
+• Trim and junction cap: paint price group 1 
+• Aligners
+1 Style number
+2 Paint color number for trim and junction
+cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                      Trim
+Materials                • Paint price group 1                     No cost                                  Specify paint color number.
+                                  • Paint price group 2                     +$11                                      Specify paint color number.
+                                  • Paint price group 3                     +$21                                     Specify paint color number.
+Bracket                   • Desk-to-panel bracket                 +$35                                      Specify with desk-to-panel bracket.
+Specification Information
+DCorresponding
+        DStyle                                 DU.S.           
+dPanel
+dNumber                             dBase         
+dHeight
+d
+dPrice           
+d
+d
+d                     
+dA
+B
+C
+D
+d
+d                                                   
+24"
+30"
+24"
+30"
+TS72323TCXJCQ
+$464
+24"
+42"
+24"
+42"
+TS72424TCXJCQ
+$464
+24"
+48"
+24"
+48"
+TS72828TCXJCQ
+$464
+24"
+54"
+24"
+54"
+TS72525TCXJCQ
+$464
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

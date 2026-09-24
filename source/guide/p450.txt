@@ -1,0 +1,97 @@
+450                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Shared Components and Wiring and Cabling
+Wood Skin Sets
+                                                
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 115
+• Skin: wood veneer
+• Trim: paint
+• Attachment hardware
+1 Style number
+2 Wood veneer color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Wood skin sets should
+be selected when grain 
+pattern alignment of all seg-
+mented skins on a frame is
+desired.
+                            Options                   U.S. Price                   Required to Specify
+  Surface                • Premium wood 2                   Prices below and at right            Specify Premium wood 2 ﬁnish number.
+  Materials             • Premium wood 3                   Prices below and at right            Specify Premium wood 3 ﬁnish number.
+                               • Customiz stain                  No cost                                       Specify with Customiz stain.
+                                                                                                                       cSee Surface Materials Reference Manual.
+   Speciﬁcation Information
+DWidth   DStyle                     DU.S.      DOptions                                    
+d             dNumber                 dBase    d(Add $ to                                           
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+dPremium Wood
+d
+d
+d
+d
+d
+d
+d
+dWood 2
+dWood 3
+42"H Wood Skin Sets
+Set A = One 12"H Skin and One 24"H Skin
+24"             TS74224AWSS       $  795       +$104       +$364
+30"             TS74230AWSS       $  847       +$104       +$364
+36"             TS74236AWSS       $  903       +$142       +$498
+42"             TS74242AWSS       $  958       +$142       +$498
+48"             TS74248AWSS       $1018       +$142       +$498
+d
+d
+d
+d
+d
+48"H Wood Skin Sets
+Set A = One 12"H Skin and One 30"H Skin
+24"             TS74824AWSS       $  873       +$142       +$498
+30"             TS74830AWSS       $  926       +$142       +$498
+36"             TS74836AWSS       $  982       +$142       +$498
+42"             TS74842AWSS       $1041       +$185       +$647
+48"             TS74848AWSS       $1115       +$185       +$647
+d
+d
+d
+d
+d
+Set B = One 18"H Skin and One 24"H Skin
+24"             TS74824BWSS       $  873       +$147       +$514
+30"             TS74830BWSS       $  926       +$147       +$514
+36"             TS74836BWSS       $  982       +$147       +$514
+42"             TS74842BWSS       $1041       +$192       +$671
+48"             TS74848BWSS       $1115       +$192       +$671
+d
+d
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+12"H
+24"H
+12"H
+30"H
+18"H
+24"H
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

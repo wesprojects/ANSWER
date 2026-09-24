@@ -1,0 +1,36 @@
+130                                                                                                                                                                                                            Answer Solutions Specification Guide
+Shared Components
+Stability Guidelines, continued
+...............................................................................................................................................
+...............................................................................................................................................
+Guidelines for Support Brackets
+If A is between 8' and 10', side support brackets are 
+If A is greater than 10', side support brackets are required at both ends of
+required at each end of the run. Both ends of loaded panel 
+each worksurface. Full height perpendicular panels need to support the loaded 
+run must be supported by perpendicular panels.
+panels every 8'.
+Note: Panel fin on one side can be replaced by a tower with 
+a tall storage-to-panel connector as long as the tower is not 
+outside the panel run and the overhead bin or shelf is not 
+spanning over or positioned over the tower.
+10' max.
+24" min.
+24" min.
+A
+42" min.
+42" min.
+A
+8' max.
+24" min.
+8' max.
+Guidelines for “U” Configurations
+If A is 12' or less, no floor support is required mid-run.
+If A is between 12' and 16', some type of floor support is required 
+Maximum 8' of shelves or bins per panel run.
+mid-run. Maximum 8' of shelves or bins per panel run.
+12' max.
+A
+16' max.
+A
+February 2015

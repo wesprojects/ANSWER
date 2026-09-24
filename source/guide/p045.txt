@@ -1,0 +1,46 @@
+Answer Solutions Specification Guide                                                                               cReconfiguring with Answer — General Guidelines, continued  45
+Reconfiguring with Answer –
+General Guidelines
+Panels—Thin Trim
+Junctions Manufactured Before and After 10/10/11, continued
+Corner Junctions – Change-of-Height, continued
+    Oval and Square Trim
+  • Can accept junctions manufactured before 10/10/11 (purpose built configuration).
+  • Can accept junctions manufactured after 10/10/11 (universal junction configuration).
+  • Junction posts will go up to the highest panel height
+        Example:
+  1   42/54" L-junction
+           • Two junction posts at 54"H
+End-of-Run Junctions
+Thin Trim
+• Thin trim requires Thin end-of-run junctions
+• When reconfiguring from Square or Oval trim to Thin trim, all end-of-run junctions must be changed to Thin end-of-run junctions
+Square and Oval Trim
+• The end-of-run junction utilized in a Square or Oval application is the same as the inline junction.
+• Square and Oval applications cannot use Thin end-of-run junctions.
+Stacking Junctions
+• Stacking junctions manufactured before 10/10/11 can be stacked on purpose built junctions (before 10/10/11) or universal junctions (after 10/10/11).
+• Stacking junctions manufactured after 10/10/11 can be stacked on purpose built junctions (before 10/10/11) or universal junctions (after 10/10/11).
+Trims
+Trim style must be consistent across the entire application.  Trim styles cannot be mixed and matched across applications.
+Example:  
+1
+Square top caps cannot be used with Thin vertical trims. The entire application must be Thin trim (top caps and vertical trim) OR the entire application 
+must be Square trim (top caps and vertical trim).
+New Junctions (after 10/10/11) to New Junctions 
+End-of-run Junctions  
+• End-of-run junction includes junction post plus an end-of-run trim and aligner.
+  – When reconfiguring a junction post can be used at an end-of-run or as a post to make up a 90° or 120° corner.
+  – End-of-run junctions are not the same as inline junctions.
+Inline junctions
+• End-of-run junction includes a junction and an inline aligner.
+  – Inline junctions cannot be used at an end-of-run with Thin trim.  
+  – Inline junctions can be used at an end-of-run with Square or Oval trim.
+  – Inline junctions cannot be used at a corner junction.
+Corner Junctions
+• Universal corner junctions are made up of blocks and posts.
+• Universal corner junctions can be changed from one configuration (i.e. L) to another configuration (i.e. T, X, V, or Y) by adding blocks and/or junction posts.
+• When reconfiguring corner junctions, additional corner trim and aligner pieces will need to be ordered.
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

@@ -1,0 +1,68 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            611
+Universal Storage
+Universal Fixed to Freestanding Pedestal Conversion Kits
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 273
+• 1⁄8"H steel top: all paint price groups
+• Counterweight package
+• Safety interlock system conversion components
+• Installation hardware
+1 Style number
+2 Paint color number for top
+cSee Surface Materials, page 708.
+Specification Information
+DDimensions        DStyle                     DU.S.
+dD         H             dNumber                 dPrice
+d                           d                             d
+For 27"H Proud Steel or Proud Wood Front Pedestals
+183⁄8"      27"              RPXCK2718P           $186
+231⁄2"      27"              RPXCK2724P           $206
+291⁄2"      27"              RPXCK2730P           $227
+d
+d
+d
+For 27"H Flush Steel Front Pedestals
+171⁄2"      27"              RPXCK2718F           $186
+225⁄8"      27"              RPXCK2724F           $206
+285⁄8"      27"              RPXCK2730F           $227
+d
+d
+d
+For 251/2"H Proud Steel or Proud Wood Front Pedestals
+183⁄8"      251⁄2"           RPXCK2518P           $186
+231⁄2"      251⁄2"           RPXCK2524P           $206
+291⁄2"      251⁄2"           RPXCK2530P           $227
+d
+d
+d
+For 251/2"H Flush Steel Front Pedestals
+171⁄2 "     251⁄2"           RPXCK2518F           $186
+225⁄8 "     251⁄2"           RPXCK2524F           $206
+285⁄8 "     251⁄2"           RPXCK2530F           $227
+d
+d
+d
+Tip: Flush and proud front
+pedestals require different
+conversion kits. Be sure to
+order the correct style
+number for your application.
+Tip: When converting a
+file/file pedestal with individ-
+ual drawer locks, an inter-
+locking bar is required to
+provide stability to unit.
+Order 1043922SR through
+Service Parts.
+Universal Fixed to
+Freestanding Pedestal
+Conversion Kits
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Storage
+February 2015

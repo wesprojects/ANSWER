@@ -1,0 +1,185 @@
+726                                                                                                                                                                                                  Answer Solutions Specification Guide
+Lock and Keying for Universal Storage Products
+...............................................................................................................................................
+...............................................................................................................................................
+Factory-Installed Keying
+All locking products
+are standard with factory-
+installed, keyed-random
+locks. Consecutive, specif-
+ic, and random keying are
+available as field-installed
+options. 
+Exception: Individual lock-
+ing drawers are only avail-
+able with field-installed
+locks.
+Lock face ring
+Lock cylinder
+Locks consist of a factory-
+or field-installed lock cylin-
+der and a factory-installed
+lock face ring.
+Two types of locks are
+available—the standard
+keying system (FR series)
+and the master keying 
+system (XF series). All the
+locks in the XF series can 
+be opened with a single
+master key.
+Factory-installed locks
+are always key random
+(standard) or master key
+random (option). Key ran-
+dom means that the locks
+will be assigned arbitrarily
+at the factory with key num-
+bers ranging from FR305 to
+FR454 (Master keying num-
+bers: XF1001 to XF1150).
+All locks within a unit will be
+keyed alike.
+XF
+Master
+Key
+FR305
+Key Random
+or
+FR421
+FR305
+XF1011
+XF1042
+XF1011
+Field-Installed Keying
+Field-installed locks
+are only available on prod-
+ucts that include factory-
+installed lock mechanisms. 
+Specify “plug” when
+specifying furniture, and 
+the product will ship with a
+plastic plug in place of the
+lock cylinder.
+Front-removable lock
+cylinders must be speci-
+fied separately. You must
+also order a special lock
+tool to install or remove
+lock cylinders in the field. 
+Tip: Lock tools are
+reusable. You do not need
+to order additional lock
+tools with every furniture
+order.
+Lock cylinders will be
+shipped separately so that
+you can install the locks
+when you are ready.
+Key specific means that
+you can specify any key
+number from FR305 to
+FR454 (Master keying num-
+bers: XF1001 to XF1150).
+This option can be used to
+key all the furniture units in
+a workstation or department
+the same.
+Tip: Designate the quantity
+per key number in your
+specification.
+cSee example at right.
+Key consecutive means
+that you can specify lock
+numbers in a consecutive
+order to ensure that no
+two locks have the same
+key number until the key
+se quence repeats. You
+must select a beginning key
+num ber from FR305 to
+FR454 (Master keying num-
+bers: XF1001 to XF1150).
+Example of a typical lock
+cylinder specification is
+shown below:
+10  LOCK9201FR FR320
+5  LOCK9201FR FR350
+15  LOCK9201XF XF1100
+30  Total
+1  877102003SR standard
+      lock tool
+1  877102002SR master 
+      lock tool
+Tip: Random keying can
+mean that different furniture
+units will have the same
+key number. If you must
+have all locks keyed differ-
+ently, you should specify
+field-installed, key specific
+or key consecutive lock
+cylinders.
+cSee below.
+   Required to Specify
+  Master key          +$23        Specify with master key 
+  random                                random.
+  
+Key random means that
+the locks will be assigned
+arbitrarily at the factory with
+key numbers ranging from
+FR305 to FR454 (Master
+keying numbers: XF1001 
+to XF1150). 
+Tip: Random keying can
+mean that different furniture
+units will have the same
+key number. If you must
+have all locks keyed differ-
+ently, you should specify
+key specific or key consec-
+utive lock cylinders.
+Three keying choices
+are available for field instal-
+lation—random (standard),
+specific, and consecutive.
+All three are also available
+with master keying, which
+means that all locks can be
+opened with a single 
+master key.
+XF
+Master
+Key
+FR350
+Key Specific
+or
+FR350
+FR350
+XF1020
+XF1020
+XF1020
+XF
+Master
+Key
+FR305
+Key Random
+or
+FR421
+FR305
+XF1011
+XF1042
+XF1011
+XF
+Master
+Key
+FR350
+Key Consecutive
+or
+FR351
+FR352
+XF1020
+XF1021
+XF1022
+February 2015

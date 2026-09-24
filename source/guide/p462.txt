@@ -1,0 +1,72 @@
+Technology Skin Cover Fillers
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 117
+• Technology skin cover filler: paint
+1 Style number
+2 Paint color number for filler
+cSee Surface Materials, page 708.
+Specification Information
+DStyle                DDescription 
+DU.S.
+dNumber            d
+dPrice
+d
+d
+d
+TS7TSCFS            Single cutout
+$5
+TS7TSCFD            Double cutout
+$5
+d
+d
+d
+Tip: Technology skin cover
+filler is required when 
+using a TS7TSCOVER tech-
+nology skin cover on skins
+manufactured before
+November 21, 2011.
+Tip: This technology skin
+cover filler is also included
+as standard with slatwall
+technology skins and can be
+used for replacement part
+needs on that skin as well.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 117
+• Technology skin cover: plastic
+1 Style number
+2 Plastic color number for technology skin
+cover:
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6654 Sand
+6697 Fog
+Specification Information
+DStyle                DU.S.
+dNumber            dPrice
+d
+d
+TS7TSCOVER
+$10
+d
+d
+Shared Components and Wiring and Cabling
+Technology Skin Cover and Fillers
+Tip: Receptacle filler to close
+unused openings is avail-
+able through Service Parts
+(891700204MP, package of
+20).
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+462                                                                                                                                                                                                            Answer Solutions Specification Guide
+Technology Skin Cover
+February 2015

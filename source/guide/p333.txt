@@ -1,0 +1,159 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            333
+...............................................................................................................................................
+Keyhole slots in housing
+of fixture allow shelf light to
+be mounted beneath wood or
+laminate overhead storage
+bins and shelves using
+screws provided. Keyhole
+slots are also used to mount
+lights to overhead storage
+bins and shelves manufac-
+tured prior to August 1991.
+Standard shelf competi-
+tive mounting package
+provides attachment hard-
+ware to mount Steelcase
+shelf lights on all major com-
+petitive furniture lines.
+Package includes screws and
+installation instructions.
+Shelf light can be mounted
+anywhere from side to side
+beneath over-head storage
+bin or shelf. The cord length
+is the only limitation.
+Width     Lamp       Lamp               Replacement
+              width       wattage          lamps
+245⁄8"        24"              17 watts               F17T8-TL735
+365⁄8"        36"              25 watts               F25T8-TL735
+485⁄8"        48"              32 watts               F32T8-TL735 
+Wiring & Cabling
+Power drawn is approxi-
+mately 1⁄2 amp.
+Daisy chaining permits
+interconnecting up to six
+Standard shelf lights from a
+single power outlet. Utility2
+light daisy chaining allows
+up to 10 fixtures.
+cPage 340
+Starter cord for Standard
+and starter light for Utility2
+powers first light in a daisy
+chain and allows you to con-
+vert any daisy chain light for
+independent operation.
+Electronic high-power-
+factor ballast that is
+roughly 45% more efficient
+than a normal-power-factor
+ballast is available on
+Standard and Utility2.
+Normal-power-factor
+electronic ballasts are
+available on Utility2 shelf
+lights.
+Batwing lens is available
+as an option on Utility2 shelf
+lights for applications where
+moderate improvement to
+light distribution is needed.
+Surface Materials
+Housing
+• Black paint (standard)
+• Paint colors (option)
+Reflector
+• White on Standard and 
+  silver on Utility2 shelf 
+  lights
+Cord
+• Black plastic only
+End cap cord manager
+• Black plastic only
+.........................................................................................................................
+Lighting
+Photometric Data
+Standard
+Initial horizontal footcandles for LSM24K
+Worksurface rear
+                                                                                    
+3"                88             85             78             67             55             42
+31
+22
+6"                93             90             82             70             57             43
+31
+23
+9"                91             88             81             69             56             41
+30
+21
+12"              82             80             72             62             50             38
+28
+20
+15"              69             67             61             53             43             33
+24
+18
+18"              56             55             49             43             36             28
+21
+16
+21"              41             40             37             32             27             22
+17
+13
+24"              29             28             26             23             19             16
+13
+10
+27"              19             19             18             16             14             12
+10
+8
+30"              13             13             12             11             10             9
+7
+6
+                    CL            3"             6"             9"             12"           15"
+18"
+21"
+Worksurface front
+Utility2
+Initial horizontal footcandles for LSB24K2
+Worksurface rear
+                                                                                    
+3"                113           109           98             84             65             49
+36
+25
+6"                129           123           112           93             73             53
+37
+26
+9"                135           129           117           96             75             53
+38
+26
+12"              127           119           107           89             68             49
+36
+25
+15"              104           99             89             74             58             43
+32
+22
+18"              78             76             68             56             44             34
+26
+19
+21"              55             51             48             41             34             26
+21
+15
+24"              36             36             31             29             24             18
+15
+11
+27"              25             24             21             19             17             14
+11
+9
+30"              17             16             15             13             11             10
+8
+7
+                    CL            3"             6"             9"             12"           15"
+18"
+21"
+Worksurface front
+                                                                                  
+...............................................................................................................................................
+...............................................................................................................................................
+Shelf Lights
+Lighting
+...............................................................................................................................................
+February 2015

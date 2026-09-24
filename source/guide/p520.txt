@@ -1,0 +1,80 @@
+520                                                                                                                                                                                                   Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Corner, Straight-Front Worksurfaces
+High-Pressure Laminate
+                                        
+Options                       U.S. Price               Required to Specify
+  Surface                  High-Pressure Laminate worksurfaces
+  Materials               • Open Line laminate                   +$65                                 cSee Surface Materials Reference Manual.
+                                                                                          plus cost of laminate
+  Scallops                 • Omit scallops                            No cost                                Specify omit scallops.
+  Related                • Panel-mounted Universal Systems worksurface supports  cPage 545
+  Products                • Legs and supports for Universal Systems Worksurfaces    cPage 552
+                                   • Worksurface screens                                                          cPage 586
+                                   • Worksurface power and communication components         cPage 555
+Speciﬁcation Information
+                                                      U.S. Base Prices
+                                                      High-Pressure Laminate
+                     
+          
+DDimensions                      DStyle           DPlastic        DPlastic       
+dA     B       C       D            dNumber       d3 mm           dP-Edge       
+d
+              d                    dEdge            d                   
+d                                         d                    d                    d
+d                                         d                    dNo Sufﬁx     dSufﬁx P
+With 1/2" Cord Drop
+18"       18"       42"     42"          UC114242     $366                $420
+183⁄8"   231⁄2"   411⁄2"  411⁄2"      UC124242    $402                $456
+231⁄2"   183⁄8"   411⁄2"  411⁄2"      UC214242    $402                 $456
+231⁄2"   231⁄2"   351⁄2"  351⁄2"      UC223636    $349                 $403
+231⁄2"   231⁄2"   411⁄2"  411⁄2"      UC224242    $381                 $435
+231⁄2"   231⁄2"   471⁄2"  471⁄2"      UC224848    $433                 $487
+231⁄2"   231⁄2"   591⁄2"  591⁄2"      UC226060    $801                 $908            
+291⁄2"   291⁄2"   411⁄2"  411⁄2"      UC334242    $419                 $473
+291⁄2"   291⁄2"   471⁄2"  471⁄2"      UC334848    $475                 $529            
+d
+d
+d
+d
+Tip: Supports must be spec-
+ified separately, including
+side support brackets for
+rear corner support in
+panel-mounted applications.
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 206
+• Worksurface: High-Pressure Laminate
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallops on back edges
+1 Style number with appropriate edge
+profile suffix
+P Laminate with plastic P-edge
+cSee edge profiles below.
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge on
+laminate worksurface
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+A
+B
+C
+D
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles, 
+add a suffix to the style 
+number. (For example,
+UC114242 becomes
+UC114242P for laminate 
+with P-edge profile.)
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

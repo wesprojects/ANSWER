@@ -1,0 +1,43 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                            159
+Wiring & Cabling
+Special Requirements 
+for New York City
+...............................................................................................................................................
+...............................................................................................................................................
+New York City electri-
+cal code requires modular
+power components to be
+field installed by the electri-
+cian. Because Answer
+power components are
+always field installed, they
+are okay for use in New York.
+Order New York City power
+infeed of the width that cor -
+responds to the width of the
+panel it will be installed in.
+Tip: Remember that the
+panel with the New York
+City power infeed installed
+cannot accommodate any
+receptacles in the base
+because a powerkit cannot
+be installed. Install a power -
+kit higher in the panel to
+accommodate receptacles
+or use adjacent panels to
+install receptacles. 
+Modular connector
+on end of harness
+attaches to powerkit in
+adjacent panel.
+Junction box, included
+with infeed, allows electrician
+to make a hardwire connect -
+ion to the building power
+supply. Box covers opening
+in base cover.
+Conduits supplied by electrician.
+Wiring and Cabling
+Special Requirements for New York City
+February 2015

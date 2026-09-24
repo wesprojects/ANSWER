@@ -1,0 +1,89 @@
+164                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+...............................................................................................................................................
+In an in-line applica-
+tion extra length modu-
+lar harness is not required
+when a powerkit is in the
+bottom (not base) location in
+a panel with open base.
+In a corner application
+extra length modular
+harness is required when a
+powerkit is in the bottom (not
+base) location in a panel
+with open base trim. In this
+circumstance, the modular
+harness will need to be
+routed through the first large
+opening in the junction
+located above the powerkit.
+The modular harness cannot
+be routed through the foot
+area of the panel due to the
+open base trim. 
+Harnesses plug into con -
+nection points on the power -
+kit. Every powerkit has
+multiple connection points to
+allow branching of power.
+Modular harness may 
+be specified in a non-PVC 
+version.
+T-connection is formed
+by connecting two harnesses
+to a power block.
+Modular Harness
+cSpecifying, page 484
+Product Details
+Multipurpose power
+infeed is shielded to allow
+power and communication
+routing side by side.
+Available in 6', 12', and 24'
+lengths.
+Multipurpose power
+infeeds bring power into
+the panel and make a modu-
+lar connection to a powerkit. 
+Multipurpose power
+infeeds can be used with
+ceiling- and floor-access 
+lay-in utility packages and
+utility poles. Specify power
+harness separately.
+Multipurpose power
+infeeds may be specified
+in a non-PVC version. For
+those trying to gain the
+LEED Innovation in Design
+credit, non-PVC should be
+selected.
+Multipurpose Power
+Infeed
+cSpecifying, page 483
+X-connection is formed
+by connecting two harnesses
+to two successive power
+blocks.
+Modular harness may be 
+specified in a non-PVC 
+version. For those trying to
+gain the LEED Innovation in
+Design credit, non-PVC
+should be selected.
+Product Details
+Modular harnesses
+are avail able to connect
+powerkits at different
+heights. Available in 43" 
+and 80" lengths.
+Extra length modular
+harness is required when
+connecting two power kits
+located at different heights
+inside the panel in a corner
+or in-line application.
+Wiring and Cabling
+Distribution Products, continued
+February 2015

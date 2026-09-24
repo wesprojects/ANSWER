@@ -1,0 +1,64 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+486                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Consolidation Point Kit
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 160
+• Back panel: black paint
+• Mounting hardware
+• Two pairs of consolidation point mounting brackets: 
+black only
+• Two cable managers: black only
+Style number
+Speciﬁcation Information
+DStyle          DU.S.
+dNumber      dPrice
+d
+d
+TS7CPK        $337
+d
+d
+Grommets for Junction
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 169
+• Package of 25: black plastic only
+Style number
+Speciﬁcation Information
+DStyle               DU.S.
+dNumber           dPrice
+d
+d
+TS7JSLVE           $95
+d
+d
+Grommets for Vertical Junctions (manufactured prior to October 2011) and Horizontal Bars
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 169
+• Package of 25: black plastic
+Style number
+Speciﬁcation Information
+DStyle               DU.S.
+dNumber           dPrice
+d
+d
+TS7HSLVE          $95
+d
+d
+Tip: Grommets can be used
+on power trays and cable
+trays.
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+February 2015

@@ -1,0 +1,92 @@
+118                                                                                                                                                                                                            Answer Solutions Specification Guide
+...............................................................................................................................................
+Glass windows provide a
+visual space definition, yet
+allow light to pass through
+the workstation. They are
+available in single pane or
+double pane. Also available
+is a single pane kit that ships
+without glass and is used
+with custom glass, ordered
+separately.
+cSpecifying, page 464
+Safety glass is provided,
+unless custom glass window
+kit is ordered.
+Metal frame is painted
+and fully assembled.
+Actual Dimensions
+Depth       27⁄8" (single pane) and 311⁄64" (double pane)
+Width        2351⁄64", 2951⁄64", 3551⁄64", 4151⁄64", 4751⁄64",
+                 5951⁄64", 7151⁄64", 7751⁄64", 8351⁄64", 8951⁄64", and 9551⁄64"
+Height      129⁄32", 187⁄16", and 2441⁄64"
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Product Details
+Glass window is secured
+by brackets in the window
+frame.
+Wiring & Cabling
+Power and cables can-
+not be routed vertically or
+accessed in a glass window.
+Top channel of a win-
+dow used in the top
+position of a panel can
+accommodate lay-in cable
+routing beneath top cap.
+Surface Materials
+Frame
+• Paint
+Single-pane window
+• 6500 Clear Glass
+• 6530 Frosted Glass
+Double-pane window
+• 6530 Frosted Glass
+Application Topics
+12"H, 18"H, and 24"H
+glass windows can be
+placed in the top position of
+a panel by either using
+stacking junctions, or by low-
+ering the top horizontal con-
+necting bar (24" maximum)
+in the base panel.
+cSee Stability Guidelines
+for rules regarding stacking
+and glass windows, 
+page 124.
+Stacking
+junctions
+Glass
+window
+Base
+panel
+Base
+panel
+Glass
+window
+Lowered
+horizontal
+connecting
+bar
+A 24"H glass window
+installed in the top of a base
+panel cannot accommodate
+any windows stacked on top.
+Tackable acoustical skins
+and steel skins can be
+stacked.
+No more than two win-
+dows may be stacked on
+top of each other.
+Glass window cannot be
+used at the base of a panel.
+Hanging components
+cannot be hung in front of a
+double-pane window.
+Shared Components
+Glass Windows 
+February 2015

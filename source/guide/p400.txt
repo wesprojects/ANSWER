@@ -1,0 +1,87 @@
+Panels—Square and Oval Trim
+V and Y Base Panel Junctions—Square Trim                                            
+                            Options                       U.S. Price               Required to Specify
+  Surface                      Trim
+  Materials             • Paint price group 1                     No cost                                 Specify paint color number.
+                               • Paint price group 2                     +$  11                                    Specify paint color number.
+                                     • Paint price group 3                     +$  21                                   Specify paint color number.
+                                 V junction trim
+                                     • Fabric price group 1, 2, 3,          +$  80                                   Specify fabric color number for trim.
+                                        4, 5, or COM
+                                     • Fabric direction
+                                        –Horizontal application               No cost                                 Specify with horizontal application.
+                                        –(standard)
+                                        –Vertical application                   No cost                                 Specify with vertical application.
+                                     • Wood on junctions with wood                                                   Specify wood color number for trim.
+                                        junction cap
+                                        –54"H panel height or shorter    +$185
+                                        –66"H panel height or taller        +$237
+                                     • Customiz stain on wood             No cost                                 Specify with Customiz stain.
+   Speciﬁcation Information
+                              V Base Panel Junctions         Y Base Panel Junctions
+                              with Square Trim                   with Square Trim
+                              
+                         
+DCorresponding   DStyle               DU.S.              DStyle               DU.S.
+dPanel                  dNumber           dBase             dNumber           dBase
+dHeight                d                       dPrice               d
+dPrice
+d                           d                       d                         d
+d
+Painted Junction Cap
+30"                              TS730SVPJ      $259                   TS730SYPJ      $259
+42"                              TS742SVPJ      $259                   TS742SYPJ      $259
+48"                              TS748SVPJ      $259                   TS748SYPJ      $259
+54"                              TS754SVPJ      $259                   TS754SYPJ      $259
+66"                              TS766SVPJ      $259                   TS766SYPJ      $259
+78"                              TS778SVPJ      $357                   TS778SYPJ      $357
+d
+d
+d
+d
+d
+Wood Junction Cap
+30"                              TS730SVPJW   $305                   TS730SYPJW   $305
+42"                              TS742SVPJW   $305                   TS742SYPJW   $305
+48"                              TS742SVPJW   $305                   TS748SYPJW   $305
+54"                              TS754SVPJW   $305                   TS754SYPJW   $305
+66"                              TS766SVPJW   $305                   TS766SYPJW   $305
+78"                              TS778SVPJW   $405                   TS778SYPJW   $405
+d
+d
+d
+d
+d
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 76
+• Junction
+• Trim on V junction: paint price group 1
+• Junction cap on V and Y junction: paint or wood
+• Aligners
+1 Style number
+2 Paint color number for trim 
+3 Paint or wood color number for
+junction cap
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+400                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Tip: Painted trim is standard,
+and fabric trim is optional,
+on all base panel junctions.
+Wood trim is available as an
+option only on base panel
+junctions with wood junction
+caps.
+Tip: 78"H fabric-covered
+junctions allow fabric in the
+vertical application only.
+Tip: For further information
+about fabric direction,
+csee page 713.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

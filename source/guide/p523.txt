@@ -1,0 +1,79 @@
+Universal Systems Worksurfaces
+                                        
+A
+D
+C
+B
+C
+B
+A
+D
+Tip: To specify 3 mm edge
+profile, no suffix is required.
+For all other edge profiles,
+add a suffix to the style num-
+ber. (For example, UE2202L
+becomes UE2202LP for 
+laminate with P-edge
+profile.)
+Answer Solutions Specification Guide                                                                                                                                                                                                   523
+Extended Corner, Straight-
+Front Worksurfaces
+Speciﬁcation Information
+                                                      U.S. Base Prices
+                                                      High-Pressure Laminate
+           
+      
+DDimensions                      DStyle           DPlastic           DPlastic      
+dA       B        C       D         dNumber       d3 mm             dP-Edge      
+d
+            d                    dEdge              d                  
+d                                         d                    d                      d
+d                                         d                    dNo Sufﬁx       dSufﬁx P
+Left-Hand With 1/2" Cord Drop
+231⁄2"   231⁄2"   591⁄2"  411⁄2"      UE2202L      $662                   $756             
+231⁄2"   231⁄2"   651⁄2"  411⁄2"      UE2262L      $723                   $817             
+231⁄2"   231⁄2"   711⁄2"  411⁄2"      UE2222L      $783                   $877             
+231⁄2"   231⁄2"   591⁄2"  471⁄2"      UE2208L      $680                   $774             
+231⁄2"   231⁄2"   651⁄2"  471⁄2"      UE2268L      $737                   $831             
+231⁄2"   231⁄2"   711⁄2"  471⁄2"      UE2228L      $796                   $890             
+231⁄2"   291⁄2"   591⁄2"  471⁄2"      UE2308L      $742                   $836             
+231⁄2"   291⁄2"   651⁄2"  471⁄2"      UE2368L      $801                   $895             
+231⁄2"   291⁄2"   711⁄2"  471⁄2"      UE2328L      $865                   $959             
+291⁄2"   231⁄2"   591⁄2"  471⁄2"      UE3208L      $742                   $836             
+291⁄2"   231⁄2"   651⁄2"  471⁄2"      UE3268L      $801                   $895             
+291⁄2"   231⁄2"   711⁄2"  471⁄2"      UE3228L      $865                   $959             
+291⁄2"   291⁄2"   591⁄2"  471⁄2"      UE3308L      $776                   $870             
+291⁄2"   291⁄2"   651⁄2"  471⁄2"      UE3368L      $839                   $933             
+291⁄2"   291⁄2"   711⁄2"  471⁄2"      UE3328L      $898                   $992             
+d
+d
+d
+d
+Right-Hand With 1/2" Cord Drop
+231⁄2 "  231⁄2"   411⁄2"  591⁄2"      UE2220R      $662                   $756             
+231⁄2 "  231⁄2"   411⁄2"  651⁄2"      UE2226R      $723                   $817             
+231⁄2 "  231⁄2"   411⁄2"  711⁄2"      UE2222R      $783                   $877
+231⁄2 "  231⁄2"   471⁄2"  591⁄2"      UE2280R      $680                   $774             
+231⁄2 "  231⁄2"   471⁄2"  651⁄2"      UE2286R      $737                   $831             
+231⁄2 "  231⁄2"   471⁄2"  711⁄2"      UE2282R      $796                   $890             
+231⁄2 "  291⁄2"   471⁄2"  591⁄2"      UE2380R      $742                   $836             
+231⁄2 "  291⁄2"   471⁄2"  651⁄2"      UE2386R      $801                   $895             
+231⁄2 "  291⁄2"   471⁄2"  711⁄2"      UE2382R      $865                   $959             
+291⁄2 "  231⁄2"   471⁄2"  591⁄2"      UE3280R      $742                   $836             
+291⁄2 "  231⁄2"   471⁄2"  651⁄2"      UE3286R      $801                   $895             
+291⁄2 "  231⁄2"   471⁄2"  711⁄2"      UE3282R      $865                   $959             
+291⁄2 "  291⁄2"   471⁄2"  591⁄2"      UE3380R      $776                   $870             
+291⁄2 "  291⁄2"   471⁄2"  651⁄2"      UE3386R      $839                   $933             
+291⁄2 "  291⁄2"   471⁄2"  711⁄2"      UE3382R      $898                   $992             
+d
+d
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems
+Worksurfaces
+February 2015

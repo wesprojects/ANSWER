@@ -1,0 +1,65 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            569
+Universal Tables
+                                                                                                                     
+Transition Tables
+A
+B
+C
+Tip: To specify 3 mm edge
+proﬁle, no sufﬁx is required.
+For other edge proﬁles, add
+sufﬁx to the style number.
+(For example, BZC302460
+becomes BZC302460SW for
+wood square edge proﬁle.)
+A
+B
+C
+Speciﬁcation Information
+                                      U.S. Base Prices
+                                      High-Pressure 
+                                      Laminate                   Wood
+                                 
+       
+   
+                             
+DDimensions      DStyle             DPlastic      DPlastic  DWood           DOption
+dA   B      C        dNumber        d3 mm        dP-Edge  dSquare        d(Add $ to
+d                         d                     dEdge         d              dEdge            dBase Price)        
+d                              d                         d                     d                 d                        d                           
+d
+d
+dNo Sufﬁx
+dSufﬁx
+dSufﬁx
+dFull-Fill
+d                         d                     d
+dP
+dSW               dFinish
+Left-Hand Tables
+30"   24"    593/4"     BZC302460   $627            $738          $1395               +$51
+30"   24"    653/4"     BZC302466   $656            $767          $1435               +$53
+30"   24"    713/4"     BZC302472   $682            $793          $1470               +$55
+30"   24"    773/4"     BZC302478   $700            $820          $1502               +$57
+36"   30"    593/4"     BZC363060   $700            $820          $1502               +$64
+36"   30"    653/4"     BZC363066   $727            $847          $1538               +$57
+36"   30"    713/4"     BZC363072   $746            $877          $1571               +$58
+36"   30"    773/4"     BZC363078   $776            $907          $1603               +$60
+d                              d                         d                     d                 d                        d                 
+Right-Hand Tables
+24"   30"    593/4"     BZC243060   $627            $738          $1395               +$51
+24"   30"    653/4"     BZC243066   $656            $767          $1435               +$53
+24"   30"    713/4"     BZC243072   $682            $793          $1470               +$55
+24"   30"    773/4"     BZC243078   $700            $820          $1502               +$57
+30"   36"    593/4"     BZC303660   $700            $820          $1502               +$64
+30"   36"    653/4"     BZC303666   $727            $847          $1538               +$57
+30"   36"    713/4"     BZC303672   $746            $877          $1571               +$58
+30"   36"    773/4"     BZC303678   $776            $907          $1603               +$60
+d                              d                         d                     d                 d                        d                 
+           
+Universal Tables
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

@@ -1,0 +1,64 @@
+Storage Tops, Shelves, and Accessories
+Storage Accessories
+Answer Solutions Specification Guide                                                                                                                                                                                                          677
+Storage
+Accessories
+                            Options                       U.S. Price               Required to Specify
+  Surface                • Paint price group 1                     No cost                                 Specify paint color number.
+  Materials                • Paint price group 2                     +$28                                     Specify paint color number.
+                               • Paint price group 3                     +$47                                   
+Specify paint color number.
+   Specification Information
+DDepth     DStyle          DU.S.
+d               dNumber      dBase
+d
+d
+dPrice
+d               d
+d
+For Lateral Files with Flush Steel Fronts
+24"                ULFF24F       $49
+30"                ULFF30F       $49
+  d                  d                      d
+For Lateral Files with Proud Fronts
+24"                ULFF24P      $49
+30"                ULFF30P      $49
+  d                  d                      d
+Tip: Order filler which
+matches nominal worksur-
+face depth.
+Tip: 24"D filler is used with
+18"D storage. 30"D filler is
+used with 18"D or 24"D 
+storage.
+                            Standard Includes                                      Required to Specify
+• Filler: paint
+1 Style number
+2 Paint color number
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Underworksurface Lateral File Fillers
+Attachment Cable
+Standard Includes                                      Required to Specify
+• Attachment cable
+• Package of 1 or 25
+Style number
+Specification Information
+DStyle                           DU.S.
+dNumber                       dPrice
+d                                           d
+PAB12 (package of 1)        $  16
+PAB12M (package of 25)    $299
+d
+d
+Tip: For use with 
+underworksurface lateral
+files.
+cNeed help?
+See Storage
+Specification Guide.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

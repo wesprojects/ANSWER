@@ -1,0 +1,32 @@
+Answer Solutions Specification Guide                                                                                                                                                                                             
+713
+Surface Materials
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+The standard application direction of
+fabric on Answer panels, skins, and Hutch kit
+tackboard is warp horizontal. Standard Steelcase
+fabrics were designed for this application 
+direction.
+The optional application direction of
+fabrics on Answer panels, skins, and Hutch kit
+tackboard is warp vertical. This is most com-
+monly used on COMs designed for warp vertical
+application.
+For more information about the warp
+direction of fabrics, see the Surface
+Materials Reference Manual.
+Warp Vertical
+66" Fabric
+Width
+Warp Direction
+66" Fabric
+Width
+Warp Direction
+Warp Horizontal
+Specification Guidelines for Directional Fabrics
+Specification Guidelines for
+Directional Fabrics
+February 2015

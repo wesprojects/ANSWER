@@ -1,0 +1,42 @@
+484                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Modular Harnesses
+                            Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 164
+• Conduit with two modular connectors: black
+Style number
+Speciﬁcation Information
+                                                                        Non-PVC
+DLength     DStyle                    DU.S.                              DLength       DStyle                       DU.S.
+d                dNumber               dPrice                            d
+dNumber                   dPrice
+d                   d                                  d
+d
+d                                      d
+4-Circuit, 3+1 Wiring Schematic                   4-Circuit, 3+1 Wiring Schematic
+43"              TS743MHX            $142                                    43"                 TS743MHXN        $153
+80"                 TS780MHX            $190                                    80"                    TS780MHXN        $200
+d                   d                                  d
+d
+d                                      d
+4-Circuit, 2+2 Wiring Schematic                   4-Circuit, 2+2 Wiring Schematic
+43"                 TS743MHY            $142                                    43"                    TS743MHYN        $153
+80"                 TS780MHY            $190                                    80"                    TS780MHYN        $200
+d                   d                                  d
+d
+d                                      d
+3-Circuit, Separate Neutrals                         3-Circuit, Separate Neutrals
+(3SN) Wiring Schematic                                 (3SN) Wiring Schematic
+43"                 TS743MHZ            $142                                    43"                    TS743MHZN        $153
+80"                 TS780MHZ            $190                                    80"                    TS780MHZN        $200
+d                   d                                  d
+d
+d                                      d
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+February 2015

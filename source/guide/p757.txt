@@ -1,0 +1,121 @@
+Answer Solutions Specification Guide                                                                                                                                 cStyle Number Index, continued  757
+Style Number Index
+Resources
+TS7PK24Y                 475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK24YN              475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK24Z                 475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK24ZN              475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK30X                 475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK30XN              475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK30Y                 475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK30YN              475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK30Z                 475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK30ZN              475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK36X                 475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK36XN              475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK36Y                 475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK36YN              475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK36Z                 475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK36ZN              475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK42X                 475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK42XN              475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK42Y                 475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK42YN              475    4-Circ, 2+2 Wrg, Pwrkit
+TS7PK42Z                 475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK42ZN              475    3-Circ, 3SN Wrg, Pwrkit
+TS7PK48X                 475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK48XN              475    4-Circ, 3+1 Wrg, Pwrkit
+TS7PK48Y                 475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK48YN              475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK48Z                 475    3-Circ, 3SN Wiring, Pwrkit
+TS7PK48ZN              475    3-Circ, 3SN Wiring, Pwrkit
+TS7PK60X                 475    4-Circ, 3+1 Wiring, Pwrkit
+TS7PK60XN              475    4-Circ, 3+1 Wiring, Pwrkit
+TS7PK60Y                 475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK60YN              475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK60Z                 475    3-Circ, 3SN Wiring, Pwrkit
+TS7PK60ZN              475    3-Circ, 3SN Wiring, Pwrkit
+TS7PK72X                 475    4-Circ, 3+1 Wiring, Pwrkit
+TS7PK72XN              475    4-Circ, 3+1 Wiring, Pwrkit
+TS7PK72Y                 475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK72YN              475    4-Circ, 2+2 Wiring, Pwrkit
+TS7PK72Z                 475    3-Circ, 3SN Wiring, Pwrkit
+TS7PK72ZN              475    3-Circ, 3SN Wiring, Pwrkit
+TS7PT18X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT18XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT18Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT18YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT18Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT18ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT24X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT24XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT24Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT24YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT24Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT24ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT30X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT30XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT30Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT30YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT30Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT30ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT36X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT36XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT36Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT36YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT36Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT36ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT42X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT42XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT42Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT42YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT42Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT42ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT48X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT48XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT48Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT48YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT48Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT48ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT60X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT60XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT60Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT60YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT60Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT60ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PT72X                  476    4-Circ, 3+1, P-T Pwrkit
+TS7PT72XN               476    4-Circ, 3+1, P-T Pwrkit
+TS7PT72Y                  476    4-Circ, 2+2, P-T Pwrkit
+TS7PT72YN               476    4-Circ, 2+2, P-T Pwrkit
+TS7PT72Z                  476    3-Circ, 3SN, P-T Pwrkit
+TS7PT72ZN               476    3-Circ, 3SN, P-T Pwrkit
+TS7PVWM                  699    Vertical Wire Mgr
+TS7SB                 360, 403    Jct Stabilizer Bracket
+TS7SBNJ           360, 403    Jct Stabilizer Bracket
+TS7STDIV                  624    Dividers
+TS7STLS1                  467    Top Cap Lightseal
+TS7STLS10               467    Top Cap Lightseal
+TS7SWS                     467    Spanning Win In-Line Sup  
+TS7TFGRC                 386    Frameless Glass
+TS7TIEPLATE           546    Univ Tie Plates
+TS7TJUP                    364    L, T, or X Jct Util Pole
+TS7TSCFD                 462    Tech Skin Cover Filler
+TS7TSCFS                 462    Tech Skin Cover Filler
+TS7TSCOVER           462    Tech Skin Cover
+TS7UFPLATE            479    Face Plate
+TS7WKSPT                546    Univ Reinforcing Chan
+TS7WKSPT39           546    Univ Reinforcing Chan
+TS7WKSPT72           546    Univ Reinforcing Chan
+TS7WWM                    560    Univ WS Wire Mgr
+TSAEGROM               504    Grommet Pkg
+TSAPDSA6636          469    Sliding Pnl Doors
+TSAPDSA6642          469    Sliding Pnl Doors
+TSAPDSA7836          469    Sliding Pnl Doors
+Style
+Number                Page   Description
+Style
+Number                Page   Description
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+February 2015

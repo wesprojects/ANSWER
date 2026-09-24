@@ -1,0 +1,88 @@
+Answer Solutions Speciﬁcation Guide                                                                                                                                                                                                            425
+Panels—Square and
+Oval Trim
+Panels—Square and Oval Trim
+Frameless Glass Screens—Square Trim
+                                                
+                        Options                            U.S. Price                Required to Specify
+Surface                      Top cap
+Materials                • Paint price group 1                     No cost                                   Specify paint color number.
+                                  • Paint price group 2                     +$11                                       Specify paint color number.
+                                  • Paint price group 3                     +$21                                       Specify paint color number.
+                                  • Wood                                              Prices below                           Specify with wood top cap and 
+                                                                                                                                             select wood color number.
+                                  • Customiz stain on wood                 No cost                                   Specify with Customiz stain.
+Change–              • Change–of–height at one end        +$  6                                       Specify with change–of–height, one 
+of–Height                  of top cap, slim                                                                               end slim.
+Top Cap
+Glass Screen       • Omit glass screen                           Prices below                           Specify with omit screen.
+                                  • Frosted glass                                  Prices below                           Specify with 6530 Frosted Tempered
+                                                                                                                                             Glass.
+ Speciﬁcation Information
+DWidth      DStyle                      DU.S.            DOptions           
+d               dNumber                  dBase          d(Add $ to              
+d
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+d
+d
+d
+dWood
+dOmit               dFrosted
+d
+d
+d
+dTop Cap
+dGlass             dGlass
+24"                TS71224SFG             $  411              +$183                    –$  84              +$  58
+30"                TS71230SFG             $  442              +$183                    –$  95              +$  76
+36"                TS71236SFG             $  475              +$183                    –$100              +$116
+42"                TS71242SFG             $  508              +$183                    –$105              +$170
+48"                TS71248SFG             $  536              +$183                    –$115              +$189
+60"                TS71260SFG             $  619              +$244                    –$126              +$244
+72"                TS71272SFG             $  690              +$244                    –$137              +$292
+78"                TS71278SFG             $  768              +$244                    –$148              +$307
+84"                TS71284SFG             $  846              +$244                    –$157              +$318
+90"                TS71290SFG             $  923              +$244                    –$167              +$350
+96"                TS71296SFG             $1000              +$244                    –$178              +$368
+d
+d
+d
+d
+d
+d
+Tip:  These screens are only
+available for use on panels
+with square trim. 
+Tip:  Remember to specify
+in-line top cap lightseals if
+frameless glass screen is
+spanning two or more 
+panels.
+cPage 467
+                            Standard Includes                                          Required to Specify
+cNeed help?
+Product details,
+page 94
+• Glass screen, 6500 Clear Glass
+• Two brackets – 24"-84" wide: paint
+• Three brackets – 90"-96" wide: paint
+• Two supports
+• Square proﬁle top cap with holes: paint
+1 Style Number
+2 Paint color number for brackets
+3 Paint color number for top cap
+4 Options, if selected (see below)
+cSee Surface Materials, page 708.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Frameless Glass Screens—
+Square Trim
+February 2015

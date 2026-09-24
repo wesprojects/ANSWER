@@ -1,0 +1,95 @@
+692                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Lighting
+Utility2 Shelf Lights
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 332
+• Light housing with right-hand on-off switch: black paint
+• End cap cord managers: black plastic only
+• Cords:
+– 9' cord with three-prong plug on stand alone lights and 
+  daisy chain starter lights, if selected
+– 78" jumper cord on daisy chain lights, if selected
+• Prismatic lens
+• Angled reﬂector: silver only
+• T8 3500K lamp
+• Ballast
+• Universal and ﬂush mounting hardware package
+1 Style number
+2 Paint color number, if other than black
+(see options below)
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+  Surface                • Painted light housing other         +$23                                     Specify paint color number for housing.
+  Materials                   than black
+  Lens                         • Batwing lens                               +$31                                    Specify with batwing lens.
+Speciﬁcation Information
+DDimensions            DLamp        DStyle             DU.S.
+dD       W       H        dWattage    dNumber        dBase
+d
+d
+d
+dPrice
+d
+d
+d
+d
+Electronic High-Power-Factor Ballast
+67⁄8"     25"       15⁄8"       17 watts         LSB24K2         $262
+67⁄8"     37"       15⁄8"       25 watts         LSB36K2       $310
+67⁄8"     49"       15⁄8"       32 watts         LSB48K2       $344
+With Chicago Cord Including Circuit Breaker
+67⁄8"     25"       15⁄8"       17 watts         LSB24KC2      $323
+67⁄8"     37"       15⁄8"       25 watts         LSB36KC2     $371
+67⁄8"     49"       15⁄8"       32 watts         LSB48KC2     $405
+Daisy Chain Light with 78" Jumper Cord
+67⁄8"     25"       15⁄8"       17 watts         LSB24KD2      $296
+67⁄8"     37"       15⁄8"       25 watts         LSB36KD2     $344
+67⁄8"     49"       15⁄8"       32 watts         LSB48KD2     $378
+Daisy Chain Starter Light with 9' Starter Cord
+67⁄8"     25"       15⁄8"       17 watts         LSB24KS2      $296
+67⁄8"     37"       15⁄8"       25 watts         LSB36KS2     $344
+67⁄8"     49"       15⁄8"       32 watts         LSB48KS2     $378
+d
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+Tip: Daisy chaining is not
+allowed in Chicago. Local
+electrical codes vary, so you
+should consult a qualiﬁed
+electrical contractor or engi-
+neer for proper installation of
+all electrical equipment.
+Tip: Speciﬁcation guidelines
+can be found on the next
+page.
+Tip: Cord on stand alone
+light has right-hand exit.
+Cord on daisy chain light
+has off center exit. 
+Tip: Because shelf lights 
+are usually recessed, black 
+is the standard paint color.
+Paint colors other than black
+have an upcharge.
+Tip: If an optional paint color
+is selected for the housing,
+the electrical switches and
+end caps will remain black
+plastic.
+Tip: Minimum of two ﬁxtures
+for daisy chaining and maxi-
+mum of 10.
+Tip: When ordering starter
+light do not order a daisy
+chain starter cord.
+February 2015

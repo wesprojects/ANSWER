@@ -1,0 +1,116 @@
+Answer Solutions Specification Guide                                                                                                                                                                                                   549
+Universal Systems
+Worksurfaces
+FrameOne Legs and
+Supports for Universal
+Worksurfaces
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 220
+• Legs and intermediate support: paint
+• Attachment hardware
+1 Style number
+2 Paint color number for legs and support
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Options                       U.S. Price               Required to Specify
+Surface                     For legs
+Materials               • Paint price group 1                    No cost                                Specify paint color.
+                                 • Paint price group 2                    +$19 per leg                        Specify paint color.
+                                 • Paint price group 3                    +$32 per leg                        Specify paint color.
+                                      For intermediate support
+                                    • Paint price group 1                    No cost                                Specify paint color.
+                                   • Paint price group 2                    +$12 per leg                        Specify paint color.
+                                   • Paint price group 3                    +$20 per leg                        Specify paint color.
+Intermediate         For laminate or wood storage tops
+Support bracing  • No brace                                   No cost                                Specify with no brace.
+                                     For steel storage tops
+                                   • One brace (30", 36", or 42"W)  +$47                                    Specify with one brace.
+                                   • Two braces (30", 36", or 42"W) +$47                                    Specify with two braces.
+Specification Information
+DPlanning DDepth DStyle                DU.S.   DStyle                DU.S.   DStyle     DU.S.
+DStyle
+DU.S.
+dHeight    d
+dNumber            dBase  dNumber            dBase  dNumber dBase
+dNumber
+dBase
+d               d
+d                         dPrice  d                         dPrice  d              dPrice
+d
+dPrice
+d                 d
+d
+d
+d
+d
+d
+d
+d
+d
+Closed Loop
+                            Panel                             Panel                             Tethered
+Table 
+                              Supporting                    Supporting                    Application
+Application
+                              Left-Hand                      Right-Hand                                  
+281⁄2"           24"        UFC24LHANS    $562    UFC24RHANS    $562    UFC24     $562
+UFC24T
+$613
+281⁄2"           30"        UFC30LHANS    $562    UFC30RHANS    $562    UFC30     $562
+UFC30T
+$613
+d                 d
+d
+d
+d
+d
+d
+d
+d
+d
+Open Loop
+281⁄2"           24"        UFQ24LHANS    $409    UFQ24RHANS    $409    UFQ24     $409
+UFQ24T
+$460
+281⁄2"           30"        UFQ30LHANS    $409    UFQ30RHANS    $409    UFQ30     $409
+UFQ30T
+$460
+d                 d
+d
+d
+d
+d
+d
+d
+d
+d
+Half Loop
+281⁄2"           24"        UFH24LHANS    $355    UFH24RHANS    $355   
+281⁄2"           30"        UFH30LHANS    $355    UFH30RHANS    $355   
+d                 d
+d
+d
+d
+d
+Post Leg
+281⁄2"                         UFP                      $161     
+d                 d
+d
+d
+Intermediate Support
+For Use with One-High Universal Storage
+281⁄2"           16"        UFS1610H          $249     
+d                 d
+d
+d
+For Use with 1.5-High Universal Storage  
+281⁄2"           16"        UFS1615H          $227     
+d                 d
+d
+d
+                              
+Universal Systems Worksurfaces
+FrameOne Legs and Supports for Universal Worksurfaces
+February 2015

@@ -1,0 +1,92 @@
+Shared Components
+Statement of Line, continued
+104                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Wood Skins and Wood Skin Sets
+                 24"W           30"W           36"W           42"W           48"W
+12"H         •         •         •         •         •
+18"H         •         •         •         •         •
+24"H         •F        •F        •F        •F        •F
+30"H         •F        •F        •F        •F        •F
+36"H         •SF      •SF      •SF      •SF      •SF
+42"H         •SF      •SF      •SF      •SF      •SF
+48"H         •SF      •SF      •SF      •SF      •SF
+60"H         •SF      •SF      •SF      •SF      •SF
+S = Wood skin sets, page 450.
+F = To the floor sizes
+Tip: Wood skin sets are available for 42", 48", 54", and 66" panel heights.
+  Understanding
+cPage 115
+  Specifying
+cPages 446–450
+Laminate Skins
+                 24"W           30"W           36"W           42"W           48"W
+12"H         •         •         •         •         •
+18"H         •         •         •         •         •
+24"H         •F        •F        •F        •F        •F
+30"H         •F        •F        •F        •F        •F
+36"H         •F        •F        •F        •F        •F
+42"H         •F        •F        •F        •F        •F
+48"H         •F        •F        •F        •F        •F
+60"H         •F        •F        •F        •F        •F
+F = To the floor sizes
+  Understanding
+cPage 114
+  Specifying
+cPage 444
+Steel Technology Skins
+24"W
+30"W
+36"W
+42"W
+48"W
+60"W
+72"W
+6"H
+•
+•
+•
+•
+•
+•
+•
+12"H
+•
+•
+•
+•
+•
+•
+•
+18"H
+•
+•
+•
+•
+•
+•
+•
+  Understanding
+cPage 116
+  Specifying
+cPage 458
+  Understanding
+cPage 116
+  Specifying
+cPage 460
+Slatwall Technology Skins
+                 24"           30"           36"           42"           48"
+12"           •              •              •              •              •
+18"           •              •              •              •              •
+  Understanding
+cPage 116
+  Specifying
+cPage 461
+Markerboard Technology Skins
+                 24"           30"           36"           42"           48"
+12"           •              •              •              •              •
+18"           •              •              •              •              •
+Note: 12”H and 18”H technology
+skins are available with ribbed steel.
+Note: Technology skins are available
+with fabric-covered option.
+February 2015

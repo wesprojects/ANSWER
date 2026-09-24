@@ -1,0 +1,188 @@
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+...............................................................................................................................................
+Answer Solutions Specification Guide                                                                                                                                                                                                          209
+Universal Systems
+Worksurfaces
+Universal Systems Worksurfaces
+Cable scallop can be
+omitted for freestanding
+applications or panel-sup-
+ported applications where
+plugs do not need to pass
+over the back edge of the
+worksurface.
+Cable management
+devices are available to
+help manage conventional
+and fiber-optic cables
+beneath the worksurface.
+cSee Worksurface Power
+and Communication, page
+555.
+Surface Materials
+High-Pressure
+Laminate Worksurfaces
+• Laminate
+cSee Surface Materials
+Reference Manual.
+• Open Line laminate
+  (option)
+  A program including non-
+  Steelcase laminates which
+  are suitable for use on
+  Steelcase products.
+cSee Surface Materials
+Reference Manual.
+Front (user’s) edge(s)
+• Plastic
+Back and side edges
+• Plastic color default to
+  match user’s edge
+Wood Veneer
+Worksurfaces
+• Wood veneer (standard)
+• Customiz stain (option)
+• Full-fill finish (option)
+Square (3 mm) edge
+profile
+• Wood veneer to match
+  worksurface
+Front (user’s) edge(s)
+• Wood edge band
+Application Topics
+P-Edge Profile
+Application Rules
+P-edge profiles will pro-
+duce a valley when installed
+perpendicular to adjacent
+worksurfaces. The additional
+3⁄8" depth of P-edge profiles
+causes an interference fit
+in on-module panel-mounted
+applications. For L-configu-
+rations using two worksur-
+faces, the 3 mm edge profile
+is recommended.
+P-edge profile worksur-
+face depth prevents mod-
+esty panels from fitting
+properly in return or bridge
+Answer Freestanding desk
+applications. Modesty pan-
+els cannot be used when a
+return or bridge worksurface
+is attached to the front edge
+of a P-edge worksurface.
+The 3 mm edge profile is
+recommended for return or
+bridge applications.
+Answer Freestanding
+peninsula support is not
+compatible with P-edge bul-
+let peninsula, jetty or bubble
+jetty worksurfaces. Legs or
+other alternate supports are
+recommended.
+Full-depth worksur-
+faces provide an uninter-
+rupted working surface and
+are designed to allow tradi-
+tional corner or L-configura-
+tion planning without
+creating uneven gaps.
+Plan using worksur-
+faces actual dimen-
+sions when panel-
+wrapping worksur-
+faces because worksurface
+depths and widths vary by
+type. Straight and transition
+worksurfaces are full-width
+to correspond directly with
+panel width. Corner, extended
+corner, 120° corner, bullet
+peninsula, jetty, visitor, and
+linking worksurfaces are 
+1⁄2" less than panel width to
+allow for a consistent 1⁄2"
+cable-management gap
+when used in combination
+with straight worksurfaces.
+Tip: To avoid uneven gaps in
+panel-supported applica-
+tions, use full-depth worksur-
+faces to create
+L-configurations.
+1/2"
+1/2"
+1/2"
+1/2"
+1/2"
+No gap
+No gap
+1/2"
+1/2"
+1/2"
+1/2"
+1/2"
+Screens mount to worksur-
+faces in privacy position or
+below the worksurface for
+modesty.
+cSee Screens, page 586.
+Worksurfaces used
+in panel-supported
+installations must follow
+applicable panel stability
+guidelines.
+cPage 124
+Do not use a Universal
+Systems Worksurface
+as a top for storage that
+matches the worksurface
+width. Universal Systems
+Worksurfaces are slightly
+undersized for panel-
+wrapped applications and
+will not fit over full-width
+storage. Use field-installed
+storage tops for this type of
+application.
+cSee Storage Specification
+Guide.
+Knife edge worksur-
+faces have limitations for
+support options and applica-
+tion restrictions. 
+cSee page 226 for 
+Knife Edge Worksurface
+Application Guidelines
+15"
+15"
+431/2"
+Shipping
+Palletizing streamlines
+unloading and staging of
+worksurfaces. Identical
+worksurfaces ordered on the
+same line item are packed
+on pallets containing 5–50
+worksurfaces depending on
+worksurface size. Remaining
+worksurfaces are packed
+individually in cartons. If pal-
+letizing is not desired, order
+in quantities of four or less
+per line item. For maximum
+unload efficiency, utilize pal-
+let handling equipment at job
+site whenever possible.
+Wood veneer worksurfaces
+cannot be palletized.
+Universal Systems
+Worksurfaces
+February 2015

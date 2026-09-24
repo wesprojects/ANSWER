@@ -1,0 +1,89 @@
+690                                                                                                                                                                                                            Answer Solutions Speciﬁcation Guide
+Options                       U.S. Price               Required to Specify
+  Surface                • Painted light housing other         +$23                                     Specify paint color number for housing.
+  Materials                   than black
+  Bracket                  • Competitive mounting                 No cost                                 Specify with competitive mounting
+  Option                        package                                                                                    package.
+                                    • Flush mounting package            No cost                                 Specify with ﬂush mounting package and 
+                                                                                                                                          paint color number for end cap covers.
+Speciﬁcation Information
+DDimensions            DLamp        DStyle             DU.S.
+dD       W       H        dWattage    dNumber        dBase
+d
+d
+d
+dPrice
+d
+d
+d
+d
+Electronic High-Power-Factor Ballast
+91⁄4"     25"       13⁄4"       17 watts         LSM24K           $397
+91⁄4"     37"       13⁄4"       25 watts         LSM36K         $421
+91⁄4"     49"       13⁄4"       32 watts         LSM48K         $456
+With Chicago Cord Including Circuit Breaker
+91⁄4"     25"       13⁄4"       17 watts         LSM24KC        $458
+91⁄4"     37"       13⁄4"       25 watts         LSM36KC      $482
+91⁄4"     49"       13⁄4"       32 watts         LSM48KC      $517
+With Daisy Chain Cords
+91⁄4"     25"       13⁄4"       17 watts         LSM24KD        $431
+91⁄4"     37"       13⁄4"       25 watts         LSM36KD      $455
+91⁄4"     49"       13⁄4"       32 watts         LSM48KD      $490
+d
+d
+d
+d
+cSpeciﬁcation Information, continued on next page
+Lighting
+Standard Shelf Lights
+                                        
+Standard Includes                                      Required to Specify
+cNeed help?
+Product details,
+page 332
+• Light housing with centered on-off switch:
+black paint
+• End cap cord managers: black plastic only
+• Cords:
+—9' cord with three-prong plug at 45° angle:
+   black plastic only
+—One 30" and one 48" cord with modular 
+   connectors for daisy chaining: black plastic only
+• Contrast sleeve around lamp
+• Faceted reﬂector: white only
+• T8 3500K lamp
+• Ballast
+• Universal mounting hardware package
+• Daisy chain starter cord, if selected: black plastic only 
+(order separately)
+1 Style number
+2 Paint color number, if other than black
+(see options below)
+3 Options, if selected (see below)
+cSee Surface Materials, page 708.
+Tip: Daisy chaining is not
+allowed in Chicago. Local
+electrical codes vary, so you
+should consult a qualiﬁed
+electrical contractor or engi-
+neer for proper installation of
+all electrical equipment.
+Tip: Remember to order a
+daisy chain starter cord.
+cSee Related Products on
+next page.
+Tip: Because shelf lights
+are usually recessed, black 
+is the standard paint color.
+Paint colors other than black
+have an upcharge.
+Tip: If an optional paint color
+is selected for the housing,
+the electrical switches and
+end caps will remain black
+plastic.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+February 2015

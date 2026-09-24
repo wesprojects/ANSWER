@@ -1,0 +1,2 @@
+const { chromium } = require('playwright'); const fs = require('fs');
+(async () => { const b = await chromium.launch(); for (const n of ['b2', 'orig']) { const pg = await b.newPage({ viewport: { width: 1000, height: 700 } }); await pg.setContent(`<body style="margin:0;background:#fff">${fs.readFileSync('captest/' + n + '.svg', 'utf8').replace(/<svg /, '<svg style="width:1000px;height:700px" ')}</body>`); await pg.screenshot({ path: 'captest/' + n + '.png' }); } await b.close(); })();
