@@ -53,6 +53,10 @@ README — https://github.com/wesprojects/ANSWER
 - Clicking a part in an elevation selects it, centres the plan on it with a pulsing highlight and keeps the page where it was.
 - `test/handle.js`, `test/join.js`, `test/corner.js` and `test/elevpick.js` cover these.
 
+## CAP DXF export (in progress)
+
+The current Export DXF writes plain R12 lines and text, which AutoCAD opens but CAP cannot list, and CAP rejects R12 outright. A CAP drawing was decoded: CAP reads its parts from blocks named `P_<style number>` carrying `CAP*` attributes (CAPPN, CAPPD, CAPMG, CAPMC, CAPPL, CAPTG, CAPQT…), with panels as nested config blocks (frame plus skins). A test drawing built that way with no CAP catalog links lists correctly in CAP. The findings, the R2000 file skeleton, the test drawings and the implementation plan are in `cap/NOTES.md` of the source; the exporter itself (`src/capdxf.js`, `E.toCapDXF`) is the next piece of work.
+
 ## Guide corrections applied
 
 - p400 Square V/Y junctions, wood cap, 48" V row printed TS742SVPJW. Corrected to TS748SVPJW and flagged on the BOM.
