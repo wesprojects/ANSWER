@@ -284,7 +284,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1 title="Build 2026-09-24.11">Answer Panel Planner <span class="build">Build 2026-09-24.11</span></h1>
+    <h1 title="Build 2026-09-24.12">Answer Panel Planner <span class="build">Build 2026-09-24.12</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -300,8 +300,9 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
       <div class="card" id="plancard">
         <div class="cardhead"><span class="sec">Plan · from above</span><span class="info" id="planInfo"></span></div>
         <div class="toolrow">
-          <div class="btngroup small" id="toolgroup"><button data-tool="select" class="on" title="Select, move and drag runs (V)">Select</button><button data-tool="draw" title="Click and drag to draw a run of panels (D). Hold Shift for 120° angles.">Draw run</button><button id="bTypicals" title="Place a ready-made workstation">Add typical…</button></div>
+          <div class="btngroup small" id="toolgroup"><button data-tool="select" class="on" title="Select, move and drag runs (V)">Select</button><button data-tool="draw" title="Click and drag to draw a run of panels (D). Hold Shift for 120° angles.">Draw run</button><button data-tool="ws" title="Add worksurfaces (W): click a side of a panel for a straight worksurface, click a corner junction for a corner worksurface">Add worksurface</button><button id="bTypicals" title="Place a ready-made workstation">Add typical…</button></div>
           <div class="btngroup small"><button id="zOut">−</button><button id="zFit">Fit</button><button id="zIn">+</button></div>
+          <select id="optWsDepth" title="Depth of worksurfaces added with Add worksurface"><option value="24">24"D worksurface</option><option value="30">30"D worksurface</option><option value="18">18"D worksurface</option></select>
           <span class="muted">New panels:</span>
           <div class="seg" id="optHeight"></div>
           <select id="optWidth" title="Panel width used when drawing a run and for panels added from the ⊕ at a free end. Auto fill widths: runs are filled with standard widths and the ⊕ adds a panel matching the end of the run (its height, width and settings)."><option value="auto">Auto fill widths</option><option value="18">18" panels</option><option value="24">24" panels</option><option value="30">30" panels</option><option value="36">36" panels</option><option value="42">42" panels</option><option value="48">48" panels</option><option value="60">60" panels</option><option value="72">72" panels</option></select>
@@ -2267,6 +2268,15 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
       // on-module supports engage the slots in the junction uprights (p216): the end they carry must line up with a panel junction
       for (const k of keys) { const s = resolved[k]; const d = nearestNodeDist(P, endOf(ws, k).base); ws._supportAt[k] = { s, d: Math.round(d * 100) / 100, junction: !!JUNCTION_MOUNTED[s] }; if (!JUNCTION_MOUNTED[s]) continue; if (d > ON_JUNCTION) errors.push({ panel: ws.id, msg: `${wsName(ws)}: the ${JUNCTION_MOUNTED[s]} at the ${endName(ws, k)} end is ${Math.round(d * 10) / 10}" from the nearest panel junction. On-module supports engage the junction uprights (p216). Put the worksurface ends on panel seams (worksurface widths match the panel widths, p209) or support that end with a pedestal or post leg.` }); }
       ws._resolved = resolved; ws._mid = mids.map(t => t - g.from);
+      // where each support sits, for the plan and the installer figures (the same data the spec counts): at the junction for on-module supports (p216),
+      // at the end for end panels and legs. kind, point on the panel centreline, direction into the worksurface (n), along-run direction (u).
+      ws._supports = [];
+      const nearNode = (pt) => { let b = null, bd = Infinity; for (const nd of Object.values(P.nodes)) { const d0 = dist([nd.x, nd.y], pt); if (d0 < bd) { bd = d0; b = nd; } } return b; };
+      const onFace = (pt, nd, u) => { const t = (nd.x - pt[0]) * u[0] + (nd.y - pt[1]) * u[1]; return [pt[0] + u[0] * t, pt[1] + u[1] * t]; }; // slide along the back line to line up with the junction
+      for (const k of keys) { const sk = resolved[k]; if (!['cantilever', 'csp', 'endpanel', 'ssb', 'leg'].includes(sk)) continue; const e = endOf(ws, k), u = [-e.out[0], -e.out[1]], nd = nearNode(e.base);
+        const at = JUNCTION_MOUNTED[sk] && sk !== 'endpanel' && sk !== 'ssb' && nd ? onFace(e.base, nd, u) : e.base; ws._supports.push({ kind: sk, key: k, at, n: e.n, u, depth: e.depth, end: e.base, front: [e.base[0] + e.n[0] * e.depth, e.base[1] + e.n[1] * e.depth] }); }
+      if (g.kind === 'straight') for (const t of mids) ws._supports.push({ kind: 'cantilever', key: 'mid', at: [g.run.start.x + g.run.dir[0] * t, g.run.start.y + g.run.dir[1] * t], n: g.n, u: g.dir, depth: g.depth });
+      else for (const [i, t] of ws._armMid) { const a = g.arms[i], nd0 = P.nodes[ws.node]; if (a && nd0) ws._supports.push({ kind: 'cantilever', key: 'arm' + i + 'mid', at: [nd0.x + a.dir[0] * t, nd0.y + a.dir[1] * t], n: a.n, u: a.dir, depth: a.depth }); }
       // emit support parts
       const armMids = ws._armMid.length;
       const cants = Object.values(resolved).filter(s => s === 'cantilever').length + mids.length + armMids;
@@ -2511,7 +2521,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.11';
+const BUILD='2026-09-24.12';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -2745,9 +2755,34 @@ const BUILD='2026-09-24.11';
       drawPost(ctx, x, y, J, on, bad); const hp = POST * view.s / 2; L.box(x, y, 2 * hp + 2, 2 * hp + 2);
       if (J && J.legs && (plain || view.s > 1.4)) { const jsz = plain ? 12 : 10; L.add({ text: (plain ? 'J' + n.id.slice(1) + ' ' : '') + jShort(J), font: plain ? '600 12px Barlow, sans-serif' : '10px Barlow, sans-serif', size: jsz, color: plain ? '#416180' : '#5d5d60', prio: 50, at: [[1, -1], [1, 1], [-1, -1], [-1, 1], [1, 0], [-1, 0]].map(([u, v]) => (w, h) => [x + u * (hp + 3 + w / 2), y + v * (hp + 2 + h / 2)]) }); }
       // end handles
-      if (!plain && J && (J.type === 'EOR' || J.type === 'wall') && tool === 'select' && !dragMove) { const l = J.legs[0]; const ang = (l.angle + 180) * Math.PI / 180; const [hx, hy] = toS(n.x + Math.cos(ang) * (POST / 2 + 24 / view.s), n.y + Math.sin(ang) * (POST / 2 + 24 / view.s)); ctx.beginPath(); ctx.arc(hx, hy, 8, 0, 7); ctx.fillStyle = hover && hover.kind === 'handle' && hover.id === n.id ? '#5980a6' : '#fff'; ctx.fill(); ctx.strokeStyle = '#5980a6'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.fillStyle = hover && hover.kind === 'handle' && hover.id === n.id ? '#fff' : '#5980a6'; ctx.font = '600 13px Barlow, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('+', hx, hy + 4.5); L.box(hx, hy, 20, 20, true); }
+      if (!plain && J && (J.type === 'EOR' || J.type === 'wall') && tool === 'select' && !dragMove) { const l = J.legs[0]; const ang = (l.angle + 180) * Math.PI / 180; const [hx, hy] = toS(n.x + Math.cos(ang) * (POST / 2 + 28 / view.s), n.y + Math.sin(ang) * (POST / 2 + 28 / view.s)); ctx.beginPath(); ctx.arc(hx, hy, HANDLE_R, 0, 7); ctx.fillStyle = hover && hover.kind === 'handle' && hover.id === n.id ? '#5980a6' : '#fff'; ctx.fill(); ctx.strokeStyle = '#5980a6'; ctx.lineWidth = 1.5; ctx.stroke(); ctx.fillStyle = hover && hover.kind === 'handle' && hover.id === n.id ? '#fff' : '#5980a6'; ctx.font = '600 17px Barlow, sans-serif'; ctx.textAlign = 'center'; ctx.fillText('+', hx, hy + 6); L.box(hx, hy, 2 * HANDLE_R + 4, 2 * HANDLE_R + 4, true); }
     }
     L.flush();
+  }
+  // selection halo: a soft band around the selected panels, junction, worksurface or pedestal, pulsing briefly after it is picked in the elevation
+  let pulseUntil = 0;
+  function selShapes() {
+    const out = [];
+    for (const id of sel) { const p = P.panels[id]; if (!p) continue; const a = P.nodes[p.a], b = P.nodes[p.b]; const L0 = Math.hypot(b.x - a.x, b.y - a.y) || 1, nx = -(b.y - a.y) / L0 * 1.5, ny = (b.x - a.x) / L0 * 1.5; out.push({ pts: [[a.x + nx, a.y + ny], [b.x + nx, b.y + ny], [b.x - nx, b.y - ny], [a.x - nx, a.y - ny]] }); }
+    if (selNode && P.nodes[selNode]) { const n = P.nodes[selNode]; out.push({ circle: [n.x, n.y, 3] }); }
+    const ws = selWs && P.worksurfaces && P.worksurfaces[selWs]; if (ws) { const g = E.wsGeometry(P, ws); if (g) { const d = selPed && (ws.peds || []).find(x => x.id === selPed); out.push({ pts: d ? pedRect(ws, g, d) : g.poly }); } }
+    return out;
+  }
+  function drawSelHalo(under) {
+    const shapes = selShapes(); if (!shapes.length) return; const now = performance.now(), k = pulseUntil > now ? (pulseUntil - now) / 1200 : 0; // 1 -> 0 over the pulse
+    ctx.save(); ctx.lineJoin = 'round'; ctx.lineCap = 'round';
+    const path = (sh) => { ctx.beginPath(); if (sh.circle) { const [x, y] = toS(sh.circle[0], sh.circle[1]); ctx.arc(x, y, Math.max(10, sh.circle[2] * view.s), 0, 7); } else sh.pts.forEach((q, i) => { const [x, y] = toS(q[0], q[1]); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.closePath(); };
+    for (const sh of shapes) { path(sh); if (under) { ctx.strokeStyle = `rgba(89,128,166,${0.35 + 0.4 * k})`; ctx.lineWidth = 12 + 14 * k; ctx.stroke(); ctx.fillStyle = 'rgba(89,128,166,.18)'; ctx.fill(); } else { ctx.strokeStyle = '#2f6db3'; ctx.lineWidth = 2; ctx.stroke(); } } // glow under the part so its own colours stay true, outline over it
+    ctx.restore();
+    if (k > 0 && !under) requestAnimationFrame(drawPlan);
+  }
+  // glide the plan so a point (plan inches) sits in the middle of the view, keeping the zoom
+  let glide = null;
+  function centerPlanOn(wx, wy) {
+    const tx = W() / 2 - wx * view.s, ty = H() / 2 + wy * view.s, fx = view.ox, fy = view.oy, t0 = performance.now(), dur = 320;
+    if (Math.hypot(tx - fx, ty - fy) < 2) return; const my = glide = {};
+    const step = (t) => { if (glide !== my) return; const u = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - u, 3); view.ox = fx + (tx - fx) * e; view.oy = fy + (ty - fy) * e; drawPlan(); if (u < 1) requestAnimationFrame(step); };
+    requestAnimationFrame(step);
   }
   function drawPlan() {
     const w = W(), h = H(); if (!w) return; ctx.clearRect(0, 0, w, h);
@@ -2756,7 +2791,9 @@ const BUILD='2026-09-24.11';
     if (step >= 8) { ctx.fillStyle = '#c9c9cc'; for (let x = ((view.ox % step) + step) % step; x < w; x += step) for (let y = ((view.oy % step) + step) % step; y < h; y += step) { const gx = Math.round((x - view.ox) / view.s / 12), gy = Math.round((view.oy - y) / view.s / 12); const big = gx % 4 === 0 && gy % 4 === 0; ctx.beginPath(); ctx.arc(x, y, big ? 1.6 : .9, 0, 7); ctx.fill(); } }
     // scale bar
     { const L = [6, 12, 24, 48, 96, 192, 384, 768, 1536, 3072].filter(v => v * view.s <= 110).pop() || 6; ctx.strokeStyle = '#7a7a7d'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(14, h - 14); ctx.lineTo(14 + L * view.s, h - 14); ctx.stroke(); ctx.fillStyle = '#5d5d60'; ctx.font = '12px Barlow, sans-serif'; ctx.textAlign = 'left'; ctx.fillText(E.ftin(L), 14, h - 19); }
+    drawSelHalo(true);
     drawScene(ctx, false);
+    drawSelHalo();
     // draw preview
     if (draw && draw.widths) {
       let x = draw.x0, y = draw.y0; const dx = Math.cos(draw.ang), dy = Math.sin(draw.ang);
@@ -2789,6 +2826,18 @@ const BUILD='2026-09-24.11';
       const mark = (pt, k) => { const s = res[k]; if (!s || s === 'shared' || s === 'pedestal') return; const [x, y] = toS(pt[0], pt[1]); L.add({ text: { cantilever: 'C', endpanel: 'EP', ssb: 'SB', leg: 'L', csp: 'CS' }[s] || '', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); };
       if (plain || view.s > 1.2) { if (g.kind === 'straight') { const inset = (pt, sign) => [pt[0] + g.dir[0] * sign * 5 + g.n[0] * 6, pt[1] + g.dir[1] * sign * 5 + g.n[1] * 6]; mark(inset(g.lo, 1), 'lo'); mark(inset(g.hi, -1), 'hi'); for (const m of ws._mid || []) { const near = (q) => Object.values(P.nodes).some(nd => Math.hypot(nd.x - q[0], nd.y - q[1]) < 3.5); let q = [g.lo[0] + g.dir[0] * m, g.lo[1] + g.dir[1] * m]; if (!near(q)) q = [g.hi[0] - g.dir[0] * m, g.hi[1] - g.dir[1] * m]; const [x, y] = toS(q[0] + g.n[0] * 6, q[1] + g.n[1] * 6); L.add({ text: 'C', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); } } else { g.arms.forEach((a, i) => { mark([a.end[0] - a.dir[0] * 5 + a.n[0] * 6, a.end[1] - a.dir[1] * 5 + a.n[1] * 6], 'arm' + i); }); const [ox, oy] = toS(g.o[0] + (g.arms[0].dir[0] + g.arms[1].dir[0]) * 5, g.o[1] + (g.arms[0].dir[1] + g.arms[1].dir[1]) * 5); L.add({ text: 'SB', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [ox, oy]] }); for (const [i, tm] of ws._armMid || []) { const a = g.arms[i]; if (!a) continue; const back = a.len - tm; const [x, y] = toS(a.end[0] - a.dir[0] * back + a.n[0] * 6, a.end[1] - a.dir[1] * back + a.n[1] * 6); L.add({ text: 'C', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); } } }
       // tie plates across the seams this worksurface shares (3 3/4"L flat plate underneath, p546)
+      // supports under the worksurface, drawn dashed where they sit (the same records the spec counts): cantilever 15 1/2" deep in the junction slots (p545),
+      // center support panel 11" (p547), end panel full depth at the end, side support bracket on the return, post leg at the front corner (p552)
+      if (plain || view.s > 0.9) for (const sp of ws._supports || []) {
+        const face = [sp.at[0] + sp.n[0] * 1.5, sp.at[1] + sp.n[1] * 1.5], quad = (a0, a1, b0, b1, base) => [[a0, b0], [a1, b0], [a1, b1], [a0, b1]].map(([u, v]) => toS(base[0] + sp.u[0] * u + sp.n[0] * v, base[1] + sp.u[1] * u + sp.n[1] * v));
+        let q = null;
+        if (sp.kind === 'cantilever') q = quad(-0.5, 0.5, 0, 15.5, face); else if (sp.kind === 'csp') q = quad(-0.5, 0.5, 0, 11, face); else if (sp.kind === 'endpanel') q = quad(0, 1, 0, sp.depth, [sp.end[0] + sp.n[0] * 1.5, sp.end[1] + sp.n[1] * 1.5]); else if (sp.kind === 'ssb') q = quad(0, 1, 0, 6, [sp.end[0] + sp.n[0] * 1.5, sp.end[1] + sp.n[1] * 1.5]);
+        c.save(); c.setLineDash([3, 2]); c.strokeStyle = '#416180'; c.lineWidth = 1.2; c.fillStyle = 'rgba(65,97,128,.18)';
+        if (q) { c.beginPath(); q.forEach((pt, i) => i ? c.lineTo(pt[0], pt[1]) : c.moveTo(pt[0], pt[1])); c.closePath(); c.fill(); c.stroke(); }
+        if (sp.kind === 'leg') { const f = [sp.front[0] + sp.u[0] * 2 - sp.n[0] * 2, sp.front[1] + sp.u[1] * 2 - sp.n[1] * 2], [x, y] = toS(f[0], f[1]); c.beginPath(); c.arc(x, y, Math.max(3, 1.25 * view.s), 0, 7); c.fill(); c.stroke(); }
+        c.restore();
+      }
+      if ((plain || view.s > 0.9) && g.kind !== 'straight' && g.o) { const [a0, a1] = g.arms, q = [[0, 0], [1, 0], [1, 1], [0, 1]].map(([u, v]) => toS(g.o[0] + a0.dir[0] * u * 4 + a1.dir[0] * v * 4, g.o[1] + a0.dir[1] * u * 4 + a1.dir[1] * v * 4)); c.save(); c.setLineDash([3, 2]); c.strokeStyle = '#416180'; c.lineWidth = 1.2; c.fillStyle = 'rgba(65,97,128,.18)'; c.beginPath(); q.forEach((pt, i) => i ? c.lineTo(pt[0], pt[1]) : c.moveTo(pt[0], pt[1])); c.closePath(); c.fill(); c.stroke(); c.restore(); } // side support bracket at the corner's rear inside corner (p545)
       ties.push(...(ws._tie || []));
       // label
       let cxs = g.poly.reduce((a, p) => a + p[0], 0) / g.poly.length, cys = g.poly.reduce((a, p) => a + p[1], 0) / g.poly.length;
@@ -2839,8 +2888,9 @@ const BUILD='2026-09-24.11';
   }
   function wsSideOfClick(p, wx, wy) { const a = P.nodes[p.a], b = P.nodes[p.b]; const cross = (b.x - a.x) * (wy - a.y) - (b.y - a.y) * (wx - a.x); return cross < 0 ? 0 : 1; }
   function jShort(J) { const m = { inline: 'in-line', L: 'L', T: 'T', X: 'X', V: 'V 120°', Y: 'Y 120°', EOR: 'end', wall: 'wall', unsupported: '!' }; const hs = [...new Set(J.legs.map(l => l.total))].sort((a, b) => a - b).join('/'); return `${m[J.type] || J.type} ${hs}"`; }
+  const HANDLE_R = 12, HANDLE_HIT = 20; // the ⊕ at a free end: drawn 24px across, clickable anywhere within 40px
   function hit(sx, sy) {
-    for (const n of Object.values(P.nodes)) { const J = R.nodes[n.id]; if (J && (J.type === 'EOR' || J.type === 'wall')) { const l = J.legs[0]; const ang = (l.angle + 180) * Math.PI / 180; const [hx, hy] = toS(n.x + Math.cos(ang) * (POST / 2 + 24 / view.s), n.y + Math.sin(ang) * (POST / 2 + 24 / view.s)); if (Math.hypot(hx - sx, hy - sy) < 10) return { kind: 'handle', id: n.id }; } }
+    for (const n of Object.values(P.nodes)) { const J = R.nodes[n.id]; if (J && (J.type === 'EOR' || J.type === 'wall')) { const l = J.legs[0]; const ang = (l.angle + 180) * Math.PI / 180; const [hx, hy] = toS(n.x + Math.cos(ang) * (POST / 2 + 28 / view.s), n.y + Math.sin(ang) * (POST / 2 + 28 / view.s)); if (Math.hypot(hx - sx, hy - sy) < HANDLE_HIT) return { kind: 'handle', id: n.id }; } }
     for (const n of Object.values(P.nodes)) { const [x, y] = toS(n.x, n.y); if (Math.hypot(x - sx, y - sy) < Math.max(9, POST * view.s / 2 + 2)) return { kind: 'node', id: n.id }; }
     let nearest = null, nd = 1e9;
     for (const p of Object.values(P.panels)) { const { a, b } = panelRect(p); const [x1, y1] = toS(a.x, a.y), [x2, y2] = toS(b.x, b.y); const L2 = (x2 - x1) ** 2 + (y2 - y1) ** 2 || 1; let t = ((sx - x1) * (x2 - x1) + (sy - y1) * (y2 - y1)) / L2; t = Math.max(0, Math.min(1, t)); const d = Math.hypot(sx - (x1 + t * (x2 - x1)), sy - (y1 + t * (y2 - y1))); if (d < nd) { nd = d; nearest = p; } }
@@ -2859,6 +2909,12 @@ const BUILD='2026-09-24.11';
     if (h && h.kind === 'handle') { // ⊕ at a free end: click adds one panel straight on, drag draws a run from that end (Shift for 120°)
       const J = R.nodes[h.id]; const l = J.legs[0]; const n = P.nodes[h.id];
       draw = { x0: n.x, y0: n.y, n0: n, shift: e.shiftKey, handle: { nid: h.id, ang: (l.angle + 180) % 360, src: l.panel.id } }; return;
+    }
+    if (tool === 'ws' && e.button === 0) { // Add worksurface tool: a panel side takes a straight, a corner junction a corner worksurface; stays on for the next one
+      if (h && h.kind === 'panel') { addStraightWs(h.id, wsSideOfClick(P.panels[h.id], wx, wy), wx, wy, wsDepth()); return; }
+      if (h && h.kind === 'node') { const J = R.nodes[h.id]; if (J && J.legs && J.legs.length >= 2 && J.type !== 'inline') { addCornerWs(h.id, wx, wy, J.family === 120); return; } toast('Corner worksurfaces go on an L, T, X, V or Y junction. For a straight, click the side of a panel.'); return; }
+      if (h && (h.kind === 'ws' || h.kind === 'ped')) { selWs = h.kind === 'ws' ? h.id : h.ws; selPed = h.kind === 'ped' ? h.id : null; sel = new Set(); selNode = null; refresh(); return; }
+      toast('Click the side of a panel where the worksurface goes, or a corner junction for a corner worksurface.'); return;
     }
     if (tool === 'draw') {
       // a junction (or open floor) starts a run; pressing a panel, worksurface or pedestal selects it without moving anything
@@ -3060,7 +3116,7 @@ const BUILD='2026-09-24.11';
   }
   function setWidths(list, ww) { guardedMutate(() => { for (const q of list) if (!changeWidth(q, ww)) return false; }, 'Width not changed'); }
   function contextItems(h, wx, wy) {
-    if (!h) return [{ head: 'Plan' }, { label: 'Draw a run here', hint: 'D', run: () => { setTool('draw'); toast('Click and drag along the wall line. Shift for 120° angles.'); } }, { label: 'Add typical here…', run: () => { placeAt = [snapW(wx), snapW(wy)]; renderTypicals(); $('#typicals').classList.add('on'); } }, { label: 'Add workstation here…', hint: 'with worksurfaces', run: () => { placeAt = [snapW(wx), snapW(wy)]; renderTypicals(true); $('#typicals').classList.add('on'); } }, '-', { label: 'Fit to window', run: () => { fit(); drawPlan(); } }];
+    if (!h) return [{ head: 'Plan' }, { label: 'Draw a run here', hint: 'D', run: () => { setTool('draw'); toast('Click and drag along the wall line. Shift for 120° angles.'); } }, { label: 'Add worksurfaces…', hint: 'W', run: () => setTool('ws') }, { label: 'Add typical here…', run: () => { placeAt = [snapW(wx), snapW(wy)]; renderTypicals(); $('#typicals').classList.add('on'); } }, { label: 'Add workstation here…', hint: 'with worksurfaces', run: () => { placeAt = [snapW(wx), snapW(wy)]; renderTypicals(true); $('#typicals').classList.add('on'); } }, '-', { label: 'Fit to window', run: () => { fit(); drawPlan(); } }];
     if (h.kind === 'panel') {
       const p = P.panels[h.id]; const side = wsSideOfClick(p, wx, wy); const Ja = R.nodes[p.a], Jb = R.nodes[p.b];
       const ends = [[p.a, Ja], [p.b, Jb]].filter(([nid, J]) => J && J.legs.length === 1);
@@ -3076,7 +3132,13 @@ const BUILD='2026-09-24.11';
         '-', { label: 'Select this run', run: () => { sel = new Set(chainOf(p.id).map(q => q.id)); selNode = null; selWs = null; refresh(); } },
         { label: 'Delete panel', hint: 'Del', run: () => mutate(() => { for (const id of (sel.has(p.id) ? [...sel] : [p.id])) E.removePanel(P, id); sel = new Set(); }) }];
     }
-    if (h.kind === 'node' || h.kind === 'handle') {
+    if (h.kind === 'handle') { // extend from this free end: every direction Answer offers here, straight on first
+      const nid = h.id, n = P.nodes[nid], J = R.nodes[nid], l = J.legs[0], src = P.panels[l.panel.id], straight = (l.angle + 180) % 360; const allowed = E.allowedAngles(P, n).slice().sort((a, b) => (b === straight) - (a === straight));
+      const add = (a) => guardedMutate(() => { const q = E.addPanel(P, n, a, extW(src), extH(src)); extPanel(src, q); sel = new Set([q.id]); selNode = null; selWs = null; selPed = null; }, 'Panel not added');
+      return [{ head: `Extend ${pn(src.id)} · ${extW(src)}" × ${extH(src)}" panel` }, ...(allowed.length ? allowed.map(a => ({ label: (DIRS[a] || a + '°') + (a === straight ? '  (straight on)' : a % 90 ? '  (120° V)' : '  (90° L)'), run: () => add(a) })) : [{ label: 'No compliant direction from here', dis: true }]),
+        '-', { label: n.wallStart ? 'Not a wall start' : 'Starts at a wall (wall-start junction)', dis: l.base === 30, run: () => mutate(() => n.wallStart = !n.wallStart) }];
+    }
+    if (h.kind === 'node') {
       const nid = h.id; const n = P.nodes[nid]; const J = R.nodes[nid]; const allowed = E.allowedAngles(P, n); const nLegs = (J.legs || []).length;
       return [{ head: `${jn(nid)} · ${jShort(J)}` },
         { label: 'Add corner worksurface here', dis: !(J.family !== 120 && nLegs >= 2), run: () => addCornerWs(nid, wx, wy, false) },
@@ -3185,7 +3247,8 @@ const BUILD='2026-09-24.11';
   plan.addEventListener('wheel', e => { e.preventDefault(); const [sx, sy] = mousePos(e); zoomAt(sx, sy, e.deltaY < 0 ? 1.12 : 1 / 1.12); }, { passive: false });
   $('#zIn').onclick = () => zoomAt(W() / 2, H() / 2, 1.25); $('#zOut').onclick = () => zoomAt(W() / 2, H() / 2, 1 / 1.25); $('#zFit').onclick = () => { fit(); drawPlan(); };
   $$('#toolgroup [data-tool]').forEach(b => b.onclick = () => setTool(b.dataset.tool));
-  function setTool(t) { tool = t; placing = null; $$('#toolgroup [data-tool]').forEach(b => b.classList.toggle('on', b.dataset.tool === t)); plan.className = t === 'draw' ? 'draw' : ''; drawPlan(); }
+  function setTool(t) { tool = t; placing = null; $$('#toolgroup [data-tool]').forEach(b => b.classList.toggle('on', b.dataset.tool === t)); plan.className = t === 'draw' ? 'draw' : t === 'ws' ? 'place' : ''; if (t === 'ws') toast('Add worksurface: click the side of a panel for a straight, or a corner junction for a corner worksurface. Esc when done.'); drawPlan(); }
+  const wsDepth = () => +($('#optWsDepth') ? $('#optWsDepth').value : 24);
   function applyDefaults(q) { const g = $('#optGlass'); if (g && g.checked && P.trim === 'thin' && q.width >= 24) q.glassScreen = { attach: 'recessed', height: 12, frosted: false, omitGlass: false }; }
   function copyPanelSettings(from, to) { const keep = { id: to.id, a: to.a, b: to.b }; Object.assign(to, JSON.parse(JSON.stringify(from)), keep); to.label = ''; if (to.power) to.power.infeed = null; } // one building infeed per circuit run, never copied
   // ---------- workstations: assignment, rename, split ----------
@@ -3332,6 +3395,8 @@ const BUILD='2026-09-24.11';
   function drawElev() {
     const w = elev.clientWidth, h = elev.clientHeight; if (!w) return;
     let pid = [...sel][0] || (selWs && E.hostPanelOf(P, selWs));
+    // a junction selected (on the plan or by clicking its post here): keep showing the run it belongs to, else a run through it
+    if (!pid && selNode && P.nodes[selNode]) { const atNode = (q) => q.a === selNode || q.b === selNode; pid = (elevLock && P.panels[elevLock] && chainOf(elevLock).some(atNode)) ? elevLock : (Object.values(P.panels).find(atNode) || {}).id; }
     if (elevLock && P.panels[elevLock] && pid && chainOf(elevLock).some(p => p.id === pid)) pid = elevLock; // keep the run steady while editing inside it
     if (!pid || !P.panels[pid]) { ectx.clearRect(0, 0, w, h); elevHits = []; elevLock = null; $('#elevInfo').textContent = 'Select a panel to see its run.'; return; }
     elevLock = pid;
@@ -3341,6 +3406,10 @@ const BUILD='2026-09-24.11';
     let es = Math.max(MIN_S, (wrapW - 60) / totalW); const cw = Math.max(wrapW, Math.round(totalW * es + 60)); const ch = Math.min(560, Math.max(240, Math.round(maxH * es + 100))); es = Math.min(es, (ch - 100) / maxH);
     const d = window.devicePixelRatio || 1; elev.style.width = cw + 'px'; elev.style.height = ch + 'px'; elev.width = Math.round(cw * d); elev.height = Math.round(ch * d); ectx.setTransform(d, 0, 0, d, 0, 0);
     elevHits = []; elevInfo = {}; renderElevation(elev, chain, elevSide, cw, ch, { junctionLabels: true, hits: elevHits, selTile, highlightSel: true, fixedScale: es, info: elevInfo });
+    // halo around the selected part in the elevation too
+    const pick = elevHits.filter(o => o.kind !== 'label' && ((selNode && o.kind === 'post' && o.nid === selNode) || (selPed && o.kind === 'ped' && o.id === selPed) || (!selPed && selWs && o.kind === 'ws' && o.id === selWs) || (!selNode && !selWs && o.pid && sel.has(o.pid) && ['tile', 'base', 'topcap', 'glass'].includes(o.kind))));
+    const byPid = {}; for (const o of pick) { const k = o.pid || o.nid || o.id; const b = byPid[k] || (byPid[k] = { x0: Infinity, y0: Infinity, x1: -Infinity, y1: -Infinity }); b.x0 = Math.min(b.x0, o.x); b.y0 = Math.min(b.y0, o.y); b.x1 = Math.max(b.x1, o.x + o.w); b.y1 = Math.max(b.y1, o.y + o.h); }
+    ectx.save(); for (const b of Object.values(byPid)) { ectx.strokeStyle = 'rgba(89,128,166,.35)'; ectx.lineWidth = 8; ectx.strokeRect(b.x0 - 2, b.y0 - 2, b.x1 - b.x0 + 4, b.y1 - b.y0 + 4); ectx.strokeStyle = '#2f6db3'; ectx.lineWidth = 2; ectx.strokeRect(b.x0 - 2, b.y0 - 2, b.x1 - b.x0 + 4, b.y1 - b.y0 + 4); } ectx.restore();
   }
   $$('#elevSide button').forEach(b => b.onclick = () => { elevSide = +b.dataset.side; $$('#elevSide button').forEach(x => x.classList.toggle('on', x === b)); drawElev(); });
   const ELEV_ORDER = { ped: 0, ws: 1, tile: 2, glass: 2, topcap: 3, base: 3, post: 4, label: 5 };
@@ -3351,9 +3420,17 @@ const BUILD='2026-09-24.11';
     if (h.kind === 'post') { selNode = h.nid; sel = new Set(); selWs = null; selPed = null; }
     else if (h.kind === 'ws' || h.kind === 'ped') { selWs = h.kind === 'ws' ? h.id : h.ws; selPed = h.kind === 'ped' ? h.id : null; sel = new Set(); selNode = null; }
     else { sel = new Set([h.pid]); selNode = null; selWs = null; selPed = null; if (h.kind === 'tile') selTile = { pid: h.pid, key: h.key, i: h.i }; }
-    refresh();
-    if (h.kind === 'tile') { const row = $(`#rightcol .tile[data-key="${h.key}"][data-i="${h.i}"]`); if (row) { row.scrollIntoView({ block: 'center', behavior: 'smooth' }); row.classList.add('flash'); setTimeout(() => row.classList.remove('flash'), 1400); } }
-    else if (h.kind === 'glass') { const el = $('#pGlass') || $('#pTopScreen'); if (el) el.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+    const keepY = window.scrollY; refresh(); window.scrollTo(window.scrollX, keepY); // the page stays where it is
+    // centre the plan on the part and pulse its highlight
+    let pt = null;
+    if (h.kind === 'post' && P.nodes[h.nid]) pt = [P.nodes[h.nid].x, P.nodes[h.nid].y];
+    else if ((h.kind === 'ws' || h.kind === 'ped') && P.worksurfaces[selWs]) { const ws = P.worksurfaces[selWs], g = E.wsGeometry(P, ws); const d = selPed && ws.peds.find(x => x.id === selPed); const q = g ? (d ? pedRect(ws, g, d) : g.poly) : null; if (q) pt = [q.reduce((a, v) => a + v[0], 0) / q.length, q.reduce((a, v) => a + v[1], 0) / q.length]; }
+    else if (h.pid && P.panels[h.pid]) { const p = P.panels[h.pid], a = P.nodes[p.a], b = P.nodes[p.b]; pt = [(a.x + b.x) / 2, (a.y + b.y) / 2]; }
+    pulseUntil = performance.now() + 1200; if (pt) centerPlanOn(pt[0], pt[1]); else drawPlan();
+    // point at the matching editor row without scrolling the page
+    const row = h.kind === 'tile' ? $(`#rightcol .tile[data-key="${h.key}"][data-i="${h.i}"]`) : h.kind === 'glass' ? ($('#pGlass') || $('#pTopScreen')) : null;
+    if (row) { row.classList.add('flash'); setTimeout(() => row.classList.remove('flash'), 1400); }
+    requestAnimationFrame(() => window.scrollTo(window.scrollX, keepY));
   }
   elev.addEventListener('mousedown', e => { if (e.button !== 0) return; const [sx, sy] = elevPos(e); const h = elevHit(sx, sy); if (h) selectFromElev(h); });
   elev.addEventListener('mousemove', e => { const [sx, sy] = elevPos(e); const h = elevHit(sx, sy); elev.style.cursor = h ? 'pointer' : 'default'; elev.title = h ? (h.kind === 'tile' ? 'Click to edit this tile, right-click for options' : h.kind === 'post' ? 'Junction' : '') : ''; });
@@ -3506,6 +3583,10 @@ const BUILD='2026-09-24.11';
       <label class="check"><input type="checkbox" id="pFloor"${p.skinsToFloor ? ' checked' : ''}${p.sides[0][0].kind === 'window' || p.sides[0][0].height < 24 ? ' disabled' : ''}>Skins run to the floor (bottom skin 24" or taller)</label>
       <label class="check"><input type="checkbox" id="pTray"${p.cableTray ? ' checked' : ''}>Cable tray</label>
       <label class="check"><input type="checkbox" id="pBTray"${p.baseCableTray ? ' checked' : ''}${p.openBase || p.skinsToFloor || p.baseTrim === 'hardwire' ? ' disabled' : ''}>Base cable tray</label>
+      <div class="sec">Worksurfaces</div>
+      <div class="control"><label>Add on side A</label><div class="seg" id="pWsA">${[24, 30, 18].map(d => `<button data-d="${d}">${d}"D</button>`).join('')}</div></div>
+      <div class="control"><label>Add on side B</label><div class="seg" id="pWsB">${[24, 30, 18].map(d => `<button data-d="${d}">${d}"D</button>`).join('')}</div></div>
+      <div class="muted" style="margin:-2px 0 8px">Sized to fit this panel and supported per the guide (cantilevers, side support brackets, tie plates). For a corner worksurface, click the corner junction with Add worksurface, or right-click it.</div>
       <div class="sec">Power</div>
       <div class="control"><label>Power in panel</label><div class="seg" id="pPower"><button data-pw="none" class="${p.power.kind === 'none' ? 'on' : ''}">None</button><button data-pw="powerkit" class="${p.power.kind === 'powerkit' ? 'on' : ''}"${p.width < 24 ? ' disabled title="18 inch panels take pass-through only"' : ''}>Powerkit</button><button data-pw="passthrough" class="${p.power.kind === 'passthrough' ? 'on' : ''}">Pass-through</button></div></div>
       ${p.power.kind === 'powerkit' ? `<div class="control"><label>Location</label><div class="seg" id="pLoc"><button data-loc="base" class="${p.power.location === 'base' ? 'on' : ''}">Base</button><button data-loc="worksurface" class="${p.power.location === 'worksurface' ? 'on' : ''}">Worksurface height</button></div></div>
@@ -3533,6 +3614,7 @@ const BUILD='2026-09-24.11';
     $('#pTray').onchange = e => mutate(() => targets().forEach(q => q.cableTray = e.target.checked));
     $('#pBTray').onchange = e => mutate(() => targets().forEach(q => q.baseCableTray = e.target.checked));
     $$('#pPower button').forEach(b => b.onclick = () => setPower(targets(), b.dataset.pw, 1));
+    { const a = P.nodes[p.a], c = P.nodes[p.b]; const mx = (a.x + c.x) / 2, my = (a.y + c.y) / 2; [['#pWsA', 0], ['#pWsB', 1]].forEach(([id, side]) => $$(id + ' button').forEach(b => b.onclick = () => addStraightWs(p.id, side, mx, my, +b.dataset.d))); } // side 0 = A
     $$('#pLoc button').forEach(b => b.onclick = () => mutate(() => targets().forEach(q => q.power.location = b.dataset.loc)));
     // outlet and USB steppers step every selected powerkit by the same amount, each within its own width's capacity
     $$('.stepper', r).forEach(st => { const k = st.dataset.st; const [minus, plus] = st.querySelectorAll('button'); const f = (d) => mutate(() => targets().filter(q => q.power.kind === 'powerkit').forEach(q => { const qc = E.powerBlocksPerSide(q.width); const arr = k[0] === 'r' ? q.power.receptacles : q.power.usb; const i = +k[1]; arr[i] = Math.max(0, Math.min(qc, (arr[i] | 0) + d)); })); minus.onclick = () => f(-1); plus.onclick = () => f(1); });
@@ -4015,7 +4097,7 @@ const BUILD='2026-09-24.11';
     if (stage !== 'plan' || mod || e.altKey || $('#finishes').classList.contains('on') || $$('.modal.on').length) return;
     if (e.key === 'Delete' || e.key === 'Backspace') { e.preventDefault(); $('#bDelete').click(); }
     if (e.key === 'Tab') { e.preventDefault(); $('#rcToggle').click(); }
-    if (k === 'v') setTool('select'); if (k === 'd') setTool('draw');
+    if (k === 'v') setTool('select'); if (k === 'd') setTool('draw'); if (k === 'w') setTool('ws');
   });
   window.addEventListener('resize', sizeCanvases);
 

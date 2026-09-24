@@ -42,6 +42,14 @@ README — https://github.com/wesprojects/ANSWER
 
 - Corner junctions show their cap from above (p375): the square 90° corner cap (TS790JC) on L, T and X, the triangular 120° corner cap (TS7120JC) on V and Y. The triangle has 3" sides, so each leg's end face is one side and neighbouring legs meet at its points with no gap; a V also shows its vertical trim on the open side. Caps and trims are drawn in the job's trim finish. Frameless glass and oval top screens show as a line down the top cap.
 - `test/caps.js` checks every junction type for gaps between the panels and the cap.
+- Worksurface supports are drawn dashed under the worksurface where the spec places them: cantilevers (15 1/2" deep) and center support panels (11") from the panel face at their junctions, end panels at the front ends, side support brackets at return panels and at the rear corner of corner worksurfaces, post legs at the front corner. Tie plates are drawn at every seam. The drawn cantilevers match the UCANT quantity on the specification.
+
+## Drawing and editing
+
+- The ⊕ at a run end has a 20px hit area. Click it to add a panel straight on, the same width and height. Right-click it for the compliant directions (straight on, 90° L either side, 120° V either side) or to mark the run as starting at a wall.
+- Add worksurface (toolbar, or W): pick 24, 30 or 18"D, then click beside a panel for a straight worksurface on that side, or on an L or V junction for a corner worksurface. The panel inspector also has Worksurfaces buttons for side A and side B. Placement is fit-checked like the right-click menu.
+- Clicking a part in an elevation selects it, centres the plan on it with a pulsing highlight and keeps the page where it was.
+- `test/handle.js` and `test/elevpick.js` cover these.
 
 ## Guide corrections applied
 
