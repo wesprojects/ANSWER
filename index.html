@@ -284,7 +284,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1 title="Build 2026-09-24.9">Answer Panel Planner <span class="build">Build 2026-09-24.9</span></h1>
+    <h1 title="Build 2026-09-24.10">Answer Panel Planner <span class="build">Build 2026-09-24.10</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -436,7 +436,12 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   E.MAX_STACKERS = 2;      // p27, p86
   E.MAX_HEIGHT = 90;       // p27, p124
   E.SKIN_TRIM_ALLOWANCE = 6; // p13: skin height total = panel height - 6"
-  E.BASE_TRIM_H = 3.75; E.TOP_CAP_H = E.SKIN_TRIM_ALLOWANCE - E.BASE_TRIM_H; // the 6" of trim: base trim below the skins, top cap sitting on them
+  E.BASE_TRIM_H = 3.75; // p50
+  // the top cap snaps onto the top of the skins (p50, p88): a flat 3"-deep plate whose thin lips are all that shows on the face for thin trim, a taller rounded cap for oval (p89 figure).
+  // The guide gives no cap height; these face heights are for drawing only. Skins fill the height between the base trim and the cap; their nominal sizes still total panel height - 6" (p13).
+  // thin: 5/8" derived from the guide, not stated: actual panel height minus the end-of-run vertical trim height is 5/8" at every height
+  // (p11 54 1/4" vs p30 53 5/8"), and the trim meets the underside of the cap. oval: estimate, the guide gives no oval cap height (p89).
+  E.CAP_FACE = { thin: 0.625, oval: 1 };
   E.ACTUAL = { // p11 actual panel heights, p14 junction heights, p50 bar widths (thin)
     panelHeight: { 30: '29 1/2"', 42: '41 7/8"', 48: '48 1/16"', 54: '54 1/4"', 66: '66 19/32"', 78: '78 31/32"' },
     ovalPanelHeight: { 30: '29 3/8"', 42: '41 3/4"', 48: '47 15/16"', 54: '54 1/8"', 66: '66 15/32"', 78: '78 27/32"' },
@@ -447,7 +452,36 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   };
   // footprint adders (p14/p347 thin end-of-run trim +1/2", p15 wall-start +3/16"; p76 oval end-of-run +1", wall-start 0)
   E.FOOTPRINT = { thin: { eor: 0.5, wall: 0.1875 }, oval: { eor: 1, wall: 0 } };
-  E.JUNCTION_W = 1.5; // a junction is 3" deep and 1 1/2" along the run: the 48" panel frame is 46 1/2" between junctions (p24), two end-of-run junctions make a 3" in-line junction (p39)
+  E.JUNCTION_W = 1.5; // an in-line junction is 3" deep and 1 1/2" along the run, centered on the module line: the 48" panel frame is 46 1/2" between junctions (p24)
+  // An end-of-run junction post is 3/4" along the run and sits inside the panel's nominal width, so only its trim adds to the footprint (p14 +1/2" thin,
+  // p76 +1" oval). p39 top view (to scale along the run): a 3" in-line junction is post + block + post = 3/4" + 1 1/2" + 3/4". A wall-start junction
+  // adds 3/16" (p15, thin). Corner posts are drawn 3" square (junction depth 3", p14).
+  E.EOR_POST = 0.75;
+  E.CORNER_POST = 3;
+  // how far a junction reaches along a run from its node: in = toward its own panel, out = away from it (the run's end face, trim included)
+  E.junctionReach = function (trim, type) {
+    const fp = E.FOOTPRINT[trim] || E.FOOTPRINT.thin;
+    if (type === 'inline') return { in: E.JUNCTION_W / 2, out: E.JUNCTION_W / 2, post: [-E.JUNCTION_W / 2, E.JUNCTION_W / 2] };
+    if (type === 'EOR') return { in: E.EOR_POST, out: fp.eor, post: [-E.EOR_POST, 0], trim: [0, fp.eor] };
+    if (type === 'wall') return { in: E.EOR_POST, out: fp.wall, post: [-E.EOR_POST, fp.wall] };
+    return { in: E.CORNER_POST / 2, out: E.CORNER_POST / 2, post: [-E.CORNER_POST / 2, E.CORNER_POST / 2] };
+  };
+  // actual heights for drawing (p11 thin, p74 oval: floor to top of top cap, glides retracted); stacking junctions add 12 3/8", 18 1/2", 24 3/4" (p26, p84)
+  E.ACTUAL_H = { thin: { 30: 29.5, 42: 41.875, 48: 48.0625, 54: 54.25, 66: 66.59375, 78: 78.96875 }, oval: { 30: 29.375, 42: 41.75, 48: 47.9375, 54: 54.125, 66: 66.46875, 78: 78.84375 } };
+  E.STACK_ACTUAL = { 12: 12.375, 18: 18.5, 24: 24.75 };
+  E.actualBaseHeight = (trim, h) => (E.ACTUAL_H[trim] || E.ACTUAL_H.thin)[h] || h;
+  E.actualTop = (trim, p) => E.actualBaseHeight(trim, p.height) + (p.stack || []).reduce((a, st) => a + (E.STACK_ACTUAL[st] || st), 0);
+  E.OPEN_BASE = { height: 3.25, opening: 2.5 }; // open base trims occupy the bottom 3 1/4"; the opening is 2 1/2" high (p51, p89)
+  // frameless glass (thin): glass heights for the 12/18/24" screens (p56), clip 11 3/4" (p60); per-end clearance from the junction center:
+  // half the gap between adjacent screens (1/8" recessed p56, 1/4" clip p60); at a change-of-height end the glass stops 1/2" (recessed, 47 7/16" for 48")
+  // or 5/8" (clip, 47 1/4") from the junction center (p56, p60)
+  E.GLASS = { recessed: { heights: { 12: 9.3125, 18: 15.5, 24: 21.625 }, end: 1 / 16, cohEnd: 0.5 }, clip: { height: 11.75, end: 0.125, cohEnd: 0.625 } };
+  E.glassHeight = (g) => g.attach === 'clip' ? E.GLASS.clip.height : (E.GLASS.recessed.heights[g.height] || g.height);
+  E.TOP_SCREEN = { height: 12, inset: 1.25 }; // oval panel top screen: 12"H, 27 1/2"–45 1/2"W on 30"–48" panels, 1 1/4" in from each end (p96, p97)
+  // change-of-height trim width drawn over the lower panel: oval slim profile 1 1/8", cable-routing 2 1/4" (p80); thin: half the junction (the guide gives no width)
+  E.cohTrimWidth = (P) => P.trim === 'oval' ? (/cable/i.test((P.options || {}).ovalCohProfile || '') ? 2.25 : 1.125) : E.JUNCTION_W / 2;
+  E.WS_THICK = 1.1875; // worksurface thickness 1 3/16" (p206)
+  E.PED_INSET = 0.5;   // pedestal set in from the worksurface end, plan and elevation alike. No guide basis (drawing choice).
 
   // ---------- helpers ----------
   const HD = { 30: '3', 42: '4', 48: '8', 54: '5', 66: '6', 78: '7', 90: '9' }; // style-number height digits (p20)
@@ -455,9 +489,9 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   const sum = (a) => a.reduce((x, y) => x + y, 0);
   const uniq = (a) => [...new Set(a)];
   const inch = (n) => { // 40.5 -> 40 1/2"
-    const w = Math.floor(n + 1e-9), f = n - w;
-    const fr = { 0: '', 0.0625: ' 1/16', 0.125: ' 1/8', 0.1875: ' 3/16', 0.25: ' 1/4', 0.375: ' 3/8', 0.5: ' 1/2', 0.625: ' 5/8', 0.75: ' 3/4', 0.875: ' 7/8' };
-    let best = '', bd = 1; for (const k in fr) { const d = Math.abs(f - k); if (d < bd) { bd = d; best = fr[k]; } }
+    let w = Math.floor(n + 1e-9); const f = n - w;
+    let q = Math.round(f * 16); const bd = Math.abs(f - q / 16); if (q === 16) { w += 1; q = 0; } // nearest sixteenth, reduced (11/16, 5/16, 1/2 ...)
+    let den = 16; while (q && q % 2 === 0) { q /= 2; den /= 2; } const best = q ? ` ${q}/${den}` : '';
     if (bd >= 0.02) return n.toFixed(3) + '"';
     return (w === 0 && best ? best.trim() : `${w}${best}`) + '"';
   };
@@ -1438,8 +1472,8 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           if (p.baseTrim === 'hardwire') l.flags.push('Technology skins cannot be used with the hardwired solution (p166).');
           // p117: technology covers snap onto the powerkit, so the skin must sit in front of it (skins start above the 3 3/4" base trim, p050)
           else if (where === 'base' && p.power.kind === 'powerkit') {
-            const z0 = 4 + el, z1 = z0 + seg.height, kz = p.power.location === 'base' ? null : E.POWER_WS_ELEV;
-            if (kz === null || kz < z0 || kz >= z1) { const msg = `Side ${'AB'[si]}: the technology skin (${z0}"–${z1}" above the floor) is not in front of the powerkit (${kz === null ? 'in the base' : `at worksurface height, about ${kz}"`}). Technology covers snap onto the powerkit (p117): move the technology skin to the powerkit or the powerkit behind it (p163).`; l.flags.push(msg); warn.push({ panel: ctx, msg }); }
+            const z0 = E.BASE_TRIM_H + el, z1 = z0 + seg.height, kz = p.power.location === 'base' ? null : E.POWER_WS_ELEV;
+            if (kz === null || kz < z0 || kz >= z1) { const msg = `Side ${'AB'[si]}: the technology skin (${inch(z0)}–${inch(z1)} above the floor) is not in front of the powerkit (${kz === null ? 'in the base' : `at worksurface height, about ${kz}"`}). Technology covers snap onto the powerkit (p117): move the technology skin to the powerkit or the powerkit behind it (p163).`; l.flags.push(msg); warn.push({ panel: ctx, msg }); }
           }
         }
       }
@@ -1733,7 +1767,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
   // ---------- planner helpers ----------
   E.ftin = function (n) { // 78 -> 6'-6"
-    const neg = n < 0; n = Math.abs(n); const ft = Math.floor(n / 12); let i = n - ft * 12; const s = i % 1 ? inch(i) : `${i}"`;
+    const neg = n < 0; n = Math.abs(n); const ft = Math.floor(n / 12); let i = n - ft * 12; let s = i % 1 ? inch(i) : `${i}"`; if (ft && i > 0 && i < 1 && /^\d+\/\d+"$/.test(s)) s = '0 ' + s; // 4'-0 1/2", not 4'-1/2"
     return (neg ? '-' : '') + (ft ? `${ft}'-${s}` : s);
   };
   // split a run length into standard panel widths. pref: 'auto' or a width. Returns {widths, length}
@@ -1972,7 +2006,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   // p552-553 (legs), p608-614 (pedestals), p610 (fillers)
   // =====================================================================================
   E.WS_HEIGHT = 28.5;                 // seated worksurface height with 27"H fixed pedestals (p272, p547)
-  E.WS_DEPTHS = [24, 30, 18, 36]; // 36"D straights come 60, 66 and 72"W with the cord drop only (p507)
+  E.WS_DEPTHS = [24, 30, 18]; // panel-mounted depths. 36"D (35 1/2") straights are freestanding only (p508 tip): not offered on panels
   E.WS_EDGES = { '3mm': 'Plastic 3 mm edge', P: 'Plastic P-edge', SW: 'Wood square edge', K: 'Plastic knife edge' };
   E.WS_SPAN_MAX = 54;                 // supports at least every 54" (p208, p217)
   E.PED_W = 15;
@@ -2009,7 +2043,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   E.addPedestal = function (P, ws, spec) { const id = 'D' + (P.seq++); const d = Object.assign({ id, at: 'hi', type: 'fixed', config: 'A', front: 'F', pull: 'contemporary', pullColor: '9201' }, spec); ws.peds = ws.peds || []; ws.peds = ws.peds.filter(x => x.at !== d.at); ws.peds.push(d); return d; };
   E.removePedestal = function (P, ws, id) { ws.peds = (ws.peds || []).filter(x => x.id !== id); };
   // widths a straight worksurface can be at a given place on a run (limited by the run and by the catalog)
-  E.wsWidths = function (P, ws) { const rows = rowsOf('uw-straight').filter(r => r.attrs.depth === wsDepthActual(ws.depth, ws.construction)); const ws_ = [...new Set(rows.map(r => r.attrs.width))].sort((a, b) => a - b); const run = ws.panel ? E.runOf(P, ws.panel) : null; if (!run) return ws_; const host = run.panels.find(r => r.id === ws.panel); const from = host.from + ws.off; return ws_.filter(w => from + w <= run.length + POST_HALF + 0.01); };
+  E.wsWidths = function (P, ws) { const rows = rowsOf('uw-straight').filter(r => r.attrs.depth === wsDepthActual(ws.depth, ws.construction)); const ws_ = [...new Set(rows.map(r => r.attrs.width))].sort((a, b) => a - b); const run = ws.panel ? E.runOf(P, ws.panel) : null; if (!run) return ws_; const host = run.panels.find(r => r.id === ws.panel); const from = host.from + ws.off; const al = E.runEndAllow(P, run); return ws_.filter(w => from + w <= run.length + al.hi + 0.01); };
   function wsDepthActual(d, construction) { return construction === 'full-depth' ? ({ 18: 18.875, 24: 24, 30: 30, 36: 36 })[d] : ({ 18: 18.375, 24: 23.5, 30: 29.5, 36: 35.5 })[d]; }
   E.wsDepthActual = wsDepthActual;
   // plan geometry. A 1/2" cord-drop worksurface is 1/2" shallower than the full-depth one and sits on the same supports: the 1/2" is left
@@ -2060,6 +2094,11 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     return { kind: ws.kind, poly, outline, curveAt, o, back: h, arms: [{ end: A1, base: base1, dir: d1, n: n1, panel: p1, len: C, depth: dA, depth0: wsDepthActual(ws.depthA, ws.construction), front: F1 }, { end: A2, base: base2, dir: d2, n: n2, panel: p2, len: D, depth: dB, depth0: wsDepthActual(ws.depthB, ws.construction), front: F2 }], inner, curve: [S1, inner, S2], cove };
   };
   const POST_HALF = 1.5;
+  // how far a worksurface may run past the end node of its run: over a corner post to its face; to the trim face at an end of run; to the wall at a wall start
+  // (end of run: 1 1/2", the offset a worksurface wrapped at a corner post face carries to the far end while corner legs start at the corner node;
+  // the trim face itself is only FOOTPRINT.eor past the node, p14)
+  function runEndAllow(P, nid) { const n = P.nodes[nid]; const J = n ? E.junction(P, n) : null; const t = J && J.type; return t === 'wall' ? E.FOOTPRINT[P.trim].wall : POST_HALF; }
+  E.runEndAllow = (P, run) => ({ lo: runEndAllow(P, run.startNode), hi: runEndAllow(P, run.endNode) });
   const ON_JUNCTION = 1.6; // an on-module support engages the junction uprights (p216): its worksurface end lines up with the junction center, within the 1 1/2" post face (p14)
   const SEAM_TOL = 0.6;    // two ends butt at a seam: no more than this apart, same side, facing each other
   function dist(a, b) { return Math.hypot(a[0] - b[0], a[1] - b[1]); }
@@ -2203,14 +2242,15 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           else if (rc) { const c = Line('Supports', 1, rc, BYID['uw-reinforcing-channels'], `Reinforcing channel ${rc.attrs.width}"W for ${ws.width}"W worksurface`, 'black', { src: ctx }); c.notes.push(`Unsupported span of ${span}" is over ${knife ? '48" (knife edge)' : '54"'}. The channel allows 60" for heavy loads or 72" for light loads (p208). A pedestal or center support panel under the worksurface is the alternative.`); lines.push(c); }
           else warn.push({ panel: ws.id, msg: `${wsName(ws)}: ${span}" unsupported span and the guide lists no reinforcing channel for a ${ws.width}"W worksurface (p208, p546). Add a pedestal or center support under it.` });
         }
-        if (g.from < -POST_HALF - 0.01 || g.to > g.run.length + POST_HALF + 0.01) errors.push({ panel: ws.id, msg: `${wsName(ws)} runs past the end of its panel run. Slide it or shorten it.` });
+        if (ws.depth === 36) errors.push({ panel: ws.id, msg: `${wsName(ws)}: 35 1/2"D worksurfaces can only be used in freestanding applications (p508 tip). Use 30"D or less on panels.` });
+        { const al = E.runEndAllow(P, g.run); if (g.from < -al.lo - 0.01 || g.to > g.run.length + al.hi + 0.01) errors.push({ panel: ws.id, msg: `${wsName(ws)} runs past the end of its panel run. Slide it or shorten it.` }); }
       } else {
         // corner worksurfaces: rear corner takes one side support bracket, each arm end a cantilever unless shared (p217, p545 tip); junctions under a long arm take a cantilever before a channel is needed (p208)
         ssbSingles += 1; ssbWhere.push(wsName(ws) + ' rear corner');
         const node = P.nodes[ws.node];
         g.arms.forEach((a, i) => {
           const runA = E.runOf(P, a.panel.id); const along = E.runOffset(runA, a.base[0], a.base[1]);
-          if (along > runA.length + POST_HALF + 0.01 || along < -POST_HALF - 0.01) errors.push({ panel: ws.id, msg: `${wsName(ws)}: the ${a.len}" ${ws._armNames[i]} runs past the ${a.panel.id} run.` });
+          const alA = E.runEndAllow(P, runA); if (along > runA.length + alA.hi + 0.01 || along < -alA.lo - 0.01) errors.push({ panel: ws.id, msg: `${wsName(ws)}: the ${a.len}" ${ws._armNames[i]} runs past the ${a.panel.id} run.` });
           const posEnd = a.len - (resolved['arm' + i] === 'pedestal' ? E.PED_W : 0);
           const t0 = E.runOffset(runA, node.x, node.y), sg = dot(a.dir, runA.dir) > 0 ? 1 : -1;
           const js = [0, ...runA.panels.map(r => r.to)].map(x => (x - t0) * sg).filter(t => t > 3.2 && t < posEnd - 3.2).sort((p, q) => p - q);
@@ -2391,7 +2431,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   // ---------- DXF export (AutoCAD R12 ASCII, inches, y up) ----------
   // Layers follow the AIA style CAP users expect. Every element carries its style number as TEXT so a CAP
   // planner can drop the matching symbol on it; true CAP symbol tagging is added once a CAP export shows its block format.
-  // pedestal footprint: 15" wide at one end, 1/2" in from it. Its front lines up with the worksurface's full-depth front edge: a proud front
+  // pedestal footprint: 15" wide at one end, E.PED_INSET (1/2", no guide basis) in from it. Its front lines up with the worksurface's full-depth front edge: a proud front
   // matches the cord-drop worksurface depth and a flush front is 7/8" shorter, and the filler takes up the gap behind (1/2" proud, 1 3/8" flush) (p273, p610)
   E.pedRect = function (P, ws, g, d) {
     const wd = g.kind === 'straight' ? ws.depth : d.at === 'arm1' ? ws.depthB : ws.depthA;
@@ -2401,7 +2441,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     if (g.kind === 'straight') { inward = d.at === 'lo' ? g.dir : [-g.dir[0], -g.dir[1]]; s0 = d.at === 'lo' ? g.lo : g.hi; n = g.n; }
     else { const arm = g.arms[d.at === 'arm1' ? 1 : 0]; inward = [-arm.dir[0], -arm.dir[1]]; s0 = arm.end; n = arm.n; }
     const back = frontAt - dep - gap; // measured from the worksurface's back edge
-    const a = [s0[0] + inward[0] * 0.5 + n[0] * back, s0[1] + inward[1] * 0.5 + n[1] * back], b = [a[0] + inward[0] * E.PED_W, a[1] + inward[1] * E.PED_W];
+    const a = [s0[0] + inward[0] * E.PED_INSET + n[0] * back, s0[1] + inward[1] * E.PED_INSET + n[1] * back], b = [a[0] + inward[0] * E.PED_W, a[1] + inward[1] * E.PED_W];
     return [a, b, [b[0] + n[0] * dep, b[1] + n[1] * dep], [a[0] + n[0] * dep, a[1] + n[1] * dep]];
   };
   E.toDXF = function (P, res, opts) {
@@ -2423,7 +2463,9 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const styleOf = (src, cat) => { const l = (res.lines || []).find(x => x.src === src && (!cat || x.cat === cat) && x.style && x.style !== '—'); return l ? l.style : ''; };
     for (const p of Object.values(P.panels)) {
       const a = P.nodes[p.a], b = P.nodes[p.b]; const L = Math.hypot(b.x - a.x, b.y - a.y) || 1; const d = [(b.x - a.x) / L, (b.y - a.y) / L], n = [-d[1], d[0]];
-      const s = [a.x + d[0] * 1.5, a.y + d[1] * 1.5], e = [b.x - d[0] * 1.5, b.y - d[1] * 1.5];
+      // panel body between the junction posts, as on the plan: in-line 3/4" either side of the node, end of run / wall start 3/4" inside it, corners 1 1/2"
+      const reach = (nid) => { const J = res.nodes && res.nodes[nid]; return E.junctionReach(P.trim, J && J.legs && J.legs.length ? J.type : 'L').in; };
+      const s = [a.x + d[0] * reach(p.a), a.y + d[1] * reach(p.a)], e = [b.x - d[0] * reach(p.b), b.y - d[1] * reach(p.b)];
       const pts = [[s[0] + n[0] * H / 2, s[1] + n[1] * H / 2], [e[0] + n[0] * H / 2, e[1] + n[1] * H / 2], [e[0] - n[0] * H / 2, e[1] - n[1] * H / 2], [s[0] - n[0] * H / 2, s[1] - n[1] * H / 2]];
       poly('A-PANEL-' + p.height, pts, true);
       let ang = Math.atan2(d[1], d[0]) * 180 / Math.PI; if (ang > 90 || ang <= -90) ang += 180;
@@ -2432,7 +2474,11 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     }
     for (const n of Object.values(P.nodes)) {
       const J = res.nodes && res.nodes[n.id]; if (!J || !J.legs || !J.legs.length) continue;
-      if (J.family === 120) circle('A-JUNCTION', [n.x, n.y], 1.5);
+      if (['inline', 'EOR', 'wall'].includes(J.type)) { // straight junctions: the post (and the finished end's trim) along the leg direction, 3" deep
+        const ang = (J.type === 'inline' ? J.legs[0].angle : J.legs[0].angle + 180) * Math.PI / 180, u = [Math.cos(ang), Math.sin(ang)], v = [-u[1], u[0]];
+        const rect = (a0, a1) => [[a0, -1.5], [a1, -1.5], [a1, 1.5], [a0, 1.5]].map(([x, y]) => [n.x + u[0] * x + v[0] * y, n.y + u[1] * x + v[1] * y]);
+        const R = E.junctionReach(P.trim, J.type); poly('A-JUNCTION', rect(R.post[0], R.post[1]), true); if (R.trim) poly('A-JUNCTION', rect(R.trim[0], R.trim[1]), true);
+      } else if (J.family === 120) circle('A-JUNCTION', [n.x, n.y], 1.5);
       else { const rot = (J.legs[0].angle % 90) * Math.PI / 180; const c = Math.cos(rot), s = Math.sin(rot); const q = [[-1.5, -1.5], [1.5, -1.5], [1.5, 1.5], [-1.5, 1.5]].map(([x, y]) => [n.x + x * c - y * s, n.y + x * s + y * c]); poly('A-JUNCTION', q, true); }
       text('A-TEXT', [n.x + 2.5, n.y + 2.5], 1.5, `${n.id} ${J.type} ${styleOf(n.id, 'Junction')}`, 0, false);
     }
@@ -2461,7 +2507,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.9';
+const BUILD='2026-09-24.10';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -2580,11 +2626,12 @@ const BUILD='2026-09-24.9';
   }
   function panelRect(p) { const a = P.nodes[p.a], b = P.nodes[p.b]; return { a, b, ang: Math.atan2(b.y - a.y, b.x - a.x) }; }
   const POST = 3; // junctions are 3" deep (p14); a corner post is 3" square
-  const JW = E.JUNCTION_W; // an in-line or end-of-run junction is 1 1/2" along the run: a 48" panel's frame is 46 1/2" between junctions (p24), two end-of-run junctions make the 3" in-line junction (p39)
+  const JW = E.JUNCTION_W; // an in-line junction is 1 1/2" along the run, centered on the node (p24); an end-of-run post is 3/4", inside the panel's nominal width (p14, p39): see E.junctionReach
   function drawPanelShape(c, p, offset, fill, stroke, lw) {
     const { a, b, ang } = panelRect(p); const t = POST * view.s / 2; const nx = -Math.sin(ang) * t, ny = Math.cos(ang) * t;
-    // skins extend onto straight junctions and meet the next panel's skin at the junction centre (p16); at a run end or wall start they cover the whole junction (p14, p15); at a corner they stop at the post
-    const ext = (nid) => { const J = R && R.nodes[nid]; return !J || !J.legs ? -JW / 2 : J.type === 'inline' ? 0 : (J.type === 'EOR' || J.type === 'wall') ? JW / 2 : -POST / 2; };
+    // skins extend onto straight junctions and meet the next panel's skin at the junction centre (p16); at a run end or wall start they cover the post, which lies
+    // inside the nominal width, up to the node (the trim or wall-start face is beyond it, p14, p15); at a corner they stop at the post
+    const ext = (nid) => { const J = R && R.nodes[nid]; return !J || !J.legs ? -JW / 2 : (J.type === 'inline' || J.type === 'EOR' || J.type === 'wall') ? 0 : -POST / 2; };
     const ea = ext(p.a), eb = ext(p.b); const ux = Math.cos(ang), uy = Math.sin(ang);
     const pts = [[a.x + offset[0] - ux * ea, a.y + offset[1] - uy * ea], [b.x + offset[0] + ux * eb, b.y + offset[1] + uy * eb]].map(([x, y]) => toS(x, y));
     const [x1, y1] = pts[0], [x2, y2] = pts[1];
@@ -2598,7 +2645,8 @@ const BUILD='2026-09-24.9';
     if (J && J.legs && ['inline', 'EOR', 'wall'].includes(J.type) && !bad) {
       const a = J.legs[0].angle * Math.PI / 180, ux = Math.cos(a), uy = -Math.sin(a), nx = -uy, ny = ux;
       if (J.type === 'inline') { c.beginPath(); c.moveTo(x + nx * h, y + ny * h); c.lineTo(x - nx * h, y - ny * h); c.lineWidth = 1.2; c.strokeStyle = '#424244'; c.stroke(); }
-      if (on) { const f = JW / 2 * view.s; c.beginPath(); [[-f, -h], [f, -h], [f, h], [-f, h]].forEach(([u, v], i) => { const px = x + ux * u + nx * v, py = y + uy * u + ny * v; i ? c.lineTo(px, py) : c.moveTo(px, py); }); c.closePath(); c.lineWidth = 2; c.strokeStyle = '#416180'; c.stroke(); }
+      if (J.type === 'wall' && E.FOOTPRINT[P.trim].wall) { const o = (J.legs[0].angle + 180) * Math.PI / 180, wx = Math.cos(o), wy = -Math.sin(o), f = E.FOOTPRINT[P.trim].wall * view.s; c.beginPath(); [[0, -h], [f, -h], [f, h], [0, h]].forEach(([u, v], i) => { const px = x + wx * u - wy * v, py = y + wy * u + wx * v; i ? c.lineTo(px, py) : c.moveTo(px, py); }); c.closePath(); c.fillStyle = '#424244'; c.fill(); } // wall-start junction face, 3/16" beyond the node (p15)
+      if (on) { const Rj = E.junctionReach(P.trim, J.type), sg = J.type === 'inline' ? 1 : -1, f0 = Rj.post[0] * sg * view.s, f1 = (J.type === 'EOR' ? Rj.trim[1] : Rj.post[1]) * sg * view.s; c.beginPath(); [[f0, -h], [f1, -h], [f1, h], [f0, h]].forEach(([u, v], i) => { const px = x + ux * u + nx * v, py = y + uy * u + ny * v; i ? c.lineTo(px, py) : c.moveTo(px, py); }); c.closePath(); c.lineWidth = 2; c.strokeStyle = '#416180'; c.stroke(); }
       if (J.type === 'EOR') drawEndTrim(c, x, y, J, h);
       return;
     }
@@ -2609,7 +2657,7 @@ const BUILD='2026-09-24.9';
     // finished end: the end-of-run vertical trim over the exposed face of the post, 1/2" thin (p14, p347) or 1" oval with its rounded profile (p76)
   function drawEndTrim(c, x, y, J, h) {
     const t = E.FOOTPRINT[P.trim].eor * view.s, a = (J.legs[0].angle + 180) * Math.PI / 180, ux = Math.cos(a), uy = -Math.sin(a), nx = -uy, ny = ux;
-    const at = (u, v) => [x + ux * u + nx * v, y + uy * u + ny * v], f = JW / 2 * view.s; // f: the post's end face
+    const at = (u, v) => [x + ux * u + nx * v, y + uy * u + ny * v], f = 0; // f: the post's end face, on the node (the post is inside the nominal width, p14, p39)
     c.beginPath(); const p0 = at(f, -h), p1 = at(f + (P.trim === 'oval' ? 0 : t), -h), p2 = at(f + (P.trim === 'oval' ? 0 : t), h), p3 = at(f, h); c.moveTo(...p0); c.lineTo(...p1);
     if (P.trim === 'oval') { const cc = at(f, 0); c.ellipse(cc[0], cc[1], t, h, Math.atan2(uy, ux), -Math.PI / 2, Math.PI / 2); } else c.lineTo(...p2);
     c.lineTo(...p3); c.closePath(); c.fillStyle = '#5d5d60'; c.fill(); c.lineWidth = 1; c.strokeStyle = '#424244'; c.stroke();
@@ -2701,7 +2749,7 @@ const BUILD='2026-09-24.9';
     // draw preview
     if (draw && draw.widths) {
       let x = draw.x0, y = draw.y0; const dx = Math.cos(draw.ang), dy = Math.sin(draw.ang);
-      for (const wdt of draw.widths) { const [ax, ay] = toS(x + dx * POST / 2, y + dy * POST / 2), [bx, by] = toS(x + dx * (wdt - POST / 2), y + dy * (wdt - POST / 2)); const t = 3 * view.s / 2; const nx = -Math.sin(draw.ang) * t, ny = Math.cos(draw.ang) * t; ctx.beginPath(); ctx.moveTo(ax + nx, ay - ny); ctx.lineTo(bx + nx, by - ny); ctx.lineTo(bx - nx, by + ny); ctx.lineTo(ax - nx, ay + ny); ctx.closePath(); ctx.fillStyle = 'rgba(89,128,166,.25)'; ctx.fill(); ctx.strokeStyle = '#5980a6'; ctx.setLineDash([4, 3]); ctx.stroke(); ctx.setLineDash([]); ctx.fillStyle = '#416180'; ctx.font = '12px Barlow, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`${wdt}"`, (ax + bx) / 2, (ay + by) / 2 - t - 4); x += dx * wdt; y += dy * wdt; }
+      for (const wdt of draw.widths) { const [ax, ay] = toS(x + dx * JW / 2, y + dy * JW / 2), [bx, by] = toS(x + dx * (wdt - JW / 2), y + dy * (wdt - JW / 2)); const t = 3 * view.s / 2; const nx = -Math.sin(draw.ang) * t, ny = Math.cos(draw.ang) * t; ctx.beginPath(); ctx.moveTo(ax + nx, ay - ny); ctx.lineTo(bx + nx, by - ny); ctx.lineTo(bx - nx, by + ny); ctx.lineTo(ax - nx, ay + ny); ctx.closePath(); ctx.fillStyle = 'rgba(89,128,166,.25)'; ctx.fill(); ctx.strokeStyle = '#5980a6'; ctx.setLineDash([4, 3]); ctx.stroke(); ctx.setLineDash([]); ctx.fillStyle = '#416180'; ctx.font = '12px Barlow, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`${wdt}"`, (ax + bx) / 2, (ay + by) / 2 - t - 4); x += dx * wdt; y += dy * wdt; }
       const [ex, ey] = toS(x, y); ctx.fillStyle = '#1d1f20'; ctx.font = '600 13px Barlow, sans-serif'; ctx.fillText(`${E.ftin(draw.len)} · ${draw.widths.length} panel${draw.widths.length === 1 ? '' : 's'}`, ex, ey - 16);
     }
     if (placing && placing.ghost) { const [gx, gy] = placing.ghost; ctx.save(); ctx.globalAlpha = .45; for (const p of Object.values(placing.T.panels)) { const a = placing.T.nodes[p.a], b = placing.T.nodes[p.b]; const [x1, y1] = toS(a.x + gx, a.y + gy), [x2, y2] = toS(b.x + gx, b.y + gy); ctx.lineWidth = 3 * view.s; ctx.strokeStyle = '#5980a6'; ctx.beginPath(); ctx.moveTo(x1, y1); ctx.lineTo(x2, y2); ctx.stroke(); } ctx.restore(); }
@@ -2757,13 +2805,16 @@ const BUILD='2026-09-24.9';
   function snapWsOff(ws, off) {
     const run = E.runOf(P, ws.panel); const host = run.panels.find(r => r.id === ws.panel); const toRun = (o) => host.from + o; const fromRun = (t) => t - host.from;
     const cands = [];
-    for (const r of run.panels) { cands.push(r.from, r.from + 1.5, r.to, r.to - 1.5, r.to - ws.width, r.to - 1.5 - ws.width); }
+    // seams, and the post faces a worksurface may butt: 1 1/2" off a corner node (3" post); none at in-line or end-of-run nodes (the skins cover those posts)
+    const face = (nid) => { const J = R && R.nodes[nid]; return J && J.legs && !['inline', 'EOR', 'wall'].includes(J.type) ? POST / 2 : 0; };
+    const nodeAt = (t) => { const r = run.panels.find(q => Math.abs(q.from - t) < 0.01) || run.panels.find(q => Math.abs(q.to - t) < 0.01); if (!r) return null; const atFrom = Math.abs(r.from - t) < 0.01; return (atFrom !== r.flip) ? r.panel.a : r.panel.b; };
+    for (const r of run.panels) { const fa = face(nodeAt(r.from)), fb = face(nodeAt(r.to)); cands.push(r.from, r.to, r.to - ws.width); if (fa) cands.push(r.from + fa); if (fb) cands.push(r.to - fb, r.to - fb - ws.width); }
     cands.push(...lJointStarts(ws, run));
     for (const o of Object.values(P.worksurfaces)) { if (o.id === ws.id) continue; const sp = o.kind === 'straight' ? E.wsSpanInRun(P, o, run) : null; if (sp && sp.side === ws.side) { cands.push(sp.to, sp.from - ws.width); } if (o.kind !== 'straight') { const g = E.wsGeometry(P, o); if (g) for (const a of g.arms) { const t = E.runOffset(run, a.end[0], a.end[1]); const along = Math.abs(a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1]) > .99; if (along) { const out = a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1] > 0; cands.push(out ? t : t - ws.width); } } } }
     const t = toRun(off); let best = null, bd = 9;
     for (const cnd of cands) { const d = Math.abs(cnd - t); if (d < bd) { bd = d; best = cnd; } }
     const snapped = best !== null ? best : Math.round(t / GRID) * GRID;
-    const lo = -1.5, hi = run.length + 1.5 - ws.width; const clamped = Math.max(lo, Math.min(hi, snapped));
+    const al = E.runEndAllow(P, run), lo = -al.lo, hi = run.length + al.hi - ws.width; const clamped = Math.max(lo, Math.min(hi, snapped));
     return { off: fromRun(clamped), snapped: best !== null };
   }
   // run offsets where a straight worksurface on this run starts (or ends) against the front edge of a perpendicular straight worksurface: an L-configuration (p209 tip, p226)
@@ -2881,7 +2932,7 @@ const BUILD='2026-09-24.9';
   function setStraightDepth(ws, d) {
     const cands = [...E.wsWidths(P, Object.assign({}, ws, { depth: d }))].sort((a, b) => Math.abs(a - ws.width) - Math.abs(b - ws.width) || b - a);
     const w = cands.find(x => !trialWs(ws, () => { ws.depth = d; ws.width = x; }).length);
-    if (w === undefined) { toast(`No ${d}"D worksurface fits here${d === 36 ? ' (36"D comes 60, 66 and 72"W, p507)' : ''}: it would miss a junction or run into a panel or another worksurface. Nothing changed.`); return; }
+    if (w === undefined) { toast(`No ${d}"D worksurface fits here: it would miss a junction or run into a panel or another worksurface. Nothing changed.`); return; }
     mutate(() => { ws.depth = d; ws.width = w; }); toast(`Now ${w}"W × ${d}"D.`);
   }
   function swapLongArm(ws) {
@@ -2912,7 +2963,7 @@ const BUILD='2026-09-24.9';
     if (findStraight(pid, side, t, depth, false).width) mutate(() => { const r = findStraight(pid, side, t, depth, true); placed = r.ws; if (placed) { selWs = placed.id; selPed = null; sel = new Set(); selNode = null; } });
     if (placed) { toast(`${depth}"D × ${placed.width}"W worksurface added${placed.width < p.width ? ' to clear the neighboring panel or worksurface' : ''}. Drag it along the run, right-click for pedestals.`); return; }
     // say what does fit here instead
-    const others = [24, 30, 18, 36].filter(d => d !== depth).map(d => [d, findStraight(pid, side, t, d, false)]).filter(([, r]) => r.width);
+    const others = E.WS_DEPTHS.filter(d => d !== depth).map(d => [d, findStraight(pid, side, t, d, false)]).filter(([, r]) => r.width);
     const loose = findStraight(pid, side, t, depth, false).loose;
     const parts = [`No ${depth}"D worksurface fits on side ${side === 0 ? 'A' : 'B'} of ${pn(pid)}.`];
     if (others.length) parts.push(`What fits here: ${others.map(([d, r]) => `${r.width}"W × ${d}"D`).join(', ')} (right-click › Add worksurface on this side).`);
@@ -3003,7 +3054,7 @@ const BUILD='2026-09-24.9';
       const p = P.panels[h.id]; const side = wsSideOfClick(p, wx, wy); const Ja = R.nodes[p.a], Jb = R.nodes[p.b];
       const ends = [[p.a, Ja], [p.b, Jb]].filter(([nid, J]) => J && J.legs.length === 1);
       return [{ head: `${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · side ${side === 0 ? 'A' : 'B'}` },
-        { label: 'Add worksurface on this side', children: [{ label: '24"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 24) }, { label: '30"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 30) }, { label: '18"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 18) }, { label: '36"D worksurface (60–72"W)', run: () => addStraightWs(p.id, side, wx, wy, 36) }] },
+        { label: 'Add worksurface on this side', children: [{ label: '24"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 24) }, { label: '30"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 30) }, { label: '18"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 18) }] }, // 36"D (35 1/2") straights are freestanding only (p508 tip)
         { label: 'Continue the run', dis: !ends.length, children: ends.map(([nid, J]) => ({ label: `Add ${extW(p)}" × ${extH(p)}" panel at ${jn(nid)}`, run: () => guardedMutate(() => { const l = J.legs[0]; const q = E.addPanel(P, P.nodes[nid], (l.angle + 180) % 360, extW(p), extH(p)); extPanel(p, q); sel = new Set([q.id]); selNode = null; selWs = null; }, 'Panel not added') })) },
         { label: 'Height', children: E.HEIGHTS.map(hh => ({ label: `${hh}"${hh === p.height ? '  ✓' : ''}`, run: () => setHeights(targetsOf(p), hh) })) },
         { label: 'Width', children: E.WIDTHS.map(ww => ({ label: `${ww}"${ww === p.width ? '  ✓' : ''}`, run: () => setWidths(targetsOf(p), ww) })) },
@@ -3164,65 +3215,91 @@ const BUILD='2026-09-24.9';
     const run = E.runOf(P, chain[0].id); const rev = chain.length > 1 && run.panels[0].id !== chain[0].id;
     const entries = (rev ? run.panels.slice().reverse() : run.panels).filter(r => chain.some(p => p.id === r.id)); // chain order
     const faceOf = (r) => (r.flip === rev) ? side : 1 - side; // physical side index of this panel that faces the viewer
-    const totalW = sum(chain.map(p => p.width)) + JW; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? (p.glassScreen.attach === 'clip' ? 12 : p.glassScreen.height) : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(postH)); // a taller neighbor at an end junction raises its post
-    const pad = 30; const s = opts.fixedScale || Math.min((w - 2 * pad) / totalW, (h - pad - 52) / maxH); const y0 = h - 46; const padL = pad + Math.max(0, (w - 2 * pad - totalW * s) / 2); let x = padL + JW * s;
     const seq = side === 0 ? entries : entries.slice().reverse();
+    // junctions in viewing order, left to right: every panel's far node follows its near node
+    const farOf = (r) => ((side === 0) === (r.flip === rev)) ? r.panel.b : r.panel.a, nearOf = (r) => ((side === 0) === (r.flip === rev)) ? r.panel.a : r.panel.b;
+    const nodes = [nearOf(seq[0]), ...seq.map(farOf)];
+    const Jof = (nid) => R && R.nodes[nid] && R.nodes[nid].legs && R.nodes[nid].legs.length ? R.nodes[nid] : null;
+    const typeOf = (nid) => { const J = Jof(nid); return J ? J.type : 'L'; }, straightJ = (nid) => ['inline', 'EOR', 'wall'].includes(typeOf(nid));
+    const reach = (nid) => E.junctionReach(P.trim, typeOf(nid));
+    const capF = E.CAP_FACE[P.trim] || 0.625, fp = E.FOOTPRINT[P.trim];
+    const topOf = (p) => E.actualTop(P.trim, P.panels[p.id] || p); // actual floor-to-top-of-cap height (p11, p74; stackers p26)
+    const legTops = (nid) => { const J = Jof(nid); return J ? J.legs.map(l => topOf(l.panel)) : []; };
+    const jTop = (nid) => { const t = legTops(nid); return t.length ? Math.max(...t) : 0; };
+    // overall length by the footprint rules: nominal widths, plus end-of-run trim (1/2" thin, 1" oval, p14, p76) or wall start (3/16", p15) at each end; a corner end shows half its 3" post
+    const sumW = sum(chain.map(p => p.width)), outL = reach(nodes[0]).out, outR = reach(nodes[nodes.length - 1]).out, totalW = sumW + outL + outR;
+    const glassH = (p) => p.glassScreen && P.trim === 'thin' ? E.glassHeight(p.glassScreen) : 0;
+    const maxH = Math.max(...chain.map(p => topOf(p) + glassH(p) + (p.topScreen ? E.TOP_SCREEN.height : 0)), ...nodes.map(jTop));
+    const pad = 30; const s = opts.fixedScale || Math.min((w - 2 * pad) / totalW, (h - pad - 52) / maxH); const y0 = h - 46; const padL = pad + Math.max(0, (w - 2 * pad - totalW * s) / 2);
+    const X0 = padL + outL * s; const nodeX = [X0]; for (const r of seq) nodeX.push(nodeX[nodeX.length - 1] + r.panel.width * s);
     const hit = (o) => { if (hits) hits.push(o); };
     cx.font = '11px Barlow, sans-serif';
     const selTile = opts.selTile; // {pid, key, i}
-    const first = seq[0]; const firstFwd = (first.flip === rev); const nid0 = (side === 0) === firstFwd ? first.panel.a : first.panel.b; const J0 = R.nodes[nid0]; const jh0 = J0 && J0.legs ? Math.max(...J0.legs.map(l => l.total)) : first.panel.height;
-    const postX = [[padL, padL + JW * s]]; let lastPost = null, prevJ = J0;
-    const elevPost = (px, J, jh, leftH) => { // corner post: exposed full height; straight junction: under the skins, showing only the slotted channel and any part above the lower panel (change of height)
-      const straight = J && J.legs && ['inline', 'EOR', 'wall'].includes(J.type); const low = straight ? Math.min(...J.legs.map(l => l.total)) : 0;
-      if (!straight) { cx.fillStyle = '#e7e7ea'; cx.fillRect(px, y0 - jh * s, JW * s, jh * s); cx.strokeStyle = '#7a7a7d'; cx.lineWidth = 1; cx.strokeRect(px, y0 - jh * s, JW * s, jh * s); return; }
-      if (jh > low) { const lx = leftH !== undefined && leftH > low ? px + JW / 2 * s : px; cx.fillStyle = '#5d5d60'; cx.fillRect(lx, y0 - jh * s, JW / 2 * s, (jh - low) * s); } // end-of-run/in-line change-of-height trim over the lower panel's half, its top level with the top cap (p18)
-      if (J.type === 'inline') { cx.strokeStyle = '#424244'; cx.lineWidth = 1.2; cx.beginPath(); cx.moveTo(px + JW / 2 * s, y0); cx.lineTo(px + JW / 2 * s, y0 - low * s); cx.stroke(); }
+    const postX = [];
+    const drawPost = (i) => { // junction at nodes[i]: corner posts exposed and 3" wide; straight junctions under the skins (slotted channel, change-of-height trim, finished end)
+      const nid = nodes[i], xn = nodeX[i], J = Jof(nid), t = typeOf(nid), Rj = reach(nid); const tops = legTops(nid); const top = tops.length ? Math.max(...tops) : 0, low = tops.length ? Math.min(...tops) : 0;
+      const dirOut = i === 0 ? -1 : 1; // outward direction at a run end
+      // post extents on screen: in-line and corner posts are symmetric; an end-of-run post lies inward of its node (to the right at the left end)
+      let x0 = t === 'EOR' ? (dirOut < 0 ? xn : xn - E.EOR_POST * s) : xn + Rj.post[0] * s, x1 = t === 'EOR' ? (dirOut < 0 ? xn + E.EOR_POST * s : xn) : xn + Rj.post[1] * s;
+      if (t === 'inline') {
+        cx.strokeStyle = '#424244'; cx.lineWidth = 1.2; cx.beginPath(); cx.moveTo(xn, y0); cx.lineTo(xn, y0 - (low - capF) * s); cx.stroke();
+        if (top > low + 0.01) { // change-of-height trim over the lower panel, its top level with the taller top cap (p18); oval 1 1/8" slim / 2 1/4" cable routing (p80)
+          const wT = E.cohTrimWidth(P) * s, leftTall = topOf(seq[i - 1].panel) > low + 0.01; const lx = leftTall ? xn : xn - wT;
+          cx.fillStyle = '#5d5d60'; cx.fillRect(lx, y0 - top * s, wT, (top - low) * s); x0 = Math.min(x0, lx); x1 = Math.max(x1, lx + wT); }
+      } else if (t === 'EOR') { // the post is under the skins, inside the nominal width; the trim covers its end, top at the cap underside (p14, p30, p76)
+        const et = fp.eor * s, tx = dirOut < 0 ? xn - et : xn; cx.fillStyle = '#5d5d60'; cx.fillRect(tx, y0 - (top - capF) * s, et, (top - capF) * s); x0 = Math.min(x0, tx); x1 = Math.max(x1, tx + et);
+      } else if (t === 'wall') { // wall-start junction face 3/16" beyond the node (p15)
+        const wf = fp.wall * s; if (wf) { const tx = dirOut < 0 ? xn - wf : xn; cx.fillStyle = '#424244'; cx.fillRect(tx, y0 - (top - capF) * s, wf, (top - capF) * s); }
+        x0 = dirOut < 0 ? xn - wf : xn - E.EOR_POST * s; x1 = dirOut < 0 ? xn + E.EOR_POST * s : xn + wf;
+      } else { // corner: the 3" post (junction depth, p14), full height to its junction cap level with the tallest top cap
+        const ht = top || jTop(nid); cx.fillStyle = '#e7e7ea'; cx.fillRect(x0, y0 - ht * s, x1 - x0, ht * s); cx.strokeStyle = '#7a7a7d'; cx.lineWidth = 1; cx.strokeRect(x0, y0 - ht * s, x1 - x0, ht * s); }
+      postX.push([x0, x1]); hit({ kind: 'post', nid, x: x0 - 2, y: y0 - top * s, w: x1 - x0 + 4, h: top * s });
+      if (J && opts.junctionLabels) { cx.fillStyle = '#416180'; cx.font = '600 10px Barlow, sans-serif'; cx.textAlign = 'center'; cx.fillText(jn(nid).replace('Junction ', 'J'), xn, y0 - top * s - 6); cx.font = '11px Barlow, sans-serif'; }
     };
-    // skins run over straight junctions to the junction centre (in-line) or its outer face (end of run, wall start), p14-p16; corner posts stay exposed
-    const skinExt = (J) => !J || !J.legs ? 0 : J.type === 'inline' ? JW / 2 * s : (J.type === 'EOR' || J.type === 'wall') ? JW * s : 0;
-    for (const r of seq) {
-      const p = r.panel; const face = faceOf(r); const pw = (p.width - JW) * s; const segs = p.sides[face]; let y = y0; const x0 = x;
-      const chainFwd = (r.flip === rev); const nid = (side === 0) === chainFwd ? p.b : p.a; const J = R.nodes[nid]; const jh = J && J.legs ? Math.max(...J.legs.map(l => l.total)) : p.height;
-      const X0 = x, PW = pw, eL = skinExt(prevJ), eR = skinExt(J);
-      { const x = X0 - eL, pw = PW + eL + eR;
-      // base trim
-      // skins to the floor: the bottom skin carries down over the base (p13), so the tiles keep their usual tops under the top cap
-      if (!p.openBase && !p.skinsToFloor) { cx.fillStyle = '#8a8a8d'; cx.fillRect(x, y - 3.75 * s, pw, 3.75 * s); }
-      if (!p.openBase) hit({ kind: 'base', pid: p.id, x, y: y - 3.75 * s, w: pw, h: 3.75 * s });
-      y -= 3.75 * s;
-      const drawSegs = (list, yb, key, ext) => { let yy = yb; list.forEach((sg, i) => { const t = sg.kind === 'window' ? 'window' : sg.type; const hh = sg.height * s; const e0 = i === 0 && ext ? ext * s : 0; cx.fillStyle = FILL[t] || '#ccc'; cx.fillRect(x, yy - hh, pw, hh + e0); const on = selTile && selTile.pid === p.id && selTile.key === key && selTile.i === i; cx.strokeStyle = on ? '#5980a6' : '#7a7a7d'; cx.lineWidth = on ? 2.5 : .8; cx.strokeRect(x, yy - hh, pw, hh + e0); if (hh > 12) { cx.fillStyle = '#1d1f20'; cx.textAlign = 'center'; cx.fillText(fitText(cx, [`${sg.height}" ${t}`, `${sg.height}" ${t.split(' ')[0]}`, `${sg.height}"`], pw - 4), x + pw / 2, yy - hh / 2 + 4); } hit({ kind: 'tile', pid: p.id, face, key, i, x, y: yy - hh, w: pw, h: hh + e0 }); yy -= hh; }); return yy; };
-      drawSegs(segs, y, 's' + face, p.skinsToFloor ? 3.75 : 0);
-      // stacker skins sit on the base skins and the base panel's top cap moves up to trim the top of the stack (p26); the 2 1/4" cap sits on the skins (p13)
-      const capH = E.TOP_CAP_H * s; let yb = y0 - (p.height - E.TOP_CAP_H) * s; p.stack.forEach((st, i) => { drawSegs(p.stackSides[i] ? p.stackSides[i][face] : [], yb, 'k' + i + face); yb -= st * s; });
-      if (!p.topCap.omit) { cx.fillStyle = p.topCap.wood ? '#a8794e' : '#5d5d60'; cx.fillRect(x, yb - capH, pw, capH); } else { cx.save(); cx.setLineDash([3, 3]); cx.strokeStyle = '#98989b'; cx.lineWidth = 1; cx.strokeRect(x, yb - capH, pw, capH); cx.restore(); }
+    seq.forEach((r, i) => {
+      const p = r.panel; const face = faceOf(r); const segs = p.sides[face]; const nl = nodes[i], nr = nodes[i + 1], xl = nodeX[i], xr = nodeX[i + 1];
+      // skins run over straight junctions to the node (in-line center p16, end-of-run and wall-start posts are inside the nominal width); corner posts stay exposed
+      const x = xl + (straightJ(nl) ? 0 : E.CORNER_POST / 2 * s), pw = xr - (straightJ(nr) ? 0 : E.CORNER_POST / 2 * s) - x;
+      let y = y0;
+      if (p.openBase) { // open base trim: bottom 3 1/4", opening 2 1/2" (p51, p89)
+        const ob = E.OPEN_BASE; cx.fillStyle = '#8a8a8d'; cx.fillRect(x, y - ob.height * s, pw, (ob.height - ob.opening) * s); cx.save(); cx.setLineDash([3, 3]); cx.strokeStyle = '#8a8a8d'; cx.lineWidth = 1; cx.strokeRect(x, y - ob.opening * s, pw, ob.opening * s); cx.restore(); }
+      else if (!p.skinsToFloor) { cx.fillStyle = '#8a8a8d'; cx.fillRect(x, y - E.BASE_TRIM_H * s, pw, E.BASE_TRIM_H * s); }
+      if (!p.openBase) hit({ kind: 'base', pid: p.id, x, y: y - E.BASE_TRIM_H * s, w: pw, h: E.BASE_TRIM_H * s });
+      y -= E.BASE_TRIM_H * s;
+      const drawSegs = (list, yb, key, ext, k) => { let yy = yb; list.forEach((sg, i) => { const t = sg.kind === 'window' ? 'window' : sg.type; const hh = sg.height * s * (k || 1); const e0 = i === 0 && ext ? ext * s : 0; cx.fillStyle = FILL[t] || '#ccc'; cx.fillRect(x, yy - hh, pw, hh + e0); const on = selTile && selTile.pid === p.id && selTile.key === key && selTile.i === i; cx.strokeStyle = on ? '#5980a6' : '#7a7a7d'; cx.lineWidth = on ? 2.5 : .8; cx.strokeRect(x, yy - hh, pw, hh + e0); if (hh > 12) { cx.fillStyle = '#1d1f20'; cx.textAlign = 'center'; cx.fillText(fitText(cx, [`${sg.height}" ${t}`, `${sg.height}" ${t.split(' ')[0]}`, `${sg.height}"`], pw - 4), x + pw / 2, yy - hh / 2 + 4); } hit({ kind: 'tile', pid: p.id, face, key, i, x, y: yy - hh, w: pw, h: hh + e0 }); yy -= hh; }); return yy; };
+      // base skins fill from the base trim to the underside of the cap at the actual panel height (p11, p13, p50); nominal sizes total panel height - 6"
+      const Ha = E.actualBaseHeight(P.trim, p.height);
+      drawSegs(segs, y, 's' + face, p.skinsToFloor ? E.BASE_TRIM_H : 0, (Ha - E.BASE_TRIM_H - capF) / (p.height - E.SKIN_TRIM_ALLOWANCE));
+      // stacker skins sit on the base skins, each stacker adding its stacking junction's actual height (p26); the base panel's top cap moves up to trim the stack
+      const capH = capF * s; let yb = y0 - (Ha - capF) * s; p.stack.forEach((st, k) => { const sa = E.STACK_ACTUAL[st] || st; drawSegs(p.stackSides[k] ? p.stackSides[k][face] : [], yb, 'k' + k + face, 0, sa / st); yb -= sa * s; });
+      if (!p.topCap.omit) { cx.fillStyle = p.topCap.wood ? '#a8794e' : '#5d5d60'; if (P.trim === 'oval') { const rr = Math.min(capH, 6); cx.beginPath(); cx.moveTo(x, yb); cx.lineTo(x, yb - capH + rr); cx.quadraticCurveTo(x, yb - capH, x + rr, yb - capH); cx.lineTo(x + pw - rr, yb - capH); cx.quadraticCurveTo(x + pw, yb - capH, x + pw, yb - capH + rr); cx.lineTo(x + pw, yb); cx.closePath(); cx.fill(); } else cx.fillRect(x, yb - capH, pw, Math.max(1.5, capH)); } else { cx.save(); cx.setLineDash([3, 3]); cx.strokeStyle = '#98989b'; cx.lineWidth = 1; cx.strokeRect(x, yb - capH, pw, capH); cx.restore(); }
       hit({ kind: 'topcap', pid: p.id, x, y: yb - capH - 3, w: pw, h: capH + 3 }); yb -= capH;
-      const coh = (J) => J && J.legs && new Set(J.legs.map(l => l.total)).size > 1, gx = x + (coh(prevJ) ? eL : 0), gw = pw - (coh(prevJ) ? eL : 0) - (coh(J) ? eR : 0); // glass is shortened beside change-of-height trim (p57)
-      if (p.glassScreen && P.trim === 'thin') { const gh = p.glassScreen.attach === 'clip' ? 12 : p.glassScreen.height; cx.fillStyle = p.glassScreen.frosted ? 'rgba(200,225,245,.8)' : 'rgba(180,215,245,.5)'; cx.fillRect(gx + 1, yb - gh * s, gw - 2, gh * s); cx.strokeStyle = '#5980a6'; cx.lineWidth = 1; cx.strokeRect(gx + 1, yb - gh * s, gw - 2, gh * s); hit({ kind: 'glass', pid: p.id, x, y: yb - gh * s, w: pw, h: gh * s }); }
-      if (p.topScreen && P.trim === 'oval') { cx.fillStyle = 'rgba(230,230,230,.8)'; cx.fillRect(x + 1, yb - 12 * s, pw - 2, 12 * s); cx.strokeStyle = '#98989b'; cx.strokeRect(x + 1, yb - 12 * s, pw - 2, 12 * s); hit({ kind: 'glass', pid: p.id, x, y: yb - 12 * s, w: pw, h: 12 * s }); }
+      // frameless glass (thin): actual glass height above the cap (p56 9 5/16", 15 1/2", 21 5/8"; clip 11 3/4" p60); each end stops half the screen-to-screen gap
+      // short of the junction center, or 1/2" (recessed) / 5/8" (clip) at an in-line change of height (p56, p57, p60)
+      if (p.glassScreen && P.trim === 'thin') {
+        const G = p.glassScreen.attach === 'clip' ? E.GLASS.clip : E.GLASS.recessed, gh = E.glassHeight(p.glassScreen) * s;
+        const coh = (nid) => typeOf(nid) === 'inline' && new Set(legTops(nid).map(v => v.toFixed(3))).size > 1;
+        const gx = xl + (coh(nl) ? G.cohEnd : G.end) * s, gw = xr - (coh(nr) ? G.cohEnd : G.end) * s - gx;
+        cx.fillStyle = p.glassScreen.frosted ? 'rgba(200,225,245,.8)' : 'rgba(180,215,245,.5)'; cx.fillRect(gx, yb - gh, gw, gh); cx.strokeStyle = '#5980a6'; cx.lineWidth = 1; cx.strokeRect(gx, yb - gh, gw, gh); hit({ kind: 'glass', pid: p.id, x: gx, y: yb - gh, w: gw, h: gh });
       }
+      if (p.topScreen && P.trim === 'oval') { const T = E.TOP_SCREEN, sx = xl + T.inset * s, sw = xr - T.inset * s - sx; cx.fillStyle = 'rgba(230,230,230,.8)'; cx.fillRect(sx, yb - T.height * s, sw, T.height * s); cx.strokeStyle = '#98989b'; cx.strokeRect(sx, yb - T.height * s, sw, T.height * s); hit({ kind: 'glass', pid: p.id, x: sx, y: yb - T.height * s, w: sw, h: T.height * s }); } // 12"H, 1 1/4" in from each end (p96, p97)
       // labels
-      cx.fillStyle = sel.has(p.id) && opts.highlightSel ? '#416180' : '#5d5d60'; cx.font = sel.has(p.id) && opts.highlightSel ? '600 11px Barlow, sans-serif' : '11px Barlow, sans-serif'; cx.textAlign = 'center'; cx.fillText(fitText(cx, [`${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · face ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)} · ${p.width}×${E.panelTotalHeight(p)} · ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)} · ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)}`], pw + JW * s - 4), x + pw / 2, y0 + 14); cx.font = '11px Barlow, sans-serif';
-      hit({ kind: 'label', pid: p.id, x, y: y0 + 2, w: pw, h: 16 });
-      // junction post at the far end of this panel (in viewing order)
-      elevPost(x + pw, J, jh, E.panelTotalHeight(p)); hit({ kind: 'post', nid, x: x + pw - 2, y: y0 - jh * s, w: JW * s + 4, h: jh * s });
-      if (J && J.legs && opts.junctionLabels) { cx.save(); cx.translate(x + pw + JW / 2 * s, y0 - jh * s - 6); cx.fillStyle = '#416180'; cx.font = '600 10px Barlow, sans-serif'; cx.fillText(jn(nid).replace('Junction ', 'J'), 0, 0); cx.restore(); }
-      postX.push([x + pw, x + pw + JW * s]); lastPost = { x: x + pw + JW * s, J, jh }; x += pw + JW * s; prevJ = J;
-    }
-    elevPost(padL, J0, jh0); hit({ kind: 'post', nid: nid0, x: padL - 2, y: y0 - jh0 * s, w: JW * s + 4, h: jh0 * s });
-    { const et = E.FOOTPRINT[P.trim].eor * s; const endTrim = (xx, h, dir) => { cx.fillStyle = '#5d5d60'; cx.fillRect(dir < 0 ? xx - et : xx, y0 - h * s, et, h * s); }; // finished ends (1/2" thin p14, 1" oval p76)
-      if (J0 && J0.type === 'EOR') endTrim(padL, jh0, -1); if (lastPost && lastPost.J && lastPost.J.type === 'EOR') endTrim(lastPost.x, lastPost.jh, 1); }
-    if (opts.junctionLabels && J0 && J0.legs) { cx.fillStyle = '#416180'; cx.font = '600 10px Barlow, sans-serif'; cx.textAlign = 'center'; cx.fillText(jn(nid0).replace('Junction ', 'J'), padL + JW / 2 * s, y0 - jh0 * s - 6); }
-    // worksurfaces and pedestals on this side of the run (seated height 28 1/2", p272)
+      cx.fillStyle = sel.has(p.id) && opts.highlightSel ? '#416180' : '#5d5d60'; cx.font = sel.has(p.id) && opts.highlightSel ? '600 11px Barlow, sans-serif' : '11px Barlow, sans-serif'; cx.textAlign = 'center'; cx.fillText(fitText(cx, [`${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · face ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)} · ${p.width}×${E.panelTotalHeight(p)} · ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)} · ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)}`], xr - xl - 4), (xl + xr) / 2, y0 + 14); cx.font = '11px Barlow, sans-serif';
+      hit({ kind: 'label', pid: p.id, x: xl, y: y0 + 2, w: xr - xl, h: 16 });
+    });
+    nodes.forEach((nid, i) => drawPost(i));
+    // worksurfaces and pedestals on this side of the run (seated height 28 1/2", p272; 1 3/16" thick, p206)
     {
       const runLen = run.length;
       const tC = (t) => rev ? runLen - t : t; const sideC = (sd) => rev ? 1 - sd : sd;
-      const X = (t) => side === 0 ? padL + JW / 2 * s + tC(t) * s : padL + JW / 2 * s + (runLen - tC(t)) * s;
+      const X = (t) => side === 0 ? X0 + tC(t) * s : X0 + (runLen - tC(t)) * s;
+      const PI = E.PED_INSET;
       for (const ws of Object.values(P.worksurfaces || {})) {
         let from, to, sd, peds = [];
-        if (ws.kind === 'straight') { const sp = E.wsSpanInRun(P, ws, run); if (!sp) continue; from = sp.from; to = sp.to; sd = sp.side; const flip = run.panels.find(r => r.id === ws.panel).flip; peds = (ws.peds || []).map(d => { const atFrom = (d.at === 'lo') !== flip; return { d, a: atFrom ? from : to - E.PED_W, b: atFrom ? from + E.PED_W : to }; }); }
-        else { const g = E.wsGeometry(P, ws); if (!g) continue; const ai = g.arms.findIndex(a => run.panels.some(r => r.id === a.panel.id)); if (ai < 0) continue; const arm = g.arms[ai], other = g.arms[1 - ai]; const t0 = E.runOffset(run, g.o[0], g.o[1]), t1 = E.runOffset(run, arm.end[0], arm.end[1]); from = Math.min(t0, t1); to = Math.max(t0, t1); const cross = run.dir[0] * other.dir[1] - run.dir[1] * other.dir[0]; sd = cross < 0 ? 0 : 1; peds = (ws.peds || []).filter(d => d.at === 'arm' + ai).map(d => ({ d, a: t1 > t0 ? to - E.PED_W : from, b: t1 > t0 ? to : from + E.PED_W })); }
+        if (ws.kind === 'straight') { const sp = E.wsSpanInRun(P, ws, run); if (!sp) continue; from = sp.from; to = sp.to; sd = sp.side; const flip = run.panels.find(r => r.id === ws.panel).flip; peds = (ws.peds || []).map(d => { const atFrom = (d.at === 'lo') !== flip; return { d, a: atFrom ? from + PI : to - PI - E.PED_W, b: atFrom ? from + PI + E.PED_W : to - PI }; }); }
+        else { const g = E.wsGeometry(P, ws); if (!g) continue; const ai = g.arms.findIndex(a => run.panels.some(r => r.id === a.panel.id)); if (ai < 0) continue; const arm = g.arms[ai], other = g.arms[1 - ai]; const t0 = E.runOffset(run, g.o[0], g.o[1]), t1 = E.runOffset(run, arm.end[0], arm.end[1]); from = Math.min(t0, t1); to = Math.max(t0, t1); const cross = run.dir[0] * other.dir[1] - run.dir[1] * other.dir[0]; sd = cross < 0 ? 0 : 1; peds = (ws.peds || []).filter(d => d.at === 'arm' + ai).map(d => ({ d, a: t1 > t0 ? to - PI - E.PED_W : from + PI, b: t1 > t0 ? to - PI : from + PI + E.PED_W })); }
         if (sideC(sd) !== side) continue;
-        const xa = Math.min(X(from), X(to)), xb = Math.max(X(from), X(to)); const yt = y0 - E.WS_HEIGHT * s; const th = Math.max(2, 1.2 * s);
+        const xa = Math.min(X(from), X(to)), xb = Math.max(X(from), X(to)); const yt = y0 - E.WS_HEIGHT * s; const th = Math.max(2, E.WS_THICK * s);
         cx.fillStyle = 'rgba(217,203,179,.9)'; cx.fillRect(xa, yt, xb - xa, th); cx.strokeStyle = selWs === ws.id ? '#5980a6' : WSLINE; cx.lineWidth = selWs === ws.id ? 2.5 : 1; cx.strokeRect(xa, yt, xb - xa, th); hit({ kind: 'ws', id: ws.id, x: xa, y: yt - 3, w: xb - xa, h: th + 6 });
         for (const { d, a, b } of peds) { const x1 = Math.min(X(a), X(b)), x2 = Math.max(X(a), X(b)); const hh = (d.type === 'mobile' && d.config === 'C' ? 21 : 27) * s; cx.fillStyle = '#dcd5c8'; cx.fillRect(x1, y0 - hh, x2 - x1, hh); cx.strokeStyle = selPed === d.id ? '#5980a6' : '#6f6455'; cx.lineWidth = selPed === d.id ? 2.5 : 1; cx.strokeRect(x1, y0 - hh, x2 - x1, hh); if (hh > 14) { cx.fillStyle = '#4a3f30'; cx.fillText(PEDCFG[d.config] || '', (x1 + x2) / 2, y0 - hh / 2 + 4); } hit({ kind: 'ped', ws: ws.id, id: d.id, x: x1, y: y0 - hh, w: x2 - x1, h: hh }); }
         { // label in the widest stretch of the worksurface clear of posts and pedestals
@@ -3233,10 +3310,14 @@ const BUILD='2026-09-24.9';
         }
       }
     }
-    // dimension line
-    cx.strokeStyle = '#98989b'; cx.lineWidth = 1; cx.beginPath(); cx.moveTo(padL, y0 + 26); cx.lineTo(padL + totalW * s, y0 + 26); cx.stroke(); cx.fillStyle = '#5d5d60'; cx.textAlign = 'center'; cx.fillText(`${E.ftin(sum(chain.map(p => p.width)))} nominal · ${E.ftin(totalW)} post face to post face`, padL + totalW * s / 2, y0 + 40);
+    // dimension line: overall length by the footprint rules (p14, p15, p76)
+    const endNote = (nid) => { const t = typeOf(nid); return t === 'EOR' ? 'end trim' : t === 'wall' ? 'wall start' : t === 'inline' ? '' : 'corner post'; };
+    const notes = [...new Set([endNote(nodes[0]), endNote(nodes[nodes.length - 1])].filter(Boolean))];
+    cx.strokeStyle = '#98989b'; cx.lineWidth = 1; cx.beginPath(); cx.moveTo(padL, y0 + 26); cx.lineTo(padL + totalW * s, y0 + 26); cx.stroke(); cx.fillStyle = '#5d5d60'; cx.textAlign = 'center';
+    const lbl = `${E.ftin(sumW)} nominal · ${E.ftin(totalW)} overall${notes.length ? ' incl. ' + notes.join(' and ') : ''}`; cx.fillText(lbl, padL + totalW * s / 2, y0 + 40);
+    if (opts.info) Object.assign(opts.info, { label: lbl, totalW, sumW, s, X0, nodeX, y0 });
   }
-  let elevHits = [], elevLock = null, selTile = null;
+  let elevHits = [], elevLock = null, selTile = null, elevInfo = {};
   function drawElev() {
     const w = elev.clientWidth, h = elev.clientHeight; if (!w) return;
     let pid = [...sel][0] || (selWs && E.hostPanelOf(P, selWs));
@@ -3244,11 +3325,11 @@ const BUILD='2026-09-24.9';
     if (!pid || !P.panels[pid]) { ectx.clearRect(0, 0, w, h); elevHits = []; elevLock = null; $('#elevInfo').textContent = 'Select a panel to see its run.'; return; }
     elevLock = pid;
     const chain = chainOf(pid); $('#elevInfo').textContent = `${chain.length} panel run · ${E.ftin(sum(chain.map(p => p.width)))} · side ${elevSide === 0 ? 'A' : 'B'} · click a tile to edit it, right-click for options`;
-    const totalW = sum(chain.map(p => p.width)) + JW; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? 18 : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(n => postH(n) + 4));
+    const totalW = sum(chain.map(p => p.width)) + E.CORNER_POST; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? 18 : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(n => postH(n) + 4));
     const wrapW = elev.parentElement.clientWidth - 2; const MIN_S = 2.2; // never below 2.2 px per inch: 12" tiles stay readable, long runs scroll sideways
     let es = Math.max(MIN_S, (wrapW - 60) / totalW); const cw = Math.max(wrapW, Math.round(totalW * es + 60)); const ch = Math.min(560, Math.max(240, Math.round(maxH * es + 100))); es = Math.min(es, (ch - 100) / maxH);
     const d = window.devicePixelRatio || 1; elev.style.width = cw + 'px'; elev.style.height = ch + 'px'; elev.width = Math.round(cw * d); elev.height = Math.round(ch * d); ectx.setTransform(d, 0, 0, d, 0, 0);
-    elevHits = []; renderElevation(elev, chain, elevSide, cw, ch, { junctionLabels: true, hits: elevHits, selTile, highlightSel: true, fixedScale: es });
+    elevHits = []; elevInfo = {}; renderElevation(elev, chain, elevSide, cw, ch, { junctionLabels: true, hits: elevHits, selTile, highlightSel: true, fixedScale: es, info: elevInfo });
   }
   $$('#elevSide button').forEach(b => b.onclick = () => { elevSide = +b.dataset.side; $$('#elevSide button').forEach(x => x.classList.toggle('on', x === b)); drawElev(); });
   const ELEV_ORDER = { ped: 0, ws: 1, tile: 2, glass: 2, topcap: 3, base: 3, post: 4, label: 5 };
@@ -3379,7 +3460,13 @@ const BUILD='2026-09-24.9';
     }
     return false;
   }
-  function miniElev(canvas, segs, target, toFloor) { const c = canvas.getContext('2d'); const w = canvas.width = 104, h = canvas.height = 236; c.clearRect(0, 0, w, h); const s = (h - 20) / (target + 6); let y = h - 8; if (!toFloor) { c.fillStyle = '#8a8a8d'; c.fillRect(10, y - 3.75 * s, w - 20, 3.75 * s); } y -= 3.75 * s; segs.forEach((sg, i) => { const t = sg.kind === 'window' ? 'window' : sg.type; const e0 = i === 0 && toFloor ? 3.75 * s : 0; c.fillStyle = FILL[t] || '#ccc'; c.fillRect(10, y - sg.height * s, w - 20, sg.height * s + e0); c.strokeStyle = '#7a7a7d'; c.strokeRect(10, y - sg.height * s, w - 20, sg.height * s + e0); y -= sg.height * s; }); c.fillStyle = '#5d5d60'; c.fillRect(10, y - E.TOP_CAP_H * s, w - 20, E.TOP_CAP_H * s); } // top cap sits on the skins (p13)
+  function miniElev(canvas, segs, target, toFloor, openBase) { // skins fill from the base trim up to the cap underside at the actual panel height (p11, p13, p50); nominal sizes total panel height - 6"
+    const c = canvas.getContext('2d'); const w = canvas.width = 104, h = canvas.height = 236; c.clearRect(0, 0, w, h); const H = E.actualBaseHeight(P.trim, target + 6), capF = E.CAP_FACE[P.trim] || 0.625, s = (h - 20) / H, k = (H - E.BASE_TRIM_H - capF) / target, B = E.BASE_TRIM_H; let y = h - 8;
+    if (openBase) { const ob = E.OPEN_BASE; c.fillStyle = '#8a8a8d'; c.fillRect(10, y - ob.height * s, w - 20, (ob.height - ob.opening) * s); c.strokeStyle = '#8a8a8d'; c.setLineDash([3, 3]); c.strokeRect(10, y - ob.opening * s, w - 20, ob.opening * s); c.setLineDash([]); } // open base: 3 1/4" with a 2 1/2" opening (p51)
+    else if (!toFloor) { c.fillStyle = '#8a8a8d'; c.fillRect(10, y - B * s, w - 20, B * s); } y -= B * s;
+    segs.forEach((sg, i) => { const t = sg.kind === 'window' ? 'window' : sg.type; const hh = sg.height * s * k, e0 = i === 0 && toFloor ? B * s : 0; c.fillStyle = FILL[t] || '#ccc'; c.fillRect(10, y - hh, w - 20, hh + e0); c.strokeStyle = '#7a7a7d'; c.strokeRect(10, y - hh, w - 20, hh + e0); y -= hh; });
+    c.fillStyle = '#5d5d60'; c.fillRect(10, y - Math.max(2, capF * s), w - 20, Math.max(2, capF * s));
+  }
   function renderPanel(r, p) {
     const Ja = R.nodes[p.a], Jb = R.nodes[p.b]; const thin = P.trim === 'thin'; const skinH = p.height - 6; const multi = sel.size > 1;
     const comp = E.workstationOf(P, p.id);
@@ -3421,7 +3508,7 @@ const BUILD='2026-09-24.9';
       <div class="control" style="margin-top:14px"><button class="btn danger" id="pDel">Delete panel${multi ? 's' : ''}</button></div>
     </div>`;
     r.innerHTML = linkPages(r.innerHTML);
-    miniElev($('#miniA'), p.sides[0], skinH, p.skinsToFloor); miniElev($('#miniB'), p.sides[1], skinH, p.skinsToFloor);
+    miniElev($('#miniA'), p.sides[0], skinH, p.skinsToFloor, p.openBase); miniElev($('#miniB'), p.sides[1], skinH, p.skinsToFloor, p.openBase);
     const targets = () => { const t = [...sel].map(id => P.panels[id]).filter(Boolean); return t.length ? t : [p]; };
     $('#xClose').onclick = () => { sel = new Set(); refresh(); };
     $('#pStation').onchange = e => assignStation(targets(), e.target.value.trim());
@@ -3695,7 +3782,7 @@ const BUILD='2026-09-24.9';
     const list = TYPICALS.map((t, i) => ({ t, i })).filter(x => !furnished || x.t.ws);
     const card = ({ t, i }) => `<div class="typ" data-t="${i}"><canvas></canvas><div class="nm">${esc(t.name)}</div><div class="ds">${esc(t.ds)}</div></div>`;
     $('#typicalGrid').innerHTML = list.filter(x => !x.t.guide).map(card).join('') + (list.some(x => x.t.guide) ? '<div class="typgroup">Guide worked examples — Build Your Own, thin trim (p35–p41)</div>' + list.filter(x => x.t.guide).map(card).join('') : '');
-    $$('.typ').forEach((el) => { const i = +el.dataset.t; const T = TYPICALS[i].build(); const c = el.querySelector('canvas'); c.width = 300; c.height = 170; const cx = c.getContext('2d'); const ns = Object.values(T.nodes); const wsPts = Object.values(T.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(T, w); return g ? g.poly.map(q => ({ x: q[0], y: q[1] })) : []; }); const all = [...ns, ...wsPts]; const xs = all.map(n => n.x), ys = all.map(n => n.y); const mnx = Math.min(...xs) - 12, mxx = Math.max(...xs) + 12, mny = Math.min(...ys) - 12, mxy = Math.max(...ys) + 12; const s = Math.min(280 / (mxx - mnx), 150 / (mxy - mny)); const ox = 150 - (mnx + mxx) / 2 * s, oy = 85 + (mny + mxy) / 2 * s; for (const w of Object.values(T.worksurfaces || {})) { const g = E.wsGeometry(T, w); if (!g) continue; cx.beginPath(); g.poly.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = WSFILL; cx.fill(); cx.strokeStyle = WSLINE; cx.lineWidth = 1; cx.stroke(); for (const d of w.peds || []) { const rr = pedRect(w, g, d); cx.beginPath(); rr.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = '#dcd5c8'; cx.fill(); cx.stroke(); } } for (const p of Object.values(T.panels)) { const a = T.nodes[p.a], b = T.nodes[p.b]; const an = Math.atan2(b.y - a.y, b.x - a.x); cx.lineWidth = Math.max(3, 3 * s); cx.strokeStyle = HCOL[p.height]; cx.lineCap = 'butt'; cx.beginPath(); cx.moveTo(ox + (a.x + Math.cos(an) * 1.5) * s, oy - (a.y + Math.sin(an) * 1.5) * s); cx.lineTo(ox + (b.x - Math.cos(an) * 1.5) * s, oy - (b.y - Math.sin(an) * 1.5) * s); cx.stroke(); cx.lineWidth = 1; cx.strokeStyle = '#424244'; cx.stroke(); } for (const n of Object.values(T.nodes)) { const hp = Math.max(2, 1.5 * s); cx.fillStyle = '#d4d4d7'; cx.fillRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); cx.strokeStyle = '#424244'; cx.strokeRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); } el.onclick = () => { $('#typicals').classList.remove('on'); setTool('select'); if (placeAt) { const at = placeAt; placeAt = null; if (placeTypical(T, at)) toast(TYPICALS[i].name + ' placed' + (TYPICALS[i].guide ? (P.trim === 'thin' ? `. Compare its junction parts with p${TYPICALS[i].guide} (click the junction, or open the Specification).` : `. This example is from the thin trim pages; switch the job to thin trim to compare with p${TYPICALS[i].guide}.`) : '')); return; } placing = { T, ghost: null }; plan.className = 'place'; toast('Click on the plan to place ' + TYPICALS[i].name); }; });
+    $$('.typ').forEach((el) => { const i = +el.dataset.t; const T = TYPICALS[i].build(); const c = el.querySelector('canvas'); c.width = 300; c.height = 170; const cx = c.getContext('2d'); const ns = Object.values(T.nodes); const wsPts = Object.values(T.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(T, w); return g ? g.poly.map(q => ({ x: q[0], y: q[1] })) : []; }); const all = [...ns, ...wsPts]; const xs = all.map(n => n.x), ys = all.map(n => n.y); const mnx = Math.min(...xs) - 12, mxx = Math.max(...xs) + 12, mny = Math.min(...ys) - 12, mxy = Math.max(...ys) + 12; const s = Math.min(280 / (mxx - mnx), 150 / (mxy - mny)); const ox = 150 - (mnx + mxx) / 2 * s, oy = 85 + (mny + mxy) / 2 * s; for (const w of Object.values(T.worksurfaces || {})) { const g = E.wsGeometry(T, w); if (!g) continue; cx.beginPath(); g.poly.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = WSFILL; cx.fill(); cx.strokeStyle = WSLINE; cx.lineWidth = 1; cx.stroke(); for (const d of w.peds || []) { const rr = pedRect(w, g, d); cx.beginPath(); rr.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = '#dcd5c8'; cx.fill(); cx.stroke(); } } for (const p of Object.values(T.panels)) { const a = T.nodes[p.a], b = T.nodes[p.b]; const an = Math.atan2(b.y - a.y, b.x - a.x); cx.lineWidth = Math.max(3, 3 * s); cx.strokeStyle = HCOL[p.height]; cx.lineCap = 'butt'; cx.beginPath(); cx.moveTo(ox + (a.x + Math.cos(an) * JW / 2) * s, oy - (a.y + Math.sin(an) * JW / 2) * s); cx.lineTo(ox + (b.x - Math.cos(an) * JW / 2) * s, oy - (b.y - Math.sin(an) * JW / 2) * s); cx.stroke(); cx.lineWidth = 1; cx.strokeStyle = '#424244'; cx.stroke(); } for (const n of Object.values(T.nodes)) { const hp = Math.max(2, JW / 2 * s); cx.fillStyle = '#d4d4d7'; cx.fillRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); cx.strokeStyle = '#424244'; cx.strokeRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); } el.onclick = () => { $('#typicals').classList.remove('on'); setTool('select'); if (placeAt) { const at = placeAt; placeAt = null; if (placeTypical(T, at)) toast(TYPICALS[i].name + ' placed' + (TYPICALS[i].guide ? (P.trim === 'thin' ? `. Compare its junction parts with p${TYPICALS[i].guide} (click the junction, or open the Specification).` : `. This example is from the thin trim pages; switch the job to thin trim to compare with p${TYPICALS[i].guide}.`) : '')); return; } placing = { T, ghost: null }; plan.className = 'place'; toast('Click on the plan to place ' + TYPICALS[i].name); }; });
   }
   $('#bTypicals').onclick = () => { placeAt = null; renderTypicals(); $('#typicals').classList.add('on'); }; $('#bCloseTypicals').onclick = () => $('#typicals').classList.remove('on');
   function placeTypical(T, at) {
@@ -3863,7 +3950,7 @@ const BUILD='2026-09-24.9';
     const sheet = $('#inst-' + c.uid); if (!sheet) return; const W0 = Math.max(600, sheet.clientWidth - 40);
     drawPlanFig(sheet.querySelector('[data-fig="plan"]'), W0, c);
     const runs = runsOf(c);
-    sheet.querySelectorAll('[data-fig="run"]').forEach(cv => { const r = runs[+cv.dataset.run]; const totalW = sum(r.map(p => p.width)) + JW; const maxH = Math.max(...r.map(p => E.panelTotalHeight(p) + 18), ...r.flatMap(p => [p.a, p.b]).map(n => postH(n) + 6)); let es = (W0 - 60) / totalW; const EH = Math.min(520, Math.max(220, maxH * es + 100)); es = Math.min(es, (EH - 100) / maxH); const ecx = sizeFig(cv, W0, EH); renderElevation(cv, r, +cv.dataset.side, W0, EH, { junctionLabels: true, fixedScale: es }); });
+    sheet.querySelectorAll('[data-fig="run"]').forEach(cv => { const r = runs[+cv.dataset.run]; const totalW = sum(r.map(p => p.width)) + E.CORNER_POST; const maxH = Math.max(...r.map(p => E.panelTotalHeight(p) + 18), ...r.flatMap(p => [p.a, p.b]).map(n => postH(n) + 6)); let es = (W0 - 60) / totalW; const EH = Math.min(520, Math.max(220, maxH * es + 100)); es = Math.min(es, (EH - 100) / maxH); const ecx = sizeFig(cv, W0, EH); renderElevation(cv, r, +cv.dataset.side, W0, EH, { junctionLabels: true, fixedScale: es }); });
   }
   $('#bPickCsv').onclick = () => { const agg = E.aggregate(R.lines, srcOf).sort((x, y) => catOrder(x.cat) - catOrder(y.cat) || x.style.localeCompare(y.style) || x.spec.localeCompare(y.spec)); download(fileBase() + '_pick_list.csv', E.toCSV(agg, [{ label: 'Qty', key: 'qty' }, { label: 'Style Number', key: 'style' }, { label: 'Description', get: a => a.desc.replace(/ — side \d.*$/, '') }, { label: 'Specify', key: 'spec' }, { label: 'Source', get: a => SRC[a.by] }, { label: 'Contains', get: a => (a.contents || []).map(x => x.qty + 'x ' + x.item).join(' | ') }, { label: 'Bin', get: a => binOf(a) }, { label: 'Used At', get: a => a.src.map(where).join(', ') }, { label: 'Category', key: 'cat' }, { label: 'Guide Page', key: 'page' }]), 'text/csv'); };
   // the pick list prints what is on screen now: typed bins (even before they re-render) and ticked boxes
@@ -3921,7 +4008,7 @@ const BUILD='2026-09-24.9';
   });
   window.addEventListener('resize', sizeCanvases);
 
-  window.answerDebug = { hit: (x, y) => hit(x, y), view, P: () => P, elevHits: () => elevHits, drag: () => dragWs && { off: dragWs.off, off0: dragWs.off0, t0: dragWs.t0, label: dragWs.label } };
+  window.answerDebug = { hit: (x, y) => hit(x, y), view, P: () => P, elevHits: () => elevHits, elevInfo: () => elevInfo, drag: () => dragWs && { off: dragWs.off, off0: dragWs.off0, t0: dragWs.t0, label: dragWs.label } };
   // ---------- boot ----------
   try { const saved = localStorage.getItem('answer.planner'); if (saved) P = migrate(JSON.parse(saved)); } catch (e) { }
   R = E.generate(P); sizeCanvases(); fit(); refresh();
