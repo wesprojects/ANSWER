@@ -28,6 +28,9 @@ h2{font-size:20px}
 /* header */
 #topbar{display:flex;align-items:center;gap:14px;padding:14px 20px 8px;flex-wrap:wrap}
 #topbar .build{font-size:12px;color:var(--n600);margin-left:6px}
+.jobname{flex:0 1 240px;min-width:120px}
+@media (max-width:1600px){#topbar{gap:10px;padding-left:16px;padding-right:16px}#topbar h1{font-size:22px;white-space:nowrap}#topbar .build{font-size:11px}#topbar .btngroup button{padding:8px 11px}#topbar .btn{padding:7px 11px}}
+@media (max-width:1500px){#topbar .build{display:none}}
 .btngroup{display:inline-flex;border:1px solid var(--n300);border-radius:6px;overflow:hidden;background:var(--card)}
 .btngroup button{border:0;border-right:1px solid var(--n300);background:transparent;padding:8px 16px;cursor:pointer;color:var(--text);font-size:14px}
 .btngroup button:last-child{border-right:0}
@@ -179,7 +182,7 @@ tr.done td.strike{text-decoration:line-through}
 .installsheet .fig{width:100%}
 .installsheet .figcap{font:600 12px 'Barlow Condensed',sans-serif;letter-spacing:.06em;text-transform:uppercase;color:#5d5d60;margin:0 0 4px}
 .installsheet .fig canvas{width:100%;height:auto;display:block}
-@media print{.installsheet .fig{break-inside:avoid;page-break-inside:avoid}.installsheet .fig img{width:100%}}
+@media print{#printArea .installsheet{page-break-inside:auto}.installsheet .figs{display:block}.installsheet .fig{break-inside:avoid;page-break-inside:avoid;margin:0 0 10px}.installsheet .figcap{break-after:avoid;page-break-after:avoid}.installsheet .fig img{width:100%;max-height:235mm;object-fit:contain;display:block}.installsheet table.t tr{break-inside:avoid;page-break-inside:avoid}}
 .installsheet canvas{border:1px solid var(--n200);border-radius:6px;background:#fff}
 .steps{padding-left:20px;font-size:13.5px;color:var(--n800)}
 .steps li{margin:3px 0}
@@ -248,6 +251,17 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 .contains span{display:block}
 .partcard .contains{margin:6px 0 0}
 #printArea .contains{color:#333;border-left:1px solid #999}
+@media print{
+  /* printed tables: the package contents, notes and flags are smaller than the description; the spec gives description and finish most of the width */
+  #printArea .contains{font-size:8.5px;margin:1px 0 1px 6px;padding-left:5px;line-height:1.25}
+  #printArea table.t .note,#printArea table.t .flag{font-size:8.5px}
+  #printArea table.t td{padding:4px 5px}
+  #printArea table.t th{padding:5px;font-size:8.5px;letter-spacing:.04em}
+  #printArea table.spec{table-layout:fixed}
+  #printArea table.spec th:nth-child(1){width:8%}#printArea table.spec th:nth-child(2){width:4%}#printArea table.spec th:nth-child(3){width:12%}#printArea table.spec th:nth-child(4){width:34%}#printArea table.spec th:nth-child(5){width:20%}#printArea table.spec th:nth-child(6){width:6%}#printArea table.spec th:nth-child(7){width:6%}#printArea table.spec th:nth-child(8){width:7%}#printArea table.spec th:nth-child(9){width:3%}
+  #printArea table.spec td{overflow-wrap:anywhere}
+  #printArea table.spec .sn{white-space:normal;overflow-wrap:anywhere}
+}
 
 /* right-click menu */
 .ctxmenu{position:fixed;z-index:60;background:#fff;border:1px solid #d4d4d7;border-radius:8px;box-shadow:0 8px 24px rgba(29,31,32,.16);padding:4px;min-width:220px;font:13px Barlow,sans-serif;color:#1d1f20}
@@ -270,7 +284,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1>Answer Panel Planner <span class="build">Build 2026-09-24.5</span></h1>
+    <h1 title="Build 2026-09-24.6">Answer Panel Planner <span class="build">Build 2026-09-24.6</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -290,7 +304,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           <div class="btngroup small"><button id="zOut">−</button><button id="zFit">Fit</button><button id="zIn">+</button></div>
           <span class="muted">New panels:</span>
           <div class="seg" id="optHeight"></div>
-          <select id="optWidth" title="Panel width used when drawing a run"><option value="auto">Auto fill widths</option><option value="18">18" panels</option><option value="24">24" panels</option><option value="30">30" panels</option><option value="36">36" panels</option><option value="42">42" panels</option><option value="48">48" panels</option><option value="60">60" panels</option><option value="72">72" panels</option></select>
+          <select id="optWidth" title="Panel width used when drawing a run and for panels added from the ⊕ at a free end. Auto fill widths: runs are filled with standard widths and the ⊕ adds a panel matching the end of the run (its height, width and settings)."><option value="auto">Auto fill widths</option><option value="18">18" panels</option><option value="24">24" panels</option><option value="30">30" panels</option><option value="36">36" panels</option><option value="42">42" panels</option><option value="48">48" panels</option><option value="60">60" panels</option><option value="72">72" panels</option></select>
           <label class="check" style="margin:0 0 0 6px" title="New panels get a 12&quot; recessed frameless glass screen (thin trim). Change it per panel on the right."><input type="checkbox" id="optGlass" checked>Glass on top</label>
           <span class="grow"></span>
           <button class="btn small" id="bDxf" title="Export the plan as a DXF for AutoCAD / CAP: panels by height layer, junctions, worksurfaces, pedestals, style numbers as text">Export DXF</button><button class="btn small danger" id="bDelete" title="Delete the selected panel (Delete key)">Delete</button><button class="btn small" id="rcToggle" title="Hide the editor (Tab)" aria-label="Hide the editor">»</button>
@@ -1102,7 +1116,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const prod = BYID[pid], row = findRow(pid, pred);
     const hasTrim = t === 'EOR' || t === 'L' || t === 'T' || t === 'V';
     const capSpec = woodCap ? `wood junction cap ${F.wood.code} ${F.wood.name}` : `plastic junction cap ${(F.ovalCap || {}).code || '6000'} ${(F.ovalCap || {}).name || 'Black'}`; // p397 p401: plastic or wood color number for the junction cap
-    const l = Line('Junction', 1, row, prod, `${name} ${hJ}"H — Oval, ${t === 'inline' ? 'no cap' : (woodCap ? 'wood' : 'plastic') + ' junction cap'}`, t === 'inline' ? 'black paint (hidden)' : (hasTrim ? paintSpec(F) : ''), { src: ctx });
+    const l = Line('Junction', 1, row, prod, `${name} ${hJ}"H — Oval, ${t === 'inline' ? 'no cap' : (woodCap ? 'wood' : 'plastic') + ' junction cap'}`, t === 'inline' ? 'black paint (hidden)' : (hasTrim && !(F.ovalWoodTrim && woodCap && !F.ovalTrimFabric) ? paintSpec(F) : ''), { src: ctx }); // wood trim replaces the painted trim (p399)
     if (hasTrim) {
       if (F.ovalTrimFabric) { addOpt(l, prod, 'fabricTrim', row, `fabric trim ${F.fabric.code} ${F.fabric.name}`); if (hJ === 78) l.notes.push('78"H fabric-covered junction trim: vertical application only (p397).'); }
       else if (F.ovalWoodTrim && woodCap) addOpt(l, prod, 'woodTrim', row, `wood trim ${F.wood.code} ${F.wood.name}`);
@@ -1162,7 +1176,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           const prod2 = BYID['oval-standard-change-of-height-trim'];
           const r2 = findRow('oval-standard-change-of-height-trim', r => r.attrs.stackHeight === pt.h && r.attrs.profile === profile && r.attrs.junctionCap === (woodCap ? 'wood' : 'painted'));
           if (!r2) { lines.push(Line('Trim', 1, null, prod2, `Standard change-of-height trim ${pt.h}"H — Oval (${band})`, '', { style: '—', flags: [`No ${pt.h}"H standard change-of-height trim (12/18/24/30/36 available, p417). Verify with Steelcase.`], src: ctx })); continue; }
-          const l2 = Line('Trim', 1, r2, prod2, `Standard change-of-height trim ${pt.h}"H, ${profile}, ${woodCap ? 'wood' : 'plastic'} cap — Oval (${band})`, `${app}; ${paintSpec(F)}; ${woodCap ? `wood cap ${F.wood.code} ${F.wood.name}` : `plastic cap ${(F.ovalCap || {}).code || '6000'} ${(F.ovalCap || {}).name || 'Black'}`}`, { src: ctx });
+          const l2 = Line('Trim', 1, r2, prod2, `Standard change-of-height trim ${pt.h}"H, ${profile}, ${woodCap ? 'wood' : 'plastic'} cap — Oval (${band})`, `${app}; ${F.ovalWoodTrim && !F.ovalTrimFabric ? '' : paintSpec(F) + '; '}${woodCap ? `wood cap ${F.wood.code} ${F.wood.name}` : `plastic cap ${(F.ovalCap || {}).code || '6000'} ${(F.ovalCap || {}).name || 'Black'}`}`, { src: ctx });
           if (F.ovalTrimFabric) addOpt(l2, prod2, 'fabricTrim', r2, `fabric trim ${F.fabric.code}`); else if (F.ovalWoodTrim) addOpt(l2, prod2, 'woodTrim', r2, `wood trim ${F.wood.code}`); else addOpt(l2, prod2, pg, r2, `paint group ${F.trimPaint.group}`);
           if (lowFaces.length > 1) l2.notes.push(`${lowFaces.length} exposed faces at this junction: one trim per face (p80).`);
           lines.push(l2);
@@ -1319,14 +1333,14 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     for (const si of [0, 1]) {
       const segs = sides[si];
       const tot = segTotal(segs);
-      if (tot !== target) warn.push({ panel: ctx, msg: `${where} side ${si + 1}: skin heights total ${tot}" but must equal ${target}" (panel height ${panelH}" − 6" trim, p13).` });
+      if (tot !== target) warn.push({ panel: ctx, msg: `${where} side ${'AB'[si]}: skin heights total ${tot}" but must equal ${target}" (panel height ${panelH}" − 6" trim, p13).` });
       let bottom = true, elev = 0;
       for (const [k, seg] of segs.entries()) {
         const toFloor = bottom && p.skinsToFloor && where === 'base';
         bottom = false; const el = elev; elev += seg.height;
         if (seg.kind === 'window') {
           const key = el + ':' + seg.height; if (windowsDone.has(key)) continue; windowsDone.add(key); // one window serves both sides (p12)
-          if (!winAt[1 - si].has(key)) warn.push({ panel: ctx, msg: `${where} side ${si + 1}: ${seg.height}"H window at ${el}"–${el + seg.height}" has no matching window on side ${2 - si}. A glass window serves both sides of the panel (p12, p75).` });
+          if (!winAt[1 - si].has(key)) warn.push({ panel: ctx, msg: `${where} side ${'AB'[si]}: ${seg.height}"H window at ${el}"–${el + seg.height}" has no matching window on side ${'BA'[si]}. A glass window serves both sides of the panel (p12, p75).` });
           if (where === 'base' && k === 0) warn.push({ panel: ctx, msg: 'Glass window cannot be used at the base of a panel (p118).' });
           else if (where === 'base' && k !== segs.length - 1) warn.push({ panel: ctx, msg: `${seg.height}"H glass window below the top of a base panel. Windows go in the top position only, by lowering the top horizontal bar (24" max) or on stacking junctions (p51, p118).` });
           const prod = BYID['sh-glass-windows'];
@@ -1392,7 +1406,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           lines.push(Line('Skins', 1, r, prod, `Markerboard skin ${W}"W × ${seg.height}"H${toFloor ? ' to the floor' : ''} — side ${si + 1}${where !== 'base' ? ' ' + where : ''}`, '', { src: ctx }));
         } else if (t === 'slatwall') {
           if (toFloor) warn.push({ panel: ctx, msg: 'Slatwall skins are not offered to the floor (p443).' });
-          else if (where === 'base' && k === 0) warn.push({ panel: ctx, msg: `Side ${si + 1}: slatwall skins cannot be used in the bottom 12" of an Answer panel (p113, p443).` });
+          else if (where === 'base' && k === 0) warn.push({ panel: ctx, msg: `Side ${'AB'[si]}: slatwall skins cannot be used in the bottom 12" of an Answer panel (p113, p443).` });
           const prod = BYID['sh-slatwall-skins'];
           const r = findRow('sh-slatwall-skins', x => x.attrs.width === W && x.attrs.height === seg.height);
           if (!r) { warn.push({ panel: ctx, msg: `No slatwall skin ${W}"W × ${seg.height}"H (p443).` }); continue; }
@@ -1422,7 +1436,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           // p117: technology covers snap onto the powerkit, so the skin must sit in front of it (skins start above the 3 3/4" base trim, p050)
           else if (where === 'base' && p.power.kind === 'powerkit') {
             const z0 = 4 + el, z1 = z0 + seg.height, kz = p.power.location === 'base' ? null : E.POWER_WS_ELEV;
-            if (kz === null || kz < z0 || kz >= z1) { const msg = `Side ${si + 1}: the technology skin (${z0}"–${z1}" above the floor) is not in front of the powerkit (${kz === null ? 'in the base' : `at worksurface height, about ${kz}"`}). Technology covers snap onto the powerkit (p117): move the technology skin to the powerkit or the powerkit behind it (p163).`; l.flags.push(msg); warn.push({ panel: ctx, msg }); }
+            if (kz === null || kz < z0 || kz >= z1) { const msg = `Side ${'AB'[si]}: the technology skin (${z0}"–${z1}" above the floor) is not in front of the powerkit (${kz === null ? 'in the base' : `at worksurface height, about ${kz}"`}). Technology covers snap onto the powerkit (p117): move the technology skin to the powerkit or the powerkit behind it (p163).`; l.flags.push(msg); warn.push({ panel: ctx, msg }); }
           }
         }
       }
@@ -1474,10 +1488,10 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     let k = 0;
     for (const si of [0, 1]) {
       const n = pw.receptacles[si] || 0, u = pw.usb[si] || 0;
-      if (n + u > perSide) warn.push({ panel: ctx, msg: `Side ${si + 1}: ${n + u} receptacles requested but a ${p.width}"W powerkit has ${perSide} power block location(s) per side (p163).` });
+      if (n + u > perSide) warn.push({ panel: ctx, msg: `Side ${'AB'[si]}: ${n + u} receptacles requested but a ${p.width}"W powerkit has ${perSide} power block location(s) per side (p163).` });
       // receptacles above the base (or behind skins to the floor) go through a field-cut fabric skin with a faceplate (p107, p163, p167)
       const seg = !(n + u) ? null : pw.location !== 'base' ? skinAt(p.sides[si], E.POWER_WS_ELEV) : p.skinsToFloor ? p.sides[si][0] : null;
-      if (seg && (seg.kind === 'window' || !['tackable acoustical', 'performance tackable acoustical', 'technology'].includes(seg.type))) warn.push({ panel: ctx, msg: `Side ${si + 1}: receptacles cannot be accessed through a ${seg.kind === 'window' ? 'window' : seg.type} skin; only fabric skins are field-cut, or use a technology skin (p108, p110, p114, p115, p163).` });
+      if (seg && (seg.kind === 'window' || !['tackable acoustical', 'performance tackable acoustical', 'technology'].includes(seg.type))) warn.push({ panel: ctx, msg: `Side ${'AB'[si]}: receptacles cannot be accessed through a ${seg.kind === 'window' ? 'window' : seg.type} skin; only fabric skins are field-cut, or use a technology skin (p108, p110, p114, p115, p163).` });
       else if (seg && seg.type !== 'technology') { const r = findRow('wc-faceplate', () => true); lines.push(Line('Power', n + u, r, BYID['wc-faceplate'], `Faceplate for receptacle in field-cut ${seg.type} skin — side ${si + 1}`, `plastic ${colorOpt(BYID['wc-faceplate'])}`, { src: ctx })); }
       const lines_ = pw.lines || (sch === 'Z' ? [1, 2, 3] : [1, 2, 3, 4]);
       for (let i = 0; i < n; i++) {
@@ -1501,6 +1515,14 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
       if (r) { const l = Line('Power', 1, r, prod, `Base power infeed ${r.attrs.length}', ${schematicName(P)}`, `cover plastic ${colorOpt(prod)}`, { src: ctx }); l.notes.push('Occupies one receptacle location on the powerkit (p480).'); if (p.skinsToFloor) l.notes.push('Skins to the floor: the infeed harness is normally backfed through the base trim opening (p158); field-cut the skin.'); lines.push(l); }
     }
   }
+  // circuit runs: powered panels (powerkit or pass-through) joined at shared junctions, as lists of panel ids in id order
+  E.powerRuns = function (P) {
+    const pw = Object.values(P.panels).filter(p => p.power && p.power.kind && p.power.kind !== 'none'); const at = {};
+    for (const p of pw) for (const n of [p.a, p.b]) (at[n] = at[n] || []).push(p);
+    const seen = new Set(), out = []; const num = (id) => +String(id).slice(1);
+    for (const p of pw) { if (seen.has(p.id)) continue; const run = [], st = [p]; seen.add(p.id); while (st.length) { const q = st.pop(); run.push(q.id); for (const n of [q.a, q.b]) for (const r of at[n] || []) if (!seen.has(r.id)) { seen.add(r.id); st.push(r); } } out.push(run.sort((a, b) => num(a) - num(b))); }
+    return out;
+  };
   // ---------- project BOM ----------
   E.generate = function (P) {
     const lines = [], warn = [], errors = [];
@@ -1544,9 +1566,17 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
         }
       }
     }
-    // p146: NEC allows up to 30 receptacles per 3-circuit power-in and 40 per 4-circuit power-in
-    { const rec = lines.filter(l => l.pid === 'wc-duplex-receptacle' || l.pid === 'wc-usb-receptacle').reduce((a, l) => a + l.qty, 0), ins = lines.filter(l => /power-infeed/.test(l.pid)).reduce((a, l) => a + l.qty, 0), cap = P.power.schematic === 'Z' ? 30 : 40;
-      if (rec > cap * Math.max(1, ins)) warn.push({ panel: '', msg: `${rec} receptacles on ${ins} power-in(s): a ${schematicName(P)} power-in supplies at most ${cap} receptacles; plan ${Math.ceil(rec / cap)} power-ins (p146).` }); }
+    // p146/p158: power is planned per circuit run, the powered panels (powerkits and pass-throughs) joined at junctions.
+    // Each run needs one building power-in; a power-in supplies at most 30 (3-circuit) or 40 (4-circuit) receptacles (NEC, p146).
+    for (const run of E.powerRuns(P)) {
+      const ids = new Set(run); const on = (l) => ids.has(l.src);
+      const rec = lines.filter(l => on(l) && (l.pid === 'wc-duplex-receptacle' || l.pid === 'wc-usb-receptacle')).reduce((a, l) => a + l.qty, 0);
+      const ins = lines.filter(l => on(l) && /power-infeed/.test(l.pid)).reduce((a, l) => a + l.qty, 0), cap = P.power.schematic === 'Z' ? 30 : 40;
+      const nm = run.length === 1 ? 'Panel ' + run[0].slice(1) : `Powered run of ${run.length} panels (Panel ${run.map(x => x.slice(1)).join(', ')})`;
+      if (rec && !ins) warn.push({ panel: run[0], msg: `${nm}: ${rec} receptacle${rec === 1 ? '' : 's'} and no power-in. Add a base power infeed on one powerkit panel of the run (panel editor › Power infeed), or plan a ceiling or wall feed (p158, p480).` });
+      else if (rec > cap * Math.max(1, ins)) warn.push({ panel: run[0], msg: `${nm}: ${rec} receptacles on ${ins === 1 ? 'one power-in' : ins + ' power-ins'}: a ${schematicName(P)} power-in supplies at most ${cap} receptacles (p146). Split it into ${Math.ceil(rec / cap)} circuit runs (a panel without power between them), each with its own power-in.` });
+      else if (ins > 1) warn.push({ panel: run[0], msg: `${nm}: ${ins} power-ins on one connected circuit run. One building power-in feeds a run through its powerkits (p146, p158): keep one, or split the run into separate circuit runs with a panel without power between them.` });
+    }
     // stability (p126-127)
     stability(P, nodesInfo, warn);
     // project-level extras
@@ -1735,6 +1765,76 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     out.sort((a, b) => +a.key.slice(1) - +b.key.slice(1));
     out.forEach((c, i) => { if (!c.name) c.name = 'Workstation ' + (i + 1); });
     return out;
+  };
+  // Workstations as the planner means them. By default one per connected group of panels (E.components). A panel's `station`
+  // (a name) takes it, and the worksurfaces mounted on it, into that named workstation instead, so a pod of back-to-back or
+  // side-by-side stations can be split; a worksurface's own `station` overrides its host panel (the far side of a shared spine).
+  // Each junction belongs to exactly one workstation (the one most of its panels belong to), so staged pieces still add up.
+  // Returns [{ key, uid, name, panels, nodes (owned junctions), allNodes, ws (worksurface ids), figPanels, comp }].
+  E.workstations = function (P) {
+    const comps = E.components(P); const groups = new Map(); const order = [];
+    const get = (key, comp) => { if (!groups.has(key)) { const g = { key, name: '', panels: [], ws: [], allNodes: new Set(), nodes: [], comp, min: Infinity }; groups.set(key, g); order.push(g); } return groups.get(key); };
+    const pnum = (id) => +String(id).replace(/^\D+/, '') || 0;
+    const stKey = (name) => 'st:' + name;
+    const panelGroup = {};
+    for (const c of comps) for (const p of c.panels) { const g = p.station ? get(stKey(p.station), c.key) : get(c.key, c.key); g.panels.push(p); g.min = Math.min(g.min, pnum(p.id)); p.a && g.allNodes.add(p.a); p.b && g.allNodes.add(p.b); panelGroup[p.id] = g; }
+    for (const w of Object.values(P.worksurfaces || {})) {
+      const host = E.hostPanelOf(P, w.id); const hg = panelGroup[host];
+      const g = w.station ? get(stKey(w.station), hg ? hg.comp : null) : hg; if (!g) continue;
+      g.ws.push(w.id); if (!g.panels.length) g.min = Math.min(g.min, 1e6 + pnum(w.id));
+    }
+    // junction ownership
+    const legs = {}; for (const p of Object.values(P.panels)) for (const n of [p.a, p.b]) (legs[n] = legs[n] || []).push(p.id);
+    order.sort((a, b) => a.min - b.min);
+    const rank = new Map(order.map((g, i) => [g, i]));
+    for (const [nid, ps] of Object.entries(legs)) { const cnt = new Map(); for (const pid of ps) { const g = panelGroup[pid]; if (g) cnt.set(g, (cnt.get(g) || 0) + 1); } let best = null; for (const [g, k] of cnt) if (!best || k > cnt.get(best) || (k === cnt.get(best) && rank.get(g) < rank.get(best))) best = g; if (best) best.nodes.push(nid); }
+    // names: named stations keep their name; the rest are the connected group's name, or Workstation N (skipping names in use)
+    const used = new Set(order.filter(g => g.key.startsWith('st:')).map(g => g.key.slice(3)));
+    order.forEach((g, i) => { if (g.key.startsWith('st:')) g.name = g.key.slice(3); else if (P.areas && P.areas[g.key]) { g.name = P.areas[g.key]; used.add(g.name); } });
+    order.forEach((g, i) => { if (g.name) return; let n = i + 1; while (used.has('Workstation ' + n)) n++; g.name = 'Workstation ' + n; used.add(g.name); });
+    const figIds = (g) => { const ids = new Set(g.panels.map(p => p.id)); for (const wid of g.ws) { const w = P.worksurfaces[wid]; if (!w) continue; for (const pid of (w.kind === 'straight' ? [w.panel] : (w.legs || []))) if (P.panels[pid]) ids.add(pid); } return [...ids].map(id => P.panels[id]); };
+    return order.map((g, i) => { const figPanels = figIds(g); const all = new Set(g.allNodes); for (const p of figPanels) { all.add(p.a); all.add(p.b); } return { key: g.key, uid: 'w' + i, name: g.name, panels: g.panels.sort((a, b) => pnum(a.id) - pnum(b.id)), nodes: g.nodes.sort((a, b) => pnum(a) - pnum(b)), allNodes: [...all], ws: g.ws, figPanels, comp: g.comp }; });
+  };
+  // the workstation a spec line (by its source: panel, junction or worksurface id) belongs to, or null for job-wide lines
+  E.workstationOf = function (P, src, list) {
+    list = list || E.workstations(P);
+    if (P.worksurfaces && P.worksurfaces[src]) return list.find(g => g.ws.includes(src)) || null;
+    if (P.panels[src]) return list.find(g => g.panels.some(p => p.id === src)) || null;
+    if (P.nodes[src]) return list.find(g => g.nodes.includes(src)) || null;
+    return null;
+  };
+  // automatic split of one connected group into stations: worksurfaces that touch (butted seams, L joints, a corner and its
+  // straights) form a station; each panel joins the station whose worksurfaces are mounted on it, else the nearest one.
+  // A panel carrying worksurfaces of two stations (a shared spine) goes to the first; the other station's worksurfaces are
+  // assigned by their own `station`. Returns the station names, or null when the group has fewer than two worksurface clusters.
+  E.splitStations = function (P, compKey, baseName) {
+    const c = E.components(P).find(x => x.key === compKey); if (!c) return null;
+    const ids = new Set(c.panels.map(p => p.id));
+    const wss = Object.values(P.worksurfaces || {}).filter(w => ids.has(E.hostPanelOf(P, w.id)));
+    const geo = new Map(wss.map(w => [w.id, E.wsGeometry(P, w)]).filter(([, g]) => g));
+    const box = (g) => { const xs = g.poly.map(q => q[0]), ys = g.poly.map(q => q[1]); return [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)]; };
+    const segDist = (p, a, b) => { const dx = b[0] - a[0], dy = b[1] - a[1]; const L2 = dx * dx + dy * dy || 1; const t = Math.max(0, Math.min(1, ((p[0] - a[0]) * dx + (p[1] - a[1]) * dy) / L2)); return Math.hypot(p[0] - a[0] - t * dx, p[1] - a[1] - t * dy); };
+    const polyGap = (A, B) => { let m = Infinity; for (const [X, Y] of [[A, B], [B, A]]) for (const p of X) for (let i = 0; i < Y.length; i++) m = Math.min(m, segDist(p, Y[i], Y[(i + 1) % Y.length])); return m; };
+    const touch = (a, b) => { const A = geo.get(a.id), B = geo.get(b.id); if (!A || !B) return false; const x = box(A), y = box(B); if (x[0] > y[2] + 1 || y[0] > x[2] + 1 || x[1] > y[3] + 1 || y[1] > x[3] + 1) return false; return polyGap(A.poly, B.poly) <= 1; };
+    const list = wss.filter(w => geo.has(w.id)); const cl = new Map(); let k = 0;
+    for (const w of list) { if (cl.has(w.id)) continue; const st = [w]; cl.set(w.id, k); while (st.length) { const a = st.pop(); for (const b of list) if (!cl.has(b.id) && touch(a, b)) { cl.set(b.id, k); st.push(b); } } k++; }
+    if (k < 2) return null;
+    // cluster order: by the lowest host panel number, so names read in drawing order
+    const pnum = (id) => +String(id).replace(/^\D+/, '') || 0;
+    const first = Array.from({ length: k }, (_, i) => Math.min(...list.filter(w => cl.get(w.id) === i).map(w => pnum(E.hostPanelOf(P, w.id))))); const ord = first.map((v, i) => [v, i]).sort((a, b) => a[0] - b[0]).map(x => x[1]);
+    const used = new Set(E.workstations(P).filter(g => g.comp !== compKey || g.key.startsWith('st:')).map(g => g.name));
+    const names = []; for (let i = 0; i < k; i++) { let nm = baseName + String.fromCharCode(65 + i); let j = 2; while (used.has(nm)) nm = baseName + String.fromCharCode(65 + i) + j++; names.push(nm); }
+    const nameOf = (ci) => names[ord.indexOf(ci)];
+    const mounted = (p) => list.filter(w => (w.kind === 'straight' ? [w.panel] : (w.legs || [])).includes(p.id));
+    for (const p of c.panels) {
+      const on = mounted(p).map(w => cl.get(w.id)).sort((a, b) => ord.indexOf(a) - ord.indexOf(b));
+      if (on.length) { p.station = nameOf(on[0]); continue; }
+      const a = P.nodes[p.a], b = P.nodes[p.b]; const mid = [(a.x + b.x) / 2, (a.y + b.y) / 2];
+      let best = null, bd = Infinity; for (const w of list) { const g = geo.get(w.id); const d = Math.min(...g.poly.map((q, i) => segDist(mid, q, g.poly[(i + 1) % g.poly.length]))); if (d < bd - 1e-6 || (Math.abs(d - bd) < 1e-6 && ord.indexOf(cl.get(w.id)) < ord.indexOf(cl.get(best.id)))) { bd = d; best = w; } }
+      p.station = nameOf(cl.get(best.id));
+    }
+    for (const w of list) { const want = nameOf(cl.get(w.id)); const host = P.panels[E.hostPanelOf(P, w.id)]; w.station = host && host.station === want ? '' : want; }
+    return names.slice().sort();
   };
   // stable key for sourcing and shop/pick checks: where the line is used, the product, and its place among that product's lines there.
   // Finish, style suffix (wood trim) and description changes keep the key; E.lineKeyV1 is the old text key, used to migrate saved jobs.
@@ -2202,12 +2302,21 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const shapes = W.map(ws => { const g = E.wsGeometry(P, ws); return g && { ws, parts: E.wsParts(P, ws, g), peds: (ws.peds || []).map(d => ({ d, poly: E.pedRect(P, ws, g, d) })) }; }).filter(Boolean);
     const panels = Object.values(P.panels).map(p => { const n0 = P.nodes[p.a], n1 = P.nodes[p.b]; const L = Math.hypot(n1.x - n0.x, n1.y - n0.y) || 1, ux = (n1.x - n0.x) / L, uy = (n1.y - n0.y) / L, nx = -uy * POST_HALF, ny = ux * POST_HALF; const a = { x: n0.x + ux * POST_HALF, y: n0.y + uy * POST_HALF }, b = { x: n1.x - ux * POST_HALF, y: n1.y - uy * POST_HALF }; return { p, poly: [[a.x + nx, a.y + ny], [b.x + nx, b.y + ny], [b.x - nx, b.y - ny], [a.x - nx, a.y - ny]] }; }); // panel body between the post faces
     const nm = (ws) => wsName(ws);
+    const compOf = {}; for (const c of E.components(P)) for (const q of c.panels) compOf[q.id] = c.key;
+    const hostComp = (ws) => compOf[ws.kind === 'straight' ? ws.panel : (ws.legs || [])[0]];
+    const pnm = (id) => 'Panel ' + String(id).replace(/^P/, '');
+    // a panel on a worksurface's footprint: from another run (moved or drawn into it), or from its own run (the worksurface does not fit)
+    const intoPanel = (ws, q) => hostComp(ws) !== compOf[q.p.id]
+      ? `${pnm(q.p.id)} of another run stands on ${nm(ws)}: panels, worksurfaces and pedestals cannot share floor space (p209). Move that run clear of the worksurface, or move or delete the worksurface.`
+      : ws.kind === 'straight'
+        ? `${nm(ws)} runs into panel ${q.p.id}. A worksurface wrapped by a panel has to fit between the panel faces: plan with actual dimensions (p209), use a narrower worksurface, or use a corner worksurface.`
+        : `${nm(ws)} runs into panel ${q.p.id}: a ${ws.C}×${ws.D} corner reaches past that panel's face. Pick a smaller size (right-click › Size) or change the panel widths so the arms end on panel seams (p209, p216).`;
     for (let i = 0; i < shapes.length; i++) {
       const A = shapes[i];
       // two pedestals under one worksurface: 15"W each (p273), so the worksurface has to be wide enough for both
       for (let a = 0; a < A.peds.length; a++) for (let b = a + 1; b < A.peds.length; b++) if (hits([A.peds[a].poly], [A.peds[b].poly])) out.push({ id: A.ws.id, msg: `The two pedestals under ${nm(A.ws)} overlap: pedestals are 15"W (p273), so ${A.ws.kind === 'straight' ? `a ${A.ws.width}"W worksurface` : 'this arm'} cannot take one at each end. Delete one or use a wider worksurface.` });
       for (let j = i + 1; j < shapes.length; j++) { const B = shapes[j]; if (hits(A.parts, B.parts)) out.push({ id: A.ws.id, msg: `${nm(A.ws)} overlaps ${nm(B.ws)}. Worksurfaces butt at the panel junctions but cannot share floor space (p209).` }); else if (hits(A.peds.map(x => x.poly), B.peds.map(x => x.poly))) out.push({ id: A.ws.id, msg: `The pedestals under ${nm(A.ws)} and ${nm(B.ws)} overlap (p273).` }); }
-      for (const q of panels) { if (hits(A.parts, [q.poly])) out.push({ id: A.ws.id, msg: `${nm(A.ws)} runs into panel ${q.p.id}. A worksurface wrapped by a panel has to fit between the panel faces: plan with actual dimensions (p209) or use a corner worksurface.` }); else if (hits(A.peds.map(x => x.poly), [q.poly])) out.push({ id: A.ws.id, msg: `A pedestal under ${nm(A.ws)} runs into panel ${q.p.id} (p273).` }); }
+      for (const q of panels) { if (hits(A.parts, [q.poly])) out.push({ id: A.ws.id, msg: intoPanel(A.ws, q) }); else if (hits(A.peds.map(x => x.poly), [q.poly])) out.push({ id: A.ws.id, msg: hostComp(A.ws) !== compOf[q.p.id] ? `${pnm(q.p.id)} of another run stands on a pedestal under ${nm(A.ws)} (p273). Move that run clear of the pedestal.` : `A pedestal under ${nm(A.ws)} runs into panel ${q.p.id} (p273).` }); }
     }
     return out;
   };
@@ -2337,7 +2446,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
       for (const d of ws.peds || []) { const r = E.pedRect(P, ws, g, d); poly('A-PEDESTAL', r, true); const l = (res.lines || []).find(x => x.src === ws.id && x.cat === 'Storage' && /pedestal/i.test(x.desc) && !/filler/i.test(x.desc) && new RegExp(E.endName(ws, d.at)).test(x.desc)); text('A-TEXT', [(r[0][0] + r[2][0]) / 2, (r[0][1] + r[2][1]) / 2], 1.2, l ? l.style : 'PED', 0, true); }
     }
     // workstation names and title
-    for (const c of E.components(P)) { const xs = c.nodes.map(i => P.nodes[i].x), ys = c.nodes.map(i => P.nodes[i].y); text('A-TITLE', [Math.min(...xs), Math.max(...ys) + 8], 4, c.name, 0, false); }
+    for (const c of E.workstations(P)) { if (!c.allNodes.length) continue; const xs = c.allNodes.map(i => P.nodes[i].x), ys = c.allNodes.map(i => P.nodes[i].y); text('A-TITLE', [Math.min(...xs), Math.max(...ys) + 8], 4, c.name, 0, false); }
     const allY = Object.values(P.nodes).map(n => n.y), allX = Object.values(P.nodes).map(n => n.x);
     if (allX.length) text('A-TITLE', [Math.min(...allX), Math.min(...allY) - 60], 4, `${P.name || 'Untitled'}${P.job && P.job.number ? ' - Job ' + P.job.number : ''} - Steelcase Answer ${P.trim} trim - Answer Panel Planner ${opts.build || ''} - units inches - U.S. list $${Math.round(res.totals ? res.totals.all : 0)}`, 0, false);
     w(0, 'ENDSEC'); w(0, 'EOF');
@@ -2349,7 +2458,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.5';
+const BUILD='2026-09-24.6';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -2389,21 +2498,25 @@ const BUILD='2026-09-24.5';
     const fut = future; snapshot();
     const key = (c) => c.kind + ':' + c.panels.slice().sort().join(',');
     const before = new Set(E.panelConflicts(P).map(key)); const badBefore = new Set(Object.values(P.nodes).filter(n => E.junction(P, n).type === 'unsupported').map(n => n.id));
+    // worksurface, pedestal and panel footprints: a change may not create a collision that was not there (moving a run onto a worksurface, a typical on a pedestal)
+    const hasWs = () => Object.keys(P.worksurfaces || {}).length > 0; const wsKey = (m) => m.id + '|' + m.msg; const wsBefore = hasWs() ? new Set(E.wsCollisions(P).map(wsKey)) : new Set();
     let r; try { r = fn(); } catch (e) { r = false; console.error(e); }
     let msg = r === false ? '' : null;
     if (msg === null) {
       const nc = E.panelConflicts(P).filter(c => !before.has(key(c)));
       const nb = Object.values(P.nodes).map(n => [n, E.junction(P, n)]).find(([n, J]) => !badBefore.has(n.id) && J.type === 'unsupported');
       if (nc.length) msg = nc[0].msg; else if (nb) msg = nb[1].reason;
+      else if (hasWs()) { const nw = E.wsCollisions(P).filter(m => !wsBefore.has(wsKey(m))); if (nw.length) msg = nw[0].msg; }
     }
     if (msg !== null) { P = migrate(JSON.parse(history.pop())); future = fut; refresh(); if (msg) toast(`${what || 'Not changed'}: ${msg}`); return false; }
     refresh(); return true;
   }
-  function toast(m) { const t = $('#toast'); t.textContent = m; t.style.display = 'block'; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = 'none', 2800); }
+  function toast(m) { const t = $('#toast'); t.textContent = m; t.style.display = 'block'; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = 'none', Math.min(9000, 2800 + Math.max(0, String(m).length - 90) * 35)); } // long messages stay up long enough to read
   function download(name, text, type) { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([(/csv/.test(type || '') ? '\ufeff' : '') + text], { type: type || 'text/plain' })); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 3000); }
   function migrate(obj) {
     const base = E.newProject(obj.trim || 'thin'); const Q = Object.assign(base, obj);
-    Q.finishes = Object.assign(base.finishes, obj.finishes || {}); if (obj.finishes && !obj.finishes.edge) { const e = E.edges().find(x => x.code === obj.finishes.plasticColor); if (e) Q.finishes.edge = { code: e.code, name: e.name }; } // jobs saved before the edge setting kept the receptacle color on the edge Q.power = Object.assign(base.power, obj.power || {}); Q.options = Object.assign(base.options, obj.options || {});
+    Q.finishes = Object.assign(base.finishes, obj.finishes || {}); if (obj.finishes && !obj.finishes.edge) { const e = E.edges().find(x => x.code === obj.finishes.plasticColor); if (e) Q.finishes.edge = { code: e.code, name: e.name }; } // jobs saved before the edge setting kept the receptacle color on the edge
+    Q.power = Object.assign(base.power, obj.power || {}); Q.options = Object.assign(base.options, obj.options || {});
     Q.manual = obj.manual || []; Q.areas = obj.areas || {}; Q.worksurfaces = obj.worksurfaces || {}; for (const w of Object.values(Q.worksurfaces)) { w.supports = w.supports || { lo: 'auto', hi: 'auto' }; w.peds = w.peds || []; w.options = w.options || {}; } Q.sourcing = obj.sourcing || { byKey: {}, byCat: {} }; Q.shop = obj.shop || { done: {} }; Q.pick = obj.pick || { done: {}, bins: {} }; Q.job = Object.assign({ customer: '', number: '', planner: '', notes: '' }, obj.job || {});
     for (const p of Object.values(Q.panels)) { p.stackSides = p.stackSides || []; p.power = Object.assign({ kind: 'none', location: 'base', receptacles: [0, 0], usb: [0, 0], infeed: null }, p.power || {}); p.topCap = p.topCap || { wood: false, omit: false }; }
     return Q;
@@ -2419,6 +2532,7 @@ const BUILD='2026-09-24.5';
     for (const k of Object.keys(K)) if (isOld(k)) { const st = /^stage\|/.test(k), rest = st ? k.split('|').slice(2).join('|') : k; for (const l of R.lines) if (l.style + '|' + l.spec === rest) K[(st ? 'stage|' : 'pick|') + E.lineKey(l)] = K[k]; delete K[k]; }
   }
   function refresh() {
+    wsCache = null;
     for (const id of [...sel]) if (!P.panels[id]) sel.delete(id);
     if (selNode && !P.nodes[selNode]) selNode = null;
     if (selWs && !(P.worksurfaces && P.worksurfaces[selWs])) { selWs = null; selPed = null; }
@@ -2435,7 +2549,7 @@ const BUILD='2026-09-24.5';
     drawPlan(); drawElev(); renderRight(); renderPartCards(); renderLegend();
     { const pid = [...sel][0]; const what = pid && P.panels[pid] ? pn(pid) + (sel.size > 1 ? ' +' + (sel.size - 1) : '') : selWs && P.worksurfaces[selWs] ? E.wsName(P.worksurfaces[selWs]) : selNode ? jn(selNode) : ''; rcWhat = what; if ($('#st-plan').classList.contains('collapsed')) $('#rcToggle').title = `Show the editor: ${what || 'job'} (Tab)`; }
     if (stage === 'spec') renderSpec(); if (stage === 'shop') renderShop(); if (stage === 'install') renderInstall();
-    const comps = E.components(P);
+    const comps = E.workstations(P);
     $('#planInfo').textContent = `${comps.length} workstation${comps.length === 1 ? '' : 's'} · ${Object.keys(P.panels).length} panels · ${Object.keys(P.nodes).length} junctions${Object.keys(P.worksurfaces || {}).length ? ' · ' + Object.keys(P.worksurfaces).length + ' worksurfaces' : ''} · list ${money(R.totals.all)}`;
   }
 
@@ -2445,13 +2559,17 @@ const BUILD='2026-09-24.5';
   const W = () => plan.clientWidth, H = () => plan.clientHeight;
   const toS = (x, y) => [view.ox + x * view.s, view.oy - y * view.s];
   const toW = (sx, sy) => [(sx - view.ox) / view.s, (view.oy - sy) / view.s];
+  const ZMIN = .05; // 0.05 px per inch: a 1,400' floor fits the plan
   function fit() {
     const ns = Object.values(P.nodes);
     if (!ns.length) { view.s = 3; view.ox = 80; view.oy = H() - 80; return; }
-    const xs = ns.map(n => n.x), ys = ns.map(n => n.y);
-    const mnx = Math.min(...xs) - 30, mxx = Math.max(...xs) + 30, mny = Math.min(...ys) - 30, mxy = Math.max(...ys) + 30;
-    view.s = Math.max(.5, Math.min(10, Math.min(W() / (mxx - mnx), H() / (mxy - mny))));
-    view.ox = W() / 2 - (mnx + mxx) / 2 * view.s; view.oy = H() / 2 + (mny + mxy) / 2 * view.s;
+    const pts = [...ns.map(n => [n.x, n.y]), ...Object.values(P.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(P, w); return g ? g.poly : []; })];
+    const xs = pts.map(q => q[0]), ys = pts.map(q => q[1]);
+    const mnx = Math.min(...xs) - 24, mxx = Math.max(...xs) + 24, mny = Math.min(...ys) - 24, mxy = Math.max(...ys) + 24;
+    // pixel room for the workstation names above and below and for the hint line along the bottom of the plan
+    const PT = 48, PB = 48, PX = 20; // symmetric, so Fit centres the job and the zoom buttons zoom about it
+    view.s = Math.max(ZMIN, Math.min(10, Math.min((W() - 2 * PX) / (mxx - mnx), (H() - PT - PB) / (mxy - mny)))); // big jobs zoom out as far as they need
+    view.ox = W() / 2 - (mnx + mxx) / 2 * view.s; view.oy = PT + (H() - PT - PB) / 2 + (mny + mxy) / 2 * view.s;
   }
   function sizeCanvases() {
     for (const c of [plan]) { const r = c.getBoundingClientRect(); const d = window.devicePixelRatio || 1; c.width = Math.max(1, r.width * d); c.height = Math.max(1, r.height * d); c.getContext('2d').setTransform(d, 0, 0, d, 0, 0); }
@@ -2502,9 +2620,9 @@ const BUILD='2026-09-24.5';
   }
   // the plan scene: panels, worksurfaces, pedestals, workstation names and junction posts. plain = installer figure (no handles or hover, IDs shown)
   function drawScene(ctx, plain, only) {
-    const comps = E.components(P).filter(c => !only || c.key === only.key);
-    const panels = Object.values(P.panels).filter(p => !only || only.panels.some(q => q.id === p.id));
-    const nodes = Object.values(P.nodes).filter(n => !only || only.nodes.includes(n.id));
+    const comps = E.workstations(P).filter(c => !only || c.key === only.key);
+    const panels = Object.values(P.panels).filter(p => !only || (only.figPanels || only.panels).some(q => q.id === p.id));
+    const nodes = Object.values(P.nodes).filter(n => !only || (only.allNodes || only.nodes).includes(n.id));
     const L = Labels(ctx);
     for (const p of panels) {
       const moving = !plain && dragMove && dragMove.ids.has(p.id); const off = moving ? [dragMove.dx, dragMove.dy] : [0, 0];
@@ -2525,8 +2643,17 @@ const BUILD='2026-09-24.5';
     }
     drawWorksurfaces(ctx, plain, only, L);
     // workstation labels
+    // a workstation split out of a pod is labelled at its own corner of the pod: above it, or below it when it sits on the lower side
+    const allWs = E.workstations(P);
     for (const c of comps) {
-      const xs = c.nodes.map(n => P.nodes[n].x), ys = c.nodes.map(n => P.nodes[n].y);
+      const ns = c.allNodes && c.allNodes.length ? c.allNodes : c.nodes; if (!ns.length) continue;
+      const pts = [...c.panels.flatMap(p => [P.nodes[p.a], P.nodes[p.b]]).map(n => [n.x, n.y]), ...(c.ws || []).flatMap(id => { const w = P.worksurfaces[id]; const g = w && E.wsGeometry(P, w); return g ? g.poly : []; })];
+      if (!pts.length) for (const n of ns) pts.push([P.nodes[n].x, P.nodes[n].y]);
+      const xs = pts.map(q => q[0]), ys = pts.map(q => q[1]);
+      const split = c.comp && allWs.filter(g => g.comp === c.comp).length > 1;
+      const cn = split ? E.components(P).find(k => k.key === c.comp) : null; const cy = ys.reduce((a, v) => a + v, 0) / ys.length;
+      const below = cn && cy < cn.nodes.reduce((a, n) => a + P.nodes[n].y, 0) / cn.nodes.length - 1;
+      if (below) { const [sx, sy] = toS(Math.min(...xs), Math.min(...ys)); const bot = sy + 3 * view.s / 2 + 22; L.add({ text: c.name.toUpperCase(), font: '600 12px "Barlow Condensed", sans-serif', size: 12, color: '#416180', prio: 70, at: [0, 14, 28, 42].map(dy => (w, h) => [sx - 4 + w / 2, bot + dy]) }); continue; }
       const [sx, sy] = toS(Math.min(...xs), Math.max(...ys)); const top = sy - 3 * view.s / 2 - 22;
       L.add({ text: c.name.toUpperCase(), font: '600 12px "Barlow Condensed", sans-serif', size: 12, color: '#416180', prio: 70, at: [0, -14, -28, -42].map(dy => (w, h) => [sx - 4 + w / 2, top + dy]) });
     }
@@ -2547,7 +2674,7 @@ const BUILD='2026-09-24.5';
     const step = 12 * view.s;
     if (step >= 8) { ctx.fillStyle = '#c9c9cc'; for (let x = ((view.ox % step) + step) % step; x < w; x += step) for (let y = ((view.oy % step) + step) % step; y < h; y += step) { const gx = Math.round((x - view.ox) / view.s / 12), gy = Math.round((view.oy - y) / view.s / 12); const big = gx % 4 === 0 && gy % 4 === 0; ctx.beginPath(); ctx.arc(x, y, big ? 1.6 : .9, 0, 7); ctx.fill(); } }
     // scale bar
-    { const L = [6, 12, 24, 48, 96, 192, 384].filter(v => v * view.s <= 110).pop() || 6; ctx.strokeStyle = '#7a7a7d'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(14, h - 14); ctx.lineTo(14 + L * view.s, h - 14); ctx.stroke(); ctx.fillStyle = '#5d5d60'; ctx.font = '12px Barlow, sans-serif'; ctx.textAlign = 'left'; ctx.fillText(E.ftin(L), 14, h - 19); }
+    { const L = [6, 12, 24, 48, 96, 192, 384, 768, 1536, 3072].filter(v => v * view.s <= 110).pop() || 6; ctx.strokeStyle = '#7a7a7d'; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.moveTo(14, h - 14); ctx.lineTo(14 + L * view.s, h - 14); ctx.stroke(); ctx.fillStyle = '#5d5d60'; ctx.font = '12px Barlow, sans-serif'; ctx.textAlign = 'left'; ctx.fillText(E.ftin(L), 14, h - 19); }
     drawScene(ctx, false);
     // draw preview
     if (draw && draw.widths) {
@@ -2573,7 +2700,7 @@ const BUILD='2026-09-24.5';
   function drawWorksurfaces(c, plain, only, L) {
     const ties = []; // drawn over every worksurface so the plate shows across the seam, 3" in from the user's edge (p181, p182)
     for (const ws of Object.values(P.worksurfaces || {})) {
-      if (only && !only.panels.some(q => q.id === E.hostPanelOf(P, ws.id))) continue;
+      if (only && !(only.ws ? only.ws.includes(ws.id) : only.panels.some(q => q.id === E.hostPanelOf(P, ws.id)))) continue;
       const g = plain ? E.wsGeometry(P, ws) : wsDisplayGeometry(ws); if (!g) continue; const on = !plain && selWs === ws.id; const hv = !plain && hover && hover.kind === 'ws' && hover.id === ws.id;
       tracePoly(c, g.poly); c.fillStyle = WSFILL; c.fill(); c.lineWidth = on ? 2.5 : hv ? 1.8 : 1; c.strokeStyle = on ? '#5980a6' : WSLINE; c.stroke();
       // supports: cantilever ▲, end panel ▌, side support bracket ◆, shared —
@@ -2655,7 +2782,7 @@ const BUILD='2026-09-24.5';
         setTool('select'); sel = new Set(); selNode = null; selWs = null; selPed = null;
         if (h.kind === 'panel') { sel = new Set([h.id]); toast('Runs start on open floor or at a junction post. To branch off this run, press on one of its posts and drag.'); }
         else if (h.kind === 'ws' || h.kind === 'ped') { selWs = h.kind === 'ws' ? h.id : h.ws; selPed = h.kind === 'ped' ? h.id : null; }
-        refresh(); return;
+        refresh(); if (h.kind === 'ws' || h.kind === 'ped') toast(`${E.wsName(P.worksurfaces[selWs])} selected: runs cannot start on a worksurface or pedestal. Start on open floor or at a junction post; Draw run is off.`); return;
       }
       const [x0, y0, n0] = snapPoint(wx, wy); draw = { x0, y0, n0, shift: e.shiftKey, clickNode: h && h.kind === 'node' ? h.id : null }; return;
     }
@@ -2699,6 +2826,7 @@ const BUILD='2026-09-24.5';
   // a worksurface the planner places must have its own floor space and no rule errors (supports on junctions p216, butted at the seams p209)
   function wsIssues(ws) { const re = new RegExp(E.wsName(ws) + '\\b'); return E.generate(P).errors.filter(m => m.panel === ws.id || re.test(m.msg)).map(m => m.msg); }
   function wsFits(ws) { return !wsIssues(ws).length; }
+  function wsFree(ws) { const re = new RegExp(E.wsName(ws) + '\\b'); return !E.wsCollisions(P).some(m => m.id === ws.id || re.test(m.msg)); } // own floor space only, supports aside
   // try a change on a worksurface: the rule errors it would add (none = it fits). The worksurface is always put back as it was.
   function trialWs(ws, apply) { const keep = JSON.stringify(ws); const before = new Set(wsIssues(ws)); let bad; try { apply(); bad = wsIssues(ws).filter(m => !before.has(m)); } finally { const k = JSON.parse(keep); for (const x of Object.keys(ws)) delete ws[x]; Object.assign(ws, k); R = E.generate(P); } return bad; }
   // size, depth, construction, side and pedestal changes go through the same fit check as placing a worksurface (p209, p216): a change that adds a rule error is refused and nothing changes
@@ -2743,20 +2871,32 @@ const BUILD='2026-09-24.5';
     const old = ws.peds.find(x => x.at === spec.at); const where = E.endName(ws, spec.at);
     tryWs(ws, () => E.addPedestal(P, ws, spec), old ? `Replaced the ${old.type} ${PEDCFG[old.config]} pedestal at the ${where} end.` : `${spec.type === 'mobile' ? 'Mobile' : 'Fixed'} ${PEDCFG[spec.config]} pedestal added at the ${where} end.`);
   }
+  // the first width and position on this side of the panel that has its own floor space and lands its ends on junctions:
+  // the clicked spot, then the host panel's module, then inside the post faces of a wrapping panel. `commit` keeps it.
+  function straightWidths(depth) { return [...new Set(E.catalog().products.find(x => x.id === 'uw-straight').rows.filter(r => r.attrs.depth === E.wsDepthActual(depth, 'cord-drop')).map(r => r.attrs.width))].sort((a, b) => b - a); }
+  function findStraight(pid, side, t, depth, commit) {
+    const p = P.panels[pid]; const run = E.runOf(P, pid); const host = run.panels.find(r => r.id === pid);
+    const widths = straightWidths(depth); const roomAll = run.length + 3; const width = widths.find(w => w === p.width && w <= roomAll) || widths.find(w => w <= Math.min(p.width, roomAll)) || widths[widths.length - 1];
+    const seq = P.seq; const ws = E.newWorksurface(P, { kind: 'straight', panel: pid, side, off: 0, width, depth, edge: '3mm', material: 'laminate' }); let found = null;
+    for (const w of [width, ...widths.filter(x => x < width)]) { ws.width = w; const offs = [Math.round(snapWsOff(ws, t - host.from - w / 2).off * 2) / 2, 0, p.width - w, 1.5, p.width - w - 1.5, ...lJointStarts(ws, run).map(x => Math.round((x - host.from) * 1000) / 1000)]; const ok = offs.find(o => { ws.off = o; return E.wsWidths(P, ws).includes(w) && wsFits(ws); }); if (ok !== undefined) { ws.off = ok; found = ws; break; } }
+    let loose = 0; // widest worksurface with its own floor space on this panel, ignoring where its ends land
+    if (!found && !commit) for (const w of widths) { if (w > p.width + 3) continue; ws.width = w; for (let o = -3; o <= p.width - w + 3 && !loose; o += 1.5) { ws.off = o; if (wsFree(ws)) loose = w; } if (loose) break; }
+    if (!found || !commit) { E.removeWorksurface(P, ws.id); P.seq = seq; }
+    return { ws: found, width: found ? found.width : 0, loose };
+  }
   function addStraightWs(pid, side, wx, wy, depth) {
-    const p = P.panels[pid]; const run = E.runOf(P, pid); const host = run.panels.find(r => r.id === pid); const t = E.runOffset(run, wx, wy);
-    const widths = [...new Set(E.catalog().products.find(x => x.id === 'uw-straight').rows.filter(r => r.attrs.depth === E.wsDepthActual(depth, 'cord-drop')).map(r => r.attrs.width))].sort((a, b) => b - a);
-    const roomAll = run.length + 3; const width = widths.find(w => w === p.width && w <= roomAll) || widths.find(w => w <= Math.min(p.width, roomAll)) || widths[widths.length - 1];
-    // first width and position that has its own floor space: the clicked spot, then the host panel's module, then inside the post faces of a wrapping panel
-    const clear = (ws) => wsFits(ws);
+    const p = P.panels[pid]; const run = E.runOf(P, pid); const t = E.runOffset(run, wx, wy);
     let placed = null;
-    mutate(() => {
-      const ws = E.newWorksurface(P, { kind: 'straight', panel: pid, side, off: 0, width, depth, edge: '3mm', material: 'laminate' });
-      for (const w of [width, ...widths.filter(x => x < width)]) { ws.width = w; const offs = [Math.round(snapWsOff(ws, t - host.from - w / 2).off * 2) / 2, 0, p.width - w, 1.5, p.width - w - 1.5, ...lJointStarts(ws, run).map(x => Math.round((x - host.from) * 1000) / 1000)]; const ok = offs.find(o => { ws.off = o; return E.wsWidths(P, ws).includes(w) && clear(ws); }); if (ok !== undefined) { ws.off = ok; placed = ws; break; } }
-      if (!placed) { E.removeWorksurface(P, ws.id); return; }
-      selWs = ws.id; selPed = null; sel = new Set(); selNode = null;
-    });
-    toast(placed ? `${depth}"D × ${placed.width}"W worksurface added${placed.width < p.width ? ' to clear the neighboring panel or worksurface' : ''}. Drag it along the run, right-click for pedestals.` : `No ${depth}"D worksurface fits on this side: it would overlap a panel or another worksurface, or an end would miss a junction (p209, p216). Use a corner worksurface at the junction, or add a pedestal or post leg for the loose end. For an L of two straight worksurfaces, the return's first panel has to match the other worksurface's depth (24"W for 24"D) so its end lands on a junction (p209, p226).`);
+    if (findStraight(pid, side, t, depth, false).width) mutate(() => { const r = findStraight(pid, side, t, depth, true); placed = r.ws; if (placed) { selWs = placed.id; selPed = null; sel = new Set(); selNode = null; } });
+    if (placed) { toast(`${depth}"D × ${placed.width}"W worksurface added${placed.width < p.width ? ' to clear the neighboring panel or worksurface' : ''}. Drag it along the run, right-click for pedestals.`); return; }
+    // say what does fit here instead
+    const others = [24, 30, 18, 36].filter(d => d !== depth).map(d => [d, findStraight(pid, side, t, d, false)]).filter(([, r]) => r.width);
+    const loose = findStraight(pid, side, t, depth, false).loose;
+    const parts = [`No ${depth}"D worksurface fits on side ${side === 0 ? 'A' : 'B'} of ${pn(pid)}.`];
+    if (others.length) parts.push(`What fits here: ${others.map(([d, r]) => `${r.width}"W × ${d}"D`).join(', ')} (right-click › Add worksurface on this side).`);
+    if (loose) parts.push(`The free floor space takes a ${loose}"W × ${depth}"D, but its end would stop short of a junction, where it has nothing to hang on (p209, p216). Change ${pn(pid)}'s width so a worksurface spans junction to junction, or use a corner worksurface at the junction.`);
+    else parts.push('A panel or another worksurface takes the floor space on this side of the panel (p209).');
+    toast(parts.join(' '));
   }
   function addCornerWs(nid, wx, wy, kind120) {
     const n = P.nodes[nid]; const J = R.nodes[nid]; const legs = J.legs; if (!legs || legs.length < 2) return;
@@ -2793,17 +2933,37 @@ const BUILD='2026-09-24.5';
   // the panels an edit applies to: the whole selection when the clicked panel is part of it, else just that panel
   // width for one more panel on the end of a run: the "New panels" width, or the end panel's own width when that is set to Auto
   function extW(src) { const v = $('#optWidth').value; return v === 'auto' ? src.width : +v; }
+  // panels added from the ⊕ at a free end (and Continue the run): with "Auto fill widths" they match the neighboring panel
+  // (height, width, tiles, glass, power); with a width chosen they use the toolbar's width and height ("New panels")
+  const matchMode = () => $('#optWidth').value === 'auto';
+  function extH(src) { return matchMode() ? src.height : curH(); }
+  function extPanel(src, q) { if (q.height === src.height) { const w = q.width; copyPanelSettings(src, q); q.width = w; } else applyDefaults(q); }
+  // "Assign to workstation" submenu for panels (multi-select aware) or one worksurface
+  function stationItems(panels, wsl) {
+    const groups = E.workstations(P); const cur = new Set([...panels.map(q => q.station || ''), ...(wsl || []).map(w => w.station || '')]);
+    const nextName = () => { const used = new Set(groups.map(g => g.name)); let n = groups.length + 1; while (used.has('Workstation ' + n)) n++; return 'Workstation ' + n; };
+    return [...groups.map(g => ({ label: g.name + (cur.size === 1 && cur.has(g.name) ? '  ✓' : ''), run: () => assignStation(panels, g.name, wsl) })),
+      { label: 'New workstation…', run: () => { const nm = (prompt('Name of the new workstation', nextName()) || '').trim(); if (nm) assignStation(panels, nm, wsl); } },
+      { label: wsl && wsl.length ? 'Same as its panel (automatic)' : 'Automatic (connected panels)', run: () => assignStation(panels, '', wsl) }];
+  }
   function targetsOf(p) { return sel.has(p.id) && sel.size > 1 ? [...sel].map(id => P.panels[id]).filter(Boolean) : [p]; }
+  const who = (list) => list.length === 1 ? pn(list[0].id) : `${list.length} panels`;
+  const PWNAME = { none: 'no power', powerkit: 'a powerkit', passthrough: 'a pass-through powerkit' };
+  function setPower(ts, kind, per = 2) {
+    mutate(() => ts.forEach(q => { if (kind === 'powerkit') { if (q.width < 24) return; const cap = E.powerBlocksPerSide(q.width); if (q.power.kind !== 'powerkit' || !q.power.receptacles.some(x => x)) { const n = Math.min(per, cap); q.power.receptacles = [n, n]; } q.power.kind = 'powerkit'; q.power.location = q.power.location || 'base'; } else { q.power.kind = kind; if (kind !== 'powerkit') q.power.infeed = null; } }));
+    const skipped = kind === 'powerkit' ? ts.filter(q => q.width < 24).length : 0;
+    toast(`${who(ts)}: ${PWNAME[kind]}${skipped ? ` (${skipped} panel${skipped === 1 ? '' : 's'} under 24"W left as ${skipped === 1 ? 'it was' : 'they were'}: powerkits start at 24"W)` : ''}${kind === 'powerkit' ? '. Give one panel of the run a power infeed (p158).' : ''}`);
+  }
   function powerItems(p) {
     const ts = targetsOf(p); const few = ts.length > 1 ? ` (${ts.length} panels)` : '';
-    return [{ label: 'None' + few, run: () => mutate(() => ts.forEach(q => q.power.kind = 'none')) },
-      { label: 'Powerkit, receptacles both sides' + few, dis: ts.every(q => q.width < 24), run: () => mutate(() => ts.forEach(q => { if (q.width < 24) return; const cap = E.powerBlocksPerSide(q.width); const n = Math.min(2, cap); q.power = { kind: 'powerkit', location: q.power.location || 'base', receptacles: [n, n], usb: [0, 0], infeed: q.power.infeed || null }; })) },
-      { label: 'Pass-through' + few, run: () => mutate(() => ts.forEach(q => q.power.kind = 'passthrough')) }];
+    return [{ label: 'None' + few, run: () => setPower(ts, 'none') },
+      { label: 'Powerkit, receptacles both sides' + few, dis: ts.every(q => q.width < 24), run: () => setPower(ts, 'powerkit') },
+      { label: 'Pass-through' + few, run: () => setPower(ts, 'passthrough') }];
   }
   // stackers that no longer fit under the 90" maximum are trimmed by E.setStack (largest part that fits); say what changed
   function setHeights(list, hh) {
     const msgs = []; mutate(() => { for (const q of list) { const before = q.stack.slice(); E.setHeight(P, q, hh); if (before.join() !== q.stack.join()) msgs.push(`${pn(q.id)}: ${hh}" + ${before.join('" + ')}" is over the 90" maximum, so the stack is now ${q.stack.length ? q.stack.join('" + ') + '"' : 'removed'} (p27).`); } });
-    if (msgs.length) toast(msgs.join(' '));
+    toast(msgs.length ? msgs.join(' ') : `${who(list)} now ${hh}" high`);
   }
   // change a panel's width, moving everything beyond its far junction along the panel; refuses a panel that closes a loop
   function changeWidth(p, ww) {
@@ -2822,11 +2982,13 @@ const BUILD='2026-09-24.5';
       const ends = [[p.a, Ja], [p.b, Jb]].filter(([nid, J]) => J && J.legs.length === 1);
       return [{ head: `${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · side ${side === 0 ? 'A' : 'B'}` },
         { label: 'Add worksurface on this side', children: [{ label: '24"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 24) }, { label: '30"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 30) }, { label: '18"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 18) }, { label: '36"D worksurface (60–72"W)', run: () => addStraightWs(p.id, side, wx, wy, 36) }] },
-        { label: 'Continue the run', dis: !ends.length, children: ends.map(([nid, J]) => ({ label: `Add ${extW(p)}" panel at ${jn(nid)}`, run: () => guardedMutate(() => { const l = J.legs[0]; const q = E.addPanel(P, P.nodes[nid], (l.angle + 180) % 360, extW(p), p.height); copyPanelSettings(p, q); q.width = extW(p); sel = new Set([q.id]); selNode = null; selWs = null; }, 'Panel not added') })) },
+        { label: 'Continue the run', dis: !ends.length, children: ends.map(([nid, J]) => ({ label: `Add ${extW(p)}" × ${extH(p)}" panel at ${jn(nid)}`, run: () => guardedMutate(() => { const l = J.legs[0]; const q = E.addPanel(P, P.nodes[nid], (l.angle + 180) % 360, extW(p), extH(p)); extPanel(p, q); sel = new Set([q.id]); selNode = null; selWs = null; }, 'Panel not added') })) },
         { label: 'Height', children: E.HEIGHTS.map(hh => ({ label: `${hh}"${hh === p.height ? '  ✓' : ''}`, run: () => setHeights(targetsOf(p), hh) })) },
         { label: 'Width', children: E.WIDTHS.map(ww => ({ label: `${ww}"${ww === p.width ? '  ✓' : ''}`, run: () => setWidths(targetsOf(p), ww) })) },
         P.trim === 'thin' ? { label: p.glassScreen ? 'Remove glass screen' : 'Add 12" frameless glass screen', dis: p.width < 24, run: () => mutate(() => { const on = !p.glassScreen; for (const q of targetsOf(p)) q.glassScreen = on && q.width >= 24 ? (q.glassScreen || { attach: 'recessed', height: 12, frosted: false, omitGlass: false }) : null; }) } : { label: p.stack.length ? 'Remove stacker' : 'Add 12" stacker', run: () => mutate(() => { const on = !p.stack.length; for (const q of targetsOf(p)) E.setStack(P, q, on ? [12] : []); }) },
         { label: 'Power', children: powerItems(p) },
+        { label: 'Assign to workstation', children: stationItems(targetsOf(p)) },
+        { label: 'Split this pod into stations', dis: Object.values(P.worksurfaces || {}).filter(w => { const c = E.components(P).find(x => x.panels.some(q => q.id === p.id)); return c && c.panels.some(q => q.id === E.hostPanelOf(P, w.id)); }).length < 2, run: () => { const c = E.components(P).find(x => x.panels.some(q => q.id === p.id)); if (c) splitPod(c.key); } },
         '-', { label: 'Select this run', run: () => { sel = new Set(chainOf(p.id).map(q => q.id)); selNode = null; selWs = null; refresh(); } },
         { label: 'Delete panel', hint: 'Del', run: () => mutate(() => { for (const id of (sel.has(p.id) ? [...sel] : [p.id])) E.removePanel(P, id); sel = new Set(); }) }];
     }
@@ -2861,6 +3023,7 @@ const BUILD='2026-09-24.5';
       }
       const supportOpts = [['auto', 'Automatic (per the guide)'], ['cantilever', 'Cantilever'], ['endpanel', 'End panel'], ['leg', 'Post leg'], ['csp', 'Center support panel (shared at a seam)'], ['ssb', 'Side support bracket (wrapped end)']];
       for (const side of ['left', 'right']) { const k = ek[side]; items.push({ label: `Support at the ${endLabel(ws, side).toLowerCase()}`, children: supportOpts.map(([v, l]) => ({ label: l + ((ws.supports[k] || 'auto') === v ? '  ✓' : ''), run: () => mutate(() => ws.supports[k] = v) })) }); }
+      items.push({ label: 'Assign to workstation', children: stationItems([], [ws]) });
       items.push('-', { label: 'Delete worksurface', hint: 'Del', run: () => mutate(() => E.removeWorksurface(P, ws.id)) });
       return items;
     }
@@ -2900,7 +3063,7 @@ const BUILD='2026-09-24.5';
     if (h && h.kind === 'panel') { const p = P.panels[h.id]; const JA = R.nodes[p.a], JB = R.nodes[p.b]; const oneFree = JA && JB && ((JA.legs.length === 1) !== (JB.legs.length === 1)); tip.textContent = `${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · click to edit · ${oneFree ? 'drag the free end to swing it, drag the joined end to move the run' : 'drag to move'}`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else if (h && h.kind === 'ws') { const ws = P.worksurfaces[h.id]; tip.textContent = `${E.wsName(ws)} · ${ws.kind === 'straight' ? ws.width + '"W × ' + ws.depth + '"D · drag along the run' : ws.C + '×' + ws.D} · right-click for pedestals and supports`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else if (h && h.kind === 'ped') { const ws = P.worksurfaces[h.ws]; const d = ws.peds.find(x => x.id === h.id); tip.textContent = `${d.type} pedestal ${PEDCFG[d.config]} · right-click to change`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
-    else if (h && h.kind === 'handle') { tip.textContent = 'Click: one more panel · drag: turn a corner'; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
+    else if (h && h.kind === 'handle') { { const J = R.nodes[h.id]; const src = J && J.legs && J.legs[0] && P.panels[J.legs[0].panel.id]; tip.textContent = src ? (matchMode() ? `Click: one more ${src.width}" × ${src.height}" panel matching this run · drag: turn a corner (Auto fill widths: new panels match the run)` : `Click: one more ${curW()}" × ${curH()}" panel (the New panels size) · drag: turn a corner`) : 'Click: one more panel · drag: turn a corner'; } tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else if (h && h.kind === 'node') { const J = R.nodes[h.id]; tip.textContent = `${jn(h.id)} · ${J.legs.length} panel${J.legs.length === 1 ? '' : 's'} · ${jShort(J)}`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else tip.style.display = 'none';
     if (tip.style.display === 'block') { const W0 = plan.clientWidth, H0 = plan.clientHeight, tw = tip.offsetWidth, th = tip.offsetHeight; tip.style.left = Math.max(4, sx + 14 + tw > W0 - 4 ? sx - 14 - tw : sx + 14) + 'px'; tip.style.top = Math.max(4, sy + 10 + th > H0 - 4 ? sy - 10 - th : sy + 10) + 'px'; } // keep the tip inside the plan
@@ -2912,12 +3075,12 @@ const BUILD='2026-09-24.5';
       const src = d.handle && P.panels[d.handle.src];
       if (d.handle && !(d.widths && d.widths.length)) { // plain click on ⊕: one more panel straight on, same as its neighbour
         if (!src || !P.nodes[d.handle.nid]) { drawPlan(); return; }
-        guardedMutate(() => { const w = extW(src); const q = E.addPanel(P, P.nodes[d.handle.nid], d.handle.ang, w, src.height); copyPanelSettings(src, q); q.width = w; sel = new Set([q.id]); selNode = null; selWs = null; selPed = null; }, 'Panel not added');
+        guardedMutate(() => { const w = extW(src); const q = E.addPanel(P, P.nodes[d.handle.nid], d.handle.ang, w, extH(src)); extPanel(src, q); sel = new Set([q.id]); selNode = null; selWs = null; selPed = null; }, 'Panel not added');
         return;
       }
       if (!d.widths && d.clickNode) { setTool('select'); selNode = d.clickNode; sel = new Set(); selWs = null; selPed = null; refresh(); return; }
       if (d.widths && d.widths.length) {
-        const ok = guardedMutate(() => { let n = d.n0 || E.nodeAt(P, d.x0, d.y0, 1) || E.addNode(P, d.x0, d.y0); const ids = []; for (const wdt of d.widths) { const q = E.addPanel(P, n, d.ang * 180 / Math.PI, wdt, src ? src.height : +$('#optHeight .on').dataset.h); if (src) { copyPanelSettings(src, q); q.width = wdt; } else applyDefaults(q); ids.push(q.id); n = P.nodes[q.b]; } sel = new Set([ids[ids.length - 1]]); selNode = null; selWs = null; selPed = null; }, 'Run not drawn');
+        const ok = guardedMutate(() => { let n = d.n0 || E.nodeAt(P, d.x0, d.y0, 1) || E.addNode(P, d.x0, d.y0); const ids = []; for (const wdt of d.widths) { const q = E.addPanel(P, n, d.ang * 180 / Math.PI, wdt, src ? extH(src) : curH()); if (src) extPanel(src, q); else applyDefaults(q); ids.push(q.id); n = P.nodes[q.b]; } sel = new Set([ids[ids.length - 1]]); selNode = null; selWs = null; selPed = null; }, 'Run not drawn');
         if (ok) toast(`${d.widths.length} panel${d.widths.length === 1 ? '' : 's'} added`);
       } else drawPlan();
       return; }
@@ -2933,7 +3096,7 @@ const BUILD='2026-09-24.5';
     if (dragMove) { const dm = dragMove; dragMove = null; if (dm.moved && (dm.dx || dm.dy)) { guardedMutate(() => { if (!E.moveNodes(P, [...dm.nodes], dm.dx, dm.dy)) { toast('Cannot join there: panels would meet at an angle Answer does not support.'); return false; } }, 'Run not moved'); } else drawPlan(); return; }
     if (pan) { pan = null; }
   });
-  const ZMIN = .4, ZMAX = 14;
+  const ZMAX = 14;
   function zoomAt(sx, sy, f) { const [wx, wy] = toW(sx, sy); view.s = Math.max(ZMIN, Math.min(ZMAX, view.s * f)); view.ox = sx - wx * view.s; view.oy = sy + wy * view.s; drawPlan(); }
   plan.addEventListener('wheel', e => { e.preventDefault(); const [sx, sy] = mousePos(e); zoomAt(sx, sy, e.deltaY < 0 ? 1.12 : 1 / 1.12); }, { passive: false });
   $('#zIn').onclick = () => zoomAt(W() / 2, H() / 2, 1.25); $('#zOut').onclick = () => zoomAt(W() / 2, H() / 2, 1 / 1.25); $('#zFit').onclick = () => { fit(); drawPlan(); };
@@ -2941,11 +3104,32 @@ const BUILD='2026-09-24.5';
   function setTool(t) { tool = t; placing = null; $$('#toolgroup [data-tool]').forEach(b => b.classList.toggle('on', b.dataset.tool === t)); plan.className = t === 'draw' ? 'draw' : ''; drawPlan(); }
   function applyDefaults(q) { const g = $('#optGlass'); if (g && g.checked && P.trim === 'thin' && q.width >= 24) q.glassScreen = { attach: 'recessed', height: 12, frosted: false, omitGlass: false }; }
   function copyPanelSettings(from, to) { const keep = { id: to.id, a: to.a, b: to.b }; Object.assign(to, JSON.parse(JSON.stringify(from)), keep); to.label = ''; if (to.power) to.power.infeed = null; } // one building infeed per circuit run, never copied
+  // ---------- workstations: assignment, rename, split ----------
+  // assigning panels to the name of an automatic workstation (a connected group) names that whole group, so they join it
+  function assignStation(list, name, wsList) {
+    const groups = E.workstations(P); const auto = name && groups.find(g => g.name === name && !g.key.startsWith('st:'));
+    mutate(() => { if (auto) for (const q of auto.panels) q.station = name; for (const q of list) q.station = name || ''; for (const w of wsList || []) w.station = name || ''; });
+    const n = list.length + (wsList || []).length;
+    toast(name ? `${n === 1 ? (list[0] ? pn(list[0].id) : E.wsName(wsList[0])) : n + ' items'} assigned to ${name}${list.length ? ' (worksurfaces on these panels follow them)' : ''}` : `${n === 1 ? (list[0] ? pn(list[0].id) : E.wsName(wsList[0])) : n + ' items'} back to automatic grouping by connected panels`);
+  }
+  function renameStation(key, name) {
+    if (!name) { refresh(); return; }
+    if (key.startsWith('st:')) { const old = key.slice(3); mutate(() => { for (const q of Object.values(P.panels)) if (q.station === old) q.station = name; for (const w of Object.values(P.worksurfaces || {})) if (w.station === old) w.station = name; }); }
+    else mutate(() => { P.areas[key] = name; });
+  }
+  function splitPod(compKey) {
+    const c = E.workstations(P).find(g => g.comp === compKey && !g.key.startsWith('st:')) || E.workstations(P).find(g => g.comp === compKey);
+    const base = (c ? c.name : 'Workstation') + ' ';
+    snapshot(); const names = E.splitStations(P, compKey, base.replace(/ $/, ''));
+    if (!names) { history.pop(); toast('Nothing to split: stations are found from worksurfaces that touch, and this group has only one such cluster. Assign panels by name instead (right-click › Assign to workstation).'); return; }
+    refresh(); toast(`Split into ${names.length} workstations: ${names.join(', ')}. Rename them under Workstations; right-click › Assign to workstation to adjust.`);
+  }
   function renderLegend() { $('#legend').innerHTML = Object.entries(HCOL).map(([h, c]) => `<span><span class="sw" style="background:${c}"></span>${h}" high</span>`).join('') + '<span><span class="sw" style="background:#d9cbb3"></span>worksurface · C cantilever · EP end panel · SB side bracket · <span class="sw" style="background:#5d5d60;height:5px"></span>tie plate at a seam</span><span>· grey square = shared 3" junction post · dashed = stacked · ⊕ = click to add a panel, drag to turn a corner · right-click for more</span>'; }
 
   // ---------- elevation ----------
   const elev = $('#elev'), ectx = elev.getContext('2d');
   const FILL = { 'tackable acoustical': '#c9d5e6', 'performance tackable acoustical': '#bccbe0', steel: '#b9bdc4', laminate: '#d9cbb3', wood: '#c8a27a', markerboard: '#ffffff', slatwall: '#c2c6cc', technology: '#a9b4c6', window: '#d6ecff' };
+  const postH = (nid) => { const J = R && R.nodes[nid]; return J && J.legs && J.legs.length ? Math.max(...J.legs.map(l => l.total)) : 0; }; // junction post height: its tallest panel
   function chainOf(pid) { // in-line chain through pid, ordered
     const p = P.panels[pid]; if (!p) return [];
     const walk = (nid, from) => { const out = []; let cur = from, node = nid; while (true) { const J = R.nodes[node]; if (!J || J.type !== 'inline') break; const nx = J.legs.find(l => l.panel.id !== cur.id); if (!nx) break; out.push(nx.panel); cur = nx.panel; node = nx.farNode; if (out.length > 40) break; } return out; };
@@ -2958,7 +3142,7 @@ const BUILD='2026-09-24.5';
     const run = E.runOf(P, chain[0].id); const rev = chain.length > 1 && run.panels[0].id !== chain[0].id;
     const entries = (rev ? run.panels.slice().reverse() : run.panels).filter(r => chain.some(p => p.id === r.id)); // chain order
     const faceOf = (r) => (r.flip === rev) ? side : 1 - side; // physical side index of this panel that faces the viewer
-    const totalW = sum(chain.map(p => p.width)) + 3; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? (p.glassScreen.attach === 'clip' ? 12 : p.glassScreen.height) : 0) + (p.topScreen ? 12 : 0)));
+    const totalW = sum(chain.map(p => p.width)) + 3; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? (p.glassScreen.attach === 'clip' ? 12 : p.glassScreen.height) : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(postH)); // a taller neighbor at an end junction raises its post
     const pad = 30; const s = opts.fixedScale || Math.min((w - 2 * pad) / totalW, (h - pad - 52) / maxH); const y0 = h - 46; const padL = pad + Math.max(0, (w - 2 * pad - totalW * s) / 2); let x = padL + 3 * s;
     const seq = side === 0 ? entries : entries.slice().reverse();
     const hit = (o) => { if (hits) hits.push(o); };
@@ -3022,7 +3206,7 @@ const BUILD='2026-09-24.5';
     if (!pid || !P.panels[pid]) { ectx.clearRect(0, 0, w, h); elevHits = []; elevLock = null; $('#elevInfo').textContent = 'Select a panel to see its run.'; return; }
     elevLock = pid;
     const chain = chainOf(pid); $('#elevInfo').textContent = `${chain.length} panel run · ${E.ftin(sum(chain.map(p => p.width)))} · side ${elevSide === 0 ? 'A' : 'B'} · click a tile to edit it, right-click for options`;
-    const totalW = sum(chain.map(p => p.width)) + 3; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? 18 : 0) + (p.topScreen ? 12 : 0)));
+    const totalW = sum(chain.map(p => p.width)) + 3; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? 18 : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(n => postH(n) + 4));
     const wrapW = elev.parentElement.clientWidth - 2; const MIN_S = 2.2; // never below 2.2 px per inch: 12" tiles stay readable, long runs scroll sideways
     let es = Math.max(MIN_S, (wrapW - 60) / totalW); const cw = Math.max(wrapW, Math.round(totalW * es + 60)); const ch = Math.min(560, Math.max(240, Math.round(maxH * es + 100))); es = Math.min(es, (ch - 100) / maxH);
     const d = window.devicePixelRatio || 1; elev.style.width = cw + 'px'; elev.style.height = ch + 'px'; elev.width = Math.round(cw * d); elev.height = Math.round(ch * d); ectx.setTransform(d, 0, 0, d, 0, 0);
@@ -3108,7 +3292,7 @@ const BUILD='2026-09-24.5';
   }
   function bindGo(root) { $$('[data-go]', root).forEach(g => g.onclick = () => { const id = g.dataset.go.split(',')[0]; selWs = null; selPed = null; if (P.panels[id]) { sel = new Set([id]); selNode = null; } else if (P.nodes[id]) { selNode = id; sel = new Set(); } else if (P.worksurfaces[id]) { selWs = id; sel = new Set(); selNode = null; } refresh(); }); }
   function renderJob(r) {
-    const comps = E.components(P); const T = R.totals;
+    const comps = E.workstations(P); const T = R.totals;
     r.innerHTML = `<div class="card">
       <div class="sec">Job</div>
       <div class="fields2"><div class="field"><label>Customer</label><input type="text" id="jCustomer" value="${esc(P.job.customer)}"></div><div class="field"><label>Job number</label><input type="text" id="jNumber" value="${esc(P.job.number)}"></div></div>
@@ -3119,14 +3303,16 @@ const BUILD='2026-09-24.5';
       ${comps.map(c => `<div class="kv"><span>${esc(c.name)} · ${c.panels.length} panels</span><b>${money(R.lines.filter(l => inComp(c, l)).reduce((a, l) => a + l.ext, 0))}</b></div>`).join('')}
       <div class="sec">Issues</div>${issuesHTML()}
       <div class="sec">Workstations</div>
-      ${comps.map(c => `<div class="control"><input type="text" data-area="${c.key}" value="${esc(c.name)}" style="flex:1" title="Rename this workstation"><button class="btn small" data-selc="${c.key}">Show</button></div>`).join('') || '<div class="muted">Draw a run to start.</div>'}
+      ${comps.map(c => `<div class="control"><input type="text" data-area="${esc(c.key)}" value="${esc(c.name)}" style="flex:1" title="Rename this workstation"><button class="btn small" data-selc="${esc(c.key)}">Show</button>${!c.key.startsWith('st:') && Object.values(P.worksurfaces || {}).filter(w => c.panels.some(p => p.id === E.hostPanelOf(P, w.id))).length > 1 ? `<button class="btn small" data-split="${esc(c.comp)}" title="Split this pod into stations: worksurfaces that touch form a station, and each panel joins the station mounted on it or the nearest one">Split</button>` : ''}</div>`).join('') || '<div class="muted">Draw a run to start.</div>'}
+      ${comps.length ? '<div class="muted">A workstation is a connected group of panels unless panels are assigned to one by name (panel editor, or right-click › Assign to workstation).</div>' : ''}
       <div class="sec">Bill of materials</div>
       <div class="bomlist">${E.aggregate(R.lines).slice(0, 60).map(a => `<div class="r"><span class="sn">${esc(a.style)}</span><span class="d">${esc(a.desc.replace(/ — side \d.*$/, '').replace(/\(\d+"→\d+"\)/, ''))}</span><span class="q">${a.qty}</span></div>`).join('') || '<div class="muted">Nothing yet.</div>'}</div>
     </div>`;
     for (const [id, k] of [['jCustomer', 'customer'], ['jNumber', 'number'], ['jPlanner', 'planner']]) $('#' + id).onchange = e => mutate(() => P.job[k] = e.target.value);
     r.innerHTML = linkPages(r.innerHTML);
-    $$('[data-area]', r).forEach(i => i.onchange = () => mutate(() => { P.areas[i.dataset.area] = i.value.trim(); }));
-    $$('[data-selc]', r).forEach(b => b.onclick = () => { const c = E.components(P).find(x => x.key === b.dataset.selc); sel = new Set(c.panels.map(p => p.id)); selNode = null; refresh(); });
+    $$('[data-area]', r).forEach(i => i.onchange = () => renameStation(i.dataset.area, i.value.trim()));
+    $$('[data-selc]', r).forEach(b => b.onclick = () => { const c = E.workstations(P).find(x => x.key === b.dataset.selc); if (!c) return; sel = new Set(c.panels.map(p => p.id)); selNode = null; selWs = null; refresh(); });
+    $$('[data-split]', r).forEach(b => b.onclick = () => splitPod(b.dataset.split));
     bindGo(r);
   }
   function fabricOptions(cur) { const fs = E.fabrics().filter(f => f.code && f.group && f.group !== 'n/a'); return `<option value="">Job fabric (${esc(P.finishes.fabric.code)} ${esc(P.finishes.fabric.name)})</option>` + fs.map(f => `<option value="${f.code}"${cur === f.code ? ' selected' : ''}>${f.code} ${esc((f.collection ? f.collection + ' ' : '') + f.name)} · gr ${f.group}</option>`).join(''); }
@@ -3158,13 +3344,15 @@ const BUILD='2026-09-24.5';
   function miniElev(canvas, segs, target, toFloor) { const c = canvas.getContext('2d'); const w = canvas.width = 104, h = canvas.height = 236; c.clearRect(0, 0, w, h); const s = (h - 20) / (target + 6); let y = h - 8; if (!toFloor) { c.fillStyle = '#8a8a8d'; c.fillRect(10, y - 3.75 * s, w - 20, 3.75 * s); } y -= 3.75 * s; segs.forEach((sg, i) => { const t = sg.kind === 'window' ? 'window' : sg.type; const e0 = i === 0 && toFloor ? 3.75 * s : 0; c.fillStyle = FILL[t] || '#ccc'; c.fillRect(10, y - sg.height * s, w - 20, sg.height * s + e0); c.strokeStyle = '#7a7a7d'; c.strokeRect(10, y - sg.height * s, w - 20, sg.height * s + e0); y -= sg.height * s; }); c.fillStyle = '#5d5d60'; c.fillRect(8, y - 2, w - 16, 3); }
   function renderPanel(r, p) {
     const Ja = R.nodes[p.a], Jb = R.nodes[p.b]; const thin = P.trim === 'thin'; const skinH = p.height - 6; const multi = sel.size > 1;
-    const comp = E.components(P).find(c => c.panels.some(x => x.id === p.id));
+    const comp = E.workstationOf(P, p.id);
+    const stations = E.workstations(P);
     const cap = E.powerBlocksPerSide(p.width);
     const stackOpts = E.stackOptions(p.height);
     r.innerHTML = `<div class="card">
       <div class="itemcard"><div class="head"><h2>${pn(p.id)}${multi ? ` <span class="muted">+${sel.size - 1} more selected</span>` : ''}</h2><button class="x" id="xClose" title="Deselect">×</button></div>
       <div class="muted">${esc(comp ? comp.name : '')} · ends at ${jn(p.a)} (${Ja ? jShort(Ja) : ''}) and ${jn(p.b)} (${Jb ? jShort(Jb) : ''})</div></div>
       ${multi ? `<div class="msg info">Every change here applies to all ${sel.size} selected panels. Tile edits copy this panel’s tiles to the same side of the others.</div>` : ''}
+      <div class="control" title="Name a workstation to split a pod: the panels (and the worksurfaces on them) go to that workstation on the Specification, SIF, staging and installer sheets. Leave empty to group by connected panels."><label>Workstation</label><input type="text" id="pStation" list="stationNames" value="${esc(p.station || '')}" placeholder="${esc(comp && !p.station ? comp.name : 'automatic')} (automatic)" style="flex:1"><datalist id="stationNames">${stations.map(c => `<option value="${esc(c.name)}">`).join('')}</datalist></div>
       <div class="sec">Size</div>
       <div class="control"><label>Height</label><div class="seg" id="pH">${seg(E.HEIGHTS, p.height, v => v + '"', 'h')}</div></div>
       <div class="control"><label>Width</label><div class="seg wrap" id="pW">${seg(E.WIDTHS, p.width, v => v + '"', 'w')}</div></div>
@@ -3198,20 +3386,24 @@ const BUILD='2026-09-24.5';
     miniElev($('#miniA'), p.sides[0], skinH, p.skinsToFloor); miniElev($('#miniB'), p.sides[1], skinH, p.skinsToFloor);
     const targets = () => { const t = [...sel].map(id => P.panels[id]).filter(Boolean); return t.length ? t : [p]; };
     $('#xClose').onclick = () => { sel = new Set(); refresh(); };
+    $('#pStation').onchange = e => assignStation(targets(), e.target.value.trim());
     $$('#pH button').forEach(b => b.onclick = () => setHeights(targets(), +b.dataset.h));
     $$('#pW button').forEach(b => b.onclick = () => setWidths(targets(), +b.dataset.w));
-    $$('#pStack button').forEach(b => b.onclick = () => { const want = b.dataset.st ? b.dataset.st.split(',').map(Number) : []; const msgs = []; mutate(() => targets().forEach(q => { E.setStack(P, q, want); if (q.stack.join() !== want.join()) msgs.push(`${pn(q.id)}: ${q.height}" + ${want.join('" + ')}" is over 90", so it is stacked ${q.stack.length ? q.stack.join('" + ') + '"' : 'none'} (p27).`); })); if (msgs.length) toast(msgs.join(' ')); });
+    $$('#pStack button').forEach(b => b.onclick = () => { const want = b.dataset.st ? b.dataset.st.split(',').map(Number) : []; const msgs = []; mutate(() => targets().forEach(q => { E.setStack(P, q, want); if (q.stack.join() !== want.join()) msgs.push(`${pn(q.id)}: ${q.height}" + ${want.join('" + ')}" is over 90", so it is stacked ${q.stack.length ? q.stack.join('" + ') + '"' : 'none'} (p27).`); })); toast(msgs.length ? msgs.join(' ') : want.length ? `${who(targets())}: stacked ${want.join('" + ')}" (${targets().map(q => E.panelTotalHeight(q) + '"').filter((v, i, a) => a.indexOf(v) === i).join(', ')} overall)` : `${who(targets())}: stacker removed`); });
     $$('#pTop button').forEach(b => b.onclick = () => mutate(() => targets().forEach(q => { q.topCap.wood = b.dataset.tc === 'wood'; q.topCap.omit = b.dataset.tc === 'omit'; })));
     $('#pBase').onchange = e => mutate(() => targets().forEach(q => q.baseTrim = e.target.value));
     $('#pOpen').onchange = e => mutate(() => targets().forEach(q => q.openBase = e.target.checked));
     $('#pFloor').onchange = e => mutate(() => targets().forEach(q => q.skinsToFloor = e.target.checked));
     $('#pTray').onchange = e => mutate(() => targets().forEach(q => q.cableTray = e.target.checked));
     $('#pBTray').onchange = e => mutate(() => targets().forEach(q => q.baseCableTray = e.target.checked));
-    $$('#pPower button').forEach(b => b.onclick = () => mutate(() => targets().forEach(q => { q.power.kind = b.dataset.pw; if (q.power.kind === 'powerkit' && !q.power.receptacles.some(x => x)) q.power.receptacles = [1, 1]; })));
+    $$('#pPower button').forEach(b => b.onclick = () => setPower(targets(), b.dataset.pw, 1));
     $$('#pLoc button').forEach(b => b.onclick = () => mutate(() => targets().forEach(q => q.power.location = b.dataset.loc)));
     // outlet and USB steppers step every selected powerkit by the same amount, each within its own width's capacity
     $$('.stepper', r).forEach(st => { const k = st.dataset.st; const [minus, plus] = st.querySelectorAll('button'); const f = (d) => mutate(() => targets().filter(q => q.power.kind === 'powerkit').forEach(q => { const qc = E.powerBlocksPerSide(q.width); const arr = k[0] === 'r' ? q.power.receptacles : q.power.usb; const i = +k[1]; arr[i] = Math.max(0, Math.min(qc, (arr[i] | 0) + d)); })); minus.onclick = () => f(-1); plus.onclick = () => f(1); });
-    const inf = $('#pInfeed'); if (inf) inf.onchange = e => mutate(() => targets().filter(q => q.power.kind === 'powerkit').forEach(q => q.power.infeed = e.target.value ? { length: +e.target.value } : null));
+    // one building power-in per circuit run (p146, p158): with several panels selected the infeed goes on the first powerkit only
+    const inf = $('#pInfeed'); if (inf) inf.onchange = e => { const v = e.target.value; const kits = targets().filter(q => q.power.kind === 'powerkit'); if (!kits.length) return; const first = kits.includes(p) ? p : kits[0];
+      mutate(() => { if (v) { first.power.infeed = { length: +v }; } else kits.forEach(q => q.power.infeed = null); });
+      if (v && kits.length > 1) toast(`Power infeed ${v}' set on ${pn(first.id)} only: one building power-in feeds a circuit run (p146, p158). The other ${kits.length - 1} selected panel${kits.length > 2 ? 's keep their' : ' keeps its'} setting.`); else toast(v ? `${pn(first.id)}: ${v}' base power infeed` : `Power infeed removed from ${kits.length === 1 ? pn(kits[0].id) : kits.length + ' panels'}`); };
     const g = $('#pGlass'); if (g) g.onchange = e => mutate(() => { const v = e.target.value; targets().forEach(q => q.glassScreen = v ? { attach: v[0] === 'c' ? 'clip' : 'recessed', height: +v.slice(1), frosted: q.glassScreen ? q.glassScreen.frosted : false, omitGlass: q.glassScreen ? q.glassScreen.omitGlass : false } : null); });
     const fr = $('#pFrost'); if (fr) fr.onchange = e => mutate(() => targets().forEach(q => { if (q.glassScreen) q.glassScreen.frosted = e.target.checked; }));
     const og = $('#pOmitGlass'); if (og) og.onchange = e => mutate(() => targets().forEach(q => { if (q.glassScreen) q.glassScreen.omitGlass = e.target.checked; }));
@@ -3423,6 +3615,20 @@ const BUILD='2026-09-24.5';
     { name: '120° pod, furnished', ws: true, ds: 'Three 120° corner worksurfaces 48×48 on a Y junction of 48" panels with 30" panels in line, mobile pedestals', build: () => { const T = E.newProject(P.trim); const c = E.addNode(T, 0, 0); const first = []; for (const a of [90, 210, 330]) { const q = E.addPanel(T, c, a, 48, 48); first.push(q); E.addPanel(T, T.nodes[q.b], a, 30, 48); } for (let i = 0; i < 3; i++) { const w = E.newWorksurface(T, { kind: 'corner120', node: c.id, legs: [first[i].id, first[(i + 1) % 3].id], C: 48, D: 48, depthA: 24, depthB: 24, supports: { arm0: 'auto', arm1: 'auto' } }); E.addPedestal(T, w, { at: 'arm0', type: 'mobile', config: 'A' }); } return T; } },
     { name: 'Private office front', ds: '66" run with 12" frameless glass', build: () => { const T = E.newProject(P.trim); let n = E.addNode(T, 0, 0); for (const w of [48, 48, 36]) { const q = E.addPanel(T, n, 0, w, 66); if (T.trim === 'thin') q.glassScreen = { attach: 'recessed', height: 12, frosted: false, omitGlass: false }; else E.setStack(T, q, [12]); n = T.nodes[q.b]; } return T; } },
   ];
+  // every powered typical comes with its building power-in: a 6' base power infeed on the first powerkit of each circuit run
+  // (p158, p480). The infeed takes one receptacle location, so a full powerkit gives up one USB or receptacle on side B for it.
+  function withInfeeds(T) {
+    for (const run of E.powerRuns(T)) {
+      const ps = run.map(id => T.panels[id]); if (ps.some(q => q.power.infeed)) continue;
+      const q = ps.find(x => x.power.kind === 'powerkit' && x.power.location === 'base' && !x.openBase); if (!q) continue;
+      const per = E.powerBlocksPerSide(q.width); for (const sd of [0, 1]) { q.power.receptacles[sd] = Math.min(per, q.power.receptacles[sd] | 0); q.power.usb[sd] = Math.min(per - q.power.receptacles[sd], q.power.usb[sd] | 0); } // what the powerkit really holds
+      const used = () => q.power.receptacles[0] + q.power.receptacles[1] + q.power.usb[0] + q.power.usb[1];
+      if (used() + 1 > 2 * per) { if (q.power.usb[1]) q.power.usb[1]--; else if (q.power.receptacles[1]) q.power.receptacles[1]--; }
+      q.power.infeed = { length: 6 };
+    }
+    return T;
+  }
+  for (const t of TYPICALS) { const b = t.build; t.build = () => withInfeeds(b()); }
   // the guide's own worked examples (thin trim build-your-own pages), placed as 36"W panels on one junction so the parts list can be compared line for line.
   // p35-p37 draw the options without heights; these heights reproduce the exact trims each option lists.
   const gx = (legs, stacks) => () => { const T = E.newProject('thin'); const c = E.addNode(T, 0, 0); for (const [a, h] of legs) { const q = E.addPanel(T, c, a, 36, h); if (stacks && stacks[a]) E.setStack(T, q, stacks[a]); } return T; };
@@ -3456,7 +3662,7 @@ const BUILD='2026-09-24.5';
   $('#bTypicals').onclick = () => { placeAt = null; renderTypicals(); $('#typicals').classList.add('on'); }; $('#bCloseTypicals').onclick = () => $('#typicals').classList.remove('on');
   function placeTypical(T, at) {
     const ns = Object.values(T.nodes); const mnx = Math.min(...ns.map(n => n.x)), mxy = Math.max(...ns.map(n => n.y));
-    const ok = guardedMutate(() => { const map = {}; const ox = snapW(at[0]) - mnx, oy = snapW(at[1]) - mxy; for (const n of ns) { const x = Math.round((n.x + ox) * 1000) / 1000, y = Math.round((n.y + oy) * 1000) / 1000; map[n.id] = (E.nodeAt(P, x, y, 1) || E.addNode(P, x, y)).id; } const ids = []; const pmap = {}; for (const p of Object.values(T.panels)) { const q = E.newPanel(P, map[p.a], map[p.b], p.width, p.height); copyPanelSettings(p, q); ids.push(q.id); pmap[p.id] = q.id; } for (const w of Object.values(T.worksurfaces || {})) { const spec = JSON.parse(JSON.stringify(w)); delete spec.id; delete spec._resolved; if (spec.panel) spec.panel = pmap[spec.panel]; if (spec.node) spec.node = map[spec.node]; if (spec.legs) spec.legs = spec.legs.map(x => pmap[x]); const nw = E.newWorksurface(P, spec); nw.peds = (w.peds || []).map(d => Object.assign({}, d, { id: 'D' + (P.seq++) })); } sel = new Set(ids); selNode = null; selWs = null; }, 'Typical not placed');
+    const ok = guardedMutate(() => { const map = {}; const ox = snapW(at[0]) - mnx, oy = snapW(at[1]) - mxy; for (const n of ns) { const x = Math.round((n.x + ox) * 1000) / 1000, y = Math.round((n.y + oy) * 1000) / 1000; map[n.id] = (E.nodeAt(P, x, y, 1) || E.addNode(P, x, y)).id; } const ids = []; const pmap = {}; for (const p of Object.values(T.panels)) { const q = E.newPanel(P, map[p.a], map[p.b], p.width, p.height); copyPanelSettings(p, q); if (p.power && p.power.infeed) q.power.infeed = Object.assign({}, p.power.infeed); ids.push(q.id); pmap[p.id] = q.id; } for (const w of Object.values(T.worksurfaces || {})) { const spec = JSON.parse(JSON.stringify(w)); delete spec.id; delete spec._resolved; if (spec.panel) spec.panel = pmap[spec.panel]; if (spec.node) spec.node = map[spec.node]; if (spec.legs) spec.legs = spec.legs.map(x => pmap[x]); const nw = E.newWorksurface(P, spec); nw.peds = (w.peds || []).map(d => Object.assign({}, d, { id: 'D' + (P.seq++) })); } sel = new Set(ids); selNode = null; selWs = null; }, 'Typical not placed');
     if (ok) { placing = null; plan.className = ''; } else { placing = { T }; plan.className = 'place'; } // refused: pick another spot
     return ok;
   }
@@ -3467,8 +3673,9 @@ const BUILD='2026-09-24.5';
   function setSrc(l, v) { P.sourcing.byKey = P.sourcing.byKey || {}; P.sourcing.byKey[E.lineKey(l)] = v; }
   const CATS = ['Junction', 'Stacking', 'Trim', 'Panel', 'Frame', 'Skins', 'Glass', 'Power', 'Accessories', 'Worksurface', 'Supports', 'Storage'];
   const catOrder = (c) => { const i = CATS.indexOf(c); return i < 0 ? 99 : i; };
-  function areaOf(src) { const comps = E.components(P); const host = E.hostPanelOf(P, src) || src; const c = comps.find(x => x.panels.some(p => p.id === host) || x.nodes.includes(host)); return c ? c.name : (src === 'manual' ? 'Manual add-ons' : 'Job'); }
-  function inComp(c, l) { const host = E.hostPanelOf(P, l.src) || l.src; return c.panels.some(p => p.id === host) || c.nodes.includes(host); }
+  let wsCache = null; const wsList = () => wsCache || (wsCache = E.workstations(P));
+  function areaOf(src) { const c = E.workstationOf(P, src, wsList()); return c ? c.name : (src === 'manual' ? 'Manual add-ons' : 'Job-wide'); }
+  function inComp(c, l) { if (P.worksurfaces && P.worksurfaces[l.src]) return c.ws.includes(l.src); return c.panels.some(p => p.id === l.src) || c.nodes.includes(l.src); }
   function jobMeta() { return `${esc(P.name)}${P.job.number ? ' · Job ' + esc(P.job.number) : ''}${P.job.customer ? ' · ' + esc(P.job.customer) : ''}${P.job.planner ? ' · ' + esc(P.job.planner) : ''} · ${P.trim === 'thin' ? 'Thin trim' : 'Oval trim'} · ${new Date().toLocaleDateString('en-US')}`; }
 
   // ---------- SPEC ----------
@@ -3479,11 +3686,12 @@ const BUILD='2026-09-24.5';
     $('#sourcing').innerHTML = `<b>Where parts come from:</b> ` + CATS.filter(c => R.lines.some(l => l.cat === c)).map(c => `<label>${c} <select data-cat="${c}" class="src ${P.sourcing.byCat[c] || 'buy'}"><option value="buy"${(P.sourcing.byCat[c] || 'buy') === 'buy' ? ' selected' : ''}>Buy new</option><option value="refurbish"${P.sourcing.byCat[c] === 'refurbish' ? ' selected' : ''}>Refurbish</option><option value="stock"${P.sourcing.byCat[c] === 'stock' ? ' selected' : ''}>Stock</option></select></label>`).join('') + `<span class="muted">Set a default per category, then override any line. Refurbish lines become shop work orders. Buy-new lines make the purchase order.</span>`;
     $$('#sourcing select').forEach(s => s.onchange = () => mutate(() => { P.sourcing.byCat[s.dataset.cat] = s.value; }));
     const lines = R.lines.filter(l => filt === 'all' || srcOf(l) === filt).map(l => Object.assign({ area: areaOf(l.src) }, l));
-    lines.sort((a, b) => grp === 'cat' ? (catOrder(a.cat) - catOrder(b.cat) || a.style.localeCompare(b.style)) : (a.area.localeCompare(b.area) || catOrder(a.cat) - catOrder(b.cat)));
+    const areaRank = new Map(wsList().map((c, i) => [c.name, i])); const ar = (a) => areaRank.has(a) ? areaRank.get(a) : 1e6; // workstations in plan order, job-wide parts last
+    lines.sort((a, b) => grp === 'cat' ? (catOrder(a.cat) - catOrder(b.cat) || a.style.localeCompare(b.style)) : (ar(a.area) - ar(b.area) || a.area.localeCompare(b.area) || catOrder(a.cat) - catOrder(b.cat)));
     const bySrc = { buy: 0, refurbish: 0, stock: 0 }; for (const l of R.lines) bySrc[srcOf(l)] += l.ext;
     let html = `<div class="totals"><div>Buy new (purchase order)<b>${money(bySrc.buy)}</b></div><div>Refurbish (list value)<b>${money(bySrc.refurbish)}</b></div><div>From stock (list value)<b>${money(bySrc.stock)}</b></div><div>All parts, U.S. list<b>${money(R.totals.all)}</b></div><div>Canadian list ×1.09<b>${money(R.totals.canadian)}</b></div></div>`;
     if (R.errors.length || R.warnings.length) html += `<div class="msg warn"><b>${R.errors.length} error${R.errors.length === 1 ? '' : 's'}, ${R.warnings.length} warning${R.warnings.length === 1 ? '' : 's'}</b> on the plan. ${[...R.errors, ...R.warnings].slice(0, 6).map(e => esc((e.panel || e.node ? (e.panel || e.node) + ': ' : '') + e.msg)).join(' · ')}</div>`;
-    html += `<table class="t"><thead><tr><th>Source</th><th class="n">Qty</th><th>Style number</th><th>Description</th><th>Specify (finish and options)</th><th class="n">Unit</th><th class="n">Ext</th><th>Where</th><th>Page</th></tr></thead><tbody>`;
+    html += `<table class="t spec"><thead><tr><th>Source</th><th class="n">Qty</th><th>Style number</th><th>Description</th><th>Specify (finish and options)</th><th class="n">Unit</th><th class="n">Ext</th><th>Where</th><th>Page</th></tr></thead><tbody>`;
     let cur = null, sub = 0; const flush = () => { if (cur !== null) html += `<tr class="tot"><td colspan="6" style="text-align:right">${esc(cur)} subtotal</td><td class="n">${money(sub)}</td><td colspan="2"></td></tr>`; sub = 0; };
     for (const l of lines) { const g = grp === 'cat' ? l.cat : l.area; if (g !== cur) { flush(); cur = g; html += `<tr class="grp"><td colspan="9">${esc(g)}</td></tr>`; } sub += l.ext; const s = srcOf(l); html += `<tr><td><select class="src ${s}" data-k="${esc(E.lineKey(l))}"><option value="buy"${s === 'buy' ? ' selected' : ''}>Buy new</option><option value="refurbish"${s === 'refurbish' ? ' selected' : ''}>Refurbish</option><option value="stock"${s === 'stock' ? ' selected' : ''}>Stock</option></select></td><td class="n">${l.qty}</td><td class="sn">${esc(l.style)}</td><td>${esc(l.desc)}${contentsHTML(l.contents)}${l.flags.map(f => `<span class="flag${/CORRECTED/.test(f) ? ' red' : ''}">⚠ ${esc(f)}</span>`).join('')}${l.notes.map(n => `<span class="note">${esc(n)}</span>`).join('')}</td><td>${esc(l.spec)}</td><td class="n">${money(l.unit)}</td><td class="n">${money(l.ext)}</td><td>${esc(grp === 'cat' ? l.area + ' · ' + where(l.src) : where(l.src))}</td><td>p${l.page}</td></tr>`; }
     flush(); html += `<tr class="tot"><td colspan="6" style="text-align:right">Total U.S. list${filt !== 'all' ? ' (' + SRC[filt] + ')' : ''}</td><td class="n">${money(lines.reduce((a, l) => a + l.ext, 0))}</td><td colspan="2"></td></tr><tr class="tot"><td colspan="6" style="text-align:right">Canadian list ×1.09${filt !== 'all' ? ' (' + SRC[filt] + ')' : ''}</td><td class="n">${money(E.cadTotal(lines))}</td><td colspan="2"></td></tr></tbody></table>`;
@@ -3491,7 +3699,7 @@ const BUILD='2026-09-24.5';
     $$('#specBody select.src').forEach(s => s.onchange = () => mutate(() => { P.sourcing.byKey = P.sourcing.byKey || {}; P.sourcing.byKey[s.dataset.k] = s.value; }));
   }
   function contentsHTML(c) { return c && c.length ? `<span class="contains">${c.map(x => `<span>${x.qty}× ${esc(x.item)}</span>`).join('')}</span>` : ''; }
-  function where(src) { return P.panels[src] ? pn(src) : P.nodes[src] ? jn(src) : P.worksurfaces && P.worksurfaces[src] ? E.wsName(P.worksurfaces[src]) : src; }
+  function where(src) { return P.panels[src] ? pn(src) : P.nodes[src] ? jn(src) : P.worksurfaces && P.worksurfaces[src] ? E.wsName(P.worksurfaces[src]) : src === 'manual' ? 'Manual add-on' : 'Job-wide'; }
   $('#specGroup').onchange = renderSpec; $('#specSource').onchange = renderSpec;
   $('#bSpecCsv').onclick = () => { const filt = $('#specSource').value; const lines = R.lines.filter(l => filt === 'all' || srcOf(l) === filt); if (!lines.length) { toast('Nothing to export for that source'); return; } const cols = [{ label: 'Source', get: l => SRC[srcOf(l)] }, { label: 'Qty', key: 'qty' }, { label: 'Style Number', key: 'style' }, { label: 'Description', key: 'desc' }, { label: 'Specify', key: 'spec' }, { label: 'Unit US List', key: 'unit' }, { label: 'Ext US List', key: 'ext' }, { label: 'Ext CA List', get: l => E.cadOf(l) }, { label: 'Workstation', get: l => areaOf(l.src) }, { label: 'Where', get: l => where(l.src) }, { label: 'Guide Page', key: 'page' }, { label: 'Category', key: 'cat' }, { label: 'Contains', get: l => (l.contents || []).map(x => x.qty + 'x ' + x.item).join(' | ') }, { label: 'Flags', get: l => l.flags.join(' | ') }, { label: 'Notes', get: l => l.notes.join(' | ') }]; download(fileBase() + '_specification' + (filt !== 'all' ? '_' + filt : '') + '.csv', E.toCSV(lines, cols), 'text/csv'); toast(`CSV: ${lines.length} lines${filt !== 'all' ? ' (' + SRC[filt] + ')' : ''}`); };
   $('#bSpecSif').onclick = () => {
@@ -3513,12 +3721,12 @@ const BUILD='2026-09-24.5';
 
   // ---------- SHOP ----------
   function shopJobs() {
-    const jobs = { upholstery: [], paint: [], build: [], cuts: [] };
+    const jobs = { upholstery: [], paint: [], build: [], cuts: [], inspect: [] };
     const skinH = (l) => { const rows = E.rowsByStyle(l.style); const r = rows[0]; return r && r.attrs ? (r.attrs.height || (r.attrs.height === undefined && r.attrs.width && /package/i.test(l.desc) ? null : null)) : null; };
     for (const l of R.lines) {
       const s = srcOf(l); if (s !== 'refurbish') continue;
       const rows = E.rowsByStyle(l.style); const r = rows[0] || { attrs: {} };
-      const isPackage = l.pid && /panel-package/.test(l.pid);
+      const isPackage = l.pid && /panel-package/.test(l.pid); const n0 = jobs.upholstery.length + jobs.paint.length;
       if (/fabric/i.test(l.spec) && (l.cat === 'Skins' || isPackage)) {
         const fabric = (l.spec.match(/fabric ([^;]+)/i) || [])[1] || P.finishes.fabric.code + ' ' + P.finishes.fabric.name;
         const dir = /vertical/i.test(l.spec) ? 'vertical' : 'horizontal';
@@ -3530,6 +3738,8 @@ const BUILD='2026-09-24.5';
         const what = l.cat === 'Supports' ? (/bracket|channel/i.test(l.desc) ? 'nothing to paint (black only)' : 'support') : l.cat === 'Storage' ? (/filler/i.test(l.desc) ? 'filler' : 'pedestal case and drawer fronts') : l.cat === 'Junction' ? (/in-line/i.test(l.desc) ? 'nothing to paint (hidden junction)' : 'vertical trim and junction cap') : l.cat === 'Panel' ? (isPackage ? 'top cap and 2 base trims' : 'top cap and 2 base trims') : l.cat === 'Skins' ? (/window/i.test(l.desc) ? 'window frame' : 'steel skin face') : l.cat === 'Glass' ? 'top cap' : /cap/i.test(l.desc) ? 'junction cap' : 'trim';
         if (!/nothing/.test(what)) jobs.paint.push({ key: E.lineKey(l), qty: l.qty, style: l.style, what, paint: paint.trim(), where: `${areaOf(l.src)} · ${where(l.src)}${/side (\d)/.test(l.desc) ? ' · side ' + (l.desc.match(/side (\d)/)[1] === '1' ? 'A' : 'B') : ''}` });
       }
+      // refurbished parts with nothing to re-cover or repaint still pass through the shop: inspect, clean, check hardware
+      if (jobs.upholstery.length + jobs.paint.length === n0) jobs.inspect.push({ key: 'insp|' + E.lineKey(l), qty: l.qty, style: l.style, desc: l.desc.replace(/ — side \d.*$/, ''), spec: l.spec, where: `${areaOf(l.src)} · ${where(l.src)}` });
     }
     // junction build sheets: every junction with more than one line, or any BYO/omit-trim
     for (const n of Object.values(P.nodes)) {
@@ -3544,25 +3754,28 @@ const BUILD='2026-09-24.5';
   function renderShop() {
     const J = shopJobs(); const done = P.shop.done = P.shop.done || {};
     let html = '';
-    html += `<div class="sheet"><h2>Upholstery · ${J.upholstery.length} skins to re-cover</h2><div class="meta">${jobMeta()}</div>` + (J.upholstery.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>Skin size</th><th>Fabric</th><th>Direction</th><th>For</th></tr></thead><tbody>${J.upholstery.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}${j.note ? `<span class="note">${esc(j.note)}</span>` : ''}</td><td>${esc(j.size)}</td><td>${esc(j.fabric)}</td><td>${j.dir}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">No skins are marked Refurbish on the Specification.</div>') + '</div>';
-    html += `<div class="sheet"><h2>Paint · ${J.paint.length} lines</h2>` + (J.paint.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>What to paint</th><th>Color</th><th>For</th></tr></thead><tbody>${J.paint.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}</td><td>${esc(j.what)}</td><td>${esc(j.paint)}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">No painted parts are marked Refurbish.</div>') + '</div>';
-    html += `<div class="sheet"><h2>Junction build sheets · ${J.build.length} junctions</h2><div class="meta">Each junction that is more than a single boxed part. Build-your-own junctions list posts, blocks, light seals, trims, cap and aligners with their heights.</div>` + (J.build.map(b => `<h3 style="margin-top:14px">${chk(b.key, done)} ${esc(b.title)}${b.byo ? ' <span class="tag refurbish">build your own</span>' : ''}</h3><div class="muted">${b.panels.map(esc).join(' · ')}</div><table class="t"><thead><tr><th class="n">Qty</th><th>Part</th><th>Description</th><th>Finish / options</th><th>Notes</th></tr></thead><tbody>${b.lines.map(l => `<tr><td class="n">${l.qty}</td><td class="sn">${esc(l.style)}</td><td>${esc(l.desc)}</td><td>${esc(l.spec)}</td><td>${[...l.notes, ...l.flags].map(esc).join('<br>')}</td></tr>`).join('')}</tbody></table>`).join('') || '<div class="muted">No junctions yet.</div>') + '</div>';
-    html += `<div class="sheet"><h2>Field cuts · ${J.cuts.length}</h2>` + (J.cuts.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>Cut</th><th>For</th></tr></thead><tbody>${J.cuts.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}</td><td>${esc(j.note)}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">Nothing to cut.</div>') + '</div>';
+    const sheet = (n) => `<div class="sheet${n ? '' : ' shopempty'}">`; const pl = (n, one, many) => `${n} ${n === 1 ? one : many}`;
+    html += `${sheet(J.upholstery.length)}<h2>Upholstery · ${pl(J.upholstery.length, 'skin', 'skins')} to re-cover</h2><div class="meta jobmeta">${jobMeta()}</div>` + (J.upholstery.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>Skin size</th><th>Fabric</th><th>Direction</th><th>For</th></tr></thead><tbody>${J.upholstery.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}${j.note ? `<span class="note">${esc(j.note)}</span>` : ''}</td><td>${esc(j.size)}</td><td>${esc(j.fabric)}</td><td>${j.dir}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">No skins are marked Refurbish on the Specification.</div>') + '</div>';
+    html += `${sheet(J.paint.length)}<h2>Paint · ${pl(J.paint.length, 'line', 'lines')}</h2>` + (J.paint.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>What to paint</th><th>Color</th><th>For</th></tr></thead><tbody>${J.paint.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}</td><td>${esc(j.what)}</td><td>${esc(j.paint)}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">No painted parts are marked Refurbish.</div>') + '</div>';
+    html += `${sheet(J.inspect.length)}<h2>Inspect and clean · ${pl(J.inspect.length, 'line', 'lines')}</h2><div class="meta">Parts marked Refurbish that need no new fabric or paint: inspect, clean, and replace missing hardware before they are staged.</div>` + (J.inspect.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>Description</th><th>Finish</th><th>For</th></tr></thead><tbody>${J.inspect.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}</td><td>${esc(j.desc)}</td><td>${esc(j.spec)}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">Nothing else is marked Refurbish.</div>') + '</div>';
+    html += `${sheet(J.build.length)}<h2>Junction build sheets · ${pl(J.build.length, 'junction', 'junctions')}</h2><div class="meta">Each junction that is more than a single boxed part. Build-your-own junctions list posts, blocks, light seals, trims, cap and aligners with their heights.</div>` + (J.build.map(b => `<h3 style="margin-top:14px">${chk(b.key, done)} ${esc(b.title)}${b.byo ? ' <span class="tag refurbish">build your own</span>' : ''}</h3><div class="muted">${b.panels.map(esc).join(' · ')}</div><table class="t"><thead><tr><th class="n">Qty</th><th>Part</th><th>Description</th><th>Finish / options</th><th>Notes</th></tr></thead><tbody>${b.lines.map(l => `<tr><td class="n">${l.qty}</td><td class="sn">${esc(l.style)}</td><td>${esc(l.desc)}</td><td>${esc(l.spec)}</td><td>${[...l.notes, ...l.flags].map(esc).join('<br>')}</td></tr>`).join('')}</tbody></table>`).join('') || '<div class="muted">No junctions yet.</div>') + '</div>';
+    html += `${sheet(J.cuts.length)}<h2>Field cuts · ${J.cuts.length}</h2>` + (J.cuts.length ? `<table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Part</th><th>Cut</th><th>For</th></tr></thead><tbody>${J.cuts.map(j => `<tr class="${done[j.key] ? 'done' : ''}"><td class="nostrike">${chk(j.key, done)}</td><td class="n">${j.qty}</td><td class="sn">${esc(j.style)}</td><td>${esc(j.note)}</td><td>${esc(j.where)}</td></tr>`).join('')}</tbody></table>` : '<div class="muted">Nothing to cut.</div>') + '</div>';
     $('#shopBody').innerHTML = linkPages(html);
     $$('#shopBody [data-done]').forEach(c => c.onchange = () => { P.shop.done[c.dataset.done] = c.checked; try { localStorage.setItem('answer.planner', JSON.stringify(P)); } catch (e) { } renderShop(); });
   }
-  $('#bShopCsv').onclick = () => { const J = shopJobs(); const rows = [...J.upholstery.map(j => ({ order: 'Upholstery', qty: j.qty, part: j.style, detail: j.size, finish: j.fabric + ' ' + j.dir, where: j.where })), ...J.paint.map(j => ({ order: 'Paint', qty: j.qty, part: j.style, detail: j.what, finish: j.paint, where: j.where })), ...J.build.flatMap(b => b.lines.map(l => ({ order: 'Junction build', qty: l.qty, part: l.style, detail: l.desc, finish: l.spec, where: b.title }))), ...J.cuts.map(j => ({ order: 'Field cut', qty: j.qty, part: j.style, detail: j.note, finish: '', where: j.where }))]; download(fileBase() + '_shop_work_orders.csv', E.toCSV(rows, [{ label: 'Work order', key: 'order' }, { label: 'Qty', key: 'qty' }, { label: 'Part', key: 'part' }, { label: 'Detail', key: 'detail' }, { label: 'Finish', key: 'finish' }, { label: 'For', key: 'where' }]), 'text/csv'); };
-  $('#bShopPrint').onclick = () => printHTML($('#shopBody').innerHTML.replace(/<div class="sheet">/g, '<div class="psheet">').replace(/<input type="checkbox"[^>]*>/g, '<span class="box"></span>'));
+  $('#bShopCsv').onclick = () => { const J = shopJobs(); const rows = [...J.upholstery.map(j => ({ order: 'Upholstery', qty: j.qty, part: j.style, detail: j.size, finish: j.fabric + ' ' + j.dir, where: j.where })), ...J.paint.map(j => ({ order: 'Paint', qty: j.qty, part: j.style, detail: j.what, finish: j.paint, where: j.where })), ...J.build.flatMap(b => b.lines.map(l => ({ order: 'Junction build', qty: l.qty, part: l.style, detail: l.desc, finish: l.spec, where: b.title }))), ...J.cuts.map(j => ({ order: 'Field cut', qty: j.qty, part: j.style, detail: j.note, finish: '', where: j.where })), ...J.inspect.map(j => ({ order: 'Inspect and clean', qty: j.qty, part: j.style, detail: j.desc, finish: j.spec, where: j.where }))]; download(fileBase() + '_shop_work_orders.csv', E.toCSV(rows, [{ label: 'Work order', key: 'order' }, { label: 'Qty', key: 'qty' }, { label: 'Part', key: 'part' }, { label: 'Detail', key: 'detail' }, { label: 'Finish', key: 'finish' }, { label: 'For', key: 'where' }]), 'text/csv'); };
+  // sections with nothing in them are left off the printout; the first printed section carries the job line
+  $('#bShopPrint').onclick = () => { const d = document.createElement('div'); d.innerHTML = $('#shopBody').innerHTML; const all = $$('.sheet', d); const keep = all.filter(x => !x.classList.contains('shopempty')); all.filter(x => x.classList.contains('shopempty')).forEach(x => x.remove()); if (!keep.length) { toast('Nothing for the shop: no parts are marked Refurbish, no junctions to build and nothing to cut.'); return; } $$('.jobmeta', d).forEach(x => x.remove()); keep[0].insertAdjacentHTML('afterbegin', `<h1>Shop work orders</h1><div class="meta">${jobMeta()}</div>`); printHTML(d.innerHTML.replace(/<div class="sheet">/g, '<div class="psheet">').replace(/<input type="checkbox"[^>]*>/g, '<span class="box"></span>')); };
 
   // ---------- INSTALL ----------
   // lines that belong to no workstation (side support bracket pairs, tie plate packs, glide caps, manual add-ons) are staged and installed job-wide
-  function jobWideLines() { const comps = E.components(P); return R.lines.filter(l => !comps.some(c => inComp(c, l))); }
+  function jobWideLines() { const comps = E.workstations(P); return R.lines.filter(l => !comps.some(c => inComp(c, l))); }
   const binKey = (a) => a.style + '|' + a.spec; const binOf = (a) => { const b = P.pick.bins || {}; return b[binKey(a)] != null ? b[binKey(a)] : (b[a.style] || ''); }; // bins per style and finish; older jobs keyed by style only
   const allDone = (keys, done) => keys.length > 0 && keys.every(k => done[k]);
   function chkMany(keys, done) { return `<input type="checkbox" class="chk" data-done="${esc(keys.join(' '))}"${allDone(keys, done) ? ' checked' : ''}>`; }
   function renderInstall() {
     const done = P.pick.done = P.pick.done || {}; P.pick.bins = P.pick.bins || {};
-    const agg = E.aggregate(R.lines, srcOf); const comps = E.components(P);
+    const agg = E.aggregate(R.lines, srcOf); const comps = E.workstations(P);
     let html = `<div class="sheet"><h2>Pick list · ${new Set(agg.map(a => a.style)).size} style numbers, ${agg.reduce((s, a) => s + a.qty, 0)} pieces</h2><div class="meta">${jobMeta()}</div><table class="t"><thead><tr><th></th><th class="n">Qty</th><th>Style number</th><th>Description</th><th>Specify</th><th>Source</th><th>Bin / location</th><th>Used at</th></tr></thead><tbody>`;
     let cur = null; for (const a of agg.slice().sort((x, y) => catOrder(x.cat) - catOrder(y.cat) || x.style.localeCompare(y.style) || x.spec.localeCompare(y.spec) || x.by.localeCompare(y.by))) { if (a.cat !== cur) { cur = a.cat; html += `<tr class="grp"><td colspan="8">${esc(cur)}</td></tr>`; } const ks = a.keys.map(k => 'pick|' + k); const s = a.by; html += `<tr class="${allDone(ks, done) ? 'done' : ''}"><td class="nostrike">${chkMany(ks, done)}</td><td class="n">${a.qty}</td><td class="sn">${esc(a.style)}</td><td>${esc(a.desc.replace(/ — side \d.*$/, '').replace(/\(\d+"→\d+"\)/, ''))}${contentsHTML(a.contents)}</td><td>${esc(a.spec)}</td><td><span class="tag ${s}">${SRC[s]}</span></td><td class="nostrike"><input type="text" class="bin" data-bin="${esc(binKey(a))}" value="${esc(binOf(a))}" placeholder="bin"></td><td>${a.src.map(where).join(', ')}</td></tr>`; }
     html += '</tbody></table></div>';
@@ -3582,19 +3795,20 @@ const BUILD='2026-09-24.5';
   }
   function installSheetHTML(c) {
     const runs = runsOf(c);
-    return `<div class="sheet installsheet" id="inst-${c.key}"><h2>Installer sheet · ${esc(c.name)}</h2><div class="meta">${jobMeta()} · ${c.panels.length} panels, ${c.nodes.length} junctions</div>
+    return `<div class="sheet installsheet" id="inst-${c.uid}"><h2>Installer sheet · ${esc(c.name)}</h2><div class="meta">${jobMeta()} · ${c.panels.length} panels, ${c.nodes.length} junctions${c.ws.length ? `, ${c.ws.length} worksurface${c.ws.length === 1 ? '' : 's'}` : ''}${c.figPanels.length > c.panels.length ? ` · the plan also shows ${c.figPanels.length - c.panels.length} panel${c.figPanels.length - c.panels.length === 1 ? '' : 's'} of the neighboring workstation that carry these worksurfaces` : ''}</div>
       <div class="figs"><div class="fig"><div class="figcap">Plan · from above · ${esc(c.name)}</div><canvas data-fig="plan"></canvas></div>${runs.map((r, i) => `<div class="fig"><div class="figcap">Run ${i + 1} · ${r.map(p => 'P' + p.id.slice(1)).join(' – ')} · ${E.ftin(sum(r.map(p => p.width)))} · side A</div><canvas data-fig="run" data-run="${i}" data-side="0"></canvas></div><div class="fig"><div class="figcap">Run ${i + 1} · side B</div><canvas data-fig="run" data-run="${i}" data-side="1"></canvas></div>`).join('')}</div>
       <h3>Junctions</h3><table class="t"><thead><tr><th>Junction</th><th>Type</th><th>Panels</th><th>Parts</th></tr></thead><tbody>${c.nodes.slice().sort((a, b) => +a.slice(1) - +b.slice(1)).map(nid => { const J = R.nodes[nid]; const ls = R.lines.filter(l => l.src === nid); return `<tr><td class="sn">${jn(nid).replace('Junction ', 'J')}</td><td>${esc(jShort(J))}${P.nodes[nid].wallStart ? ' · wall start' : ''}</td><td>${J.legs.map(l => `${pn(l.panel.id)} (${l.angle}°)`).join(', ')}</td><td>${ls.map(l => `${l.qty}× <b>${esc(l.style)}</b> ${esc(l.desc)}${contentsHTML(l.contents)}`).join('<br>')}</td></tr>`; }).join('')}</tbody></table>
       <h3>Panels</h3><table class="t"><thead><tr><th>Panel</th><th>Size</th><th>Between</th><th>Skins side A / side B</th><th>Parts</th></tr></thead><tbody>${c.panels.map(p => { const ls = R.lines.filter(l => l.src === p.id); const sk = (segs) => segs.map(s => `${s.height}" ${s.kind === 'window' ? 'window' : s.type}`).join(' + '); return `<tr><td class="sn">${pn(p.id)}</td><td>${p.width}"W × ${p.height}"H${p.stack.length ? ' + ' + p.stack.join('" + ') + '" stacked' : ''}</td><td>${jn(p.a).replace('Junction ', 'J')} – ${jn(p.b).replace('Junction ', 'J')}</td><td>${esc(sk(p.sides[0]))}<br>${esc(sk(p.sides[1]))}</td><td>${ls.map(l => `${l.qty}× <b>${esc(l.style)}</b> ${esc(l.desc)}${contentsHTML(l.contents)}`).join('<br>')}</td></tr>`; }).join('')}</tbody></table>
-      ${Object.values(P.worksurfaces || {}).some(w => c.panels.some(p => p.id === E.hostPanelOf(P, w.id))) ? `<h3>Worksurfaces and storage</h3><table class="t"><thead><tr><th>Worksurface</th><th>Where</th><th>Supports</th><th>Parts</th></tr></thead><tbody>${Object.values(P.worksurfaces).filter(w => c.panels.some(p => p.id === E.hostPanelOf(P, w.id))).map(w => { const ls = R.lines.filter(l => l.src === w.id); const res = w._resolved || {}; return `<tr><td class="sn">${esc(E.wsName(w))}</td><td>${w.kind === 'straight' ? `${w.width}"W × ${w.depth}"D on ${pn(w.panel)} side ${w.side === 0 ? 'A' : 'B'}, ${w.off}" from the ${w.side === 0 ? 'left' : 'right'} post` : `${w.C}×${w.D} at ${jn(w.node).replace('Junction ', 'J')} between ${pn(w.legs[0])} and ${pn(w.legs[1])}`}</td><td>${Object.entries(res).map(([k, v]) => `${E.endName(w, k)}: ${SUPPORT_LABEL[v] || v}`).join('<br>')}${w.kind !== 'straight' ? '<br>rear corner: side support bracket' : ''}</td><td>${ls.map(l => `${l.qty}× <b>${esc(l.style)}</b> ${esc(l.desc)}${contentsHTML(l.contents)}`).join('<br>')}</td></tr>`; }).join('')}</tbody></table>` : ''}
+      ${c.ws.length ? `<h3>Worksurfaces and storage</h3><table class="t"><thead><tr><th>Worksurface</th><th>Where</th><th>Supports</th><th>Parts</th></tr></thead><tbody>${c.ws.map(id => P.worksurfaces[id]).filter(Boolean).map(w => { const ls = R.lines.filter(l => l.src === w.id); const res = w._resolved || {}; return `<tr><td class="sn">${esc(E.wsName(w))}</td><td>${w.kind === 'straight' ? `${w.width}"W × ${w.depth}"D on ${pn(w.panel)} side ${w.side === 0 ? 'A' : 'B'}, ${w.off}" from the ${w.side === 0 ? 'left' : 'right'} post` : `${w.C}×${w.D} at ${jn(w.node).replace('Junction ', 'J')} between ${pn(w.legs[0])} and ${pn(w.legs[1])}`}</td><td>${Object.entries(res).map(([k, v]) => `${E.endName(w, k)}: ${SUPPORT_LABEL[v] || v}`).join('<br>')}${w.kind !== 'straight' ? '<br>rear corner: side support bracket' : ''}</td><td>${ls.map(l => `${l.qty}× <b>${esc(l.style)}</b> ${esc(l.desc)}${contentsHTML(l.contents)}`).join('<br>')}</td></tr>`; }).join('')}</tbody></table>` : ''}
       <h3>Sequence</h3><ol class="steps"><li>Set junctions on the plan, starting from the wall or the longest run. Level with the glides (2 3/4" range).</li><li>Lock both horizontal bars into each pair of junctions: bottom bar in the lowest slot, top bar in the top slot unless a window or glass screen sits on top.</li><li>Install base trims, powerkits, harnesses and infeed. Route lay-in cables through the base or junction openings.</li><li>Hang skins on both sides, then stacking junctions, stacking bars and stacked skins.</li><li>Fit vertical and change-of-height trims, junction caps, aligners and light seals per the junction table.</li><li>Snap on top caps, then glass screens or top screens. Install receptacles and faceplates.</li><li>Hang cantilevers, side support brackets and end panels in the junction slots at 28 1/2" worksurface height (bend the alignment tab down for full-depth worksurfaces). Set fixed pedestals with their fillers, then land the worksurfaces, tie plates across each seam, and bolt down.</li></ol></div>`;
   }
-  function runsOf(c) { const seen = new Set(); const runs = []; for (const p of c.panels) { if (seen.has(p.id)) continue; const ch = chainOf(p.id); ch.forEach(x => seen.add(x.id)); runs.push(ch); } return runs; }
+  // in-line runs of a workstation's panels; a run shared with a neighboring workstation is cut to this workstation's panels
+  function runsOf(c) { const mine = new Set(c.panels.map(p => p.id)); const seen = new Set(); const runs = []; for (const p of c.panels) { if (seen.has(p.id)) continue; const ch = chainOf(p.id); ch.forEach(x => seen.add(x.id)); let cur = []; for (const x of ch) { if (mine.has(x.id)) cur.push(x); else if (cur.length) { runs.push(cur); cur = []; } } if (cur.length) runs.push(cur); } return runs; }
   // installer figures: the same scene as the plan, drawn plain at full sheet width and 2x resolution so it prints crisp
   function sizeFig(cv, cssW, cssH) { const d = 2; cv.width = Math.round(cssW * d); cv.height = Math.round(cssH * d); cv.style.width = '100%'; cv.style.height = 'auto'; const cx = cv.getContext('2d'); cx.setTransform(d, 0, 0, d, 0, 0); return cx; }
   // plain plan figure fitted to one workstation (only) or the whole job: panels, posts, worksurfaces and pedestals with their labels, no grid or handles
   function drawPlanFig(pc, W0, only, maxH) {
-    const ids = only ? only.nodes : Object.keys(P.nodes); const wss = Object.values(P.worksurfaces || {}).filter(w => !only || only.panels.some(p => p.id === E.hostPanelOf(P, w.id)));
+    const ids = only ? (only.allNodes || only.nodes) : Object.keys(P.nodes); const wss = Object.values(P.worksurfaces || {}).filter(w => !only || (only.ws ? only.ws.includes(w.id) : only.panels.some(p => p.id === E.hostPanelOf(P, w.id))));
     const pts = [...ids.map(n => [P.nodes[n].x, P.nodes[n].y]), ...wss.flatMap(w => { const g = E.wsGeometry(P, w); return g ? [...g.poly, ...(w.peds || []).flatMap(d => E.pedRect(P, w, g, d))] : []; })];
     if (!pts.length) return null;
     const xs = pts.map(q => q[0]), ys = pts.map(q => q[1]); const mnx = Math.min(...xs) - 16, mxx = Math.max(...xs) + 16, mny = Math.min(...ys) - 14, mxy = Math.max(...ys) + 22 + (only ? 0 : 16);
@@ -3608,21 +3822,22 @@ const BUILD='2026-09-24.5';
     return { s, H0 };
   }
   function drawInstallFigs(c) {
-    const sheet = $('#inst-' + c.key); if (!sheet) return; const W0 = Math.max(600, sheet.clientWidth - 40);
+    const sheet = $('#inst-' + c.uid); if (!sheet) return; const W0 = Math.max(600, sheet.clientWidth - 40);
     drawPlanFig(sheet.querySelector('[data-fig="plan"]'), W0, c);
     const runs = runsOf(c);
-    sheet.querySelectorAll('[data-fig="run"]').forEach(cv => { const r = runs[+cv.dataset.run]; const totalW = sum(r.map(p => p.width)) + 3; const maxH = Math.max(...r.map(p => E.panelTotalHeight(p) + 18)); let es = (W0 - 60) / totalW; const EH = Math.min(520, Math.max(220, maxH * es + 100)); es = Math.min(es, (EH - 100) / maxH); const ecx = sizeFig(cv, W0, EH); renderElevation(cv, r, +cv.dataset.side, W0, EH, { junctionLabels: true, fixedScale: es }); });
+    sheet.querySelectorAll('[data-fig="run"]').forEach(cv => { const r = runs[+cv.dataset.run]; const totalW = sum(r.map(p => p.width)) + 3; const maxH = Math.max(...r.map(p => E.panelTotalHeight(p) + 18), ...r.flatMap(p => [p.a, p.b]).map(n => postH(n) + 6)); let es = (W0 - 60) / totalW; const EH = Math.min(520, Math.max(220, maxH * es + 100)); es = Math.min(es, (EH - 100) / maxH); const ecx = sizeFig(cv, W0, EH); renderElevation(cv, r, +cv.dataset.side, W0, EH, { junctionLabels: true, fixedScale: es }); });
   }
   $('#bPickCsv').onclick = () => { const agg = E.aggregate(R.lines, srcOf).sort((x, y) => catOrder(x.cat) - catOrder(y.cat) || x.style.localeCompare(y.style) || x.spec.localeCompare(y.spec)); download(fileBase() + '_pick_list.csv', E.toCSV(agg, [{ label: 'Qty', key: 'qty' }, { label: 'Style Number', key: 'style' }, { label: 'Description', get: a => a.desc.replace(/ — side \d.*$/, '') }, { label: 'Specify', key: 'spec' }, { label: 'Source', get: a => SRC[a.by] }, { label: 'Contains', get: a => (a.contents || []).map(x => x.qty + 'x ' + x.item).join(' | ') }, { label: 'Bin', get: a => binOf(a) }, { label: 'Used At', get: a => a.src.map(where).join(', ') }, { label: 'Category', key: 'cat' }, { label: 'Guide Page', key: 'page' }]), 'text/csv'); };
   // the pick list prints what is on screen now: typed bins (even before they re-render) and ticked boxes
   $('#bPickPrint').onclick = () => { const sh = $('#installBody .sheet'); if (!sh) return; const cl = sh.cloneNode(true); const live = $$('input', sh); $$('input', cl).forEach((x, i) => { const v = live[i]; const sp = document.createElement('span'); if (v.type === 'checkbox') { sp.className = 'box'; sp.textContent = v.checked ? '✓' : ''; } else sp.textContent = v.value; x.replaceWith(sp); }); printHTML('<div class="psheet">' + cl.innerHTML + '</div>'); };
-  $('#bInstallPrint').onclick = () => { const sheets = $$('#installBody .installsheet'); printHTML(sheets.map(sh => { const clone = sh.cloneNode(true); clone.querySelectorAll('canvas').forEach((cv, i) => { const img = document.createElement('img'); img.src = sh.querySelectorAll('canvas')[i].toDataURL(); img.style.width = '100%'; img.style.border = '1px solid #ccc'; cv.replaceWith(img); }); return `<div class="psheet">${clone.innerHTML}</div>`; }).join('')); };
-  function printHTML(html) { const pa = $('#printArea'); pa.innerHTML = html; setTimeout(() => { window.print(); setTimeout(() => pa.innerHTML = '', 500); }, 150); }
+  $('#bInstallPrint').onclick = () => { const sheets = $$('#installBody .installsheet'); printHTML(sheets.map(sh => { const clone = sh.cloneNode(true); clone.querySelectorAll('canvas').forEach((cv, i) => { const img = document.createElement('img'); img.src = sh.querySelectorAll('canvas')[i].toDataURL(); img.style.width = '100%'; img.style.border = '1px solid #ccc'; cv.replaceWith(img); }); return `<div class="psheet installsheet">${clone.innerHTML}</div>`; }).join('')); }; // keeps .installsheet so the print rules keep each figure and its caption on one page
+  let printClear = null; // a print started right after another must not be emptied by the first one's clean-up
+  function printHTML(html) { const pa = $('#printArea'); clearTimeout(printClear); pa.innerHTML = html; setTimeout(() => { window.print(); clearTimeout(printClear); printClear = setTimeout(() => pa.innerHTML = '', 500); }, 150); }
   // plan printout: the whole job fitted and drawn plain like the installer figure, then a job summary (counts, sourcing and totals, workstations, issues)
   function planPrintHTML() {
-    const cv = document.createElement('canvas'); const fig = drawPlanFig(cv, 1000, null, 1300); const comps = E.components(P); const wss = Object.values(P.worksurfaces || {});
+    const cv = document.createElement('canvas'); const fig = drawPlanFig(cv, 1000, null, 1300); const comps = E.workstations(P); const wss = Object.values(P.worksurfaces || {});
     const bySrc = { buy: 0, refurbish: 0, stock: 0 }; for (const l of R.lines) bySrc[srcOf(l)] += l.ext;
-    const rows = comps.map(c => { const ls = R.lines.filter(l => inComp(c, l)); return `<tr><td>${esc(c.name)}</td><td class="n">${c.panels.length}</td><td class="n">${c.nodes.length}</td><td class="n">${wss.filter(w => c.panels.some(p => p.id === E.hostPanelOf(P, w.id))).length}</td><td class="n">${ls.reduce((a, l) => a + l.qty, 0)}</td><td class="n">${money(ls.reduce((a, l) => a + l.ext, 0))}</td></tr>`; }).join('');
+    const rows = comps.map(c => { const ls = R.lines.filter(l => inComp(c, l)); return `<tr><td>${esc(c.name)}</td><td class="n">${c.panels.length}</td><td class="n">${c.nodes.length}</td><td class="n">${c.ws.length}</td><td class="n">${ls.reduce((a, l) => a + l.qty, 0)}</td><td class="n">${money(ls.reduce((a, l) => a + l.ext, 0))}</td></tr>`; }).join('');
     const jw = jobWideLines(); const iss = [...R.errors.map(e => ['Error', e]), ...R.warnings.map(e => ['Warning', e])];
     return `<div class="psheet"><h1>Plan · ${esc(P.name)}</h1><div class="meta">${jobMeta()}</div>${fig ? `<img src="${cv.toDataURL()}" style="width:100%;border:1px solid #ccc">` : '<div class="muted">Nothing on the plan yet.</div>'}` + linkPages(`
       <h2>Summary</h2><div class="totals"><div>Workstations<b>${comps.length}</b></div><div>Panels<b>${Object.keys(P.panels).length}</b></div><div>Junctions<b>${Object.values(R.nodes).filter(J => J.legs && J.legs.length).length}</b></div><div>Worksurfaces<b>${wss.length}</b></div><div>Pedestals<b>${wss.reduce((a, w) => a + (w.peds || []).length, 0)}</b></div></div>
@@ -3644,7 +3859,7 @@ const BUILD='2026-09-24.5';
     toast(`Job switched to ${P.trim} trim. Every junction and package was regenerated.` + (said.length ? ` ${said.join(' and ')} ${sum(lost.map(([n]) => n)) === 1 ? 'is' : 'are'} not offered in ${P.trim} trim: kept aside and restored if you switch back to ${toOval ? 'thin' : 'oval'}.` : ''));
   });
   $('#jobName').onchange = e => mutate(() => P.name = e.target.value);
-  $('#bNew').onclick = () => { if (!confirm('Start a new job? The current job stays in this browser until you start another, so save it first if you need it.')) return; snapshot(); P = migrate(E.newProject(P.trim)); sel = new Set(); selNode = null; fit(); refresh(); };
+  $('#bNew').onclick = () => { if (!confirm('Start a new job? This replaces the job on screen. Save it first if you need a file; Undo brings it back while this page stays open.')) return; snapshot(); P = migrate(E.newProject(P.trim)); sel = new Set(); selNode = null; fit(); refresh(); };
   $('#bSave').onclick = () => { P.build = BUILD; P.saved = new Date().toISOString(); download(fileBase() + '.answer', JSON.stringify(P, null, 1), 'application/json'); toast('Job file downloaded'); };
   $('#bOpen').onclick = () => $('#fileIn').click();
   $('#fileIn').onchange = e => { const f = e.target.files[0]; if (!f) return; const rd = new FileReader(); rd.onload = () => { try { const o = JSON.parse(rd.result); if (o.app !== 'ANSWER') throw new Error('not an Answer job file'); snapshot(); P = migrate(o); sel = new Set(); selNode = null; fit(); refresh(); toast('Opened ' + f.name); } catch (err) { alert('Could not open: ' + err.message); } }; rd.readAsText(f); e.target.value = ''; };
