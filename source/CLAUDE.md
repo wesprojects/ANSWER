@@ -40,7 +40,7 @@ Never guess a dimension: read the page (`guide/pNNN.txt`, the PDFs `answer-1.pdf
 2. Run the whole suite before any push: `node test/test.js`, then `NODE_PATH=$(npm root -g) node test/<name>.js` for
    ui3 ui5 ui6 ui7 ui8 ui9 ui10 ui11 guidex plan ws2 outputs wsoverlap wsstress final dims caps elevpick handle join corner capbtn overlap, and
    `node test/capdxf.js` (needs `pip install ezdxf`). `overlap` must end `TOTAL 0`. Symlink `answer-1.pdf` and `answer-2.pdf` into `dist/` for the guide tests.
-   On the owner's Windows machine (Git Bash): the project is `Desktop\ANSWER PANEL PLANNER` (the repo checkout) with the source in `source\`;
+   On the owner's Windows machine (Git Bash): the project is `Desktop\ANSWER PANEL PLANNER` (this repo's checkout) and the tests run from `source\`;
    use `python` (`python3` is the Store stub; `pip install pymupdf ezdxf tzdata`), `export NODE_PATH="$(npm root -g)"`, copy the PDFs into `dist/`
    (symlinks need admin rights), and `build.py` writes LF so the built file matches the repo.
 3. Update `README.md` (what changed and the guide pages behind it). Build with `python3 build.py`.

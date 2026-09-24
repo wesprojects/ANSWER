@@ -40,6 +40,12 @@ const SCAN = (scope) => {
   for (const el of root.querySelectorAll('button,.btn,label,th,td,.sec,.info,select')) { if (!vis(el)) continue; const cs = getComputedStyle(el); if (el.scrollWidth > el.clientWidth + 1 && /hidden|clip/.test(cs.overflowX)) issues.push(`TRUNC [${name(el)}] "${(el.textContent || '').trim().slice(0, 40)}"`); }
   // canvas labels
   for (const cv of root.querySelectorAll('canvas')) { const L = (cv.__labels || []); if (!vis(cv)) continue; for (let i = 0; i < L.length; i++) for (let j = i + 1; j < L.length; j++) { const o = ix(L[i], L[j]); if (o && L[i].t !== L[j].t) issues.push(`CANVAS ${name(cv)} "${L[i].t}" overlaps "${L[j].t}" by ${o[0].toFixed(0)}×${o[1].toFixed(0)}`); } }
+  // the plan's own placed labels (rotated quads, window.answerDebug.planLabels): none may overlap another
+  if (!scope && window.answerDebug && window.answerDebug.planLabels && vis(document.querySelector('#plan'))) {
+    const apart = (A, B) => { for (const Q of [A, B]) for (let i = 0; i < Q.length; i++) { const [x1, y1] = Q[i], [x2, y2] = Q[(i + 1) % Q.length]; const nx = y2 - y1, ny = x1 - x2; let a0 = Infinity, a1 = -Infinity, b0 = Infinity, b1 = -Infinity; for (const [x, y] of A) { const d = x * nx + y * ny; a0 = Math.min(a0, d); a1 = Math.max(a1, d); } for (const [x, y] of B) { const d = x * nx + y * ny; b0 = Math.min(b0, d); b1 = Math.max(b1, d); } if (a1 <= b0 + 1e-6 || b1 <= a0 + 1e-6) return true; } return false; };
+    const L = window.answerDebug.planLabels();
+    for (let i = 0; i < L.length; i++) for (let j = i + 1; j < L.length; j++) if (!apart(L[i].quad, L[j].quad)) issues.push(`PLANLABEL "${L[i].text}" overlaps "${L[j].text}"`);
+  }
   return [...new Set(issues)];
 };
 

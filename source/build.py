@@ -19,5 +19,5 @@ catalog = rd('catalog.json').replace('</script', '<\\/script')
 logo = ''
 out = (tpl.replace('/*__CSS__*/', rd('planner.css')).replace('/*__ENGINE__*/', rd('engine.js') + '\n' + rd('capdxf.js')).replace('/*__APP__*/', rd('planner.js'))
        .replace('__CATALOG__', catalog).replace('__LOGO__', logo).replace('__BUILD__', build))
-open(os.path.join(DIST, 'index.html'), 'w', encoding='utf-8').write(out)
+open(os.path.join(DIST, 'index.html'), 'w', encoding='utf-8', newline='\n').write(out)  # LF on every platform; the repo file is LF
 print('BUILD', build, '->', os.path.join(DIST, 'index.html'), f'{os.path.getsize(os.path.join(DIST, "index.html"))/1e6:.2f} MB')

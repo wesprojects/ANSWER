@@ -26,8 +26,7 @@ README — https://github.com/wesprojects/ANSWER
 - Power-ins — checked per circuit run (powerkit and pass-through panels joined at junctions): a run with receptacles and no power-in, more than one power-in on a run, and more than 30/40 receptacles on a power-in are flagged (p146, p158). An infeed chosen with several panels selected goes on one panel. Powered typicals come with a 6' base power infeed.
 - `build_catalog.py` / `build_workstations.py` — merge the extracted guide data (`data/`) into `src/catalog.json`.
 - `build.py` — assembles `dist/index.html`, build number YYYY-MM-DD.N.
-- `test/test.js` — engine tests against the guide's worked examples on p35–39 and the p41 stacking examples, plus regression checks for each rule below (`node test/test.js`): light seals one per inside corner (four at an X = the one 4-pack p38 prints, p345, p374), face plates for receptacles through field-cut skins (p107, p167, p479), packages rolled up once for the job.
-- `test/lib.js` — shared helpers for the Playwright tests (open the built app, read its state through `window.answerDebug`, plan inches to page pixels, menus, typicals, downloads). `test/plan.js` — Plan stage basics: drawing a run, undo/redo, the editor, Delete, the trim switch, wall starts, save and load, zoom and Fit, shortcuts, the plan menu. `test/dims.js` — the drawing dimensions below against the engine's constants and geometry.
+- `test/test.js` — engine tests against the guide's worked examples on p35–39 and the p41 stacking examples, plus regression checks for each rule below (`node test/test.js`).
 - `test/guidex.js` — places every guide-example preset and checks it for errors.
 - `test/outputs.js` — Specification, Shop and Pick & Install outputs: Show filter on CSV and SIF, CAD column, UTF-8 BOM, code-less SIF options, sourcing kept across finish changes, pick list split by source, live bins in the pick print, job-wide staging adding up to the pick list, plan printout, worksurface edge and oval junction cap colors.
 - `test/final.js` — final QA regressions through the interface: runs moved or typicals dropped onto worksurfaces are refused, pods split into stations (spec, SIF, staging, installer sheets, save/load), power-ins per run, installer print, elevation posts, the ⊕ size, what-fits messages, shop inspect and print, Fit on big jobs, the one-row header.
@@ -43,7 +42,7 @@ README — https://github.com/wesprojects/ANSWER
 - Run ends show the finished end-of-run trim meeting the skins: a flat 1/2" trim on thin (p14, p347), a rounded 1" trim on oval (p76), on the plan, the elevations and the installer sheets.
 
 - Corner junctions show their cap from above (p375): the square 90° corner cap (TS790JC) on L, T and X, the triangular 120° corner cap (TS7120JC) on V and Y. The triangle has 3" sides, so each leg's end face is one side and neighbouring legs meet at its points with no gap; a V also shows its vertical trim on the open side. Caps and trims are drawn in the job's trim finish. Frameless glass and oval top screens show as a line down the top cap.
-- `test/caps.js` checks every junction type for gaps between the panels and the cap, with the geometry the plan draws (posts from the corner allowance to the skins, the 3" square 90° cap, the triangular 120° cap).
+- `test/caps.js` checks every junction type for gaps between the panels and the cap.
 - Worksurface supports are drawn dashed under the worksurface where the spec places them: cantilevers (15 1/2" deep) and center support panels (11") from the panel face at their junctions, end panels at the front ends, side support brackets at return panels and at the rear corner of corner worksurfaces, post legs at the front corner. Tie plates are drawn at every seam. The drawn cantilevers match the UCANT quantity on the specification.
 
 ## Drawing and editing
@@ -61,11 +60,10 @@ Export DXF for CAP writes an AutoCAD 2000 (AC1015) drawing in the form CAP Works
 
 Style numbers the customer's CAP catalog uses that differ from the guide are not substituted: `TS7UCANT` (guide `UCANT`), `USSBR-L`/`USSBR-R` (guide `USSBR`, a pair), `5TS76BPX` (guide `TS76BPX`), and Conklin Avenir worksurfaces and pedestals (the planner specifies Steelcase Universal). To have CAP match those, decide per part and the export can map them.
 
-## Source recovery and test rebuild (September 24, 2026)
+## Local session of September 24, 2026
 
-- The source zip on the owner's machine predated the day's cloud work (build 2026-09-23.18 against the deployed 2026-09-24.14). The application source (`engine.js`, `capdxf.js`, `planner.js`, `planner.css`, `planner.html`, `catalog.json`) was recovered from the deployed `index.html`, which rebuilds byte for byte; `guide/` was regenerated from the two PDFs with pymupdf; the test suite listed in CLAUDE.md was rebuilt from this README's descriptions (`test/lib.js` and the tests named above), and `cap/NOTES.md` was rewritten from what the code carries. The cloud sessions' CAP reference drawings and render scripts did not survive.
-- Two engine test expectations were brought up to the current rules: an X junction lists four inside corner light seals (one per inside corner, p345), which is the one TS766ICLS 4-pack the p38 examples print (p374); receptacles behind skins that run to the floor go through a field-cut fabric skin with a face plate each (TS7UFPLATE, p107, p167, p479).
-- Interface: the plan is fitted when it first shows after a job was loaded or started while another stage was showing (the hidden canvas cannot be measured); the plan's placed labels are exposed to the overlap test (`window.answerDebug.planLabels`).
+- The source lives in `source/` of this repo now. The zip on the owner's machine had predated the day's cloud work; the application source was recovered from the deployed build for a day (it rebuilds byte for byte) until the cloud session pushed the authoritative tree, which this checkout then fast-forwarded to. The tests, `cap/` reference drawings and scripts and guide text are the cloud's originals.
+- Interface: the plan is fitted when it first shows after a job was loaded or started while another stage was showing (the hidden canvas cannot be measured); the plan's placed labels are exposed to the overlap test (`window.answerDebug.planLabels`); the plan's hover tip wraps inside the plan instead of running past its edge when a long ⊕ tip meets a narrow window.
 
 ## Guide corrections applied
 

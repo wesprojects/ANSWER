@@ -173,6 +173,18 @@ const ck = (name, ok, info) => { console.log((ok ? 'PASS ' : 'FAIL ') + name + (
     ck('#14 header fits on one row at 1440', Math.max(...tops) - Math.min(...tops) < 12, JSON.stringify(tops));
     await ctxClose(T); }
 
+  // ---- #15 a job loaded or started while another stage shows is fitted when the plan shows (the hidden canvas cannot be measured) ----
+  { const T = await open(); const { pg } = T; const pod = await podJSON(pg);
+    await pg.click('[data-stage="install"]'); await pg.waitForTimeout(200);
+    await pg.setInputFiles('#fileIn', { name: 'pod.answer', mimeType: 'application/json', buffer: Buffer.from(pod) }); await pg.waitForTimeout(400);
+    await pg.click('[data-stage="plan"]'); await pg.waitForTimeout(250);
+    const f = await pg.evaluate(() => { const P = window.answerDebug.P(), v = window.answerDebug.view, c = document.querySelector('#plan'); const pts = Object.values(P.nodes).map(n => [v.ox + n.x * v.s, v.oy - n.y * v.s]); const xs = pts.map(p => p[0]); return { s: v.s, inside: pts.every(([x, y]) => x > 0 && x < c.clientWidth && y > 0 && y < c.clientHeight), span: (Math.max(...xs) - Math.min(...xs)) / c.clientWidth }; });
+    ck('#15 loaded on the Install stage, the plan is fitted once it shows', f.inside && f.span > 0.3 && f.s > 0.5, JSON.stringify(f));
+    await pg.click('[data-stage="install"]'); await pg.waitForTimeout(200); await pg.click('#bNew'); await pg.waitForTimeout(200); await pg.click('[data-stage="plan"]'); await pg.waitForTimeout(250);
+    const e = await pg.evaluate(() => { const v = window.answerDebug.view, c = document.querySelector('#plan'); return { s: v.s, ox: v.ox, oy: v.oy, h: c.clientHeight }; });
+    ck('#15 New on another stage leaves the empty plan at its default view once it shows', e.s === 3 && e.ox === 80 && Math.abs(e.oy - (e.h - 80)) < 1, JSON.stringify(e));
+    await ctxClose(T); }
+
   console.log(errs.length ? errs.join('\n') : 'no page errors'); if (errs.length) fails++;
   console.log(fails ? `${fails} FAILURES` : 'ALL PASS'); await b.close(); process.exit(fails ? 1 : 0);
   async function ctxClose(T) { await T.ctx.close(); }

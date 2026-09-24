@@ -37,11 +37,12 @@ bad = {k: [exp.get(k, 0), cnt.get(k, 0)] for k in set(exp) | set(cnt) if exp.get
 tops = list(msp.query('INSERT')); nattr = collections.Counter(len(e.attribs) for e in tops)
 print(json.dumps({'version': d.dxfversion, 'audit': len(a.errors), 'auditmsgs': [str(x) for x in a.errors][:5], 'inserts': len(tops), 'blocks': len(d.blocks), 'styles': len(cnt), 'bad': bad, 'attribs': dict(nattr), 'layers': len(d.layers)}))
 `;
-fs.writeFileSync('test/capout/verify.py', py);
+fs.mkdirSync('test/capout', { recursive: true }); fs.writeFileSync('test/capout/verify.py', py);
+const PY = ['python3', 'python'].find(p => { try { cp.execSync(p + ' -c "import ezdxf"', { stdio: 'ignore' }); return true; } catch (e) { return false; } }) || 'python3'; // Windows has python, not python3
 for (const [name, mk] of [['L', jobL], ['TX', jobTX]]) {
   const P = mk(); const R = E.generate(P); const exp = {}; for (const l of R.lines) if (l.style && l.style !== '—') exp[l.style] = (exp[l.style] || 0) + l.qty;
   const dxf = E.toCapDXF(P, R, { build: 'test' }); fs.writeFileSync(`test/capout/${name}.dxf`, dxf); fs.writeFileSync(`test/capout/${name}.json`, JSON.stringify(exp));
-  let r; try { r = JSON.parse(cp.execSync(`python3 test/capout/verify.py test/capout/${name}.dxf test/capout/${name}.json`, { encoding: 'utf8' }).trim().split('\n').pop()); } catch (e) { ck(name + ': ezdxf reads the file', false, String(e.stdout || e.message).slice(-400)); continue; }
+  let r; try { r = JSON.parse(cp.execSync(`${PY} test/capout/verify.py test/capout/${name}.dxf test/capout/${name}.json`, { encoding: 'utf8' }).trim().split('\n').pop()); } catch (e) { ck(name + ': ezdxf reads the file', false, String(e.stdout || e.message).slice(-400)); continue; }
   ck(name + ': AutoCAD 2000 DXF, audit clean', r.version === 'AC1015' && r.audit === 0, JSON.stringify(r.auditmsgs));
   ck(name + ': every style number appears exactly as many times as the specification says', !Object.keys(r.bad).length, `${r.styles} styles, ${r.inserts} inserts, ${r.blocks} blocks` + (Object.keys(r.bad).length ? ' mismatches ' + JSON.stringify(r.bad) : ''));
   ck(name + ': every part insert carries the CAP attributes (16 part / 10 panel-config)', Object.keys(r.attribs).every(k => k === '16' || k === '10'), JSON.stringify(r.attribs));
