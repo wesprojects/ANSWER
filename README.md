@@ -37,6 +37,7 @@ README — https://github.com/wesprojects/ANSWER
 ## Drawing dimensions
 
 - Junctions are 3" deep (p14) and 1 1/2" along the run: a 48" panel's frame is 46 1/2" between junctions (p24), and two end-of-run junctions make the 3" in-line junction (p39). Skins extend onto the junction and meet the next panel's skin, with only the slotted channel showing between them (p16), so in-line, end-of-run and wall-start junctions are drawn under the skins: a seam line at an in-line junction, the skin running over the end post to the finished trim at a run end. Only corner junctions (L, T, X, V, Y) show their 3" post, and a change of height shows the part of the junction above the lower panel.
+- Top caps are the 2 1/4" left of the 6" trim allowance after the 3 3/4" base trim (p13) and sit directly on the skins. They run with the skins, meeting over in-line junctions and over the end post to the end trim. A stacked panel has one top cap, the base panel's, moved to the top of the stack (p26), and the spec notes it. An in-line change of height shows the change-of-height trim on the lower panel's side, its top level with the top cap (p18); glass beside it is shortened (p57). An omitted top cap is drawn as a dashed outline.
 - Run ends show the finished end-of-run trim meeting the skins: a flat 1/2" trim on thin (p14, p347), a rounded 1" trim on oval (p76), on the plan, the elevations and the installer sheets.
 
 ## Guide corrections applied
