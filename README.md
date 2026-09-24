@@ -55,7 +55,7 @@ README — https://github.com/wesprojects/ANSWER
 
 ## CAP DXF export (in progress)
 
-The current Export DXF writes plain R12 lines and text, which AutoCAD opens but CAP cannot list, and CAP rejects R12 outright. A CAP drawing was decoded: CAP reads its parts from blocks named `P_<style number>` carrying `CAP*` attributes (CAPPN, CAPPD, CAPMG, CAPMC, CAPPL, CAPTG, CAPQT…), with panels as nested config blocks (frame plus skins). A test drawing built that way with no CAP catalog links lists correctly in CAP. The findings, the R2000 file skeleton, the test drawings and the implementation plan are in `cap/NOTES.md` of the source; the exporter itself (`src/capdxf.js`, `E.toCapDXF`) is the next piece of work.
+The current Export DXF writes plain R12 lines and text, which AutoCAD opens but CAP cannot list, and CAP rejects R12 outright. A CAP drawing was decoded: CAP reads its parts from blocks named `P_<style number>` carrying `CAP*` attributes (CAPPN, CAPPD, CAPMG, CAPMC, CAPPL, CAPTG, CAPQT…), with panels as nested config blocks (frame plus skins). A test drawing built that way with no CAP catalog links lists correctly in CAP, and the R2000 (AC1015) DXF format is confirmed accepted, so the export can be written by hand from the R2000 skeleton in `cap/tpl.js`. The findings, the R2000 file skeleton, the test drawings and the implementation plan are in `cap/NOTES.md` of the source; the exporter itself (`src/capdxf.js`, `E.toCapDXF`) is the next piece of work.
 
 ## Guide corrections applied
 
