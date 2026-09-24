@@ -272,6 +272,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 .ctxmenu .it .hint,.ctxmenu .it .arrow{color:#7a7a7d;font-size:12px}
 .ctxmenu .sep{height:1px;background:#e3e3e6;margin:4px 6px}
 .ctxmenu .sub{display:none;position:absolute;left:100%;top:-5px;max-height:70vh;overflow:auto}
+.ctxmenu .sub:has(.sub){max-height:none;overflow:visible}
 .ctxmenu .it.has:hover>.sub{display:block}
 
 .tile.flash{outline:2px solid #5980a6;outline-offset:2px;transition:outline-color 1.2s}
@@ -284,7 +285,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 <body>
 <div id="app">
   <header id="topbar">
-    <h1 title="Build 2026-09-24.12">Answer Panel Planner <span class="build">Build 2026-09-24.12</span></h1>
+    <h1 title="Build 2026-09-24.13">Answer Panel Planner <span class="build">Build 2026-09-24.13</span></h1>
     <input class="jobname" id="jobName" type="text" placeholder="Job name" value="New job" title="Job name">
     <div class="btngroup" id="trimSwitch" title="Trim style for the whole job. Answer cannot mix trim styles between adjacent panels."><button data-trim="thin" class="on">Thin trim</button><button data-trim="oval">Oval trim</button></div>
     <button class="btn" id="bFinishes">Finishes &amp; settings</button>
@@ -303,6 +304,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
           <div class="btngroup small" id="toolgroup"><button data-tool="select" class="on" title="Select, move and drag runs (V)">Select</button><button data-tool="draw" title="Click and drag to draw a run of panels (D). Hold Shift for 120° angles.">Draw run</button><button data-tool="ws" title="Add worksurfaces (W): click a side of a panel for a straight worksurface, click a corner junction for a corner worksurface">Add worksurface</button><button id="bTypicals" title="Place a ready-made workstation">Add typical…</button></div>
           <div class="btngroup small"><button id="zOut">−</button><button id="zFit">Fit</button><button id="zIn">+</button></div>
           <select id="optWsDepth" title="Depth of worksurfaces added with Add worksurface"><option value="24">24"D worksurface</option><option value="30">30"D worksurface</option><option value="18">18"D worksurface</option></select>
+          <select id="optWsWidth" title="Width of worksurfaces added with Add worksurface: Auto sizes to the panel you click"><option value="auto">Auto width</option></select>
           <span class="muted">New panels:</span>
           <div class="seg" id="optHeight"></div>
           <select id="optWidth" title="Panel width used when drawing a run and for panels added from the ⊕ at a free end. Auto fill widths: runs are filled with standard widths and the ⊕ adds a panel matching the end of the run (its height, width and settings)."><option value="auto">Auto fill widths</option><option value="18">18" panels</option><option value="24">24" panels</option><option value="30">30" panels</option><option value="36">36" panels</option><option value="42">42" panels</option><option value="48">48" panels</option><option value="60">60" panels</option><option value="72">72" panels</option></select>
@@ -460,16 +462,33 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   E.JUNCTION_W = 1.5; // an in-line junction is 3" deep and 1 1/2" along the run, centered on the module line: the 48" panel frame is 46 1/2" between junctions (p24)
   // An end-of-run junction post is 3/4" along the run and sits inside the panel's nominal width, so only its trim adds to the footprint (p14 +1/2" thin,
   // p76 +1" oval). p39 top view (to scale along the run): a 3" in-line junction is post + block + post = 3/4" + 1 1/2" + 3/4". A wall-start junction
-  // adds 3/16" (p15, thin). Corner posts are drawn 3" square (junction depth 3", p14).
+  // adds 3/16" (p15, thin). Corner junctions are drawn as their 3" block (junction depth 3", p14) plus a 3/4" post on each leg (see CORNER_ALLOW).
   E.EOR_POST = 0.75;
   E.CORNER_POST = 3;
-  // how far a junction reaches along a run from its node: in = toward its own panel, out = away from it (the run's end face, trim included)
+  // Corner junctions (L, T, X, V, Y) are block-and-post construction (p15): a 3" junction block sits on the centerline intersection and each panel's
+  // module starts at the block face, CORNER_ALLOW out from the node; the panel's 3/4" post comes next, so its frame starts at CORNER_ALLOW + 3/4".
+  // A panel's node-to-node length is its nominal width plus the corner allowance at each corner end (in-line, end-of-run and wall-start ends add 0).
+  // 90° families: 1 1/2". Evidence: (a) straight worksurfaces run junction center to junction center and butt the corner worksurface's arm end there
+  // (p209 figure); the 48" corner's back edge is 47 1/2" on the 1/2" cord-drop one (its back 1/2" off the panel face, p208) and 48" full depth, measured
+  // from the rear inside corner at the panel faces 1 1/2" off each centerline (p521), so the arm ends 1 1/2" + 1/2" + 47 1/2" = 1 1/2" + 48" = 49 1/2"
+  // from the node, which is 48" + 1 1/2"; (b) the corner face is then 1 1/2" (block half) + 3/4" (post) = 2 1/4" from the node, and a 48" panel's
+  // frame between that face and the next in-line junction face (3/4" before its center) is 49 1/2" - 2 1/4" - 3/4" = 46 1/2", the frame of p24.
+  // 120° families (V, Y), derived the same way from the 120° corner worksurface (p526, cord drop only, back edge 47 1/2" for the 48"): its back edges
+  // run 2" off each centerline (1 1/2" panel face + 1/2" cord drop) and meet at the rear corner o. With the legs 120° apart, o lies on the bisector,
+  // 2" / sin 60° from the node, and its projection on each leg is (2" / sin 60°) × cos 60° = 2" × tan 30° = 2/√3" ≈ 1.1547". The arm end on the leg
+  // is then 2/√3 + 47 1/2" from the node, which must be the next junction center at 48" + allowance: allowance = 2/√3 - 1/2" ≈ 0.6547" (the 36"
+  // and 42" sizes, 35 1/2" and 41 1/2", give the same value).
+  E.CORNER_ALLOW = { 90: 1.5, 120: 2 / Math.sqrt(3) - 0.5 };
+  E.cornerAllow = (type) => (type === 'L' || type === 'T' || type === 'X') ? E.CORNER_ALLOW[90] : (type === 'V' || type === 'Y') ? E.CORNER_ALLOW[120] : 0;
+  // how far a junction reaches along a run from its node: in = toward its own panel, out = away from it (the run's end face, trim included).
+  // A corner reaches in to its corner face (allowance + 3/4" post) and out 1 1/2" (the junction block's far face, the other leg's outer face).
   E.junctionReach = function (trim, type) {
     const fp = E.FOOTPRINT[trim] || E.FOOTPRINT.thin;
     if (type === 'inline') return { in: E.JUNCTION_W / 2, out: E.JUNCTION_W / 2, post: [-E.JUNCTION_W / 2, E.JUNCTION_W / 2] };
     if (type === 'EOR') return { in: E.EOR_POST, out: fp.eor, post: [-E.EOR_POST, 0], trim: [0, fp.eor] };
     if (type === 'wall') return { in: E.EOR_POST, out: fp.wall, post: [-E.EOR_POST, fp.wall] };
-    return { in: E.CORNER_POST / 2, out: E.CORNER_POST / 2, post: [-E.CORNER_POST / 2, E.CORNER_POST / 2] };
+    const ca = E.cornerAllow(type) || E.CORNER_ALLOW[90];
+    return { in: ca + E.EOR_POST, out: E.CORNER_POST / 2, post: [-E.CORNER_POST / 2, ca + E.EOR_POST], ca };
   };
   // actual heights for drawing (p11 thin, p74 oval: floor to top of top cap, glides retracted); stacking junctions add 12 3/8", 18 1/2", 24 3/4" (p26, p84)
   E.ACTUAL_H = { thin: { 30: 29.5, 42: 41.875, 48: 48.0625, 54: 54.25, 66: 66.59375, 78: 78.96875 }, oval: { 30: 29.375, 42: 41.75, 48: 47.9375, 54: 54.125, 66: 66.46875, 78: 78.84375 } };
@@ -581,18 +600,77 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     };
     P.panels[id] = pnl; return pnl;
   };
+  // a new panel leaves fromNode at angleDeg. It ends on an existing node when one sits where the panel's far end lands (its width plus the corner
+  // allowance the junctions at either end will take, see CORNER_ALLOW), else on a new node; then the job's geometry is normalized (E.normalizeGeometry)
+  // so every panel's node-to-node length is its width plus its corner allowances, whatever the new panel did to the junction types.
+  // the corner allowance a node will have once a panel leaves it at angleDeg (0 when that makes an in-line or end-of-run junction)
+  E.allowIfAdded = function (P, node, angleDeg, excludePanelId) {
+    if (!node || !P.nodes[node.id]) return 0; const legs = legsAt(P, node).filter(l => l.panel.id !== excludePanelId); const a0 = ((Math.round(angleDeg) % 360) + 360) % 360;
+    return legs.length ? E.cornerAllow(classify([...legs, { angle: a0 }].sort((x, y) => x.angle - y.angle), node).type) : 0;
+  };
   E.addPanel = function (P, fromNode, angleDeg, width, height) {
-    const rad = angleDeg * Math.PI / 180;
-    const x = fromNode.x + Math.cos(rad) * width, y = fromNode.y + Math.sin(rad) * width;
-    let to = E.nodeAt(P, x, y, 2); if (!to) to = E.addNode(P, Math.round(x * 1000) / 1000, Math.round(y * 1000) / 1000);
-    return E.newPanel(P, fromNode.id, to.id, width, height);
+    const rad = angleDeg * Math.PI / 180, ux = Math.cos(rad), uy = Math.sin(rad);
+    const caFrom = E.allowIfAdded(P, fromNode, angleDeg);
+    let to = null;
+    for (const extra of [0, E.CORNER_ALLOW[120], E.CORNER_ALLOW[90]]) { const d = width + caFrom + extra; to = E.nodeAt(P, fromNode.x + ux * d, fromNode.y + uy * d, extra ? 0.5 : 2); if (to && to.id !== fromNode.id) break; to = null; }
+    if (!to) { const d = width + caFrom; to = E.addNode(P, Math.round((fromNode.x + ux * d) * 1000) / 1000, Math.round((fromNode.y + uy * d) * 1000) / 1000); }
+    const p = E.newPanel(P, fromNode.id, to.id, width, height);
+    E.normalizeGeometry(P);
+    return p;
   };
   E.removePanel = function (P, pid) {
     const p = P.panels[pid]; if (!p) return; delete P.panels[pid];
     for (const nid of [p.a, p.b]) if (!Object.values(P.panels).some(q => q.a === nid || q.b === nid)) delete P.nodes[nid];
+    E.normalizeGeometry(P);
   };
   E.panelTotalHeight = (p) => p.height + sum(p.stack);
+  // corner allowance at a node (0 unless it is an L, T, X, V or Y junction) and a panel's node-to-node length: width + allowance at each corner end
+  E.nodeAllow = function (P, nid) { const n = P.nodes[nid]; return n ? E.cornerAllow(E.junction(P, n).type) : 0; };
+  E.panelSpan = function (P, p) { return p.width + E.nodeAllow(P, p.a) + E.nodeAllow(P, p.b); };
   E.panelLength = function (P, p) { return p.width; };
+  // Recompute node positions from panel widths and junction types (see CORNER_ALLOW): every panel keeps its direction (snapped to the 30° steps
+  // Answer junctions use) and gets node-to-node length width + allowance at each corner end. Each connected group is laid out from one node, then
+  // shifted so the most nodes keep their place (ties keep the oldest node): a change moves as little of the plan as it can. A closed loop whose
+  // sides no longer fit is reported and its group left as it was. Returns { moved: nodes moved, loops: [panel ids of loops that do not close] }.
+  // opts.dry: report only, move nothing.
+  E.normalizeGeometry = function (P, opts) {
+    opts = opts || {}; const nodes = P.nodes || {}, adj = {}; const out = { moved: 0, loops: [] };
+    for (const id in nodes) adj[id] = [];
+    for (const p of Object.values(P.panels || {})) { if (!nodes[p.a] || !nodes[p.b] || p.a === p.b) continue; adj[p.a].push(p); adj[p.b].push(p); }
+    const ca = {}; for (const id in nodes) ca[id] = adj[id].length >= 2 ? E.cornerAllow(classify(legsAt(P, nodes[id], adj[id]), nodes[id]).type) : 0;
+    const dirOf = {}; for (const p of Object.values(P.panels || {})) {
+      if (!adj[p.a] || !adj[p.b]) continue; const a = nodes[p.a], b = nodes[p.b]; const L = Math.hypot(b.x - a.x, b.y - a.y); if (L < 1e-9) continue;
+      let ang = Math.atan2(b.y - a.y, b.x - a.x) * 180 / Math.PI; const s30 = Math.round(ang / 30) * 30;
+      if (Math.abs(ang - s30) <= 4) { const r = s30 * Math.PI / 180; let c = Math.cos(r), s = Math.sin(r); if (Math.abs(c) < 1e-12) c = 0; if (Math.abs(s) < 1e-12) s = 0; dirOf[p.id] = [c, s]; }
+      else dirOf[p.id] = [(b.x - a.x) / L, (b.y - a.y) / L];
+    }
+    const num = (id) => +String(id).replace(/\D/g, '') || 0;
+    const ids = Object.keys(nodes).sort((x, y) => num(x) - num(y)); const done = new Set();
+    for (const root of ids) {
+      if (done.has(root)) continue;
+      const pos = { [root]: [0, 0] }; const comp = [root]; const queue = [root]; done.add(root); const bad = [];
+      while (queue.length) {
+        const u = queue.shift();
+        for (const p of adj[u]) {
+          const d = dirOf[p.id]; if (!d) continue; const v = p.a === u ? p.b : p.a, sg = p.a === u ? 1 : -1, L = p.width + ca[p.a] + ca[p.b];
+          const t = [pos[u][0] + sg * d[0] * L, pos[u][1] + sg * d[1] * L];
+          if (!pos[v]) { pos[v] = t; if (!done.has(v)) { done.add(v); comp.push(v); queue.push(v); } }
+          else if (Math.hypot(pos[v][0] - t[0], pos[v][1] - t[1]) > 0.01 && !bad.includes(p.id)) bad.push(p.id);
+        }
+      }
+      for (const id of comp) if (!pos[id]) pos[id] = null;
+      if (bad.length) { out.loops.push(...bad); continue; }
+      // the shift that keeps the most nodes in place (ties: the oldest node)
+      const groups = new Map(); for (const id of comp) { if (!pos[id]) continue; const n = nodes[id]; const k = Math.round((n.x - pos[id][0]) * 1000) + ',' + Math.round((n.y - pos[id][1]) * 1000); if (!groups.has(k)) groups.set(k, { n: 0, first: num(id), sh: [n.x - pos[id][0], n.y - pos[id][1]] }); groups.get(k).n++; }
+      let best = null; for (const g of groups.values()) if (!best || g.n > best.n || (g.n === best.n && g.first < best.first)) best = g;
+      if (!best) continue;
+      for (const id of comp) {
+        if (!pos[id]) continue; const n = nodes[id]; const x = Math.round((pos[id][0] + best.sh[0]) * 1e6) / 1e6, y = Math.round((pos[id][1] + best.sh[1]) * 1e6) / 1e6;
+        if (Math.abs(x - n.x) > 1e-6 || Math.abs(y - n.y) > 1e-6) { if (Math.hypot(x - n.x, y - n.y) > 0.01) out.moved++; if (!opts.dry) { n.x = x; n.y = y; } }
+      }
+    }
+    return out;
+  };
 
   // set the stack list and keep default skins for stackers
   E.setStack = function (P, p, stack) {
@@ -651,9 +729,9 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   };
 
   // ---------- geometry / junction classification (p14-15) ----------
-  function legsAt(P, node) {
+  function legsAt(P, node, list) {
     const legs = [];
-    for (const p of Object.values(P.panels)) {
+    for (const p of list || Object.values(P.panels)) {
       if (p.a !== node.id && p.b !== node.id) continue;
       const other = P.nodes[p.a === node.id ? p.b : p.a];
       let ang = Math.atan2(other.y - node.y, other.x - node.x) * 180 / Math.PI; ang = ((ang % 360) + 360) % 360; const s30 = Math.round(ang / 30) * 30 % 360; ang = Math.abs(ang - s30) <= 4 || Math.abs(ang - s30) >= 356 ? s30 : Math.round(ang);
@@ -1647,17 +1725,28 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     return { byCat, all, canadian: lines.reduce((a, l) => a + E.cadOf(l), 0) };
   }
   function footprint(P, nodesInfo) {
-    // Nominal panel width includes one 1 1/2" junction; a run measures the sum of widths plus the last junction (1 1/2") plus end trims (p14-15, p24, p76)
+    // A nominal width runs module line to module line (in-line junctions are centered on it, end-of-run posts sit inside it, p14, p24, p39); the length a
+    // panel takes along its line adds the finished trim at an end of run (p14 +1/2" thin, p76 +1" oval), the wall-start face (p15 +3/16" thin) and, at a
+    // corner junction, the corner allowance to the node (CORNER_ALLOW) plus the 1 1/2" of junction block beyond it (the other leg's outer face) when no
+    // panel continues straight on. An L of two 72" panels measures 1 1/2" + 1 1/2" + 72" + 1/2" = 75 1/2" along each leg (thin).
     const fp = E.FOOTPRINT[P.trim]; const runs = [];
     for (const p of Object.values(P.panels)) {
       let len = p.width; const notes = [];
-      for (const nid of [p.a, p.b]) { const J = nodesInfo[nid]; if (J.type === 'EOR') { len += fp.eor; notes.push('end-of-run trim +' + inch(fp.eor)); } if (J.type === 'wall') { len += fp.wall; if (fp.wall) notes.push('wall-start +' + inch(fp.wall)); } }
-      runs.push({ panel: p.id, nominal: p.width, actual: len, notes });
+      for (const nid of [p.a, p.b]) {
+        const J = nodesInfo[nid]; if (J.type === 'EOR') { len += fp.eor; notes.push('end-of-run trim +' + inch(fp.eor)); } if (J.type === 'wall') { len += fp.wall; if (fp.wall) notes.push('wall-start +' + inch(fp.wall)); }
+        const ca = E.cornerAllow(J.type); if (ca) {
+          const me = J.legs.find(l => l.panel.id === p.id); const through = me && J.legs.some(l => l !== me && Math.abs((((l.angle - me.angle) % 360) + 360) % 360 - 180) < 1);
+          len += ca; notes.push(`${J.type} corner allowance +${inch(ca)}`); if (!through) { len += E.CORNER_POST / 2; notes.push('corner block +' + inch(E.CORNER_POST / 2)); }
+        }
+      }
+      runs.push({ panel: p.id, nominal: p.width, actual: Math.round(len * 10000) / 10000, notes });
     }
     return runs;
   }
   function stability(P, nodesInfo, warn) {
-    // a straight run continues through in-line, T and X junctions; perpendicular legs brace it there and anchor it at its ends (p126-127)
+    // a straight run continues through in-line, T and X junctions; perpendicular legs brace it there and anchor it at its ends (p126-127).
+    // Lengths are nominal panel widths: the guide states these limits in nominal feet ("an 8' run", two 48" panels), so the corner allowances a T or
+    // X adds along the run (CORNER_ALLOW) are not counted against them.
     const seen = new Set(), ft = (x) => (x / 12).toFixed(1) + "'";
     const walk = (nid, cur) => { // -> { end: {d, w}, braces: [{d, w}] }, d measured from the start node, w = widest perpendicular leg (wall-start = anchored)
       const braces = []; let d = 0;
@@ -1930,6 +2019,10 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     }
     for (const p of Object.values(P.panels)) if (p.a === p.b) { const st = JSON.parse(before); P.nodes = st.n; P.panels = st.p; return false; }
     for (const n of Object.values(P.nodes)) { const J = E.junction(P, n); if (J.type === 'unsupported') { const st = JSON.parse(before); P.nodes = st.n; P.panels = st.p; return false; } }
+    // a join can change junction types (an end of run becomes an L): lay the joined runs out again; a loop that no longer closes is refused
+    const st0 = JSON.parse(before); const loopsBefore = new Set(E.normalizeGeometry({ nodes: st0.n, panels: st0.p }, { dry: true }).loops);
+    if (E.normalizeGeometry(P, { dry: true }).loops.some(id => !loopsBefore.has(id))) { const st = JSON.parse(before); P.nodes = st.n; P.panels = st.p; return false; }
+    E.normalizeGeometry(P);
     return true;
   };
 
@@ -2029,9 +2122,12 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const back = walk(p.a, p, false).reverse(), fwd = walk(p.b, p, true);
     const seq = [...back, { p, flip: false }, ...fwd];
     const first = seq[0]; const start = P.nodes[first.flip ? first.p.b : first.p.a];
-    let off = 0; const panels = seq.map(s => { const o = off; off += s.p.width; return { id: s.p.id, panel: s.p, flip: s.flip, from: o, to: off }; });
+    // offsets from the start node: each panel's module (from..to, its nominal width); a run that starts or ends at a corner junction starts its first
+    // module (ends its last) the corner allowance away from that node (CORNER_ALLOW), so length is node to node. Inner nodes are in-line (allowance 0).
     const last = seq[seq.length - 1]; const end = P.nodes[last.flip ? last.p.a : last.p.b];
-    return { start, end, dir: [dx, dy], length: off, panels, startNode: start.id, endNode: end.id };
+    const caLo = E.nodeAllow(P, start.id), caHi = E.nodeAllow(P, end.id);
+    let off = caLo; const panels = seq.map(s => { const o = off; off += s.p.width; return { id: s.p.id, panel: s.p, flip: s.flip, from: o, to: off }; });
+    return { start, end, dir: [dx, dy], length: off + caHi, panels, startNode: start.id, endNode: end.id, ca: { lo: caLo, hi: caHi } };
   };
   // offset of a point along a run measured from the run start
   E.runOffset = function (run, x, y) { return (x - run.start.x) * run.dir[0] + (y - run.start.y) * run.dir[1]; };
@@ -2058,6 +2154,14 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   function wsBackGap(ws) { return ws.construction === 'full-depth' ? 0 : CORD_GAP; }
   function wsPlanDepth(ws, d) { return wsDepthActual(d, ws.construction) + (ws.material !== 'wood' && ws.edge === 'P' ? PEDGE : 0); }
   E.wsBackGap = wsBackGap; E.wsPlanDepth = wsPlanDepth;
+  // a corner arm's actual back-edge length for its nominal size and construction, from the catalog (widthC/widthD: 47 1/2" cord drop, 48" full depth
+  // for a 48", p521, p524, p526); sizes the catalog lacks fall back to nominal less the cord-drop gap, the rule every listed size follows
+  const CORNER_PID = { corner: 'uw-corner-curved', extcorner: 'uw-extended-corner-curved', corner120: 'uw-corner-120' };
+  function armActual(ws, nom) {
+    const rows = (BYID[CORNER_PID[ws.kind]] || { rows: [] }).rows;
+    for (const r of rows) { if (r.attrs.construction !== ws.construction) continue; if (nominal(r.attrs.widthC) === nom) return r.attrs.widthC; if (nominal(r.attrs.widthD) === nom) return r.attrs.widthD; }
+    return nom - wsBackGap(ws);
+  }
   const quad = (a, c, b, t) => [(1 - t) * (1 - t) * a[0] + 2 * (1 - t) * t * c[0] + t * t * b[0], (1 - t) * (1 - t) * a[1] + 2 * (1 - t) * t * c[1] + t * t * b[1]];
   // geometry in plan inches: poly (the outline, curve sampled), outline (hard corners, the cove starts at outline[curveAt]), back edge, ends (lo/hi), arms for corners.
   // Every end also carries its base: the point on the panel centerline the end lines up with, used for seams and junction checks.
@@ -2081,8 +2185,10 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     // rear corner where the two back edges meet (post face plus the cord-drop gap off each leg's centerline, 90° or 120°)
     const cs = d1[0] * d2[0] + d1[1] * d2[1], sn = Math.abs(d1[0] * d2[1] - d1[1] * d2[0]) || 1, h = POST_HALF + wsBackGap(ws), k = h / sn;
     const o = [node.x + (d1[0] + d2[0]) * k, node.y + (d1[1] + d2[1]) * k];
-    // worksurfaces butt at the junction centerline: straights run junction to junction, corner arms end on the junction
-    const back = k * (1 + cs), la = C - back, lb = D - back;
+    // worksurfaces butt at the junction centerline: straights run junction to junction, corner arms end on the junction. Each arm's back edge is the
+    // catalog's actual width C or D (47 1/2" for a 48" cord-drop arm, 48" full depth, p521, p524, p526) from the rear corner o; o projects `back` along
+    // each leg, so the arm end lands back + actual from the node: the corner allowance + nominal width, the next junction center (see CORNER_ALLOW)
+    const back = k * (1 + cs), la = armActual(ws, C), lb = armActual(ws, D);
     // arm depths are measured perpendicular to each leg, into the sector between the legs (90° or 120°)
     const n1 = [(d2[0] - d1[0] * cs) / sn, (d2[1] - d1[1] * cs) / sn], n2 = [(d1[0] - d2[0] * cs) / sn, (d1[1] - d2[1] * cs) / sn];
     const A1 = [o[0] + d1[0] * la, o[1] + d1[1] * la], A2 = [o[0] + d2[0] * lb, o[1] + d2[1] * lb];
@@ -2095,14 +2201,15 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const N = 20, cove = [S1]; for (let i = 1; i < N; i++) cove.push(quad(S1, inner, S2, i / N)); cove.push(S2);
     const outline = [o, A1, F1]; if (S1 !== F1) outline.push(S1); const curveAt = outline.length - 1; if (S2 !== F2) outline.push(S2); outline.push(F2, A2);
     const poly = [o, A1, F1, ...cove.filter((q, i) => !(i === 0 && S1 === F1) && !(i === N && S2 === F2)), F2, A2];
-    const base1 = [node.x + d1[0] * C, node.y + d1[1] * C], base2 = [node.x + d2[0] * D, node.y + d2[1] * D];
-    return { kind: ws.kind, poly, outline, curveAt, o, back: h, arms: [{ end: A1, base: base1, dir: d1, n: n1, panel: p1, len: C, depth: dA, depth0: wsDepthActual(ws.depthA, ws.construction), front: F1 }, { end: A2, base: base2, dir: d2, n: n2, panel: p2, len: D, depth: dB, depth0: wsDepthActual(ws.depthB, ws.construction), front: F2 }], inner, curve: [S1, inner, S2], cove };
+    const r1 = back + la, r2 = back + lb; // arm end along each leg from the node
+    const base1 = [node.x + d1[0] * r1, node.y + d1[1] * r1], base2 = [node.x + d2[0] * r2, node.y + d2[1] * r2];
+    return { kind: ws.kind, poly, outline, curveAt, o, back: h, arms: [{ end: A1, base: base1, dir: d1, n: n1, panel: p1, len: C, reach: r1, depth: dA, depth0: wsDepthActual(ws.depthA, ws.construction), front: F1 }, { end: A2, base: base2, dir: d2, n: n2, panel: p2, len: D, reach: r2, depth: dB, depth0: wsDepthActual(ws.depthB, ws.construction), front: F2 }], inner, curve: [S1, inner, S2], cove };
   };
   const POST_HALF = 1.5;
-  // how far a worksurface may run past the end node of its run: over a corner post to its face; to the trim face at an end of run; to the wall at a wall start
-  // (end of run: 1 1/2", the offset a worksurface wrapped at a corner post face carries to the far end while corner legs start at the corner node;
-  // the trim face itself is only FOOTPRINT.eor past the node, p14)
-  function runEndAllow(P, nid) { const n = P.nodes[nid]; const J = n ? E.junction(P, n) : null; const t = J && J.type; return t === 'wall' ? E.FOOTPRINT[P.trim].wall : POST_HALF; }
+  // how far a worksurface may run past the end node of its run: at a corner, over the junction block to its far face (the other leg's outer face,
+  // 1 1/2"); to the finished trim face at an end of run (FOOTPRINT.eor, p14, p76); to the wall at a wall start (p15). The run's modules already stop
+  // the corner allowance short of a corner node (CORNER_ALLOW), so a worksurface wrapped by the return panel ends on its module line.
+  function runEndAllow(P, nid) { const n = P.nodes[nid]; const J = n ? E.junction(P, n) : null; const t = J && J.type; const fp = E.FOOTPRINT[P.trim] || E.FOOTPRINT.thin; return t === 'wall' ? fp.wall : t === 'EOR' ? fp.eor : POST_HALF; }
   E.runEndAllow = (P, run) => ({ lo: runEndAllow(P, run.startNode), hi: runEndAllow(P, run.endNode) });
   const ON_JUNCTION = 1.6; // an on-module support engages the junction uprights (p216): its worksurface end lines up with the junction center, within the 1 1/2" post face (p14)
   const SEAM_TOL = 0.6;    // two ends butt at a seam: no more than this apart, same side, facing each other
@@ -2125,7 +2232,16 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   function cornerRow(pid, ws, dm) { return findRow(pid, r => r.attrs.construction === ws.construction && nominal(r.attrs.depthA) === dm.depthA && nominal(r.attrs.depthB) === dm.depthB && nominal(r.attrs.widthC) === dm.C && nominal(r.attrs.widthD) === dm.D && (ws.kind !== 'extcorner' || r.attrs.handed === (dm.hand === 'L' ? 'left' : 'right'))); }
   const JUNCTION_MOUNTED = { cantilever: 'cantilever', ssb: 'side support bracket', endpanel: 'end panel', csp: 'center support panel' };
   const SUPPORT_NAME = Object.assign({ leg: 'post leg', pedestal: 'fixed pedestal' }, JUNCTION_MOUNTED);
-  function nearestNodeDist(P, pt) { let b = Infinity; for (const n of Object.values(P.nodes)) b = Math.min(b, dist([n.x, n.y], pt)); return b; }
+  // the points a support can hang on: every node, and on each leg of a corner junction its module line, the corner allowance out (CORNER_ALLOW)
+  E.junctionPoints = function (P, nodesInfo) {
+    const pts = [];
+    for (const n of Object.values(P.nodes)) {
+      pts.push([n.x, n.y]); const J = (nodesInfo && nodesInfo[n.id]) || E.junction(P, n); const ca = E.cornerAllow(J.type); if (!ca) continue;
+      for (const l of J.legs) { const o = P.nodes[l.farNode]; if (!o) continue; const L = Math.hypot(o.x - n.x, o.y - n.y) || 1; pts.push([n.x + (o.x - n.x) / L * ca, n.y + (o.y - n.y) / L * ca]); }
+    }
+    return pts;
+  };
+  function nearestNodeDist(pts, pt) { let b = Infinity; for (const q of pts) b = Math.min(b, dist(q, pt)); return b; }
   const PULLS = { A: 3, B: 2, C: 2 }; // drawers (one pull each): box/box/file, file/file, box/file (p609, p614)
   // pull finishes (p274): contemporary, handle, jazz and bar pulls are plated metal; c:scape pulls are painted
   E.PULL_COLORS = { metal: [['9201', 'Polished Chrome'], ['0835', 'Black'], ['9211', 'Nickel'], ['9212', 'Silver']], cscape: [['4140', 'Arctic White Gloss'], ['4144', 'Black Gloss'], ['4799', 'Platinum Metallic']] };
@@ -2137,7 +2253,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
   // supports and BOM for every worksurface on the plan
   function worksurfacesBOM(P, lines, warn, errors, nodesInfo) {
     const W = Object.values(P.worksurfaces || {}); if (!W.length) return;
-    const F = P.finishes; const geo = {}; for (const ws of W) geo[ws.id] = E.wsGeometry(P, ws);
+    const F = P.finishes; const geo = {}; for (const ws of W) geo[ws.id] = E.wsGeometry(P, ws); const jpts = E.junctionPoints(P, nodesInfo);
     for (const ws of W) { const g = geo[ws.id]; ws._armNames = null; ws._lret = null; ws._seams = []; ws._supportAt = {}; ws._armMid = []; if (g && g.arms) ws._armNames = cornerDims(ws, g).leftFirst ? ['left arm', 'right arm'] : ['right arm', 'left arm']; }
     const ends = []; // {ws, key, pt (back corner), base (on the panel centerline), out (outward), n (worksurface side), g, depth}
     for (const ws of W) {
@@ -2256,9 +2372,9 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
         g.arms.forEach((a, i) => {
           const runA = E.runOf(P, a.panel.id); const along = E.runOffset(runA, a.base[0], a.base[1]);
           const alA = E.runEndAllow(P, runA); if (along > runA.length + alA.hi + 0.01 || along < -alA.lo - 0.01) errors.push({ panel: ws.id, msg: `${wsName(ws)}: the ${a.len}" ${ws._armNames[i]} runs past the ${a.panel.id} run.` });
-          const posEnd = a.len - (resolved['arm' + i] === 'pedestal' ? E.PED_W : 0);
+          const posEnd = a.reach - (resolved['arm' + i] === 'pedestal' ? E.PED_W : 0); // measured along the leg from the node, like the junctions
           const t0 = E.runOffset(runA, node.x, node.y), sg = dot(a.dir, runA.dir) > 0 ? 1 : -1;
-          const js = [0, ...runA.panels.map(r => r.to)].map(x => (x - t0) * sg).filter(t => t > 3.2 && t < posEnd - 3.2).sort((p, q) => p - q);
+          const js = [...new Set(runA.panels.flatMap(r => [r.from, r.to]))].map(x => (x - t0) * sg).filter(t => t > 3.2 && t < posEnd - 3.2).sort((p, q) => p - q);
           const sp = spanSupports(js, 0, posEnd, E.WS_SPAN_MAX); for (const t of sp.mids) ws._armMid.push([i, t]);
           if (sp.span > E.WS_SPAN_MAX) { const rc = findRow('uw-reinforcing-channels', r => r.attrs.forWorksurfaceWidths.includes(a.len)); if (rc) { const c = Line('Supports', 1, rc, BYID['uw-reinforcing-channels'], `Reinforcing channel ${rc.attrs.width}"W for the ${a.len}" ${ws._armNames[i]}`, 'black', { src: ctx }); c.notes.push('Extended corner arm over 54" (p208, p524 tip).'); lines.push(c); } }
         });
@@ -2266,7 +2382,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
         if (ws.kind !== 'corner120' && J && J.family === 120) errors.push({ panel: ws.id, msg: 'A 90° corner worksurface cannot sit on a 120° junction. Use the 120° corner worksurface (p526).' });
       }
       // on-module supports engage the slots in the junction uprights (p216): the end they carry must line up with a panel junction
-      for (const k of keys) { const s = resolved[k]; const d = nearestNodeDist(P, endOf(ws, k).base); ws._supportAt[k] = { s, d: Math.round(d * 100) / 100, junction: !!JUNCTION_MOUNTED[s] }; if (!JUNCTION_MOUNTED[s]) continue; if (d > ON_JUNCTION) errors.push({ panel: ws.id, msg: `${wsName(ws)}: the ${JUNCTION_MOUNTED[s]} at the ${endName(ws, k)} end is ${Math.round(d * 10) / 10}" from the nearest panel junction. On-module supports engage the junction uprights (p216). Put the worksurface ends on panel seams (worksurface widths match the panel widths, p209) or support that end with a pedestal or post leg.` }); }
+      for (const k of keys) { const s = resolved[k]; const d = nearestNodeDist(jpts, endOf(ws, k).base); ws._supportAt[k] = { s, d: Math.round(d * 100) / 100, junction: !!JUNCTION_MOUNTED[s] }; if (!JUNCTION_MOUNTED[s]) continue; if (d > ON_JUNCTION) errors.push({ panel: ws.id, msg: `${wsName(ws)}: the ${JUNCTION_MOUNTED[s]} at the ${endName(ws, k)} end is ${Math.round(d * 10) / 10}" from the nearest panel junction. On-module supports engage the junction uprights (p216). Put the worksurface ends on panel seams (worksurface widths match the panel widths, p209) or support that end with a pedestal or post leg.` }); }
       ws._resolved = resolved; ws._mid = mids.map(t => t - g.from);
       // where each support sits, for the plan and the installer figures (the same data the spec counts): at the junction for on-module supports (p216),
       // at the end for end panels and legs. kind, point on the panel centreline, direction into the worksurface (n), along-run direction (u).
@@ -2357,7 +2473,9 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const area = (Q) => Math.abs(Q.reduce((s, p, i) => { const q = Q[(i + 1) % Q.length]; return s + p[0] * q[1] - q[0] * p[1]; }, 0)) / 2;
     const hits = (as, bs) => as.some(a => area(a) > 1e-6 && bs.some(b => area(b) > 1e-6 && pen(a, b) > TOL));
     const shapes = W.map(ws => { const g = E.wsGeometry(P, ws); return g && { ws, parts: E.wsParts(P, ws, g), peds: (ws.peds || []).map(d => ({ d, poly: E.pedRect(P, ws, g, d) })) }; }).filter(Boolean);
-    const panels = Object.values(P.panels).map(p => { const n0 = P.nodes[p.a], n1 = P.nodes[p.b]; const L = Math.hypot(n1.x - n0.x, n1.y - n0.y) || 1, ux = (n1.x - n0.x) / L, uy = (n1.y - n0.y) / L, nx = -uy * POST_HALF, ny = ux * POST_HALF; const a = { x: n0.x + ux * POST_HALF, y: n0.y + uy * POST_HALF }, b = { x: n1.x - ux * POST_HALF, y: n1.y - uy * POST_HALF }; return { p, poly: [[a.x + nx, a.y + ny], [b.x + nx, b.y + ny], [b.x - nx, b.y - ny], [a.x - nx, a.y - ny]] }; }); // panel body between the post faces
+    // panel body between the junction faces: 3/4" from an in-line, end-of-run or wall-start node, the corner face (allowance + 3/4" post) at a corner
+    const inOf = {}; const reachIn = (nid) => { if (!(nid in inOf)) { const n = P.nodes[nid]; const J = n ? E.junction(P, n) : null; inOf[nid] = E.junctionReach(P.trim, J && J.legs.length ? J.type : 'EOR').in; } return inOf[nid]; };
+    const panels = Object.values(P.panels).map(p => { const n0 = P.nodes[p.a], n1 = P.nodes[p.b]; const L = Math.hypot(n1.x - n0.x, n1.y - n0.y) || 1, ux = (n1.x - n0.x) / L, uy = (n1.y - n0.y) / L, nx = -uy * POST_HALF, ny = ux * POST_HALF; const ra = reachIn(p.a), rb = reachIn(p.b); const a = { x: n0.x + ux * ra, y: n0.y + uy * ra }, b = { x: n1.x - ux * rb, y: n1.y - uy * rb }; return { p, poly: [[a.x + nx, a.y + ny], [b.x + nx, b.y + ny], [b.x - nx, b.y - ny], [a.x - nx, a.y - ny]] }; });
     const nm = (ws) => wsName(ws);
     const compOf = {}; for (const c of E.components(P)) for (const q of c.panels) compOf[q.id] = c.key;
     const hostComp = (ws) => compOf[ws.kind === 'straight' ? ws.panel : (ws.legs || [])[0]];
@@ -2477,7 +2595,8 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
     const styleOf = (src, cat) => { const l = (res.lines || []).find(x => x.src === src && (!cat || x.cat === cat) && x.style && x.style !== '—'); return l ? l.style : ''; };
     for (const p of Object.values(P.panels)) {
       const a = P.nodes[p.a], b = P.nodes[p.b]; const L = Math.hypot(b.x - a.x, b.y - a.y) || 1; const d = [(b.x - a.x) / L, (b.y - a.y) / L], n = [-d[1], d[0]];
-      // panel body between the junction posts, as on the plan: in-line 3/4" either side of the node, end of run / wall start 3/4" inside it, corners 1 1/2"
+      // panel body between the junction posts, as on the plan: in-line 3/4" either side of the node, end of run / wall start 3/4" inside it, corners at the
+      // corner face (corner allowance + 3/4" post: 2 1/4" for L, T, X; see CORNER_ALLOW)
       const reach = (nid) => { const J = res.nodes && res.nodes[nid]; return E.junctionReach(P.trim, J && J.legs && J.legs.length ? J.type : 'L').in; };
       const s = [a.x + d[0] * reach(p.a), a.y + d[1] * reach(p.a)], e = [b.x - d[0] * reach(p.b), b.y - d[1] * reach(p.b)];
       const pts = [[s[0] + n[0] * H / 2, s[1] + n[1] * H / 2], [e[0] + n[0] * H / 2, e[1] + n[1] * H / 2], [e[0] - n[0] * H / 2, e[1] - n[1] * H / 2], [s[0] - n[0] * H / 2, s[1] - n[1] * H / 2]];
@@ -2492,7 +2611,12 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
         const ang = (J.type === 'inline' ? J.legs[0].angle : J.legs[0].angle + 180) * Math.PI / 180, u = [Math.cos(ang), Math.sin(ang)], v = [-u[1], u[0]];
         const rect = (a0, a1) => [[a0, -1.5], [a1, -1.5], [a1, 1.5], [a0, 1.5]].map(([x, y]) => [n.x + u[0] * x + v[0] * y, n.y + u[1] * x + v[1] * y]);
         const R = E.junctionReach(P.trim, J.type); poly('A-JUNCTION', rect(R.post[0], R.post[1]), true); if (R.trim) poly('A-JUNCTION', rect(R.trim[0], R.trim[1]), true);
-      } else if (J.family === 120) poly('A-JUNCTION', E.cap120(n.x, n.y, J.legs[0].angle), true); // triangular 120° cap (p375)
+      } else {
+        // corner junction: each leg's 3/4" post, from the corner allowance to the corner face (CORNER_ALLOW), then the corner cap over the block (p375)
+        const Rc = E.junctionReach(P.trim, J.type);
+        for (const l of J.legs) { const a = l.angle * Math.PI / 180, u = [Math.cos(a), Math.sin(a)], v = [-u[1], u[0]]; poly('A-JUNCTION', [[Rc.ca, -1.5], [Rc.in, -1.5], [Rc.in, 1.5], [Rc.ca, 1.5]].map(([x, y]) => [n.x + u[0] * x + v[0] * y, n.y + u[1] * x + v[1] * y]), true); }
+      }
+      if (['inline', 'EOR', 'wall'].includes(J.type)) { /* drawn above */ } else if (J.family === 120) poly('A-JUNCTION', E.cap120(n.x, n.y, J.legs[0].angle), true); // triangular 120° cap (p375)
       else { const rot = (J.legs[0].angle % 90) * Math.PI / 180; const c = Math.cos(rot), s = Math.sin(rot); const q = [[-1.5, -1.5], [1.5, -1.5], [1.5, 1.5], [-1.5, 1.5]].map(([x, y]) => [n.x + x * c - y * s, n.y + x * s + y * c]); poly('A-JUNCTION', q, true); }
       text('A-TEXT', [n.x + 2.5, n.y + 2.5], 1.5, `${n.id} ${J.type} ${styleOf(n.id, 'Junction')}`, 0, false);
     }
@@ -2521,7 +2645,7 @@ a.pg{color:var(--accent);text-decoration:underline dotted;cursor:pointer;white-s
 
 </script>
 <script>
-const BUILD='2026-09-24.12';
+const BUILD='2026-09-24.13';
 /* Answer Panel Planner — plan → specification → shop → pick & install */
 (function () {
   'use strict';
@@ -2554,7 +2678,9 @@ const BUILD='2026-09-24.12';
   function snapshot() { history.push(JSON.stringify(P)); if (history.length > 80) history.shift(); future = []; }
   function undo() { if (!history.length) return; future.push(JSON.stringify(P)); P = migrate(JSON.parse(history.pop())); refresh(); }
   function redo() { if (!future.length) return; history.push(JSON.stringify(P)); P = migrate(JSON.parse(future.pop())); refresh(); }
-  function mutate(fn) { snapshot(); fn(); refresh(); }
+  // every change ends with the job's geometry normalized: node-to-node = panel width + the corner allowance at each corner end (E.normalizeGeometry, p15, p24)
+  function mutate(fn) { snapshot(); fn(); E.normalizeGeometry(P); refresh(); }
+  const LOOP_MSG = 'the panels close a loop that no longer fits: every corner junction (L, T, X) puts each panel that meets it 1 1/2" out from the corner (V, Y about 5/8"), so the sides of the loop do not add up (p15, p24). Change a width, or leave the loop open';
   // like mutate, but refuses (and undoes) a change that leaves panels crossing, overlapping or touching without a junction,
   // or makes a junction Answer does not offer. Returns true when the change was kept.
   function guardedMutate(fn, what) {
@@ -2563,8 +2689,10 @@ const BUILD='2026-09-24.12';
     const before = new Set(E.panelConflicts(P).map(key)); const badBefore = new Set(Object.values(P.nodes).filter(n => E.junction(P, n).type === 'unsupported').map(n => n.id));
     // worksurface, pedestal and panel footprints: a change may not create a collision that was not there (moving a run onto a worksurface, a typical on a pedestal)
     const hasWs = () => Object.keys(P.worksurfaces || {}).length > 0; const wsKey = (m) => m.id + '|' + m.msg; const wsBefore = hasWs() ? new Set(E.wsCollisions(P).map(wsKey)) : new Set();
+    const loopsBefore = new Set(E.normalizeGeometry(P, { dry: true }).loops);
     let r; try { r = fn(); } catch (e) { r = false; console.error(e); }
     let msg = r === false ? '' : null;
+    if (msg === null) { const g = E.normalizeGeometry(P, { dry: true }); if (g.loops.some(id => !loopsBefore.has(id))) msg = LOOP_MSG; else E.normalizeGeometry(P); }
     if (msg === null) {
       const nc = E.panelConflicts(P).filter(c => !before.has(key(c)));
       const nb = Object.values(P.nodes).map(n => [n, E.junction(P, n)]).find(([n, J]) => !badBefore.has(n.id) && J.type === 'unsupported');
@@ -2576,12 +2704,16 @@ const BUILD='2026-09-24.12';
   }
   function toast(m) { const t = $('#toast'); t.textContent = m; t.style.display = 'block'; clearTimeout(t._h); t._h = setTimeout(() => t.style.display = 'none', Math.min(9000, 2800 + Math.max(0, String(m).length - 90) * 35)); } // long messages stay up long enough to read
   function download(name, text, type) { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([(/csv/.test(type || '') ? '\ufeff' : '') + text], { type: type || 'text/plain' })); a.download = name; a.click(); setTimeout(() => URL.revokeObjectURL(a.href), 3000); }
+  let geomNotice = '';
   function migrate(obj) {
     const base = E.newProject(obj.trim || 'thin'); const Q = Object.assign(base, obj);
     Q.finishes = Object.assign(base.finishes, obj.finishes || {}); if (obj.finishes && !obj.finishes.edge) { const e = E.edges().find(x => x.code === obj.finishes.plasticColor); if (e) Q.finishes.edge = { code: e.code, name: e.name }; } // jobs saved before the edge setting kept the receptacle color on the edge
     Q.power = Object.assign(base.power, obj.power || {}); Q.options = Object.assign(base.options, obj.options || {});
     Q.manual = obj.manual || []; Q.areas = obj.areas || {}; Q.worksurfaces = obj.worksurfaces || {}; for (const w of Object.values(Q.worksurfaces)) { w.supports = w.supports || { lo: 'auto', hi: 'auto' }; w.peds = w.peds || []; w.options = w.options || {}; } Q.sourcing = obj.sourcing || { byKey: {}, byCat: {} }; Q.shop = obj.shop || { done: {} }; Q.pick = obj.pick || { done: {}, bins: {} }; Q.job = Object.assign({ customer: '', number: '', planner: '', notes: '' }, obj.job || {});
     for (const p of Object.values(Q.panels)) { p.stackSides = p.stackSides || []; p.power = Object.assign({ kind: 'none', location: 'base', receptacles: [0, 0], usb: [0, 0], infeed: null }, p.power || {}); p.topCap = p.topCap || { wood: false, omit: false }; }
+    // jobs saved before corner junctions took their allowance (panels at an L, T, X, V or Y start 1 1/2" or about 5/8" out from the corner, p15, p24):
+    // lay the runs out again; worksurfaces follow their panels
+    try { const g = E.normalizeGeometry(Q); if (g.moved) geomNotice = `Corner junctions now place each panel's module 1 1/2" out from an L, T or X junction (about 5/8" at V and Y), as Answer builds them (p15, p24): ${g.moved} junction${g.moved === 1 ? '' : 's'} of this job moved to match. Worksurfaces follow their panels.`; if (g.loops.length) geomNotice = (geomNotice ? geomNotice + ' ' : '') + `A closed loop of panels (${[...new Set(g.loops)].map(pn).join(', ')}) no longer fits with the corner allowances and was left as drawn: change a width so it closes.`; } catch (e) { console.error(e); }
     return Q;
   }
   P = migrate(P);
@@ -2604,6 +2736,7 @@ const BUILD='2026-09-24.12';
     try { R = E.generate(P); } catch (e) { console.error(e); toast('Could not rebuild the parts list: ' + e.message); R = R || { lines: [], warnings: [], errors: [], nodes: {}, totals: { byCat: {}, all: 0, canadian: 0 }, footprint: [] }; }
     try { migrateKeys(); } catch (e) { console.error(e); }
     if (R.notices && R.notices.length) toast(R.notices.join(' '));
+    if (geomNotice) { toast(geomNotice); geomNotice = ''; }
     try { localStorage.setItem('answer.planner', JSON.stringify(P)); } catch (e) { }
     $('#jobName').value = P.name || '';
     $$('#trimSwitch button').forEach(b => b.classList.toggle('on', b.dataset.trim === P.trim));
@@ -2644,8 +2777,9 @@ const BUILD='2026-09-24.12';
   function drawPanelShape(c, p, offset, fill, stroke, lw) {
     const { a, b, ang } = panelRect(p); const t = POST * view.s / 2; const nx = -Math.sin(ang) * t, ny = Math.cos(ang) * t;
     // skins extend onto straight junctions and meet the next panel's skin at the junction centre (p16); at a run end or wall start they cover the post, which lies
-    // inside the nominal width, up to the node (the trim or wall-start face is beyond it, p14, p15); at a corner they stop at the post
-    const ext = (nid) => { const J = R && R.nodes[nid]; return !J || !J.legs ? -JW / 2 : (J.type === 'inline' || J.type === 'EOR' || J.type === 'wall') ? 0 : J.family === 120 ? -E.CAP120_IN : -POST / 2; };
+    // inside the nominal width, up to the node (the trim or wall-start face is beyond it, p14, p15); at a corner they stop at the corner face, the corner
+    // allowance plus the 3/4" post from the node (2 1/4" at L, T, X; E.CORNER_ALLOW, p15, p24)
+    const ext = (nid) => { const J = R && R.nodes[nid]; return !J || !J.legs ? -JW / 2 : (J.type === 'inline' || J.type === 'EOR' || J.type === 'wall') ? 0 : -E.junctionReach(P.trim, J.type).in; };
     const ea = ext(p.a), eb = ext(p.b); const ux = Math.cos(ang), uy = Math.sin(ang);
     const pts = [[a.x + offset[0] - ux * ea, a.y + offset[1] - uy * ea], [b.x + offset[0] + ux * eb, b.y + offset[1] + uy * eb]].map(([x, y]) => toS(x, y));
     const [x1, y1] = pts[0], [x2, y2] = pts[1];
@@ -2664,6 +2798,10 @@ const BUILD='2026-09-24.12';
       if (J.type === 'EOR') drawEndTrim(c, x, y, J, h);
       return;
     }
+    // corner junctions (block-and-post, p15): each leg's 3/4" post from the corner allowance out to the corner face, where the skins stop (E.CORNER_ALLOW); the cap goes over the block
+    const fillC = bad ? '#e8b4b0' : on ? '#5980a6' : trimHex(), lineC = bad ? '#b3261e' : on ? '#416180' : '#424244';
+    const corner = J && J.legs && J.legs.length >= 2 && !['inline', 'EOR', 'wall'].includes(J.type) && !bad;
+    if (corner) { const Rc = E.junctionReach(P.trim, J.type); for (const l of J.legs) { const a = l.angle * Math.PI / 180, ux = Math.cos(a), uy = -Math.sin(a), nx = -uy, ny = ux; c.beginPath(); [[Rc.ca * view.s, -h], [Rc.in * view.s, -h], [Rc.in * view.s, h], [Rc.ca * view.s, h]].forEach(([u, v], i) => { const px = x + ux * u + nx * v, py = y + uy * u + ny * v; i ? c.lineTo(px, py) : c.moveTo(px, py); }); c.closePath(); c.fillStyle = fillC; c.fill(); c.lineWidth = on ? 2 : 1.2; c.strokeStyle = lineC; c.stroke(); } }
     // corner junction caps (p375): square 90° cap for L, T, X; triangular 120° cap for V, Y (a V also has its vertical trim on the open side, p15)
     if (J && J.family === 120) { const pts = E.cap120(0, 0, J.legs[0].angle).map(([u, v]) => [x + u * view.s, y - v * view.s]); c.beginPath(); pts.forEach((q, i) => i ? c.lineTo(q[0], q[1]) : c.moveTo(q[0], q[1])); c.closePath();
       if (J.type === 'V' && !bad) { const used = J.legs.map(l => ((l.angle % 360) + 360) % 360), a3 = [0, 120, 240].map(k => (J.legs[0].angle + k) % 360).find(a => !used.some(u => Math.abs(((u - a + 540) % 360) - 180) < 1)); if (a3 !== undefined) { const t = a3 * Math.PI / 180, ux = Math.cos(t), uy = -Math.sin(t), nx = -uy, ny = ux, d = E.CAP120_IN * view.s, tt = E.FOOTPRINT[P.trim].eor * view.s, hh = 1.5 * view.s; c.save(); c.beginPath(); [[d, -hh], [d + tt, -hh], [d + tt, hh], [d, hh]].forEach(([u, v], i) => { const px = x + ux * u + nx * v, py = y + uy * u + ny * v; i ? c.lineTo(px, py) : c.moveTo(px, py); }); c.closePath(); c.fillStyle = trimHex(); c.fill(); c.strokeStyle = '#424244'; c.lineWidth = 1; c.stroke(); c.restore(); c.beginPath(); pts.forEach((q, i) => i ? c.lineTo(q[0], q[1]) : c.moveTo(q[0], q[1])); c.closePath(); } }
@@ -2794,9 +2932,10 @@ const BUILD='2026-09-24.12';
     drawSelHalo(true);
     drawScene(ctx, false);
     drawSelHalo();
+    if (dragMove && dragMove.snap && P.nodes[dragMove.snap.node]) { const n = P.nodes[dragMove.snap.node]; const [x, y] = toS(n.x, n.y); ctx.save(); ctx.beginPath(); ctx.arc(x, y, 14, 0, 7); ctx.strokeStyle = '#2e8b57'; ctx.lineWidth = 3; ctx.stroke(); ctx.fillStyle = 'rgba(46,139,87,.18)'; ctx.fill(); ctx.restore(); } // join target
     // draw preview
     if (draw && draw.widths) {
-      let x = draw.x0, y = draw.y0; const dx = Math.cos(draw.ang), dy = Math.sin(draw.ang);
+      const dx = Math.cos(draw.ang), dy = Math.sin(draw.ang); let x = draw.x0 + dx * (draw.ca0 || 0), y = draw.y0 + dy * (draw.ca0 || 0); // modules start the corner allowance out
       for (const wdt of draw.widths) { const [ax, ay] = toS(x + dx * JW / 2, y + dy * JW / 2), [bx, by] = toS(x + dx * (wdt - JW / 2), y + dy * (wdt - JW / 2)); const t = 3 * view.s / 2; const nx = -Math.sin(draw.ang) * t, ny = Math.cos(draw.ang) * t; ctx.beginPath(); ctx.moveTo(ax + nx, ay - ny); ctx.lineTo(bx + nx, by - ny); ctx.lineTo(bx - nx, by + ny); ctx.lineTo(ax - nx, ay + ny); ctx.closePath(); ctx.fillStyle = 'rgba(89,128,166,.25)'; ctx.fill(); ctx.strokeStyle = '#5980a6'; ctx.setLineDash([4, 3]); ctx.stroke(); ctx.setLineDash([]); ctx.fillStyle = '#416180'; ctx.font = '12px Barlow, sans-serif'; ctx.textAlign = 'center'; ctx.fillText(`${wdt}"`, (ax + bx) / 2, (ay + by) / 2 - t - 4); x += dx * wdt; y += dy * wdt; }
       const [ex, ey] = toS(x, y); ctx.fillStyle = '#1d1f20'; ctx.font = '600 13px Barlow, sans-serif'; ctx.fillText(`${E.ftin(draw.len)} · ${draw.widths.length} panel${draw.widths.length === 1 ? '' : 's'}`, ex, ey - 16);
     }
@@ -2824,7 +2963,7 @@ const BUILD='2026-09-24.12';
       // supports: cantilever ▲, end panel ▌, side support bracket ◆, shared —
       const res = ws._resolved || {}; c.font = '600 9px Barlow, sans-serif'; c.textAlign = 'center';
       const mark = (pt, k) => { const s = res[k]; if (!s || s === 'shared' || s === 'pedestal') return; const [x, y] = toS(pt[0], pt[1]); L.add({ text: { cantilever: 'C', endpanel: 'EP', ssb: 'SB', leg: 'L', csp: 'CS' }[s] || '', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); };
-      if (plain || view.s > 1.2) { if (g.kind === 'straight') { const inset = (pt, sign) => [pt[0] + g.dir[0] * sign * 5 + g.n[0] * 6, pt[1] + g.dir[1] * sign * 5 + g.n[1] * 6]; mark(inset(g.lo, 1), 'lo'); mark(inset(g.hi, -1), 'hi'); for (const m of ws._mid || []) { const near = (q) => Object.values(P.nodes).some(nd => Math.hypot(nd.x - q[0], nd.y - q[1]) < 3.5); let q = [g.lo[0] + g.dir[0] * m, g.lo[1] + g.dir[1] * m]; if (!near(q)) q = [g.hi[0] - g.dir[0] * m, g.hi[1] - g.dir[1] * m]; const [x, y] = toS(q[0] + g.n[0] * 6, q[1] + g.n[1] * 6); L.add({ text: 'C', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); } } else { g.arms.forEach((a, i) => { mark([a.end[0] - a.dir[0] * 5 + a.n[0] * 6, a.end[1] - a.dir[1] * 5 + a.n[1] * 6], 'arm' + i); }); const [ox, oy] = toS(g.o[0] + (g.arms[0].dir[0] + g.arms[1].dir[0]) * 5, g.o[1] + (g.arms[0].dir[1] + g.arms[1].dir[1]) * 5); L.add({ text: 'SB', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [ox, oy]] }); for (const [i, tm] of ws._armMid || []) { const a = g.arms[i]; if (!a) continue; const back = a.len - tm; const [x, y] = toS(a.end[0] - a.dir[0] * back + a.n[0] * 6, a.end[1] - a.dir[1] * back + a.n[1] * 6); L.add({ text: 'C', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); } } }
+      if (plain || view.s > 1.2) { if (g.kind === 'straight') { const inset = (pt, sign) => [pt[0] + g.dir[0] * sign * 5 + g.n[0] * 6, pt[1] + g.dir[1] * sign * 5 + g.n[1] * 6]; mark(inset(g.lo, 1), 'lo'); mark(inset(g.hi, -1), 'hi'); for (const m of ws._mid || []) { const near = (q) => Object.values(P.nodes).some(nd => Math.hypot(nd.x - q[0], nd.y - q[1]) < 3.5); let q = [g.lo[0] + g.dir[0] * m, g.lo[1] + g.dir[1] * m]; if (!near(q)) q = [g.hi[0] - g.dir[0] * m, g.hi[1] - g.dir[1] * m]; const [x, y] = toS(q[0] + g.n[0] * 6, q[1] + g.n[1] * 6); L.add({ text: 'C', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); } } else { g.arms.forEach((a, i) => { mark([a.end[0] - a.dir[0] * 5 + a.n[0] * 6, a.end[1] - a.dir[1] * 5 + a.n[1] * 6], 'arm' + i); }); const [ox, oy] = toS(g.o[0] + (g.arms[0].dir[0] + g.arms[1].dir[0]) * 5, g.o[1] + (g.arms[0].dir[1] + g.arms[1].dir[1]) * 5); L.add({ text: 'SB', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [ox, oy]] }); for (const [i, tm] of ws._armMid || []) { const a = g.arms[i]; if (!a) continue; const back = a.reach - tm; const [x, y] = toS(a.end[0] - a.dir[0] * back + a.n[0] * 6, a.end[1] - a.dir[1] * back + a.n[1] * 6); L.add({ text: 'C', font: '600 9px Barlow, sans-serif', size: 9, color: '#416180', prio: 100, keep: true, at: [() => [x, y]] }); } } }
       // tie plates across the seams this worksurface shares (3 3/4"L flat plate underneath, p546)
       // supports under the worksurface, drawn dashed where they sit (the same records the spec counts): cantilever 15 1/2" deep in the junction slots (p545),
       // center support panel 11" (p547), end panel full depth at the end, side support bracket on the return, post leg at the front corner (p552)
@@ -2865,15 +3004,14 @@ const BUILD='2026-09-24.12';
   function snapWsOff(ws, off) {
     const run = E.runOf(P, ws.panel); const host = run.panels.find(r => r.id === ws.panel); const toRun = (o) => host.from + o; const fromRun = (t) => t - host.from;
     const cands = [];
-    // seams, and the post faces a worksurface may butt: 1 1/2" off a corner node (3" post); none at in-line or end-of-run nodes (the skins cover those posts)
-    const face = (nid) => { const J = R && R.nodes[nid]; return J && J.legs && !['inline', 'EOR', 'wall'].includes(J.type) ? POST / 2 : 0; };
-    const nodeAt = (t) => { const r = run.panels.find(q => Math.abs(q.from - t) < 0.01) || run.panels.find(q => Math.abs(q.to - t) < 0.01); if (!r) return null; const atFrom = Math.abs(r.from - t) < 0.01; return (atFrom !== r.flip) ? r.panel.a : r.panel.b; };
-    for (const r of run.panels) { const fa = face(nodeAt(r.from)), fb = face(nodeAt(r.to)); cands.push(r.from, r.to, r.to - ws.width); if (fa) cands.push(r.from + fa); if (fb) cands.push(r.to - fb, r.to - fb - ws.width); }
+    // seams: the panels' module lines. At a corner the run's first module starts the corner allowance out from the node (E.CORNER_ALLOW), at the return
+    // panel's face, so a worksurface wrapped by the return starts (or ends) there
+    for (const r of run.panels) cands.push(r.from, r.to, r.to - ws.width);
     cands.push(...lJointStarts(ws, run));
     for (const o of Object.values(P.worksurfaces)) { if (o.id === ws.id) continue; const sp = o.kind === 'straight' ? E.wsSpanInRun(P, o, run) : null; if (sp && sp.side === ws.side) { cands.push(sp.to, sp.from - ws.width); } if (o.kind !== 'straight') { const g = E.wsGeometry(P, o); if (g) for (const a of g.arms) { const t = E.runOffset(run, a.end[0], a.end[1]); const along = Math.abs(a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1]) > .99; if (along) { const out = a.dir[0] * run.dir[0] + a.dir[1] * run.dir[1] > 0; cands.push(out ? t : t - ws.width); } } } }
     const t = toRun(off); let best = null, bd = 9;
     for (const cnd of cands) { const d = Math.abs(cnd - t); if (d < bd) { bd = d; best = cnd; } }
-    const snapped = best !== null ? best : Math.round(t / GRID) * GRID;
+    const snapped = best !== null ? best : run.panels[0].from + Math.round((t - run.panels[0].from) / GRID) * GRID; // the 6" grid from the run's first module line
     const al = E.runEndAllow(P, run), lo = -al.lo, hi = run.length + al.hi - ws.width; const clamped = Math.max(lo, Math.min(hi, snapped));
     return { off: fromRun(clamped), snapped: best !== null };
   }
@@ -2901,23 +3039,40 @@ const BUILD='2026-09-24.12';
   }
   const snapW = (v) => Math.round(v / GRID) * GRID;
   function snapPoint(wx, wy) { for (const n of Object.values(P.nodes)) { const [x, y] = toS(n.x, n.y); const [sx, sy] = toS(wx, wy); if (Math.hypot(x - sx, y - sy) < 12) return [n.x, n.y, n]; } return [snapW(wx), snapW(wy), null]; }
+  // moving a run: when one of its junctions comes near a junction of another run, snap onto it if the joined junction is one Answer makes
+  // (end of run onto an in-line junction = T, onto an end of run = in-line or L, onto an L = T, onto a T = X; 120° families alike) and the
+  // join adds no rule error (panels or worksurfaces overlapping, heights). Otherwise the run just moves on the 6" grid and does not join.
+  function joinSnap(dm, rdx, rdy) {
+    const reach = Math.max(24 / view.s, 2); const cands = [];
+    for (const mid of dm.nodes) { const m = P.nodes[mid]; if (!m) continue; for (const o of Object.values(P.nodes)) { if (dm.nodes.has(o.id)) continue; const d = Math.hypot(m.x + rdx - o.x, m.y + rdy - o.y); if (d < reach) cands.push({ m, o, d }); } }
+    cands.sort((a, b) => a.d - b.d);
+    for (const c of cands.slice(0, 4)) {
+      const dx = Math.round((c.o.x - c.m.x) * 1000) / 1000, dy = Math.round((c.o.y - c.m.y) * 1000) / 1000, key = c.m.id + '>' + c.o.id;
+      if (!(key in dm.tried)) { const Q = JSON.parse(JSON.stringify(P)); let ok = E.moveNodes(Q, [...dm.nodes], dx, dy); let type = ''; if (ok) { const G = E.generate(Q); ok = G.errors.length <= dm.errs; const J = Object.values(G.nodes).find(j => j.node && j.node.id === c.o.id) || G.nodes[c.o.id]; type = J ? J.type : ''; } dm.tried[key] = ok ? { dx, dy, node: c.o.id, type } : null; }
+      if (dm.tried[key]) return dm.tried[key];
+    }
+    return null;
+  }
   function mousePos(e) { const r = plan.getBoundingClientRect(); return [e.clientX - r.left, e.clientY - r.top]; }
   plan.addEventListener('mousedown', e => {
     const [sx, sy] = mousePos(e); const [wx, wy] = toW(sx, sy);
     if (placing) { placeTypical(placing.T, placing.ghost || [snapW(wx), snapW(wy)]); return; }
     let h = hit(sx, sy);
+    if (h && h.kind === 'handle' && e.button !== 0) return; // right-click on ⊕ only opens the direction menu (contextmenu), never adds
     if (h && h.kind === 'handle') { // ⊕ at a free end: click adds one panel straight on, drag draws a run from that end (Shift for 120°)
       const J = R.nodes[h.id]; const l = J.legs[0]; const n = P.nodes[h.id];
       draw = { x0: n.x, y0: n.y, n0: n, shift: e.shiftKey, handle: { nid: h.id, ang: (l.angle + 180) % 360, src: l.panel.id } }; return;
     }
     if (tool === 'ws' && e.button === 0) { // Add worksurface tool: a panel side takes a straight, a corner junction a corner worksurface; stays on for the next one
-      if (h && h.kind === 'panel') { addStraightWs(h.id, wsSideOfClick(P.panels[h.id], wx, wy), wx, wy, wsDepth()); return; }
+      if (h && h.kind === 'panel') { addStraightWs(h.id, wsSideOfClick(P.panels[h.id], wx, wy), wx, wy, wsDepth(), wsWidth()); return; }
       if (h && h.kind === 'node') { const J = R.nodes[h.id]; if (J && J.legs && J.legs.length >= 2 && J.type !== 'inline') { addCornerWs(h.id, wx, wy, J.family === 120); return; } toast('Corner worksurfaces go on an L, T, X, V or Y junction. For a straight, click the side of a panel.'); return; }
       if (h && (h.kind === 'ws' || h.kind === 'ped')) { selWs = h.kind === 'ws' ? h.id : h.ws; selPed = h.kind === 'ped' ? h.id : null; sel = new Set(); selNode = null; refresh(); return; }
       toast('Click the side of a panel where the worksurface goes, or a corner junction for a corner worksurface.'); return;
     }
     if (tool === 'draw') {
-      // a junction (or open floor) starts a run; pressing a panel, worksurface or pedestal selects it without moving anything
+      // a junction (or open floor) starts a run; pressing a panel, worksurface or pedestal selects it without moving anything. A press within the
+      // junction snap distance starts at the junction even over a panel's end: corner allowances (E.CORNER_ALLOW) put junctions off the 6" grid
+      if (h && h.kind === 'panel' && snapPoint(wx, wy)[2]) h = { kind: 'node', id: snapPoint(wx, wy)[2].id };
       if (h && h.kind !== 'node') {
         setTool('select'); sel = new Set(); selNode = null; selWs = null; selPed = null;
         if (h.kind === 'panel') { sel = new Set([h.id]); toast('Runs start on open floor or at a junction post. To branch off this run, press on one of its posts and drag.'); }
@@ -2936,10 +3091,10 @@ const BUILD='2026-09-24.12';
         const fixed = freeA ? P.nodes[p.b] : P.nodes[p.a], free = freeA ? P.nodes[p.a] : P.nodes[p.b];
         const [fx, fy] = toS(fixed.x, fixed.y), [ex, ey] = toS(free.x, free.y);
         const t = ((sx - fx) * (ex - fx) + (sy - fy) * (ey - fy)) / (((ex - fx) ** 2 + (ey - fy) ** 2) || 1);
-        if (t > 0.5) { swing = { pid: p.id, fixed, free, orig: { x: free.x, y: free.y }, allowed: E.allowedAngles(P, fixed, p.id), moved: false }; refresh(); return; }
+        if (t > 0.75) { swing = { pid: p.id, fixed, free, orig: { x: free.x, y: free.y }, allowed: E.allowedAngles(P, fixed, p.id), moved: false }; refresh(); return; }
       }
       const ids = new Set(); const nodes = new Set(); for (const c of E.components(P)) if (c.panels.some(q => sel.has(q.id))) { c.panels.forEach(q => ids.add(q.id)); c.nodes.forEach(n => nodes.add(n)); }
-      dragMove = { sx, sy, ids, nodes, dx: 0, dy: 0, moved: false }; refresh(); return;
+      dragMove = { sx, sy, ids, nodes, dx: 0, dy: 0, moved: false, errs: R.errors.length, tried: {} }; refresh(); return;
     }
     if (h && h.kind === 'node') { selNode = h.id; sel = new Set(); selWs = null; selPed = null; refresh(); return; }
     if (h && (h.kind === 'ws' || h.kind === 'ped')) {
@@ -2954,11 +3109,12 @@ const BUILD='2026-09-24.12';
   function closeMenu() { if (menu) { menu.remove(); menu = null; } }
   function showMenu(x, y, items) {
     closeMenu(); const m = document.createElement('div'); m.className = 'ctxmenu'; menu = m;
-    const build = (list, root) => { for (const it of list) { if (it === '-') { const d = document.createElement('div'); d.className = 'sep'; root.appendChild(d); continue; } if (it.head) { const d = document.createElement('div'); d.className = 'head'; d.textContent = it.head; root.appendChild(d); continue; } const d = document.createElement('div'); d.className = 'it' + (it.dis ? ' dis' : '') + (it.children ? ' has' : ''); d.innerHTML = `<span>${esc(it.label)}</span>${it.children ? '<span class="arrow">▸</span>' : it.hint ? `<span class="hint">${esc(it.hint)}</span>` : ''}`; if (it.children) { const sub = document.createElement('div'); sub.className = 'ctxmenu sub'; build(it.children, sub); d.appendChild(sub); } else if (it.run) d.onclick = (e) => { e.stopPropagation(); closeMenu(); it.run(); }; root.appendChild(d); } };
+    const build = (list, root) => { for (const it of list) { if (it === '-') { const d = document.createElement('div'); d.className = 'sep'; root.appendChild(d); continue; } if (it.head) { const d = document.createElement('div'); d.className = 'head'; d.textContent = it.head; root.appendChild(d); continue; } const d = document.createElement('div'); d.className = 'it' + (it.dis ? ' dis' : '') + (it.children ? ' has' : ''); d.innerHTML = `<span>${esc(it.label)}</span>${it.children ? '<span class="arrow">▸</span>' : it.hint ? `<span class="hint">${esc(it.hint)}</span>` : ''}`; if (it.children) { const sub = document.createElement('div'); sub.className = 'ctxmenu sub'; build(it.children, sub); d.appendChild(sub); } if (it.run) d.onclick = (e) => { e.stopPropagation(); closeMenu(); it.run(); }; root.appendChild(d); } }; // a row with a submenu and its own action: click it for the default, hover for the choices
     build(items, m); document.body.appendChild(m);
     const r = m.getBoundingClientRect(); m.style.left = Math.min(x, window.innerWidth - r.width - 8) + 'px'; m.style.top = Math.min(y, window.innerHeight - r.height - 8) + 'px';
-    $$('.sub', m).forEach(sm => { const it = sm.parentElement; const pr = it.getBoundingClientRect(); if (pr.right + 220 > window.innerWidth) sm.style.left = 'auto', sm.style.right = '100%';
-      it.addEventListener('mouseenter', () => { sm.style.top = '-5px'; const r = sm.getBoundingClientRect(); const over = r.bottom - (window.innerHeight - 8); if (over > 0) sm.style.top = (-5 - Math.min(over, r.top - 8)) + 'px'; }); });
+    // each submenu is placed when it opens (nested ones are hidden until then, so they cannot be measured earlier): to the left when it would run off the right edge, up when it would run off the bottom
+    $$('.sub', m).forEach(sm => { const it = sm.parentElement;
+      it.addEventListener('mouseenter', () => { sm.style.left = ''; sm.style.right = ''; sm.style.top = '-5px'; let r = sm.getBoundingClientRect(); if (r.right > window.innerWidth - 8) { sm.style.left = 'auto'; sm.style.right = '100%'; r = sm.getBoundingClientRect(); } const over = r.bottom - (window.innerHeight - 8); if (over > 0) sm.style.top = (-5 - Math.min(over, r.top - 8)) + 'px'; }); });
   }
   document.addEventListener('mousedown', e => { if (menu && !menu.contains(e.target)) closeMenu(); });
   const curH = () => +$('#optHeight .on').dataset.h, curW = () => { const v = $('#optWidth').value; return v === 'auto' ? 48 : +v; };
@@ -3014,21 +3170,26 @@ const BUILD='2026-09-24.12';
   // the first width and position on this side of the panel that has its own floor space and lands its ends on junctions:
   // the clicked spot, then the host panel's module, then inside the post faces of a wrapping panel. `commit` keeps it.
   function straightWidths(depth) { return [...new Set(E.catalog().products.find(x => x.id === 'uw-straight').rows.filter(r => r.attrs.depth === E.wsDepthActual(depth, 'cord-drop')).map(r => r.attrs.width))].sort((a, b) => b - a); }
-  function findStraight(pid, side, t, depth, commit) {
+  // wantW: that width only, anywhere along the run that covers the clicked panel with both ends on junctions (a 60" spans two 30" panels, p209);
+  // otherwise the panel's own width first, then narrower ones
+  function findStraight(pid, side, t, depth, commit, wantW) {
     const p = P.panels[pid]; const run = E.runOf(P, pid); const host = run.panels.find(r => r.id === pid);
-    const widths = straightWidths(depth); const roomAll = run.length + 3; const width = widths.find(w => w === p.width && w <= roomAll) || widths.find(w => w <= Math.min(p.width, roomAll)) || widths[widths.length - 1];
+    const widths = straightWidths(depth); const roomAll = run.length + 3; const width = wantW || widths.find(w => w === p.width && w <= roomAll) || widths.find(w => w <= Math.min(p.width, roomAll)) || widths[widths.length - 1];
     const seq = P.seq; const ws = E.newWorksurface(P, { kind: 'straight', panel: pid, side, off: 0, width, depth, edge: '3mm', material: 'laminate' }); let found = null;
-    for (const w of [width, ...widths.filter(x => x < width)]) { ws.width = w; const offs = [Math.round(snapWsOff(ws, t - host.from - w / 2).off * 2) / 2, 0, p.width - w, 1.5, p.width - w - 1.5, ...lJointStarts(ws, run).map(x => Math.round((x - host.from) * 1000) / 1000)]; const ok = offs.find(o => { ws.off = o; return E.wsWidths(P, ws).includes(w) && wsFits(ws); }); if (ok !== undefined) { ws.off = ok; found = ws; break; } }
+    const spans = (w) => { const out = []; for (const r of run.panels) for (const s of [r.from, r.to - w, r.from + 1.5, r.to - w - 1.5]) { const o = Math.round((s - host.from) * 1000) / 1000; if (o < p.width && o + w > 0) out.push(o); } return out.sort((a, b) => Math.abs(a + w / 2 - (t - host.from)) - Math.abs(b + w / 2 - (t - host.from))); }; // nearest the click first
+    for (const w of wantW ? [wantW] : [width, ...widths.filter(x => x < width)]) { ws.width = w; const offs = [Math.round(snapWsOff(ws, t - host.from - w / 2).off * 2) / 2, 0, p.width - w, 1.5, p.width - w - 1.5, ...lJointStarts(ws, run).map(x => Math.round((x - host.from) * 1000) / 1000), ...(wantW ? spans(w) : [])]; const ok = offs.find(o => { ws.off = o; return E.wsWidths(P, ws).includes(w) && wsFits(ws); }); if (ok !== undefined) { ws.off = ok; found = ws; break; } }
+    let why = ''; if (!found && wantW) { ws.off = Math.round(snapWsOff(ws, t - host.from - wantW / 2).off * 2) / 2; why = E.wsWidths(P, ws).includes(wantW) ? (wsIssues(ws)[0] || '') : `the run is ${run.length}" long`; }
     let loose = 0; // widest worksurface with its own floor space on this panel, ignoring where its ends land
     if (!found && !commit) for (const w of widths) { if (w > p.width + 3) continue; ws.width = w; for (let o = -3; o <= p.width - w + 3 && !loose; o += 1.5) { ws.off = o; if (wsFree(ws)) loose = w; } if (loose) break; }
     if (!found || !commit) { E.removeWorksurface(P, ws.id); P.seq = seq; }
-    return { ws: found, width: found ? found.width : 0, loose };
+    return { ws: found, width: found ? found.width : 0, loose, why };
   }
-  function addStraightWs(pid, side, wx, wy, depth) {
+  function addStraightWs(pid, side, wx, wy, depth, wantW) {
     const p = P.panels[pid]; const run = E.runOf(P, pid); const t = E.runOffset(run, wx, wy);
-    let placed = null;
-    if (findStraight(pid, side, t, depth, false).width) mutate(() => { const r = findStraight(pid, side, t, depth, true); placed = r.ws; if (placed) { selWs = placed.id; selPed = null; sel = new Set(); selNode = null; } });
-    if (placed) { toast(`${depth}"D × ${placed.width}"W worksurface added${placed.width < p.width ? ' to clear the neighboring panel or worksurface' : ''}. Drag it along the run, right-click for pedestals.`); return; }
+    let placed = null; const trial = findStraight(pid, side, t, depth, false, wantW);
+    if (trial.width) mutate(() => { const r = findStraight(pid, side, t, depth, true, wantW); placed = r.ws; if (placed) { selWs = placed.id; selPed = null; sel = new Set(); selNode = null; } });
+    if (placed) { toast(`${depth}"D × ${placed.width}"W worksurface added${!wantW && placed.width < p.width ? ' to clear the neighboring panel or worksurface' : ''}. Drag it along the run, right-click for pedestals.`); return; }
+    if (wantW) { const fits = straightWidths(depth).filter(w => w !== wantW && w <= run.length + 3).filter(w => findStraight(pid, side, t, depth, false, w).width); toast(`A ${wantW}"W × ${depth}"D does not fit on side ${side === 0 ? 'A' : 'B'} of ${pn(pid)}: ${trial.why ? trial.why.replace(/\.$/, '') : 'no place on this run has both its ends on junctions and its own floor space'}. ${fits.length ? `What fits here at ${depth}"D: ${fits.map(w => w + '"W').join(', ')}.` : `Nothing fits here at ${depth}"D.`}`); return; }
     // say what does fit here instead
     const others = E.WS_DEPTHS.filter(d => d !== depth).map(d => [d, findStraight(pid, side, t, d, false)]).filter(([, r]) => r.width);
     const loose = findStraight(pid, side, t, depth, false).loose;
@@ -3060,8 +3221,9 @@ const BUILD='2026-09-24.12';
     });
     toast(placed ? `${placed.C}×${placed.D} corner worksurface added at ${jn(nid)}` : !onSeams.length ? `No ${kind120 ? '120° ' : ''}corner worksurface fits at ${jn(nid)}: its arms have to end on panel seams (p209, p216) and the seams here are ${d0.slice(0, 3).join('/')}" and ${d1.slice(0, 3).join('/')}" out. Change a panel width, or use straight worksurfaces.` : `No room for a corner worksurface at ${jn(nid)}: it would overlap a panel or another worksurface, or break a support rule (p209, p216).`);
   }
-  // distances from a junction to every panel seam along one leg's run
-  function seamDists(nid, pid) { const n = P.nodes[nid], p = P.panels[pid]; const run = E.runOf(P, pid); const t = E.runOffset(run, n.x, n.y); const o = P.nodes[p.a === nid ? p.b : p.a]; const sg = ((o.x - n.x) * run.dir[0] + (o.y - n.y) * run.dir[1]) > 0 ? 1 : -1; return [0, ...run.panels.map(r => r.to)].map(x => Math.round((x - t) * sg * 1000) / 1000).filter(d => d > 1).sort((a, b) => a - b); }
+  // the corner arm sizes that end on a panel seam along one leg's run: each seam's distance from the corner node less the corner allowance (a corner arm
+  // of nominal C ends the allowance + C out, E.CORNER_ALLOW, p209, p521)
+  function seamDists(nid, pid) { const n = P.nodes[nid], p = P.panels[pid]; const run = E.runOf(P, pid); const t = E.runOffset(run, n.x, n.y); const o = P.nodes[p.a === nid ? p.b : p.a]; const sg = ((o.x - n.x) * run.dir[0] + (o.y - n.y) * run.dir[1]) > 0 ? 1 : -1; const ca = E.nodeAllow(P, nid); return [...new Set(run.panels.flatMap(r => [r.from, r.to]))].map(x => Math.round(((x - t) * sg - ca) * 1000) / 1000).filter(d => d > 1).sort((a, b) => a - b); }
   function endKeys(ws) { if (ws.kind === 'straight') return ws.side === 0 ? { left: 'lo', right: 'hi' } : { left: 'hi', right: 'lo' }; const leftFirst = !(ws._armNames && ws._armNames[0] === 'right arm'); return leftFirst ? { left: 'arm0', right: 'arm1' } : { left: 'arm1', right: 'arm0' }; }
   const endLabel = (ws, side) => ws.kind === 'straight' ? (side === 'left' ? 'Left end' : 'Right end') : (side === 'left' ? 'Left arm end' : 'Right arm end');
   function pedItems(ws) {
@@ -3121,7 +3283,7 @@ const BUILD='2026-09-24.12';
       const p = P.panels[h.id]; const side = wsSideOfClick(p, wx, wy); const Ja = R.nodes[p.a], Jb = R.nodes[p.b];
       const ends = [[p.a, Ja], [p.b, Jb]].filter(([nid, J]) => J && J.legs.length === 1);
       return [{ head: `${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · side ${side === 0 ? 'A' : 'B'}` },
-        { label: 'Add worksurface on this side', children: [{ label: '24"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 24) }, { label: '30"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 30) }, { label: '18"D worksurface', run: () => addStraightWs(p.id, side, wx, wy, 18) }] }, // 36"D (35 1/2") straights are freestanding only (p508 tip)
+        { label: 'Add worksurface on this side', children: [24, 30, 18].map(d => ({ label: `${d}"D worksurface`, run: () => addStraightWs(p.id, side, wx, wy, d), children: [{ label: 'Fit the panel', hint: 'auto', run: () => addStraightWs(p.id, side, wx, wy, d) }, '-', ...straightWidths(d).filter(w => w <= E.runOf(P, p.id).length + 3).sort((a, b) => a - b).map(w => ({ label: `${w}"W × ${d}"D`, run: () => addStraightWs(p.id, side, wx, wy, d, w) }))] })) }, // 36"D (35 1/2") straights are freestanding only (p508 tip)
         { label: 'Continue the run', dis: !ends.length, children: ends.map(([nid, J]) => ({ label: `Add ${extW(p)}" × ${extH(p)}" panel at ${jn(nid)}`, run: () => guardedMutate(() => { const l = J.legs[0]; const q = E.addPanel(P, P.nodes[nid], (l.angle + 180) % 360, extW(p), extH(p)); extPanel(p, q); sel = new Set([q.id]); selNode = null; selWs = null; }, 'Panel not added') })) },
         { label: 'Height', children: E.HEIGHTS.map(hh => ({ label: `${hh}"${hh === p.height ? '  ✓' : ''}`, run: () => setHeights(targetsOf(p), hh) })) },
         { label: 'Width', children: E.WIDTHS.map(ww => ({ label: `${ww}"${ww === p.width ? '  ✓' : ''}`, run: () => setWidths(targetsOf(p), ww) })) },
@@ -3191,22 +3353,25 @@ const BUILD='2026-09-24.12';
       const rawA = Math.atan2(wy - draw.y0, wx - draw.x0); const step = (e.shiftKey || draw.shift) ? Math.PI / 6 : Math.PI / 2; const ang = Math.round(rawA / step) * step;
       let len = Math.max(0, (wx - draw.x0) * Math.cos(ang) + (wy - draw.y0) * Math.sin(ang));
       // snap end to an existing node along the line
-      let endNode = null; for (const n of Object.values(P.nodes)) { const d = Math.hypot(n.x - (draw.x0 + Math.cos(ang) * len), n.y - (draw.y0 + Math.sin(ang) * len)); if (d < 12 / view.s && n !== draw.n0) { const L = Math.hypot(n.x - draw.x0, n.y - draw.y0); const seg = E.segmentRun(L, $('#optWidth').value); if (seg.length === Math.round(L)) { endNode = n; len = L; } } }
-      const seg = E.segmentRun(len, $('#optWidth').value); Object.assign(draw, { ang, len: seg.length, widths: seg.widths, endNode }); drawPlan(); return;
+      // corner allowances the run will take at its ends (E.CORNER_ALLOW): its first panel starts 1 1/2" out from a start junction that becomes an L or T
+      const angD = ang * 180 / Math.PI, ca0 = draw.n0 ? E.allowIfAdded(P, draw.n0, angD) : 0;
+      // a run ending on an existing junction is kept only when its panels land exactly on it once the corner allowances are laid out (tried on a copy)
+      let endNode = null, ca1 = 0, endSeg = null; for (const n of Object.values(P.nodes)) { const d = Math.hypot(n.x - (draw.x0 + Math.cos(ang) * len), n.y - (draw.y0 + Math.sin(ang) * len)); if (d < 12 / view.s && n !== draw.n0) { const L = Math.hypot(n.x - draw.x0, n.y - draw.y0); const c1 = E.allowIfAdded(P, n, angD + 180); const seg = E.segmentRun(L - ca0 - c1, $('#optWidth').value); if (seg.widths.length && closesOn(draw, angD, seg.widths, n)) { endNode = n; len = L; ca1 = c1; endSeg = seg; } } }
+      const seg = endSeg || E.segmentRun(Math.max(0, len - ca0), $('#optWidth').value); Object.assign(draw, { ang, len: seg.length + ca0 + ca1, widths: seg.widths, endNode, ca0 }); drawPlan(); return;
     }
     if (swing) {
       const p = P.panels[swing.pid]; const raw = Math.atan2(wy - swing.fixed.y, wx - swing.fixed.x) * 180 / Math.PI;
       let best = null, bd = 1e9; for (const a of swing.allowed) { let d = Math.abs((((raw - a) % 360) + 540) % 360 - 180); if (d < bd) { bd = d; best = a; } }
-      if (best !== null) { const rad = best * Math.PI / 180; swing.free.x = Math.round((swing.fixed.x + Math.cos(rad) * p.width) * 1000) / 1000; swing.free.y = Math.round((swing.fixed.y + Math.sin(rad) * p.width) * 1000) / 1000; swing.angle = best; swing.moved = true; drawPlan(); }
+      if (best !== null) { const rad = best * Math.PI / 180, len = p.width + E.allowIfAdded(P, swing.fixed, best, p.id); swing.free.x = Math.round((swing.fixed.x + Math.cos(rad) * len) * 1000) / 1000; swing.free.y = Math.round((swing.fixed.y + Math.sin(rad) * len) * 1000) / 1000; swing.angle = best; swing.moved = true; drawPlan(); }
       return;
     }
     if (dragWs) { const ws = P.worksurfaces[dragWs.id]; if (!ws) { dragWs = null; return; } const run = E.runOf(P, ws.panel); const t = E.runOffset(run, wx, wy); const raw = dragWs.off0 + (t - dragWs.t0); const sn = snapWsOff(ws, raw); dragWs.off = Math.round(sn.off * 2) / 2; if (Math.abs(dragWs.off - dragWs.off0) > 0.01) dragWs.moved = true; dragWs.px = wx; dragWs.py = wy; dragWs.label = sn.snapped ? 'snap' : ''; drawPlan(); return; }
-    if (dragMove) { const dx = snapW((sx - dragMove.sx) / view.s), dy = snapW(-(sy - dragMove.sy) / view.s); if (dx || dy) dragMove.moved = true; dragMove.dx = dx; dragMove.dy = dy; drawPlan(); return; }
+    if (dragMove) { const rdx = (sx - dragMove.sx) / view.s, rdy = -(sy - dragMove.sy) / view.s; const sn = joinSnap(dragMove, rdx, rdy); const dx = sn ? sn.dx : snapW(rdx), dy = sn ? sn.dy : snapW(rdy); dragMove.snap = sn; if (dx || dy) dragMove.moved = true; dragMove.dx = dx; dragMove.dy = dy; drawPlan(); return; }
     if (pan) { view.ox = pan.ox + (sx - pan.sx); view.oy = pan.oy + (sy - pan.sy); drawPlan(); return; }
     if (placing) { placing.ghost = [snapW(wx), snapW(wy)]; drawPlan(); return; }
     const h = hit(sx, sy); const changed = JSON.stringify(h) !== JSON.stringify(hover); hover = h;
     const tip = $('#planTip');
-    if (h && h.kind === 'panel') { const p = P.panels[h.id]; const JA = R.nodes[p.a], JB = R.nodes[p.b]; const oneFree = JA && JB && ((JA.legs.length === 1) !== (JB.legs.length === 1)); tip.textContent = `${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · click to edit · ${oneFree ? 'drag the free end to swing it, drag the joined end to move the run' : 'drag to move'}`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
+    if (h && h.kind === 'panel') { const p = P.panels[h.id]; const JA = R.nodes[p.a], JB = R.nodes[p.b]; const oneFree = JA && JB && ((JA.legs.length === 1) !== (JB.legs.length === 1)); tip.textContent = `${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · click to edit · ${oneFree ? 'drag to move the run, drag the free tip to swing it' : 'drag to move the run'}`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else if (h && h.kind === 'ws') { const ws = P.worksurfaces[h.id]; tip.textContent = `${E.wsName(ws)} · ${ws.kind === 'straight' ? ws.width + '"W × ' + ws.depth + '"D · drag along the run' : ws.C + '×' + ws.D} · right-click for pedestals and supports`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else if (h && h.kind === 'ped') { const ws = P.worksurfaces[h.ws]; const d = ws.peds.find(x => x.id === h.id); tip.textContent = `${d.type} pedestal ${PEDCFG[d.config]} · right-click to change`; tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
     else if (h && h.kind === 'handle') { { const J = R.nodes[h.id]; const src = J && J.legs && J.legs[0] && P.panels[J.legs[0].panel.id]; tip.textContent = src ? (matchMode() ? `Click: one more ${src.width}" × ${src.height}" panel matching this run · drag: turn a corner (Auto fill widths: new panels match the run)` : `Click: one more ${curW()}" × ${curH()}" panel (the New panels size) · drag: turn a corner`) : 'Click: one more panel · drag: turn a corner'; } tip.style.display = 'block'; tip.style.left = sx + 14 + 'px'; tip.style.top = sy + 10 + 'px'; }
@@ -3216,6 +3381,15 @@ const BUILD='2026-09-24.12';
     plan.className = tool === 'draw' ? 'draw' : placing ? 'place' : (h ? '' : 'grab');
     if (changed) drawPlan();
   });
+  // would a run of these widths from the draw start end on node `end`, with every loop it closes fitting (E.normalizeGeometry)? Tried on a copy of the job.
+  function closesOn(d, angD, widths, end) {
+    try {
+      const Q = JSON.parse(JSON.stringify({ nodes: P.nodes, panels: P.panels, seq: P.seq, finishes: P.finishes, trim: P.trim }));
+      let n = d.n0 ? Q.nodes[d.n0.id] : (E.nodeAt(Q, d.x0, d.y0, 1) || E.addNode(Q, d.x0, d.y0)); let last = null;
+      for (const w of widths) { last = E.addPanel(Q, n, angD, w, 54); n = Q.nodes[last.b]; }
+      return !!last && last.b === end.id && !E.normalizeGeometry(Q, { dry: true }).loops.length;
+    } catch (e) { return false; }
+  }
   window.addEventListener('mouseup', e => {
     if (draw) { const d = draw; draw = null;
       const src = d.handle && P.panels[d.handle.src];
@@ -3239,7 +3413,7 @@ const BUILD='2026-09-24.12';
       return;
     }
     if (dragWs) { const d = dragWs; dragWs = null; if (d.moved) mutate(() => { if (P.worksurfaces[d.id]) P.worksurfaces[d.id].off = d.off; }); else drawPlan(); return; }
-    if (dragMove) { const dm = dragMove; dragMove = null; if (dm.moved && (dm.dx || dm.dy)) { guardedMutate(() => { if (!E.moveNodes(P, [...dm.nodes], dm.dx, dm.dy)) { toast('Cannot join there: panels would meet at an angle Answer does not support.'); return false; } }, 'Run not moved'); } else drawPlan(); return; }
+    if (dragMove) { const dm = dragMove; dragMove = null; if (dm.moved && (dm.dx || dm.dy)) { const ok = guardedMutate(() => { if (!E.moveNodes(P, [...dm.nodes], dm.dx, dm.dy)) { toast('Cannot join there: panels would meet at an angle Answer does not support.'); return false; } }, 'Run not moved'); if (ok && dm.snap) toast(`Runs joined at ${jn(dm.snap.node)}: ${jShort(R.nodes[dm.snap.node]) || dm.snap.type} junction.`); } else drawPlan(); return; }
     if (pan) { pan = null; }
   });
   const ZMAX = 14;
@@ -3249,6 +3423,9 @@ const BUILD='2026-09-24.12';
   $$('#toolgroup [data-tool]').forEach(b => b.onclick = () => setTool(b.dataset.tool));
   function setTool(t) { tool = t; placing = null; $$('#toolgroup [data-tool]').forEach(b => b.classList.toggle('on', b.dataset.tool === t)); plan.className = t === 'draw' ? 'draw' : t === 'ws' ? 'place' : ''; if (t === 'ws') toast('Add worksurface: click the side of a panel for a straight, or a corner junction for a corner worksurface. Esc when done.'); drawPlan(); }
   const wsDepth = () => +($('#optWsDepth') ? $('#optWsDepth').value : 24);
+  const wsWidth = () => { const v = $('#optWsWidth') ? $('#optWsWidth').value : 'auto'; return v === 'auto' ? undefined : +v; };
+  function fillWsWidths() { const sel = $('#optWsWidth'); if (!sel) return; const keep = sel.value; const ws = straightWidths(wsDepth()).slice().sort((a, b) => a - b); sel.innerHTML = '<option value="auto">Auto width</option>' + ws.map(w => `<option value="${w}">${w}"W</option>`).join(''); sel.value = ws.includes(+keep) ? keep : 'auto'; }
+  if ($('#optWsDepth')) { $('#optWsDepth').addEventListener('change', fillWsWidths); fillWsWidths(); }
   function applyDefaults(q) { const g = $('#optGlass'); if (g && g.checked && P.trim === 'thin' && q.width >= 24) q.glassScreen = { attach: 'recessed', height: 12, frosted: false, omitGlass: false }; }
   function copyPanelSettings(from, to) { const keep = { id: to.id, a: to.a, b: to.b }; Object.assign(to, JSON.parse(JSON.stringify(from)), keep); to.label = ''; if (to.power) to.power.infeed = null; } // one building infeed per circuit run, never copied
   // ---------- workstations: assignment, rename, split ----------
@@ -3300,12 +3477,17 @@ const BUILD='2026-09-24.12';
     const topOf = (p) => E.actualTop(P.trim, P.panels[p.id] || p); // actual floor-to-top-of-cap height (p11, p74; stackers p26)
     const legTops = (nid) => { const J = Jof(nid); return J ? J.legs.map(l => topOf(l.panel)) : []; };
     const jTop = (nid) => { const t = legTops(nid); return t.length ? Math.max(...t) : 0; };
-    // overall length by the footprint rules: nominal widths, plus end-of-run trim (1/2" thin, 1" oval, p14, p76) or wall start (3/16", p15) at each end; a corner end shows half its 3" post
-    const sumW = sum(chain.map(p => p.width)), outL = reach(nodes[0]).out, outR = reach(nodes[nodes.length - 1]).out, totalW = sumW + outL + outR;
+    // overall length by the footprint rules: nominal widths, plus end-of-run trim (1/2" thin, 1" oval, p14, p76) or wall start (3/16", p15) at each end; at a
+    // corner end the corner allowance to the node (1 1/2" at L, T, X, E.CORNER_ALLOW, p15, p24) and the junction block beyond it (1 1/2", the other leg's
+    // outer face), or the far panel's post when a panel continues straight on through a T or X
+    const through = (nid) => { const J = Jof(nid); if (!J) return false; const mine = J.legs.filter(l => chain.some(p => p.id === l.panel.id)); return mine.some(m => J.legs.some(l => l !== m && Math.abs((((l.angle - m.angle) % 360) + 360) % 360 - 180) < 1)); };
+    const outOf = (nid) => straightJ(nid) ? reach(nid).out : through(nid) ? reach(nid).in : reach(nid).out;
+    const spanOf = (p) => E.panelSpan(P, P.panels[p.id] || p), caOf = (nid) => straightJ(nid) ? 0 : reach(nid).ca;
+    const sumW = sum(chain.map(p => p.width)), outL = outOf(nodes[0]), outR = outOf(nodes[nodes.length - 1]), totalW = sum(chain.map(spanOf)) + outL + outR;
     const glassH = (p) => p.glassScreen && P.trim === 'thin' ? E.glassHeight(p.glassScreen) : 0;
     const maxH = Math.max(...chain.map(p => topOf(p) + glassH(p) + (p.topScreen ? E.TOP_SCREEN.height : 0)), ...nodes.map(jTop));
     const pad = 30; const s = opts.fixedScale || Math.min((w - 2 * pad) / totalW, (h - pad - 52) / maxH); const y0 = h - 46; const padL = pad + Math.max(0, (w - 2 * pad - totalW * s) / 2);
-    const X0 = padL + outL * s; const nodeX = [X0]; for (const r of seq) nodeX.push(nodeX[nodeX.length - 1] + r.panel.width * s);
+    const X0 = padL + outL * s; const nodeX = [X0]; for (const r of seq) nodeX.push(nodeX[nodeX.length - 1] + spanOf(r.panel) * s); // node to node: width + corner allowances
     const hit = (o) => { if (hits) hits.push(o); };
     cx.font = '11px Barlow, sans-serif';
     const selTile = opts.selTile; // {pid, key, i}
@@ -3315,6 +3497,7 @@ const BUILD='2026-09-24.12';
       const dirOut = i === 0 ? -1 : 1; // outward direction at a run end
       // post extents on screen: in-line and corner posts are symmetric; an end-of-run post lies inward of its node (to the right at the left end)
       let x0 = t === 'EOR' ? (dirOut < 0 ? xn : xn - E.EOR_POST * s) : xn + Rj.post[0] * s, x1 = t === 'EOR' ? (dirOut < 0 ? xn + E.EOR_POST * s : xn) : xn + Rj.post[1] * s;
+      if (!straightJ(nid)) { const inw = Rj.in * s, away = outOf(nid) * s; x0 = dirOut < 0 ? xn - away : xn - inw; x1 = dirOut < 0 ? xn + inw : xn + away; } // corner: block + posts, to the corner face on the panel's side
       if (t === 'inline') {
         cx.strokeStyle = '#424244'; cx.lineWidth = 1.2; cx.beginPath(); cx.moveTo(xn, y0); cx.lineTo(xn, y0 - (low - capF) * s); cx.stroke();
         if (top > low + 0.01) { // change-of-height trim over the lower panel, its top level with the taller top cap (p18); oval 1 1/8" slim / 2 1/4" cable routing (p80)
@@ -3325,15 +3508,16 @@ const BUILD='2026-09-24.12';
       } else if (t === 'wall') { // wall-start junction face 3/16" beyond the node (p15)
         const wf = fp.wall * s; if (wf) { const tx = dirOut < 0 ? xn - wf : xn; cx.fillStyle = '#424244'; cx.fillRect(tx, y0 - (top - capF) * s, wf, (top - capF) * s); }
         x0 = dirOut < 0 ? xn - wf : xn - E.EOR_POST * s; x1 = dirOut < 0 ? xn + E.EOR_POST * s : xn + wf;
-      } else { // corner: the 3" post (junction depth, p14), full height to its junction cap level with the tallest top cap
+      } else { // corner: the junction block and posts (p14, p15), full height to its junction cap level with the tallest top cap
         const ht = top || jTop(nid); cx.fillStyle = '#e7e7ea'; cx.fillRect(x0, y0 - ht * s, x1 - x0, ht * s); cx.strokeStyle = '#7a7a7d'; cx.lineWidth = 1; cx.strokeRect(x0, y0 - ht * s, x1 - x0, ht * s); }
       postX.push([x0, x1]); hit({ kind: 'post', nid, x: x0 - 2, y: y0 - top * s, w: x1 - x0 + 4, h: top * s });
       if (J && opts.junctionLabels) { cx.fillStyle = '#416180'; cx.font = '600 10px Barlow, sans-serif'; cx.textAlign = 'center'; cx.fillText(jn(nid).replace('Junction ', 'J'), xn, y0 - top * s - 6); cx.font = '11px Barlow, sans-serif'; }
     };
     seq.forEach((r, i) => {
       const p = r.panel; const face = faceOf(r); const segs = p.sides[face]; const nl = nodes[i], nr = nodes[i + 1], xl = nodeX[i], xr = nodeX[i + 1];
-      // skins run over straight junctions to the node (in-line center p16, end-of-run and wall-start posts are inside the nominal width); corner posts stay exposed
-      const x = xl + (straightJ(nl) ? 0 : E.CORNER_POST / 2 * s), pw = xr - (straightJ(nr) ? 0 : E.CORNER_POST / 2 * s) - x;
+      // skins run over straight junctions to the node (in-line center p16, end-of-run and wall-start posts are inside the nominal width); at a corner they stop at
+      // the corner face, the corner allowance + 3/4" post from the node (E.CORNER_ALLOW), and the junction stays exposed
+      const x = xl + (straightJ(nl) ? 0 : reach(nl).in * s), pw = xr - (straightJ(nr) ? 0 : reach(nr).in * s) - x;
       let y = y0;
       if (p.openBase) { // open base trim: bottom 3 1/4", opening 2 1/2" (p51, p89)
         const ob = E.OPEN_BASE; cx.fillStyle = '#8a8a8d'; cx.fillRect(x, y - ob.height * s, pw, (ob.height - ob.opening) * s); cx.save(); cx.setLineDash([3, 3]); cx.strokeStyle = '#8a8a8d'; cx.lineWidth = 1; cx.strokeRect(x, y - ob.opening * s, pw, ob.opening * s); cx.restore(); }
@@ -3353,10 +3537,10 @@ const BUILD='2026-09-24.12';
       if (p.glassScreen && P.trim === 'thin') {
         const G = p.glassScreen.attach === 'clip' ? E.GLASS.clip : E.GLASS.recessed, gh = E.glassHeight(p.glassScreen) * s;
         const coh = (nid) => typeOf(nid) === 'inline' && new Set(legTops(nid).map(v => v.toFixed(3))).size > 1;
-        const gx = xl + (coh(nl) ? G.cohEnd : G.end) * s, gw = xr - (coh(nr) ? G.cohEnd : G.end) * s - gx;
+        const gx = xl + (caOf(nl) + (coh(nl) ? G.cohEnd : G.end)) * s, gw = xr - (caOf(nr) + (coh(nr) ? G.cohEnd : G.end)) * s - gx; // from the module lines
         cx.fillStyle = p.glassScreen.frosted ? 'rgba(200,225,245,.8)' : 'rgba(180,215,245,.5)'; cx.fillRect(gx, yb - gh, gw, gh); cx.strokeStyle = '#5980a6'; cx.lineWidth = 1; cx.strokeRect(gx, yb - gh, gw, gh); hit({ kind: 'glass', pid: p.id, x: gx, y: yb - gh, w: gw, h: gh });
       }
-      if (p.topScreen && P.trim === 'oval') { const T = E.TOP_SCREEN, sx = xl + T.inset * s, sw = xr - T.inset * s - sx; cx.fillStyle = 'rgba(230,230,230,.8)'; cx.fillRect(sx, yb - T.height * s, sw, T.height * s); cx.strokeStyle = '#98989b'; cx.strokeRect(sx, yb - T.height * s, sw, T.height * s); hit({ kind: 'glass', pid: p.id, x: sx, y: yb - T.height * s, w: sw, h: T.height * s }); } // 12"H, 1 1/4" in from each end (p96, p97)
+      if (p.topScreen && P.trim === 'oval') { const T = E.TOP_SCREEN, sx = xl + (caOf(nl) + T.inset) * s, sw = xr - (caOf(nr) + T.inset) * s - sx; cx.fillStyle = 'rgba(230,230,230,.8)'; cx.fillRect(sx, yb - T.height * s, sw, T.height * s); cx.strokeStyle = '#98989b'; cx.strokeRect(sx, yb - T.height * s, sw, T.height * s); hit({ kind: 'glass', pid: p.id, x: sx, y: yb - T.height * s, w: sw, h: T.height * s }); } // 12"H, 1 1/4" in from each end (p96, p97)
       // labels
       cx.fillStyle = sel.has(p.id) && opts.highlightSel ? '#416180' : '#5d5d60'; cx.font = sel.has(p.id) && opts.highlightSel ? '600 11px Barlow, sans-serif' : '11px Barlow, sans-serif'; cx.textAlign = 'center'; cx.fillText(fitText(cx, [`${pn(p.id)} · ${p.width}"W × ${E.panelTotalHeight(p)}"H · face ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)} · ${p.width}×${E.panelTotalHeight(p)} · ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)} · ${face === 0 ? 'A' : 'B'}`, `P${p.id.slice(1)}`], xr - xl - 4), (xl + xr) / 2, y0 + 14); cx.font = '11px Barlow, sans-serif';
       hit({ kind: 'label', pid: p.id, x: xl, y: y0 + 2, w: xr - xl, h: 16 });
@@ -3385,7 +3569,7 @@ const BUILD='2026-09-24.12';
       }
     }
     // dimension line: overall length by the footprint rules (p14, p15, p76)
-    const endNote = (nid) => { const t = typeOf(nid); return t === 'EOR' ? 'end trim' : t === 'wall' ? 'wall start' : t === 'inline' ? '' : 'corner post'; };
+    const endNote = (nid) => { const t = typeOf(nid); return t === 'EOR' ? 'end trim' : t === 'wall' ? 'wall start' : t === 'inline' ? '' : 'corner junction'; };
     const notes = [...new Set([endNote(nodes[0]), endNote(nodes[nodes.length - 1])].filter(Boolean))];
     cx.strokeStyle = '#98989b'; cx.lineWidth = 1; cx.beginPath(); cx.moveTo(padL, y0 + 26); cx.lineTo(padL + totalW * s, y0 + 26); cx.stroke(); cx.fillStyle = '#5d5d60'; cx.textAlign = 'center';
     const lbl = `${E.ftin(sumW)} nominal · ${E.ftin(totalW)} overall${notes.length ? ' incl. ' + notes.join(' and ') : ''}`; cx.fillText(lbl, padL + totalW * s / 2, y0 + 40);
@@ -3401,7 +3585,7 @@ const BUILD='2026-09-24.12';
     if (!pid || !P.panels[pid]) { ectx.clearRect(0, 0, w, h); elevHits = []; elevLock = null; $('#elevInfo').textContent = 'Select a panel to see its run.'; return; }
     elevLock = pid;
     const chain = chainOf(pid); $('#elevInfo').textContent = `${chain.length} panel run · ${E.ftin(sum(chain.map(p => p.width)))} · side ${elevSide === 0 ? 'A' : 'B'} · click a tile to edit it, right-click for options`;
-    const totalW = sum(chain.map(p => p.width)) + E.CORNER_POST; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? 18 : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(n => postH(n) + 4));
+    const totalW = sum(chain.map(p => E.panelSpan(P, p))) + E.CORNER_POST; const maxH = Math.max(...chain.map(p => E.panelTotalHeight(p) + (p.glassScreen ? 18 : 0) + (p.topScreen ? 12 : 0)), ...chain.flatMap(p => [p.a, p.b]).map(n => postH(n) + 4));
     const wrapW = elev.parentElement.clientWidth - 2; const MIN_S = 2.2; // never below 2.2 px per inch: 12" tiles stay readable, long runs scroll sideways
     let es = Math.max(MIN_S, (wrapW - 60) / totalW); const cw = Math.max(wrapW, Math.round(totalW * es + 60)); const ch = Math.min(560, Math.max(240, Math.round(maxH * es + 100))); es = Math.min(es, (ch - 100) / maxH);
     const d = window.devicePixelRatio || 1; elev.style.width = cw + 'px'; elev.style.height = ch + 'px'; elev.width = Math.round(cw * d); elev.height = Math.round(ch * d); ectx.setTransform(d, 0, 0, d, 0, 0);
@@ -3736,7 +3920,7 @@ const BUILD='2026-09-24.12';
     const on = (id, fn) => { const el = $('#' + id); if (el) el.onchange = fn; };
     on('wWidth', e => { const w = +e.target.value; if (!tryWs(ws, () => { ws.width = w; ws.off = snapWsOff(ws, ws.off).off; }, `Now ${w}"W.`)) refresh(); });
     $$('#wDepth button').forEach(b => b.onclick = () => setStraightDepth(ws, +b.dataset.d));
-    const slide = (dir) => mutate(() => { const run = E.runOf(P, ws.panel); const step = (ws.side === 0 ? 1 : -1) * dir * 6; ws.off = Math.max(-1.5 - run.panels.find(x => x.id === ws.panel).from, ws.off + step); ws.off = snapWsOff(ws, ws.off).off; });
+    const slide = (dir) => mutate(() => { const run = E.runOf(P, ws.panel); const step = (ws.side === 0 ? 1 : -1) * dir * 6; const al = E.runEndAllow(P, run); ws.off = Math.max(-al.lo - run.panels.find(x => x.id === ws.panel).from, ws.off + step); ws.off = snapWsOff(ws, ws.off).off; });
     const bl = $('#wLeft'); if (bl) bl.onclick = () => slide(-1); const br = $('#wRight'); if (br) br.onclick = () => slide(1); const bf = $('#wFlip'); if (bf) bf.onclick = () => tryWs(ws, () => { ws.side = 1 - ws.side; }, 'Moved to the other side of the panel.');
     on('wSize', e => { const z = sizes[+e.target.value]; if (!tryWs(ws, () => setCornerSize(ws, z), `Now ${sizeName(ws, z)} (${z.style}).`)) refresh(); });
     $$('#wMat button').forEach(b => b.onclick = () => mutate(() => { ws.material = b.dataset.m; if (ws.material === 'wood') { ws.edge = 'SW'; ws.construction = 'cord-drop'; } else if (ws.edge === 'SW') ws.edge = '3mm'; }));
@@ -3875,7 +4059,7 @@ const BUILD='2026-09-24.12';
     const list = TYPICALS.map((t, i) => ({ t, i })).filter(x => !furnished || x.t.ws);
     const card = ({ t, i }) => `<div class="typ" data-t="${i}"><canvas></canvas><div class="nm">${esc(t.name)}</div><div class="ds">${esc(t.ds)}</div></div>`;
     $('#typicalGrid').innerHTML = list.filter(x => !x.t.guide).map(card).join('') + (list.some(x => x.t.guide) ? '<div class="typgroup">Guide worked examples — Build Your Own, thin trim (p35–p41)</div>' + list.filter(x => x.t.guide).map(card).join('') : '');
-    $$('.typ').forEach((el) => { const i = +el.dataset.t; const T = TYPICALS[i].build(); const c = el.querySelector('canvas'); c.width = 300; c.height = 170; const cx = c.getContext('2d'); const ns = Object.values(T.nodes); const wsPts = Object.values(T.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(T, w); return g ? g.poly.map(q => ({ x: q[0], y: q[1] })) : []; }); const all = [...ns, ...wsPts]; const xs = all.map(n => n.x), ys = all.map(n => n.y); const mnx = Math.min(...xs) - 12, mxx = Math.max(...xs) + 12, mny = Math.min(...ys) - 12, mxy = Math.max(...ys) + 12; const s = Math.min(280 / (mxx - mnx), 150 / (mxy - mny)); const ox = 150 - (mnx + mxx) / 2 * s, oy = 85 + (mny + mxy) / 2 * s; for (const w of Object.values(T.worksurfaces || {})) { const g = E.wsGeometry(T, w); if (!g) continue; cx.beginPath(); g.poly.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = WSFILL; cx.fill(); cx.strokeStyle = WSLINE; cx.lineWidth = 1; cx.stroke(); for (const d of w.peds || []) { const rr = pedRect(w, g, d); cx.beginPath(); rr.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = '#dcd5c8'; cx.fill(); cx.stroke(); } } for (const p of Object.values(T.panels)) { const a = T.nodes[p.a], b = T.nodes[p.b]; const an = Math.atan2(b.y - a.y, b.x - a.x); cx.lineWidth = Math.max(3, 3 * s); cx.strokeStyle = HCOL[p.height]; cx.lineCap = 'butt'; cx.beginPath(); cx.moveTo(ox + (a.x + Math.cos(an) * JW / 2) * s, oy - (a.y + Math.sin(an) * JW / 2) * s); cx.lineTo(ox + (b.x - Math.cos(an) * JW / 2) * s, oy - (b.y - Math.sin(an) * JW / 2) * s); cx.stroke(); cx.lineWidth = 1; cx.strokeStyle = '#424244'; cx.stroke(); } for (const n of Object.values(T.nodes)) { const hp = Math.max(2, JW / 2 * s); cx.fillStyle = '#d4d4d7'; cx.fillRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); cx.strokeStyle = '#424244'; cx.strokeRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); } el.onclick = () => { $('#typicals').classList.remove('on'); setTool('select'); if (placeAt) { const at = placeAt; placeAt = null; if (placeTypical(T, at)) toast(TYPICALS[i].name + ' placed' + (TYPICALS[i].guide ? (P.trim === 'thin' ? `. Compare its junction parts with p${TYPICALS[i].guide} (click the junction, or open the Specification).` : `. This example is from the thin trim pages; switch the job to thin trim to compare with p${TYPICALS[i].guide}.`) : '')); return; } placing = { T, ghost: null }; plan.className = 'place'; toast('Click on the plan to place ' + TYPICALS[i].name); }; });
+    $$('.typ').forEach((el) => { const i = +el.dataset.t; const T = TYPICALS[i].build(); const c = el.querySelector('canvas'); c.width = 300; c.height = 170; const cx = c.getContext('2d'); const ns = Object.values(T.nodes); const wsPts = Object.values(T.worksurfaces || {}).flatMap(w => { const g = E.wsGeometry(T, w); return g ? g.poly.map(q => ({ x: q[0], y: q[1] })) : []; }); const all = [...ns, ...wsPts]; const xs = all.map(n => n.x), ys = all.map(n => n.y); const mnx = Math.min(...xs) - 12, mxx = Math.max(...xs) + 12, mny = Math.min(...ys) - 12, mxy = Math.max(...ys) + 12; const s = Math.min(280 / (mxx - mnx), 150 / (mxy - mny)); const ox = 150 - (mnx + mxx) / 2 * s, oy = 85 + (mny + mxy) / 2 * s; for (const w of Object.values(T.worksurfaces || {})) { const g = E.wsGeometry(T, w); if (!g) continue; cx.beginPath(); g.poly.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = WSFILL; cx.fill(); cx.strokeStyle = WSLINE; cx.lineWidth = 1; cx.stroke(); for (const d of w.peds || []) { const rr = pedRect(w, g, d); cx.beginPath(); rr.forEach((q, k) => k ? cx.lineTo(ox + q[0] * s, oy - q[1] * s) : cx.moveTo(ox + q[0] * s, oy - q[1] * s)); cx.closePath(); cx.fillStyle = '#dcd5c8'; cx.fill(); cx.stroke(); } } const tIn = (n) => { const J = E.junction(T, n); return ['inline', 'EOR', 'wall'].includes(J.type) ? JW / 2 : E.junctionReach(T.trim, J.type).in; }; for (const p of Object.values(T.panels)) { const a = T.nodes[p.a], b = T.nodes[p.b]; const an = Math.atan2(b.y - a.y, b.x - a.x), ia = tIn(a), ib = tIn(b); cx.lineWidth = Math.max(3, 3 * s); cx.strokeStyle = HCOL[p.height]; cx.lineCap = 'butt'; cx.beginPath(); cx.moveTo(ox + (a.x + Math.cos(an) * ia) * s, oy - (a.y + Math.sin(an) * ia) * s); cx.lineTo(ox + (b.x - Math.cos(an) * ib) * s, oy - (b.y - Math.sin(an) * ib) * s); cx.stroke(); cx.lineWidth = 1; cx.strokeStyle = '#424244'; cx.stroke(); } for (const n of Object.values(T.nodes)) { const hp = Math.max(2, JW / 2 * s); cx.fillStyle = '#d4d4d7'; cx.fillRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); cx.strokeStyle = '#424244'; cx.strokeRect(ox + n.x * s - hp, oy - n.y * s - hp, 2 * hp, 2 * hp); } el.onclick = () => { $('#typicals').classList.remove('on'); setTool('select'); if (placeAt) { const at = placeAt; placeAt = null; if (placeTypical(T, at)) toast(TYPICALS[i].name + ' placed' + (TYPICALS[i].guide ? (P.trim === 'thin' ? `. Compare its junction parts with p${TYPICALS[i].guide} (click the junction, or open the Specification).` : `. This example is from the thin trim pages; switch the job to thin trim to compare with p${TYPICALS[i].guide}.`) : '')); return; } placing = { T, ghost: null }; plan.className = 'place'; toast('Click on the plan to place ' + TYPICALS[i].name); }; });
   }
   $('#bTypicals').onclick = () => { placeAt = null; renderTypicals(); $('#typicals').classList.add('on'); }; $('#bCloseTypicals').onclick = () => $('#typicals').classList.remove('on');
   function placeTypical(T, at) {
@@ -4043,7 +4227,7 @@ const BUILD='2026-09-24.12';
     const sheet = $('#inst-' + c.uid); if (!sheet) return; const W0 = Math.max(600, sheet.clientWidth - 40);
     drawPlanFig(sheet.querySelector('[data-fig="plan"]'), W0, c);
     const runs = runsOf(c);
-    sheet.querySelectorAll('[data-fig="run"]').forEach(cv => { const r = runs[+cv.dataset.run]; const totalW = sum(r.map(p => p.width)) + E.CORNER_POST; const maxH = Math.max(...r.map(p => E.panelTotalHeight(p) + 18), ...r.flatMap(p => [p.a, p.b]).map(n => postH(n) + 6)); let es = (W0 - 60) / totalW; const EH = Math.min(520, Math.max(220, maxH * es + 100)); es = Math.min(es, (EH - 100) / maxH); const ecx = sizeFig(cv, W0, EH); renderElevation(cv, r, +cv.dataset.side, W0, EH, { junctionLabels: true, fixedScale: es }); });
+    sheet.querySelectorAll('[data-fig="run"]').forEach(cv => { const r = runs[+cv.dataset.run]; const totalW = sum(r.map(p => E.panelSpan(P, p))) + E.CORNER_POST; const maxH = Math.max(...r.map(p => E.panelTotalHeight(p) + 18), ...r.flatMap(p => [p.a, p.b]).map(n => postH(n) + 6)); let es = (W0 - 60) / totalW; const EH = Math.min(520, Math.max(220, maxH * es + 100)); es = Math.min(es, (EH - 100) / maxH); const ecx = sizeFig(cv, W0, EH); renderElevation(cv, r, +cv.dataset.side, W0, EH, { junctionLabels: true, fixedScale: es }); });
   }
   $('#bPickCsv').onclick = () => { const agg = E.aggregate(R.lines, srcOf).sort((x, y) => catOrder(x.cat) - catOrder(y.cat) || x.style.localeCompare(y.style) || x.spec.localeCompare(y.spec)); download(fileBase() + '_pick_list.csv', E.toCSV(agg, [{ label: 'Qty', key: 'qty' }, { label: 'Style Number', key: 'style' }, { label: 'Description', get: a => a.desc.replace(/ — side \d.*$/, '') }, { label: 'Specify', key: 'spec' }, { label: 'Source', get: a => SRC[a.by] }, { label: 'Contains', get: a => (a.contents || []).map(x => x.qty + 'x ' + x.item).join(' | ') }, { label: 'Bin', get: a => binOf(a) }, { label: 'Used At', get: a => a.src.map(where).join(', ') }, { label: 'Category', key: 'cat' }, { label: 'Guide Page', key: 'page' }]), 'text/csv'); };
   // the pick list prints what is on screen now: typed bins (even before they re-render) and ticked boxes
@@ -4101,7 +4285,7 @@ const BUILD='2026-09-24.12';
   });
   window.addEventListener('resize', sizeCanvases);
 
-  window.answerDebug = { hit: (x, y) => hit(x, y), view, P: () => P, refresh: () => refresh(), elevHits: () => elevHits, elevInfo: () => elevInfo, drag: () => dragWs && { off: dragWs.off, off0: dragWs.off0, t0: dragWs.t0, label: dragWs.label } };
+  window.answerDebug = { addStraightWs: (...a) => addStraightWs(...a), hit: (x, y) => hit(x, y), view, P: () => P, refresh: () => refresh(), elevHits: () => elevHits, elevInfo: () => elevInfo, drag: () => dragWs && { off: dragWs.off, off0: dragWs.off0, t0: dragWs.t0, label: dragWs.label } };
   // ---------- boot ----------
   try { const saved = localStorage.getItem('answer.planner'); if (saved) P = migrate(JSON.parse(saved)); } catch (e) { }
   R = E.generate(P); sizeCanvases(); fit(); refresh();
