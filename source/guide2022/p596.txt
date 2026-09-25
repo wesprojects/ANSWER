@@ -1,0 +1,187 @@
+596 
+Answer Solutions Specification Guide
+Tip: Columns have a different 
+aesthetic than post legs (round 
+vs. elliptical). Columns can be 
+used as column supports in 
+applications without post legs.
+Tip: Height dimensions 
+listed include the thickness 
+of a worksurface.
+Standard Includes 
+ Required to Specify
+• Column: paint
+• Attachment hardware
+Columns
+Standard Includes 
+ Required to Specify
+• Worksurface legs: paint
+• Glides, if selected: paint to match legs
+• Locking casters, if selected: paint to match legs
+• Attachment hardware
+Adjustable-Height Legs
+Universal Systems Worksurfaces
+Legs and Columns for Universal Systems Worksurfaces without Alignment Tab, continued 
+ 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number
+2 Paint color number for leg
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+cNeed help?
+Product details,
+page 244
+Tip: Corner worksurfaces 
+require a leg in the back 
+corner. Be sure to order 
+À fth leg if specifying a 
+package of four.
+Tip: See Table and Leg 
+Combinations page for 
+number of legs required 
+per worksurface.
+c Page 287
+Tip: Height dimensions 
+listed include the thickness 
+of a worksurface.
+Options 
+U.S. Price  
+ Required to Specify
+ Surface 
+• Paint price group 1  
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2  
++$27 per leg 
+ 
+ Specify paint color number.
+ Specification Information
+DPlanning 
+DStyle 
+DU.S. 
+DPlanning 
+DStyle 
+DU.S.
+dHeight 
+dNumber 
+dBase  
+dHeight 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d
+Adjustable-Height Leg 
+ Package of Four Adjustable-Height 
+with Glide  
+  
+ Legs with Glides
+251¼2"–311¼2"  UADJ 
+ $286 
+ 251¼2"–311¼2"  UADJ4 
+ $1144 
+d 
+d 
+d 
+d 
+d 
+d
+Adjustable-Height Leg  
+ Package of Four Adjustable-Height 
+with Caster 
+  
+ Legs with Casters
+251¼2"–311¼2"  UADJC 
+ $320 
+ 251¼2"–311¼2"  UADJ4C 
+ $1280 
+ 
+d 
+d 
+d 
+d 
+d 
+d
+ 
+  
+  
+ Package of Four Adjustable-Height Legs with 
+ 
+  
+  
+ Two Glides and Two Casters 
+ 
+  
+  
+ 251¼2"–311¼2"  UADJ4M 
+ $1212
+ 
+  
+  
+d 
+d 
+d
+Options 
+U.S. Price  
+ Required to Specify
+ Surface 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$27 per leg 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$47 per leg 
+ 
+ Specify paint color number.
+ Speciw cation Information
+DPlanning 
+DStyle 
+DU.S.
+dHeight 
+dNumber 
+dBase
+d 
+d 
+dPrice
+d 
+d 
+d
+281¼2" 
+UCOL 
+$385
+281¼2"–315¼8" 
+UADJCOL 
+$474
+ d 
+d 
+d
+1 Style number
+2 Paint color number for column
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 244
+Steelcase 
+June 2022

@@ -1,0 +1,15 @@
+added 224 rows: {'thin-inline-base-junction': 1, 'thin-l-t-same-height-base-junction': 4, 'thin-x-same-height-base-junction': 2, 'thin-end-of-run-base-junction': 2, 'thin-v-y-same-height-base-junction': 4, 'thin-inline-change-of-height-junction': 14, 'thin-l-change-of-height-junction': 14, 'thin-t-change-of-height-junction': 56, 'thin-x-change-of-height-junction': 56, 'thin-v-change-of-height-junction': 14, 'thin-y-change-of-height-junction': 28, 'sh-wall-start-junction': 2, 'thin-stacking-inline-end-of-run-wall-start-junctions': 3, 'thin-stacking-l-t-x-v-y-junction': 5, 'thin-end-of-run-vertical-trim': 2, 'thin-l-t-vertical-trim': 4, 'thin-v-vertical-trim': 2, 'thin-end-of-run-inline-change-of-height-trim': 2, 'thin-90-corner-change-of-height-trim': 4, 'thin-120-corner-change-of-height-trim': 4, 'thin-junction-post': 1}
+
+thin-recessed-frameless-glass-top-cap-connector TS7FGJG        run [5] NO SIBLING PATTERN (sibling by distance TS7TFGRC)
+sh-markerboard-surfaces                      TS7MBSP        run [115, 128, 140, 168, 121, 136, 147, 178, 126, 145, 157, 193, 131, 154, 165, 203, 137, 167, 171, 212, 149, 172, 178, 224, 157, 182, 186, 237, 162, 193, 196, 249, 170, 201, 202, 261, 174, 209, 219, 270, 182, 219, 229, 285, 191, 227, 241, 298, 199, 237, 255, 311, 207, 248, 266, 328, 219, 268, 280, 349] NO SIBLING PATTERN (sibling by distance TS73624MBS)
+wc-faceplate                                 TS7USB         run [138] NO SIBLING PATTERN (sibling by distance TS7UFPLATE)
+uw-support-plate                             TS7WKSPT48     run [70] NO SIBLING PATTERN (sibling by distance TS720WSP)
+uw-support-plate                             TS7WKSPT51     run [70] NO SIBLING PATTERN (sibling by distance TS720WSP)
+uw-support-plate                             TS7WKSPT54     run [70] NO SIBLING PATTERN (sibling by distance TS720WSP)
+uw-support-plate                             TS7WKSPT60     run [70] NO SIBLING PATTERN (sibling by distance TS720WSP)
+uw-support-plate                             TS7WKSPT63     run [70] NO SIBLING PATTERN (sibling by distance TS720WSP)
+uw-support-plate                             TS7WKSPT66     run [70] NO SIBLING PATTERN (sibling by distance TS720WSP)
+us-mobile-pedestals                          RPXTC24F       run [443] NO SIBLING PATTERN (sibling by distance RPM1827B)
+us-mobile-pedestals                          RPXTC24P       run [443] NO SIBLING PATTERN (sibling by distance RPM1827B)
+us-mobile-pedestals                          RPXTCH24F      run [595] NO SIBLING PATTERN (sibling by distance RPM1827B)
+us-mobile-pedestals                          RPXTCH24P      run [595] NO SIBLING PATTERN (sibling by distance RPM1827B)

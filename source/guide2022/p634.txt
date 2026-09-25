@@ -1,0 +1,270 @@
+634 
+Answer Solutions Specification Guide
+Universal Tables
+Rectangle Tables
+High-Pressure Laminate or Wood Veneer
+ 
+Standard Includes 
+ Required to Specify
+• Table: High-Pressure Laminate price group 1 or wood 
+group 1 veneer
+• Laminate table: plastic 3 mm edge profile or P-edge profile 
+on all sides
+• Wood table: wood square 3 mm edge profile on all sides
+B
+A
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate tables
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3     
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer tables
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+ 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Reinforcing 
+• Reinforcing channel 
+No cost  
+ 
+ Specify with reinforcing channel. 
+ Channel 
+  (available on 66"W 
+  
+ and wider tables) 
+ 
+ 
+ 
+ Related 
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+ Products 
+• Worksurface power and communication components 
+c Page 611
+  
+• Bases for Universal Tables 
+ 
+ 
+ 
+c Page 637
+  
+• Legs for Universal Tables 
+ 
+ 
+ 
+c Page 638
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure 
+ 
+Laminate 
+Wood
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensionsDStyle 
+DPlastic 
+DPlastic 
+DWood 
+DOption 
+dA 
+B 
+ 
+dNumber 
+d3 mm  
+dP-Edge 
+dSquare 
+d(Add $ to
+d 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price) 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on  
+d
+
+
+d
+dNo Sufw x dSufw x
+dSufw x
+dWood
+d 
+ 
+ 
+d 
+d
+dP
+dSW 
+dGroup 1
+36" 60" 
+BFRR3660 
+$ɚɚ915 
+N.A. 
+N.A. 
+N.A.
+36" 66" 
+BFRR3666 
+$ɚɚ971 
+N.A. 
+N.A. 
+N.A.
+36" 72" 
+BFRR3672 $1036 
+$1294 
+$3041 
++$126
+42" 84" 
+BFRR4284 
+$1563 
+$1821 
+$3276 
++$129
+48" 96" 
+BFRR4896 
+$1851 
+$2109 
+$3365 
++$133
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Select the reinforcing 
+channel option if the table 
+will be supported by legs. 
+Channels are not required if 
+the table will be supported 
+by T- or X-bases.
+Tip: Bases and legs to sup-
+port Universal Tables must 
+be speciÀ ed separately.
+Tip: For leg and support
+guidelines, see 
+Table and Base Combinations, 
+cPage 286 
+Table and Leg Combinations, 
+cPage 287
+Tip: To specify 3 mm edge 
+proÀ le, no sufÀ x is required. 
+For other edge proÀ les, add 
+sufÀ x to the style number. 
+(For example, BFRR3672 
+becomes BFRR3672SW for 
+wood square edge proÀ le.)
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P Laminate with plastic P-edge
+SW Wood with square edge
+c
+See edge proÀ les below
+2 High-Pressure Laminate or wood color 
+number for table
+3 Plastic color number for edge on
+laminate table, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 280
+Steelcase 
+June 2022

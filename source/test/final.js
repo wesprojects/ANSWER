@@ -126,7 +126,7 @@ const ck = (name, ok, info) => { console.log((ok ? 'PASS ' : 'FAIL ') + name + (
     await T.clr(); await pg.click('#pH button[data-h="54"]'); await pg.waitForTimeout(150); ck('#14 height change says what happened', /Panel \d+ now 54" high/.test(await T.toast()), await T.toast());
     // ⊕ with a width chosen uses the toolbar size; with Auto it matches the run
     await pg.click('#zFit'); await pg.waitForTimeout(150);
-    // the middle of the ⊕ (its first hit point sits on the edge, and the mouse lands on whole pixels); the run end is 150" out since corner allowances (p15, p24)
+    // the middle of the ⊕ (its first hit point sits on the edge, and the mouse lands on whole pixels); the run end is 150" out since corner allowances (p21, p30)
     const hx = await pg.evaluate(() => { const v = window.answerDebug.view; const on = []; for (let x = 144; x < 180; x += .5) { const h = window.answerDebug.hit(v.ox + x * v.s, v.oy); if (h && h.kind === 'handle') on.push(x); } return on.length ? (on[0] + on[on.length - 1]) / 2 : null; });
     await pg.click('#optHeight button:has-text("42")'); await pg.selectOption('#optWidth', '36');
     await pg.mouse.move(...(await T.scr(hx, 0))); await pg.waitForTimeout(150); const tip = await pg.textContent('#planTip');
@@ -137,7 +137,7 @@ const ck = (name, ok, info) => { console.log((ok ? 'PASS ' : 'FAIL ') + name + (
     await ctxClose(T); }
 
   // ---- #7 what fits; #14 draw on a worksurface ----
-  // corner geometry (p15, p24, p209): the pod's free 48" spine panel now takes a 48"W worksurface wrapped by the fins and butted on its junctions (it was
+  // corner geometry (p21, p30, p225): the pod's free 48" spine panel now takes a 48"W worksurface wrapped by the fins and butted on its junctions (it was
   // refused only because modules started on the corner node). The refusal is set up instead with a free-standing 24" panel standing on that side 30"
   // along it: the floor space left takes a 24"W worksurface, whose far end would stop short of a junction.
   { const T = await open(); const { pg } = T; const pod = JSON.parse(await podJSON(pg));

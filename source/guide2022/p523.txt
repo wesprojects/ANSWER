@@ -1,0 +1,222 @@
+Answer Solutions SpeciÀ cation Guide 
+cWiring and Cabling, continued  523
+Shared Components
+ Wiring and Cabling
+Shared Components and Wiring and Cabling
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Duplex Receptacles
+Standard Includes 
+ Required to Specify
+• Receptacle: plastic
+1 Style number
+2 Plastic color number for receptacle:
+6000 Black
+ 6009 Arctic White
+ 6249 Platinum Solid
+6651 Tungsten
+6652 Titanium
+6654 Sand
+6697 Fog
+ 6B03 Red
+3 Options, if selected (see below)
+Options 
+U.S. Price 
+ Required to Specify
+Controlled 
+• No stamp 
+No cost 
+ Specify with no stamp.
+Stamp 
+• Controlled stamp 
++$5 
+ Specify with controlled stamp.
+Speciwcation Information
+ 
+15-Amp Receptacles 
+20-Amp Receptacles
+DLine 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase dNumber 
+dBase 
+dNumber 
+dBase dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+dPrice
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d
+d 
+d 
+d 
+d
+4-Circuit, 3+1 Wiring Schematic
+ 
+System Ground 
+Isolated Ground 
+System Ground 
+Isolated Ground
+Line 1 
+TS71SSX 
+$58 
+TS71SGX 
+$74 
+ZB1R1SGH 
+$100 
+ZB1R1IGH 
+$128
+Line 2 
+TS72SSX 
+$58 
+TS72SGX 
+$74 
+ZB1R2SGH 
+$100 
+ZB1R2IGH 
+$128
+Line 3 
+TS73SSX 
+$58 
+TS73SGX 
+$74 
+ZB1R3SGH 
+$100 
+ZB1R3IGH 
+$128
+Line 4 
+TS74SSX 
+$58 
+TS74SGX 
+$74 
+ZB1R4SGH 
+$100 
+ZB1R4IGH 
+$128
+ d 
+d 
+d 
+d 
+d
+d
+d
+d
+d
+4-Circuit, 2+2 Wiring Schematic
+ 
+System Ground 
+Isolated Ground 
+System Ground 
+Isolated Ground
+Line 1 
+TS71SSY 
+$58 
+TS71SGY 
+$74 
+ZB2R1SGH 
+$100 
+ZB2R1IGH 
+$128
+Line 2 
+TS72SSY 
+$58 
+TS72SGY 
+$74 
+ZB2R2SGH 
+$100 
+ZB2R2IGH 
+$128
+Line 3 
+TS73SSY 
+$58 
+TS73SGY 
+$74 
+ZB2R3SGH 
+$100 
+ZB2R3IGH 
+$128
+Line 4 
+TS74SSY 
+$58 
+TS74SGY 
+$74 
+ZB2R4SGH 
+$100 
+ZB2R4IGH 
+$128
+ d 
+d 
+d 
+d 
+d
+d
+d
+d
+d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+ 
+System Ground 
+Isolated Ground 
+System Ground 
+Isolated Ground
+Line 1 
+TS71SSZ 
+$58 
+TS71SGZ 
+$74 
+ZB3R1SGH 
+$100 
+ZB3R1IGH 
+$128
+Line 2 
+TS72SSZ 
+$58 
+TS72SGZ 
+$74 
+ZB3R2SGH 
+$100 
+ZB3R2IGH 
+$128
+Line 3 
+TS73SSZ 
+$58 
+TS73SGZ 
+$74 
+ZB3R3SGH 
+$100 
+ZB3R3IGH 
+$128
+ d 
+d 
+d 
+d 
+d
+d
+d
+d
+d
+cNeed help?
+Product details,
+page 193
+Steelcase 
+June 2022

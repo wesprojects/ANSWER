@@ -1,0 +1,201 @@
+Answer Solutions SpeciÀ cation Guide 
+cWiring and Cabling, continued  521
+ Wiring and Cabling
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Powerkits
+Standard Includes 
+ Required to Specify
+• Powerkit to accommodate modular duplex and 
+USB receptacles on both sides: black plastic
+• Supporting powertray: black paint
+• Harness with modular connectors
+ Style number
+Shared Components and Wiring and Cabling
+Tip: Remember to order 
+receptacles and faceplates.
+cPages 523 and 525
+Speciwcation Information
+ 
+Powerkits 
+Non-PVC Powerkits
+DWidth 
+DNumber of Duplex 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+d 
+dReceptacles  
+dNumber 
+dPrice
+dNumber 
+dPrice
+d
+dPer Side
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+4-Circuit, 3+1 Wiring Schematic 
+ 
+24" 
+1 
+TS7PK24X 
+$285 
+TS7PK24XN 
+$300
+30" 
+2 
+TS7PK30X 
+$285 
+TS7PK30XN 
+$300
+36" 
+2 
+TS7PK36X 
+$285 
+TS7PK36XN 
+$300
+42" 
+2 
+TS7PK42X 
+$285 
+TS7PK42XN 
+$300
+48" 
+2 
+TS7PK48X 
+$285 
+TS7PK48XN 
+$300
+60" 
+4 
+TS7PK60X 
+$431 
+TS7PK60XN 
+$446
+72" 
+4 
+TS7PK72X 
+$431 
+TS7PK72XN 
+$446
+ d 
+d 
+d 
+d
+d
+d
+4-Circuit, 2+2 Wiring Schematic
+24" 
+1 
+TS7PK24Y 
+$285 
+TS7PK24YN 
+$300
+30" 
+2 
+TS7PK30Y 
+$285 
+TS7PK30YN 
+$300
+36" 
+2 
+TS7PK36Y 
+$285 
+TS7PK36YN 
+$300
+42" 
+2 
+TS7PK42Y 
+$285 
+TS7PK42YN 
+$300
+48" 
+2 
+TS7PK48Y 
+$285 
+TS7PK48YN 
+$300
+60" 
+4 
+TS7PK60Y 
+$431 
+TS7PK60YN 
+$446
+72" 
+4 
+TS7PK72Y 
+$431 
+TS7PK72YN 
+$446
+ d 
+d 
+d 
+d
+d
+d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+24" 
+1 
+TS7PK24Z 
+$285 
+TS7PK24ZN 
+$300
+30" 
+2 
+TS7PK30Z 
+$285 
+TS7PK30ZN 
+$300
+36" 
+2 
+TS7PK36Z 
+$285 
+TS7PK36ZN 
+$300
+42" 
+2 
+TS7PK42Z 
+$285 
+TS7PK42ZN 
+$300
+48" 
+2 
+TS7PK48Z 
+$285 
+TS7PK48ZN 
+$300
+60" 
+4 
+TS7PK60Z 
+$431 
+TS7PK60ZN 
+$446
+72" 
+4 
+TS7PK72Z 
+$431 
+TS7PK72ZN 
+$446
+ d 
+d 
+d 
+d
+d
+d
+cNeed help?
+Product details,
+page 188
+Steelcase 
+June 2022

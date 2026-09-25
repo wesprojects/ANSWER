@@ -1,0 +1,81 @@
+Wiring & Cabling
+Answer Solutions SpeciÀ cation Guide 
+cStatement of Line, continued  169
+Wiring & Cabling
+Statement of Line
+Distribution Products
+Distribution refers to 
+the way that power and 
+communication networks 
+are routed through a panel.
+Wiring and Cabling
+Access Products
+Access to power and 
+communication net-
+works is accommodated 
+by power receptacles and 
+communication outlets 
+installed in a panel.
+Faceplate
+Understanding 
+c Page 193
+Specifying 
+c Page 526
+USB Receptacles
+Understanding 
+c Page 193
+Specifying 
+c Page 524
+Duplex Receptacles
+Understanding 
+c Page 193
+Specifying 
+c Page 523
+Hardwire Solution 
+for Chicago and 
+Other Areas
+Understanding 
+c Page 192
+Specifying 
+c Page 531
+Multipurpose Power 
+Infeed
+Understanding 
+c Page 190
+Specifying 
+c Page 532
+Modular Harness
+Understanding 
+c Page 190
+Specifying 
+c Page 533
+Cable Tray
+Understanding 
+c Page 188
+Specifying 
+c Page 520
+Pass-Through
+Powerkit
+Understanding 
+c Page 188
+Specifying 
+c Page 522
+Powerkit
+Understanding 
+c Page 188
+Specifying 
+c Page 521
+Receptacle Trim Ring
+Understanding
+c
+Page 194
+Specifying
+c Page 527
+Receptacle Filler
+Understanding
+c
+Page 194
+Specifying
+c Page 527
+Steelcase 
+June 2022

@@ -1,0 +1,40 @@
+Answer Solutions SpeciÀ cation Guide 
+733
+Paint Color 
+Availability Matrix
+Surface Materials
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Paint Price Group 2 (Smooth Paint)
+0835 Black
+4604 Driftwood E
+4700 Warm White E
+Paint Price Group 3 (Coatings)
+1ATT Cast Shadow
+Paint Price Group 3 (Lux Coatings)
+4B20 Obsidian
+4B22 Matte Brass
+4B23 Burnished Bronze
+4B24 Night Bronze 
+4B25 Matte Copper
+4B26 Smoked Mica
+4B27 Blue Steel
+4B28 Silver Lilac 
+4B29 Cast Iron 
+4B30 Bright Gold
+˛
+˛
+˛
+˛
+˛
+˛
+˛
+˛
+˛
+˛
+˛
+Tip: Coatings and Lux 
+Coatings is not offered 
+on Answer panels with a 
+square or an oval trim.
+Steelcase 
+June 2022

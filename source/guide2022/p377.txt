@@ -1,0 +1,84 @@
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Utility pole: paint price group 1
+• Ceiling trim plate: white paint only
+• Mounting brackets
+Panels—Thin Trim 
+Utility Pole – L, T, and X—Thin Trim
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Paint price group 1 
+No cost 
+ Specify paint color number. 
+Materials 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+Speciwcation Information
+DConw guration 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase
+d
+d 
+dPrice
+d
+d 
+d
+L, T, or X junctions 
+TS7TJUP 
+$248
+d
+d 
+d
+1 Style number
+2 Paint color number for utility pole
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 180
+Tip: Works with L, T, or X 
+base junctions of any height 
+and T or X change-of-height 
+junctions as long as at least 
+two panels are at the tallest 
+height.
+Tip: For end-of-run utility 
+pole application, the square 
+trim junction utility pole may 
+be used. 
+Note: this will add 3" of 
+dimension to the application.
+cPage 446
+Tip: Cannot be used with L 
+change-of-height junctions.
+Tip: Can only be used with 
+junctions manufactured on 
+or after October 10, 2011.
+Tip: Does not include junc-
+tion. Junction is ordered 
+separately.
+Tip: Order multipurpose 
+power infeed separately.
+cPage 532
+Answer Solutions SpeciÀ cation Guide 
+377
+Utility Pole – L, T, 
+and X—Thin Trim
+Panels—Thin Trim
+Steelcase 
+June 2022

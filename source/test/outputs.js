@@ -20,7 +20,7 @@ const fs = require('fs');
   await place('L workstation 6×6, furnished', 150, 120); await place('U workstation 8×8, furnished', 520, 120);
   await pg.click('#zFit'); await pg.waitForTimeout(200);
   const pieces = () => pg.evaluate(() => window.ANSWER.generate(window.answerDebug.P()).lines.reduce((a, l) => a + l.qty, 0));
-  // 7: worksurface edge is its own setting (p711), default 6009 for 2730 (p716); receptacle plastic stays separate
+  // 7: worksurface edge is its own setting (2015 p711), default 6009 for 2730 (p734); receptacle plastic stays separate
   step = 'finishes';
   const wsSpec = () => pg.evaluate(() => window.ANSWER.generate(window.answerDebug.P()).lines.find(l => l.cat === 'Worksurface').spec);
   ok('edge default 6009 Arctic White', /edge plastic 6009 Arctic White/.test(await wsSpec()), await wsSpec());

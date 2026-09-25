@@ -1,0 +1,84 @@
+Answer Solutions SpeciÀ cation Guide 
+19
+Panels—Thin Trim
+Panel Buildups
+2. Order skins for both sides of panel, continued
+When specifying skins, the total skin height will be 6" less than the overall panel height. For example, if the panel is 66"H the total skin height will be 60". 
+12"
+12"
+36"
+66"H
+When planning skin segments, add skin heights together and add an additional 6" for total height.
+Skins = 12" + 12" + 36" = 60"
+Trim = 6"
+Total = 66"H 
+Skins to the y oor are available in fabric, steel, laminate, wood, or wood skin sets. Skins to the Á oor also plan 6" shorter than the height of the panel, 
+but are taller in actual height to cover the base trim area of the panel. For example, a 54"H panel with to the Á oor skins would require a 48" skin with sufÀ x "F", 
+which would be approximately 53"H actual dimension. 
+Tip: Omit base trim option should be selected on the frame package when using a skin to the Á oor.
+Monolithic Skins
+Segmented Skins
+3. Specify powerkits where you will 
+ 
+need power.
+Panel Height
+Total 
+Standard 
+Skin Height
+Style Number
+Total Skin 
+To The Floor 
+Height
+Style Number
+30"H Panel 
+24"
+TS72430TK
+24"
+TS72430TKF
+42"H Panel
+36"
+TS73630TK
+36"
+TS73630TKF
+48"H Panel
+42"
+TS74230TK
+42"
+TS74230TKF
+54"H Panel
+48"
+TS74830TK
+48"
+TS74830TKF
+66"H Panel
+60"
+TS76030TK
+60"
+TS76030TKF
+78"H Panel
+72"
+TS77230TK
+72"
+TS77230TKF
+48"H skin
+Base trim
+48"H skin
+to the floor
+54"H Panels
+Qty 1 - TS74830TK
+Qty 1 - TS74830TKF
+Base trim
+24"H skin
+24"H skin
+24"H skin
+24"H skin
+to the floor
+Qty 2 - TS72430TK
+Qty 1 - TS72430TK
+Qty 1 - TS72430TKF
+54"H Panels
+Panels—Thin Trim
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

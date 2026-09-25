@@ -1,0 +1,95 @@
+16 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim
+Answer Panel Overview—Thin Trim
+Thin, square, and oval 
+trim styles are available on 
+Answer panels. Trim styles 
+are not compatible with each 
+other. Applications must use 
+one consistent trim style.
+Panel buildups allow you 
+to create unique configu-
+rations by mixing surface 
+materials and colors on 
+segmented panels. Order 
+skins and horizontal frame 
+packages separately.
+Panel frame is made up 
+of two major elements—verti-
+cal base junctions and base 
+horizontal connecting bars.
+Stacking components 
+can be used on both panel 
+buildups and panel packages.
+Base horizontal con-
+necting bars lock into the 
+vertical junctions at the top 
+and the bottom location of 
+base junction to provide struc-
+tural stability for the panels.
+Leveling glides adjust 
+to install panels on uneven 
+Á oors. Range is 23/4".
+Panel packages are used 
+to create common conÀ gu-
+rations quickly and easily. 
+Packages include a horizon-
+tal frame package and skins 
+for both sides of the panel.
+Alternate powerkit 
+harness routing can be 
+accommodated through the 
+junction opening. In in-line 
+applications installed on 
+uneven Á oors, route har-
+ness through junction open-
+ing to prevent harness 
+from being exposed.
+Base trims, open base, 
+or big open base trim 
+styles are available on 
+panels with Thin trim style.
+Thin end-of-run trim has 
+an integral À nished end.
+Actual Dimensions
+Height  291¼2", 3511¼16", 417¼8", 481¼16", 541¼4", 6619¼32", and 7831¼32"
+Note: Height is minimum from Á oor to top of top caps. Leveling glides can extend 23¼4".
+Skins attach to frame with-
+out tools and can be removed 
+and repositioned easily.
+c Page 124
+Stacking horizontal 
+frame package must be 
+used with stacking junctions.
+c Page 62
+Base junctions are 
+always shared by adjacent 
+panels. They are available 
+for in-line, L, T, X, V, Y, and 
+end-of-run configurations. 
+Wall-start junctions and 
+off-module connectors are 
+also available.
+c Page 20
+Stacking junctions can 
+be used in panel buildups 
+and panel packages. They 
+are available for in-line, L, 
+T, X, V, Y, and end-of-run 
+conÀ gurations. 
+c Page 32
+Stacking junctions do 
+not come with trim. Vertical 
+trim must be ordered sepa-
+rately to cover any exposed 
+junctions.
+c Page 32
+Powerkits include power- 
+blocks attached to a sup-
+porting power tray.
+c Page 188
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

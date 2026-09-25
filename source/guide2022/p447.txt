@@ -1,0 +1,128 @@
+Answer Solutions SpeciÀ cation Guide 
+447
+Junctions with Utility
+Pole—Oval Trim
+Panels—Square and Oval Trim
+Junctions with Utility Pole—Oval Trim 
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Junction
+• Upright vertical trim on L and in-line: paint price group 1
+• Junction cap on L, in-line, and T junctions: plastic
+• Utility pole: paint price group 1
+• Ceiling trim plate: white paint only
+• Mounting brackets
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: End-of-run junctions 
+with utility pole can be used 
+with thin trim also.
+Panels—Square and 
+Oval Trim
+1 Style number
+2 Paint color number for upright and utility 
+pole
+3 Plastic color number for junction cap
+4 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 182
+Tip: Order multipurpose 
+power infeed separately.
+c Page 532
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$15 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$31 
+ 
+ 
+ Specify paint color number.
+Speciwcation Information
+DCorresponding DStyle 
+DU.S.
+dPanel 
+dNumber 
+dBase
+dHeight 
+d 
+dPrice
+d 
+d 
+d
+L and In-Line Panel Junctions with Utility Pole
+42" 
+TS742LUP  
+$1138
+48" 
+TS748LUP  
+$1100
+54" 
+TS754LUP  
+$1138
+66" 
+TS766LUP  
+$1138
+78" 
+TS778LUP  
+$1254
+d 
+d 
+d
+T Panel Junctions with Utility Pole
+42" 
+TS742TUP  
+$1138
+48" 
+TS748TUP  
+$1100
+54" 
+TS754TUP  
+$1138
+66" 
+TS766TUP  
+$1138
+78" 
+TS778TUP  
+$1254
+d 
+d 
+d
+End-of-Run Junctions with Utility Pole
+42" 
+TS742ERUP 
+$ɚɚ692
+48" 
+TS748ERUP 
+$ɚɚ671
+54" 
+TS754ERUP 
+$ɚɚ692
+66" 
+TS766ERUP 
+$ɚɚ692
+78" 
+TS778ERUP 
+$ɚɚ725
+d 
+d 
+d
+Steelcase 
+June 2022

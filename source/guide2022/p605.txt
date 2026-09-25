@@ -1,0 +1,147 @@
+Answer Solutions SpeciÀ cation Guide 
+605
+Worksurface 
+Screens
+Worksurface Screens 
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Fabric price group 2 
++$ɚɚ52 
+ Specify fabric color number.
+Materials 
+• Fabric price group 3 
++$148 
+ Specify fabric color number.
+ 
+• Fabric price group 4 
++$188 
+ Specify fabric color number.
+ 
+• Fabric price group 5 
++$226 
+ Specify fabric color number.
+ 
+• Fabric price group 6 
++$264 
+ Specify fabric color number.
+ 
+• Fabric price group 7 
++$306 
+ Specify fabric color number.
+ 
+• Fabric price group 8 
++$344 
+ Specify fabric color number.
+ 
+• Fabric price group 9 
++$383 
+ Specify fabric color number.
+ 
+• Fabric price group 10 
++$421 
+ Specify fabric color number.
+ 
+• Customer’s Own Material 
++$ɚɚ21 
+c See Surface Materials Reference Manual.
+ 
+ (COM)
+Tip: Fabric is applied 
+horizontally on the screen.
+Tip: Screen allows for 11¼8" 
+cord drop or no cord drop 
+when mounted to the rear 
+of a worksurface. See 
+understanding pages for 
+product speciÀc application 
+guidelines.
+Sarto Privacy/
+Modesty Screens
+Speciwcation Information
+DStyle 
+DParametric  
+DU.S. Base Prices
+dNumber 
+dHeight 
+Modular width 
+d24"W 
+d29"W 
+dN.A. 
+d42"W 
+d46"W or d54"W 
+d58"W or d66"W 
+d70"W
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d48"W 
+d 
+d60"W
+d
+d
+d 
+d 
+Parametric width d23"W
+d29"W 
+d291¼16"W d361¼16"W d421¼16"W d481¼16"W d541¼16"W d601¼16"W d661¼16"W
+d 
+d 
+ 
+d–2815|16"W d 
+d–36"W 
+d–42"W 
+d–48"W 
+d–54"W 
+d–60"W 
+d–66"W 
+d–70"W
+PSPM 
+24" 
+ 
+ 
+$395 
+$444 
+$473 
+$501 
+$530 
+$561 
+$591 
+$622 
+$652
+ 
+241¼2"–30" 
+ 
+ 
+$540 
+$596 
+$624 
+$652 
+$682 
+$713 
+$745 
+$775 
+$804
+d 
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steelcase 
+June 2022

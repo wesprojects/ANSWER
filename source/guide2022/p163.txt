@@ -1,0 +1,53 @@
+Stability Guidelines
+Answer Solutions SpeciÀ cation Guide 
+cStability Guidelines, continued  163
+Shared Components
+Shared Components
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Guidelines for Answer Off-Module Bracket Conwgurations
+Panels with Components
+30" min
+30" min
+8' max.
+42" min.
+"U" conw guration
+When using an Answer off-modular connector bracket, a cantilever must be 
+used with the connector bracket. The other end needs to be supported with 
+a panel, end panel, or a pedestal with À ller. For worksurfaces 26"D or less, 
+the center can be supported by a cantilever. 26"D or greater straight work-
+surfaces and 30"D transition worksurfaces require additional Á oor support 
+along the front edge, such as a pedestal or post leg. 
+Note: When using cantilevers to support a worksurface 26"D or less, mini-
+mum panel width is 30". Panel width can be reduced to 24" to match a 24"D 
+worksurface if side support brackets are applied.
+30" min
+8' max.
+60" min
+30" min
+42" min.
+"T" conw guration
+When using an Answer off-modular connector bracket, a cantilever must be 
+used with the connector bracket. The other end needs to be supported with 
+a panel, end panel, or a pedestal with À ller. For worksurfaces 26"D or less, 
+the center can be supported by a cantilever when bins and worksurfaces 
+are used on both sides (as shown). 26"D or greater straight worksurfaces 
+and 30"D transition worksurfaces require additional Á oor support along the 
+front edge, such as a pedestal or post leg. 
+No trim
+available
+Fin
+Spine
+Wall-start junction must match the À n panel height coming off the 
+spine wall. Change-of-height trim is not available to cover exposed 
+wall-start junction.
+8' or less
+12" max
+Loading on spine wall with change-of-height off-module w n 
+is allowed with a maximum of 12" height difference between spine and À n. 
+No loading on spine is permitted if the spine is 24"H or higher than the off- 
+module À n. End panels or a pedestal with a À ller is required to support a 
+worksurface attached to spine. 
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

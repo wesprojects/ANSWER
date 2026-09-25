@@ -1,0 +1,226 @@
+Panels—Thin Trim 
+ 
+Answer Boundary Screens
+Answer Solutions SpeciÀ cation Guide 
+cAnswer Boundary Screens, continued  409
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Wood veneer grain direction
+Materials, 
+• No direction 
+No cost 
+ Specify with no direction.
+continued 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+ 
+• Vertical 
+No cost 
+ Specify with vertical grain direction.
+Panels—Thin Trim
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d27"W 
+d33"W 
+d39"W 
+d45"W 
+d51"W 
+d57"W 
+d63"W 
+d69" W 
+d75"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d27"W –  
+d33"W –  
+d39"W – 
+d45"W –  
+d51"W –  
+d57"W –  
+d63"W –  
+d69"W –  
+d75"W
+d 
+d 
+dWidth 
+d3215¼16"W d3815¼16"W d4415¼16"W d5015¼16"W d5615¼16"W d6215¼16"W d6815¼16"W d7415¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+H
+Straight Single-Connect Boundary Screen—Single-Sided
+High-Pressure Laminate
+TS7SCSSD 
+30"H 
+ 
+$ɚɚ673 
+$ɚɚ803 
+$ɚɚ936 
+$1066 
+$1199 
+$1330 
+$1463 
+$1594 
+$1726
+ 
+36"H 
+ 
+$ɚɚ684 
+$ɚɚ831 
+$ɚɚ977 
+$1120 
+$1265 
+$1410 
+$1556 
+$1699 
+$1844
+ 
+42"H 
+ 
+$ɚɚ699 
+$ɚɚ857 
+$1014 
+$1171 
+$1330 
+$1488 
+$1645 
+$1805 
+$1964
+ 
+48"H 
+ 
+$ɚɚ712 
+$ɚɚ883 
+$1055 
+$1225 
+$1396 
+$1568 
+$1739 
+$1909 
+$2083
+ 
+54"H 
+ 
+$ɚɚ726 
+$ɚɚ909 
+$1093 
+$1278 
+$1463 
+$1645 
+$1831 
+$2017 
+$2200
+Wood Veneer
+TS7SCSSD 
+30"H 
+ 
+$ɚɚ910 
+$1146 
+$1385 
+$1619 
+$1858 
+$2094 
+$2333 
+$2571 
+$2808
+ 
+36"H 
+ 
+$ɚɚ988 
+$1246 
+$1504 
+$1760 
+$2015 
+$2272 
+$2533 
+$2786 
+$3043
+ 
+42"H 
+ 
+$1067 
+$1344 
+$1620 
+$1897 
+$2172 
+$2449 
+$2727 
+$3004 
+$3282
+ 
+48"H 
+ 
+$1147 
+$1443 
+$1739 
+$2035 
+$2332 
+$2629 
+$2925 
+$3220 
+$3519
+ 
+54"H 
+ 
+$1228 
+$1541 
+$1857 
+$2174 
+$2492 
+$2805 
+$3123 
+$3439 
+$3756
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cOptions, continued from previous page
+Steelcase 
+June 2022

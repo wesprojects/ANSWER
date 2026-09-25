@@ -1,0 +1,110 @@
+Answer Solutions SpeciÀ cation Guide 
+479
+Shared Components
+Speciwcation Information
+
+24"H 
+30"H 
+36"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d
+d
+d 
+d 
+d
+18" 
+TS72418HSF 
+$146 
+TS73018HSF 
+$174 
+TS73618HSF 
+$203
+24" 
+TS72424HSF 
+$153 
+TS73024HSF 
+$187 
+TS73624HSF 
+$227
+30" 
+TS72430HSF 
+$170 
+TS73030HSF 
+$203 
+TS73630HSF 
+$241
+36" 
+TS72436HSF 
+$178 
+TS73036HSF 
+$219 
+TS73636HSF 
+$258
+42" 
+TS72442HSF 
+$187 
+TS73042HSF 
+$233 
+TS73642HSF 
+$275
+48" 
+TS72448HSF 
+$199 
+TS73048HSF 
+$251 
+TS73648HSF 
+$304
+60" 
+TS72460HSF 
+$231 
+TS73060HSF 
+$282 
+TS73660HSF 
+$332
+72" 
+TS72472HSF 
+$252 
+TS73072HSF 
+$311 
+TS73672HSF 
+$370
+d 
+d 
+d
+d
+d 
+d 
+d
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steel To The Floor Skins
+Shared Components and Wiring and Cabling
+Steelcase 
+June 2022

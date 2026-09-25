@@ -1,0 +1,113 @@
+Answer Solutions SpeciÀ cation Guide 
+cUtility Packages, continued  449
+Utility Packages
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Ceiling-Access Lay-In Utility Packages—Oval Trim
+Standard Includes 
+ Required to Specify
+• Utility carrier and cover, one top cap, and two standard
+base trims: paint price group 1
+• Two lay-in horizontal connecting bars: black paint only
+• Ceiling attachment hardware
+• Junction cap for end-of-run applications: plastic
+Panels—Square and Oval Trim
+ 
+Panels—Square and 
+Oval Trim
+scale 75
+scale 75
+Tip: Order multipurpose 
+power infeed separately.
+c Page 532
+1 Style number
+2 Paint color number for utility carrier and 
+cover, top cap, and base trim
+3 Plastic color number for junction cap
+4 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 176
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$  15  
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  31  
+ 
+ Specify paint color number.
+  
+ Top cap
+  
+• Wood group 1 
++$254  
+ 
+ Specify with wood top cap and select
+  
+  
+ 
+ 
+ 
+ wood color number.
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+ Change- 
+• Change-of-height cable 
++$    6  
+ 
+ Specify with change-of-height, one end.
+ of-Height 
+ routing at one end of top 
+ Shortened 
+ cap
+ Top Cap
+ Base Cable Tray • Base cable tray 
++$    5  
+ 
+ Specify with base cable tray.
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. 
+d 
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+d 
+d 
+30" 
+TS730SUC 
+$1396 
+36" 
+TS736SUC 
+$1482 
+42" 
+TS742SUC 
+$1613 
+48" 
+TS748SUC 
+$1756 
+d
+d
+d
+Steelcase 
+June 2022

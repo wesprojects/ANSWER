@@ -1,0 +1,173 @@
+Panels—Square and Oval Trim
+Stacking L, T, and X Panel Junctions—Square and 
+Oval Trims 
+ 
+ 
+442 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Junction
+• Trim on L and T junctions: paint price group 1 or 
+wood group 1
+• Fork connectors
+• Stacking trim aligner on L and T junctions:
+black plastic only
+Tip: Junction cap is not 
+included. Use the junction 
+cap from the base junction 
+you are stacking on.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: For further information 
+about fabric direction,
+cPage 730.
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 100
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+ Trim
+ Materials 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$  15  
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  31  
+ 
+ Specify paint color number.
+  
+ Steel L and T junction trim only
+  
+• Fabric price group 1, 2, 3, 
++$114  
+ 
+ Specify fabric color number for trim.
+  
+ 4, 5, or COM
+  
+• Fabric direction
+  
+ –Horizontal application 
+No cost  
+ 
+ Specify with horizontal application.
+  
+ –(standard)
+  
+ –Vertical application 
+No cost  
+ 
+ Specify with vertical application.
+  
+ Wood L and T junction trim
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+Speciwcation Information
+ 
+L Panel Junctions 
+T Panel Junctions 
+X Panel Junctions
+ 
+ 
+ 
+DHeight 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d
+dPrice 
+d
+dPrice
+d 
+d 
+d 
+d
+d 
+d
+d
+Steel Trim
+12" 
+TS712LPJS 
+$476 
+TS712TPJS 
+$476 
+TS712XPJS 
+$423
+18" 
+TS718LPJS 
+$501 
+TS718TPJS 
+$501 
+TS718XPJS 
+$446
+24" 
+TS724LPJS 
+$476 
+TS724TPJS 
+$476 
+TS724XPJS 
+$444
+d
+d
+d
+d
+d
+d
+d
+Wood Trim
+12" 
+TS712LPJSW 
+$675 
+TS712TPJSW 
+$675 
+18" 
+TS718LPJSW 
+$675 
+TS718TPJSW 
+$675 
+24" 
+TS724LPJSW 
+$675 
+TS724TPJSW 
+$675 
+d
+d
+d
+d
+d
+d
+d
+Steelcase 
+June 2022

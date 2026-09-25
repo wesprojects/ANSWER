@@ -1,0 +1,65 @@
+516 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Fence Connectors
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Fence connector: 8043 Clear Anodized aluminum
+• Post top cap: 6694 Slate plastic G10/22
+ Style number
+Tip: Refer to Post and Beam 
+Solutions SpeciÀ cation 
+Guide for post and beam 
+information.
+Fence Connectors
+Standard Includes 
+ Required to Specify
+• Tube: 6644 Fusion Dark plastic only
+• Bracket: 4799 Platinum paint only
+• Floor transition: 4799 Platinum paint only
+ Style number
+Fence Vertical Post Tube
+cNeed help?
+Product details,
+page 145
+Speciwcation Information
+DStyle
+DU.S.
+dNumber 
+dPrice
+d 
+d
+BFENCEVPT 
+$261
+d
+d
+cNeed help?
+Product details,
+page 144
+Speciwcation Information
+DStyle
+DU.S.
+dNumber 
+dPrice
+d 
+d
+Left-Hand Fence Connector
+CFENCELC 
+$179
+d
+d
+Right-Hand Fence Connector
+CFENCERC 
+$179
+d
+d
+G10/22 = Last order entry
+October 16, 2022
+Steelcase 
+June 2022

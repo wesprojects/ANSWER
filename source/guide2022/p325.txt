@@ -1,0 +1,194 @@
+Answer Solutions Specification Guide 
+325
+Dimensions For Custom 
+Field-Installed Picture 
+Frame Door Inserts
+For Universal Over the Case Bins
+  
+ 
+DCustom Picture Frame Door Inserts
+DBin 
+DDoor 
+DHeight 
+Width 
+Thickness 
+dWidth 
+dWidth 
+d+/–0.02" 
++/–0.02" 
++/–0.02"
+d 
+d 
+d 
+ 24" 
+24" 
+15.933" 
+23.314" 
+0.138"
+ 25" 
+25" 
+15.933" 
+24.314" 
+0.138"
+ 30" 
+30" 
+15.933" 
+29.314" 
+0.138"
+ 35" 
+35" 
+15.933" 
+34.314" 
+0.138"
+ 36" 
+36" 
+15.933" 
+35.314" 
+0.138"
+ 42" 
+42" 
+15.933" 
+41.314" 
+0.138"
+ 45" 
+45" 
+15.933" 
+44.314" 
+0.138"
+ 48" 
+48" 
+15.933" 
+47.314" 
+0.138"
+ 60" 
+30" (per door) 
+15.933" 
+29.314" 
+0.138"
+ 66 
+33" (per door) 
+15.933" 
+32.314" 
+0.138"
+ 70" 
+35" (per door) 
+15.933" 
+34.314" 
+0.138"
+ 72" 
+36" (per door) 
+15.933" 
+35.314" 
+0.138"
+ 75" 
+371¼2" (per door) 
+15.933" 
+36.314" 
+0.138"
+d 
+d 
+d
+Tip: A custom insert cannot be factory installed. Custom insert must be ordered from a material vendor and will not be handled like a Steelcase Customer’s 
+Own Material. In selecting materials for customer supplied inserts, consider material characteristics, such as effects from thermal changes, humidity changes, 
+aging characteristics, and strength of material. Do not use materials that allow the overall size of the custom insert to deviate by amounts larger than the 
+acceptable tolerances listed in the matrix.
+For Universal In the Case Bins
+  
+ 
+DCustom Picture Frame Door Inserts
+DBin 
+DDoor 
+DHeight 
+Width 
+Thickness 
+dWidth 
+dWidth 
+d+/–0.02" 
++/–0.02" 
++/–0.02"
+d 
+d 
+d 
+ 24" 
+24" 
+15.000" 
+23.164" 
+0.138"
+ 25" 
+25" 
+15.000" 
+24.164" 
+0.138"
+ 30" 
+30" 
+15.000" 
+29.164" 
+0.138"
+ 35" 
+35" 
+15.000" 
+34.164" 
+0.138"
+ 36" 
+36" 
+15.000" 
+35.164" 
+0.138"
+ 42" 
+42" 
+15.000" 
+41.164" 
+0.138"
+ 45" 
+45" 
+15.000" 
+44.164" 
+0.138"
+ 48" 
+48" 
+15.000" 
+47.164" 
+0.138"
+ 60" 
+30" (per door) 
+15.000" 
+29.164" 
+0.138"
+ 66 
+33" (per door) 
+15.000" 
+32.164" 
+0.138"
+ 70" 
+35" (per door) 
+15.000" 
+34.164" 
+0.138"
+ 72" 
+36" (per door) 
+15.000" 
+35.164" 
+0.138"
+ 75" 
+371¼2" (per door) 
+15.000" 
+36.664" 
+0.138"
+d 
+d 
+d 
+ 
+ 
+Tip: A custom insert cannot be factory installed. Custom insert must be ordered from a material vendor and will not be handled like a Steelcase Customer’s 
+Own Material. In selecting materials for customer supplied inserts, consider material characteristics, such as effects from thermal changes, humidity changes, 
+aging characteristics, and strength of material. Do not use materials that allow the overall size of the custom insert to deviate by amounts larger than the 
+acceptable tolerances listed in the matrix.
+Universal Steel Storage
+Dimensions For Custom Field-Installed Picture Frame 
+Door Inserts
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Universal Steel 
+Storage
+Steelcase 
+June 2022

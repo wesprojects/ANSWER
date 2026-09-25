@@ -1,0 +1,123 @@
+Answer Solutions SpeciÀ cation Guide 
+253
+Worksurface Screens
+Universal Boundary Screens
+Worksurface 
+Screens
+Boundary Screen
+0" or 15"H modular
+0" to 15"H parametric
+Clearance at the bottom of screen is 0" or 15"H 
+above the bottom of the leg for the modular option. Clearance 
+at the bottom of screen to the bottom of leg for the parametric 
+screen is 0" to 15"H in 1/16" increments.
+Tip: The boundary screen can never be more than 15"H 
+above the bottom of the leg.
+Boundary Screen
+Boundary screens width cannot exceed the width of 
+the worksurface or extend past the end of the worksurface it 
+is attached to. Boundary screens with freestanding worksur-
+faces have additional sizing restrictions.
+cSee page 256
+Connections
+71/2"
+71/2"
+Bracket placement is predrilled based on the speciÀ ed 
+height of the top of screen and the speciÀ ed clearance from 
+the bottom of the screen to the bottom of the leg. Brackets 
+are located 71/2" from the outside edge on each side of the 
+screen. They are 4"D x 21/8"W x 4"H.
+Screen brackets can be mounted Á ush or mounted to 
+allow a 1/2" gap for cord drop. Flush mount adds 3/4" to over-
+all depth of worksurface. If mounted to allow cord drop the 
+overall depth is 11/4".
+Product Details
+Flat
+edge profile
+P-edge
+edge profile
+Knife
+edge profile
+Universal boundary screens are applicable on Á at, 
+back edge of panel mounted, tethered, and freestanding 
+universal worksurfaces. Each application type has height, 
+width, and placement guidelines that must be maintained. 
+cSee page 254
+Universal boundary screens may not exceed the 
+width of the worksurface in any application. See Universal 
+Freestanding Applications, page 256, for maximum height 
+and width rules on freestanding worksurfaces. See Panel-
+Mounted and Tethered Connections, page 260, for maximum 
+height and width rules on panel-mounted and tethered
+worksurfaces.
+Width
+Screen
+height
+Clearance
+Boundary Screen
+Installed
+height
+Boundary screen height is determined by identifying the 
+installed height of the top of the screen minus the clearance 
+from bottom of the screen to the bottom of the leg.
+Installed height on modular universal boundary 
+screens align with the actual height of Answer thin trim 
+panels. Installed height is based on the worksurface being 
+installed at 281/2"H and the leg glide screwed all the way in 
+(post leg glide is 3/8" at minimum). Pilot holes are predrilled in 
+the boundary screen for this condition.
+cSee page 16 for thin trim actual heights.
+Tip: Parametric assumes the same worksurface height and 
+glide allowance.
+Boundary Screen
+54"H
+or less
+Installed height of any universal boundary screen, modu-
+lar or parametric, must be 54"H or less off Á oor.
+Wiring and Cabling
+Boundary screens 
+do not accommodate 
+cable-routing. Plan accord-
+ingly when installing bound-
+ary screens on worksurfaces 
+with other cable routing 
+accessories.
+Wire managers are 
+available to conceal cords 
+that are routed beneath the 
+worksurface.  They must be 
+at least 41/2" from the back of 
+the worksurface to not inter-
+fere with the screen brackets.
+Surface Materials
+Boundary screens
+• Laminate
+• Wood veneer
+Edge on laminate
+• Plastic
+Bracket
+• Paint
+Wood grain laminate is 
+only available on surfaces 
+less than 60"W. No restric-
+tions for veneer.
+Open Line laminates 
+with grain direction can 
+be applied vertically only. 
+Open Line laminates are not 
+allowed on screens that are 
+greater than 59"W or have 
+segments that are greater 
+than 59"W.
+Application Topics
+See additional understand-
+ing pages for panel-mounted 
+and tethered applications, 
+page 260, and freestanding 
+applications, page 254.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

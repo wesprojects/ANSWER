@@ -1,0 +1,221 @@
+Panels—Thin Trim
+Answer Boundary Screens L Return, Dual-Connect For Use with Thin Trim Panels, continued
+cSpeciw cation Information, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+426 
+Answer Solutions SpeciÀ cation Guide
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d251¼2"W 
+d311¼2"W 
+d371¼2"W 
+d431¼2"W 
+d491¼2"W 
+d551¼2"W 
+d611¼2"W 
+d671¼2"W 
+d731¼2"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d251¼2"W –  d311¼2"W –  d371¼2"W – d431¼2"W –  d491¼2"W –  d551¼2"W –  d611¼2"W – d671¼2"W –  
+d731¼2"W
+d 
+d 
+dWidth 
+d317¼16"W 
+d377¼16"W 
+d437¼16"W d497¼16"W 
+d557¼16"W 
+d617¼16"W 
+d677¼16"W d737¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+Split
+Return
+W
+H
+L Return Dual-Connect Boundary Screens — Split
+Wood Veneer — Primary Screen
+TS7DCLSPT 
+30"H 
+ 
+$ɚɚ724 
+$ɚɚ924 
+$1120 
+$1316 
+$1515 
+$1714 
+$1910 
+$2110 
+$2307
+ 
+36"H 
+ 
+$ɚɚ831 
+$1041 
+$1252 
+$1464 
+$1674 
+$1886 
+$2095 
+$2305 
+$2515
+ 
+42"H 
+ 
+$ɚɚ936 
+$1160 
+$1383 
+$1608 
+$1830 
+$2054 
+$2282 
+$2502 
+$2728
+ 
+48"H 
+ 
+$1041 
+$1279 
+$1515 
+$1751 
+$1991 
+$2227 
+$2465 
+$2700 
+$2938
+ 
+54"H 
+ 
+$1148 
+$1395 
+$1647 
+$1898 
+$2148 
+$2399 
+$2650 
+$2899 
+$3149
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular 
+d18"W 
+d24"W 
+d30"W
+d
+d
+dWidth 
+d
+d
+d
+d 
+d 
+dParametric 
+d18"W –  
+d24"W –  
+d30"W
+d 
+d 
+dWidth 
+d2315¼16"W d2915¼16"W d
+d
+d
+d 
+d
+d
+d
+Wood Veneer — Return Screen
+TS7DCLSPT 
+30”H 
+ 
++$ɚɚ586 
++$ɚɚ724 
++$ɚɚ924
+ 
+36”H 
+ 
++$ɚɚ726 
++$ɚɚ831 
++$1041
+ 
+42”H 
+ 
++$ɚɚ823 
++$ɚɚ936 
++$1160
+ 
+48”H 
+ 
++$ɚɚ921 
++$1041 
++$1279
+ 
+54”H 
+ 
++$1021 
++$1148 
++$1395
+d
+d
+d 
+d
+d
+Tip: When specifying a split L 
+return boundary screen, 
+primary and return screen 
+widths (four total) need to be 
+speciÀ ed. The À nal price will 
+include the price of all four 
+individual screen segments.
+Steelcase 
+June 2022

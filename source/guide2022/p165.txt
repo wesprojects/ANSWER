@@ -1,0 +1,34 @@
+Answer Solutions SpeciÀ cation Guide 
+165
+Stability Guidelines
+Shared Components
+Shared Components
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Guidelines for media:scape Integration
+12'6" max
+66"
+max
+30"
+min
+66"
+max
+For runs up to 12'6" that have return panels on the same side as 
+the shared worksurface, use at least a 30"W return panel that matches the 
+height of the spine wall. For spine walls that exceed 66"H, a 30"W rear facing 
+return panel is required. The monitor mount is not to exceed 66"H. 
+Tip: Monitor not included with media:scape assembly.
+24"
+min
+66"
+max
+12'6" max
+24" 
+max
+For runs up to 12'6" that have return panels on the opposite 
+side as the shared worksurface, use at least a 24"W return panel. 
+The monitor mount is not to exceed 66"H.
+Tip: Monitor not included with media:scape assembly.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

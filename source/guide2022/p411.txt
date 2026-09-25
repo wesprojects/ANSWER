@@ -1,0 +1,213 @@
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d251¼2"W 
+d311¼2"W 
+d371¼2"W 
+d431¼2"W 
+d491¼2"W 
+d551¼2"W 
+d611¼2"W 
+d671¼2"W 
+d731¼2"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d251¼2"W –  d311¼2"W –  d371¼2"W – d431¼2"W –  d491¼2"W –  d551¼2"W –  d611¼2"W – d671¼2"W –  
+d731¼2"W
+d 
+d 
+dWidth 
+d317¼16"W 
+d377¼16"W 
+d437¼16"W d497¼16"W 
+d557¼16"W 
+d617¼16"W 
+d677¼16"W d737¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+W
+H
+Straight Single-Connect Boundary Screens—Split
+High-Pressure Laminate
+TS7SCSPT 
+30"H 
+ 
+$ɚɚ673 
+$ɚɚ803 
+$ɚɚ936 
+$1066 
+$1199 
+$1330 
+$1463 
+$1594 
+$1726
+ 
+36"H 
+ 
+$ɚɚ684 
+$ɚɚ831 
+$ɚɚ977 
+$1120 
+$1265 
+$1410 
+$1556 
+$1699 
+$1844
+ 
+42"H 
+ 
+$ɚɚ699 
+$ɚɚ857 
+$1014 
+$1171 
+$1330 
+$1488 
+$1645 
+$1805 
+$1964
+ 
+48"H 
+ 
+$ɚɚ712 
+$ɚɚ883 
+$1055 
+$1225 
+$1396 
+$1568 
+$1739 
+$1909 
+$2083
+ 
+54"H 
+ 
+$ɚɚ726 
+$ɚɚ909 
+$1093 
+$1278 
+$1463 
+$1645 
+$1831 
+$2017 
+$2200
+Wood Veneer
+TS7SCSPT 
+30"H 
+ 
+$ɚɚ910 
+$1146 
+$1385 
+$1619 
+$1858 
+$2094 
+$2333 
+$2571 
+$2808
+ 
+36"H 
+ 
+$ɚɚ988 
+$1246 
+$1504 
+$1760 
+$2015 
+$2272 
+$2533 
+$2786 
+$3043
+ 
+42"H 
+ 
+$1067 
+$1344 
+$1620 
+$1897 
+$2172 
+$2449 
+$2727 
+$3004 
+$3282
+ 
+48"H 
+ 
+$1147 
+$1443 
+$1739 
+$2035 
+$2332 
+$2629 
+$2925 
+$3220 
+$3519
+ 
+54"H 
+ 
+$1228 
+$1541 
+$1857 
+$2174 
+$2492 
+$2805 
+$3123 
+$3439 
+$3756
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Tip: When specifying a split 
+boundary screen, two screen 
+widths need to be speciÀ ed. 
+The À nal price will include 
+the price of both individual 
+screen segments.
+Answer Solutions SpeciÀ cation Guide 
+411
+Panels—Thin Trim 
+ 
+Answer Boundary Screens
+Panels—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cSpeciw cation Information, continued from previous page
+Steelcase 
+June 2022

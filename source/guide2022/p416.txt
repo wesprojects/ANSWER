@@ -1,0 +1,231 @@
+416 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Primary and return screen: High-Pressure Laminate 
+price group 1 or wood group 1 veneer
+• Edge on laminate screen: plastic, if selected
+• Height: 30"H –54"H
+•  Width: 
+– Single-sided:  27"W–75"W
+– Split left and right: 251¼2"W–731¼2"W
+•  Connecting panel cover: paint price group 1
+• 11¼2" adjustable glides
+• Attachment hardware
+Required Component U.S. Price 
+ 
+Additional 
+• Single-connect single-sided  
++$  53
+Hardware 
+ L return
+ 
+• Single-connect split L return 
++$  79
+Required Selections U.S. Price 
+ Required to Specify
+Screen  
+• Modular  
+No cost 
+ Specify with modular.
+Size Type 
+• Parametric 
+No cost 
+ Specify with parametric.
+Height of  
+• 30"H 
+No cost 
+ Specify with 30"H.
+Connecting  
+• 36"H 
+No cost 
+ Specify with 36"H.
+Panel 
+• 42"H 
+No cost 
+ Specify with 42"H.
+ 
+• 48"H 
+No cost 
+ Specify with 48"H.
+ 
+• 54"H 
+No cost 
+ Specify with 54"H.
+ 
+• 60"H 
+No cost 
+ Specify with 60"H.
+ 
+• 66"H 
+No cost 
+ Specify with 66"H.
+ 
+• 72"H 
+No cost 
+ Specify with 72"H.
+ 
+• 78"H 
+No cost 
+ Specify with 78"H.
+ 
+• 84"H 
+No cost  
+ Specify with 84"H.
+ 
+• 90"H 
+No cost  
+ Specify with 90"H.
+Handedness 
+• Right handed 
+No cost 
+ Specify with single-sided right.
+(Single-Sided  
+• Left handed 
+No cost 
+ Specify with single-sided left.
+Screens Only)
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Screen
+Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+ 
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+ 
+• Open Line laminate 
++$184 
+c
+See Surface Materials Reference Manual.
+ 
+  
+plus cost of laminate
+ 
+• Wood group 2 
++$184 
+ Specify wood color number.
+ 
+• Wood group 3 
++$654 
+ Specify wood color number.
+ 
+• Customiz stain 
+No cost 
+ Specify with Customiz stain.
+ 
+• Full-À ll À nish on wood group 1 
+No cost 
+ Specify full-À ll À nish number.
+ 
+ Connecting panel cover
+ 
+• Paint price group 2 
++$  15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$  31 
+ Specify paint color number.
+ 
+ Laminate wood grain direction
+ 
+• No direction 
+No cost 
+ Specify with no direction.
+ 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+ 
+• Vertical 
+No cost 
+ Specify with vertical grain direction.
+cOptions, continued on next page
+Panels—Thin Trim
+Answer Boundary Screens
+L Return, Single-Connect For Use with Thin Trim Panels
+Tip: Additional hardware 
+upcharges are applied 
+only when single-connect 
+single-sided L return, or 
+single-connect split L style 
+numbers are speciÀ ed.
+Tip: When specifying a 
+boundary screen equal to or 
+taller than an Answer panel, 
+order a same height end-
+of-run junction for height of 
+Answer panel with the omit 
+trim option.
+Tip: When attaching bound-
+ary screen to Answer panel 
+with stacking segment, order 
+a boundary screen, end-of-
+run junction, omit trim, add 
+a change-of-height trim, and 
+stacking junction.
+Tip: When specifying a 
+boundary screen shorter 
+than Answer panel, order 
+a same height end-of-run 
+junction for height of Answer 
+panel with the omit trim 
+option, and order a change-
+of-height trim.
+Tip: When specifying the 
+paint À nish for the bracket 
+cover, select a À nish that 
+compliments the selected 
+laminate or veneer À nish.
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: When specifying a split 
+L return boundary screen, 
+four screen widths will need 
+to be speciÀ ed.
+Tip: Full-À ll À nish codes can 
+be used to simplify speciÀ -
+cation of veneer boundary 
+screens being used in set-
+tings with full-À ll veneer prod-
+ucts. The screen will not have 
+the À nal À ll coat applied, but 
+the À nish color will be consis-
+tent with the full-À ll products.
+W
+Single-Sided
+Return
+W
+H
+1  Style number
+2  Screen size type (see below under 
+ Required Selections)
+3  Screen height(s)
+4  Height of connecting panel (see below
+ under Required Selections)
+5  Screen width(s)
+6   Handedness: on single-sided screens, 
+if selected (see below under Required 
+Selections)
+7   High-Pressure Laminate or wood veneer 
+color for screen
+8  Plastic color number for edge on 
+ laminate screen, if selected
+9  Grain direction
+10 Paint color number for connecting
+ panel cover
+11 Options, if selected (see below)
+cSee Surface Materials, page 724.
+c Need help?
+Product details,
+page 80
+Steelcase 
+June 2022

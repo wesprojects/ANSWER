@@ -1,0 +1,388 @@
+764 
+Answer Solutions Specification Guide
+WEC227242 
+567 U Ext Corner Wksf
+WEC227248 
+567 U Ext Corner Wksf
+WEC234260 
+567 U Ext Corner Wksf
+WEC234272 
+567 U Ext Corner Wksf
+WEC234860 
+567 U Ext Corner Wksf
+WEC234872 
+567 U Ext Corner Wksf
+WEC236042 
+567 U Ext Corner Wksf
+WEC236048 
+567 U Ext Corner Wksf
+WEC237242 
+567 U Ext Corner Wksf
+WEC237248 
+567 U Ext Corner Wksf
+WEC324260 
+567 U Ext Corner Wksf
+WEC324272 
+567 U Ext Corner Wksf
+WEC324860 
+567 U Ext Corner Wksf
+WEC324872 
+567 U Ext Corner Wksf
+WEC326042 
+567 U Ext Corner Wksf
+WEC326048 
+567 U Ext Corner Wksf
+WEC327242 
+567 U Ext Corner Wksf
+WEC327248 
+567 U Ext Corner Wksf
+WEC334260 
+567 U Ext Corner Wksf
+WEC334272 
+567 U Ext Corner Wksf
+WEC334860 
+567 U Ext Corner Wksf
+WEC334872 
+567 U Ext Corner Wksf
+WEC336042 
+567 U Ext Corner Wksf
+WEC336048 
+567 U Ext Corner Wksf
+WEC337242 
+567 U Ext Corner Wksf
+WEC337248 
+567 U Ext Corner Wksf
+WJ234866R 
+575 Jetty Worksurface FD
+WJ234872R 
+575 Jetty Worksurface FD
+WJ234878R 
+575 Jetty Worksurface FD
+WJ326648L 
+575 Jetty Worksurface FD
+WJ327248L 
+575 Jetty Worksurface FD
+WJ327848L 
+575 Jetty Worksurface FD
+WJ334866R 
+575 Jetty Worksurface FD
+WJ334872R 
+575 Jetty Worksurface FD
+WJ334878R 
+575 Jetty Worksurface FD
+WJ336648L 
+575 Jetty Worksurface FD
+WJ337248L 
+575 Jetty Worksurface FD
+WJ337848L 
+575 Jetty Worksurface FD
+WLC2727 
+579 U Linking WS FD
+WLC3333 
+579 U Linking WS FD
+WPA2448 
+571 U Angled Pnsl WS FD
+WPA2460 
+571 U Angled Pnsl WS FD
+WPA3048 
+571 U Angled Pnsl WS FD
+WPA3060 
+571 U Angled Pnsl WS FD
+WS1824 
+539 U Str WS FD
+WS1830 
+539 U Str WS FD
+WS1836 
+539 U Str WS FD
+WS1842 
+539 U Str WS FD
+WS1848 
+539 U Str WS FD
+WS1854 
+539 U Str WS FD
+WS1860 
+539 U Str WS FD
+WS1866 
+539 U Str WS FD
+WS1872 
+539 U Str WS FD
+WS1878 
+539 U Str WS FD
+WS1884 
+539 U Str WS FD
+WS1890 
+539 U Str WS FD
+WS1896 
+539 U Str WS FD
+WS2424 
+540 U Str WS FD
+WS2430 
+540 U Str WS FD
+WS2436 
+540 U Str WS FD
+WS2442 
+540 U Str WS FD
+WS2448 
+540 U Str WS FD
+WS2448S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2454 
+540 U Str WS FD
+WS2454S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2460 
+540 U Str WS FD
+WS2460S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2466 
+540 U Str WS FD
+WS2466S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2472 
+540 U Str WS FD
+WS2472S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2478 
+540 U Str WS FD
+WS2478S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2484 
+540 U Str WS FD
+WS2484S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2490 
+540 U Str WS FD
+WS2490S 
+547 Strgt Wkf w/Sft Eg Prf
+WS2496 
+540 U Str WS FD
+WS2496S 
+547 Strgt Wkf w/Sft Eg Prf
+WS3024 
+540 U Str WS FD
+WS3030 
+540 U Str WS FD
+WS3036 
+540 U Str WS FD
+WS3042 
+540 U Str WS FD
+WS3048 
+540 U Str WS FD
+WS3048S 
+547 Strgt Wkf w/Sft Eg Prf
+WS3054 
+540 U Str WS FD
+WS3054S 
+547 Strgt Wkf w/Sft Eg Prf
+WS3060 
+540 U Str WS FD
+WS3060S 
+547 Strgt Wkf w/Sft Eg Prf
+WS3066 
+540 U Str WS FD
+WS3066S 
+547 Strgt Wkf w/Sft Eg Prf
+WS3072 
+540 U Str WS FD
+WS3072S 
+547 Strgt Wkf w/Sft Eg Prf
+WSPC4824 
+569 U Spnr WS FD
+WSPC5126 
+569 U Spnr WS CD/FD
+WSPC6030 
+569 U Spnr WS FD
+WSPC6332 
+569 U Spnr WS CD/FD
+WST1260 
+559 U Sgl-Taprd WS FD
+WST1272 
+559 U Sgl-Taprd WS FD
+WST2160 
+559 U Sgl-Taprd WS FD
+WST2172 
+559 U Sgl-Taprd WS FD
+WST2360 
+559 U Sgl-Taprd WS FD
+WST2372 
+559 U Sgl-Taprd WS FD
+WST3260 
+559 U Sgl-Taprd WS FD
+WST3272 
+559 U Sgl-Taprd WS FD
+WT2336 
+555 U Trans WS FD
+WT2342 
+555 U Trans WS—FD0
+WT2348 
+555 U Trans WS—FD
+WT2354 
+555 U Trans WS—FD
+WT2360 
+555 U Trans WS—FD
+WT3236 
+555 U Trans WS—FD
+WT3242 
+555 U Trans WS—FD
+WT3248 
+555 U Trans WS—FD
+WT3254 
+555 U Trans WS—FD
+WT3260 
+555 U Trans WS—FD
+WT423048 
+583 Tpr & D-Spd Shd WS
+WT423060 
+583 Tpr & D-Spd Shd WS
+WT423072 
+583 Tpr & D-Spd Shd WS
+WT483654 
+583 Tpr & D-Spd Shd WS
+WT483660 
+583 Tpr & D-Spd Shd WS
+WT483672 
+583 Tpr & D-Spd Shd WS
+WTMS423048 
+645 Tpr & D-Spd Shd WS
+WTMS423060 
+645 Tpr & D-Spd Shd WS
+WTMS423072 
+645 Tpr & D-Spd Shd WS
+WTMS483654 
+645 Tpr & D-Spd Shd WS
+WTMS483660 
+645 Tpr & D-Spd Shd WS
+WTMS483672 
+645 Tpr & D-Spd Shd WS
+WTT1248 
+556 U Sgl-Taprd WS FD
+WTT1260 
+556 U Sgl-Taprd WS FD
+WTT1272 
+556 U Sgl-Taprd WS FD
+WTT2148 
+556 U Sgl-Taprd WS FD
+WTT2160 
+556 U Sgl-Taprd WS FD
+WTT2172 
+556 U Sgl-Taprd WS FD
+WTT2348 
+556 U Sgl-Taprd WS FD
+WTT2348S 
+557 Tprd Wkf w/Sft Eg Prf
+WTT2360 
+556 U Sgl-Taprd WS FD
+WTT2360S 
+557 Tprd Wkf w/Sft Eg Prf
+WTT2372 
+556 U Sgl-Taprd WS FD
+WTT2372S 
+557 Tprd Wkf w/Sft Eg Prf
+WTT3248 
+556 U Sgl-Taprd WS FD
+WTT3248S 
+557 Tprd Wkf w/Sft Eg Prf
+WTT3260 
+556 U Sgl-Taprd WS FD
+WTT3260S 
+557 Tprd Wkf w/Sft Eg Prf
+WTT3272 
+556 U Sgl-Taprd WS FD
+WTT3272S 
+557 Tprd Wkf w/Sft Eg Prf
+WTTF1260 
+558 U Taper-Flat WS—FD
+WTTF1272 
+558 U Taper-Flat WS—FD
+WTTF1360 
+558 U Taper-Flat WS—FD
+WTTF1372 
+558 U Taper-Flat WS—FD
+WTTF2160 
+558 U Taper-Flat WS—FD
+WTTF2172 
+558 U Taper-Flat WS—FD
+WTTF2360 
+558 U Taper-Flat WS—FD
+WTTF2372 
+558 U Taper-Flat WS—FD
+WTTF3160 
+558 U Taper-Flat WS—FD
+WTTF3172 
+558 U Taper-Flat WS—FD
+WTTF3260 
+558 U Taper-Flat WS—FD
+WTTF3272 
+558 U Taper-Flat WS—FD
+WVC2424L 
+578 U Visitor Wksf
+WVC2424R 
+579 U Visitor Wksf
+WVC2430L 
+578 U Visitor Wksf
+WVC2430R 
+579 U Visitor Wksf
+WVC3030L 
+578 U Visitor Wksf
+WVC3030R 
+579 U Visitor Wksf
+ZB1R1IGH 
+523 20-Amp Duplex Rcpt
+ZB1R1SGH 
+523 20-Amp Duplex Rcpt
+ZB1R2IGH 
+523 20-Amp Duplex Rcpt
+ZB1R2SGH 
+523 20-Amp Duplex Rcpt
+ZB1R3IGH 
+523 20-Amp Duplex Rcpt
+ZB1R3SGH 
+523 20-Amp Duplex Rcpt
+ZB1R4IGH 
+523 20-Amp Duplex Rcpt
+ZB1R4SGH 
+523 20-Amp Duplex Rcpt
+ZB2R1IGH 
+523 20-Amp Duplex Rcpt
+ZB2R1SGH 
+523 20-Amp Duplex Rcpt
+ZB2R2IGH 
+523 20-Amp Duplex Rcpt
+ZB2R2SGH 
+523 20-Amp Duplex Rcpt
+ZB2R3IGH 
+523 20-Amp Duplex Rcpt
+ZB2R3SGH 
+523 20-Amp Duplex Rcpt
+ZB2R4IGH 
+523 20-Amp Duplex Rcpt
+ZB2R4SGH 
+523 20-Amp Duplex Rcpt
+ZB3R1IGH 
+523 20-Amp Duplex Rcpt
+ZB3R1SGH 
+523 20-Amp Duplex Rcpt
+ZB3R2IGH 
+523 20-Amp Duplex Rcpt
+ZB3R2SGH 
+523 20-Amp Duplex Rcpt
+ZB3R3IGH 
+523 20-Amp Duplex Rcpt
+ZB3R3SGH 
+523 20-Amp Duplex Rcpt
+Style Number Index, continued
+Style
+Number 
+Page Description
+Style
+Number 
+Page Description
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Style
+Number 
+Page Description
+Steelcase 
+June 2022

@@ -1,0 +1,226 @@
+466 
+Answer Solutions SpeciÀ cation Guide
+Panels—Square and Oval Trim
+Panel Packages—Oval Trim 
+Standard Includes 
+ Required to Specify
+• Tackable acoustical skins on both sides of panel,
+fabric direction with horizontal application, if selected:
+fabric price group 1
+• Performance tackable acoustical skins on both
+sides of panel, fabric direction with horizontal application,
+if selected: fabric price group 1
+• Standard length top cap: color default determined by 
+trim paint color
+• Base with knockouts: painted steel
+• Two horizontal connecting bars
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+ Skin surface
+ Materials 
+• Fabric price group A each side 
+–$    5 
+ Specify fabric color number.
+  
+• Fabric price group 1 each side 
+No cost 
+ Specify fabric color number.
+  
+• Fabric price group 2 each side 
++$  36 
+ Specify fabric color number.
+  
+• Fabric price group 3 each side 
++$  66 
+ Specify fabric color number.
+  
+• Fabric price group 4 each side 
++$103 
+ Specify fabric color number.
+  
+• Fabric price group 5 each side 
++$160 
+ Specify fabric color number.
+  
+• Fabric price group 6 each side 
++$220 
+ Specify fabric color number.
+  
+• Fabric price group 7 each side 
++$279 
+ Specify fabric color number. 
+ 
+  
+• Fabric price group COM 
++$  21 
+ Specify fabric color number.
+  
+ each side
+  
+ Fabric direction on 18"W to 60"W panels
+  
+• Vertical application, side 1 
+No cost 
+ Specify with vertical application.
+  
+• Vertical application, side 2 
+No cost 
+ Specify with vertical application.
+  
+ Trim
+  
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+  
+• Paint price group 2 
++$  15 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  31 
+ Specify paint color number.
+  
+ Top cap
+  
+• Omit top cap 
+No cost 
+ Specify omit top cap.
+  
+• Wood group 1 (18"W to 48"W) 
++$254 
+ Specify with wood top cap and select  
+  
+  
+ 
+ wood color number.
+  
+• Wood group 1 (60"W to 72"W) 
++$337 
+ Specify with wood top cap and select  
+  
+  
+ 
+ wood color number.
+  
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+ Change- 
+• Change-of-height at one end 
++$    6 
+ Specify with change-of-height, one end.
+ of-Height 
+ of top cap
+ Shortened 
+• Change-of-height at both 
++$    6 
+ Specify with change-of-height, both ends.
+ Top Cap 
+ ends of top cap on 36"W and
+  
+ wider panels
+ Base Trim 
+• Knockouts one side 
+No cost 
+ Specify with knockouts one side, plain
+  
+ plain one side (24"-72"W only) 
+ 
+ one side.
+  
+• Plain both sides (24"-72"W only) 
+No cost 
+ Specify with plain both sides.
+ Cable Tray 
+• Cable tray 
+No cost 
+ Specify with cable tray.
+ Base Cable Tray • Base cable tray 
++$    5 
+ Specify with base cable tray.
+ Power with 
+• One pass-through power 
++$222 
+ Specify with one pass-through harness
+ 3+1, 2+2, or 
+ harness 18"W to 48"W 
+ 
+ and indicate wiring schematic type
+ three separate 
+  
+ 
+ (3+1, 2+2, or 3SN).
+ neutrals (3SN) 
+• One pass-through power 
++$248 
+ Specify with one pass-through harness
+ wiring 
+ harness 60"W or 72"W 
+ 
+ and indicate wiring schematic type 
+ schematics 
+  
+ 
+ (3+1, 2+2, or 3SN).
+  
+• One powerkit 24"W to 48"W 
++$275 
+ Specify with one powerkit and indicate
+  
+  
+ 
+ wiring schematic type (3+1, 2+2, or 3SN).
+  
+• One powerkit 60"W or 72"W 
++$415 
+ Specify with one powerkit and indicate
+  
+  
+ 
+ wiring schematic type (3+1, 2+2, or 3SN).
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Remember to specify an 
+optional shortened change-
+of-height top cap on any 
+panel in a change-of-height 
+conÀ guration.
+Exception: The tallest panel 
+in the conÀ guration never 
+needs a shortened change-
+of-height top cap.
+cPage 96
+Side 1
+Side 2
+Tip: You must order junc-
+tions separately to connect 
+adjacent panels.
+cPage 431
+Tip: Remember to order 
+receptacles and faceplates.
+cPages 523 and 525
+Tip: 18"W panels can 
+accommodate pass-through 
+power only.
+Tip: 72"W panels accommo-
+date fabric in the horizontal 
+application only.
+Tip: For further information 
+about fabric direction.
+cPage 730
+1 Style number
+2 Fabric color number for side 1
+3 Fabric color number for side 2
+4 Paint color number for trim
+5 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 114
+Steelcase 
+June 2022

@@ -1,0 +1,141 @@
+388 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+Build Your Own Junction Components—Thin Trim, continued
+Standard Includes 
+ Required to Specify
+• Junction cap: paint or wood group 1
+Junction Caps
+Standard Includes 
+ Required to Specify
+• Junction cap aligner or vertical trim aligner
+ Style number
+Junction Cap and Trim Aligners
+Tip: Aligners are speciÀ ed 
+separately.
+Tip: 90° corner and 90° 
+change-of-height corner 
+junction cap include no 
+aligners. All are speciÀ ed 
+separately.
+Tip: 120° corner junction 
+cap includes one integral 
+aligner. Additional aligners 
+are speciÀ ed separately.
+Speciwcation Information 
+ 
+ 
+DDescription 
+DPackage 
+DStyle 
+DU.S.
+d
+
+
+dQuantity dNumber 
+dPrice
+d
+
+
+d
+d
+d
+Junction Cap Aligner
+Corner aligner 
+10 
+TS7CJCA10 
+$102
+Vertical Trim Aligners
+L to T aligner  
+4 
+TS7LTA4 
+$ɚɚ28
+120° to V aligner 
+4 
+TS7120VA4 
+$ɚɚ28
+d
+
+
+d
+d
+d
+c Need help?
+Product details,
+page 36
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Paint price group 1 
+No cost 
+ Specify paint color number. 
+Materials 
+• Paint price group 2 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 3 
+No cost 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+Speciwcation Information 
+ 
+ 
+DCorresponding 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+dPanel
+dNumber 
+dPrice 
+dNumber 
+dPrice
+dApplication
+d
+d
+d
+d
+d
+d
+d
+d
+d
+ 
+Painted Junction Cap 
+Wood Junction Cap
+90° corner 
+TS790JC 
+$16 
+TS790JCW 
+$114
+120° corner  
+TS7120JC 
+$16 
+TS7120JCW 
+$114
+90° change-of-  
+TS790COHJC $16 
+TS790COHJCW 
+$114
+height corner
+d
+d
+d
+d
+d
+1 Style number
+2 Paint or wood color number for 
+junction cap
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 36
+Steelcase 
+June 2022

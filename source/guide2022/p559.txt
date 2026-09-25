@@ -1,0 +1,275 @@
+Answer Solutions Specification Guide 
+559
+Single-Tapered 
+Worksurfaces
+Universal Systems Worksurfaces
+Single-Tapered Worksurfaces
+High-Pressure Laminate 
+ 
+• Worksurface: High-Pressure Laminate price group 1
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallop on back edge
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems 
+Worksurfaces
+1 Style number 
+2 High-Pressure Laminate color number 
+for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+À ed separately.
+Tip: Long worksurface spans 
+require additional support.
+c See understanding section 
+for details, page 223
+Tip: To specify 3 mm edge 
+proÀ le, no sufÀ x is required. 
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+ Scallop 
+• Omit scallop 
+No cost  
+ 
+ Specify omit scallop.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Speciwcation Information
+ 
+ 
+ 
+U.S. Base Price 
+ 
+ 
+ 
+ 
+U.S. Base Price
+ 
+ 
+ 
+High-Pressure 
+ 
+ 
+ 
+ 
+High-Pressure
+ 
+ 
+ 
+Laminate 
+ 
+ 
+ 
+ 
+Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+DStyle 
+DPlastic 
+DDimensions 
+DStyle 
+DPlastic 
+dA 
+B 
+C 
+dNumber 
+d3 mm 
+dA 
+B 
+C 
+dNumber 
+d3 mm 
+d 
+ 
+ 
+d 
+dEdge 
+d 
+ 
+ 
+d 
+dEdge 
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+dNo Sufw x 
+d 
+ 
+ 
+d 
+dNo Sufw x
+Left-Hand With 1|2" Cord Drop  
+Left-Hand With Full Depth
+231¼2" 183¼8" 60" 
+UST2160 
+$682 
+24" 
+187¼8" 60" 
+WST2160 
+$682
+231¼2" 183¼8" 72" 
+UST2172 
+$763 
+24" 
+187¼8" 72" 
+WST2172 
+$763
+291¼2" 231¼2" 60" 
+UST3260 
+$802 
+30" 
+24" 
+60" 
+WST3260 
+$802
+291¼2" 231¼2" 72" 
+UST3272 
+$898 
+30" 
+24" 
+72" 
+WST3272 
+$898
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+d
+Right-Hand With 1|2" Cord Drop  
+Right-Hand With Full Depth
+183¼8" 231¼2" 60" 
+UST1260 
+$682 
+187¼8" 24" 
+60" 
+WST1260 
+$682
+183¼8" 231¼2" 72" 
+UST1272 
+$763 
+187¼8" 24" 
+72" 
+WST1272 
+$763
+231¼2" 291¼2" 60" 
+UST2360 
+$802 
+24" 
+30" 
+60" 
+WST2360 
+$802
+231¼2" 291¼2" 72" 
+UST2372 
+$898 
+24" 
+30" 
+72" 
+WST2372 
+$898
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+d
+24"
+A
+C
+B
+24"
+A
+C
+B
+Standard Includes 
+ Required to Specify
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Steelcase 
+June 2022

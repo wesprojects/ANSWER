@@ -1,0 +1,283 @@
+626 
+Answer Solutions Specification Guide
+Universal Tables
+Corner, 120° Tables
+High-Pressure Laminate or Wood Veneer
+ 
+Standard Includes 
+ Required to Specify
+• Tables: High-Pressure Laminate price group 1 
+or wood group 1 veneer
+• Laminate tables: plastic 3 mm edge profile 
+or P-edge profile on all sides
+• Wood tables: wood square 3 mm edge profile on 
+all sides
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate tables
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer tables
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+ 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Related 
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+ Products 
+• Worksurface power and communication components 
+c Page 611
+  
+• Legs for Universal Tables 
+ 
+ 
+ 
+c Page 638
+Speciwcation Information
+ 
+ 
+ 
+ 
+ 
+U.S. Base Prices
+ 
+ 
+ 
+ 
+ 
+High-Pressure 
+ 
+ 
+ 
+ 
+ 
+Laminate 
+ 
+Wood
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+
+DStyle 
+DPlastic 
+DPlastic DWood 
+DOption 
+dA B 
+C 
+D 
+E 
+dNumber 
+d3 mm 
+dP-Edge dSquare 
+d(Add $ to
+d 
+ 
+ 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price)
+d 
+ 
+ 
+ 
+ 
+d 
+d 
+d
+d
+d
+
+d 
+ 
+ 
+ 
+ 
+d 
+d 
+d
+d
+dFull-Fill
+d 
+ 
+ 
+ 
+ 
+d 
+d 
+d
+d
+dFinish on
+d 
+ 
+ 
+ 
+ 
+d 
+d 
+dSufw x  dSufw x  
+dWood
+d
+
+
+
+
+d
+dNo Sufw xdP G10/22dSW G10/22dGroup 1
+24" 24" 37" 37" 62" BFB223636 $1234 
+$1368 
+$2388 
++$105
+24" 24" 43" 43" 73" BFB224242 $1289 
+$1423 
+$2462 
++$110
+24" 24" 49" 49" 83" BFB224848 $1330 
+$1464 
+$2527 
++$112
+30" 30" 43" 43" 73" BFB334242 $1330 
+$1464 
+$2527 
++$112
+30" 30" 49" 49" 83" BFB334848 $1384 
+$1518 
+$2597 
++$115
+d 
+ 
+ 
+ 
+ 
+d 
+d 
+d
+d
+d
+  
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Legs to support 
+Universal Tables must be
+speciÀ ed separately.
+Tip: For leg and support
+guidelines, see 
+Table and Leg Combinations, 
+cPage 287
+Tip: To specify 3 mm edge 
+proÀ le, no sufÀ x is required. 
+For other edge proÀ les, add 
+sufÀ x to the style number. 
+(For example, BFB223636 
+becomes BFB223636SW 
+for wood square edge 
+proÀ le.)
+Tip: Screens can be used on 
+corner, 120° tables.
+• 24"W screens can be
+used on tables with dimen-
+sions C and D each equal 
+to 43".
+• 24"W and 30"W screens 
+can be used on tables with 
+dimensions C and D each 
+equal to 49".
+Tip: Corner, 120° tables with 
+dimensions C and D each 
+equal to 37" cannot accom-
+modate screens. 
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P Laminate with plastic P-edge
+SW Wood with square edge
+c
+See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for table
+3 Plastic color number for edge on
+laminate table, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 280
+B
+A
+C
+D
+E
+G10/22 = Last order entry
+October 16, 2022
+Steelcase 
+June 2022

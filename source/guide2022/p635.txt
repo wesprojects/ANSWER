@@ -1,0 +1,149 @@
+Answer Solutions Specification Guide 
+635
+Universal Tables
+Oval Tables
+High-Pressure Laminate
+ 
+Standard Includes 
+ Required to Specify
+• Tables: High-Pressure Laminate price group 1
+• Laminate table: plastic 3 mm edge profile on all sides
+Tip: Bases and legs to 
+support Universal Tables 
+must be specified 
+separately.
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+Oval Tables
+A
+B
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Tables
+ Tip: For leg and support
+ guidelines, see 
+ Table and Base Combinations, 
+ cPage 286 
+ Table and Leg Combinations,   
+ cPage 287
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate tables
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate 
+  
+ 
+ Related 
+• Bases for Universal Tables 
+ 
+ 
+ 
+c Page 637
+ Products 
+• Legs for Universal Tables 
+ 
+ 
+ 
+c Page 638
+Speciwcation Information
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate 
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+DDimensionsDStyle 
+DPlastic 
+dA 
+B 
+ 
+dNumber 
+d3 mm  
+d 
+ 
+ 
+d 
+dEdge 
+d 
+ 
+ 
+d 
+d 
+d
+
+
+d
+dNo Sufw x
+21" 42" 
+BEL2142 
+$ɚɚ690 
+30" 42" 
+BEL3042 
+$ɚɚ752 
+36" 48" 
+BEL3648 
+$ɚɚ826 
+30" 60" 
+BEL3060 
+$1011 
+36" 72" 
+BEL3672 
+$1036 
+42" 78" 
+BEL4278 
+$1542
+48" 96" 
+BEL4896 
+$1851
+d 
+ 
+ 
+d 
+d 
+1 Style number 
+2 High-Pressure Laminate color number 
+for table
+3 Plastic color number for edge on
+laminate table
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 280
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Steelcase 
+June 2022

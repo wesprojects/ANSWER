@@ -1,0 +1,138 @@
+Answer Solutions Specification Guide 
+593
+Universal Systems 
+Worksurfaces
+Universal Systems Worksurfaces
+Inwlls for FrameOne Legs for Universal Worksurfaces
+• High-Pressure Laminate price group 1 infills
+• Edge on laminate infill, if selected: plastic
+• Brackets and caps
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ High-Pressure Laminate
+Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+ 
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+ 
+• Open Line laminate 
++$  94 
+c See Surface Materials Reference 
+ 
+  
+plus cost of laminate 
+ Manual.
+ 
+ Wood veneer
+ 
+• Wood group 1  
+Prices below 
+ Specify with wood veneer and indicate
+ 
+  
+ 
+ wood color number.
+ 
+• Wood group 2  
++$140 
+ Specify wood color number.
+ 
+• Wood group 3  
++$490 
+ Specify wood color number.
+ 
+• Customiz stain 
+No cost 
+ Specify with Customiz stain.
+ 
+  
+ 
+c See Surface Materials Reference
+ 
+  
+ 
+ Manual.
+Speciwcation Information
+DPlanning 
+DStyle 
+DU.S. 
+DOption
+dWidth 
+dNumber 
+dBase 
+d(Add $ to
+d 
+d 
+dPrice 
+dBase Price)
+d 
+d 
+d 
+d
+d 
+d 
+d 
+dWood
+d 
+d 
+dHigh-Pressure 
+dGroup 1
+d 
+d 
+dLaminate 
+dVeneer
+For Closed Loop Legs
+24"W 
+UFC24NF 
+$806 
++$259
+30"W 
+UFC30NF 
+$898 
++$283
+d 
+d 
+d 
+d
+For Open Loop Legs
+24"W 
+UFQ24NF 
+$806 
++$259
+30"W 
+UFQ30NF 
+$898 
++$283
+d 
+d 
+d 
+d
+1 Style number
+2 Laminate color number for infill
+3 Plastic color number for edge on 
+laminate infill, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 243
+InÀlls for FrameOne Legs for 
+Universal Worksurfaces
+Standard Includes 
+ Required to Specify
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Steelcase 
+June 2022

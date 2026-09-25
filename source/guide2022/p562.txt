@@ -1,0 +1,208 @@
+562 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Corner, Straight-Front Worksurfaces
+High-Pressure Laminate
+ 
+Tip: Supports must be spec-
+ified separately, including 
+side support brackets for 
+rear corner support in 
+panel-mounted applications.
+• Worksurface: High-Pressure Laminate price group 1
+ –Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallops on back edges
+A
+B
+C
+D
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+c See edge proÀ les below.
+2 High-Pressure Laminate color number 
+for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+ Scallops 
+• Omit scallops 
+No cost  
+ 
+ Specify omit scallops.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Speciwcation Information
+ 
+ 
+U.S. Base Prices
+ 
+ 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+ 
+DStyle 
+DPlastic 
+DPlastic 
+dA 
+B 
+C 
+D 
+dNumber 
+d3 mm 
+dP-Edge 
+d 
+ 
+ 
+ 
+d 
+dEdge 
+d 
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x 
+dSufw x P
+With 1|2" Cord Drop
+18" 
+18" 
+42" 
+42" 
+UC114242 
+$ 535 
+$ 610
+183¼8" 
+231¼2" 
+411¼2" 411¼2" 
+UC124242 
+$ 591 
+$ 666
+231¼2" 
+183¼8" 
+411¼2" 411¼2" 
+UC214242 
+$ 591 
+$ 666
+231¼2" 
+231¼2" 
+351¼2" 351¼2" 
+UC223636 
+$ 514 
+$ 589
+231¼2" 
+231¼2" 
+411¼2" 411¼2" 
+UC224242 
+$ 560 
+$ 635
+231¼2" 
+231¼2" 
+471¼2" 471¼2" 
+UC224848 
+$ 634 
+$ 709
+231¼2" 
+231¼2" 
+591¼2" 591¼2" 
+UC226060 
+$1176 
+$1328
+291¼2" 
+291¼2" 
+411¼2" 411¼2" 
+UC334242 
+$ 616 
+$ 691
+291¼2" 
+291¼2" 
+471¼2" 471¼2" 
+UC334848 
+$ 697 
+$ 772
+d 
+ 
+ 
+ 
+d 
+d 
+d
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style 
+number. (For example, 
+UC114242 becomes 
+UC114242P for laminate 
+with P-edge profile.)
+Standard Includes 
+ Required to Specify
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Steelcase 
+June 2022

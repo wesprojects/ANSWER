@@ -1,0 +1,116 @@
+474 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+•  193¼16"H tackable acoustical panel skin, fabric 
+direction with horizontal application, if selected: 
+fabric price group 1
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Fabric price group A 
+–$ɚɚɚɚ3 
+ Specify fabric color number.
+Materials 
+• Fabric price group 1 
+No cost 
+ Specify fabric color number.
+ 
+• Fabric price group 2 
++$ɚɚ19 
+ Specify fabric color number.
+ 
+• Fabric price group 3 
++$ɚɚ36 
+ Specify fabric color number.
+ 
+• Fabric price group 4 
++$ɚɚ52 
+ Specify fabric color number.
+ 
+• Fabric price group 5 
++$ɚɚ80 
+ Specify fabric color number.  
+ 
+• Fabric price group 6 
++$110 
+ Specify fabric color number.
+ 
+• Fabric price group 7 
++$142 
+ Specify fabric color number.
+ 
+• Fabric price group COM  
++$ɚɚ21 
+ Specify fabric color number.
+ 
+ Fabric direction on 18"W to 60"W panels
+ 
+• Vertical application 
+No cost 
+ Specify with vertical application.
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase
+d
+d
+dPrice
+d 
+d 
+d
+18" 
+TS718TKBOB 
+$128
+24" 
+TS724TKBOB 
+$140
+30" 
+TS730TKBOB 
+$150
+36" 
+TS736TKBOB 
+$157
+42" 
+TS742TKBOB 
+$168
+48" 
+TS748TKBOB 
+$178
+60" 
+TS760TKBOB 
+$202
+72" 
+TS772TKBOB 
+$231
+d 
+d 
+d
+Tip: For further information 
+about fabric direction, see 
+page 730.
+Shared Components and Wiring and Cabling 
+Fabric Covered Panel Skins Big Open Base
+For Panel Buildups
+Tip: 72"W fabric-covered 
+panel skins accommodate 
+fabric in the horizontal 
+direction only.
+1 Style number
+2 Paint color number for skin surface.
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 124
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steelcase 
+June 2022

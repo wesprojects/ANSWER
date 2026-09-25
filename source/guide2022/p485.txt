@@ -1,0 +1,93 @@
+Standard Includes 
+ Required to Specify
+• Brace packages: black only
+• Attachment hardware
+ Style number
+Slatwall Skin Brace Packages
+For Use with Answer Slatwall Skins
+Speciwcation Information
+
+12"H 
+18"H 
+24"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice 
+dNumber 
+dPrice 
+dNumber 
+dPrice
+d
+d
+d
+d
+d
+d
+d
+24" 
+TS71224SBP 
+$103 
+TS71824SBP 
+$128 
+TS72424SBP 
+$141
+30" 
+TS71230SBP 
+$103 
+TS71830SBP 
+$128 
+TS72430SBP 
+$141
+36" 
+TS71236SBP 
+$126 
+TS71836SBP 
+$137 
+TS72436SBP 
+$141
+42" 
+TS71242SBP 
+$126 
+TS71842SBP 
+$160 
+TS72442SBP 
+$187
+48" 
+TS71248SBP 
+$126 
+TS71848SBP 
+$160 
+TS72448SBP 
+$187 
+d
+d
+d
+d
+d
+d
+d
+cNeed help?
+Product details,
+page 132
+Answer Solutions SpeciÀ cation Guide 
+485
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Slatwall Skins and Slatwall 
+Skin Brace Packages
+Shared Components and Wiring and Cabling
+Steelcase 
+June 2022

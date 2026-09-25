@@ -1,0 +1,45 @@
+Answer Solutions SpeciÀ cation Guide 
+185
+Wiring & Cabling
+Special Requirements 
+for New York City
+New York City electri-
+cal code requires modular 
+power components to be 
+À eld installed by the elec-
+trician. Because Answer 
+power components are 
+always À eld installed, they 
+are okay for use in New York.
+Order New York City power 
+infeed of the width that cor-
+responds to the width of the 
+panel it will be installed in.
+Tip: Remember that the 
+panel with the New York
+City power infeed installed 
+cannot accommodate any 
+receptacles in the base 
+because a powerkit cannot 
+be installed. Install a power-
+kit higher in the panel to 
+accommodate receptacles 
+or use adjacent panels to 
+install receptacles. 
+Modular connector 
+on end of harness 
+attaches to powerkit in 
+adjacent panel.
+Junction box, included 
+with infeed, allows electrician 
+to make a hardwire connect-
+ion to the building power 
+supply. Box covers opening 
+in base cover.
+Conduits supplied by electrician.
+Wiring and Cabling
+Special Requirements for New York City
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

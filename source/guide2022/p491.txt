@@ -1,0 +1,241 @@
+Answer Solutions SpeciÀ cation Guide 
+491
+Shared Components and Wiring and Cabling
+ 
+Wood To The 
+Floor Skins
+c Speciw cation Information, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components
+Speciwcation Information
+
+36"H 
+42"H
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DOptions  
+ 
+DStyle 
+DU.S. 
+DOptions
+d 
+dNumber 
+dBase 
+d(Add $ to  
+ 
+dNumber 
+dBase 
+d(Add $ to
+d
+d
+dPrice dBase Price)
+
+d
+dPrice dBase Price)
+d
+d
+d
+d
+
+
+d
+d
+d
+d
+d
+d
+dWood 
+
+d
+d
+dWood
+d
+d
+d
+dWood dWood 
+d
+d
+dWood  dWood
+d
+d
+d
+dGroup 2dGroup 3
+d
+d
+dGroup 2dgroup 3
+24" 
+TS73624WSF 
+$ɚɚ893 
++$126 
++$444 
+TS74224WSF 
+$ɚɚ943 
++$126 
++$444
+30" 
+TS73630WSF 
+$ɚɚ940 
++$126 
++$444 
+TS74230WSF 
+$ɚɚ992 
++$126 
++$444
+36" 
+TS73636WSF 
+$ɚɚ989 
++$126 
++$444 
+TS74236WSF 
+$1040 
++$187 
++$657
+42" 
+TS73642WSF 
+$1042 
++$187 
++$657 
+TS74242WSF 
+$1091 
++$187 
++$657
+48" 
+TS73648WSF 
+$1127 
++$187 
++$657 
+TS74248WSF 
+$1180 
++$187 
++$657
+d
+d
+d
+d
+d
+
+d
+d
+d
+d
+
+48"H 
+60"H
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DOptions  
+ 
+DStyle 
+DU.S. 
+DOptions
+d 
+dNumber 
+dBase 
+d(Add $ to  
+ 
+dNumber 
+dBase 
+d(Add $ to
+d
+d
+dPrice dBase Price)
+
+d
+dPrice dBase Price)
+d
+d
+d
+d
+
+
+d
+d
+d
+d
+d
+d
+dWood 
+
+d
+d
+dWood
+d
+d
+d
+dWood dWood 
+d
+d
+dWood  dWood
+d
+d
+d
+dGroup 2dGroup 3
+d
+d
+dGroup 2dgroup 3
+24" 
+TS74824WSF 
+$1002 
++$126 
++$444 
+TS76024WSF 
+$1147 
++$126 
++$444
+30" 
+TS74830WSF 
+$1042 
++$126 
++$444 
+TS76030WSF 
+$1188 
++$187 
++$657
+36" 
+TS74836WSF 
+$1087 
++$187 
++$657 
+TS76036WSF 
+$1234 
++$187 
++$657
+42" 
+TS74842WSF 
+$1145 
++$187 
++$657 
+TS76042WSF 
+$1294 
++$263 
++$917
+48" 
+TS74848WSF 
+$1231 
++$187 
++$657 
+TS76048WSF 
+$1379 
++$263 
++$917
+d
+d
+d
+d
+d
+
+d
+d
+d
+d
+Steelcase 
+June 2022

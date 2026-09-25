@@ -1,0 +1,200 @@
+Answer Solutions Specification Guide 
+553
+120° Straight Worksurfaces
+Speciwcation Information
+ 
+ 
+U.S. Base Prices
+ 
+High-Pressure Laminate  Wood
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption
+DDimensions 
+DStyle 
+ 
+DPlastic 
+ 
+DPlastic 
+DWood 
+d(Add $ to 
+dA 
+B 
+C 
+D 
+dNumber 
+ 
+d3 mm 
+dKnife 
+dSquare 
+ 
+dBase Price)
+d 
+ 
+ 
+ 
+d 
+ 
+dEdge 
+dEdge 
+dEdge 
+ 
+d 
+d 
+ 
+ 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d
+d 
+ 
+ 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+dFull-Fill 
+d 
+ 
+ 
+ 
+d 
+ 
+dNo Sufw x 
+dSufw x K 
+dSufw x SW 
+dFinish on Wood Group 1
+B
+C
+A
+D
+ 
+Left-Hand With 1|2" Cord Drop
+231¼2" 271¼8" 48" 611¼16" 
+USE2448LH 
+$370 
+$510 
+$1162 
+ 
++$58
+231¼2" 271¼8" 60" 739¼16" USE2460LH 
+$420 
+$590 
+$1352 
+ 
++$67
+231¼2" 271¼8" 72" 859¼16" USE2472LH 
+$527 
+$697 
+$1459 
+ 
++$71
+291¼2" 341¼16" 48" 651¼16" USE3048LH 
+$477 
+$619 
+$1269 
+ 
++$61
+291¼2" 341¼16" 60" 771¼16" USE3060LH 
+$547 
+$714 
+$1478 
+ 
++$69
+291¼2" 341¼16" 72" 891¼16" USE3072LH 
+$650 
+$817 
+$1583 
+ 
++$72
+d 
+ 
+ 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d
+A
+C
+B
+D
+Right-Hand With 1|2" Cord Drop 
+ 
+ 
+ 
+231¼2" 271¼8" 48" 611¼16" 
+USE2448RH 
+$370 
+$510 
+$1162 
+ 
++$58
+231¼2" 271¼8" 60" 739¼16" USE2460RH 
+$420 
+$590 
+$1352 
+ 
++$67
+231¼2" 271¼8" 72" 859¼16" USE2472RH 
+$527 
+$697 
+$1459 
+ 
++$71
+291¼2" 341¼16" 48" 651¼16" USE3048RH 
+$477 
+$619 
+$1269 
+ 
++$61
+291¼2" 341¼16" 60" 771¼16" USE3060RH 
+$547 
+$714 
+$1478 
+ 
++$69
+291¼2" 341¼16" 72" 891¼16" USE3072RH 
+$650 
+$817 
+$1583 
+ 
++$72
+d 
+ 
+ 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d
+Universal Systems Worksurfaces
+Universal Systems 
+Worksurfaces
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steelcase 
+June 2022

@@ -1,0 +1,51 @@
+Answer Solutions SpeciÀ cation Guide 
+519
+Panel and Beam Foot
+Shared Components
+Standard Includes 
+ Required to Specify
+• Panel and beam foot: paint price group 1
+• Attachment hardware
+Shared Components and Wiring and Cabling
+Panel and Beam Foot
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+Materials 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+Speciwcation Information
+DStyle
+DU.S.
+dNumber 
+dBase
+d 
+dPrice
+d 
+d
+TS7PF 
+$349
+d 
+d
+1 Style number
+2 Paint color number for panel and 
+beam foot
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 146
+Steelcase 
+June 2022

@@ -1,0 +1,131 @@
+580 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Transaction Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$  94  
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-fill finish on wood group 1 
+Prices at right 
+ 
+ Specify full-fill finish number.
+  
+ Top caps on laminate worksurfaces for use with Answer panels
+  
+• Wood 
++$157  
+ 
+ Specify with wood top cap and select
+  
+  
+ 
+ 
+ 
+ wood color number.
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+ Change-of- 
+ For use with Answer panels with square trim 
+  
+ Height Cable  
+• Change-of-height at both  
++$    6  
+ 
+ Specify with change-of-height, both
+ Management  
+ ends, cable management 
+ 
+ 
+ 
+ ends cable management.
+ Top Cap
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+—Plastic 3 mm edge profile or plastic P-edge profile
+ on all edges
+• Wood worksurface:
+—Wood 3 mm edge profile on all edges
+• Top caps for use with Answer panels, if selected: paint
+• Support brackets: black paint only
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: To specify 3 mm edge 
+proÀle, no sufÀx is required.  
+For all other edge proÀles, 
+add a sufÀx to the style 
+number. (For example 
+UTR1636TA becomes 
+UTR1636TASA for wood 
+with square edge proÀle.)
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c See edge proÀ les at right.
+2 High-Pressure Laminate or wood 
+color number for worksurface
+3 Plastic color number for edges on
+laminate worksurface, if selected
+4 Paint color number for top caps,
+if selected
+5 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 234
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

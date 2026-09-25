@@ -1,0 +1,134 @@
+Answer Solutions SpeciÀ cation Guide 
+395
+Standard Includes 
+ Required to Specify
+• Top cap: paint or wood group 1
+Panels—Thin Trim 
+Spanning Top Caps—Thin Trim
+For Panel Buildups
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Spanning Top Caps—
+Thin Trim
+Panels—Thin Trim
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain. 
+Materials
+Change-of- 
+• Change-of-height at one 
++$6 
+ Specify with change-of-height, one end.
+Height 
+ end of top cap
+Top Cap 
+• Change-of-height at both 
++$6 
+ Specify with change-of-height, both ends.
+ 
+ ends of top cap 
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d
+dNumber 
+dBase 
+dNumber 
+dBase
+d
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+ 
+Painted Top Cap 
+Wood Top Cap
+36" 
+TS736TTC 
+$ɚɚ26 
+TS736TTCW 
+$280
+42" 
+TS742TTC 
+$ɚɚ31 
+TS742TTCW 
+$285
+48" 
+TS748TTC 
+$ɚɚ40 
+TS748TTCW 
+$294
+54" 
+TS754TTC 
+$ɚɚ45 
+TS754TTCW 
+$380
+60" 
+TS760TTC 
+$ɚɚ46 
+TS760TTCW 
+$381
+66" 
+TS766TTC 
+$ɚɚ51 
+TS766TTCW 
+$386
+72" 
+TS772TTC 
+$ɚɚ53 
+TS772TTCW 
+$388
+78" 
+TS778TTC 
+$ɚɚ67 
+TS778TTCW 
+$402
+84" 
+TS784TTC 
+$ɚɚ78 
+TS784TTCW 
+$413
+90" 
+TS790TTC 
+$ɚɚ89 
+TS790TTCW 
+$424
+96" 
+TS796TTC 
+$100 
+TS796TTCW 
+$435
+d
+d
+d
+d
+d
+1 Style number
+2 Paint or wood color number for top cap
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 59
+Tip: In-line spanning top cap 
+lightseals should be speci-
+À ed for each in-line joint top 
+cap it is spanning across.
+cSee page 513.
+Steelcase 
+June 2022

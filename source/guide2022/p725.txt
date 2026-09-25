@@ -1,0 +1,160 @@
+Answer Solutions SpeciÀ cation Guide 
+cSurface Materials, continued  725
+Surface Materials
+E = Established
+Surface Materials
+Price Group 2
+Textured Laminate
+2TH2 Fawn Cypress
+2TH4 Saddle Oak
+2TH5 Veranda Teak
+2TH7 Walnut Heights
+2UH1 Reclaimed Aggregate
+2UH2 Reclaimed Gravel
+2UH4 Cement**
+2UH6 Sheetrock
+** 2UH4 Cement has limited availability, determined 
+by product sizing and/or options.
+Price Group 3
+Solid Laminate
+24H1 Satin White
+24H2 Satin Black
+24H3 Satin Stone
+24H4 Satin Mocha
+Custom Surfaces
+Open Line Laminate (OLL)
+This service allows you to order non-standard lami-
+nate at an additional processing fee of $94 U.S. per 
+unit, plus the cost of the laminate.
+High-Pressure Laminate pricing does not include 
+premium or digitally printed patterns from any 
+suppliers. Laminate cost may also vary for basic 
+or standard laminates from other suppliers. Please 
+contact the OLL consultant at 616.475.2426 
+for pricing. The cost of the laminate will be 
+added to your invoice as a separate line on the 
+acknowledgement.
+When processing orders for Open Line laminate 
+on Universal worksurfaces and Universal Storage 
+tops, specify 2900 in the laminate À nish À eld and 
+enter the OLL manufacturer information. Enter 
+the required edge À nish as you would a standard 
+laminate.
+Laminate Approval and Material 
+Requirements 
+To conÀ rm whether a particular laminate has 
+already been tested for use on a speciÀ c Steelcase 
+product or to determine material square foot 
+requirements:
+• Visit www.steelcase.com
+For additional information, refer to the 
+Steelcase Surface Materials Reference Manual.
+Veneer
+Wood Group 1
+Flat-Cut Open-Pore
+3062 FC/OP Graphite Walnut
+3402 FC/OP Clear Cherry (Aged)
+3412 FC/OP Natural Cherry E
+3422 FC/OP Medium Cherry
+3522 FC/OP Clear Maple
+3592 FC/OP Blonde on Maple E
+3702 FC/OP Clear Walnut
+3712 FC/OP Natural Walnut
+3752 FC/OP Medium Walnut E
+3762 FC/OP Dark Walnut
+3772 FC/OP Medium Mahogany on Walnut
+Flat-Cut Open-Pore, Natural Veneer
+3342 FC/OP Black Walnut
+35A2 FC/OP Blanch Maple
+37A2 FC/OP Thunder Walnut
+Quarter-Cut Open-Pore
+3042 QC/OP Ash E
+3222 QC/OP Clear Maple
+3292 QC/OP Blonde on  Maple E
+3302 QC/OP Clear Walnut
+3312 QC/OP Natural Walnut
+3352 QC/OP Medium Walnut E
+3362 QC/OP Dark Walnut
+3372 QC/OP Medium Mahogany on Walnut
+3382 QC/OP Graphite Walnut
+Quarter-Cut Open-Pore, Natural Veneer
+32A2 QC/OP Blanch Maple
+33A2 QC/OP Thunder Walnut
+3392 QC/OP Black Walnut
+Rift-Cut Open-Pore
+3602 RC/OP Desert Oak
+Rift-Cut Full-Fill, Natural Veneer
+36A2 RC/OP Volcanic Oak
+Wood Group 3
+Flat-Cut Open-Pore, Natural Veneer
+3082 FC/OP Washed Walnut
+Wood Group 1
+Open-Pore Planked Veneer 
+3P41 OP Planked Cherry
+3P51 OP Planked Maple
+3P61 OP Planked Oak
+3P71 OP Planked Walnut
+3VFX OP Unmarked Oak
+Tip: Known for its uniqueness, planked veneer has 
+intentional and natural variations that include, but 
+are not limited to: character marks, grain pattern, 
+color, and natural color aging.
+Wood
+Applies to:
+•  Universal worksurfaces and tables–wood veneer
+• Answer pedestal tops and fronts
+• Universal storage tops and fronts
+• Wood skins and trims
+• InÀ lls for FrameOne legs
+Steelcase carefully selects veneer and solid wood 
+for consistent color and grain structure. Wood is a 
+natural material and variations will occur in color, 
+grain and texture. These variations are part of the 
+inherent natural beauty of wood and are not con-
+sidered defects.
+All wood products will darken with age and expo-
+sure to ultraviolet light. This is especially apparent 
+with cherry and maple veneer. We recommend 
+that desk accessories be rearranged periodically 
+to ensure even aging of wood surfaces.
+When storing your wood furniture, please follow 
+the following guidelines:
+• Do not store products in trailers
+•  Store products in areas hat simulate ofÀ ce tem-
+peratures (60°F to 90°F)
+•  Store products in areas that maintain constant, 
+ofÀ ce-like humidity levels
+•  Keep product away from light. Cover products to 
+make sure they are not exposed to light.
+Steelcase Surfaces
+Veneers are matched for proper balance 
+and consistency. Veneers are available Á at 
+cut or quarter cut, except for Oak, which is rift 
+cut. Refer to the Surface Materials Reference 
+Manual for descriptions of each cut.
+Tip: Answer panel wood trims are only available 
+with quarter-cut À nishes with the exception of 
+maple À nishes. Maple on wood trims is only avail-
+able with Á at-cut À nishes. For ordering simplicity, 
+both Á at-cut and quarter-cut À nishes can be 
+speciÀ ed on panel trims. However, for all À nishes 
+except maple, if a Á at-cut À nish is selected, the 
+trims will have the coordinating quarter-cut À nish. 
+For maple À nishes, if quarter-cut is selected, the 
+trims will have the coordinating Á at-cut À nish. 
+Blending panel trims with other wood products 
+that have Á at-cut À nishes may be visually accept-
+able for most applications. If a more exact match 
+is desired for non-maple À nishes, please specify 
+quarter-cut À nishes for the entire project. If a more 
+exact match is desired for maple À nishes, please 
+specify Á at-cut À nishes for the entire project.
+Open-pore w nish is a medium gloss À nish that 
+leaves the wood grain texture visible to the eye 
+and distinguishable to the touch.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

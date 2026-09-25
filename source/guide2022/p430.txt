@@ -1,0 +1,55 @@
+430 
+Answer Solutions SpeciÀ cation Guide
+Panels—Square and Oval Trim
+In-Line Base Panel Junctions—Square Trim
+ 
+Standard Includes 
+ Required to Specify
+• Junction
+• Aligner
+ Style number
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cNeed help?
+Product details,
+page 92
+Tip: In-line base panel junc-
+tions do not require junction 
+cap and trim. 
+Speciwcation Information
+DCorresponding DStyle 
+DU.S.
+dPanel 
+dNumber 
+dPrice
+dHeight 
+d 
+d
+d 
+d 
+d
+30" 
+TS730SIPJ 
+$121
+42" 
+TS742SIPJ 
+$121
+48" 
+TS748SIPJ 
+$121
+54" 
+TS754SIPJ 
+$121
+66" 
+TS766SIPJ 
+$121
+78" 
+TS778SIPJ 
+$173
+d
+d
+d
+Steelcase 
+June 2022

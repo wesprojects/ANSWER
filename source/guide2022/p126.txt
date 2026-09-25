@@ -1,0 +1,55 @@
+126 
+Answer Solutions SpeciÀ cation Guide
+Ribbed option is avail-
+able on 12"H, 18"H, and 
+24"H panels only.
+Steel skins can be 
+removed and repositioned. 
+Perforated option is 
+available on 12"H, 18"H, and 
+24"H panels only. Horizontal 
+beam and back of opposite 
+skin is visible through perfo-
+rated skin.
+Actual Dimensions
+Width  
+1753¼64",  2353¼64",  2953¼64",  3553¼64",  4153¼64", 
+ 
+4753¼64",  5953¼64",  and 7153¼64"
+Height 
+129¼32",  187¼16",  2441¼64",  3013¼16",  and 37"
+Height to 
+2829¼64",  345¼8",  and 4013¼16"
+the Floor
+Size
+Height for 
+193¼16"
+Big Open 
+Base Size
+Shared Components
+Steel Panel Skins
+Steel panel skins finish 
+the appearance of a panel. 
+Skin combinations can vary 
+to accommodate a variety of 
+appearances and functions 
+of the workspace.
+c Specifying, page 476
+Tip: When specifying skins, 
+the total skin height will 
+be 6" less than the panel 
+height. For example if the 
+panel is 54"H the total skin 
+height will be 48"H. Skins to 
+the floor are indicated by an 
+F suffix. Plan 6" shorter than 
+panel height, but skins to 
+the floor are taller in actual 
+height to cover the base trim 
+area. 
+c See Panel Buildups, page 
+18, for more information.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

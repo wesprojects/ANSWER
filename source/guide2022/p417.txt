@@ -1,0 +1,239 @@
+Panels—Thin Trim 
+ 
+Answer Boundary Screens
+Answer Solutions SpeciÀ cation Guide 
+cAnswer Boundary Screens, continued  417
+Panels—Thin Trim
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d27"W 
+d33"W 
+d39"W 
+d45"W 
+d51"W 
+d57"W 
+d63"W 
+d69" W 
+d75"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d27"W –  
+d33"W –  
+d39"W – 
+d45"W –  
+d51"W –  
+d57"W –  
+d63"W –  
+d69"W –  
+d75"W
+d 
+d 
+dWidth 
+d3215¼16"W d3815¼16"W d4415¼16"W d5015¼16"W d5615¼16"W d6215¼16"W d6815¼16"W d7415¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+Single-Sided
+Return
+W
+H
+L Return Single-Connect Boundary Screens—Single-Sided
+High-Pressure Laminate — Primary Screen
+TS7SCLSSD 
+30"H 
+ 
+$673 
+$803 
+$ɚɚ936 
+$1066 
+$1199 
+$1330 
+$1463 
+$1594 
+$1726
+ 
+36"H 
+ 
+$684 
+$831 
+$ɚɚ977 
+$1120 
+$1265 
+$1410 
+$1556 
+$1699 
+$1844
+ 
+42"H 
+ 
+$699 
+$857 
+$1014 
+$1171 
+$1330 
+$1488 
+$1645 
+$1805 
+$1964
+ 
+48"H 
+ 
+$712 
+$883 
+$1055 
+$1225 
+$1396 
+$1568 
+$1739 
+$1909 
+$2083
+ 
+54"H 
+ 
+$726 
+$909 
+$1093 
+$1278 
+$1463 
+$1645 
+$1831 
+$2017 
+$2200
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+DStyle 
+DDimensions DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular 
+d18"W 
+d24"W 
+d30"W
+d
+d
+dWidth 
+d
+d
+d
+d 
+d 
+dParametric 
+d18"W –  
+d24"W –  
+d30"W
+d 
+d 
+dWidth 
+d2315¼16"W d2915¼16"W d
+d
+d
+d 
+d
+d
+d
+High-Pressure Laminate — Return Screen
+TS7SCLSSD 
+30"H 
+ 
++$606 
++$673 
++$803
+ 
+36"H 
+ 
++$613 
++$684 
++$831
+ 
+42"H 
+ 
++$620 
++$699 
++$857
+ 
+48"H 
+ 
++$626 
++$712 
++$883
+ 
+54"H 
+ 
++$632 
++$726 
++$909
+d
+d
+d 
+d
+d
+d
+Tip: When specifying an L 
+return boundary screen, 
+primary and return screen 
+widths need to be speciÀ ed. 
+The À nal price will include 
+the price of both individual 
+screen segments.
+cSpeciw cation Information, continued on next page
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Wood veneer grain direction
+Materials, 
+• No direction 
+No cost 
+ Specify with no direction.
+continued 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+ 
+• Vertical 
+No cost 
+ Specify with vertical grain direction.
+cOptions, continued from previous page
+Steelcase 
+June 2022

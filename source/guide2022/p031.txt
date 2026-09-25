@@ -1,0 +1,163 @@
+Answer Solutions SpeciÀ cation Guide 
+31
+Panels—Thin Trim
+Off-Module Panel 
+Connector—Thin Trim
+Panels—Thin Trim
+When using a wall-
+start junction manufac-
+tured before October 10, 
+2011 with an off module 
+panel connector manufac-
+tured on or after October 10, 
+2011 the "old" bottom brac-
+ket must be used. It can be 
+ordered from Service Parts, 
+part number TS500938MP. 
+If using an old off-module 
+panel connector manu-
+factured before Octo-ber 
+10, 2011 with a wall-start 
+junction manufactured on or 
+after October 10, 2011 the 
+bottom bracket included with 
+the off module panel con-
+nector should be used.
+10" min
+In-line or
+end-of-run
+junction
+Fin
+Spine
+When using frameless 
+glass with clip attach-
+ment on a spine panel, 
+with a same height 
+off-module panel con-
+nection, the off-module 
+cannot connect within 10" of 
+an end-of-run or in-line junc-
+tion connection.
+Recessed frameless 
+glass cannot be used on a 
+spine panel hosting the same 
+height off-module connec-
+tion. The off-module À n panel 
+can use recessed frameless 
+glass, but must have the 
+wallstart option speciÀ ed.
+Wiring & Cabling
+Wiring and cabling 
+components cannot be 
+routed internally from a 
+spine wall to an off-module 
+À n wall without cutting open-
+ings in the spine wall skin.
+Tip: It is recommended that 
+you route wiring and cabling 
+through the spine wall.
+Internode power com-
+ponents should be used to 
+bring power from the spine 
+wall to the workstation.
+cSee Post and Beam 
+SpeciÀ cation Guide.
+Surface Materials
+Off-module bracket
+• Black paint
+Tip: Bracket is hidden when 
+properly installed.
+Off-module installation 
+requires À eld modiÀ cation 
+of the light seal on the top 
+skin. Surface covering is not 
+affected.
+Application Topics
+Stability Guidelines for 
+Application Rules
+c Page 148
+Stacking junctions can 
+be used with any height 
+base junction.
+Bins, shelves, and 
+worksurfaces cannot be 
+attached off-module.
+Off-module panel con-
+nector works with Thin 
+trims. Thin style trims do not 
+require a top cap À ller.
+An off-module connec-
+tor cannot be used on a 
+spine wall with open base 
+trim.
+An off-module connec-
+tor cannot be used on a 
+spine wall with big open 
+base.
+A w n panel connected 
+off-module can have open 
+base trim.
+A w n panel connected 
+off-module can have big 
+open base trim.
+When connecting 
+two off-module w ns 
+at different heights 
+on either side of the 
+spine panel, an additional 
+horizontal beam must be 
+ordered and installed at the 
+same height of the shorter 
+À n panel.
+An off-module w n wall 
+cannot connect Á ush to the 
+end of a panel in the spine 
+wall. The closest connection 
+point will leave a 21/2" tail on 
+the spine including the end-
+of-run trim.
+An off-module w n wall 
+cannot attach at a junction in 
+the spine wall. There is a 2" 
+area of dead space on either 
+side of the junction render-
+ing a total of 4" dead space.
+An off-module w n wall 
+cannot be installed over a 
+window that is located at the 
+top of a spine panel.
+Slatwall skins cannot be 
+placed on the spine panel 
+when an off-module À n panel 
+is positioned below it.
+When stacking on the 
+fin panel, the spine wall 
+skins must be segmented 
+with a seam matching the 
+height of the fin base panel.
+When stacking wall-
+start junctions in an 
+off-module application, 
+the off-module panel con-
+nector connects to the base 
+wall-start junction.
+Two off-module panels 
+can be connected back to 
+back at the same location.
+Spine: 36"H or 48" base 
+junctions with stackers
+36"H or 48"H Fin
+For off-module w n walls 
+36"H or 48"H, base junc-
+tions must match the height 
+of À n wall base junctions. 
+Taller spine wall heights can 
+be achieved by stacking.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

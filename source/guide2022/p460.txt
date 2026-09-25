@@ -1,0 +1,170 @@
+460 
+Answer Solutions SpeciÀ cation Guide
+Panels—Square and Oval Trim
+Spanning Top Caps—Square Trim 
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Top cap: paint or wood group 1
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: In-line spanning top cap 
+lightseals should be speci-
+À ed for each in-line joint top 
+cap is spanning across.
+cPage 513
+1 Style number
+2 Paint color number or wood À nish 
+number for top cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 105
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+ Materials 
+ Change- 
+• Change-of-height at one end  
++$6 
+ 
+ 
+ Specify with change-of-height, one end
+ of-Height 
+ of top cap, slim 
+ 
+ 
+ 
+ slim.
+ Shortened 
+• Change-of-height at one end  
++$6 
+ 
+ 
+ Specify with change-of-height, one end
+ Top Cap 
+ of top cap, cable management  
+ 
+ 
+ cable management.
+  
+• Change-of-height at both ends +$6 
+ 
+ 
+ Specify with change-of-height, both ends
+  
+ of top cap, slim 
+ 
+ 
+ 
+ slim.
+  
+• Change-of-height at both ends +$6 
+ 
+ 
+ Specify with change-of-height, both ends
+  
+ of top cap, cable management  
+ 
+ 
+ cable management.
+  
+• Change-of-height at both ends +$6 
+ 
+ 
+ Specify with change-of-height, one end 
+  
+ of top cap, one end slim and  
+ 
+ 
+ 
+ slim, one end cable management.
+  
+ one end cable management
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. 
+d 
+dNumber 
+dBase 
+d
+d
+dPrice
+ 
+d 
+d 
+d 
+Painted Top Caps
+36" 
+TS736STC 
+$ɚɚ31  
+42" 
+TS742STC 
+$ɚɚ40  
+48" 
+TS748STC 
+$ɚɚ46  
+60" 
+TS760STC 
+$ɚɚ52  
+72" 
+TS772STC 
+$ɚɚ64
+78" 
+TS778STC 
+$ɚɚ73
+84" 
+TS784STC 
+$ɚɚ87
+90" 
+TS790STC 
+$100
+96" 
+TS796STC 
+$112
+d 
+d 
+d
+Wood Top Caps
+36" 
+TS736STCW 
+$285  
+42" 
+TS742STCW 
+$294  
+48" 
+TS748STCW 
+$300  
+60" 
+TS760STCW 
+$387  
+72" 
+TS772STCW 
+$399
+78" 
+TS778STCW 
+$408
+84" 
+TS784STCW 
+$422
+90" 
+TS790STCW 
+$435
+96" 
+TS796STCW 
+$447
+d 
+d 
+d
+Steelcase 
+June 2022

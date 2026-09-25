@@ -1,0 +1,101 @@
+Panels—Thin Trim
+Answer Solutions SpeciÀ cation Guide 
+  25
+Panels—Thin Trim
+Change-of-Height—
+Thin Trim
+T corner change-of-
+height trim is used in 
+T or X change-of-height 
+applications where there 
+are two panels at the same 
+height located in-line with 
+each other.
+An L to T aligner must be 
+speciÀ ed if an L change-of-
+height trim is located directly 
+above a T.
+No aligners are required to 
+connect a T corner change-of-
+height trim to the junction cap 
+or top cap.
+120° corner change-of-
+height trim is used in a V 
+or Y change-of-height appli-
+cation when there is only one 
+panel at the tallest height. No 
+aligners are required to con-
+nect the trim to the junction 
+cap or top cap.
+120° to V aligner should 
+be speciÀ ed when a 120° 
+corner change-of-height trim 
+resides directly above a V 
+trim. The 120° to V aligner 
+creates a tight connection 
+between the two trim pieces.
+V corner change-of-
+height trim is used in a Y 
+change-of-height application 
+when there are two panels 
+at the tallest height. No 
+aligners are required to con-
+nect the trim to the junction 
+cap or top cap.
+90° Planning Application
+120° Planning Application
+Surface Materials
+Change-of-height trim
+• Paint
+• Wood veneer
+Junction cap
+• Paint
+• Wood veneer
+Aligner
+• Black plastic only
+Application Topics
+Change-of-height top 
+cap option must be speci-
+À ed on the lower panel of 
+in-line applications. 
+Tip: Change-of-height 
+top cap option is only 
+needed when using in-line 
+change-of-height.
+Thin trim top caps have 
+a notch in one or both ends to 
+accommodate in-line change-
+of-height applications.
+Change-
+of-height
+one side
+Change-
+of-height
+two sides
+Specify change-of-
+height top caps at one 
+end unless the panel is 
+adjacent to taller panels on 
+both sides. Then specify a 
+top cap change-of-height 
+on both ends.
+66"
+42"
+Specify an in-line 
+change-of-height junc-
+tion to connect panels. 
+In this application the in-line 
+change-of-height junction 
+includes a 42" high in-line 
+base junction with a 24" end-
+of-run stacker. A horizontal 
+stacking beam is required 
+when using an in-line change-
+of-height junction to support 
+the stacker.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

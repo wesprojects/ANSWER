@@ -1,0 +1,105 @@
+526 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• USB receptacle: plastic
+1 Style number
+2 Plastic color number for receptacle
+3 Wiring schematic (see below under 
+Required Selections)
+4 Line (see below under Required 
+Selections)
+c
+See Surface Materials, page 724.
+Required Selections U.S. Price 
+ Required to Specify
+Wiring 
+• 3+1 
+No cost 
+ Specify with 3+1.
+Schematic 
+• 2+2 
+No cost 
+ Specify with 2+2.
+ 
+• 3SN 
+No cost 
+ Specify with 3SN.
+Line 
+• Line 1 
+No cost 
+ Specify with line 1.
+ 
+• Line 2 
+No cost 
+ Specify with line 2.
+ 
+• Line 3 
+No cost 
+ Specify with line 3.
+ 
+• Line 4 (Available in 3+1 
+No cost 
+ Specify with line 4.
+ 
+ and 2+2 only)
+Speciwcation Information 
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+TS7USB 
+$138
+ d 
+d
+Tip: Specify when using 
+steel skins with power 
+cutouts.
+Tip: For power access in 
+steel skins with power cut-
+outs, receptacle trim ring 
+is required for each power 
+cutout location speciÀed 
+(ordered separately).
+USB Receptacles
+For Use with Power Cutouts in Steel Skins
+Faceplate
+Standard Includes 
+ Required to Specify
+• One faceplate: plastic
+• Ordered individually
+1 Style number
+2 Plastic color number for faceplate:
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6651 Tungsten
+ 6652 Titanium
+ 6654 Sand
+6697 Fog
+ 6B03 Red
+ Speciw cation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+Faceplate for Duplex Receptacle and Communications
+TS7UFPLATE 
+$5
+ d 
+d
+cNeed help?
+Product details,
+page 193
+Steelcase 
+June 2022

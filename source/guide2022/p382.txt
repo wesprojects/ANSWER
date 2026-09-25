@@ -1,0 +1,138 @@
+382 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+V Vertical Trims—Thin Trim
+Standard Includes 
+ Required to Specify
+• Trim: paint price group 1 or wood group 1
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: When ordering vertical 
+trim for a stacking applica-
+tion remember to specify it 
+to span the full height of the 
+base junction plus the stack-
+ing junction.
+Tip: Thin vertical trim cannot 
+be mixed with square and 
+oval trim on an application. 
+Thin trim must be used on 
+the entire application.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Paint price group 1 
+No cost 
+ Specify paint color number. 
+Materials 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+Speciwcation Information
+DCorresponding 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+dPanel
+ 
+dNumber 
+dBase 
+dNumber 
+dBase
+dHeight 
+d
+dPrice
+d
+dPrice
+d
+
+d
+d
+d
+d
+ 
+Painted Trim 
+Wood Trim
+30" 
+TS730TVVT 
+$110 
+TS730TVVTW 
+$422
+36" 
+TS736TVVT 
+$110 
+TS736TVVTW 
+$422
+42" 
+TS742TVVT 
+$110 
+TS742TVVTW 
+$422
+48" 
+TS748TVVT 
+$110 
+TS748TVVTW 
+$422
+54" 
+TS754TVVT 
+$110 
+TS754TVVTW 
+$422
+60" 
+TS760TVVT 
+$110 
+TS760TVVTW 
+$422
+66" 
+TS766TVVT 
+$110 
+TS766TVVTW 
+$422
+72" 
+TS772TVVT 
+$134 
+TS772TVVTW 
+$520
+78" 
+TS778TVVT 
+$134 
+TS778TVVTW 
+$520
+84" 
+TS784TVVT 
+$142 
+TS784TVVTW 
+$578
+90" 
+TS790TVVT 
+$142 
+TS790TVVTW 
+$578
+d
+
+d
+d
+d
+d
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 38
+Steelcase 
+June 2022

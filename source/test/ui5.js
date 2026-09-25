@@ -1,5 +1,5 @@
 // Places four typicals side by side through the interface and checks the job ends with four workstations and no issues.
-// Spine with fins (78" panels: seismic review, p124) and Benching divider (15' run with no return, p126) carry guide warnings by design, so they are left out here.
+// Spine with fins (78" panels: seismic review, p148) and Benching divider (15' run with no return, p150) carry guide warnings by design, so they are left out here.
 const { chromium } = require('playwright');
 (async () => {
   const b = await chromium.launch(); const pg = await b.newPage({ viewport: { width: 1500, height: 1000 } });

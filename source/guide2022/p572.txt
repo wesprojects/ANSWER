@@ -1,0 +1,213 @@
+572 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Linking Peninsula Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+Standard Includes 
+ Required to Specify
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+24"
+B
+24"
+A
+30"
+C
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style num-
+ber. (For example, UPAC2748 
+becomes UPAC2748SW 
+for wood with square edge 
+profile.)
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+À ed separately.
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Linking peninsula work-
+surfaces are recommended 
+for use with other curved-
+front shapes such as corner, 
+curved-front worksurfaces.
+c Page 563
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Columns 
+ 
+ 
+ 
+c Page 596
+  
+• Worksurface power and communication components 
+c Page 611
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure Laminate 
+Wood
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic 
+DWood 
+d(Add $ to
+dA 
+B 
+C 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+dBase Price)
+d 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+d
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dWood
+d 
+ 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1
+With 3" Notch for Use with Answer Panels With 1|2" Cord Drop 
+27" 
+27" 50" 
+UPAC2748 
+$858 
+$962 
+$1771 
++$73
+d 
+d 
+d 
+d 
+d 
+d 
+Steelcase 
+June 2022

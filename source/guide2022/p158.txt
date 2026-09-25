@@ -1,0 +1,44 @@
+158 
+Answer Solutions SpeciÀ cation Guide
+Shared Components
+Stability Guidelines, continued
+Guidelines for Bench Conwgurations without Top Cap Mounted Storage
+Single Sided Bench
+5' min.
+24' max.
+12' max.
+24"
+48" max
+ 
+Double Sided Bench
+12' max.
+No min.
+24' max.
+24"
+48" max
+End-of-run support options include: 
+• Post leg and cantilever
+• Half loop leg
+• Open loop leg
+• Closed loop leg
+• Worksurface end panel
+• Pedestal with À ller
+• 1H, 1.5H, or 2H (18" on 24"D) cabinet with panel-to-storage connector in perpendicular application.
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• 1H, 1.5H, or 2H (24"D) cabinet with panel-to-storage connector in parallel application. 
+ Note: 1H and 1.5H cabinet requires intermediate support.
+- Tower with medium storage-to-panel connector
+Maximum worksurface depth is 26" with front support every 12'. 
+Worksurfaces greater than 26"D require legs in the front of each worksurface on both ends of the worksurface.
+Center support panels cannot be used as supports.
+Slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.
+12' max.
+48" max
+12' max.
+48" max
+Tip: Single sided applications using half loop leg require 
+a cantilever between the leg and the next support.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

@@ -1,0 +1,398 @@
+Universal Systems Worksurfaces
+ 
+ 
+ 
+Answer Solutions Specification Guide 
+555
+Transition Worksurfaces
+Universal Systems 
+Worksurfaces
+Speciwcation Information
+ 
+U.S. Base Prices 
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate Wood 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic 
+ 
+DWood 
+d(Add $ to  
+DDimensions 
+DStyle 
+DPlastic
+dA 
+B 
+C 
+D 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+dBase Price) 
+dA 
+B 
+C 
+D 
+dNumber d3 mm
+d 
+ 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+dEdge
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+don Wood 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1 
+ 
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x
+A
+D
+C
+B
+ 
+ 
+ 
+ 
+ 
+ 
+A
+D
+C
+B
+Left-Hand With 1|2" Cord Drop 
+ 
+ 
+ 
+ 
+Left-Hand With Full Depth
+231¼2" 183¼8" 36" 
+14" 
+UT2136L 
+$484 
+$550 
+$1397 
++$51 
+ 
+30" 
+24" 36" 18" 
+WT3236 $574
+231¼2" 183¼8" 42" 
+20" 
+UT2142L 
+$516 
+$588 
+$1429 
++$57 
+ 
+30" 
+24" 42" 24" 
+WT3242 $602
+231¼2" 183¼8" 48" 
+26" 
+UT2148L 
+$599 
+$671 
+$1512 
++$58 
+ 
+30" 
+24" 48" 30" 
+WT3248 $703
+231¼2" 183¼8" 54" 
+32" 
+UT2154L 
+$642 
+$714 
+$1555 
++$61 
+ 
+30" 
+24" 54" 36" 
+WT3254 $755
+231¼2" 183¼8" 60" 
+38" 
+UT2160L 
+$682 
+$767 
+$1595 
++$67 
+ 
+30" 
+24" 60" 42" 
+WT3260 $802
+291¼2" 231¼2" 36" 
+14" 
+UT3236L 
+$574 
+$640 
+$1487 
++$57
+291¼2" 231¼2" 42" 
+20" 
+UT3242L 
+$602 
+$674 
+$1515 
++$58
+291¼2" 231¼2" 48" 
+26" 
+UT3248L 
+$703 
+$775 
+$1616 
++$61
+291¼2" 231¼2" 54" 
+32" 
+UT3254L 
+$755 
+$827 
+$1668 
++$67
+291¼2" 231¼2" 60" 
+38" 
+UT3260L 
+$802 
+$887 
+$1715 
++$72
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+A
+D
+C
+B
+ 
+ 
+ 
+ 
+ 
+ 
+A
+D
+C
+B
+Right-Hand With 1|2" Cord Drop 
+ 
+ 
+ 
+ 
+Right-Hand With Full Depth
+183¼8" 231¼2" 36" 
+14" 
+UT1236R 
+$484 
+$550 
+$1397 
++$51 
+ 
+24" 30" 
+36" 18" 
+WT2336 $574
+183¼8" 231¼2" 42" 
+20" 
+UT1242R 
+$516 
+$588 
+$1429 
++$57 
+ 
+24" 30" 
+42" 24" 
+WT2342 $602
+183¼8" 231¼2" 48" 
+26" 
+UT1248R 
+$599 
+$671 
+$1512 
++$58 
+ 
+24" 30" 
+48" 30" 
+WT2348 $703
+183¼8" 231¼2" 54" 
+32" 
+UT1254R 
+$642 
+$714 
+$1555 
++$61 
+ 
+24" 30" 
+54" 36" 
+WT2354 $755
+183¼8" 231¼2" 60" 
+38" 
+UT1260R 
+$682 
+$767 
+$1595 
++$67 
+ 
+24" 30" 
+60" 42" 
+WT2360 $802
+231¼2" 291¼2" 36" 
+14" 
+UT2336R 
+$574 
+$640 
+$1487 
++$57
+231¼2" 291¼2" 42" 
+20" 
+UT2342R 
+$602 
+$674 
+$1515 
++$58
+231¼2" 291¼2" 48" 
+26" 
+UT2348R 
+$703 
+$775 
+$1616 
++$61
+231¼2" 291¼2" 54" 
+32" 
+UT2354R 
+$755 
+$827 
+$1668 
++$67
+231¼2" 291¼2" 60" 
+38" 
+UT2360R 
+$802 
+$887 
+$1715 
++$72
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+Steelcase 
+June 2022

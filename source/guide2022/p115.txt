@@ -1,0 +1,60 @@
+Answer Solutions SpeciÀ cation Guide 
+115
+Panel Packages—Square 
+and Oval Trim
+Order panel packages to create common 
+panel conÀ gurations quickly and easily.
+1. Specify a panel package of the width 
+ 
+and height you need and with either square 
+ 
+or oval top caps.
+scale 70
+Top cap
+Fabric skins
+for both sides
+of panel
+Package includes . . . 
+Horizontal frame package
+Two skins
+Horizontal
+bars
+Base
+covers
+ Tip: Cable trays and base cable trays are 
+ optional.
+2. Order vertical junctions to complete 
+ 
+panel packages and to join panels in in-line, 
+ 
+L, T, V, X, and Y conÀ gurations and to terminate 
+ 
+an end-of-run. Junctions are available with 
+ 
+either square or oval trim and are always 
+ 
+ordered separately.
+End-of-
+run
+In-line
+L
+T
+X
+V
+Y
+3. Specify powerkits where you will need 
+ 
+power. You can specify a powerkit as an 
+ 
+option on the panel package, or you can order 
+ 
+powerkits separately.
+Panels—Square and 
+Oval Trim
+Panels—Square and Oval Trim
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

@@ -1,0 +1,28 @@
+730 
+Answer Solutions SpeciÀ cation Guide
+66" Fabric
+Width
+Warp Direction
+Warp Horizontal
+The standard application direction of fabric 
+on Answer panels, skins, and Hutch kit tackboard 
+is warp horizontal. Standard Steelcase fabrics were 
+designed for this application direction.
+Warp Vertical
+66" Fabric
+Width
+Warp Direction
+The optional application direction of fabrics 
+on Answer panels, skins, and Hutch kit tackboard is 
+warp vertical. This is most commonly used on COMs 
+designed for warp vertical application.
+For more information about the warp 
+direction of fabrics, see the Surface Materials 
+Reference Manual.
+Speciw cation Guidelines for Directional Fabrics
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

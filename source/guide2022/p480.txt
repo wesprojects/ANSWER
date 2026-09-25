@@ -1,0 +1,274 @@
+• 193/16"H steel panel skin: paint price group 1
+1 Style number
+2 Paint color number for skin surface
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+480 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Steel Panel Skins Big Open Base
+For Panel Buildups
+Standard Includes 
+ Required to Specify
+Options 
+U.S. Price 
+ 
+ Required to Specify
+Surface  
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+Materials 
+• Paint price group 2 
++$32 
+ 
+ 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$54 
+ 
+ 
+ Specify paint color number.
+Data Cutout 
+  
+24"W– 36"W 42"W–
+Only 
+  
+30"W 
+ 
+72"W
+ 
+• Left modular furniture data cutout 
+N.A. 
+N.A. 
++$11  Specify with left modular furniture data
+ 
+ or left NEMA data cutout 
+ 
+ 
+ 
+ cutout or left NEMA data cutout.
+ 
+• Right modular furniture data cutout 
++$11 
++$11 
++$11  Specify with right modular furniture data
+ 
+ or right NEMA data cutout 
+ 
+ 
+ 
+ cutout or right NEMA data cutout.
+Modular 
+• Center receptacle cutout 
++$11 
+N.A. 
+N.A.  Specify with center receptacle cutout.
+Receptacle 
+• Center receptacle cutout with right 
++$22 
+N.A. 
+N.A.  Specify with center receptacle cutout
+Cutout 
+ modular furniture data cutout or 
+ 
+ 
+ 
+ and right modular furniture data cutout
+ 
+ right NEMA data cutout 
+ 
+ 
+ 
+ or right NEMA data cutout.
+ 
+• Left receptacle cutout 
+N.A. 
++$11 
++$11  Specify with left receptacle cutout.
+ 
+• Left receptacle cutout with left 
+N.A. 
+N.A. 
++$22  Specify with left receptacle cutout and
+ 
+ modular furniture data cutout or 
+ 
+ 
+ 
+ left modular furniture data cutout or left
+ 
+ left NEMA data cutout 
+ 
+ 
+ 
+ NEMA data cutout.
+ 
+• Right receptacle cutout 
+N.A. 
++$11 
++$11  Specify with right receptacle cutout.
+ 
+• Right receptacle cutout with right 
+N.A. 
++$22 
++$22  Specify with right receptacle cutout and
+ 
+ modular furniture data cutout or 
+ 
+ 
+ 
+ right modular furniture data cutout or right
+ 
+ right NEMA data cutout 
+ 
+ 
+ 
+ NEMA data cutout.
+ 
+• Left and right receptacle cutout 
+N.A. 
++$22 
++$22  Specify with left and right receptacle cutout.
+ 
+• Left and right receptacle cutout 
+N.A. 
+N.A. 
++$33  Specify with left and right receptacle cutout
+ 
+ with left modular furniture data  
+ 
+ 
+ 
+ and left modular furniture data cutout or 
+ 
+ cutout or left NEMA data cutout 
+ 
+ 
+ 
+ left NEMA data cutout.
+ 
+• Left and right receptacle cutout with N.A. 
++$33 
++$33  Specify with left and right receptacle
+ 
+ right modular furniture data cutout   
+ 
+ 
+ cutout and right modular furniture data
+ 
+ or right NEMA data cutout 
+ 
+ 
+ 
+ cutout or right NEMA data cutout.
+Hardwire 
+• Hardwired with receptacle cutout 
++$11 
++$11 
++$11  Specify with receptacle cutout.
+Power/Data 
+• Hardwired with left receptacle  
+N.A.  
+N.A. 
++$22  Specify with left receptacle cutout and
+Cutouts 
+ cutout and left modular furniture  
+ 
+ 
+ 
+ left modular furniture data cutout or left
+(24"H only) 
+ data cutout or left NEMA data cutout  
+ 
+ 
+ NEMA data cutout.
+ 
+• Hardwired with right receptacle cut- +$22 
++$22 
++$22  Specify with right receptacle cutout and
+ 
+ out and right modular furniture data   
+ 
+ 
+ right modular furniture data cutout or right
+ 
+ cutout or right NEMA data cutout 
+ 
+ 
+ 
+ NEMA data cutout.
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. Base
+d 
+dNumber 
+dPrice
+d 
+d 
+d
+18" 
+TS718HSBOB 
+$106
+24" 
+TS724HSBOB 
+$114
+30" 
+TS730HSBOB 
+$129
+36" 
+TS736HSBOB 
+$136
+42" 
+TS742HSBOB 
+$142
+48" 
+TS748HSBOB 
+$153
+60" 
+TS760HSBOB 
+$174
+72" 
+TS772HSBOB 
+$196
+d 
+d 
+d
+Tip: Data cutouts can be 
+placed on the left or the 
+right side of a steel panel 
+skin. Data cutouts cannot be 
+placed on both left and right 
+side of steel panel skins. 
+Tip: Data cutouts is an option 
+under receptacle location. 
+Specify data cutout location 
+under the appropriate recep-
+tacle selection. Data cutout 
+price is additive to the recep-
+tacle cutout price.
+Tip: No data or modular 
+receptacle cutouts are avail-
+able on 18"W steel skins.
+Tip: On 24"W and 30"W 
+steel skins, hardwire recep-
+tacle cutout option will 
+always be with a centered 
+hardwire cutout.
+Tip: On 36"W and wider steel 
+skins, hardwire receptacle 
+cutout option will always 
+come with a left and a right 
+hardwire cutout.
+cNeed help?
+Product details,
+page 126
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steelcase 
+June 2022

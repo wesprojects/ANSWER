@@ -1,0 +1,288 @@
+366 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+X Change-of-Height Junctions—Thin Trim, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cSpeciw cation Information, continued from previous page
+Speciwcation Information 
+ 
+ 
+DCorresponding  
+DStyle 
+DU.S. 
+DOption 
+DStyle 
+DU.S. 
+DOption
+dPanel
+
+
+dNumber 
+dBase 
+d(Add $ to 
+dNumber 
+dBase 
+d(Add $ to
+dHeight
+
+
+d
+dPrice 
+dBase Price) d
+dPrice 
+dBase Price)
+d 
+
+
+
+d
+d 
+d
+d
+d
+d
+dA 
+B 
+C 
+D
+d
+d 
+d 
+d
+d 
+d
+d
+
+
+
+d
+d 
+dOmit Trim d
+d 
+dOmit Trim
+ 
+ 
+ 
+ 
+Painted Trim  
+ 
+Wood Trim
+30" 
+30" 
+30" 
+36" 
+TS7333QTCXJ 
+$385 
+ï$86 
+TS7333QTCXJW 
+$698 
+ï$356
+30" 
+30" 
+30" 
+42" 
+TS73334TCXJ 
+$385 
+ï$86 
+TS73334TCXJW 
+$698 
+ï$356
+30" 
+30" 
+30" 
+48" 
+TS73338TCXJ 
+$385 
+ï$86 
+TS73338TCXJW 
+$698 
+ï$356
+30" 
+30" 
+30" 
+54" 
+TS73335TCXJ 
+$411 
+ï$86 
+TS73335TCXJW 
+$724 
+ï$356
+30" 
+30" 
+30" 
+66" 
+TS73336TCXJ 
+$451 
+ï$90 
+TS73336TCXJW 
+$763 
+ï$360
+36" 
+36" 
+36" 
+42" 
+TS7QQQ4TCXJ 
+$385 
+ï$86 
+TS7QQQ4TCXJW 
+$698 
+ï$356
+36" 
+36" 
+36" 
+48" 
+TS7QQQ8TCXJ 
+$385 
+ï$86 
+TS7QQQ8TCXJW 
+$698 
+ï$356
+36" 
+36" 
+36" 
+54" 
+TS7QQQ5TCXJ 
+$411 
+ï$86 
+TS7QQQ5TCXJW 
+$724 
+ï$356
+36" 
+36" 
+36" 
+66" 
+TS7QQQ6TCXJ 
+$451 
+ï$90 
+TS7QQQ6TCXJW 
+$763 
+ï$360
+42" 
+42" 
+42" 
+48" 
+TS74448TCXJ 
+$411 
+ï$86 
+TS74448TCXJW 
+$724 
+ï$356
+42" 
+42" 
+42" 
+54" 
+TS74445TCXJ 
+$411 
+ï$86 
+TS74445TCXJW 
+$724 
+ï$356
+42" 
+42" 
+42" 
+66" 
+TS74446TCXJ 
+$451 
+ï$86 
+TS74446TCXJW 
+$763 
+ï$356
+42" 
+42" 
+42" 
+78" 
+TS74447TCXJ 
+$523 
+ï$90 
+TS74447TCXJW 
+$834 
+ï$360
+48" 
+48" 
+48" 
+54" 
+TS78885TCXJ 
+$451 
+ï$86 
+TS78885TCXJW 
+$763 
+ï$356
+48" 
+48" 
+48" 
+66" 
+TS78886TCXJ 
+$451 
+ï$86 
+TS78886TCXJW 
+$763 
+ï$356
+48" 
+48" 
+48" 
+78" 
+TS78887TCXJ 
+$523 
+ï$90 
+TS78887TCXJW 
+$834 
+ï$360
+54" 
+54" 
+54" 
+66" 
+TS75556TCXJ 
+$451 
+ï$86 
+TS75556TCXJW 
+$763 
+ï$356
+54" 
+54" 
+54" 
+78" 
+TS75557TCXJ 
+$523 
+ï$86 
+TS75557TCXJW 
+$834 
+ï$356
+66" 
+66" 
+66" 
+78" 
+TS76667TCXJ 
+$523 
+ï$86 
+TS76667TCXJW 
+$834 
+ï$356
+d
+
+
+
+d
+d 
+d
+d
+d 
+d
+cSpeciw cation Information, continued on next page
+A
+B
+C
+D
+Tip: Junction includes:
+• X change-of-height 
+ junction
+• Inside corner light seals
+• End-of-run change-of-
+ height trim
+• Change-of-height junction 
+ cap
+• Aligners
+Steelcase 
+June 2022

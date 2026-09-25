@@ -1,0 +1,273 @@
+Universal Systems Worksurfaces
+Bullet Peninsula Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+570 
+Answer Solutions Specification Guide
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallop on back edge
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+A
+B
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+À ed separately.
+Tip: Long worksurface spans 
+require additional support.
+c See understanding section 
+for details, page 223
+For wood and lami-
+nate group 2 and 3 
+pricing, please refer to 
+the electronic catalog or 
+SmartTools.
+Tip: Bullet peninsula worksur-
+faces are recommended for 
+use with other curved-front 
+shapes such as corner, 
+curved-front worksurfaces.
+c Page 563
+Tip: The same bullet pen-
+insula worksurfaces can be 
+used with either worksur-
+faces with 1¼2" cord drop or 
+with full depth worksurfaces.
+Tip: To specify 3 mm 
+edge proÀ le, no sufÀ x is 
+required. For all other edge 
+proÀ les, add a sufÀ x to the 
+style number. (For exam-
+ple, UPBC3060 becomes 
+UPBC3060SW for wood 
+with square edge proÀ le.)
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Scallop 
+• Omit scallop 
+No cost  
+ 
+ Specify omit scallop.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Columns 
+ 
+ 
+ 
+c Page 596
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure Laminate 
+Wood
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic 
+DWood 
+d(Add $ to 
+dA 
+B 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+dBase Price)
+d 
+ 
+d 
+dEdge 
+d 
+dEdge 
+d
+d 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill
+d 
+ 
+d 
+d 
+d 
+d 
+dFinish on
+d 
+ 
+d 
+d 
+d 
+d 
+dWood
+d 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1
+24" 
+471¼2" 
+UPBC2448 
+$675 
+N.A. 
+N.A. 
+N.A.
+24" 
+591¼2" 
+UPBC2460 
+$686 
+N.A. 
+N.A. 
+N.A.
+24" 
+651¼2" 
+UPBC2466 
+$707 
+N.A. 
+N.A. 
+N.A.
+24" 
+711¼2" 
+UPBC2472 
+$722 
+N.A. 
+N.A. 
+N.A.
+30" 
+471¼2" 
+UPBC3048 
+$784 
+N.A. 
+N.A. 
+N.A.
+30" 
+591¼2" 
+UPBC3060 
+$800 
+$904 
+$1713 
++$78
+30" 
+651¼2" 
+UPBC3066 
+$816 
+$920 
+$1729 
++$80
+30" 
+711¼2" 
+UPBC3072 
+$833 
+$937 
+$1746 
++$85
+d 
+d 
+d 
+d 
+d 
+d 
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

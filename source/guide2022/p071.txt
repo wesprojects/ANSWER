@@ -1,0 +1,80 @@
+Universal Screens with 
+Answer Thin Trim Top Cap
+Panels—Thin Trim
+Panels—Thin Trim
+ 
+Application Topics
+Universal screen can 
+be placed on the top of a 
+panel only. Top bar in the 
+panel must be located in the 
+top position of the frame in 
+order to support Universal 
+screens. Universal screens 
+can be used on base panels 
+or stacking panels.
+The Universal screen 
+cannot be added to a panel 
+segment with a 6" stacker. 
+Universal screens can-
+not be used when a window 
+is located in the top position 
+of the panel.
+Universal screens on 
+Answer panel cannot 
+be added to the lower 
+panel segment of an in-line 
+change-of-height condition. 
+A single Universal 
+screen can span over two 
+or more in-line panels up 
+to 96".
+Universal screens for 
+Answer panel cannot 
+span a corner junction.
+In-line spanning top 
+cap lightseal must be 
+speciÀ ed separately when 
+used in this application. 
+Spanning top cap lightseal 
+attaches to underside of top 
+cap to À ll space between 
+skin lightseals. Specify one 
+for each in-line junction the 
+Universal screen spans.
+Universal screens can be 
+used on a spine panel hosting 
+the same height off-module 
+connection. The off-module 
+panel cannot connect to the 
+spine where the Universal 
+screen bracket connects to 
+the horizontal bar.
+Surface Materials
+Screen
+• Fabric
+c
+See Surface Materials, 
+page 723.
+Brackets
+• 7360 Merle
+Edge (lower segment)
+• P630 Medium Heather  
+ Grey PET
+• P631 Dark Heather Grey 
+ PET
+Top cap
+• Paint
+c
+See Surface Materials, 
+page 723.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Answer Solutions SpeciÀ cation Guide 
+71
+Steelcase 
+June 2022

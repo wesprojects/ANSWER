@@ -1,0 +1,79 @@
+Answer Solutions SpeciÀ cation Guide 
+cAnswer Boundary Screens, continued  81
+Panels—Thin Trim
+ Answer Boundary Screens
+Panels—Thin Trim
+54"
+48"
+42"
+30"
+Answer Panels
+Answer Boundary Screens
+Boundary screen heights align with thin trim top cap panel heights at 30", 42", 48", and 54". 36"H 
+boundary screens are also available.
+Boundary screens have modular heights and widths. Parametric widths are allowed from 24"W to 
+75"W increasing in 1¼16" increments. Boundary screen return widths are available at 18", 24", and 30", 
+and are also available parametrically from 18"W to 75"W increasing in 1¼16" increments.
+Answer boundary screens are available in À ve different conÀ gurations.
+1. Single-sided boundary screens provide boundary to one side of an Answer panel and are 
+speciÀ ed as either left or right. Right handed application is shown above.
+3" Answer 
+panel thickness
+72"
+75"
+ 
+Single-sided boundary screens will always include the 3" thickness of the Answer panel to which 
+they attach. Minimum width for a single-sided boundary screen is 27" (24" inside, and 3" for the Answer 
+panel thickness). The maximum width is 75" (72" inside, and 3" for Answer panel thickness). The above 
+image is shown with a right handed application.
+Note: The above image shows a 75" speciÀ ed width. The planning width is 72".
+2. Spanning boundary screens use one screen segment to provide boundary of equal widths to 
+both sides of an Answer panel.
+75"
+maximum
+width
+3" Answer 
+panel thickness
+13/16" thick 
+boundary screen 
+Spanning boundary screens always 
+extend in equal dimension from the panel to which 
+they attach and include the 3" thickness on the 
+Answer panel. Minimum width for a spanning 
+boundary screen is 51" (48" inside, and 3" for the 
+Answer panel thickness). The maximum width is 
+75" (72" inside and 3" for Answer panel thickness).
+Note: The above image shows a 75" speciÀ ed 
+width. The planning width is 72".
+3. Split boundary screens use two screen 
+segments to provide boundary to both sides of 
+an Answer panel. Both sides of a split boundary 
+screen are the same height.
+3" Answer 
+panel thickness
+Minimum
+width
+24"
+Maximum
+width
+72"
+251/2"
+731/2"
+Split boundary screens can either be equal 
+or asymmetrical in dimension from the panel to 
+which they attach and include the 3" thickness 
+of the Answer panel. Minimum width for a split 
+boundary screen is 251¼2" (24" inside, and 11¼2" for 
+half of the Answer panel thickness) for each side 
+of the panel. The maximum width is 731¼2" (72" 
+inside, and 11¼2" for half of the Answer panel thick-
+ness) for each side of the panel.
+Note: The above image shows a 251¼2" speciÀ ed 
+right width and a 731¼2" speciÀ ed left width. The 
+planning right width is 24" and the planning left 
+width is 72".
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

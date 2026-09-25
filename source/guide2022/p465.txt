@@ -1,0 +1,307 @@
+Answer Solutions SpeciÀ cation Guide 
+465
+Panels—Square and Oval Trim
+ 
+Panel Packages— 
+Square Trim
+Options 
+U.S. Price 
+ Required to Specify
+ Cable Tray  
+• Cable tray 
+No cost  
+ 
+ Specify with cable tray.
+ Base Cable Tray • Base cable tray 
++$    5  
+ 
+ Specify with base cable tray.
+ Power with 
+• One pass-through power 
++$222  
+ 
+ Specify with one pass-through harness
+ 3+1, 2+2, or 
+ harness 18"W to 48"W 
+ 
+ 
+ 
+ and indicate wiring schematic type
+ three separate 
+  
+ 
+ 
+ 
+ (3+1, 2+2, or 3SN).
+ neutrals (3SN) 
+• One pass-through power 
++$248  
+ 
+ Specify with one pass-through harness
+ wiring 
+ harness 60"W or 72"W 
+ 
+ 
+ 
+ and indicate wiring schematic type 
+ schematics 
+  
+ 
+ 
+ 
+ (3+1, 2+2, or 3SN).
+  
+• One powerkit 24"W to 48"W 
++$275  
+ 
+ Specify with one powerkit and indicate
+  
+  
+ 
+ 
+ 
+ wiring schematic type (3+1, 2+2, or 3SN).
+  
+• One powerkit 60"W or 72"W 
++$415  
+ 
+ Specify with one powerkit and indicate
+  
+  
+ 
+ 
+ 
+ wiring schematic type (3+1, 2+2, or 3SN).
+c Options, continued from previous page
+Panels—Square and 
+Oval Trim
+Speciwcation Information
+ 
+42"H
+48"H  
+54"H 
+66"H
+ 
+ 
+ 
+ 
+DWidth DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase 
+ 
+d
+d
+dPrice
+d
+dPrice
+d
+dPrice
+d
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Full Skin Tackable Acoustical Panel Packages
+18" 
+TS74218STF 
+$ɚɚ544 
+TS74818STF 
+$ɚɚ555 
+TS75418STF 
+$ɚɚ571 
+TS76618STF 
+$ɚɚ665
+24" 
+TS74224STF 
+$ɚɚ587 
+TS74824STF 
+$ɚɚ592 
+TS75424STF 
+$ɚɚ602 
+TS76624STF 
+$ɚɚ702
+30" 
+TS74230STF 
+$ɚɚ623 
+TS74830STF 
+$ɚɚ630 
+TS75430STF 
+$ɚɚ643 
+TS76630STF 
+$ɚɚ740
+36" 
+TS74236STF 
+$ɚɚ670 
+TS74836STF 
+$ɚɚ683 
+TS75436STF 
+$ɚɚ697 
+TS76636STF 
+$ɚɚ784
+42" 
+TS74242STF 
+$ɚɚ745 
+TS74842STF 
+$ɚɚ749 
+TS75442STF 
+$ɚɚ763 
+TS76642STF 
+$ɚɚ857
+48" 
+TS74248STF 
+$ɚɚ842 
+TS74848STF 
+$ɚɚ853 
+TS75448STF 
+$ɚɚ870 
+TS76648STF 
+$ɚɚ963
+60" 
+TS74260STF 
+$ɚɚ999 
+TS74860STF 
+$1009 
+TS75460STF 
+$1029 
+TS76660STF 
+$1111
+72" 
+TS74272STF 
+$1160 
+TS74872STF 
+$1174 
+TS75472STF 
+$1197 
+TS76672STF 
+$1273
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Full Skin Performance Tackable Acoustical Panel Packages
+18" 
+TS74218SPF 
+$ɚɚ595 
+TS74818SPF 
+$ɚɚ606 
+TS75418SPF 
+$ɚɚ619 
+TS76618SPF 
+$ɚɚ726
+24" 
+TS74224SPF 
+$ɚɚ634 
+TS74824SPF 
+$ɚɚ648 
+TS75424SPF 
+$ɚɚ665 
+TS76624SPF 
+$ɚɚ758
+30" 
+TS74230SPF 
+$ɚɚ682 
+TS74830SPF 
+$ɚɚ692 
+TS75430SPF 
+$ɚɚ708 
+TS76630SPF 
+$ɚɚ802
+36" 
+TS74236SPF 
+$ɚɚ731 
+TS74836SPF 
+$ɚɚ745 
+TS75436SPF 
+$ɚɚ754 
+TS76636SPF 
+$ɚɚ849
+42" 
+TS74242SPF 
+$ɚɚ799 
+TS74842SPF 
+$ɚɚ813 
+TS75442SPF 
+$ɚɚ826 
+TS76642SPF 
+$ɚɚ933
+48" 
+TS74248SPF 
+$ɚɚ914 
+TS74848SPF 
+$ɚɚ932 
+TS75448SPF 
+$ɚɚ956 
+TS76648SPF 
+$1056
+60" 
+TS74260SPF 
+$1080 
+TS74860SPF 
+$1093 
+TS75460SPF 
+$1119 
+TS76660SPF 
+$1208
+72" 
+TS74272SPF 
+$1257 
+TS74872SPF 
+$1273 
+TS75472SPF 
+$1289 
+TS76672SPF 
+$1384
+d
+d
+d
+d
+d
+d
+d
+d
+d
+Steelcase 
+June 2022

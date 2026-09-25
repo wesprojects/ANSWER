@@ -1,0 +1,199 @@
+502 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Back Painted Glass To The Floor Skins
+Standard Includes 
+ Required to Specify
+• Skin: back painted glass
+• Trim: paint
+• Attachment hardware
+Tip: Rare earth magnets 
+should be used with mag-
+netic backer.
+Tip: Remember to omit base 
+trim(s) on horizontal frame 
+package when using a skin 
+to the Á oor.
+Tip: Back painted glass 
+skins only work on junctions 
+manufactured on or after 
+October 10, 2011.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: When specifying skins, 
+the total skin height will 
+be 6" less than the panel 
+height. Skins to the Á oor 
+are indicated by an F sufÀ x. 
+Plan 6" shorter than panel 
+height, but skins to the Á oor 
+are taller in actual height to 
+cover the base trim area.
+Options 
+U.S. Price 
+ Required to Specify
+Magnetic  
+• Magnetic backer 
+Prices below 
+ Specify with backer.
+Backer
+Speciwcation Information
+
+
+ 
+24"H 
+30"H
+DDimensions DStyle
+DU.S. 
+DOption 
+DDimensions DStyle
+DU.S. 
+DOption
+dW 
+dNumber 
+dBase 
+d(Add $ to
+dW 
+dNumber 
+dBase 
+d(Add $ to
+d 
+d 
+dPrice 
+dBase Price) 
+d 
+d 
+dPrice 
+dBase Price)
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+d 
+d 
+d 
+dMagnetic  
+d 
+d 
+d 
+dMagnetic 
+d 
+d 
+d
+dBacker
+d 
+d 
+d
+dBacker
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+18" 
+TS72418GSF $ɚɚ943 
++$ɚɚ397 
+18" 
+TS73018GSF $1037 
++$ɚɚ437
+24" 
+TS72424GSF $1112 
++$ɚɚ471 
+24" 
+TS73024GSF $1245 
++$ɚɚ527
+30" 
+TS72430GSF $1281 
++$ɚɚ539 
+30" 
+TS73030GSF $1457 
++$ɚɚ613
+36" 
+TS72436GSF $1500 
++$ɚɚ632 
+36" 
+TS73036GSF $1717 
++$ɚɚ725
+42" 
+TS72442GSF $1764 
++$ɚɚ745 
+42" 
+TS73042GSF $2035 
++$ɚɚ859
+48" 
+TS72448GSF $1922 
++$ɚɚ810 
+48" 
+TS73048GSF $2228 
++$ɚɚ938
+60" 
+TS72460GSF $2352 
++$ɚɚ992 
+60" 
+TS73060GSF $2750 
++$1160
+72" 
+TS72472GSF $2724 
++$1149 
+72" 
+TS73072GSF $3197 
++$1347
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+
+ 
+36"H
+18" 
+TS73618GSF $1132 
++$ɚɚ477
+24" 
+TS73624GSF $1380 
++$ɚɚ581
+30" 
+TS73630GSF $1631 
++$ɚɚ687
+36" 
+TS73636GSF $1933 
++$ɚɚ814
+42" 
+TS73642GSF $2302 
++$ɚɚ969
+48" 
+TS73648GSF $2531 
++$1068
+60" 
+TS73660GSF $3145 
++$1325
+72" 
+TS73672GSF $3669 
++$1545
+d 
+d 
+d
+d
+1 Style number
+2 Back painted glass color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 137
+Steelcase 
+June 2022

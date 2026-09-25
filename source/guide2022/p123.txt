@@ -1,0 +1,57 @@
+Answer Solutions SpeciÀ cation Guide 
+123
+42" W scale 80
+42" W scale 80
+Beams
+ 
+81¼2"H
+3'4"W 
+•
+4'W 
+•
+5'W 
+•
+6'W 
+•
+7'W 
+•
+8'W 
+•
+9'W 
+•
+10'W 
+•
+Panel and Beam Foot
+21"L
+scale 100
+scale 100
+X-Post
+Y-Post
+Posts
+ 
+33"H
+4"D 
+•
+Fence Vertical Post Tube
+16"H 
+ Understanding
+c Page 144
+ Specifying
+c Page 516
+ Understanding
+c Page 144
+ Specifying
+c Page 517
+ Understanding
+c Page 146
+ Specifying
+c Page 519
+ Understanding
+c Page 144
+ Specifying
+c Page 518
+Shared Components
+Statement of Line
+Shared Components
+Steelcase 
+June 2022

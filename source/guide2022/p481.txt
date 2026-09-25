@@ -1,0 +1,219 @@
+Answer Solutions SpeciÀ cation Guide 
+481
+Shared Components
+Shared Components and Wiring and Cabling
+Markerboard Surfaces for Steel Skins 
+For Panel Buildups 
+ 
+Standard Includes 
+ Required to Specify
+• Flexible, magnetic markerboard panel surface to
+attach to steel skin: white plastic
+ Style number
+Standard Includes 
+ Required to Specify
+• Flexible, magnetic markerboard panel surface to attach 
+to steel skin: white plastic
+• Height: 12"H–36"H
+• Width: 12"W–96"W
+1 Style number
+2 Height
+3 Width
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Markerboard Surfaces 
+for Steel Skins
+Parametric Markerboard Surface for Steel Skins
+Modular Markerboard Surface for Steel Skins
+Speciwcation Information
+DStyle 
+DWidth 
+DU.S. Prices
+dNumber
+d
+d12"H–163¼16"H 
+d161¼4"H–2315¼16"H 
+d24"H–3515¼16"H 
+d36"H
+TS7MBSP 
+12"W–1715¼16"W 
+$115 
+$128 
+$140 
+$168
+ 
+18"W–2315¼16"W 
+$121 
+$136 
+$147 
+$178
+ 
+24"W–2915¼16"W 
+$126 
+$145 
+$157 
+$193
+ 
+30"W–3515¼16"W 
+$131 
+$154 
+$165 
+$203
+ 
+36"W–4115¼16"W 
+$137 
+$167 
+$171 
+$212
+ 
+42"W–4715¼16"W 
+$149 
+$172 
+$178 
+$224
+ 
+48"W–5315¼16"W 
+$157 
+$182 
+$186 
+$237
+ 
+54"W–5915¼16"W 
+$162 
+$193 
+$196 
+$249
+ 
+60"W–6515¼16"W 
+$170 
+$201 
+$202 
+$261
+ 
+66"W–7115¼16"W 
+$174 
+$209 
+$219 
+$270
+ 
+72"W–7715¼16"W 
+$182 
+$219 
+$229 
+$285
+ 
+78"W–8315¼16"W 
+$191 
+$227 
+$241 
+$298
+ 
+84"W–8915¼16"W 
+$199 
+$237 
+$255 
+$311
+ 
+90"W–9515¼16"W 
+$207 
+$248 
+$266 
+$328
+ 
+96"W 
+$219 
+$268 
+$280 
+$349
+d
+d
+d
+d
+d
+d
+Speciwcation Information
+ 
+12"H 
+24"H 
+36"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice 
+dNumber 
+dPrice 
+dNumber 
+dPrice
+d
+d
+d
+d
+d
+d
+d
+24" 
+TS71224MBS 
+$126 
+TS72424MBS 
+$157 
+TS73624MBS 
+$193
+30" 
+TS71230MBS 
+$131 
+TS72430MBS 
+$165 
+TS73630MBS 
+$203
+36" 
+TS71236MBS 
+$137 
+TS72436MBS 
+$171 
+TS73636MBS 
+$212
+42" 
+TS71242MBS 
+$149 
+TS72442MBS 
+$178 
+TS73642MBS 
+$224
+48" 
+TS71248MBS 
+$157 
+TS72448MBS 
+$186 
+TS73648MBS 
+$237
+d
+d
+d
+d
+d
+d
+d
+cNeed help?
+Product details,
+page 130
+cNeed help?
+Product details,
+page 130
+Tip: Remember to order 
+steel skin of the same size 
+to support markerboard 
+surface.
+c Page 476
+Steelcase 
+June 2022

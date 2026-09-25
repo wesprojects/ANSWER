@@ -1,0 +1,143 @@
+Answer Solutions Specification Guide 
+cLegs for Universal Tables, continued  639
+Tip: Corner tables require a 
+leg in the back corner. Be 
+sure to order fifth leg if 
+specifying a package of four.
+Tip: See Table and Leg 
+Combinations page for 
+number of legs required 
+per table.
+cPage 287
+Tip: Dimensions listed are 
+nominal and include the 
+thickness of a table.
+Standard Includes 
+ Required to Specify
+• Table legs: paint
+• Glides, if selected: paint to match legs
+• Locking casters, if selected: paint to match legs
+• Attachment hardware
+Adjustable-Height Legs
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Tables
+ 
+ 
+Legs for Universal Tables
+Universal Tables
+1 Style number
+2 Paint color number for leg
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 284
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+• Paint price group 1  
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2  
++$27 per leg 
+ 
+ Specify paint color number.
+Speciwcation Information
+DPlanning 
+DStyle 
+DU.S. 
+DPlanning 
+DStyle 
+DU.S.
+dHeight 
+dNumber 
+dBase  
+dHeight 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d
+ 
+d 
+dPrice
+d 
+d 
+d
+d
+ 
+d 
+d
+
+Adjustable-Height Leg  
+Package of Four Adjustable-Height  
+with Glide  
+ 
+Legs with Glides
+251¼2"–311¼2" 
+BADJ 
+$301 
+251¼2"–311¼2" BADJ4 
+$1204 
+ 
+d 
+d 
+d
+d
+ 
+d 
+d
+
+Adjustable-Height Leg  
+Package of Four Adjustable-Height 
+with Caster 
+ 
+Legs with Casters
+251¼2"–311¼2" 
+BADJC 
+$335 
+251¼2"–311¼2" BADJ4C 
+$1340 
+ 
+ 
+d 
+d 
+d
+d
+ 
+d 
+d
+
+ 
+ 
+ 
+Package of Four Adjustable-
+ 
+ 
+ 
+Height Legs with Two Glides 
+ 
+ 
+ 
+and Two Casters 
+ 
+ 
+ 
+251¼2"–311¼2" BADJ4M 
+$1272
+
+
+
+d
+d
+d
+Steelcase 
+June 2022

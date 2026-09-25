@@ -1,0 +1,101 @@
+Answer Solutions SpeciÀ cation Guide 
+cStacking Junctions—Thin Trim, continued  33
+Panels—Thin Trim
+Stacking Junctions—
+Thin Trim
+Panels—Thin Trim
+Wiring &  Cabling
+Junction tall sleeves 
+can be ordered to cover 
+the exposed metal edges 
+in the large cable routing 
+opening of the junctions 
+manufactured on or after 
+October 10, 2011.
+Horizontal routing of 
+power and cables can 
+be accommodated through 
+openings in stacking 
+junctions.
+Power and data cables 
+cannot route through the 
+joint, the top of base panel 
+and bottom of 6"H stacker 
+interfere. 
+Powerkit installation 
+for stacking compo-
+nents is the same process 
+as for installation in base 
+panels.
+ Connections
+Skins on base panel do 
+not need to be removed 
+to install a stacking junction 
+in most cases.
+Fork connector
+scale1
+Fork connector is includ-
+ed with stacking junction 
+for proper connection to the 
+base panel. Two fork con-
+nectors are included with in-
+line, L, and V stacking junc-
+tions, three are included with 
+T and Y stacking junctions, 
+and four are included with 
+X stacking junctions. One 
+fork connector is included 
+with each wall-start stacking 
+junction and end-of-run.
+Fork connectors secure 
+into the base junction. 
+Stacking junction is bolted 
+to fork connectors.
+V-stacking junction 
+includes junction and fork 
+connectors. Full height trim, 
+inside corner light seal(s), 
+junction cap and aligner(s) 
+must be speciÀ ed separately.
+Y-stacking junction 
+includes junction and fork 
+connectors.
+Full height vertical 
+trim is available in the 
+specifying section in 30", 
+36", 42", 48", 54", 60", 66", 
+72", 78", 84", and 90".
+c Specifying thin, page 380.
+Standard skins, cable 
+trays, and powerkits 
+are used in stackable solu-
+tions. To maximize the ben-
+eÀ ts of stackability, consider 
+matching the skin height to 
+the stacking junction height.
+T-stacking junction 
+includes junction and fork 
+connectors. Full height trim, 
+inside corner light seal(s), 
+junction cap and aligner(s) 
+must be speciÀ ed separately.
+X-stacking junction 
+includes junction and fork 
+connectors.
+In-line stacking junc-
+tion includes junction and 
+fork connectors.
+L-stacking junction 
+includes junction and fork 
+con nectors. Full height trim, 
+inside corner light seal(s), 
+junction cap and aligner(s) 
+must be speciÀ ed separately.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

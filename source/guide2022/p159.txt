@@ -1,0 +1,57 @@
+Answer Solutions SpeciÀ cation Guide 
+cStability Guidelines, continued  159
+Stability Guidelines
+Shared Components
+Shared Components
+Guidelines for Bench Conwgurations with Top Cap Mounted Storage, continued
+Single Sided Bench with Aisleway Top Cap Mounted Storage
+30
+6
+ 
+For single sided bench with aisleway top cap mounted storage, 
+worksurface support must include at least one of the following:
+• Pedestal with À ller
+• 1H, 1.5H, or 2H (18" on 24"D) cabinet with panel-to-storage connector in 
+ perpendicular application.
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• 1H, 1.5H, or 2H (24"D) cabinet with panel-to-storage connector in parallel application.
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• Tower with medium storage-to-panel connector
+End-of-run support options include: 
+• Post leg and cantilever
+• Half loop leg
+• Open loop leg
+• Closed loop leg
+• Worksurface end panel
+• Pedestal with À ller
+• 1H, 1.5H, or 2H (18" on 24"D) cabinet with panel-to-storage connector in perpendicular application.
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• 1H, 1.5H, or 2H (24"D) cabinet with panel-to-storage connector in parallel application. 
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• Tower with medium storage-to-panel connector
+For single sided bench applications with aisleway top cap mounted storage, worksurface depth must be 30"D.
+30"D worksurfaces require legs in the front of each worksurface on both ends of the worksurface.
+Center support panels cannot be used as supports.
+Slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.
+48" max
+6' max
+Tip: The maximum panel height with Duo, Currency 
+Enhanced storage, and Elective Elements storage is 48". 
+The maximum panel height with c:scape storage is 42".
+Tip: In aisleway applications, the back of the storage over-
+hangs the panel 3.5".
+Tip: Aisleway mounting can accept storage up to 17"D.
+Tip: When using storage to panel connectors to support the 
+panel application, the maximum distance between storage to 
+panel connection is 6'.
+1
+4
+1
+2
+3
+4
+2 3
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

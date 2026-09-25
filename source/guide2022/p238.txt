@@ -1,0 +1,71 @@
+238 
+Answer Solutions SpeciÀ cation Guide
+Universal Systems Worksurfaces
+Off-Module Worksurface-to-Panel Connector
+Product Details
+Connects 18"D to 30"D 
+worksurfaces to wider pan-
+els eliminating the need to 
+match panel width to work-
+surface depth. Replaces side 
+supports, cantilevers, and the 
+need for front edge support 
+with worksurfaces greater 
+than 26"D. 
+Application Topics
+Worksurface can be 
+positioned anywhere along 
+the width of the off-module 
+connector.
+Off-module worksurface 
+to panel connector 
+cannot be used at the same 
+elevation on adjacent in-line 
+panels.
+Off-module 
+worksurface-to-panel 
+connector can be used to 
+support the diagonal end 
+of a Universal straight 120° 
+worksurface.
+Off-module worksurface 
+to panel connector can 
+support a single worksurface 
+only.
+Off-module worksur-
+face to panel connector 
+cannot replace cantilevers 
+and side support brackets 
+when worksurface is parallel 
+to the panel.
+Connector attaches into 
+the slotted channels of the 
+panel junctions.
+Off-module
+bracket
+Slatwall
+skin
+Off-module worksur-
+face to panel connec-
+tor cannot be used in front 
+of or on the adjacent panel 
+next to a 12"H or a 24"H 
+slatwall skin positioned in 
+the second 12" skin module 
+from the base of the panel. 
+Surface Materials
+Connector
+• Paint
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Actual Dimensions
+Depth 
+1¼2"
+Width 
+34", 30", 36", 42", 48", 60", or 72"
+Height 
+3"
+Steelcase 
+June 2022

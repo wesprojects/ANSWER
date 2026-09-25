@@ -1,0 +1,8 @@
+repriced 2641 rows, unmatched 1
+
+thin-base-horizontal-frame-package            TS772THF       NOTE 2022 run longer than 2015 ([264, 335, 15, 31]), cells taken by the 2015 positions
+square-v-y-base-junction                      TS748SVPJW     NOTE style absent from the 2015 text (corrected style); 2022 cells taken in field order
+oval-v-y-base-junction                        TS748VPJ       NOTE style absent from the 2015 text (corrected style); 2022 cells taken in field order
+wc-controlled-receptacle-stickers             TS7CNTSTKR     FAIL fields [('price', 38)] 2015 runs [[38]] 2022 runs []
+uw-center-support-panels                      UCSPS          NOTE 2022 run shorter than 2015 ([225]), cells taken by the 2015 positions
+uw-end-panels                                 UEP30S         NOTE 2022 run longer than 2015 ([699, 17, 30]), cells taken by the 2015 positions

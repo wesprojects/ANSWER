@@ -1,0 +1,226 @@
+630 
+Answer Solutions Specification Guide
+Universal Tables
+Tapered Peninsula Tables
+High-Pressure Laminate or Wood Veneer
+ 
+Standard Includes 
+ Required to Specify
+• Table: High-Pressure Laminate price group 1 or wood 
+group 1 veneer
+• Laminate table: plastic 3 mm edge profile or P-edge profile 
+on all sides
+• Wood table: wood square 3 mm edge profile on all sides
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Legs to support 
+Universal Tables must be 
+speciÀ ed separately.
+Tip: For leg and support
+guidelines, see 
+Table and Leg Combinations, 
+cPage 287
+Tip: To specify 3 mm edge 
+proÀ le, no sufÀ x is required. 
+For other edge proÀ les, add 
+sufÀ x to the style number. 
+(For example, BFTP48 
+becomes BFTP48SW for 
+wood square edge proÀ le.)
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate tables
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer tables
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+ 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Related 
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+ Products 
+• Worksurface power and communication components 
+c Page 611
+  
+• Legs for Universal Tables 
+ 
+ 
+ 
+c Page 638
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure 
+ 
+Laminate 
+Wood
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensionsDStyle 
+DPlastic 
+DPlastic 
+DWood 
+DOption
+dA 
+B 
+C dNumber 
+d3 mm  
+dP-Edge 
+dSquare 
+d(Add $ to 
+d 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price) 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on 
+d
+
+
+d
+dNo Sufw x dSufw x
+dSufw x
+dWood
+d 
+ 
+ 
+d 
+d
+dP
+dSW 
+dGroup 1
+27" 32" 
+48" 
+BFTP48 
+$922 
+$1092 
+$2117 
++$72
+33" 40" 
+60" 
+BFTP60 
+$941 
+$1111 
+$2199 
++$78
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P Laminate with plastic P-edge
+SW Wood with square edge
+c
+See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for table
+3 Plastic color number for edge on
+laminate table, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 280
+A
+B
+C
+Steelcase 
+June 2022

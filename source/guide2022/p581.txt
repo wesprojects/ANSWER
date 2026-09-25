@@ -1,0 +1,257 @@
+Answer Solutions Specification Guide 
+581
+Universal Systems Worksurfaces 
+ 
+  
+Transaction Worksurfaces
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style num-
+ber. (For example, UTR1636A 
+becomes UTR1636ASW 
+for wood with square edge 
+profile.)
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems 
+Worksurfaces
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure Laminate 
+Wood
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption
+DDimensions DPanel DStyle 
+DPlastic 
+DPlastic 
+DWood 
+d(Add $ to 
+dA 
+B 
+dWidth dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+dBase Price)
+d 
+ 
+d 
+d 
+dEdge 
+d 
+dEdge 
+d
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+dFull-Fill
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+dFinish on
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+dWood
+d 
+ 
+d 
+d 
+dNo Sufw x 
+dSufw x P 
+dSufw x SW 
+dGroup 1
+With Brackets and Top Caps for Use with Answer Panels with Thin Trim
+15" 
+28" 
+30" 
+UTR1630TA 
+$434 
+$500 
+N.A. 
+N.A.
+15" 
+34" 
+36" 
+UTR1636TA 
+$471 
+$537 
+$1369 
++$63
+15" 
+40" 
+42" 
+UTR1642TA 
+$506 
+$572 
+$1404 
++$63
+15" 
+46" 
+48" 
+UTR1648TA 
+$538 
+$610 
+$1436 
++$63
+15" 
+58" 
+60" 
+UTR1660TA 
+$583 
+$655 
+$1577 
++$63
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+d
+With Brackets and Top Caps for Use with Answer Panels with Square Trim
+15" 
+23" 
+30" 
+UTR1630SA 
+$440 
+$506 
+N.A. 
+N.A.
+15" 
+29" 
+36" 
+UTR1636SA 
+$476 
+$542 
+$1374 
++$63
+15" 
+35" 
+42" 
+UTR1642SA 
+$515 
+$581 
+$1413 
++$63
+15" 
+41" 
+48" 
+UTR1648SA 
+$549 
+$621 
+$1447 
++$63
+15" 
+53" 
+60" 
+UTR1660SA 
+$594 
+$666 
+$1588 
++$63
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+d
+With Brackets and Top Caps for Use with Answer Panels with Oval Trim
+15" 
+23" 
+30" 
+UTR1630A 
+$440 
+$506 
+N.A. 
+N.A.
+15" 
+29" 
+36" 
+UTR1636A 
+$476 
+$542 
+$1389 
++$63
+15" 
+35" 
+42" 
+UTR1642A 
+$515 
+$581 
+$1428 
++$63
+15" 
+41" 
+48" 
+UTR1648A 
+$549 
+$621 
+$1462 
++$63
+15" 
+53" 
+60" 
+UTR1660A 
+$594 
+$666 
+$1594 
++$94
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+d
+Tip: Actual width of Answer 
+transaction worksurface, 
+using square and oval trim, 
+is 7" shorter than the nom-
+inal planning dimension to 
+accommodate change of 
+panel height applications.
+Tip: Actual width of Answer 
+transaction worksurface using 
+thin trim is 2" shorter than the 
+nominal planning dimension 
+to accommodate change of 
+panel height applications.
+A
+B
+Steelcase 
+June 2022

@@ -1,0 +1,284 @@
+Answer Solutions SpeciÀ cation Guide 
+cSurface Materials, continued  727
+Surface Materials
+E = Established
+Surface Materials
+Glass
+Steelcase Surfaces
+Applies to: 
+•  Back painted glass skins
+6521 TrufÁ e
+6571 Aubergine
+6575 Peacock
+6576 Jungle
+6577 Merlot
+6578 Lagoon
+6579 Saffron
+6581 Blue Jay
+6584 Tangerine
+6586 Green Citrine
+6588 Purple Berry
+6589 Mercury
+6591 Merle
+6593 Greyscale
+6595 Winter
+6597 Honey
+6BB1 Cloud
+6BB2 Rose Quartz
+6BB3 Olivine
+6BB4 Electric Indigo
+Applies to:
+•  Universal over the case 
+or Universal in the case 
+bin picture frame door 
+glass insert
+ 6580 Ice White
+Acrylic
+Steelcase Surfaces
+Applies to:
+•  Universal over the case 
+or Universal in the case 
+bin picture frame door 
+acrylic insert
+6538 Satin
+Vertical Surface 
+Fabric
+c See Surface Materials 
+Reference Manual for a 
+listing of available fabrics for 
+Divisio side screen.
+Applies to:
+• Knit screens
+B902 Soft White
+B903 Fog
+B904 Sand
+Applies to:
+•  Fabric skins and trims
+Steelcase Surfaces
+Price Group A 
+Sprite
+5540 Khaki
+5541 Snow
+5543 Linen
+5544 Sherbet
+5545 Powder
+5547 Sky
+Price Group 1
+Abacus E
+P123 Portico
+P124 Opus
+P125 Cusp
+P126 Artifact
+Alloy 
+P525 Polar
+P526 Skim
+P527 Bubbly
+P528 Tern
+P529 Shore
+P530 Asti
+P531 Silver
+P532 Oxide
+P533 Element
+P534 Construct
+P535 Currency
+P536 Iron
+Boccie
+P200 New Rice
+P201 New Almond
+P203 New Camel
+P204 New Opal
+P205 New Mist
+P206 New Plum
+P208 New Spearmint
+P209 New Sky
+Buzz2
+5F03 Tomato
+5F04 Red E
+5F05 Burgundy
+5F06 Sky E
+5F07 Blue
+5F08 Navy
+5F15 Stone
+5F16 Grey
+5F17 Black
+5G50 Dunegrass
+5G51 Sable
+5G55 Pumpkin
+5G57 Rouge
+5G59 Meadow
+5G61 Cyan
+5G62 Atlantic
+5G63 Crocus
+5G64 Alpine
+5G65 Tornado
+Applies to:
+•  P-edge on Universal 
+systems worksurfaces 
+and tables with High-
+Pressure Laminate
+6000 Black
+6009 Arctic White
+6052 Milk
+6053 Seagull
+6249 Platinum Solid
+6527 Merle
+6654 Sand
+6695 Midnight
+6697 Fog
+6698 Fieldstone
+Tip: Light color plastic edges 
+are susceptible to degrada-
+tion due to normal wear and 
+tear. Staining (e.g., ball point 
+pen or clothing dyes such as 
+blue jeans) and dirt effects 
+are more pronounced in light 
+colors and are not consid-
+ered defects.
+Accessory Paint
+Steelcase Surfaces
+Applies to:
+• Cabby legs with glides
+•  Adjustable-height legs 
+with glides
+• Universal table bases
+4140 Arctic White Gloss
+4144 Black Gloss
+Metal
+Steelcase Surfaces
+Applies to:
+• Elliptical leg
+9201 Polished Chrome
+Applies to:
+•  21¼2" round grommet
+9201 Polished Chrome
+9211 Nickel
+Plated Metal
+Steelcase Surfaces
+Applies to:
+• Universal storage pulls
+0835 Black
+9201 Polished Chrome
+9211 Nickel
+9212 Silver
+Applies to:
+•  3 mm and 1 mm front 
+edge proÀ le on Universal 
+systems worksurfaces 
+and tables
+•   1 mm square edge proÀ le 
+on Universal storage 
+laminate tops
+6000 Black
+6009 Arctic White
+6034 Natural Cherry
+6036 Medium Cherry
+6037 Winter on Maple
+6038 Blonde on Maple E
+6041 Natural Walnut E
+6052 Milk
+6053 Seagull
+6169 Stone
+6170 Mocha
+61AA Persian Salt
+61AB Rose
+61AC Indigo
+61AD Green Citrine
+61AE Dark Olivine
+61AF Cloudy
+6213 Acacia
+6219 Clear Oak
+6231 Graphite Walnut
+6234 Clear Cherry E
+6237 Clear Maple
+6242 Virginia Walnut
+6243 Blackwood E
+6245 Clear Walnut
+6249 Platinum Solid
+6271 Plywood
+6527 Merle
+6619 Ice E
+6631 Cream E
+6635 Dawn E
+6636 Mist
+6654 Sand
+6655 Warm White
+6676 Marbled Maple E
+6677 Chocolate Walnut E
+6678 Marbled Cherry E
+6695 Midnight
+6697 Fog
+6698 Fieldstone
+66WA Grey Kingswood
+66WB Planked Walnut
+66WD Resolute Walnut
+66WE Natural Recon
+66WF Smoked Walnut
+6703 Ash Wenge
+6704 Storm Wenge
+6705 Bisque Wenge
+6706 Clay Wenge
+6707 Ash Noce
+6708 Bisque Noce
+6709 Clay Noce
+6710 Storm Noce
+6T02 Fawn Cypress
+6T04  Saddle Oak
+6T05  Veranda Teak
+6T07  Walnut Heights
+6T08  Aggregate
+6T09  Gravel
+6T10  Cement
+6T12  Sheetrock
+Plastic
+Steelcase Surfaces
+Applies to:
+• Oval trim components
+6000 Black
+6009 Arctic White
+6052 Milk
+6053 Seagull
+6271 Plywood
+6654 Sand
+6685 Champagne
+6686 Gold Dust E
+6695 Midnight
+6696 Sterling E
+6697 Fog
+6698 Fieldstone
+6699 Platinum
+Applies to:
+• Oval pull
+6000 Black
+6249 Platinum Solid
+6654 Sand
+6695 Midnight
+6698 Fieldstone
+Applies to:
+• Oval trim components
+• Oval pulls
+Tip: The following plastic is 
+available for existing custom-
+ers only. The matching paints 
+have moved to the Surface 
+Materials Reference Manual.
+6651 Tungsten E
+Applies to:
+•  Duplex cable grommets
+6000 Black
+6009 Arctic White
+6249 Platinum Solid
+6607 Woodrose
+6608 Driftwood
+6609 Smoke
+6612 Grey V2 E
+6655 Warm White
+6697 Fog
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

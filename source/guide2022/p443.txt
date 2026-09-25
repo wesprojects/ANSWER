@@ -1,0 +1,128 @@
+Answer Solutions SpeciÀ cation Guide 
+443
+Stacking End-of-Run Panel
+Junctions—Square and 
+Oval Trims
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Square and Oval Trim
+Stacking End-of-Run Panel Junctions—Square and 
+Oval Trims
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Junction
+• Trim on end-of-run junction: paint price group 1 or 
+wood group 1
+• Fork connectors
+• Stacking trim aligner: black plastic only
+Panels—Square and 
+Oval Trim
+Tip: Junction cap is not 
+included. Use the junction 
+cap from the base junction 
+you are stacking on.
+Tip: For further information 
+about fabric direction,
+cPage 730.
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 100
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+ Trim
+ Materials 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$  15  
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  31  
+ 
+ Specify paint color number.
+  
+ Steel end-of-run junction trim
+  
+• Fabric price group 1, 2, 3, 
++$114  
+ 
+ Specify fabric color number for trim.
+  
+ 4, 5, or COM
+  
+• Fabric direction
+  
+ –Horizontal application 
+No cost  
+ 
+ Specify with horizontal application.
+  
+ –(standard)
+  
+ –Vertical application 
+No cost  
+ 
+ Specify with vertical application.
+  
+ Wood end-of-run junction trim
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+Speciwcation Information
+DHeight 
+DStyle 
+DU.S. 
+d 
+dNumber 
+dBase
+d 
+d 
+dPrice
+d 
+d 
+d
+Steel Trim
+12" 
+TS712EPJS 
+$264
+18" 
+TS718EPJS 
+$264
+24" 
+TS724EPJS 
+$264
+d
+d
+d
+Wood Trim
+12" 
+TS712EPJSW 
+$444
+18" 
+TS718EPJSW 
+$444
+24" 
+TS724EPJSW 
+$444
+d
+d
+d
+Steelcase 
+June 2022

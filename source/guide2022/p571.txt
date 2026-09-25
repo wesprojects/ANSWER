@@ -1,0 +1,190 @@
+Answer Solutions Specification Guide 
+571
+Universal Systems Worksurfaces
+Angled Peninsula Worksurfaces
+High-Pressure Laminate 
+ 
+Tip: Supports for freestanding 
+and panel-mounted appli-
+cations must be specified 
+separately.
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+• Worksurface: High-Pressure Laminate price group 1
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+C
+A
+B
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Angled Peninsula 
+Worksurfaces
+Universal Systems 
+Worksurfaces
+Speciwcation Information
+ 
+U.S. Base Price 
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+ 
+DStyle 
+DPlastic 
+DDimensions  
+DStyle 
+DPlastic
+dA 
+B 
+C 
+ 
+dNumber 
+d3 mm  
+dA B 
+C 
+ 
+dNumber 
+d3 mm
+d 
+ 
+ 
+ 
+d 
+dEdge  
+d 
+ 
+ 
+ 
+d 
+dEdge
+d 
+ 
+ 
+ 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+With 1/2" Cord Drop  
+ 
+ 
+With Full Depth
+231¼2" 231¼2" 48" 
+ 
+UPA2448 
+$858  
+24" 24" 48" 
+ 
+WPA2448 
+$858
+231¼2" 231¼2" 60" 
+ 
+UPA2460 
+$898  
+24" 24" 60" 
+ 
+WPA2460 
+$898
+291¼2" 291¼2" 48" 
+ 
+UPA3048 
+$858  
+30" 30" 48" 
+ 
+WPA3048 
+$858
+291¼2" 291¼2" 60" 
+ 
+UPA3060 
+$898  
+30" 30" 60" 
+ 
+WPA3060 
+$898
+d 
+ 
+ 
+ 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+1 Style number 
+2 High-Pressure Laminate color number 
+for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Columns 
+ 
+ 
+ 
+c Page 596
+  
+• Worksurface power and communication components 
+c Page 611
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

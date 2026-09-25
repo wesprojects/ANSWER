@@ -1,0 +1,380 @@
+760 
+Answer Solutions Specification Guide
+TS7885TCTJW 
+362 T C-O-H Jct
+TS78866TCXJ 
+365 X C-O-H Jct
+TS78866TCXJW 365 X C-O-H Jct
+TS7886TCTJ 
+362 T C-O-H Jct
+TS7886TCTJW 
+362 T C-O-H Jct
+TS78877TCXJ 
+365 X C-O-H Jct
+TS78877TCXJW 365 X C-O-H Jct
+TS7887TCTJ 
+362 T C-O-H Jct
+TS7887TCTJW 
+362 T C-O-H Jct
+TS78883TCXJ 
+367 X C-O-H Jct
+TS78883TCXJW 367 X C-O-H Jct
+TS78884TCXJ 
+367 X C-O-H Jct
+TS78884TCXJW 367 X C-O-H Jct
+TS78885TCXJ 
+366 X C-O-H Jct
+TS78885TCXJW 366 X C-O-H Jct
+TS78886TCXJ 
+366 X C-O-H Jct
+TS78886TCXJW 366 X C-O-H Jct
+TS78887TCXJ 
+366 X C-O-H Jct
+TS78887TCXJW 366 X C-O-H Jct
+TS7888QTCXJ 
+367 X C-O-H Jct
+TS7888QTCXJW 367 X C-O-H Jct
+TS788QTCTJ 
+363 T C-O-H Jct
+TS788QTCTJW 
+363 T C-O-H Jct
+TS78Q8TCTJ 
+361 T C-O-H Jct
+TS78Q8TCTJW 
+361 T C-O-H Jct
+TS78QQTCYJ 
+370 Y C-O-H Jct
+TS78QQTCYJW 
+370 Y C-O-H Jct
+TS790COHJC 
+388 90° C-O-H Jct Cap
+TS790COHJCW 
+388 90° C-O-H Jct Cap
+TS790JB3 
+387 90° Jct Block, Pkg of 3
+TS790JB4 
+387 90° Jct Block, Pkg of 4
+TS790JB5 
+387 90° Jct Block, Pkg of 5
+TS790JC 
+388 90° Cnr Jct Cap
+TS790JCW 
+388 90° Cnr Jct Cap
+TS790STC 
+460 Spanning Top Cap
+TS790STCW 
+460 Spanning Top Cap
+TS790TEVT 
+380 EOR Vrtl Trim
+TS790TEVTW 
+380 EOR Vrtl Trim
+TS790TLVT 
+381 L Vrtl Trim
+TS790TLVTW 
+381 L Vrtl Trim
+TS790TTC 
+395 Spanning Top Cap
+TS790TTCW 
+395 Spanning Top Cap
+TS790TTVT 
+381 T Vrtl Trim
+TS790TTVTW 
+381 T Vrtl Trim
+TS790TVVT 
+382 V Vrtl Trim
+TS790TVVTW 
+382 V Vrtl Trim
+TS796STC 
+460 Spanning Top Cap
+TS796STCW 
+460 Spanning Top Cap
+TS796TTC 
+395 Spanning Top Cap
+TS796TTCW 
+395 Spanning Top Cap
+TS7BPNY24X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY24XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY24Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY24YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY24Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY24ZN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY30X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY30XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY30Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY30YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY30Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY30ZN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY36X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY36XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY36Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY36YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY36Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY36ZN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY42X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY42XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY42Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY42YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY42Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY42ZN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY48X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY48XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY48Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY48YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY48Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY48ZN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY60X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY60XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY60Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY60YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY60Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY60ZN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY72X 
+530 Bs Pwr Infeed - NYC
+TS7BPNY72XN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY72Y 
+530 Bs Pwr Infeed - NYC
+TS7BPNY72YN 
+530 Bs Pwr Infeed - NYC
+TS7BPNY72Z 
+530 Bs Pwr Infeed - NYC
+TS7BPNY72ZN 
+530 Bs Pwr Infeed - NYC
+TS7CJCA10 
+388 Jct Cap Cnr Aligner
+TS7CMB2 
+404 T C Mnt Strg – Brkts
+TS7CMBA2 
+404 T C Mnt Strg – Brkts
+TS7CMBA3 
+404 T C Mnt Strg – Brkts
+TS7CPCM 
+536 Cnsld Point Cable Mgr
+TS7CPK 
+535 Cnsld Point Kit
+TS7CPK24 
+531 Hardwired Pwrkit
+TS7CPK30 
+531 Hardwired Pwrkit
+TS7CPK36 
+531 Hardwired Pwrkit
+TS7CPK42 
+531 Hardwired Pwrkit
+TS7CPK48 
+531 Hardwired Pwrkit
+TS7CPK60 
+531 Hardwired Pwrkit
+TS7CPK72 
+531 Hardwired Pwrkit
+TS7CPMB 
+536 Cnsld Pnt Mnting Brkt
+TS7DCLSPT 425-426 Ans Boundary Screen
+TS7DCLSSD 423-424 Ans Boundary Screen
+TS7DCSPN 
+414 Ans Boundary Screen
+TS7DCSPT 
+415 Ans Boundary Screen
+TS7DCSSD 
+413 Ans Boundary Screen
+TS7DF 
+527 Data Filler
+TS7FGJG 
+399 Frameless Glass
+TS7FSLVE 
+534 Fd-Thru Horiz Cbl Slv
+TS7GGC10 
+386 Gripper Glide Caps
+TS7HSLVE 
+535 Grm for Hor Bar & Jct
+TS7JSLVE 
+535 Grommet for Jct
+TS7JTSLVE 
+534 Jct Tall Sleeve
+TS7LSLVE 
+534 Lay-In Jct Cbl Sleeve
+TS7LTA4 
+388 L to T Trim Aligner
+TS7MBSP 
+481 Mkb Sfcs for St Skins
+TS7MS 
+646 Ans m:scape Asmbly
+TS7MTRMNT 
+647 Ans Monitor Mount
+TS7PF 
+519 Panel and Beam Foot
+TS7PK24X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK24XN 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK24Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK24YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK24Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK24ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK30X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK30XN 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK30Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK30YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK30Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK30ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK36X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK36XN 
+521 4-Cir, 3+1 Wrg, Pwrkt
+TS7PK36Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK36YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK36Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK36ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK42X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK42XN 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK42Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK42YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK42Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK42ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK48X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK48XN 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK48Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK48YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK48Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK48ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK60X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK60XN 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK60Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK60YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK60Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK60ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK72X 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK72XN 
+521 4-Cir, 3+1 Wrg, Pwrkit
+TS7PK72Y 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK72YN 
+521 4-Cir, 2+2 Wrg, Pwrkt
+TS7PK72Z 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PK72ZN 
+521 3-Cir, 3SN Wrg, Pwrkt
+TS7PT18X 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT18XN 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT18Y 
+522 4-Cir, 2+2, P-T Pwrkt
+TS7PT18YN 
+522 4-Cir, 2+2, P-T Pwrkt
+TS7PT18Z 
+522 3-Cir, 3SN, P-T Pwrkt
+TS7PT18ZN 
+522 3-Cir, 3SN, P-T Pwrkt
+TS7PT24X 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT24XN 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT24Y 
+522 4-Cir, 2+2, P-T Pwrkt
+TS7PT24YN 
+522 4-Cir, 2+2, P-T Pwrkt
+TS7PT24Z 
+522 3-Cir, 3SN, P-T Pwrkt
+TS7PT24ZN 
+522 3-Cir, 3SN, P-T Pwrkt
+TS7PT30X 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT30XN 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT30Y 
+522 4-Cir, 2+2, P-T Pwrkt
+TS7PT30YN 
+522 4-Cir, 2+2, P-T Pwrkt
+TS7PT30Z 
+522 3-Cir, 3SN, P-T Pwrkt
+TS7PT30ZN 
+522 3-Cir, 3SN, P-T Pwrkt
+TS7PT36X 
+522 4-Cir, 3+1, P-T Pwrkt
+TS7PT36XN 
+522 4-Cir, 3+1, P-T Pwrkt
+Style Number Index, continued
+Style
+Number 
+Page Description
+Style
+Number 
+Page Description
+Style
+Number 
+Page Description
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

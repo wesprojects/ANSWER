@@ -1,0 +1,232 @@
+Answer Solutions SpeciÀ cation Guide 
+505
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling 
+ 
+  
+Steel Technology Skins
+Tip: 6"H technology skins 
+with cutouts includes a pair 
+of powerkit brackets that 
+attach the powerkit to the 
+junction to correctly position 
+it within the panel.
+Tip: 6"H technology skin can 
+only attach to junctions 
+manufactured on or after 
+October 10, 2011.
+Tip: When using technology 
+skin on one side of the panel 
+(only used at worksurface 
+height) a 12" or 18" skin 
+can not be used on the 
+opposite side of the panel 
+at the same location as the 
+6"H skin.
+Tip: 18"H technology skin 
+can only attach to junctions 
+manufactured on or after 
+October 10, 2011.
+Tip: 18"H technology skins 
+must be planned in 12"H 
+increments from the bottom 
+of the panel to align with 
+powerkit locations.
+Shared Components
+ Speciwcation Information
+ 
+All Cutouts 
+Right Hand  
+Left Hand  
+No Cutouts
+ 
+ 
+Cutout Only 
+Cutout Only
+ 
+ 
+ 
+ 
+DWidthDStyle
+DU.S. 
+DStyle
+DU.S. 
+DStyle
+DU.S. 
+DStyle
+DU.S.
+d 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d
+d 
+d
+d 
+d
+d 
+d
+6"H Steel Technology Skins
+24" 
+TS7624TSS 
+$104  
+ 
+ 
+ 
+ 
+TS7624HS 
+$ɚɚ76 
+30" 
+TS7630TSS 
+$128  
+TS7630RTSS 
+$103  
+TS7630LTSS 
+$103  
+TS7630HS 
+$ɚɚ81 
+36" 
+TS7636TSS 
+$134  
+TS7636RTSS 
+$109  
+TS7636LTSS 
+$109  
+TS7636HS 
+$ɚɚ90 
+42" 
+TS7642TSS 
+$137  
+TS7642RTSS 
+$114  
+TS7642LTSS 
+$114  
+TS7642HS 
+$ɚɚ95 
+48" 
+TS7648TSS 
+$151  
+TS7648RTSS 
+$129  
+TS7648LTSS 
+$129  
+TS7648HS 
+$104 
+60" 
+TS7660TSS 
+$173  
+TS7660RTSS 
+$151  
+TS7660LTSS 
+$151  
+TS7660HS 
+$123 
+72" 
+TS7672TSS 
+$191  
+TS7672RTSS 
+$168  
+TS7672LTSS 
+$168  
+TS7672HS 
+$137 
+d 
+d 
+d
+d 
+d
+d 
+d
+d 
+d
+12"H Steel Technology Skins
+24" 
+TS71224TSS $141 
+30" 
+TS71230TSS $170  
+TS71230RTSS $146  
+TS71230LTSS $146 
+36" 
+TS71236TSS $177  
+TS71236RTSS $155  
+TS71236LTSS $155 
+42" 
+TS71242TSS $183  
+TS71242RTSS $160  
+TS71242LTSS $160 
+48" 
+TS71248TSS $199  
+TS71248RTSS $177  
+TS71248LTSS $177 
+60" 
+TS71260TSS $234  
+TS71260RTSS $208  
+TS71260LTSS $208 
+72" 
+TS71272TSS $251  
+TS71272RTSS $231  
+TS71272LTSS $231 
+d 
+d 
+d
+d 
+d
+d 
+d
+18"H Steel Technology Skins
+24" 
+TS71824TSS $180 
+ 
+ 
+30" 
+TS71830TSS $212  
+TS71830RTSS $191  
+TS71830LTSS $191 
+36" 
+TS71836TSS $227  
+TS71836RTSS $200  
+TS71836LTSS $200 
+42" 
+TS71842TSS $236  
+TS71842RTSS $212  
+TS71842LTSS $212 
+48" 
+TS71848TSS $255  
+TS71848RTSS $235  
+TS71848LTSS $235 
+60" 
+TS71860TSS $289  
+TS71860RTSS $268  
+TS71860LTSS $268 
+72" 
+TS71872TSS $323  
+TS71872RTSS $303  
+TS71872LTSS $303 
+d 
+d 
+d
+d 
+d
+d 
+d
+Steelcase 
+June 2022

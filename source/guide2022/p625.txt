@@ -1,0 +1,245 @@
+Answer Solutions Specification Guide 
+625
+Universal Tables
+ 
+ 
+
+Transition Tables
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For other edge profiles, add 
+suffix to the style number. 
+(For example, BZC302460 
+becomes BZC302460SW for 
+wood square edge profile.)
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Tables
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure 
+ 
+Laminate 
+Wood
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic DWood 
+DOption 
+dA 
+B 
+C 
+dNumber 
+d3 mm  
+dP-Edge dSquare 
+d(Add $ to
+d 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price) 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on  
+d
+
+
+d
+dNo Sufw xdSufw x dSufw x
+dWood
+d 
+ 
+ 
+d 
+d
+dP G10/22dSW G10/22 
+dGroup 1
+Left-Hand Tables
+30" 24" 
+593¼4" 
+BZC302460 
+$ɚɚ955 
+$1125 
+$2190 
++$72
+30" 24" 
+653¼4" 
+BZC302466 
+$ɚɚ998 
+$1168 
+$2253 
++$74
+30" 24" 
+713¼4" 
+BZC302472 
+$1037 
+$1207 
+$2307 
++$78
+30" 24" 
+773¼4" 
+BZC302478 
+$1066 
+$1249 
+$2358 
++$80
+36" 30" 
+593¼4" 
+BZC363060 
+$1066 
+$1249 
+$2358 
++$93
+36" 30" 
+653¼4" 
+BZC363066 
+$1108 
+$1291 
+$2414 
++$80
+36" 30" 
+713¼4" 
+BZC363072 
+$1134 
+$1332 
+$2466 
++$81
+36" 30" 
+773¼4" 
+BZC363078 
+$1181 
+$1379 
+$2516 
++$88
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+ 
+Right-Hand Tables
+24" 30" 
+593¼4" 
+BZC243060 
+$ɚɚ955 
+$1125 
+$2190 
++$72
+24" 30" 
+653¼4" 
+BZC243066 
+$ɚɚ998 
+$1168 
+$2253 
++$74
+24" 30" 
+713¼4" 
+BZC243072 
+$1037 
+$1207 
+$2307 
++$78
+24" 30" 
+773¼4" 
+BZC243078 
+$1066 
+$1249 
+$2358 
++$80
+30" 36" 
+593¼4" 
+BZC303660 
+$1066 
+$1249 
+$2358 
++$93
+30" 36" 
+653¼4" 
+BZC303666 
+$1108 
+$1291 
+$2414 
++$80
+30" 36" 
+713¼4" 
+BZC303672 
+$1134 
+$1332 
+$2466 
++$81
+30" 36" 
+773¼4" 
+BZC303678 
+$1181 
+$1379 
+$2516 
++$88
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+ 
+A
+B
+C
+A
+B
+C
+G10/22 = Last order entry
+October 16, 2022
+Steelcase 
+June 2022

@@ -1,0 +1,81 @@
+188 
+Answer Solutions SpeciÀ cation Guide
+Power block is attached 
+to underside of power tray.
+Duplex and USB 
+receptacles, ordered 
+separately, can be À eld 
+installed where needed on 
+both faces of power blocks.
+Power tray supports 
+power blocks and provides 
+space for cable routing.
+Modular connector 
+accepts adjacent powerkits.
+Modular connector 
+plugs into the connection 
+point on adjacent powerkits.
+Two modular connec-
+tors on end of powerkit 
+accept modular connectors 
+of adjacent powerkit, power 
+infeeds, or modular 
+harness.
+Openings in power tray 
+accommodate voice/data 
+outlets. Openings line up 
+above the power blocks. 
+Communication ports can 
+never be back-to-back.
+Wiring and Cabling
+Distribution Products
+Cable trays can be 
+installed every 6" vertically 
+and rearranged at various 
+heights within a panel for 
+communications access 
+and cable routing.
+c Specifying, page 520
+Exception: Cable tray cannot 
+be used in the base of the 
+panel.
+Cable tray can accept 
+added cable carriers 
+attached below tray to 
+expand horizontal cable 
+management options. 
+c See Montage Specification 
+Guide for cable carrier (ZCC).
+Pass-through power-
+kits are available for appli-
+cations where you want to 
+extend the power between 
+panels but have no need for 
+access in a specific panel.
+c Specifying, page 522
+Pass-through pow-
+erkits may be specified in a 
+non-PVC version. For those 
+trying to gain the LEED 
+Innovation in Design credit, 
+non-PVC should be selected.
+Powerkits are a combi-
+nation of modular power 
+blocks, harnesses, and 
+connectors that attach to 
+a power tray for installation 
+inside an Answer panel. 
+Powerkits are available in 
+widths that correspond to 
+panel widths.
+c Specifying, page 521
+Powerkits may be 
+specified in a non-PVC 
+version. For those trying to 
+gain the LEED Innovation 
+in Design credit, non-PVC 
+should be selected.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

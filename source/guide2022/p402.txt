@@ -1,0 +1,189 @@
+402 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+Universal and Sarto Screens with Answer Thin Trim Top Cap
+For Panel Buildups
+Standard Includes 
+ Required to Specify
+• Top cap: paint price group 1
+• Screen: fabric price group 1
+• Edge on Universal screen: PET 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: In-line spanning top cap 
+lightseals should be speci-
+À ed for each in-line joint top 
+cap it is spanning across.
+cSee page 404.
+Tip: Spanning top caps can 
+also be used on individual 
+panels.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Top cap
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$  15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$  31 
+ Specify paint color number.
+ 
+ Screen
+ 
+• Fabric price group 1 
+No cost 
+ Specify fabric color number.
+ 
+• Fabric price group 2 
++$  45 
+ Specify fabric color number.
+ 
+• Fabric price group 3 
++$121 
+ Specify fabric color number.
+ 
+• Fabric price group 4 
++$151 
+ Specify fabric color number.
+ 
+• Fabric price group 5 
++$185 
+ Specify fabric color number.
+ 
+• Fabric price group 6 
++$217 
+ Specify fabric color number.
+ 
+• Fabric price group 7 
++$251 
+ Specify fabric color number.
+ 
+• Fabric price group 8 
++$282 
+ Specify fabric color number.
+ 
+• Fabric price group 9 
++$315 
+ Specify fabric color number.
+ 
+• Fabric price group 10 
++$347 
+ Specify fabric color number.
+ 
+• Customer’s Own Material 
++$  21 
+c
+See Surface Materials Reference
+ 
+ (COM) 
+ 
+ Manual.
+Speciwcation Information
+DDimensions  
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+dW
+H
+dNumber 
+dBase 
+dNumber 
+dBase
+d
+
+d
+dPrice
+d
+dPrice
+
+
+Universal Screens with Answer 
+Sarto Screens with Answer
+Thin Trim Top Cap 
+Thin Trim Top Cap
+24" 
+131¼2" 
+TS71324TUSC 
+$594 
+TS71324TSSC 
+$443
+30" 
+131¼2" 
+TS71330TUSC 
+$635 
+TS71330TSSC 
+$476
+36" 
+131¼2" 
+TS71336TUSC 
+$682 
+TS71336TSSC 
+$510
+42" 
+131¼2" 
+TS71342TUSC 
+$731 
+TS71342TSSC 
+$547
+48" 
+131¼2" 
+TS71348TUSC 
+$777 
+TS71348TSSC 
+$581
+54" 
+131¼2" 
+TS71354TUSC 
+$823 
+TS71354TSSC 
+$617
+60" 
+131¼2" 
+TS71360TUSC 
+$866 
+TS71360TSSC 
+$650
+66" 
+131¼2" 
+TS71366TUSC 
+$913 
+TS71366TSSC 
+$683
+72" 
+131¼2" 
+TS71372TUSC 
+$960 
+TS71372TSSC 
+$721
+d
+
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+1 Style number
+2 Paint color number for top cap
+3 Fabric color number for screen
+4 Edge color:
+ P630 Medium Heather Grey PET
+ P631 Dark Heather Grey PET
+5 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 70
+Steelcase 
+June 2022

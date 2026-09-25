@@ -1,0 +1,82 @@
+524 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+USB Receptacles
+Standard Includes 
+ Required to Specify
+• USB receptacle: plastic
+1 Style number
+2 Plastic color number for USB receptacle:
+6000 Black
+ 6009 Arctic White
+ 6249 Platinum Solid
+6651 Tungsten
+6652 Titanium
+6654 Sand
+6697 Fog
+ 6B03 Red
+Speciwcation Information
+DLine 
+DStyle 
+DU.S. 
+d 
+dNumber 
+dPrice
+d 
+d 
+d 
+4-Circuit, 3+1 Wiring Schematic
+Line 1 
+TS71USBX 
+$146 
+Line 2 
+TS72USBX 
+$146 
+Line 3 
+TS73USBX 
+$146 
+Line 4 
+TS74USBX 
+$146 
+d 
+d 
+d 
+4-Circuit, 2+2 Wiring Schematic
+Line 1 
+TS71USBY 
+$146 
+Line 2 
+TS72USBY 
+$146 
+Line 3 
+TS73USBY 
+$146 
+Line 4 
+TS74USBY 
+$146 
+d 
+d 
+d 
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+Line 1 
+TS71USBZ 
+$146 
+Line 2 
+TS72USBZ 
+$146 
+Line 3 
+TS73USBZ 
+$146 
+d 
+d 
+d 
+cNeed help?
+Product details,
+page 193
+Steelcase 
+June 2022

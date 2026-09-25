@@ -1,0 +1,105 @@
+Shared Components
+Wood Skins and Wood Skin Sets
+136 
+Answer Solutions SpeciÀ cation Guide
+Wood skins consist of a 
+wood veneer surface cap-
+tured by a painted metal 
+trim border on all sides.
+Wood skins 
+are non-
+tackable.
+Skins can be 
+removed and 
+repositioned.
+Grain of wood veneer 
+cathedrals runs vertically. 
+Horizontal grain direction is 
+available as an option.
+Actual Dimensions
+Width 
+2353¼64", 2953¼64", 3553¼64", 4153¼64", and 4753¼64"
+Height 
+127¼32", 183¼8", 2437¼64", 303¼4", 3615¼16", 431¼8", 4919¼64", and 6121¼32"
+Standard Size 
+Height 
+2827¼64", 345¼8", 4025¼32", 47", 539¼64", and 651¼2"
+to the Floor  
+Connections
+Skins extend onto junction 
+and meet skin of adjacent 
+panel. The slotted channel 
+of the junction is accessible 
+between these two skins. 
+Skins are available in stan-
+dard heights and to the Á oor 
+heights.
+Standard heights are 
+not dedicated to a speciÀ c 
+location.
+Skins sized to go to the 
+y oor extend to the bottom of 
+the panel. They can be used 
+on one or both sides of the 
+panel. They can only be used 
+in the bottom position. 
+Tip: Omit base trim option 
+should be selected on the 
+panel frame when using a 
+skin to the Á oor. 
+Wood skin sets should be 
+selected when grain pattern 
+alignment of all segmented 
+skins on a frame is desired. 
+Wiring & Cabling
+Power and communica-
+tion cannot be accessed in 
+wood skins.
+Surface Materials
+Wood skins and wood 
+skin sets
+• Natural wood veneer
+ (standard)
+• Customiz stain (option)
+Trim
+• Paint
+Individual wood skins 
+are available for use in 
+monolithic applications or in 
+combination with other types 
+of skins on the same frame.
+Wood skin sets contain 
+speciÀ c combinations of sizes 
+and are used when segment-
+ing all wood skins on 42"H, 
+48"H, 54"H, or 66"H panels. 
+The use of sets ensures the 
+correct cathedral wood grain 
+alignment of all segmented 
+skins on a frame.
+Wood skins and wood 
+skin sets attach to frames 
+to finish the appearance of 
+a panel and can be used in 
+combination with any other 
+skin type.
+c Specifying, page 488
+Tip: When specifying skins, 
+the total skin height will be 6" 
+less than the panel height. For 
+example if the panel is 54"H 
+the total skin height will be 
+48"H. Skins to the floor are 
+indicated by an F suffix. Plan 
+6" shorter than panel height, 
+but skins to the floor are taller 
+in actual height to cover the 
+base trim area.
+c See Panel Buildups, 
+page 18, for more 
+information.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

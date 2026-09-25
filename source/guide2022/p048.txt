@@ -1,0 +1,106 @@
+Panels—Thin Trim 
+Build Your Own Stacking Junctions—Thin Trim
+48 
+Answer Solutions SpeciÀ cation Guide
+Stacking junctions have several implications on the actual frame components of the panel, as well as how the frame is trimmed.
+Note: Same height stacking junctions are supported as style numbers, see page 375. This section should only be used when you need to stack and there is not 
+a pre-configured stacking junction style number.
+When stacking be sure to follow the steps listed below:
+Step 1: Start by drawing out your base application ONLY (do not include stackers).
+A
+B
+C
+ Corner  
+ 
+ 
+ 
+ 
+A
+B
+  In-Line
+Example: 42"H T panel application label one panel A,  
+ 
+ 
+Example: 42"H in-line panel application label one panel A and one
+one panel B, and one panel C. 
+ 
+ 
+ 
+ 
+panel B.
+Step 2: Label each panel with a letter and dimensions (remember to work counterclockwise).
+42"
+42"
+36"
+36"
+36"
+A
+B
+C
+   Corner  
+ 
+ 
+ 
+42"
+36"
+36"
+A
+B
+  In-Line
+Example: 42"H T panel application label one panel A,  
+ 
+ 
+Example: 42"H in-line panel application label one panel A and one
+one panel B, and one panel C. 
+ 
+ 
+ 
+ 
+panel B.
+Step 3: Omit ALL trims (this will omit the junction cap and aligners as well).
+Step 4: Determine where you would like stacking junctions on your application and label them with a letter and dimension.
+  
+Remember: Maximum height that an Answer panel can reach is 90". Maximum height that can be stacked on a base 
+  
+panel is 36" consisting of one 24"H and one 12"H or two 18"H stacking junctions.
+42"
+24"
+36"
+36"
+12"
+42"
+A
+D
+C
+B
+42"
+12"
+42"
+12"
+36"
+36"
+36"
+A
+D
+C
+B
+E
+A
+D
+C
+B
+E
+12"
+42"
+42"
+12"
+42"
+36"
+36"
+36"
+Corner
+In-Line
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

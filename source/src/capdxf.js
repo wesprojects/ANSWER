@@ -43,10 +43,15 @@
     // ---------- block registry ----------
     // a block: { name, rec (record handle), geom: [{t:'line'|'point'|'circle'|'poly'|'text', ...}], attdefs: [{tag, pos, align, h, vis, style}], inserts: nested [{name, x, y, rot, attribs}] }
     const blocks = []; const byName = {}; const sigName = {};
-    function block(style, sig, build) { // one block per style; a second geometry for the same style gets a numbered name
+    function block(style, sig, build, build3) { // one block per style; a second geometry for the same style gets a numbered name
+      // build3 makes the block's 3D twin 3_<name> (CAP swaps P_ for 3_ in its 3D view and keeps definitions that are in the drawing); a part with no
+      // body in the guide's terms (aligners, seals, power, packs) gets a point, as CAP's own library does
       const key = style + '|' + sig; if (sigName[key]) return sigName[key];
       let name = blockName(style), k = 2; while (byName[name]) name = blockName(style) + '_' + (k++);
-      const b = { name, rec: H(), geom: [], attdefs: [], inserts: [] }; build(b); blocks.push(b); byName[name] = b; sigName[key] = name; return name;
+      const b = { name, rec: H(), geom: [], attdefs: [], inserts: [] }; build(b); blocks.push(b); byName[name] = b; sigName[key] = name;
+      const b3 = { name: '3_' + name.slice(2), rec: H(), geom: [], attdefs: [], inserts: [], three: true }; if (build3) build3(b3); else pt3(b3, L3.junction, [0, 0, 0]);
+      b3.attdefs = b.attdefs; blocks.push(b3); byName[b3.name] = b3;
+      return name;
     }
     const partAttdefs = (b, tlayer, tag) => { // the 16 CAP part attributes: all hidden at the origin except CAPTG, placed where CAP shows the tag
       for (const t of PART_TAGS) b.attdefs.push(t === 'CAPTG' && tag ? { tag: t, pos: tag.pos, align: tag.align || tag.pos, h: tag.h || 2.5, vis: true, style: tag.style || 'MONOTXT', layer: useLayer(tlayer) } : { tag: t, pos: [0, 0], h: 0.001, vis: false, style: 'Standard', layer: useLayer(tlayer) });
@@ -56,8 +61,9 @@
     const ln = (b, layer, a, c) => b.geom.push({ t: 'line', layer: useLayer(layer), a, b: c });
     const pt = (b, layer, p) => b.geom.push({ t: 'point', layer: useLayer(layer), p });
     // CAP junction symbols (from the CAP drawing): 3x3 corner block with the legs' inner lines, in-line and end-of-run posts
-    function junctionBlock(style, type) {
-      return block(style, 'J' + type, b => {
+    function junctionBlock(style, type, c3) { // c3: { legs (local), omit } for the 3D twin
+      const legs = c3 ? c3.legs : []; const sig3 = c3 ? '|' + legs.map(l => `${l.a}:${l.base}:${l.stack.join('+')}`).join(',') + (c3.omit ? '|omit' : '') : '';
+      return block(style, 'J' + type + sig3, b => {
         const L = 'A-FURN-P-PNLS-JNCT';
         if (type === 'L' || type === 'T' || type === 'X') {
           ln(b, L, [0, 0], [3, 0]); ln(b, L, [3, 0], [3, 3]); ln(b, L, [3, 3], [0, 3]); ln(b, L, [0, 3], [0, 0]);
@@ -66,7 +72,7 @@
           if (type === 'X') { ln(b, L, [0, 1.5], [3, 1.5]); ln(b, L, [1.5, 0], [1.5, 3]); }
           for (const p of [[0, 0], [3, 0], [3, 3], [0, 3]]) pt(b, L, p);
           partAttdefs(b, L + '-T', { pos: [1.359, 6.073], align: type === 'T' ? [1.5, 3.716] : [3.716, 3.716] });
-        } else if (type === 'V' || type === 'Y') { // the triangular 120 deg cap (p375), legs at 0, 120, 240 deg
+        } else if (type === 'V' || type === 'Y') { // the triangular 120 deg cap (p388), legs at 0, 120, 240 deg
           sq(b, L, E.cap120(0, 0, 0)); for (const p of E.cap120(0, 0, 0)) pt(b, L, p); partAttdefs(b, L + '-T', { pos: [0, 4], align: [0, 4] });
         } else if (type === 'inline') {
           sq(b, L, rect(-1, 0.5, 1, 2.5)); pt(b, L, [0, 3]); partAttdefs(b, L + '-T', { pos: [-3.542, 3.716], align: [0, 3.716] });
@@ -74,22 +80,121 @@
           ln(b, L, [0, 3], [1, 3]); ln(b, L, [1, 3], [1, 0]); ln(b, L, [1, 0], [0, 0]); for (const p of [[0, 3], [1, 3], [1, 0], [0, 0]]) pt(b, L, p);
           partAttdefs(b, L + '-T', { pos: [-1, -1.833], align: [-1, 1.5] });
         }
-      });
+      }, c3 && legs.length ? (b3) => {
+        const o = (type === 'L' || type === 'T' || type === 'X') ? [1.5, 1.5] : (type === 'V' || type === 'Y') ? [0, 0] : [0, 1.5]; // the node in the symbol's frame
+        const lo = Math.min(...legs.map(l => l.top)), hi = Math.max(...legs.map(l => l.top)), post = Math.max(...legs.map(l => JH[l.base]));
+        if (type === 'EOR' || type === 'wall') { junction3(b3, type, legs, o, 0, null, false, L3.junction); if (type === 'wall' && WALL_FACE) boxAlong3(b3, L3.junction, o, dirOf(legs[0].a), -WALL_FACE, 0, 1.5, 0, hi - capF); else if (!c3.omit) eorTrim3(b3, dirOf(legs[0].a), o, hi); }
+        else { junction3(b3, type, legs, o, 0, null, true, L3.junction); if (!c3.omit && !legs.some(l => l.stack.length)) cap3(b3, type, legs, o, post, hi); if (!c3.omit && (type === 'L' || type === 'T') && hi - lo < 0.01) cornerTrim3(b3, type, legs, o, hi); }
+        if (hi - lo > 0.01 && !c3.omit) cohTrim3(b3, type, legs, o, lo, hi); // a pre-configured change-of-height junction includes its trim (p40-47)
+      } : null);
     }
-    function frameBlock(style, wd, h) { // the panel frame/package: w x 3 outline on the height layer, tag w/h below the panel
-      return block(style, 'F' + wd + 'x' + h, b => { const L = panelLayer(h); sq(b, L, rect(0, 0, wd, 3)); for (const p of [[0, 3], [wd, 3], [wd, 0], [0, 0]]) pt(b, L, p); partAttdefs(b, L + '-T', { pos: [wd / 2, -5.5], align: [wd / 2, -5.5], h: 3 }); });
+    function frameBlock(style, wd, h, p, pkg) { // the panel frame/package: w x 3 outline on the height layer, tag w/h below the panel; 3D: base trim, top cap, package skins
+      const s3 = p ? `|${p.height}:${(p.stack || []).join('+')}:${p.openBase ? 'o' : ''}${p.topCap && p.topCap.omit ? 'n' : ''}${pkg ? 'k' : ''}` : '';
+      return block(style, 'F' + wd + 'x' + h + s3, b => { const L = panelLayer(h); sq(b, L, rect(0, 0, wd, 3)); for (const q of [[0, 3], [wd, 3], [wd, 0], [0, 0]]) pt(b, L, q); partAttdefs(b, L + '-T', { pos: [wd / 2, -5.5], align: [wd / 2, -5.5], h: 3 }); },
+        p ? (b3) => frame3(b3, wd, p, pkg) : null);
+    }
+    // panel parts with a body of their own: skins and windows at their tile height, the glass screen, the stacking frame (no dimensions in the guide: a point)
+    // junction parts placed at the node in the junction's own frame: stacking junctions, caps, vertical and change-of-height trims
+    function nodePartBlock(l, type, legs, o) {
+      const pid = l.pid || '', a = (E.rowsByStyle(l.style).find(r => r._pid === pid) || { attrs: {} }).attrs || {}; const sig = `NP${type}|` + legs.map(x => `${x.a}:${x.base}:${x.stack.join('+')}`).join(',');
+      const lo = Math.min(...legs.map(x => x.top)), hi = Math.max(...legs.map(x => x.top)), post = Math.max(...legs.map(x => JH[x.base]));
+      const mk = (build3) => block(l.style, sig, b => { pt(b, 'A-FURN-POINT-PART', [0, 0]); partAttdefs(b, 'A-FURN-POINT-PART-T'); }, build3);
+      if (/stacking.*junction/.test(pid) && !/frame/.test(pid)) { // the stacking junction sits on the base junction (p32): its footprint, from the post height, its own height
+        const st = a.stackHeight || 12; const leg = legs.reduce((m, x) => x.stack.includes(st) && (!m || JH[x.base] < JH[m.base]) ? x : m, null) || legs[0]; const z0 = JH[leg.base]; return mk(b3 => junction3(b3, type, legs, o, z0, z0 + (E.STACK_ACTUAL[st] || st), false, L3.stack)); }
+      if (/junction-caps/.test(pid)) return mk(b3 => cap3(b3, type, legs, o, Math.max(...legs.map(stackTop)), hi));
+      if (/end-of-run-vertical-trim/.test(pid)) return mk(b3 => eorTrim3(b3, dirOf(legs[0].a), o, AH(a.height || hi)));
+      if (/l-t-vertical-trim|v-vertical-trim/.test(pid)) return mk(b3 => cornerTrim3(b3, type, legs, o, AH(a.height || hi)));
+      if (/change-of-height-trim/.test(pid)) { const m = (l.desc || '').match(/\((\d+)"→(\d+)"/); const from = m ? +m[1] : lo, to = m ? +m[2] : hi; return mk(b3 => cohTrim3(b3, type, legs, o, from > 100 ? from : AH(from), to > 100 ? to : AH(to))); }
+      return mk(null);
     }
     function pointBlock(style, layer) { return block(style, 'PT', b => { pt(b, layer || 'A-FURN-POINT-PART', [0, 0]); partAttdefs(b, (layer || 'A-FURN-POINT-PART') + '-T'); }); }
     function jobBlock(style) { return block(style, 'JOB', b => { pt(b, 'A-FURN', [0, 0]); sq(b, 'A-FURN', rect(-2, -2, 2, 2)); partAttdefs(b, 'A-FURN', { pos: [0, -5], align: [0, -5], h: 2, style: 'Standard' }); }); }
-    function shapeBlock(style, sig, layer, pts, tag, extra) { // closed outline with corner points (worksurfaces, pedestals, supports)
-      return block(style, sig, b => { sq(b, layer, pts); for (const p of pts) if (p.length === 2) pt(b, layer, p); if (extra) extra(b); partAttdefs(b, layer + '-T', tag); });
+    function shapeBlock(style, sig, layer, pts, tag, extra, build3) { // closed outline with corner points (worksurfaces, pedestals, supports)
+      return block(style, sig, b => { sq(b, layer, pts); for (const p of pts) if (p.length === 2) pt(b, layer, p); if (extra) extra(b); partAttdefs(b, layer + '-T', tag); }, build3 || null);
     }
     const sigOf = (pts) => pts.map(p => p.map(v => Math.round(v * 100) / 100).join(',')).join(';');
+    // ---------- 3D bodies for CAP's 3D view: polyface meshes on CAP's 3D layers (AFUPA = panel parts, AFUSK = skins, colours as in the customer's drawing) ----------
+    const L3 = { frame: 'AFUPA-3D-004', junction: 'AFUPA-3D-020', stack: 'AFUPA-3D-028', glass: 'AFUPA-3D-051', glassTrim: 'AFUPA-3D-010', skin: 'AFUSK-3D-017', window: 'AFUSK-3D-006', pane: 'AFUSK-3D-016' };
+    const mesh3 = (b, layer, verts, faces) => b.geom.push({ t: 'mesh', layer: useLayer(layer), verts, faces });
+    const pt3 = (b, layer, p) => b.geom.push({ t: 'point', layer: useLayer(layer), p, z: p[2] || 0 });
+    const box3 = (b, layer, x0, y0, z0, x1, y1, z1) => mesh3(b, layer, [[x0, y0, z0], [x1, y0, z0], [x1, y1, z0], [x0, y1, z0], [x0, y0, z1], [x1, y0, z1], [x1, y1, z1], [x0, y1, z1]], [[1, 4, 3, 2], [5, 6, 7, 8], [1, 2, 6, 5], [2, 3, 7, 6], [3, 4, 8, 7], [4, 1, 5, 8]]);
+    const face3 = (b, layer, q) => mesh3(b, layer, q, [[1, 2, 3, 4]]);
+    const prism3 = (b, layer, poly, z0, z1, centre) => { // a plan outline extruded: side quads, top and bottom fanned from a point inside the outline
+      const n = poly.length; const verts = [...poly.map(p => [p[0], p[1], z0]), ...poly.map(p => [p[0], p[1], z1]), [centre[0], centre[1], z0], [centre[0], centre[1], z1]]; const faces = [];
+      for (let i = 0; i < n; i++) { const j = (i + 1) % n; faces.push([i + 1, j + 1, j + 1 + n, i + 1 + n]); faces.push([2 * n + 1, j + 1, i + 1]); faces.push([2 * n + 2, i + 1 + n, j + 1 + n]); }
+      mesh3(b, layer, verts, faces); };
+    // a box along a direction: from d0 to d1 along the unit vector u from point c (plan), half-width hw across, z0..z1
+    const boxAlong3 = (b, layer, c, u, d0, d1, hw, z0, z1) => { const n = [-u[1], u[0]]; const q = [[c[0] + u[0] * d0 + n[0] * hw, c[1] + u[1] * d0 + n[1] * hw], [c[0] + u[0] * d1 + n[0] * hw, c[1] + u[1] * d1 + n[1] * hw], [c[0] + u[0] * d1 - n[0] * hw, c[1] + u[1] * d1 - n[1] * hw], [c[0] + u[0] * d0 - n[0] * hw, c[1] + u[1] * d0 - n[1] * hw]]; prism3(b, layer, q, z0, z1, [c[0] + u[0] * (d0 + d1) / 2, c[1] + u[1] * (d0 + d1) / 2]); };
+    // the guide's dimensions the bodies are built from (thin trim; oval where it differs)
+    const frac = (v) => { const m = String(v).replace('"', '').trim().match(/^(\d+)(?:\s+(\d+)\/(\d+))?$/); return m ? +m[1] + (m[2] ? +m[2] / +m[3] : 0) : +v || 0; };
+    const trim = P.trim === 'oval' ? 'oval' : 'thin';
+    const JH = {}; for (const [h, v] of Object.entries(E.ACTUAL.junctionHeight)) JH[h] = frac(v); // junction post heights p20: 28 7/16, 40 3/4, 47, 53 1/8, 65 1/2, 77 3/8
+    const AH = (h) => E.actualBaseHeight(trim, h); // floor to top of top cap, glides retracted p16 (oval p90)
+    const capF = E.CAP_FACE[trim] || 0.625; // the top cap's visible lip: 5/8" thin, 1" oval (the app's elevation convention)
+    const BT = E.BASE_TRIM_H; // base trim 3 3/4" p58
+    const skinScale = (h) => (AH(h) - BT - capF) / (h - E.SKIN_TRIM_ALLOWANCE); // nominal skins (height - 6, p19) fill the actual height between base trim and cap lip, as the elevation draws them
+    const stackScale = (st) => (E.STACK_ACTUAL[st] || st) / st; // stacking junctions 12 3/8, 18 1/2, 24 3/4 p32
+    const GLASS_H = E.GLASS.recessed.heights, GLASS_T = 0.375, GLASS_END = 0.0625; // recessed frameless glass, 2022 p64: 6/12/18/24"H kits (2022 p396-p398) with 9 5/16", 15 1/2", 21 11/16", 27 7/8" glass, 3/8" thick, 1/8" between screens
+    const EOR_TRIM = E.FOOTPRINT[trim].eor, WALL_FACE = E.FOOTPRINT[trim].wall; // finished end 1/2" thin (p20), 1" oval (p92); wall start 3/16" thin (p21)
+    const stackTop = (leg) => JH[leg.base] + (leg.stack || []).reduce((a, st) => a + (E.STACK_ACTUAL[st] || st), 0); // the junction with its stacking junctions
+    const omitTrim = (l) => /omit trim/i.test(l.spec || '');
+    // where a junction's legs sit in the block's own frame: local angle, base height, stack, total, actual top
+    const legsLocal = (J, r) => J.legs.map(l => ({ a: ((l.angle - r) % 360 + 360) % 360, base: l.base, total: l.total, stack: l.panel.stack || [], top: E.actualTop(trim, l.panel) }));
+    const dirOf = (a) => [Math.cos(rad(a)), Math.sin(rad(a))];
+    // junction bodies (block-and-post, p20, p21): a 3" block with a 3/4" post on each leg from the block face to the skins (E.CORNER_ALLOW), the cap on top
+    // from the post height to the top of the tallest top cap (p16 - p20); in-line 1 1/2" (p30); end of run 3/4" post inside the module with the 1/2" trim
+    // beyond (p20); V/Y the triangular 120 deg cap footprint (p388). Stacking junctions repeat the footprint from the post height for their own height (p32).
+    function junction3(b, type, legs, o, z0, z1, withPosts, layer) { // o: the node in block coordinates; z0..z1 the body; posts to each leg's own height
+      const hi = Math.max(...legs.map(l => JH[l.base]));
+      if (type === 'L' || type === 'T' || type === 'X') { box3(b, layer, o[0] - 1.5, o[1] - 1.5, z0, o[0] + 1.5, o[1] + 1.5, z1 == null ? hi : z1); }
+      else if (type === 'V' || type === 'Y') { prism3(b, layer, E.cap120(o[0], o[1], legs[0].a), z0, z1 == null ? hi : z1, o); }
+      else if (type === 'inline') { box3(b, layer, o[0] - E.JUNCTION_W / 2, o[1] - 1.5, z0, o[0] + E.JUNCTION_W / 2, o[1] + 1.5, z1 == null ? hi : z1); }
+      else { const u = dirOf(legs[0].a); boxAlong3(b, layer, o, u, 0, E.EOR_POST, 1.5, z0, z1 == null ? JH[legs[0].base] : z1); } // EOR / wall: the post inside the module
+      if (withPosts && (type === 'L' || type === 'T' || type === 'X' || type === 'V' || type === 'Y')) { const ca = E.cornerAllow(type); for (const l of legs) boxAlong3(b, layer, o, dirOf(l.a), ca, ca + E.EOR_POST, 1.5, z0, JH[l.base]); }
+    }
+    function cap3(b, type, legs, o, z0, z1) { // the junction cap on the block footprint
+      if (type === 'V' || type === 'Y') prism3(b, L3.junction, E.cap120(o[0], o[1], legs[0].a), z0, z1, o); else box3(b, L3.junction, o[0] - 1.5, o[1] - 1.5, z0, o[0] + 1.5, o[1] + 1.5, z1);
+    }
+    // change-of-height trim: on the taller junction's face toward the lower leg, from the lower top cap to the taller one (p24); thin trim half the junction wide (E.cohTrimWidth)
+    function cohTrim3(b, type, legs, o, low, high) {
+      const wT = E.cohTrimWidth(P); for (const l of legs.filter(x => Math.abs(x.top - low) < 0.01)) { const u = dirOf(l.a), n = [-u[1], u[0]]; const f = (type === 'inline' || type === 'EOR' || type === 'wall') ? E.JUNCTION_W / 2 : 1.5; const c = [o[0] + u[0] * f, o[1] + u[1] * f];
+        face3(b, L3.junction, [[c[0] + n[0] * wT / 2, c[1] + n[1] * wT / 2, low - capF], [c[0] - n[0] * wT / 2, c[1] - n[1] * wT / 2, low - capF], [c[0] - n[0] * wT / 2, c[1] - n[1] * wT / 2, high - capF], [c[0] + n[0] * wT / 2, c[1] + n[1] * wT / 2, high - capF]]); }
+    }
+    // vertical trim on a corner block's exposed faces (L: the two faces away from the legs, T: the face opposite the stem), floor to the cap lip (p380-382)
+    function cornerTrim3(b, type, legs, o, top) {
+      const used = legs.map(l => Math.round(l.a / 90) % 4); for (const k of [0, 1, 2, 3]) { if (used.includes(k)) continue; const u = dirOf(k * 90), n = [-u[1], u[0]]; const c = [o[0] + u[0] * 1.5, o[1] + u[1] * 1.5];
+        face3(b, L3.junction, [[c[0] + n[0] * 1.5, c[1] + n[1] * 1.5, 0], [c[0] - n[0] * 1.5, c[1] - n[1] * 1.5, 0], [c[0] - n[0] * 1.5, c[1] - n[1] * 1.5, top - capF], [c[0] + n[0] * 1.5, c[1] + n[1] * 1.5, top - capF]]); }
+    }
+    const eorTrim3 = (b, u, o, top) => boxAlong3(b, L3.junction, o, u, -EOR_TRIM, 0, 1.5, 0, top - capF); // the finished end beyond the post, to the cap lip
+    // the frame or panel package: base trim (p58), top cap at the actual height (p16, moved up by stackers p32); a package carries its skins too (p78)
+    function frame3(b, wd, p, pkg) {
+      const top = E.actualTop(trim, p);
+      if (!p.openBase) box3(b, L3.frame, 0, 0, 0, wd, 3, BT); else box3(b, L3.frame, 0, 0, 0, wd, 3, E.OPEN_BASE.height - E.OPEN_BASE.opening); // open base: bottom 3 1/4" with a 2 1/2" opening (p59)
+      if (!p.topCap.omit) box3(b, L3.frame, 0, 0, top - capF, wd, 3, top);
+      if (pkg) for (const y of [0, 3]) face3(b, L3.skin, [[0, y, BT], [wd, y, BT], [wd, y, AH(p.height) - capF], [0, y, AH(p.height) - capF]]);
+    }
+    // tile bodies at their own origin, the way CAP's library draws them (its claude-request samples, 2026-09-25): a skin is the face it shows, on
+    // y = 0 from x = 0 to its width, from z = 0 up (its thickness is not in the guide); a window tile is its outline around the 3" depth with the pane on
+    // the centreline (p59 gives heights, not frame members); recessed frameless glass is the p64 glass, 3/8" thick on the centreline, 1/16" short of
+    // each module line (1/2" at a change of height), from z = 0 up. CAP nests the symbol where the tile sits and lifts it by CAPDH, so the config does the same.
+    const skin3 = (b, w, hz) => face3(b, L3.skin, [[0, 0, 0], [w, 0, 0], [w, 0, hz], [0, 0, hz]]);
+    function window3(b, w, hz) {
+      face3(b, L3.window, [[0, 0, 0], [w, 0, 0], [w, 3, 0], [0, 3, 0]]); face3(b, L3.window, [[0, 0, hz], [w, 0, hz], [w, 3, hz], [0, 3, hz]]);
+      face3(b, L3.window, [[0, 0, 0], [0, 3, 0], [0, 3, hz], [0, 0, hz]]); face3(b, L3.window, [[w, 0, 0], [w, 3, 0], [w, 3, hz], [w, 0, hz]]);
+      face3(b, L3.pane, [[0, 1.5, 0], [w, 1.5, 0], [w, 1.5, hz], [0, 1.5, hz]]);
+    }
+    const glass3 = (b, wd, gh, endLo, endHi) => box3(b, L3.glass, endLo, 1.5 - GLASS_T / 2, 0, wd - endHi, 1.5 + GLASS_T / 2, gh);
     // ---------- entity writers ----------
     const ent = (type, owner, layer) => { const h = H(); w(0, type); w(5, h); w(330, owner); w(100, 'AcDbEntity'); w(8, layer); return h; };
     function writeGeom(g, owner) {
       if (g.t === 'line') { ent('LINE', owner, g.layer); w(100, 'AcDbLine'); w(10, num(g.a[0])); w(20, num(g.a[1])); w(30, '0.0'); w(11, num(g.b[0])); w(21, num(g.b[1])); w(31, '0.0'); }
-      else if (g.t === 'point') { ent('POINT', owner, g.layer); w(100, 'AcDbPoint'); w(10, num(g.p[0])); w(20, num(g.p[1])); w(30, '0.0'); }
+      else if (g.t === 'point') { ent('POINT', owner, g.layer); w(100, 'AcDbPoint'); w(10, num(g.p[0])); w(20, num(g.p[1])); w(30, num(g.z || 0)); }
+      else if (g.t === 'mesh') { const hp = ent('POLYLINE', owner, g.layer); w(100, 'AcDbPolyFaceMesh'); w(66, 1); w(10, '0.0'); w(20, '0.0'); w(30, '0.0'); w(70, 64); w(71, g.verts.length); w(72, g.faces.length);
+        // vertices and face records are owned by the POLYLINE, and a face record carries AcDbFaceRecord alone (no AcDbVertex marker): the encoding CAP's own
+        // drawings use; CAP's reader rejected the file ("error reading VERTEX") with the extra marker (2026-09-25)
+        for (const v of g.verts) { ent('VERTEX', hp, g.layer); w(100, 'AcDbVertex'); w(100, 'AcDbPolyFaceMeshVertex'); w(10, num(v[0])); w(20, num(v[1])); w(30, num(v[2])); w(70, 192); }
+        for (const f of g.faces) { ent('VERTEX', hp, g.layer); w(100, 'AcDbFaceRecord'); w(10, '0.0'); w(20, '0.0'); w(30, '0.0'); w(70, 128); f.forEach((i, k) => w(71 + k, i)); }
+        ent('SEQEND', hp, g.layer); }
       else if (g.t === 'circle') { ent('CIRCLE', owner, g.layer); w(100, 'AcDbCircle'); w(10, num(g.c[0])); w(20, num(g.c[1])); w(30, '0.0'); w(40, num(g.r)); }
       else if (g.t === 'poly') { const hp = ent('POLYLINE', owner, g.layer); w(100, 'AcDb2dPolyline'); w(66, 1); w(10, '0.0'); w(20, '0.0'); w(30, '0.0'); w(70, g.closed ? 1 : 0);
         for (const p of g.pts) { ent('VERTEX', owner, g.layer); w(100, 'AcDbVertex'); w(100, 'AcDb2dVertex'); w(10, num(p[0])); w(20, num(p[1])); w(30, '0.0'); if (p[2]) w(42, num(p[2])); w(70, 0); }
@@ -102,7 +207,7 @@
       w(100, 'AcDbAttributeDefinition'); w(3, ''); w(2, a.tag); w(70, a.vis ? 0 : 1);
     }
     function writeInsert(ins, owner) { // ins: { name, x, y, rot, layer, attribs: {tag: value} }; attribute positions follow the block's ATTDEFs, rotated with the insert
-      const b = byName[ins.name]; const hi = ent('INSERT', owner, ins.layer || 'A-FURN'); w(100, 'AcDbBlockReference'); if (b.attdefs.length) w(66, 1); w(2, ins.name); w(10, num(ins.x)); w(20, num(ins.y)); w(30, '0.0'); if (ins.rot) w(50, num(ins.rot));
+      const b = byName[ins.name]; const hi = ent('INSERT', owner, ins.layer || 'A-FURN'); w(100, 'AcDbBlockReference'); if (b.attdefs.length) w(66, 1); w(2, ins.name); w(10, num(ins.x)); w(20, num(ins.y)); w(30, num(ins.z || 0)); if (ins.rot) w(50, num(ins.rot));
       for (const a of b.attdefs) {
         const p = a.vis ? rot2(ins.rot || 0, a.pos[0], a.pos[1]) : [0, 0]; ent('ATTRIB', owner, a.layer); w(100, 'AcDbText'); w(10, num(ins.x + p[0])); w(20, num(ins.y + p[1])); w(30, '0.0'); w(40, num(a.h)); w(1, ascii(ins.attribs[a.tag] || ''));
         if (a.vis) { if (ins.rot) w(50, num(ins.rot)); w(7, a.style); w(72, 1); const q = rot2(ins.rot || 0, a.align[0], a.align[1]); w(11, num(ins.x + q[0])); w(21, num(ins.y + q[1])); w(31, '0.0'); }
@@ -129,7 +234,7 @@
       const wd = p.width, ht = E.panelTotalHeight(p); const mine = bySrc[p.id] || []; const nested = mine.filter(l => l.cat !== 'Power'), power = mine.filter(l => l.cat === 'Power');
       const sig = [wd, ht, ...nested.map(l => l.style + 'x' + l.qty + '|' + (l.desc || '')).sort()].join('~');
       if (opts.flat) { // every panel part as its own top-level insert, no config block
-        const frame = nested.find(isPanelLine) || nested[0]; if (frame) place(frame, frameBlock(frame.style, wd, ht), ins[0], ins[1], r, wd + '/' + ht, { CAPALIAS1: stationOf(p.id) });
+        const frame = nested.find(isPanelLine) || nested[0]; if (frame) place(frame, frameBlock(frame.style, wd, ht, p, /panel-package/.test(frame.pid || '')), ins[0], ins[1], r, wd + '/' + ht, { CAPALIAS1: stationOf(p.id) });
         const units = []; for (const l of nested) for (let i = 0; i < (l === frame ? left.get(l) : l.qty); i++) units.push(l);
         units.forEach((l, i) => { const q = rot2(r, wd * (i + 1) / (units.length + 1), 1.5); place(l, pointBlock(l.style), ins[0] + q[0], ins[1] + q[1], r, '', { CAPALIAS1: stationOf(p.id) }); });
         const pu = []; for (const l of power) for (let i = 0; i < l.qty; i++) pu.push(l);
@@ -139,13 +244,41 @@
       if (!configs[sig]) {
         const id = letter(cfgN++); const frame = nested.find(isPanelLine) || nested[0]; const rest = nested.filter(l => l !== frame);
         const units = []; for (const l of rest) for (let i = 0; i < l.qty; i++) units.push(l);
+        const pkg = !!(frame && /panel-package/.test(frame.pid || '')); const frameName = frame ? frameBlock(frame.style, wd, ht, p, pkg) : null;
+        // CAP builds the 3D panel from the 2D config itself (on opening a file it says the panel builder graphics need updating and redraws them): each
+        // nested symbol stays where the 2D config puts it, is swapped for its 3_ twin and lifted by its CAPDH (the owner's claude-request samples,
+        // 2026-09-25). CAP's own configs nest the frame at the origin, the side B skin at (0, 3) and the side A skin at (width, 0) turned 180 degrees,
+        // both with CAPDH = the base trim height, and a window tile at the origin with CAPDH = its bottom. The config follows that scheme exactly with
+        // the guide's heights, so the bodies land on the panel whether CAP uses our twins or redraws from its library.
+        const rowOf = (l) => E.rowsByStyle(l.style).find(r => r._pid === l.pid) || { attrs: {} };
+        const bodies = new Map(); const usedB = new Set(); const takeB = (pred) => { const l = rest.find(x => !usedB.has(x) && pred(x)); if (l) usedB.add(l); return l; };
+        const tileLine = (side, sg) => sg.kind === 'window' ? (side === 0 ? takeB(x => /glass-windows|window-kits/.test(x.pid || '') && (rowOf(x).attrs.height || 0) === sg.height) : null) : takeB(x => x.cat === 'Skins' && new RegExp('side ' + (side + 1)).test(x.desc || '') && (rowOf(x).attrs.height || 0) === sg.height);
+        const tileBody = (side, sg, hz, z0) => sg.kind === 'window' ? { key: `W${wd}x${hz.toFixed(3)}`, x: 0, y: 0, rot: 0, z0, build: b3 => window3(b3, wd, hz) }
+          : { key: `S${wd}x${hz.toFixed(3)}`, x: side === 0 ? wd : 0, y: side === 0 ? 0 : 3, rot: side === 0 ? 180 : 0, z0, build: b3 => skin3(b3, wd, hz) };
+        for (const side of [0, 1]) { // base tiles from the base trim up, scaled to fill to the cap lip (p16, p19); stack tiers above at the stacking junction heights (p32)
+          let z = BT; const k = skinScale(p.height);
+          for (const sg of p.sides[side]) { const hz = sg.height * k; const l = tileLine(side, sg); if (l) bodies.set(l, tileBody(side, sg, hz, z)); z += hz; }
+          let zt = AH(p.height) - capF;
+          (p.stack || []).forEach((st, i) => { const ks = stackScale(st); for (const sg of (p.stackSides[i] || [[], []])[side] || []) { const hz = sg.height * ks; const l = tileLine(side, sg); if (l) bodies.set(l, tileBody(side, sg, hz, zt)); zt += hz; } });
+        }
+        { const gl = takeB(x => /frameless-glass/.test(x.pid || '')); if (gl) { const kit = rowOf(gl).attrs.height || (p.glassScreen && p.glassScreen.height) || 12; const endOf = (nid) => { const J = nodes[nid]; const coh = J && J.type === 'inline' && new Set(J.legs.map(l => l.total)).size > 1; return coh ? E.GLASS.recessed.cohEnd : GLASS_END; }; const top = E.actualTop(trim, p), e0 = endOf(p.a), e1 = endOf(p.b), gh = GLASS_H[kit] || kit;
+          bodies.set(gl, { key: `G${wd}x${gh}x${e0}x${e1}`, x: 0, y: 0, rot: 0, z0: top + kit - gh, build: b3 => glass3(b3, wd, gh, e0, e1) }); } } // the glass top stands the kit height above the top cap (p64)
+        const placed = []; const bodyDone = new Set();
+        const unitBlock = (l, i) => { const body = bodies.get(l) && !bodyDone.has(l) ? (bodyDone.add(l), bodies.get(l)) : null;
+          const u = body ? { nm: block(l.style, `T|${body.key}`, b => { pt(b, 'A-FURN-POINT-PART', [0, 0]); partAttdefs(b, 'A-FURN-POINT-PART-T'); }, b3 => body.build(b3)), x: body.x, y: body.y, rot: body.rot, z: body.z0 }
+            : { nm: pointBlock(l.style), x: wd * (i + 1) / (units.length + 1), y: 1.5, rot: 0, z: 0 }; // parts without a body stay point symbols along the centreline
+          placed.push({ ...u, l }); return u; };
         const name = block(id + wd, 'CFG', b => {
-          if (frame) b.inserts.push({ name: frameBlock(frame.style, wd, ht), x: 0, y: 0, rot: 0, attribs: attrs(frame, wd + '/' + ht) });
-          units.forEach((l, i) => b.inserts.push({ name: pointBlock(l.style), x: wd * (i + 1) / (units.length + 1), y: 1.5, rot: 0, attribs: attrs(l, '', { CAPDH: /tier (\d+)/.test(l.desc || '') ? String(4 + 24.72 * (+RegExp.$1 - 1)) : '0' }) }));
+          if (frame) b.inserts.push({ name: frameName, x: 0, y: 0, rot: 0, attribs: attrs(frame, wd + '/' + ht) });
+          units.forEach((l, i) => { const u = unitBlock(l, i); b.inserts.push({ name: u.nm, x: u.x, y: u.y, rot: u.rot, attribs: attrs(l, '', { CAPDH: String(+u.z.toFixed(4)) }) }); });
           for (const t of PANEL_TAGS) b.attdefs.push(t === 'CAPSTD' ? { tag: t, pos: [wd / 2, 4.5], align: [wd / 2, 4.5], h: 3, vis: true, style: 'Standard', layer: useLayer('A-FURN-PNLS-BUILDUP-T') } : { tag: t, pos: [0, 0], h: 0.001, vis: false, style: 'Standard', layer: 'A-FURN-PNLS-BUILDUP-T' });
-        }); byName[name].name = name.replace(/^P_/, 'P_') ; byName[name].cfg = true;
-        // CAP names configs P_<name><width>.000000
+        }, (b3) => { // the 3D config as CAP writes it: the same inserts as the 2D one, each lifted to its CAPDH
+          if (frame) b3.inserts.push({ name: '3_' + frameName.slice(2), x: 0, y: 0, z: 0, rot: 0, attribs: attrs(frame, wd + '/' + ht) });
+          for (const u of placed) b3.inserts.push({ name: '3_' + u.nm.slice(2), x: u.x, y: u.y, z: u.z, rot: u.rot, attribs: attrs(u.l, '', { CAPDH: String(+u.z.toFixed(4)) }) });
+        }); byName[name].cfg = true;
+        // CAP names configs P_<name><width>.000000, so the 3D twin is 3_<name><width>.000000
         const cap = 'P_' + id + wd + '.000000'; byName[cap] = byName[name]; delete byName[name]; byName[cap].name = cap;
+        const n3 = '3_' + name.slice(2), c3 = '3_' + cap.slice(2); byName[c3] = byName[n3]; delete byName[n3]; byName[c3].name = c3;
         configs[sig] = { id, name: cap, wd, ht, frame, rest, title: `${wd}" x ${ht}" panel config ${id}: ` + nested.map(l => l.style + (l.qty > 1 ? ' x' + l.qty : '')).join(', ') };
       }
       const cfg = configs[sig];
@@ -169,9 +302,12 @@
       else { r = (legs[0] + 180) % 360; const q = rot2(r, 0, -1.5); ins = [n.x + q[0], n.y + q[1]]; }
       const first = mine.find(l => l.cat === 'Junction') || mine[0]; const hts = [...new Set(J.legs.map(l => l.total))].sort((a, b) => a - b).join('/');
       const jtag = ({ L: 'L', T: 'T', X: 'X', V: 'V', Y: 'Y', inline: 'I', EOR: 'E', wall: 'W' }[t] || t) + hts;
-      place(first, junctionBlock(first.style, t), ins[0], ins[1], r, jtag, { CAPALIAS1: stationOf(J.legs[0].panel.id) });
+      const legsL = legsLocal(J, r); const o3 = (t === 'L' || t === 'T' || t === 'X') ? [1.5, 1.5] : (t === 'V' || t === 'Y') ? [0, 0] : [0, 1.5];
+      place(first, junctionBlock(first.style, t, { legs: legsL, omit: omitTrim(first) }), ins[0], ins[1], r, jtag, { CAPALIAS1: stationOf(J.legs[0].panel.id) });
       const units = []; for (const l of mine) for (let i = 0; i < (l === first ? left.get(l) : l.qty); i++) units.push(l);
-      units.forEach((l, i) => { const a = 45 + 60 * i; place(l, pointBlock(l.style), n.x + Math.cos(rad(a)) * 2.5, n.y + Math.sin(rad(a)) * 2.5, 0, '', { CAPALIAS1: stationOf(J.legs[0].panel.id) }); });
+      // parts with a body at the junction (stacking junctions, caps, trims) sit on the node in the symbol's frame, so their 3D twins are right; the rest ring it
+      const bodied = (l) => /stacking.*junction|junction-caps|vertical-trim|change-of-height-trim/.test(l.pid || '') && !/frame/.test(l.pid || '');
+      let ring = 0; units.forEach((l) => { if (bodied(l)) place(l, nodePartBlock(l, t, legsL, o3), ins[0], ins[1], r, '', { CAPALIAS1: stationOf(J.legs[0].panel.id) }); else { const a = 45 + 60 * (ring++); place(l, pointBlock(l.style), n.x + Math.cos(rad(a)) * 2.5, n.y + Math.sin(rad(a)) * 2.5, 0, '', { CAPALIAS1: stationOf(J.legs[0].panel.id) }); } });
     }
     // worksurfaces: outline block, then supports at their positions, pedestals in their footprints, fillers and the rest as point parts
     const pending = []; // geometry positions that project-level lines (side bracket pairs, tie plate packs) may take
@@ -188,8 +324,9 @@
       }
       const tag = ws.kind === 'straight' ? `${ws.width}/${ws.depth}` : `${ws.depthA}/${ws.C}/${ws.D}/${ws.depthB}`;
       const cx = loc.reduce((s, p) => s + p[0], 0) / loc.length, cy = loc.reduce((s, p) => s + p[1], 0) / loc.length;
-      if (wl) place(wl, shapeBlock(wl.style, 'W' + sigOf(loc), 'A-FURN-P-WKSF', loc, { pos: [cx, cy - 1.2], align: [cx, cy - 1.2], h: 2.4, style: 'Standard' }), o[0], o[1], r, tag, { CAPALIAS1: st });
-      // supports (p207-217): drawn from the panel face toward the front
+      const poly3 = g.poly.map(p => rot2(-r, p[0] - o[0], p[1] - o[1])), inner3 = g.o ? rot2(-r, g.o[0] - o[0], g.o[1] - o[1]) : [poly3.reduce((s, q) => s + q[0], 0) / poly3.length, poly3.reduce((s, q) => s + q[1], 0) / poly3.length];
+      if (wl) place(wl, shapeBlock(wl.style, 'W' + sigOf(loc), 'A-FURN-P-WKSF', loc, { pos: [cx, cy - 1.2], align: [cx, cy - 1.2], h: 2.4, style: 'Standard' }, null, b3 => prism3(b3, 'A-FURN-P-WKSF', poly3, E.WS_HEIGHT - E.WS_THICK, E.WS_HEIGHT, inner3)), o[0], o[1], r, tag, { CAPALIAS1: st }); // 1 3/16" thick at 28 1/2" (p222)
+      // supports (p223/224/225/227/234/235/236/237): drawn from the panel face toward the front
       const kindPid = { cantilever: /cantilever/, csp: /center-support/, endpanel: /end-panel/, leg: /post-leg/, ssb: /side-support/ };
       for (const s of ws._supports || []) {
         const rx = kindPid[s.kind]; if (!rx) continue; const n = s.n; const rr = angOf(n[0], -n[1]) ; // block -y points to the front (n)
@@ -203,7 +340,7 @@
         if (own) place(own, bname(own.style), face[0], face[1], rs, s.kind === 'ssb' ? 'SS' : '', { CAPALIAS1: st });
         else pending.push({ rx, x: face[0], y: face[1], rot: rs, bname, tag: s.kind === 'ssb' ? 'SS' : '', st });
       }
-      if (g.kind !== 'straight' && g.o) pending.push({ rx: /side-support/, x: g.o[0], y: g.o[1], rot: 0, bname: (style) => block(style, 'SSB', b => { sq(b, 'A-FURN-P-WKSF-SUP', rect(-3, 0, 3, -1)); partAttdefs(b, 'A-FURN-P-WKSF-SUP-T', { pos: [0, -3.5], align: [0, -3.5], h: 2, style: 'Standard' }); }), tag: 'SS', st }); // side support bracket at a corner worksurface's rear corner (p545)
+      if (g.kind !== 'straight' && g.o) pending.push({ rx: /side-support/, x: g.o[0], y: g.o[1], rot: 0, bname: (style) => block(style, 'SSB', b => { sq(b, 'A-FURN-P-WKSF-SUP', rect(-3, 0, 3, -1)); partAttdefs(b, 'A-FURN-P-WKSF-SUP-T', { pos: [0, -3.5], align: [0, -3.5], h: 2, style: 'Standard' }); }), tag: 'SS', st }); // side support bracket at a corner worksurface's rear corner (p588)
       for (const t of ws._tie || []) tiePts.push({ x: t.pt[0], y: t.pt[1], rot: angOf(t.dir[0], t.dir[1]), st });
       // pedestals and their fillers, in the order the specification lists them
       const peds = mine.filter(l => l.cat === 'Storage' && !/filler/.test(l.pid)), fillers = mine.filter(l => l.cat === 'Storage' && /filler/.test(l.pid));
@@ -265,6 +402,6 @@
     out[seedAt + 3] = (hseed + 16).toString(16).toUpperCase();
     return out.join('\n') + '\n';
   };
-  E.capDxfBlocks = () => null;
+  E.capDxfBlocks = () => '3_<name> polyface meshes beside every P_<name> block, from the guide dimensions (see cap/NOTES.md)';
   if (!isNode) root.ANSWER = E; else module.exports = E;
 })(typeof window !== 'undefined' ? window : globalThis);

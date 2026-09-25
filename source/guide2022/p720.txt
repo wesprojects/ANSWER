@@ -1,0 +1,123 @@
+720 
+Answer Solutions SpeciÀ cation Guide
+Duo Storage Products
+Duo Storage
+For Use with Answer In-Line, L, T, and End-of-Run Junctions
+ 
+Standard Includes 
+ Required to Specify
+• Tall storage box: laminate
+• Painted steel interior divider cover: paint price group 1
+• Leg: 4799 Platinum paint
+• Panel attachment brackets: 4799 Platinum paint
+• Worksurface brackets
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number
+2 Laminate color number for box
+3 Paint color number for interior
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ Interior divider cover
+ Materials 
+• Paint price group 1  
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$20 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3  
++$33 
+ 
+ 
+ Specify paint color number.
+  
+• Open Line laminate on box 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+Speciwcation Information
+DDimensions  
+DStyle 
+DU.S.
+dD 
+W 
+H 
+dNumber 
+dBase
+d 
+ 
+ 
+d 
+dPrice
+d 
+ 
+ 
+d 
+d
+Individual Tall Storage with Leg
+18" 
+54" 
+15" 
+BDTS54ANL 
+$1482
+18" 
+66" 
+15" 
+BDTS66ANL 
+$1659
+18" 
+78" 
+15" 
+BDTS78ANL 
+$1860
+d
+
+
+d
+d
+Shared Tall Storage with Leg
+18" 
+54" 
+15" 
+BDTD54ANL 
+$1620
+18" 
+66" 
+15" 
+BDTD66ANL 
+$1793
+18" 
+78" 
+15" 
+BDTD78ANL 
+$2087
+d
+
+
+d
+d
+Tip: For individual tall storage, 
+only the external side of the 
+interior divider cover has the 
+option to be painted.
+c Need help?
+Product details,
+page 346
+Steelcase 
+June 2022

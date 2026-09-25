@@ -1,0 +1,41 @@
+Answer Solutions SpeciÀ cation Guide 
+cFreestanding Applications, continued 255
+Worksurface Screens
+Freestanding Applications
+Worksurface 
+Screens
+Applications are considered freestanding when they have no structural 
+connection and do not meet the tethered or panel connected requirements.
+cSee page 260 for panel-mounted and tethered connections.
+Freestanding tables may be used with boundary screens. Table size, 
+shape, connected conÀ guration; as well as possible location, height, and 
+weight being added to application are factors that determine stability limits. 
+Straight
+Tapered
+Corner
+Bullet Peninsula
+Bubble Jetty
+Jetty
+Transitional
+Boundary screens attach on the square edge of  universal straight,
+transitional, tapered, bullet peninsula, corner, jetty, and bubble jetty.
+Boundary screens are not intended for use on the depth edge of surfaces.
+Width
+Screen
+height
+Clearance
+Boundary Screen
+Installed
+height
+Maximum allowed width of a screen is determined by the installed 
+height, screen clearance, and worksurface width.
+To ensure stability, any boundary screen applied in a freestanding application 
+must not exceed the size listed in matrix, on page 256.
+Boundary screens are not permitted on height adjustable desks as 
+they do not pass minimum safety requirements which could result in the 
+desk tipping over.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

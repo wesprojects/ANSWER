@@ -1,0 +1,168 @@
+482 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Markerboard Skins
+For Panel Buildups 
+ 
+Standard Includes 
+ Required to Specify
+• Markerboard skin: white
+ Style number
+Tip: 18"H and 30"H skins 
+only work on junctions 
+manufactured on or after 
+October 10, 2011.
+Speciwcation Information
+ 
+12"H 
+18"H 
+24"H 
+30"H 
+36"H 
+ 
+ 
+ 
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+d 
+dNumber 
+dPrice 
+dNumber 
+dPrice 
+dNumber 
+dPrice 
+dNumber 
+dPrice 
+dNumber 
+dPrice
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+18" 
+TS71218MB 
+$203  
+TS71818MB 
+$246 
+TS72418MB 
+$286 
+TS73018MB 
+$338 
+TS73618MB 
+$394
+24" 
+TS71224MB 
+$219 
+TS71824MB 
+$263 
+TS72424MB 
+$305 
+TS73024MB 
+$359 
+TS73624MB 
+$418
+30" 
+TS71230MB 
+$235 
+TS71830MB 
+$283 
+TS72430MB 
+$329 
+TS73030MB 
+$389 
+TS73630MB 
+$444
+36" 
+TS71236MB 
+$246 
+TS71836MB 
+$297 
+TS72436MB 
+$345 
+TS73036MB 
+$410 
+TS73636MB 
+$472
+42" 
+TS71242MB 
+$266 
+TS71842MB 
+$315 
+TS72442MB 
+$363 
+TS73042MB 
+$433 
+TS73642MB 
+$501
+48" 
+TS71248MB 
+$284 
+TS71848MB 
+$334 
+TS72448MB 
+$388 
+TS73048MB 
+$461 
+TS73648MB 
+$538
+60" 
+TS71260MB 
+$304 
+TS71860MB 
+$354 
+TS72460MB 
+$409 
+TS73060MB 
+$496 
+TS73660MB 
+$572
+72" 
+TS71272MB 
+$323 
+TS71872MB 
+$376 
+TS72472MB 
+$432 
+TS73072MB 
+$520 
+TS73672MB 
+$599
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+cNeed help?
+Product details,
+page 131
+Steelcase 
+June 2022

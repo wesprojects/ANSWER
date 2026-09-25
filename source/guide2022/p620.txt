@@ -1,0 +1,90 @@
+620 
+Answer Solutions Specification Guide
+  
+ Standard Includes 
+ 
+ Required to Specify
+• Package of four wire clips: velcro
+• Attachment hardware
+ Style number
+Velcro Wire Clips
+Tip: Attaches under work-
+surfaces with screws or 
+around leg.
+ Speciw cation Information
+DDimensions 
+ 
+DStyle 
+DU.S.
+dD 
+W 
+H 
+dNumber 
+dPrice
+d 
+ 
+ 
+d
+d
+1¼2" 
+8" 
+1¼2" 
+TS5LEGCLP 
+$73
+d
+
+
+d
+d
+Wire Manager
+Standard Includes 
+ Required to Specify
+• 25" wire manager with double-sided tape: black plastic
+ Style number
+Speciwcation Information
+DDimensions  
+DStyle 
+DU.S.
+dD 
+W 
+H 
+dNumber 
+dPrice
+d
+
+
+d
+d
+1" 
+3¼4" 
+25" 
+AWVW 
+$20
+d
+
+
+d
+d
+Wire Clips
+Standard Includes 
+ Required to Specify
+• Carton of six: black plastic only
+• Foam tape
+• Mounting screws
+ Style number
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+d Price
+d
+d
+999CHT 
+$97
+d
+d
+Worksurface Power and Communication
+Wiring and Cabling Accessories, continued
+ 
+Steelcase 
+June 2022

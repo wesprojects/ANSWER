@@ -1,0 +1,79 @@
+Answer Solutions SpeciÀ cation Guide 
+cWiring and Cabling, continued  527
+ Wiring and Cabling
+Shared Components and Wiring and Cabling
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Receptacle trim ring: plastic
+1 Style number
+2 Plastic color number for receptacle 
+trim ring
+c
+See Surface Materials, page 724.
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+TS7RCT 
+$15
+ d 
+d
+Tip: Receptacle trim ring 
+required for each power cut-
+out location on steel panel 
+skins.
+Receptacle Trim Ring
+Standard Includes 
+ Required to Specify
+• Package of 20 receptacle À llers: plastic 
+1 Style number
+2 Plastic color number for receptacle À llers
+cSee Surface Materials, page 724.
+Standard Includes 
+ Required to Specify
+• Package of 20 data fillers: plastic
+1 Style number
+2 Plastic color number for data fillers
+c
+See Surface Materials, page 724.
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+TS7DF  
+$103
+ d 
+d
+Data Filler 
+Tip: Data Àller package Àlls 
+unused data openings in 
+steel skins with data cutouts.
+Receptacle Filler
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+TSBRF  
+$125
+ d 
+d
+Tip: Receptacle Àller pack-
+age Àlls unused receptacle 
+openings in steel skins 
+with power cutouts.
+Steelcase 
+June 2022

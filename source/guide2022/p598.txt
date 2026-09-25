@@ -1,0 +1,185 @@
+598 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Screen: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Edge on laminate screen, if selected: plastic
+• Height: 15"H–54"H
+• Height installed: 30"H–54"H
+• Width: 24"W–72"W
+• Attachment brackets: paint price group 1
+Required Selections 
+U.S. Price 
+ Required to Specify
+Screen Size 
+• Modular 
+ 
+No cost 
+ Specify with modular.
+Type 
+• Parametric  
+No cost 
+ Specify with parametric.
+Height  
+ Modular 
+Parametric
+Installed 
+• 30"H 
+30"H–3515¼16"H 
+Prices at right 
+ Specify installed height.
+ 
+• 36"H 
+36"H–4115¼16"H 
+Prices at right 
+ Specify installed height.
+ 
+• 42"H 
+42"H–4715¼16"H 
+Prices at right 
+ Specify installed height.
+ 
+• 48"H 
+48"H–5315¼16"H 
+Prices at right 
+ Specify installed height.
+ 
+• 54"H 
+54"H 
+Prices at right 
+ Specify installed height.
+Screen 
+ Modular 
+Parametric
+Clearance 
+• 0"H 
+0"–1415¼16"H 
+Prices at right 
+ Specify screen clearance.
+ 
+• 15"H 
+ 
+Prices at right 
+ Specify screen clearance.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Screen 
+ 
+ 
+Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+ 
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+ 
+• Open Line laminate 
++$184 
+c See Surface Materials Reference Manual.
+ 
+  
+ 
+plus cost of laminate 
+ 
+• Wood group 2 
++$184 
+ Specify wood color number.
+ 
+• Wood group 3 
++$654 
+ Specify wood color number.
+ 
+• Customiz stain 
+No cost 
+ Specify with Customiz stain.
+ 
+• Full-À ll À nish on wood group 1 
+No cost 
+  Specify with full-À ll À nish and select
+wood color number.
+ 
+ Grain direction
+ 
+• No direction  
+No cost 
+ Specify with no direction.
+ 
+• Horizontal 
+ 
+No cost 
+ Specify with horizontal grain direction.
+ 
+• Vertical 
+ 
+No cost 
+ Specify with vertical grain direction.
+ 
+ Brackets
+ 
+• Paint price group 2 
++$  15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$  31 
+ Specify paint color number.
+Worksurface Screens 
+Universal Boundary Screens
+Laminate and Veneer
+Tip: Height installed, in com-
+bination with screen clear-
+ance and width, determines 
+the size screen you need 
+for your application.
+Tip: Screen clearance is 
+measured from the bottom 
+of the boundary screen to 
+the bottom of the leg which 
+the screen is attached.
+Tip: Full-À ll À nish codes can 
+be used to simplify speciÀ -
+cation of veneer boundary 
+screens being used in set-
+tings with full-À ll veneer prod-
+ucts. The screen will not have 
+the À nal À ll coat applied, but 
+the À nish color will be consis-
+tent with the full-À ll products.
+Tip: Wood grain laminate is 
+only available on surfaces 
+less than 60"W. No restric-
+tions for veneer.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1  Style number
+2  Screen size type (see below under 
+ Required Selections)
+3  Height installed (see below under 
+ Required Selections)
+4  Screen clearance (see below under 
+ Required Selections)
+5  Width
+6  High-Pressure Laminate or wood veneer  
+ color number for screen 
+7  Plastic color number for edge on 
+ laminate screen, if selected
+8  Grain direction
+9  Paint color number for brackets
+10 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 252
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Steelcase 
+June 2022

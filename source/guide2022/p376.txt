@@ -1,0 +1,117 @@
+376 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Junction
+• Fork connectors
+ Style number
+Tip: Stacking corner junc-
+tions do not include trim. 
+Trim is speciÀ ed separately 
+to span entire height of 
+base junction plus stacking 
+junction.
+Tip: Junction cap is not 
+included and must be 
+speciÀ ed separately.
+Panels—Thin Trim 
+Stacking L, T, X, V, and Y Panel Junctions—Thin Trim
+Speciwcation Information
+DHeight 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice
+d
+d 
+d
+L Panel Junctions
+6" 
+TS76TLPJS 
+$413
+12" 
+TS712TLPJS 
+$413
+18" 
+TS718TLPJS 
+$413
+24" 
+TS724TLPJS 
+$413
+d
+d 
+d
+T Panel Junctions
+6" 
+TS76TTPJS 
+$413
+12" 
+TS712TTPJS 
+$413
+18" 
+TS718TTPJS 
+$413
+24" 
+TS724TTPJS 
+$413
+d
+d 
+d
+X Panel Junctions
+6" 
+TS76XPJS 
+$423
+12" 
+TS712XPJS 
+$423
+18" 
+TS718XPJS 
+$446
+24" 
+TS724XPJS 
+$444
+d
+d 
+d
+V Panel Junctions
+6" 
+TS76TVPJS 
+$522
+12" 
+TS712TVPJS 
+$522
+18" 
+TS718TVPJS 
+$522
+24" 
+TS724TVPJS 
+$522
+d
+d 
+d
+Y Panel Junctions
+6" 
+TS76YPJS 
+$560
+12" 
+TS712YPJS 
+$560
+18" 
+TS718YPJS 
+$560
+24" 
+TS724YPJS 
+$574
+d
+d 
+d
+cNeed help?
+Product details,
+page 32
+Steelcase 
+June 2022

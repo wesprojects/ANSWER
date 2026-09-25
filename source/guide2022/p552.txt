@@ -1,0 +1,246 @@
+552 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+120° Straight Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+ – Plastic 3 mm edge profile, or plastic knife profile on 
+front edge
+ –Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallop on back edge
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+K  Laminate with knife edge
+SW  Wood with square edge
+c See edge proÀ les at right.
+2 High-Pressure Laminate or wood color 
+number for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+À ed separately.
+For wood and lami-
+nate group 2 and 3 
+pricing, please refer to 
+the electronic catalog or 
+SmartTools.
+Tip: Long worksurface spans 
+require additional support.
+c See understanding section 
+for details, page 224
+Tip: To specify 3 mm edge 
+proÀ le, no sufÀ x is required. 
+For all other edge proÀ les, 
+add a sufÀ x to the style 
+number. (For example, 
+USE2448LH becomes 
+USE2448LHSW for wood 
+with square edge proÀ le.)
+Tip: Power and data access 
+door and tray is ordered 
+separately to be used with 
+cutout. 
+c See page 584
+c See page 228 for worksur-
+face size availability matrix.
+Tip: When facing the user 
+edge, the side the diagonal is 
+on is the handed side.
+Tip: Power access door 
+option includes the power 
+access door and a cutout for 
+the door in the worksurface. 
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$  94  
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices at right 
+ 
+ Specify full-À ll À nish number.
+ 
+ Door
+ 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Anodized aluminum 
++$ɚɚ11 per door 
+  Specify with 8043 Clear Anodized 
+Aluminum.
+Scallop 
+• Omit scallop 
+No cost 
+ Specify omit scallop.
+Power  
+ Applies to 48"W
+Access  
+• No power access 
+No cost 
+ Specify with no power access.
+Door 
+• Power access door center 
++$125 
+ Specify with power access door center.
+ 
+• Power access door left 
++$125 
+ Specify with power access door left.
+ 
+• Power access door right 
++$125 
+ Specify with power access door right.
+ 
+ Applies to 60"W
+ 
+• No power access 
+No cost 
+ Specify with no power access.
+ 
+• Power access door center 
++$125 
+ Specify with power access door center.
+ 
+• Power access door left 
++$125 
+ Specify with power access door left.
+ 
+• Power access door right 
++$125 
+ Specify with power access door right.
+ 
+• Power access door left 
++$250 
+ Specify with power access door left and
+ 
+ and right  
+ 
+ right.
+ 
+ Applies to 72"W
+ 
+• No power access 
+No cost 
+ Specify with no power access.
+ 
+• Power access door center 
++$125 
+ Specify with power access door center.
+ 
+• Power access door left  
++$125 
+ Specify with power door left.
+ 
+• Power access door right 
++$125 
+ Specify with power door right.
+ 
+• Power access door left 
++$250 
+ Specify with power access door left and 
+ 
+ right 
+ 
+ and right.
+ 
+• Power access door left  
++$250 
+ Specify with power access door left and 
+ 
+ and center 
+ 
+ center.
+ 
+• Power access door right and 
++$250 
+ Specify with power access door right and
+ 
+ center 
+ 
+ center.
+ 
+• Power access door left, 
++$375 
+ Specify with power access door left,
+ 
+ right, and center 
+ 
+ right, and center.
+Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+Products 
+• Reinforcing channel 
+ 
+c Page 589
+ 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+ 
+• Worksurface screens 
+ 
+c Page 609
+ 
+• Worksurface power and communication components 
+c Page 611
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

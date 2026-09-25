@@ -1,0 +1,158 @@
+Universal Systems Worksurfaces
+ 
+Calculate span distance by measuring from edge of one end of worksurface to edge of other end of worksurface. To determine size of reinforcing chan-
+nel needed, deduct the amount listed in the matrix below from the measured span. Deduction in inches is based on combination of the left-hand and right-hand 
+supports. 
+Example: 72"W measured span, with application of cantilever for left-hand support and end panel for right-hand support, has a span deduction of 6" for a rein-
+forcing channel size of 66" (72"–6" = 66"). For this application, use reinforcing channel TS7WKSPT66.
+Worksurface Span Deductions 
+for Determining Reinforcing 
+Channel Size
+Right-Hand Support
+End Panel
+FrameOne 
+Leg
+FrameOne 
+Leg-Table 
+Application
+Intermediate
+Support
+DBL Post 
+Leg
+Cantilever
+All other
+Legs/Supports
+Left- 
+Hand 
+Support
+End Panel
+–6"
+–6"
+–9"
+–9"
+–6"
+–6"
+–6"
+FrameOne Leg
+–6"
+–6"
+–9"
+–9"
+–6"
+–6"
+–6"
+FrameOne Leg-Table
+Application
+–9"
+–9"
+–12"
+–12"
+–9"
+–9"
+–9"
+Intermediate Support
+–9"
+–9"
+–12"
+–12"
+–9"
+–9"
+–9"
+DBL Post Leg
+–6"
+–6"
+–9"
+–9"
+–6"
+–6"
+–6"
+Cantilever
+–6"
+–6"
+–9"
+–9"
+–6"
+–6"
+–6"
+All other Legs/Supports
+–6"
+–6"
+–9"
+–9"
+–6"
+–6"
+–6"
+Reinforcing Channel Sizes
+Style Number
+Nominal 
+Actual 
+TS7WKSPT39
+39"W
+39.231"W
+TS7WKSPT48
+48"W
+47.547"W
+TS7WKSPT51
+51"W
+50.547"W
+TS7WKSPT54
+54"W
+53.547"W
+TS7WKSPT
+57"W
+56.547"W
+TS7WKSPT60
+60"W
+59.547"W
+TS7WKSPT63
+63"W
+62.547"W
+TS7WKSPT66
+66"W
+65.547"W
+TS7WKSPT72
+72"W
+71.547"W
+Note: If the deducted span distance falls between two reinforcing channel sizes, select the smaller of the two sizes.
+Reinforcing Channel Size for Straight 120° Worksurfaces
+To calculate the reinforcing channel size for a straight 120° worksurface, use the user edge length, subtract 6", and order the next shortest channel. See chart 
+below.
+Back Edge Width
+Worksurface Depth
+User Edge Depth
+Reinforcing Channel 
+Size
+48"
+231¼2"
+611¼16"
+54"W
+48"
+291¼2"
+651¼16"
+57"W
+60"
+231¼2"
+739¼16"
+66"W
+60"
+291¼2"
+771¼16"
+66"W
+72"
+23 1¼2"
+859¼16"
+72"W
+72"
+291¼2"
+891¼16"
+72"W
+Worksurface Support 
+Guidelines
+Universal Systems 
+Worksurfaces
+Answer Solutions SpeciÀ cation Guide 
+cWorksurface Support Guidelines, continued  217
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

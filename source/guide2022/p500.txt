@@ -1,0 +1,254 @@
+500 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Skin: back painted glass
+• Trim: paint
+• Attachment hardware
+Shared Components and Wiring and Cabling
+Back Painted Glass Skins
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Rare earth magnets 
+should be used with 
+magnetic backer.
+Tip: Back painted glass 
+skins only work on junctions 
+ manufactured on or after 
+October 10, 2011. 
+Tip: Back painted glass 
+skins do not attach to wall 
+start junctions.
+Options 
+U.S. Price 
+ Required to Specify
+Magnetic  
+• Magnetic backer 
+Prices below 
+ Specify with backer.
+Backer 
+  
+and at right
+Speciwcation Information
+
+
+ 
+12"H 
+18"H
+DDimensions DStyle
+DU.S. 
+DOption 
+DDimensions DStyle
+DU.S. 
+DOption
+dW 
+dNumber 
+dBase 
+d(Add $ to
+dW 
+dNumber 
+dBase 
+d(Add $ to
+d 
+d 
+dPrice 
+dBase Price) 
+d 
+d 
+dPrice 
+dBase Price)
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+d 
+d 
+d 
+dMagnetic  
+d 
+d 
+d 
+dMagnetic 
+d 
+d 
+d
+dBacker
+d 
+d 
+d
+dBacker
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+18" 
+TS71218GS 
+$ɚɚ700 
++$ɚɚ294 
+18" 
+TS71818GS 
+$ɚɚ780 
++$ɚɚ329
+24" 
+TS71224GS 
+$ɚɚ774 
++$ɚɚ328 
+24" 
+TS71824GS 
+$ɚɚ899 
++$ɚɚ379
+30" 
+TS71230GS 
+$ɚɚ858 
++$ɚɚ361 
+30" 
+TS71830GS 
+$1014 
++$ɚɚ430
+36" 
+TS71236GS 
+$ɚɚ980 
++$ɚɚ412 
+36" 
+TS71836GS 
+$1178 
++$ɚɚ496
+42" 
+TS71242GS 
+$1124 
++$ɚɚ475 
+42" 
+TS71842GS 
+$1371 
++$ɚɚ578
+48" 
+TS71248GS 
+$1202 
++$ɚɚ505 
+48" 
+TS71848GS 
+$1482 
++$ɚɚ624
+60" 
+TS71260GS 
+$1432 
++$ɚɚ603 
+60" 
+TS71860GS 
+$1796 
++$ɚɚ758
+72" 
+TS71272GS 
+$1631 
++$ɚɚ687 
+72" 
+TS71872GS 
+$2064 
++$ɚɚ870
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+
+
+ 
+24"H 
+30"H
+18" 
+TS72418GS 
+$ɚɚ866 
++$ɚɚ366 
+18" 
+TS73018GS 
+$ɚɚ954 
++$ɚɚ401
+24" 
+TS72424GS 
+$1019 
++$ɚɚ431 
+24" 
+TS73024GS 
+$1143 
++$ɚɚ482
+30" 
+TS72430GS 
+$1177 
++$ɚɚ496 
+30" 
+TS73030GS 
+$1336 
++$ɚɚ563
+36" 
+TS72436GS 
+$1377 
++$ɚɚ579 
+36" 
+TS73036GS 
+$1572 
++$ɚɚ664
+42" 
+TS72442GS 
+$1619 
++$ɚɚ680 
+42" 
+TS73042GS 
+$1866 
++$ɚɚ786
+48" 
+TS72448GS 
+$1763 
++$ɚɚ743 
+48" 
+TS73048GS 
+$2044 
++$ɚɚ862
+60" 
+TS72460GS 
+$2159 
++$ɚɚ910 
+60" 
+TS73060GS 
+$2523 
++$1063
+72" 
+TS72472GS 
+$2500 
++$1052 
+72" 
+TS73072GS 
+$2933 
++$1236
+d 
+d 
+d
+d
+d 
+d 
+d
+d
+cSpeciw cation Information, continued on next page
+1 Style number
+2 Back painted glass color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 137
+Steelcase 
+June 2022

@@ -1,0 +1,235 @@
+Answer Solutions SpeciÀ cation Guide 
+487
+Shared Components and Wiring and Cabling
+Laminate To The Floor Skins
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Skin: laminate price group 1
+• Vertical grain direction for woodgrain and 
+directional laminates
+• Trim: paint
+• Attachment hardware
+Laminate To The 
+Floor Skins
+Shared Components
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+ Materials 
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 plus cost   
+c See Surface Materials Reference Manual.
+  
+  
+of laminate
+ 
+ Grain direction (for all skins up to 48"H only)
+ 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+Speciwcation Information
+
+24"H 
+30"H 
+36"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase  
+dNumber 
+dBase  
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d
+24" 
+TS72424LSF 
+$505 
+TS73024LSF 
+$531 
+TS73624LSF 
+$561
+30" 
+TS72430LSF 
+$528 
+TS73030LSF 
+$576 
+TS73630LSF 
+$619
+36" 
+TS72436LSF 
+$551 
+TS73036LSF 
+$595 
+TS73636LSF 
+$640
+42" 
+TS72442LSF 
+$578 
+TS73042LSF 
+$628 
+TS73642LSF 
+$683
+48" 
+TS72448LSF 
+$598 
+TS73048LSF 
+$657 
+TS73648LSF 
+$717
+d 
+d 
+d 
+d 
+d 
+d 
+d
+ 
+42"H 
+48"H 
+60"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase  
+dNumber 
+dBase  
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d
+24" 
+TS74224LSF 
+$579 
+TS74824LSF 
+$595 
+TS76024LSF 
+$684 
+30" 
+TS74230LSF 
+$621 
+TS74830LSF 
+$624 
+TS76030LSF 
+$712 
+36" 
+TS74236LSF 
+$658 
+TS74836LSF 
+$682 
+TS76036LSF 
+$754
+42" 
+TS74242LSF 
+$697 
+TS74842LSF 
+$707 
+TS76042LSF 
+$780 
+48" 
+TS74248LSF 
+$747 
+TS74848LSF 
+$768 
+TS76048LSF 
+$867 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Remember to omit base 
+trim(s) on horizontal frame 
+package when using a skin 
+to the Á oor.
+Tip: 30"H and 42"H skins 
+only work on junctions 
+manufactured on or after 
+October 10, 2011.
+Tip: When specifying skins, 
+the total skin height will 
+be 6" less than the panel 
+height. Skins to the Á oor 
+are indicated by an F sufÀ x. 
+Plan 6" shorter than panel 
+height, but skins to the Á oor 
+are taller in actual height to 
+cover the base trim area.
+c See Panel Buildups, page 
+18, for more information.
+Tip: All 60"H skins are only 
+available in vertical direction 
+for woodgrain and directional 
+laminates.
+1 Style number
+2 Laminate color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+cNeed help?
+Product details,
+page 134
+Steelcase 
+June 2022

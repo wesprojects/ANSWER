@@ -1,0 +1,41 @@
+Shared Components
+Stability Guidelines, continued
+160 
+Answer Solutions SpeciÀ cation Guide
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Guidelines for Bench Conwgurations with Top Cap Mounted Storage, continued
+Double Sided Bench with Center Top Cap Mounted Storage
+End-of-run support options include: 
+• Post leg and cantilever
+• Half loop leg
+• Open loop leg
+• Closed loop leg
+• Worksurface end panel
+• Pedestal with À ller
+• 1H, 1.5H, or 2H (18" on 24"D) cabinet with panel-to-storage connector in perpendicular application.
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• 1H, 1.5H, or 2H (24"D) cabinet with panel-to-storage connector in parallel application. 
+ Note: 1H and 1.5H cabinet requires intermediate support.
+• Tower with medium storage-to-panel connector
+Maximum worksurface depth is 26" with front support every 10'. 
+Worksurfaces greater than 26"D require legs in the front of each worksurface on both ends of the worksurface.
+Center support panels cannot be used as supports.
+Slim shelves and slatwall skins (including monitor arm attachment) can be applied, but bins and universal shelves are not allowed.
+Tip: The maximum panel height with Duo, Currency 
+Enhanced, and Elective Elements storage is 48". The maxi-
+mum panel height with c:scape storage is 42".
+Tip: 10’ max between legs when using legs and 
+cantilevers to support panel.
+Tip: When top cap storage is center maintained, the storage 
+is shared equally on top of the panel.
+Tip: Center mounting can accept storage up to 25"D.
+1
+2
+3
+4
+1
+3 4
+2
+Steelcase 
+June 2022

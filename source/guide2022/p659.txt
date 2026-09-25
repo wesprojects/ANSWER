@@ -1,0 +1,126 @@
+Answer Solutions SpeciÀ cation Guide 
+659
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Steel Storage
+Speciwcation Information
+DDimensions 
+ 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.  
+DStyle 
+DU.S.
+dD 
+W 
+H 
+dNumber 
+dBase 
+dNumber 
+dBase  
+dNumber 
+dBase
+d 
+ 
+ 
+d 
+dPrice 
+d 
+dPrice  
+d 
+dPrice
+d
+
+
+d
+d
+d
+d
+d
+d
+ 
+ 
+ 
+Steel Fronts  
+Laminate Fronts 
+Wood Fronts
+153¼4" 
+36" 
+161¼4" 
+RSB36TAK 
+$ɚɚ963 
+RSB36LTAK 
+$1470 
+RSB36WTAK 
+$1510
+153¼4" 
+42" 
+161¼4" 
+RSB42TAK 
+$ɚɚ998 
+RSB42LTAK 
+$1505 
+RSB42WTAK 
+$1545
+153¼4" 
+48" 
+161¼4" 
+RSB48TAK 
+$1026 
+RSB48LTAK 
+$1533 
+RSB48WTAK 
+$1573
+153¼4" 
+60" 
+161¼4" 
+RSB60TAK 
+$1553 
+RSB60LTAK 
+$2470 
+RSB60WTAK 
+$2510
+153¼4" 
+66" 
+161¼4" 
+RSB66TAK 
+$1636 
+RSB66LTAK 
+$2553 
+RSB66WTAK 
+$2593
+153¼4" 
+72" 
+161¼4" 
+RSB72TAK 
+$1699 
+RSB72LTAK 
+$2616 
+RSB72WTAK 
+$2656
+d
+
+
+d
+d
+d
+d
+d
+d
+Tip: Overhead storage bins 
+with a "TAK" sufÀ x can be 
+used with Privacy Wall as 
+well.
+cSee Architectural Solutions 
+SpeciÀ cation Guide for 
+attachment information.
+Universal Steel 
+Storage
+Universal Sliding Door Bins 
+with Steel, Laminate, or 
+Wood Front
+Steelcase 
+June 2022

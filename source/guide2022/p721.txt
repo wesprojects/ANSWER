@@ -1,0 +1,123 @@
+Answer Solutions SpeciÀ cation Guide 
+721
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Tall storage box: laminate
+• Painted steel interior divider cover on tall storage:
+paint price group 1
+Duo Storage Products
+Duo Storage
+For Use with Top Cap Mounted Storage
+Duo Storage
+Duo Storage
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ Interior divider cover
+ Materials 
+• Paint price group 1  
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$20 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3  
++$33 
+ 
+ 
+ Specify paint color number.
+  
+• Open Line laminate on box 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+Speciwcation Information 
+DDimensions 
+DStyle 
+DU.S.
+dD 
+W 
+H 
+dNumber 
+dBase
+d
+
+
+d
+dPrice
+d 
+ 
+ 
+d
+d
+Individual Tall Storage
+18" 
+54" 
+15" 
+BDTS54 
+$1010
+18" 
+66" 
+15" 
+BDTS66 
+$1175
+d
+
+
+d
+d
+Shared Tall Storage
+18" 
+54" 
+15" 
+BDTD54 
+$1143
+18" 
+66" 
+15" 
+BDTD66 
+$1308
+d
+
+
+d
+d
+Slim Storage
+25" 
+54" 
+71¼2" 
+BDS54 
+$ɚɚ930
+25" 
+66" 
+71¼2" 
+BDS66 
+$1078
+d
+
+
+d
+d
+1 Style number
+2 Paint color number fot top cap
+3 Paint color number for interior
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 346
+Steelcase 
+June 2022

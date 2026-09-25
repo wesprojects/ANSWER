@@ -1,0 +1,127 @@
+Answer Solutions SpeciÀ cation Guide 
+179
+Wiring & Cabling
+Floor-Access Lay-In 
+Utility Package
+Product Details
+scale 75
+scale 75
+Floor-access lay-in util-
+ity package includes: 
+top cap, two lay-in horizontal 
+connecting bars, base utility 
+box with hardware, one 
+standard base trim, and one 
+modiÀ ed base trim. Package 
+can be speciÀ ed with thin, 
+square, or oval top trim. It 
+is available in 30", 36", 42", 
+and 48" widths to match 
+standard panel widths.
+Base utility box is posi-
+tioned at the left-hand side 
+of the modi À ed base trim. 
+Entry on the other end would 
+be accomplished from the 
+other side of the panel.
+Floor-access lay-in 
+utility package takes 
+the place of a standard hori-
+zontal frame package. Don’t 
+double order.
+Connections
+Bracket attaches the base 
+utility box to the lower lay-in 
+horizontal connecting bar.
+Floor-access lay-in 
+utility package can be 
+installed in in-line, L, T, X, V, 
+Y, and end-of-run panel
+conÀ gurations. End-of-run 
+condition reduces cable 
+capacity.
+Quick-lock mechanism 
+on the lay-in horizontal 
+connecting bar engages the 
+junction in a tight structural 
+connection. Quick-lock 
+mechanism is the same as 
+on the standard horizontal 
+connecting bars.
+3"
+Power infeed sits proud 
+of the panel approximately 
+3" and will interfere with 
+Universal storage with the 
+Universal 3" base, FrameOne 
+foot base, or c:scape glide.
+Wiring & Cabling
+24"W powerkit, ordered 
+separately, can be used in 
+the base of 36"W, 42"W, 
+and 48"W Á oor-access 
+lay-in utility packages. 
+Power kit must be located 
+to the right of the base util-
+ity box. No powerkit can be 
+used in 30"W Á oor-access 
+lay-in utility packages.
+Power harness, ordered 
+separately, is shielded to 
+permit the Á oor-access lay-in 
+utility package to accommo-
+date power and communi-
+cation cable rout ing at the 
+same time. 
+Base utility box routes 
+cables and/or Answer har-
+nesses into the panel from 
+the Á oor. Base power infeeds 
+are not intended for use with 
+the Á oor-access lay-in utility 
+package.
+Floor-access lay-in 
+utility package can 
+accommodate up to 80 cat 6 
+cables. Deduct 10-15 cables 
+for each power harness or 
+modular connector routed 
+through the base utility box.
+Surface Materials
+Base utility box, base 
+trim, and top cap
+• Paint
+• Wood veneer (option on
+ top cap only)
+Lay-in horizontal
+connecting bars
+• Black paint
+Tip: Bars are hidden when 
+panel is properly installed.
+Application Topics
+Base utility box pro-
+trudes 4" from the base trim 
+on one side of the panel. 
+When planning, locate the 
+base utility box underneath 
+a workstation instead of a 
+hallway.
+Specify change-of-
+height top cap on your 
+lay-in utility package if it is 
+the lower panel in a change-
+of-height conÀ guration.
+Base utility box is for 
+routing of cable and power 
+only. Not to be used as a 
+termination point or for the 
+routing of power cords.
+Wiring and Cabling
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

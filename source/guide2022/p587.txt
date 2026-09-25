@@ -1,0 +1,31 @@
+Answer Solutions Specification Guide 
+587
+Universal Systems 
+Worksurfaces
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems Worksurfaces
+Filler Package–Data
+Standard Includes 
+ Required to Specify
+• Package of 20 fillers: black
+ Style number
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+FMVF  
+$47
+ d 
+d
+c Need help?
+Product details,
+page 229
+Filler Package—Data
+Steelcase 
+June 2022

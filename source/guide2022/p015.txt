@@ -1,0 +1,106 @@
+Answer Solutions SpeciÀ cation Guide 
+15
+Panels—Thin Trim
+Panels—Thin Trim
+Statement of Line
+L Return Split Boundary Screens
+W
+Split
+Return
+W
+H
+Split Screens (Primary Screens)
+ 
+251/2"W 
+311/2"W 
+371/2"W 
+431/2"W 
+491/2"W 
+551/2"W 
+611/2"W 
+671/2"W 
+731/2"W
+30"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+36"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+42"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+48"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+54"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+Return Screens
+ 
+18"W 
+24"W 
+30"W
+30"H 
+• 
+• 
+•
+36"H 
+• 
+• 
+•
+42"H 
+• 
+• 
+•
+48"H 
+• 
+• 
+•
+54"H 
+• 
+• 
+•
+Tip: L return split boundary screens are available in both single-connect and dual-connect.
+Tip: Width must be speciÀ ed for each split segment.
+Tip: Primary and return screens may be speciÀ ed with equal or unequal widths. 
+ Understanding
+cPage 80
+ Specifying
+c Pages 416 and 422
+Steelcase 
+June 2022

@@ -1,0 +1,99 @@
+Answer Solutions SpeciÀ cation Guide 
+cUniversal Systems Worksurfaces, continued  225
+Universal Systems 
+Worksurfaces
+Universal Systems Worksurfaces
+Universal Systems 
+Worksurfaces
+P-edge prow le work-
+surface depth prevents 
+modesty panels from À tting 
+properly in return or bridge 
+Answer Freestanding desk 
+applications. Modesty pan-
+els cannot be used when a 
+return or bridge worksurface 
+is attached to the front edge 
+of a P-edge worksurface. 
+The 3 mm edge proÀ le is 
+recommended for return 
+or bridge applications.
+Answer Freestanding 
+peninsula support is not 
+compatible with P-edge bul-
+let peninsula, jetty or bubble 
+jetty worksurfaces. Legs or 
+other alternate supports are 
+recommended.
+Surface Materials
+High-Pressure Laminate Worksurfaces
+• Laminate
+c See Surface Materials Reference Manual.
+•  Open Line laminate (option) A program including non-
+Steelcase laminates which are suitable for use on 
+Steelcase products.
+c See Surface Materials Reference Manual.
+Front (user’s) edge(s)
+• Plastic
+Back and side edges
+• Plastic color default to match user’s edge
+Wood Veneer Worksurfaces
+• Wood veneer (standard)
+• Customiz stain (option)
+• Full-À ll À nish (option)
+Square (3 mm) edge prow le
+• Wood veneer to match worksurface
+Front (user’s) edge(s)
+• Wood edge band
+Application Topics
+P-Edge Prow le Application Rules
+P-edge prow les will produce a valley when installed 
+perpendicular to adjacent worksurfaces. The additional 3¼8" 
+depth of P-edge proÀ les causes an interference À t in on-mod-
+ule panel-mounted applications. For L-conÀ gurations using 
+two worksurfaces, the 3 mm edge proÀ le is recommended.
+Parametric straight worksurfaces have two grommet 
+cutout options. The 2" round grommet cutout option À ts the 
+AWAG2 grommet which is speciÀ ed separately.
+cSee page 615
+The 3" round grommet cutout option À ts the 
+TSAEGROM grommet which is speciÀ ed separately.
+cSee page 616
+The grommet cutout option is not available on a work-
+surface when the power access door option is selected.
+Grommet cutouts in parametric straight work-
+surfaces can be speciÀ ed in the center, the left, or the right 
+sides of the worksurface. Grommet cutouts are available in 
+the below conÀ gurations. 
+Grommet Location on 
+Worksurface
+Minimum Worksurface 
+Widths
+Center, Right, or Left
+All widths
+Right and Left
+At least 25"W
+Right and Center
+At least 34"W
+Left and Center
+At least 34"W
+Center, Right, and Left
+At least 34"W
+FrameOne post legs will interfere with the left or right 
+grommet cutouts on parametric Universal straight worksur-
+faces.
+61/2"
+35/16"
+61/2"
+35/16"
+Grommet cutouts in parametric straight worksur-
+faces are located 35/16" from the back edge of the worksur-
+face to the back edge of the grommet cutout. Left and right 
+grommet cutouts are located 61/2" from the edge of the work-
+surface to the outside edge of the grommet cutout.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

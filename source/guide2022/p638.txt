@@ -1,0 +1,140 @@
+638 
+Answer Solutions Specification Guide
+Universal Tables
+Legs for Universal Tables 
+Standard Includes 
+ Required to Specify
+• Table legs: paint or metal
+• Glides, if selected: paint to match legs
+• Locking casters, if selected: paint to match legs
+• Attachment hardware
+Cabby Legs
+With Alignment Tab
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number
+2 Paint color  number for leg and caster
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 284
+Tip: See Table and Leg 
+Combinations page for 
+number of legs required 
+per table.
+c Page 287
+Tip: Dimensions listed are 
+nominal and include the 
+thickness of a table.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+• Paint price group 1  
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2  
++$27 per leg 
+ 
+ Specify paint color number.
+Speciwcation Information
+DPlanning 
+DStyle 
+DU.S. 
+DPlanning 
+DStyle 
+DU.S.
+dHeight 
+dNumber 
+dBase  
+dHeight 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+d 
+dPrice
+d 
+d 
+d
+d 
+d 
+d
+Cabby Leg with Glide 
+Package of Four Cabby Legs with Glides
+26" 
+BNCAB 
+$257 
+26" 
+BNCAB4 
+$1028 
+281¼2" 
+BCAB 
+$257 
+281¼2" 
+BCAB4 
+$1028 
+d 
+d 
+d
+d
+d
+d
+Cabby Leg with Caster 
+Package of Four Cabby Legs with Casters
+26" 
+BNCABC 
+$291 
+26" 
+BNCAB4C 
+$1164 
+281¼2" 
+BCABC 
+$291 
+281¼2" 
+BCAB4C 
+$1164 
+ 
+d 
+d 
+d
+d
+d
+d
+
+ 
+Package of Four Cabby Legs with 
+ 
+Two Glides and Two Casters 
+ 
+ 
+ 
+26" 
+BNCAB4M 
+$1096 
+ 
+ 
+ 
+281¼2" 
+BCAB4M 
+$1096 
+
+
+
+d
+d
+d
+Tip: Corner tables require a 
+leg in the back corner. Be 
+sure to order Àfth leg if spec-
+ifying a package of four.
+Steelcase 
+June 2022

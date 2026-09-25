@@ -1,0 +1,353 @@
+Answer Solutions Specification Guide 
+547
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Straight Worksurfaces with 
+Soft Edge ProÀle
+Universal Systems Worksurfaces
+ 
+ 
+ 
+Universal Systems 
+Worksurfaces
+Speciwcation Information
+ 
+U.S. Base Prices 
+U.S. Base Price
+ 
+High-Pressure  
+High-Pressure 
+ 
+Laminate 
+Wood 
+Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions DStyle 
+DSoft 
+ 
+DSoft 
+DOption 
+ 
+DDimensions 
+DStyle 
+DSoft 
+dA 
+B 
+dNumber 
+dEdge 
+ 
+dEdge 
+d(Add $ to 
+ 
+dA 
+B 
+dNumber 
+dEdge 
+d 
+ 
+d 
+dProw le 
+ 
+dProw le 
+dBase Price)  
+d 
+ 
+d 
+dProw le 
+ 
+d 
+ 
+d 
+dwith Plastic 
+dwith Wood 
+d 
+ 
+d 
+ 
+d 
+dwith Plastic 
+d 
+ 
+d 
+d3 mm Edge  
+dSquare 
+d 
+ 
+d 
+ 
+d 
+d3 mm Edge 
+d 
+ 
+d 
+d 
+ 
+dEdge 
+d 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+dFull-Fill 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+dFinish on 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+dWood 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+dNo Sufw x 
+ 
+dSufw x WS 
+dGroup 1 
+ 
+d 
+ 
+d 
+dNo Sufw x 
+B
+A
+With 1|2" Cord Drop  
+  
+ 
+ 
+ 
+With Full Depth
+231¼2" 
+48" 
+US2448S $ 822 
+ 
+$1597 
++$58 
+ 
+24" 
+48" 
+WS2448S 
+$ 822 
+231¼2" 
+54" 
+US2454S $ 850 
+ 
+$1625 
++$61 
+ 
+24" 
+54" 
+WS2454S 
+$ 850 
+231¼2" 
+60" 
+US2460S $ 872 
+ 
+$1785 
++$67 
+ 
+24" 
+60" 
+WS2460S 
+$ 872 
+231¼2" 
+66" 
+US2466S $ 924 
+ 
+$1837 
++$69 
+ 
+24" 
+66" 
+WS2466S 
+$ 924 
+231¼2" 
+72" 
+US2472S $ 980 
+ 
+$1893 
++$71 
+ 
+24" 
+72" 
+WS2472S 
+$ 980 
+231¼2" 
+78" 
+US2478S $1162 
+ 
+N.A. 
+N.A. 
+ 
+24" 
+78" 
+WS2478S 
+$1162 
+231¼2" 
+84" 
+US2484S $1242 
+ 
+N.A. 
+N.A. 
+ 
+24" 
+84" 
+WS2484S 
+$1242 
+ 
+231¼2" 
+90" 
+US2490S $1267 
+ 
+N.A. 
+N.A. 
+ 
+24" 
+90" 
+WS2490S 
+$1267 
+ 
+231¼2" 
+96" 
+US2496S $1326 
+ 
+N.A. 
+N.A. 
+ 
+24" 
+96" 
+WS2496S 
+$1326 
+ 
+291¼2" 
+48" 
+US3048S $ 930 
+ 
+$1705 
++$61 
+ 
+30" 
+48" 
+WS3048S 
+$ 930 
+ 
+291¼2" 
+54" 
+US3054S $ 967 
+ 
+$1742 
++$63 
+ 
+30" 
+54" 
+WS3054S 
+$ 967 
+ 
+291¼2" 
+60" 
+US3060S $ 999 
+ 
+$1912 
++$69 
+ 
+30" 
+60" 
+WS3060S 
+$ 999 
+ 
+291¼2" 
+66" 
+US3066S $1047 
+ 
+$1960 
++$71 
+ 
+30" 
+66" 
+WS3066S 
+$1047 
+ 
+291¼2" 
+72" 
+US3072S $1104 
+ 
+$2017 
++$72 
+ 
+30" 
+72" 
+WS3072S 
+$1104 
+ 
+d 
+ 
+d 
+d 
+ 
+d 
+d 
+ 
+d 
+ 
+d 
+d 
+Steelcase 
+June 2022

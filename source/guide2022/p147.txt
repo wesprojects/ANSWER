@@ -1,0 +1,97 @@
+Shared Components
+Answer Solutions SpeciÀ cation Guide 
+147
+Panel and Beam Foot
+Shared Components
+Panel and beam foot 
+will be centered on in-line 
+junctions.
+Panel and beam foot 
+only attaches to junctions 
+manufactured on or after 
+October 10, 2011.
+Glide for use with panel 
+and beam foot is included 
+in the hardware package and 
+installs in the À eld to maintain 
+standard panel height and 
+minimize the gap between 
+the panel and Á oor.
+5/8"
+Standard glides can be 
+used in conjunction with the 
+panel and beam foot but 
+will result in a 5¼8" larger gap 
+between the bottom of the 
+panel and the Á oor.
+Set screws in the end 
+of the foot provide 1¼4" of 
+micro adjustment.
+Surface Materials
+Foot
+• Paint
+Application Topics
+Open base trim cannot 
+be used in conjunction with 
+a panel and beam foot.
+Big open base trim can 
+be used in conjunction with a 
+panel and beam foot.
+Top cap mounted 
+storage is not permitted 
+on freestanding panel runs 
+supported by panel feet.
+Panel hung storage is 
+not permitted on freestanding 
+panel runs supported by feet.
+Slatwall
+skin
+Slatwall skins are not 
+allowed on freestanding 
+panel runs supported by 
+panel feet.
+Wiring & Cabling
+Panel and beam foot 
+blocks power routing in the 
+panel base and just above 
+the base areas. The verti-
+cal attachment post covers 
+the slots on the junction 
+where the powerkit con-
+nects in these two zones. 
+It also blocks the ability for 
+a powerkit harness, pass-
+through powerkit, or mod-
+ular harness to route in the 
+base area from an adjacent 
+panel.
+Multipurpose infeed 
+connects power from the 
+building Á oor into a panel 
+run supported by panel 
+feet. Conduit can be run 
+under the panel or through 
+a knockout in the basetrim, 
+and must be attached to the 
+bottom horizontal beam with 
+24206001SR strain relief 
+bracket from service parts.
+San Francisco power 
+infeed can be used if liquid 
+tight conduit is required. 
+Plan to have a long enough 
+infeed to attach to a modular 
+power kit in the panel adja-
+cent to the entry panel.
+Power can be accessed in 
+the third postion up from the 
+base through À eld cut fabric 
+skins or technology skins.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

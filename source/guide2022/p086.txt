@@ -1,0 +1,141 @@
+86 
+Answer Solutions SpeciÀ cation Guide
+Base Junctions—Square and Oval Trim
+ 
+In-Line Base 
+L-Base 
+T-Base 
+X-Base 
+End-of-Run  
+V-Base 
+Y-Base 
+Wall-Start
+ 
+Junctions 
+Junctions 
+Junctions 
+Junctions 
+Base Junctions 
+Junctions 
+Junctions 
+Junctions
+30"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+42"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+48"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+54"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+66"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+78"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+Stacking Junctions—Square and Oval Trim
+ 
+Stacking 
+Stacking L  
+Stacking T 
+Stacking X 
+Stacking  
+Stacking V 
+Stacking Y 
+Wall-Start
+ 
+In-Line  
+Junctions 
+Junctions 
+Junctions 
+End-of-Run  
+Junctions 
+Junctions 
+Junctions
+ 
+Junctions 
+ 
+ 
+ 
+Junctions 
+ 
+ 
+ 
+12"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+18"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+24"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+Panels—Square and Oval Trim
+Statement of Line
+ Understanding
+c Page 100
+ Specifying
+c Pages 441–445
+ Understanding
+c Page 92
+ Specifying
+c Pages 430–438
+Steelcase 
+June 2022

@@ -1,0 +1,390 @@
+746 
+Answer Solutions Specification Guide
+RFF24245LW_ 
+695 U Full Front Tower 
+RFF24245RU_ 
+695 U Full Front Tower 
+RFF24245RV_ 
+695 U Full Front Tower 
+RFF24245RW_ 
+695 U Full Front Tower 
+RLF18301_ 
+675 U One-High Lat File
+RLF18301A_ 
+676 U 1.5-High Lat File
+RLF18301B_ 
+676 U 1.5-High Lat File
+RLF18301C_ 
+676 U 1.5-High Lat File
+RLF18301D_ 
+677 U 1.5-High Lat File
+RLF18302_ 
+677 U Lat File
+RLF18361_ 
+675 U One-High Lat File
+RLF18361A_ 
+676 U 1.5-High Lat File
+RLF18361B_ 
+676 U 1.5-High Lat File
+RLF18361C_ 
+676 U 1.5-High Lat File
+RLF18361D_ 
+677 U 1.5-High Lat File
+RLF18362_ 
+677 U Lat File
+RLF18421_ 
+675 U One-High Lat File
+RLF18421A_ 
+676 U 1.5-High Lat File
+RLF18421B_ 
+676 U 1.5-High Lat File
+RLF18421C_ 
+676 U 1.5-High Lat File
+RLF18421D_ 
+677 U 1.5-High Lat File
+RLF18422_ 
+677 U Lat File
+RLF24301_ 
+675 U One-High Lat File
+RLF24301A_ 
+676 U 1.5-High Lat File
+RLF24301B_ 
+676 U 1.5-High Lat File
+RLF24301C_ 
+676 U 1.5-High Lat File
+RLF24301D_ 
+677 U 1.5-High Lat File
+RLF24302_ 
+677 U Lat File
+RLF24361_ 
+675 U One-High Lat File
+RLF24361A_ 
+676 U 1.5-High Lat File
+RLF24361B_ 
+676 U 1.5-High Lat File
+RLF24361C_ 
+676 U 1.5-High Lat File
+RLF24361D_ 
+677 U 1.5-High Lat File
+RLF24362_ 
+677 U Lat File
+RPCW 
+652 U Ped Counterwght
+RPDC1830_ 
+679 Cushion Top
+RPDC1836_ 
+679 Cushion Top
+RPDC1842_ 
+679 Cushion Top
+RPDC2430_ 
+679 Cushion Top
+RPDC2436_ 
+679 Cushion Top
+RPF1825A_ 
+651 U Fixed Pedestal
+RPF1825B_ 
+651 U Fixed Pedestal
+RPF1827A_ 
+651 U Fixed Pedestal
+RPF1827B_ 
+651 U Fixed Pedestal
+RPF2425A_ 
+651 U Fixed Pedestal
+RPF2425B_ 
+651 U Fixed Pedestal
+RPF2427A_ 
+651 U Fixed Pedestal
+RPF2427B_ 
+651 U Fixed Pedestal
+RPF3025A_ 
+651 U Fixed Pedestal
+RPF3025B_ 
+651 U Fixed Pedestal
+RPF3027A_ 
+651 U Fixed Pedestal
+RPF3027B_ 
+651 U Fixed Pedestal
+RPM1821C_ 
+656 U Mobile Pedestal 
+RPM1827A_ 
+656 U Mobile Pedestal 
+RPM1827B_ 
+656 U Mobile Pedestal 
+RPM2421C_ 
+656 U Mobile Pedestal 
+RPM2427A_ 
+656 U Mobile Pedestal 
+RPM2427B_ 
+656 U Mobile Pedestal 
+RPULL15W 
+715 Wood Drawer Pull
+RPULL30W 
+715 Wood Drawer Pull
+RPULL36W 
+715 Wood Drawer Pull
+RPULL42W 
+715 Wood Drawer Pull
+RPXCK2518F 
+653 U Conv Kit
+RPXCK2518P 
+653 U Conv Kit
+RPXCK2524F 
+653 U Conv Kit
+RPXCK2524P 
+653 U Conv Kit
+RPXCK2530F 
+653 U Conv Kit
+RPXCK2530P 
+653 U Conv Kit
+RPXCK2718F 
+653 U Conv Kit
+RPXCK2718P 
+653 U Conv Kit
+RPXCK2724F 
+653 U Conv Kit
+RPXCK2724P 
+653 U Conv Kit
+RPXCK2730F 
+653 U Conv Kit
+RPXCK2730P 
+653 U Conv Kit
+RPXDPT 
+712 Pencil Tray
+RPXDRS 
+712 Reference Shelf
+RPXFTAKFP 
+652 U Fil Prd Frnt Ped
+RPXFTAKPP 
+652 U Fil Prd Frnt Ped
+RPXTC24F 
+656 U Ped Cushion Top
+RPXTC24P 
+656 U Ped Cushion Top
+RPXTCH24F 
+656 U Ped Cushion Top
+RPXTCH24P 
+656 U Ped Cushion Top
+RQS182448LA_ 
+684 U Open Side Tower
+RQS182448RA_ 
+685 U Open Side Tower
+RQS18244LA_ 
+684 U Open Side Tower
+RQS18244RA_ 
+685 U Open Side Tower
+RQS18245LC_ 
+684 U Open Side Tower
+RQS18245RC_ 
+685 U Open Side Tower
+RQS242448LA_ 
+684 U Open Side Tower
+RQS242448RA_ 
+685 U Open Side Tower
+RQS24244LA_ 
+684 U Open Side Tower
+RQS24244RA_ 
+685 U Open Side Tower
+RQS24245LC_ 
+684 U Open Side Tower
+RQS24245RC_ 
+685 U Open Side Tower
+RQS302448LA_ 
+684 U Open Side Tower
+RQS302448RA_ 
+685 U Open Side Tower
+RQS30244LA_ 
+684 U Open Side Tower
+RQS30244RA_ 
+685 U Open Side Tower
+RQS30245LC_ 
+684 U Open Side Tower
+RQS30245RC_ 
+685 U Open Side Tower
+RSB36LTAK 
+659 U Sld Dr Bin Lam Frnt
+RSB36TAK 
+659 U Sldg Dr Bin Stl Frnt
+RSB36WTAK 
+659 U Sldg Dr Bin Wd Frnt
+RSB42LTAK 
+659 U Sld Dr Bin Lam Frnt
+RSB42TAK 
+659 U Sldg Dr Bin Stl Frnt
+RSB42WTAK 
+659 U Sldg Dr Bin Wd Frnt
+RSB48LTAK 
+659 U Sld Dr Bin Lam Frnt
+RSB48TAK 
+659 U Sldg Dr Bin Stl Frnt
+RSB48WTAK 
+659 U Sldg Dr Bin Wd Frnt
+RSB60LTAK 
+659 U Sld Dr Bin Lam Frnt
+RSB60TAK 
+659 U Sldg Dr Bin Stl Frnt
+RSB60WTAK 
+659 U Sldg Dr Bin Wd Frnt
+RSB66LTAK 
+659 U Sld Dr Bin Lam Frnt
+RSB66TAK 
+659 U Sldg Dr Bin Stl Frnt
+RSB66WTAK 
+659 U Sldg Dr Bin Wd Frnt
+RSB72LTAK 
+659 U Sld Dr Bin Lam Frnt
+RSB72TAK 
+659 U Sldg Dr Bin Stl Frnt
+RSB72WTAK 
+659 U Sldg Dr Bin Wd Frnt
+RSC18301A_ 
+676 U One-High Lat File
+RSC18361A_ 
+676 U One-High Lat File
+RSC18421A_ 
+676 U One-High Lat File
+RSC24301A_ 
+676 U One-High Lat File
+RSC24361A_ 
+676 U One-High Lat File
+RSH24TAK 
+665 U Shelf
+RSH30TAK 
+665 U Shelf
+RSH36TAK 
+665 U Shelf
+RSH42TAK 
+665 U Shelf
+RSH48TAK 
+665 U Shelf
+RSH60TAK 
+665 U Shelf
+RSH72TAK 
+665 U Shelf
+RSS24TAK 
+671 Slim Shelf
+RSS30TAK 
+671 Slim Shelf
+RSS36TAK 
+671 Slim Shelf
+RSS42TAK 
+671 Slim Shelf
+RSS48TAK 
+671 Slim Shelf
+RSS60TAK 
+671 Slim Shelf
+RSS72TAK 
+671 Slim Shelf
+RSS96TAK 
+671 Slim Shelf
+RUK24TAK 
+668 Stnd OH Upmnt Pkg
+RUK30TAK 
+668 Stnd OH Upmnt Pkg
+RUK36TAK 
+668 Stnd OH Upmnt Pkg
+RUK42TAK 
+668 Stnd OH Upmnt Pkg
+RUK48TAK 
+668 Stnd OH Upmnt Pkg
+RUK60TAK 
+668 Stnd OH Upmnt Pkg
+RUK72TAK 
+668 Stnd OH Upmnt Pkg
+RVD24244LA_ 
+698 U Vrtl Dwr Tower 
+RVD24244LB_ 
+698 U Vrtl Dwr Tower 
+RVD24244RA_ 
+699 U Vrtl Dwr Tower 
+RVD24244RB_ 
+699 U Vrtl Dwr Tower 
+RVD24245LC_ 
+698 U Vrtl Dwr Tower 
+RVD24245LD_ 
+698 U Vrtl Dwr Tower 
+RVD24245RC_ 
+699 U Vrtl Dwr Tower 
+RVD24245RD_ 
+699 U Vrtl Dwr Tower 
+RVD30244LA_ 
+698 U Vrtl Dwr Tower 
+RVD30244LB_ 
+698 U Vrtl Dwr Tower 
+RVD30244RA_ 
+699 U Vrtl Dwr Tower 
+RVD30244RB_ 
+699 U Vrtl Dwr Tower 
+RVD30245LC_ 
+698 U Vrtl Dwr Tower 
+RVD30245LD_ 
+698 U Vrtl Dwr Tower 
+RVD30245RC_ 
+699 U Vrtl Dwr Tower 
+RVD30245RD_ 
+699 U Vrtl Dwr Tower 
+RWV24154A_ 
+701 U Wrkstation Vrtl
+RWV24154B_ 
+701 U Wrkstation Vrtl
+RWV24155C_ 
+702 U Wrkstation Vrtl
+RWV24155D_ 
+702 U Wrkstation Vrtl
+RWV30154A_ 
+701 U Wrkstation Vrtl
+RWV30154B_ 
+701 U Wrkstation Vrtl
+RWV30155C_ 
+702 U Wrkstation Vrtl
+RWV30155D_ 
+702 U Wrkstation Vrtl
+RXADRL15 
+711 Rails
+RXADRL24 
+713 Rails
+RXADRL2442 
+713 Rails
+RXSA2415 
+710 Adj Steel Std Shelf
+RXSA3015 
+710 Adj Steel Std Shelf
+RXSAFFT2415 
+710 Adj Steel Std Shelf
+RXSG2415 
+710 Adjustable Glass Shelf
+RXSG3015 
+710 Adjustable Glass Shelf
+TS5LEGCLP 
+620 Und WS Wire Clips
+TS5SKEXT 
+618 Und WS Skel Wr Mgr
+TS5SKLBNE 
+618 Und WS Skel Wr Mgr
+TS7120JB3 
+387 120° Jct Block
+TS7120JB4 
+387 120° Jct Block
+TS7120JB5 
+387 120° Jct Block
+TS7120JC 
+388 120° Jct Cap
+TS7120JCW 
+388 120° Jct Cap
+TS7120VA4 
+388 120° to V Trim Aligner
+Style Number Index, continued
+Style
+Number 
+Page Description
+Style
+Number 
+Page Description
+Style
+Number 
+Page Description
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

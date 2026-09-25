@@ -1,0 +1,98 @@
+Answer Solutions SpeciÀ cation Guide 
+125
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Shared Components
+Shared Components
+Fabric-Covered Panel Skins
+Big open base skins 
+are sized to work in con-
+junction with big open base 
+trims, leaving the bottom of 
+the panel open. They must 
+be used on both sides of a 
+panel. 
+Tip: Select the big open 
+base option on horizontal 
+frames that are receiving big 
+open base height skins.
+Tackable acousti-
+cal skins are available 
+in big open base sizes. 
+Performance tackable skins 
+are not available in big open 
+base sizes.
+Wiring & Cabling
+Powerkits are available
+in widths that correspond to 
+panel widths. 
+Faceplate is used to 
+surround receptacle when 
+field-cutting fabric skins.
+Faceplate, ordered sep-
+arately, is used to surround 
+modular furniture size 
+communication outlet when 
+field-cutting fabric skins.
+NEMA-size communi-
+cation outlets can be 
+installed on the face of a 
+panel skin without using 
+a faceplate, but just the 
+screws. Order communica-
+tion outlets from an outside 
+vendor. NEMA-size commu-
+nication outlets cannot be 
+used in the base.
+Surface Materials
+Skins
+• Fabric
+Fabric application is 
+standard in the warp hori-
+zontal direction. Warp verti-
+cal direction is available as 
+an option.Exceptions to this 
+include: 
+•  72" wide standard and to 
+the floor skins can only 
+accommodate fabric in the 
+horizontal direction.
+•  60" high to the floor skins 
+can only accommodate 
+fabric in the vertical 
+direction.
+•  48" high to the floor skins 
+accommodate select 
+ fabrics in the vertical 
+ direction only.
+c See Specification 
+Guidelines for Directional 
+Fabrics, page 730, for more 
+information.
+Application Topics
+Panel buildups
+c Page 18
+Big open base skins are 
+193¼16"H and placed on the 
+junctions just above the big 
+open base vertical trim.
+30"H
+Big open base skins are 
+sized to À nish a 30"H panel.
+42"H
+Big open base skins can 
+be added to panels taller 
+than 30"H. Standard sized 
+skins are used to À nish the 
+remaining panel height. For 
+example a 42"H panel with 
+big open base will need a 
+big open base skin and a 
+12"H skin on each side of 
+the panel. 
+Steelcase 
+June 2022

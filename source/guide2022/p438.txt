@@ -1,0 +1,52 @@
+438 
+Answer Solutions SpeciÀ cation Guide
+Panels—Square and Oval Trim
+Wall-Start Junctions 
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Junction
+ Style number
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cNeed help?
+Product details,
+page 93
+Tip: When using in an 
+off-module application, 
+off-module panel connector 
+must be ordered separately.
+cPage 440
+Speciwcation Information
+DHeight 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice
+d 
+d 
+d
+42" 
+TS742WPJ 
+$296
+48" 
+TS748WPJ 
+$296
+54" 
+TS754WPJ 
+$296
+66" 
+TS766WPJ 
+$296
+78" 
+TS778WPJ 
+$412
+d
+d
+d
+Steelcase 
+June 2022

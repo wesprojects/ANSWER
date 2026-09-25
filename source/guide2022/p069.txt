@@ -1,0 +1,229 @@
+Panels—Thin Trim
+ 
+Panels—Thin Trim
+Frameless Glass Screens 
+with Clip Attachment—
+Thin Trim
+Field-Installed Glass Size Requirements
+Style 
+Maximum 
+Maximum  
+Thickness
+Number 
+Height 
+Width 
+Range 
+ 
+ 
+ 
+(min-max)
+Standard
+TS71224TFG 
+113/4" 
+233/4" 
+.350-.400"
+TS71230TFG 
+113/4" 
+293/4" 
+.350-.400"
+TS71236TFG 
+113/4" 
+353/4" 
+.350-.400"
+TS71242TFG 
+113/4" 
+413/4" 
+.350-.400"
+TS71248TFG 
+113/4" 
+473/4" 
+.350-.400"
+TS71260TFG 
+113/4" 
+593/4" 
+.350-.400"
+TS71272TFG 
+113/4" 
+713/4" 
+.350-.400"
+TS71278TFG 
+113/4" 
+773/4" 
+.350-.400"
+TS71284TFG 
+113/4" 
+833/4" 
+.350-.400"
+TS71290TFG 
+113/4" 
+893/4" 
+.350-.400"
+TS71296TFG 
+113/4" 
+953/4" 
+.350-.400"
+Change-of-Height – one end
+TS71224TFG 
+113/4" 
+231/4" 
+.350-.400"
+TS71230TFG 
+113/4" 
+291/4" 
+.350-.400"
+TS71236TFG 
+113/4" 
+351/4" 
+.350-.400"
+TS71242TFG 
+113/4" 
+411/4" 
+.350-.400"
+TS71248TFG 
+113/4" 
+471/4" 
+.350-.400"
+TS71260TFG 
+113/4" 
+591/4" 
+.350-.400"
+TS71272TFG 
+113/4" 
+711/4" 
+.350-.400"
+TS71278TFG 
+113/4" 
+771/4" 
+.350-.400"
+TS71284TFG 
+113/4" 
+831/4" 
+.350-.400"
+TS71290TFG 
+113/4" 
+891/4" 
+.350-.400"
+TS71296TFG 
+113/4" 
+951/4" 
+.350-.400"
+Tip: Field installed glass should always be tempered.  
+ 
+Laminated glass must not be used.
+10" min
+In-line or
+end-of-run
+junction
+Fin
+Spine
+When using frameless glass on a spine panel with 
+a same height off-module panel connections, the 
+off-module cannot connect within 10" of an end-of-run or 
+in-line junction connection.
+Surface Materials
+Glass
+• 6500 Clear Glass
+• 6530 Frosted Glass
+Tip: Frosted glass for clip 
+attachment frameless glass 
+is a double opaque glass 
+construction. There may be 
+variation in color, texture, 
+and À nish between the sam-
+ple of 6530 Frosted Glass 
+and the actual product.
+Brackets
+• Paint
+Top cap
+• Paint
+• Wood veneer
+Application Topics
+Frameless glass 
+screen can be placed on 
+the top of a panel only. Top 
+beam in the panel must be 
+located in the top position 
+of the frame in order to 
+support frameless glass. 
+Frameless glass can be 
+used on base panels or 
+stacking panels.
+Frameless glass screen 
+cannot be used when a 
+window is located in the top 
+position of the panel.
+Framelesss glass 
+screen cannot be added 
+to a panel segment with a 
+6" stacker.
+Change-of-height top 
+cap option is available to 
+allow for positioning of glass 
+next to change-of-height trim 
+on one side only. Glass is 
+shortened and top cap pro-
+vided supports change-of-
+height on one end only.
+Frameless glass 
+screen will not À t between 
+two change-of-height trims.
+Frameless glass kit 
+is available without glass 
+screen to accommodate 
+customer’s own glass. See 
+chart of À eld installed glass 
+size requirements for spe-
+ciÀ c dimensions required 
+for glass to À t in frameless 
+glass brackets. Steelcase 
+recommends the use of 
+safety glass meeting ANSI 
+Z97.1 for À eld installed 
+glass. Check with your 
+local building authority for 
+requirements in your area.
+A single frameless 
+glass screen can span 
+over two or more panels.
+90" and 96" wide fra-
+meless glass screen 
+kits include three brackets. 
+Two brackets attach to sup-
+ports below the top cap. The 
+third bracket attaches only 
+to the top cap through a hole 
+that is drilled in the top cap 
+by the installer on site.
+In-line spanning top 
+cap lightseal must be 
+speciÀ ed separately when 
+used in this application. 
+Spanning top cap lightseal 
+attaches to underside of top 
+cap to À ll space between 
+skin lightseals. Specify one 
+for each in-line junction 
+the frameless glass screen 
+spans.
+A template tool is avail-
+able from Service Parts 
+(T511082SR) to assist in 
+locating where holes are to 
+be drilled on the beam of 
+an existing panel to allow 
+supports to be attached. 
+This only applies to beams 
+produced prior to September 
+2009. Beams produced after 
+this date include holes to 
+allow frameless glass sup-
+ports to be attached.
+Answer Solutions SpeciÀ cation Guide 
+69
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

@@ -1,0 +1,217 @@
+Panels—Thin Trim 
+L and T Same Height Base Panel Junctions—Thin Trim
+Answer Solutions SpeciÀ cation Guide 
+353
+L and T Same Height Base 
+Panel Junctions—Thin Trim
+Standard Includes 
+ Required to Specify
+• Junction 
+• Inside corner light seal(s)
+• Vertical trim and junction cap on L and T junction: paint 
+price group 1 or wood group 1
+• Aligner(s)
+Tip: Omit trim option is used 
+when stacking on base 
+panel junctions. Vertical trim 
+should be speciÀ ed sepa-
+rately to span the full height 
+of the base panel junction 
+plus the stacking junction.
+Tip: Remember to specify 
+necessary junction cap 
+and aligners if the omit trim 
+option is selected.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Thin Trim
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Trim
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+ 
+• Omit trim 
+Prices below 
+ Specify with omit trim.
+Speciwcation Information
+ 
+L Base Panel  
+ 
+T Base Panel
+ 
+Junctions with  
+ 
+Junctions with
+ 
+Thin Trim  
+ 
+ 
+Thin Trim
+ 
+ 
+ 
+ 
+DCorresponding DStyle 
+DU.S. 
+DOption 
+DStyle 
+DU.S. 
+DOption
+dPanel
+dNumber 
+dBase 
+d(Add $ to 
+dNumber 
+dBase 
+d(Add $ to
+dHeight
+d
+dPrice 
+dBase Price) 
+d
+dPrice 
+dBase Price)
+d
+d
+d 
+d
+d
+d 
+d
+d
+d
+d 
+dOmit Trim 
+d
+d 
+dOmit Trim
+Painted Trim
+30" 
+TS730TLPJ 
+$222 
+ï$ɚɚ90 
+TS730TTPJ 
+$222 
+ï$ɚɚ90
+36" 
+TS736TLPJ 
+$222 
+ï$ɚɚ90 
+TS736TTPJ 
+$222 
+ï$ɚɚ90
+42" 
+TS742TLPJ 
+$222 
+ï$ɚɚ90 
+TS742TTPJ 
+$222 
+ï$ɚɚ90
+48" 
+TS748TLPJ 
+$222 
+ï$ɚɚ90 
+TS748TTPJ 
+$222 
+ï$ɚɚ90
+54" 
+TS754TLPJ 
+$222 
+ï$ɚɚ90 
+TS754TTPJ 
+$222 
+ï$ɚɚ90
+66" 
+TS766TLPJ 
+$222 
+ï$ɚɚ90 
+TS766TTPJ 
+$222 
+ï$ɚɚ90
+78" 
+TS778TLPJ 
+$310 
+ï$110 
+TS778TTPJ 
+$310 
+ï$110
+d
+d
+d 
+d
+d
+d 
+d
+Wood Trim
+30" 
+TS730TLPJW $601 
+ï$423 
+TS730TTPJW $601 
+ï$423
+36" 
+TS736TLPJW $601 
+ï$423 
+TS736TTPJW $601 
+ï$423
+42" 
+TS742TLPJW $601 
+ï$423 
+TS742TTPJW $601 
+ï$423
+48" 
+TS748TLPJW $601 
+ï$423 
+TS748TTPJW $601 
+ï$423
+54" 
+TS754TLPJW $601 
+ï$423 
+TS754TTPJW $601 
+ï$423
+66" 
+TS766TLPJW $616 
+ï$423 
+TS766TTPJW $616 
+ï$423
+78" 
+TS778TLPJW $761 
+ï$505 
+TS778TTPJW $761 
+ï$505
+d
+d
+d 
+d
+d
+d 
+d
+1 Style number
+2 Paint or wood color number for trim and 
+junction cap
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 20
+Steelcase 
+June 2022

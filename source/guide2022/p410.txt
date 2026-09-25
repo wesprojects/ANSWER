@@ -1,0 +1,207 @@
+410 
+Answer Solutions SpeciÀ cation Guide
+cSpeciw cation Information, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Thin Trim
+Answer Boundary Screens Straight, Single-Connect For Use with Thin Trim Panels, continued
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d27"W 
+d33"W 
+d39"W 
+d45"W 
+d51"W 
+d57"W 
+d63"W 
+d69"W 
+d75"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d27"W –  
+d33"W –  
+d39"W – 
+d45"W –  
+d51"W –  
+d57"W –  
+d63"W –  
+d69"W –  
+d75"W
+d 
+d 
+dWidth 
+d3215¼16"W d3815¼16"W d4415¼16"W d5015¼16"W d5615¼16"W d6215¼16"W d6815¼16"W d7415¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+H
+Straight Single-Connect Boundary Screen—Spanning
+High-Pressure Laminate
+TS7SCSPN 
+30"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$1199 
+$1330 
+$1463 
+$1594 
+$1726
+ 
+36"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$1265 
+$1410 
+$1556 
+$1699 
+$1844
+ 
+42"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$1330 
+$1488 
+$1645 
+$1805 
+$1964
+ 
+48"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$1396 
+$1568 
+$1739 
+$1909 
+$2083
+ 
+54"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$1463 
+$1645 
+$1831 
+$2017 
+$2200
+Wood Veneer
+TS7SCSPN 
+30"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$1858 
+$2094 
+$2333 
+$2571 
+$2808
+ 
+36"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$2015 
+$2272 
+$2533 
+$2786 
+$3043
+ 
+42"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$2172 
+$2449 
+$2727 
+$3004 
+$3282
+ 
+48"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$2332 
+$2629 
+$2925 
+$3220 
+$3519
+ 
+54"H 
+ 
+N.A. 
+N.A. 
+N.A. 
+N.A. 
+$2492 
+$2805 
+$3123 
+$3439 
+$3756
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+Steelcase 
+June 2022

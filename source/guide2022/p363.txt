@@ -1,0 +1,251 @@
+Answer Solutions SpeciÀ cation Guide 
+363
+Panels—Thin Trim 
+ 
+T Change-of-Height 
+Junctions—Thin Trim
+cSpeciw cation Information, continued from previous page
+Speciwcation Information 
+ 
+ 
+DCorresponding 
+DStyle 
+DU.S. 
+DOption 
+DStyle 
+DU.S. 
+DOption
+dPanel
+
+dNumber 
+dBase 
+d(Add $ to 
+dNumber 
+dBase 
+d(Add $ to
+dHeight
+
+d
+dPrice 
+dBase Price) 
+d
+dPrice 
+dBase Price)
+d 
+
+
+d
+d 
+d
+d
+d
+d
+dA 
+B 
+C
+d
+d 
+d 
+d
+d 
+d
+d
+
+
+d
+d 
+dOmit Trim
+d
+d 
+dOmit Trim
+ 
+ 
+ 
+Painted Trim 
+ 
+Wood Trim
+36" 
+36" 
+30" 
+TS7QQ3TCTJ $366 
+ï$162 
+TS7QQ3TCTJW 
+$1000 
+ï$680
+42" 
+42" 
+30" 
+TS7443TCTJ $366 
+ï$162 
+TS7443TCTJW 
+$1000 
+ï$680
+42" 
+42" 
+36" 
+TS744QTCTJ $366 
+ï$162 
+TS744QTCTJW 
+$1000 
+ï$680
+48" 
+48" 
+36" 
+TS788QTCTJ $366 
+ï$162 
+TS788QTCTJW 
+$1000 
+ï$680
+54" 
+54" 
+36" 
+TS755QTCTJ $395 
+ï$162 
+TS755QTCTJW 
+$1012 
+ï$680
+66" 
+66" 
+36" 
+TS766QTCTJ $437 
+ï$165 
+TS766QTCTJW 
+$1023 
+ï$684
+48" 
+48" 
+30" 
+TS7883TCTJ $366 
+ï$162 
+TS7883TCTJW 
+$1000 
+ï$680
+48" 
+48" 
+42" 
+TS7884TCTJ $395 
+ï$162 
+TS7884TCTJW 
+$1012 
+ï$680
+54" 
+54" 
+30" 
+TS7553TCTJ $395 
+ï$162 
+TS7553TCTJW 
+$1012 
+ï$680
+66" 
+66" 
+30" 
+TS7663TCTJ $437 
+ï$165 
+TS7663TCTJW 
+$1023 
+ï$684
+54" 
+54" 
+42" 
+TS7554TCTJ $395 
+ï$162 
+TS7554TCTJW 
+$1012 
+ï$680
+54" 
+54" 
+48" 
+TS7558TCTJ $437 
+ï$162 
+TS7558TCTJW 
+$1023 
+ï$680
+66" 
+66" 
+42" 
+TS7664TCTJ $437 
+ï$162 
+TS7664TCTJW 
+$1023 
+ï$680
+78" 
+78" 
+42" 
+TS7774TCTJ $523 
+ï$165 
+TS7774TCTJW 
+$1104 
+ï$684
+66" 
+66" 
+48" 
+TS7668TCTJ $437 
+ï$162 
+TS7668TCTJW 
+$1023 
+ï$680
+78" 
+78" 
+48" 
+TS7778TCTJ $523 
+ï$165 
+TS7778TCTJW 
+$1104 
+ï$684
+66" 
+66" 
+54" 
+TS7665TCTJ $437 
+ï$162 
+TS7665TCTJW 
+$1023 
+ï$680
+78" 
+78" 
+54" 
+TS7775TCTJ $523 
+ï$162 
+TS7775TCTJW 
+$1104 
+ï$680
+78" 
+78" 
+66" 
+TS7776TCTJ $523 
+ï$162 
+TS7776TCTJW 
+$1104 
+ï$680
+d
+
+
+d
+d 
+d
+d
+d 
+d
+A
+B
+C
+Tip: Junction includes:
+• T change-of-height 
+ junction
+• Inside corner light seals
+• T vertical trim
+• L change-of-height trim
+• 90o junction cap
+• Aligners
+Tip: When A and C are dif-
+ferent heights, the junction 
+is shipped right-handed. For 
+a left-handed junction a post 
+will need to be moved during 
+installation.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Thin Trim
+Steelcase 
+June 2022

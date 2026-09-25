@@ -1,0 +1,67 @@
+138 
+Answer Solutions SpeciÀ cation Guide
+Actual Dimensions
+Width 
+2353¼64",  2953¼64",  3553¼64",  4153¼64",  4753¼64", 
+ 
+5953¼64",  and 7153¼64"
+Height 
+61¼8",  129¼32",  and 187¼16"
+Thickness 
+13¼32"
+Cutout is positioned 
+at receptacle location.
+Technology cover is 
+speciÀ ed separately and can 
+accommodate a receptacle 
+and a NEMA or DECORA 
+communication port.
+Skin is made of 
+steel, slatwall, or 
+markerboard.
+Shared Components
+Technology Skins and Covers
+Product Details
+Technology skins are 
+available in 24" to 72" 
+widths to match standard 
+panel widths.
+Technology skins are 
+available in steel, ribbed 
+steel, fabric over steel, slat-
+wall, or markerboard. Not all 
+materials are available on all 
+skin heights or widths.
+Technology skins 30" 
+or under are available with 
+all cutouts or with only right- 
+or left-hand cutouts.
+60"W and 72"W skins 
+will have double cutouts and 
+can be optioned to have 
+them on both sides, right 
+hand only or left hand only.
+6"H technology skin 
+has an option to omit all 
+cutouts.
+Slatwall technology 
+skins include a painted 
+trim for each cutout that is 
+used behind the technology 
+cover. It is painted to match 
+the skin.
+Slatwall technology 
+skins must follow the same 
+vertical placement rules as 
+slatwall skins.
+c See page 132 for Vertical 
+Placement Rules.
+Technology skin pro-
+vides easy access to power 
+and cabling behind the skin. 
+c Specifying, page 504
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

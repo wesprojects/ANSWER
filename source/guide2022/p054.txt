@@ -1,0 +1,119 @@
+54 
+Answer Solutions SpeciÀ cation Guide
+New Junctions (after 10/10/11) to New Junctions, continued 
+Panels—Thin Trim 
+Reconw guring with Answer—General Guidelines, continued
+Current Style Number (Square before 10/10/11)
+New Style Number (Thin after 10/10/11)
+Qty
+Style Number Description
+Qty
+Style Number Description
+4
+TS718SHF
+Frame—Horizontal Package, Square, 18"W, change-of-
+height at one end of top cap
+4
+TS718THF
+Frame—Horizontal Package, Thin, 18"W
+2
+TS736SHF
+Frame—Horizontal Package, Square, 36"W (omit top cap) 2
+TS736THF
+Frame—Horizontal Package, Thin, 36"W
+4
+TS742SEPJ
+Junction—End-of-Run, Square, 42"H
+4
+TS742TEPJ
+Junction—End-of-Run, Thin, 42"H
+2
+TS742SIPJ
+Junction—In-Line, Square, 42"H
+2
+TS742TIPJ
+Junction—In-Line, Thin, 42"H
+2
+TS7454STPJ
+Junction—T Junction
+2
+TS7454TCTJ
+Junction -T, Change-of-Height, Thin, 42" to 54" to 42"
+ 4
+ TS712SCHS
+ Change-of-Height Trim, Square
+ N.A.  N.A.
+ N.A.
+2 
+ TS748SHF
+Frame—Horizontal Package, Square, 48"W 
+2 
+TS748THF
+Frame—Horizontal Package, Thin, 48"W
+1
+ TS754SIPJ
+Junction—In-Line, Square, 54"H
+1
+TS754TIPJ
+Junction—In-Line, Thin, 54"H
+2
+ TS772STC
+Spanning Top Cap—Square, 72"W
+2
+TS772TTC
+Spanning Top Cap—Thin, 72"
+The following style numbers can be re-used in this conw guration:
+4
+TS73618TKF
+Panel Skin—Tackable Acoustical, 40" x 18", Floor
+4
+TS73636TK
+Panel Skin—Tackable Acoustical, 36" x 36"
+4
+TS73648TK
+Panel Skin—Tackable Acoustical, 36" x 48"
+2
+TS71284SPW
+Window—Single Pane
+2
+TS7SWS
+Spanning Window In-Line Support
+4
+WS2472S
+Worksurface—Straight
+4
+UTTRMN
+Tray—Universal Worksurface, Modular
+4
+TS7WKSPT
+Reinforcing Channel, 57"W
+4
+DSR 40
+SOTO Rail, 40"W
+8
+CQSF4212
+Screen—Personal/Modesty Fixed
+4
+UFC24
+Leg—Universal Closed
+4
+RLF18361AP
+Lateral—Universal, Proud Front Steel, 1.5-High Open/Open
+4
+RLF18361BP
+Lateral—Universal, Proud Front Steel, 1.5-High Dwr/Dwr
+4
+RPDC1836P
+Cushion
+2
+BFR36
+Table—Round
+2
+BX26
+Base—X
+2
+USSBR
+Bracket—side support
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

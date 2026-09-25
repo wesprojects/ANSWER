@@ -1,0 +1,276 @@
+Answer Solutions Specification Guide 
+631
+Universal Tables
+Bubble Jetty Tables
+High-Pressure Laminate or Wood Veneer
+ 
+Standard Includes 
+ Required to Specify
+• Table: High-Pressure Laminate price group 1 or wood 
+group 1 veneer
+• Laminate table: plastic 3 mm edge profile or P-edge profile 
+on all sides
+• Wood table: wood square 3 mm 
+edge profile on all sides
+Bubble Jetty Tables
+Universal Tables
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Legs to support 
+Universal Tables must be
+speciÀ ed separately.
+Tip: For leg and support
+guidelines, see 
+Table and Leg Combinations, 
+cPage 287
+Tip: To specify 3 mm edge 
+proÀ le, no sufÀ x is required. 
+For other edge proÀ les, add 
+sufÀ x to the style number. 
+(For example, BFJ2472L 
+becomes BFJ2472LSW 
+for wood square edge 
+proÀ le.)
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate tables
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer tables
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+ 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Related 
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+ Products 
+• Worksurface power and communication components 
+c Page 611
+  
+• Legs for Universal Tables 
+ 
+ 
+ 
+c Page 638
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure 
+ 
+Laminate 
+Wood
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensionsDStyle 
+DPlastic 
+DPlastic 
+DWood 
+DOption
+dA 
+B 
+ 
+dNumber 
+d3 mm  
+dP-Edge 
+dSquare 
+d(Add $ to
+d 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price) 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on 
+d
+
+
+d
+dNo Sufw xdSufw x
+dSufw x
+dWood
+d 
+ 
+ 
+d 
+d
+dP G10/22 dSW G10/22 
+dGroup 1
+Left-Hand Worksurfaces
+24" 72" 
+BFJ2472L 
+$1390 
+$1636 
+$2982 
++$109
+24" 78" 
+BFJ2478L 
+$1435 
+$1681 
+$3046 
++$115
+30" 72" 
+BFJ3072L 
+$1435 
+$1681 
+$3046 
++$115
+30" 78" 
+BFJ3078L 
+$1483 
+$1729 
+$3260 
++$122
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+ 
+Right-Hand Worksurfaces
+24" 72" 
+BFJ2472R 
+$1390 
+$1636 
+$2982 
++$109
+24" 78" 
+BFJ2478R 
+$1435 
+$1681 
+$3046 
++$115
+30" 72" 
+BFJ3072R 
+$1435 
+$1681 
+$3046 
++$115
+30" 78" 
+BFJ3078R 
+$1483 
+$1729 
+$3260 
++$122
+d 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+ 
+A
+B
+A
+B
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P Laminate with plastic P-edge
+SW Wood with square edge
+c
+See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for table
+3 Plastic color number for edge on
+laminate table, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 280
+G10/22 = Last order entry
+October 16, 2022
+Steelcase 
+June 2022

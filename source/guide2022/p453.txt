@@ -1,0 +1,179 @@
+Answer Solutions SpeciÀ cation Guide 
+453
+Standard Change-of-Height 
+Trims—Oval Trim
+Panels—Square and Oval Trim
+Standard Change-of-Height Trims—Oval Trim
+ 
+Standard Includes 
+ Required to Specify
+• Change-of-height trim: paint price group 1
+• One change-of-height junction cap: must specify corner 
+application or in-line application
+• One bottom À ller: plastic or wood group 1
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Square and 
+Oval Trim
+Tip: Cable-routing trim 
+provides cable routing 
+capacity.
+cSee page 174 for
+capacities.
+Tip: Remember to specify 
+the shortened top cap option 
+for the lower panels in 
+change-of-height conÀ gura-
+tions when using either type 
+of change-of-height trim.
+c
+Page 96
+Tip: For further information 
+about fabric direction,
+cPage 730.
+1 Style number
+2 Junction cap application
+3 Paint color number for trim
+4 Plastic or wood color number for
+junction caps and bottom À ller
+5 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 96
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+ Change-of-height trim
+ Materials 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$  15  
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  31  
+ 
+ Specify paint color number.
+  
+• Fabric price group 1, 2, 3, 
++$  73  
+ 
+ Specify fabric color number for trim.
+  
+ 4, 5, or COM
+  
+• Fabric direction
+  
+ –Horizontal application 
+No cost  
+ 
+ Specify with horizontal application.
+  
+ –(standard)
+  
+ –Vertical application 
+No cost  
+ 
+ Specify with vertical application.
+  
+• Wood group 1 
++$223  
+ 
+ Specify wood color number.
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+Speciwcation Information
+DApplication 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d
+d 
+d
+ 
+Painted Junction Cap 
+Wood Junction Cap
+Slim Prowle
+12" 
+TS712CHS 
+$119 
+TS712CHSW 
+$212
+18" 
+TS718CHS 
+$128 
+TS718CHSW 
+$223
+24" 
+TS724CHS 
+$137 
+TS724CHSW 
+$229
+30" 
+TS730CHS 
+$151 
+TS730CHSW 
+$242
+36" 
+TS736CHS 
+$168 
+TS736CHSW 
+$258
+Cable-Routing Capability
+12" 
+TS712CH 
+$119 
+TS712CHW 
+$212
+18" 
+TS718CH 
+$128 
+TS718CHW 
+$223
+24" 
+TS724CH 
+$137 
+TS724CHW 
+$229
+30" 
+TS730CH 
+$151 
+TS730CHW 
+$242
+36" 
+TS736CH 
+$168 
+TS736CHW 
+$258
+d 
+d 
+d
+d 
+d
+Steelcase 
+June 2022

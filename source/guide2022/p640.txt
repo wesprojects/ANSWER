@@ -1,0 +1,87 @@
+640 
+Answer Solutions Specification Guide
+Universal Tables
+Legs for Universal Tables, continued 
+ 
+Standard Includes 
+ Required to Specify
+• Table leg: paint or metal
+• Glides: paint or metal
+• Attachment hardware
+Elliptical Legs
+With Alignment Tab
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number
+2 Paint or metal color number for leg
+3 Paint or metal color number for glides
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 284
+Tip: Use 26"H legs for 
+nesting capabilities and 
+use 281¼2"H legs to achieve 
+standard height tables.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ Elliptical legs
+ Materials 
+• Black 
+No cost  
+ 
+ Specify with 7207 Black paint.
+  
+• Platinum 
+No cost  
+ 
+ Specify with 4799 Platinum.
+  
+• Polished Chrome 
++$109  
+ 
+ Specify with 9201 Polished Chrome.
+  
+ Glides
+  
+• Black 
+No cost  
+ 
+ Specify with 7207 Black paint.
+  
+• Brushed Aluminum 
+No cost  
+ 
+ Specify with 8042 Brushed Aluminum.
+Speciwcation Information
+DPlanning 
+DStyle 
+DU.S.
+dHeight 
+dNumber 
+dBase
+d
+d 
+dPrice
+d
+d 
+d
+26" 
+BEL25 
+$393
+281¼2" 
+BEL27 
+$397
+d
+d
+d
+Tip: Dimensions listed are 
+nominal and include the 
+thickness of a table.
+Steelcase 
+June 2022

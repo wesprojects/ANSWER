@@ -1,0 +1,269 @@
+How to Calculate Power Needs
+Use This to Determine How Many Power-Ins You’ll Need
+If your usage is known 
+in advance:
+Add up the amperage used 
+by each piece of equipment 
+in the workstation. When-
+ever you reach 60 amps (20 
+amps times 3 circuits) or 
+80 amps (20 amps times 4 
+circuits) from items that are 
+likely to be used at the same 
+time, you have reached the 
+limit for a single power-in. 
+Specify another power-in 
+and continue until all equip-
+ment is powered.
+If the circuits will normally 
+be subject to a continuous 
+load (three or more hours 
+of continuous use, such as 
+lights or computers), the 
+NEC requires that circuit 
+capacity be "de-rated" by 
+20 percent. Therefore, treat 
+circuits used for continuous 
+loads as if they were rated 
+at 16 amps instead of the 
+regular 20 amps.
+Try to anticipate future 
+increases in power require-
+ments and build some 
+excess capacity into your 
+plan.
+cSee table at right for typ-
+ical and actual amperage 
+usages for components.
+To calculate amperage when 
+the wattage of a device is 
+known, divide watts by 120.
+Some appliances, such as 
+large copiers, coffee makers, 
+or space heaters require 
+most of the current available 
+on a 20-amp circuit. It is 
+recommended that such 
+devices be supplied with 
+their own receptacle/circuit, 
+directly from the building. 
+This leaves the capacity of 
+the furniture circuits avail-
+able for the more dynamic 
+requirements of the ofÀ ce 
+equipment.
+Local electrical codes vary. 
+Consult a qualiÀ ed electrical 
+contractor or engineer for 
+the proper planning of elec-
+trical circuits in your locale.
+When planning a power
+network, you must calcu-
+late the amperage require-
+ments of all your electrical 
+components so you can 
+provide sufÀ cient electricity 
+to power them.
+If your usage is not 
+known in advance: 
+The National Electrical Code 
+(NEC) allows a maximum 
+of 13 receptacles on each 
+20-amp circuit. This pro-
+vides up to 30 receptacles 
+for each 3-circuit power-in 
+and 40 receptacles for each 
+4-circuit power-in.
+Approximate power consumption for common 
+devices
+DDevice
+d
+d
+d
+d
+d
+d
+DWattage
+d
+d
+d
+d
+d
+d
+DAmperage
+d
+d
+d
+d
+d
+d
+DVoltage
+d
+d
+d
+d
+d
+d
+DNumber 
+dof Devices
+dSupported
+don Single 
+d20 Amp
+dCircuit*
+d
+Laptop
+90
+0.8
+110
+20
+CPU/Desktop 
+Computer
+120
+1.1
+110
+15
+Monitor
+60
+0.5
+110
+29
+Phone
+5
+0.0
+110
+352
+High Power 
+Tablet (e.g. 
+Surface Pro)
+40
+0.4
+110
+44
+Low Power 
+Tablet (e.g. 
+iPad Air)
+15
+0.1
+110
+117
+Desktop Printer 40
+0.4
+110
+44
+42" LCD Screen 210
+1.9
+110
+8
+DVD Player
+25
+0.2
+110
+70
+Projector
+175
+1.6
+110
+10
+Desktop Lamp
+19
+0.2
+110
+93
+Large Printer/
+Copier (high)
+1900
+17.3
+110
+1
+Large Printer/
+Copier (low)
+850
+7.7
+110
+2
+Paper Shredder 360
+3.3
+110
+5
+Desktop Fan
+20
+0.2
+110
+88
+Standing Fan
+180
+1.6
+110
+10
+Coffee Maker
+(high)
+1200
+10.9
+110
+1
+Coffee Maker
+(low)
+600
+5.5
+110
+3
+Microwave
+(high)
+400
+13.6
+110
+1
+Microwave
+(low)
+150
+5.5
+110
+3
+Refrigerator
+(high)
+1500
+3.6
+110
+4
+Refrigerator
+(low)
+200
+1.4
+110
+12
+Vacuum (high)
+1500
+13.6
+110
+1
+Vacuum (low)
+200
+1.8
+110
+9
+Space Heater
+(high)
+1500
+13.6
+110
+1
+Space Heater
+(low)
+750
+6.8
+110
+2
+Tip: These calculations are estimations and are meant solely 
+for informational purposes. It is important to conduct proper 
+power planning for each installation to prevent overloading 
+a circuit.
+................................................................................................................................................
+................................................................................................................................................
+................................................................................................................................................
+................................................................................................................................................
+................................................................................................................................................
+172 
+Answer Solutions SpeciÀ cation Guide
+Wiring and Cabling
+Steelcase 
+June 2022

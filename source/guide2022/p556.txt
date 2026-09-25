@@ -1,0 +1,338 @@
+556 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Tapered Worksurfaces
+High-Pressure Laminate 
+ 
+• Worksurface: High-Pressure Laminate price group 1
+• Laminate worksurface:
+–Plastic 3 mm edge profile on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallop on back edge
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+1 Style number with appropriate edge
+proÀ le sufÀ x
+K  Laminate with knife edge
+c See edge proÀ les below.
+2 High-Pressure Laminate color number 
+for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+À ed separately.
+Tip: Long worksurface spans 
+require additional support.
+c See understanding 
+section for details, 
+page 223
+Tip: Power and data access 
+door and tray is ordered 
+separately to be used with 
+cutout. 
+c See page 584
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Exception: Power and data 
+access door and tray only 
+Àts on tapered worksurfaces 
+that are 24" to 30" and 30" 
+to 24" deep.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+ Scallop 
+• Omit scallop 
+No cost  
+ 
+ Specify omit scallop.
+ Cutout for Power • Cutout 
+No cost  
+ 
+ Specify with cutout for power and data
+ and Data Access   
+ 
+ 
+ 
+ access door.
+ Door and Tray
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Speciwcation Information
+ 
+ 
+ 
+U.S. Base Price 
+ 
+ 
+ 
+ 
+U.S. Base Prices
+ 
+ 
+ 
+High-Pressure 
+ 
+ 
+ 
+ 
+High-Pressure
+ 
+ 
+ 
+Laminate 
+ 
+ 
+ 
+ 
+Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+DStyle 
+DPlastic 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic
+dA 
+B 
+C 
+dNumber 
+d3 mm 
+dA 
+B 
+C 
+dNumber 
+d3 mm 
+dKnife
+d 
+ 
+ 
+d 
+dEdge 
+d 
+ 
+ 
+d 
+dEdge 
+dEdge
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+d 
+d
+d 
+ 
+ 
+d 
+dNo Sufw x 
+d 
+ 
+ 
+d 
+dNo Sufw x 
+dSufw x K
+Left-Hand With 1|2" Cord Drop 
+Left-Hand With Full Depth
+231¼2" 183¼8" 48" 
+UTT2148 
+$599 
+24" 
+187¼8" 48" 
+WTT2148 
+$599 
+$671
+231¼2" 183¼8" 60" 
+UTT2160 
+$682 
+24" 
+187¼8" 60" 
+WTT2160 
+$682 
+$767
+231¼2" 183¼8" 72" 
+UTT2172 
+$763 
+24" 
+187¼8" 72" 
+WTT2172 
+$763 
+$848
+291¼2" 231¼2" 48" 
+UTT3248 
+$703 
+30" 
+24" 
+48" 
+WTT3248 
+$703 
+$775
+291¼2" 231¼2" 60" 
+UTT3260 
+$802 
+30" 
+24" 
+60" 
+WTT3260 
+$802 
+$887
+291¼2" 231¼2" 72" 
+UTT3272 
+$898 
+30" 
+24" 
+72" 
+WTT3272 
+$898 
+$983
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+d 
+d
+Right-Hand With 1|2" Cord Drop 
+Right-Hand With Full Depth
+183¼8" 231¼2" 48" 
+UTT1248 
+$599 
+187¼8" 24" 
+48" 
+WTT1248 
+$599 
+$671
+183¼8" 231¼2" 60" 
+UTT1260 
+$682 
+187¼8" 24" 
+60" 
+WTT1260 
+$682 
+$767
+183¼8" 231¼2" 72" 
+UTT1272 
+$763 
+187¼8" 24" 
+72" 
+WTT1272 
+$763 
+$848
+231¼2" 291¼2" 48" 
+UTT2348 
+$703 
+24" 
+30" 
+48" 
+WTT2348 
+$703 
+$775
+231¼2" 291¼2" 60" 
+UTT2360 
+$802 
+24" 
+30" 
+60" 
+WTT2360 
+$802 
+$887
+231¼2" 291¼2" 72" 
+UTT2372 
+$898 
+24" 
+30" 
+72" 
+WTT2372 
+$898 
+$983
+d 
+ 
+ 
+d 
+d 
+d 
+ 
+ 
+d 
+d 
+d
+A
+C
+B
+A
+C
+B
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

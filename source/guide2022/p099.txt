@@ -1,0 +1,131 @@
+Answer Solutions SpeciÀ cation Guide 
+99
+Off-Module Panel 
+Connector—Square and 
+Oval Trim
+Panels—Square and 
+Oval Trim
+Panels—Square and Oval Trim
+10" min
+In-line or
+end-of-run
+junction
+Fin
+Spine
+When using frameless 
+glass on a spine panel 
+with a same height 
+off-module panel con-
+nections, the off-module 
+cannot connect within 10" of 
+an end of run or in-line junc-
+tion connection.
+Surface Materials
+Off-module bracket
+• Black paint
+Tip: Bracket is hidden when 
+properly installed.
+Off-module installation 
+requires À eld modiÀ cation 
+of the light seal on the top 
+skin. Surface covering is not 
+affected.
+Application Topics
+Stability Guidelines 
+for Application Rules
+c Page 148
+Stacking junctions 
+can be used with any height 
+base junction.
+Bins, shelves, and 
+worksurfaces cannot be 
+attached off-module.
+Off-module panel con-
+nector works with both 
+square and oval style trims. 
+Top cap À ller included in 
+package is only used with 
+oval style trims. Square style 
+trims do not require a top 
+cap À ller.
+When using a wall-start 
+junction manufactured 
+before October 10, 2011 
+with an off module panel 
+connector manufactured on 
+or after October 10, 2011 the 
+"old" bottom bracket must be 
+used. It can be ordered from 
+Service Parts, part number 
+T500938MP. If using an old 
+off-module panel connector 
+manufactured before October 
+10, 2011 with a wall-start 
+junction manufactured on or 
+after October 10, 2011 the 
+bottom bracket included with 
+the off module panel connec-
+tor should be used.
+An off-module w n wall 
+cannot connect Á ush to the 
+end of a panel in the spine 
+wall. The closest connection 
+point will leave a 3" tail on 
+the spine including the end-
+of-run trim.
+An off-module w n wall 
+cannot attach at a junction in 
+the spine wall. There is a 2" 
+area of dead space on either 
+side of the junction render-
+ing a total of 4" dead space.
+An off-module w n wall 
+cannot be installed over a 
+window that is located at the 
+top of a spine panel.
+Wiring & Cabling
+Wiring and cabling 
+components cannot be 
+routed internally from a 
+spine wall to an off-module 
+À n wall without cutting open-
+ings in the spine wall skin.
+Tip: It is recommended that 
+you route wiring and cabling 
+through the spine wall.
+Internode power com-
+ponents should be used to 
+bring power from the spine 
+wall to the workstation.
+cSee Post and Beam 
+SpeciÀ cation Guide.
+When stacking on the 
+fin panel, the spine wall 
+skins must be segmented 
+with a seam matching the 
+height of the fin base panel.
+When stacking wall-
+start junctions in an 
+off-module application, 
+the off-module panel con-
+nector connects to the base 
+wall-start junction.
+Two off-module panels 
+can be connected back to 
+back at the same location.
+When connecting two 
+off-module w ns at dif-
+ferent heights on either 
+side of the spine panel, 
+an additional horizontal 
+beam must be ordered and 
+installed at the same height 
+of the shorter À n panel.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

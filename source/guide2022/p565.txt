@@ -1,0 +1,256 @@
+Universal Systems Worksurfaces
+ 
+ 
+A
+D
+C
+B
+C
+B
+A
+D
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style num-
+ber. (For example, UE2202L 
+becomes UE2202LP for lami-
+nate with P-edge profile.)
+Answer Solutions Specification Guide 
+565
+Extended Corner, Straight-
+Front Worksurfaces
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems 
+Worksurfaces
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions  
+ 
+DStyle 
+DPlastic 
+DPlastic 
+dA 
+B 
+C 
+D 
+dNumber 
+d3 mm 
+dP-Edge 
+d 
+ 
+ 
+ 
+d 
+dEdge 
+d 
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x 
+dSufw x P 
+Left-Hand With 1/2" Cord Drop
+231¼2" 
+231¼2" 
+591¼2" 411¼2" 
+UE2202L 
+$ 971 
+$1102 
+231¼2" 
+231¼2" 
+651¼2" 411¼2" 
+UE2262L 
+$1062 
+$1193 
+231¼2" 
+231¼2" 
+711¼2" 411¼2" 
+UE2222L 
+$1150 
+$1281 
+231¼2" 
+231¼2" 
+591¼2" 471¼2" 
+UE2208L 
+$ 998 
+$1129 
+231¼2" 
+231¼2" 
+651¼2" 471¼2" 
+UE2268L 
+$1083 
+$1214 
+231¼2" 
+231¼2" 
+711¼2" 471¼2" 
+UE2228L 
+$1169 
+$1300 
+231¼2" 
+291¼2" 
+591¼2" 471¼2" 
+UE2308L 
+$1089 
+$1220 
+231¼2" 
+291¼2" 
+651¼2" 471¼2" 
+UE2368L 
+$1176 
+$1307 
+231¼2" 
+291¼2" 
+711¼2" 471¼2" 
+UE2328L 
+$1270 
+$1401 
+291¼2" 
+231¼2" 
+591¼2" 471¼2" 
+UE3208L 
+$1089 
+$1220 
+291¼2" 
+231¼2" 
+651¼2" 471¼2" 
+UE3268L 
+$1176 
+$1307 
+291¼2" 
+231¼2" 
+711¼2" 471¼2" 
+UE3228L 
+$1270 
+$1401 
+291¼2" 
+291¼2" 
+591¼2" 471¼2" 
+UE3308L 
+$1139 
+$1270 
+291¼2" 
+291¼2" 
+651¼2" 471¼2" 
+UE3368L 
+$1232 
+$1363 
+291¼2" 
+291¼2" 
+711¼2" 471¼2" 
+UE3328L 
+$1318 
+$1449 
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+ 
+Right-Hand With 1/2" Cord Drop
+231¼2 " 231¼2" 
+411¼2" 591¼2" 
+UE2220R 
+$ 971 
+$1102 
+231¼2 " 231¼2" 
+411¼2" 651¼2" 
+UE2226R 
+$1062 
+$1193 
+231¼2 " 231¼2" 
+411¼2" 711¼2" 
+UE2222R 
+$1150 
+$1281 
+231¼2 " 231¼2" 
+471¼2" 591¼2" 
+UE2280R 
+$ 998 
+$1129 
+231¼2 " 231¼2" 
+471¼2" 651¼2" 
+UE2286R 
+$1083 
+$1214 
+231¼2 " 231¼2" 
+471¼2" 711¼2" 
+UE2282R 
+$1169 
+$1300 
+231¼2 " 291¼2" 
+471¼2" 591¼2" 
+UE2380R 
+$1089 
+$1220 
+231¼2 " 291¼2" 
+471¼2" 651¼2" 
+UE2386R 
+$1176 
+$1307 
+231¼2 " 291¼2" 
+471¼2" 711¼2" 
+UE2382R 
+$1270 
+$1401 
+291¼2 " 231¼2" 
+471¼2" 591¼2" 
+UE3280R 
+$1089 
+$1220 
+291¼2 " 231¼2" 
+471¼2" 651¼2" 
+UE3286R 
+$1176 
+$1307 
+291¼2 " 231¼2" 
+471¼2" 711¼2" 
+UE3282R 
+$1270 
+$1401 
+291¼2 " 291¼2" 
+471¼2" 591¼2" 
+UE3380R 
+$1139 
+$1270 
+291¼2 " 291¼2" 
+471¼2" 651¼2" 
+UE3386R 
+$1232 
+$1363 
+291¼2 " 291¼2" 
+471¼2" 711¼2" 
+UE3382R 
+$1318 
+$1449 
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+Steelcase 
+June 2022

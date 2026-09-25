@@ -1,0 +1,96 @@
+564 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Extended Corner, Straight-Front Worksurfaces
+High-Pressure Laminate
+ 
+• Worksurface: High-Pressure Laminate price group 1 
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Cable scallops on back edges
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+c See edge proÀ les below.
+2 High-Pressure Laminate number 
+for worksurface
+3 Plastic color number for front edge 
+on laminate worksurface
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Tip: Illustration above shows 
+a left-hand worksurface.
+Tip: Supports must be spec-
+iÀ ed separately, including 
+side support brackets for 
+rear corner support in 
+panel-mounted applications.
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Long worksurface spans 
+require additional support.
+c See understanding section 
+for details, page 224
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+ Scallops 
+• Omit scallops 
+No cost  
+ 
+ Specify omit scallops.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Reinforcing channel 
+ 
+ 
+ 
+c Page 589
+  
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

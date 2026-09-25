@@ -1,0 +1,147 @@
+590 
+Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems Worksurfaces
+Panel-Mounted Universal Systems Worksurface Supports For Use with Answer Panels, continued 
+ 
+ 
+ 
+Center Support Panels
+• Center support panel: paint price group 1
+• Tie plate
+• Attachment hardware
+End Panels
+• End panel: paint price group 1
+• Attachment hardware
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$41 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$68 
+ 
+ 
+ Specify paint color number.
+Speciwcation Information
+DDimensions 
+DStyle 
+DU.S.
+dD 
+H 
+dNumber 
+dBase
+d 
+ 
+d 
+dPrice
+d 
+ 
+d 
+d
+On-Module End Panel
+24" 
+281¼2" 
+UEP24 
+$527
+30" 
+281¼2" 
+UEP30 
+$599
+Standing Height
+24" 
+407¼8" 
+UEP24S 
+$623
+30" 
+407¼8" 
+UEP30S 
+$699
+d 
+ 
+d 
+d
+1 Style number
+2 Paint color number for end panel
+3 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 236
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$17 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$30 
+ 
+ 
+ Specify paint color number.
+Speciwcation Information
+DDimensions 
+DStyle 
+DU.S.
+dD 
+H 
+dNumber 
+dBase
+d 
+ 
+d 
+dPrice
+d 
+ 
+d 
+d
+On-Module Center Support Panel
+11" 
+281¼2" 
+UCSP 
+$193
+Standing Height
+11" 
+407¼8" 
+UCSPS 
+$225
+d 
+ 
+d 
+d
+1 Style number
+2 Paint color number for center support
+panel
+3 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 236
+Standard Includes 
+ Required to Specify
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

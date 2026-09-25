@@ -72,3 +72,33 @@ TS76036TK (oval reman); the app's thin spec is the panel package TS76636TTF (ski
    file (0 errors) and to count every CAPPN (nested blocks x insert count) against the spec quantities per style — must match.
    `cap/make_b2.py`, `cap/render.py` + `cap/svg2png.js` render a DXF to PNG through Playwright for eyeballing.
 4. UI: the Export DXF button writes the CAP file; keep the old line-only R12 export as "DXF (lines only)".
+
+## 3D view (decoded from the owner's `claude-request-v1.dxf` and `-v2.dxf`, 2026-09-25, AutoCAD 2013 / AC1027, saved with the 3D view on)
+
+* In the 3D view model space holds `3_` inserts instead of `P_` ones: `3_A-T36` (a panel config with the `CAPSTD`, `CAPSTDTITLE`, `CAPPANELCAT`,
+  `CAPPANELNAME`, `CAPPANELCONFIG`, `CAPPANELWIDTH`, `CAPPANELHEIGHT` attributes; `CAPPANELHEIGHT` 41.08 for a 42", 53.44 for a 54") and
+  `3_<style>_____XI_____QUALIFIER_____<h>_____XO` part blocks (6-7 attributes: `CAPPN`, `CAPMG`, `CAPMC`, `CAPQT`, `CAPTG`, `CAPDH`, sometimes `CAPGC`).
+  Each `3_` part block only nests one CAP library block (`3TN4TEJ`, `3TN4TLJ`, `3TCLJ45`, `3TT364F`, `3TSA443`, `3TWS412`, `3TS71236TFGR30` ...),
+  which holds the geometry: POLYLINE polyface meshes and POINTs on layers `AFUPA-3D-004` (frame, colour 4), `-020` (junctions, 20),
+  `-028` (stacking, 28), `-010`/`-051` (glass screen, 4/51), `AFUSK-3D-017` (skins, 17), `-006`/`-016` (window frame/pane, 6/16). No solids.
+* A 3D config nests: the frame `3_TS736THF...<h>` at (0,0,0) — only a top cap (36 x 3, z 41.02-41.42 for a 42") and two 4"-tall base trims
+  0.572" thick on each face; skins `3_TS73636TK` at (0,3,4) rot 0 and (36,0,4) rot 180, each a 36 x 0.5 x 37.08 box (top at 41.08); a window
+  `3_TS71236SPW` at (0,0,41.08), a 36 x 3 x 12.28 frame with a 0.2" pane; the stacking junction `3_TS712TLPJS` at z 41.08 (the 42" panel's height).
+* What CAP's library gets wrong against the guide (the defects the owner sees): the 42"/54" end-of-run junctions `3TN4TEJ`/`3TN5TEJ` are two
+  POINTs, no body; the same-height L junction `3TN4TLJ` is only a 3 x 3 x 0.4" cap at z 0 (on the floor), no block or posts; stacking junctions
+  are a TEXT label and a POINT; the 12"H recessed glass screen used on the 42" panel is the 30"-panel block (`...TFGR30`: glass z 25.9-41.4 with the
+  clips at 28.7-29.1), so on a 42" panel the glass ends flush with the top cap instead of standing 12" above it; in v1 the 42" top cap stays at
+  41.02-41.42 under the stacked window instead of moving to the top of the stack; the change-of-height L junction `3TCLJ45` is a 3 x 3 column to
+  53.77 with the trim on one face, so junction bodies are inconsistent between same-height and change-of-height. Heights also differ from the guide:
+  CAP's 42" panel tops out at 41.42 (guide 41 7/8", p11) with a 4" base trim (guide 3 3/4", p50).
+* What we write instead (`src/capdxf.js`, `E.toCapDXF`): a `3_<name>` twin for every `P_<name>` block, built from the guide (README "3D blocks in
+  the CAP export"), checked by `test/cap3d.js`; `cap/iso3d.py in.dxf out.svg [scale] [azimuth]` renders the 3D blocks of any CAP DXF for eyeballing.
+  Still open: whether CAP's 3D view picks up `3_<name>` twins of blocks it did not author (the settled fact says it keeps them), and whether the
+  `_____XI_____QUALIFIER_____` suffix matters for the swap (our names carry none).
+* Seen in CAP 2026-09-25 (the owner's screenshots): the first exports opened with the tiles scattered, and CAP said on opening "this drawing contains
+  cap panel builder graphics that require updating, cap will update these graphics now". CAP rebuilds a panel's 3D graphics from the 2D config
+  itself: every nested symbol stays where the 2D config puts it, is swapped for its `3_` twin and lifted by its CAPDH. So the config now nests the
+  tiles exactly as CAP's own configs do (TEST_B2 and the claude-request samples): frame at the origin; side B skin at (0, 3) rot 0 and side A skin
+  at (width, 0) rot 180, one block for both faces, CAPDH = the base trim height (3 3/4"; CAP writes 4); window tiles, stacked tiers and the recessed
+  glass at the origin with CAPDH = their bottom; parts without a body stay point symbols along the centreline with CAPDH 0. Every tile body is
+  drawn at its own origin from z = 0, and the `3_` config nests the same points at z = CAPDH, as CAP writes it.

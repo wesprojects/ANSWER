@@ -1,0 +1,282 @@
+728 
+Answer Solutions SpeciÀ cation Guide
+Surface Materials, continued
+E = Established
+Select Surfaces
+For information on 
+products within Select 
+Surfaces, including 
+accent paints and fabrics 
+from Designtex, Gabriel, 
+Kvadrat, and Pollack, 
+please refer to the Surface 
+Materials Reference Manual 
+or visit steelcase.com/
+surface-materials under the 
+Select Surfaces section.
+Custom Surfaces
+Price Group COM
+(Customer’s Own 
+Material)
+Fabric Approval and 
+Yardage
+To conÀ rm whether a 
+particular COM material 
+has already been tested 
+for use on a speciÀ c 
+Steelcase product or to 
+determine actual yardage 
+requirements:
+• Visit www.steelcase.com
+For additional
+information regard-
+ing Customer’s 
+Own Material, call 
+1.888.STEELCASE 
+(1.888.783.3522) or 
+send an e-mail to 
+lineone@steelcase.com. 
+c
+See Surface Materials 
+Reference Manual for a 
+listing of available seating 
+upholstery colors.
+Price Group 2
+Code
+Cogent: Connect
+Designtex: Crossweave
+Designtex: Gamut 
+Intersection
+Latch
+Stencil
+Tip: Designtex: Gamut and 
+Designtex: Crossweave are 
+part of the Select Surfaces 
+program. 
+cSee Surface Materials 
+Reference Manual for more 
+information on the Select 
+Surfaces program.
+Price Group 3
+Billiard Multi-Use by 
+Designtex
+Applies to:
+• Sarto screens
+Price Group A
+Sprite
+Price Group 1
+Abacus E
+Alloy
+Boccie
+Buzz2
+Charm
+Lapel
+Link
+Optic
+Pianista
+Playground E
+Rhythm
+Price Group 2
+Bariolage
+Bouquet E
+Cogent: Connect
+Flip: Orbit
+Flip: TexHex
+Fresco
+Intersection
+Latch
+Milano E
+Stencil
+Applies to:
+• Universal screens
+• Sarto screens
+Price Group 6
+Fusion
+Latch
+P600 Seashell
+P601 Clam
+P602 Eggshell
+P603 Zen
+P604 Cool Gray
+P605 Armor
+P606 Sentinel
+P607 Rye
+P608 Billow
+P609 Nimbus
+Milano E
+N002 Delft
+N004 Sunshadow
+N005 Olivine
+Stencil
+P455 Midnight
+P456 Mulberry
+P457 Cracked Pepper
+P458 Denim
+P459 Chartreuse
+P460 Bittersweet
+P461 Mauvelous
+P462 Bermuda
+P463 Concrete
+P464 Orchid
+P465 Parchment
+P466 Silk
+P467 Sea Salt
+P468 Honeydew
+P469 Sepia
+Price Group 3
+Billiard Multi-Use by 
+Designtex
+5H11 Poppy
+5H12 Tangelo
+5H13 Citrine/Citron
+5H14 Avocado
+5H16 Indigo
+5H17 Mallard
+5H18 Teak
+5H19 Cumulus
+5H20 Pewter
+5H21 Gunmetal
+5H22 Ink
+5H23 Rose Quartz
+5H24 Sea Salt
+5H25 Storm Cloud
+5H26 Olivine
+Applies to:
+• Universal screens
+Price Group 1
+Abacus E
+Buzz2
+Price Group 2
+Bariolage 
+G200 New Etude
+G201 New Andante E
+G202 New Cantata E
+G203 New Adagio
+G205 New Ballata
+Bouquet E
+P165 Hosta
+P166 Dundee
+P169 Argenta
+P170 Hoya
+P173 Camomile
+Code
+5FA1 Fossil
+5FA2 Gabbro
+5FA3 Reed
+5FA4 Bluff
+5FA5 Sea Salt
+5FA6 Cannon
+5FA7 Tussah
+5FA8 Mica
+5FA9 Ecru
+5FB1 Bamboo
+Flip: Orbit
+5F85 Mud Pie E
+5F86 Hummus E
+5F87 Petoskey
+5F88 Pluto E
+5F89 Papyrus
+5F91 Blizzard
+5F92 Briquette
+Flip: TexHex
+5F75 Mud Pie E
+5F76 Hummus E
+5F77 Petoskey
+5F78 Pluto E
+5F79 Papyrus
+5F97 Blizzard
+5F98 Briquette
+Fresco 
+G001 Sandrift
+G002 Mistiblu
+G003 Faon
+G006 Chamoline
+G007 Grapenut
+G017 Flint
+Intersection
+P210 Silhouette 
+P211 Summit 
+P212 Chalk 
+P213 Lace 
+P214 Sea Salt 
+P215 Lagoon 
+P216 Electric Indigo 
+P217 Indigo 
+P218 Jungle
+P219 Green Citrine
+P220 Olivine
+P221 Rose Quartz
+P222 Mulberry
+P223 Tango
+P224 Scarlet
+P225 Saffron
+P226 Mousse
+Charm
+P505 Shell  
+P506 Mimosa  
+P507 Birch  
+P508 Sparkle  
+P509 Ginkgo  
+P510 Debut  
+P511 Clover  
+P513 Twilight
+Lapel
+P409 Cement
+P410 Pebble
+P411 Beech
+P412 Dune
+P414 Sprout
+P416 Maple
+P417 Slate
+Optic
+P540 Hazel
+P541 Twinkle
+P542 Orion
+P543 Seaglass
+P545 Halo
+P546 Whiskey
+P547 Bath
+P548 Whisper
+P549 Breezy
+P551 Glimmer
+Pianista
+P420 Sand
+P421 Mist
+P422 Rain
+P423 Natural
+P424 Café
+P425 Denim
+P426 Carbon
+P427 Stone
+P428 Flax
+P429 Oat
+P430 Wheat
+P431 Maize
+Rhythm
+P555 Allegro
+P556 Tempo
+P557 Refrain
+P558 Pitch
+P559 Harmony E
+P560 Melody
+P561 Stanza
+P562 Opus
+Tinsel
+P515 Sugar
+P516 Lit
+P517 Ego
+P518 Fizz
+P519 Muse
+P520 Depth
+P521 Bliss
+P522 Grow
+P523 Dolce
+P524 Boost
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

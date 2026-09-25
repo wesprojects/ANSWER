@@ -1,0 +1,210 @@
+In-Line
+Panels—Thin Trim 
+Change-of-Height Visual Overview—Thin Trim
+L Junction
+A
+B
+A 
+B 
+Style Number
+30" 
+36" 
+TS73QTCLJ
+30" 
+42" 
+TS734TCLJ
+30" 
+48" 
+TS738TCLJ
+30" 
+54" 
+TS735TCLJ
+30" 
+66" 
+TS736TCLJ
+36" 
+42" 
+TS7Q4TCLJ
+36" 
+48" 
+TS7Q8TCLJ
+36" 
+54" 
+TS7Q5TCLJ
+36" 
+66" 
+TS7Q6TCLJ
+42" 
+48" 
+TS748TCLJ
+42" 
+54" 
+TS745TCLJ
+42" 
+66" 
+TS746TCLJ
+42" 
+78" 
+TS747TCLJ
+48" 
+54" 
+TS785TCLJ
+48" 
+66" 
+TS786TCLJ
+48" 
+78" 
+TS787TCLJ
+54" 
+66" 
+TS756TCLJ
+54" 
+78" 
+TS757TCLJ
+66" 
+78" 
+TS767TCLJ
+c Page 358 to specify
+Junction includes
+L change-of-height junction
+Inside corner light seal
+L vertical trim
+End-of-run change-of-height trim
+Change-of-height junction cap
+Aligners
+Tip: Style numbers for wood junctions require a W 
+to be added to the end of the style number.
+Tip: When specifying remember this junction is 
+handed and the other hand is not supported by 
+style numbers. While in the À eld, installers may 
+need to move a post to achieve the desired 
+conÀ guration.
+A
+B
+A 
+B 
+Style Number
+30" 
+36" 
+TS73QTCIJ
+30" 
+42" 
+TS734TCIJ
+30" 
+48" 
+TS738TCIJ
+30" 
+54" 
+TS735TCIJ
+30" 
+66" 
+TS736TCIJ
+36" 
+42" 
+TS7Q4TCIJ
+36" 
+48" 
+TS7Q8TCIJ
+36" 
+54" 
+TS7Q5TCIJ
+36" 
+66" 
+TS7Q6TCIJ
+42" 
+48" 
+TS748TCIJ
+42" 
+54" 
+TS745TCIJ
+42" 
+66" 
+TS746TCIJ
+42" 
+78" 
+TS747TCIJ
+48" 
+54" 
+TS785TCIJ
+48" 
+66" 
+TS786TCIJ
+54" 
+66" 
+TS756TCIJ
+54" 
+78" 
+TS757TCIJ
+54" 
+90" 
+TS759TCIJ
+66" 
+78" 
+TS767TCIJ
+66" 
+90" 
+TS769TCIJ
+78" 
+90" 
+TS779TCIJ
+c Page 357 to specify
+Junction includes
+In-line base junction
+End-of-run stacking junction
+Stacking fork
+End-of-run change-of-height trim
+Aligner
+Tip: Style numbers for wood junctions require a W 
+to be added to the end of the style number.
+Selecting a Junction
+To determine the application you need, 
+follow these steps:
+1. Find the type of junction you are constructing 
+– L, T, X, V, Y, or in-line. An array of the appli-
+cations that are supported by style numbers are 
+shown on the following pages. All same height 
+corner junctions are supported by style numbers 
+on pages 353-356. All change-of-height appli-
+cations (with two different heights) are included 
+on the following pages. If your application is not 
+included (three heights in an T, X, or Y junction 
+or four heights in an X junction) please see Build 
+Your Own—Thin Trim, page 40, to build your 
+desired application.
+2. It may help if you make a sketch of the junction 
+you are trying to build and then match it with the 
+junction shown on the following pages.
+3. Find the type of junction you are looking for in 
+the following pages and see the corresponding 
+specifying page.
+Style numbers for junctions are based on 
+the heights of the frames.
+Digit in 
+Corresponding
+Style  
+Frame Height
+Number 
+3  
+30"
+Q 
+36"
+4  
+42"
+5  
+54"
+6  
+66"
+7  
+78"
+8  
+48"
+9  
+90"
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+26 
+Answer Solutions SpeciÀ cation Guide
+Steelcase 
+June 2022

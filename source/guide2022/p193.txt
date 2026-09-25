@@ -1,0 +1,115 @@
+Wiring and Cabling
+Access Products
+Answer Solutions SpeciÀ cation Guide 
+cAccess Products, continued  193
+Access Products
+Wiring & Cabling
+Product Details
+15-amp or 20-amp 
+receptacles, ordered 
+separately, snap into both 
+faces of power block in 
+the À eld.
+Orange triangle indicates 
+to users the receptacles that 
+are connected to isolated 
+grounds.
+Controlled receptacle 
+must be indicated when 
+tying into the building man-
+agement system. Duplex 
+receptacles have an option 
+for a factory permanent, 
+pad stamp power icon sym-
+bol with the word controlled 
+per compliance with the 
+Energy Code.
+For power access in 
+steel skins, specify 
+TS7RC receptacles and 
+TS7RCT trim rings for 
+each cutout.
+Surface Materials
+Duplex receptacle
+• 6000 Black
+• 6009 Arctic White
+• 6249 Platinum Solid
+• 6651 Tungsten
+• 6652 Titanium
+• 6654 Sand
+• 6697 Fog
+• 6B03 Red
+Duplex Receptacles
+Product Details
+Faceplate, ordered sep-
+arately, is used to surround 
+receptacle when skin is 
+À eld-cut. Templates for À eld 
+cutting are available through 
+Service Parts (T500940SR). 
+Faceplate is used to sur-
+round modular furniture size 
+communication or DECORA 
+outlets when installed in the 
+face of a tackable acoustical 
+panel skin. Templates for 
+À eld cutting are available 
+through Service Parts 
+(T500940SR). 
+NEMA-size communi-
+cation outlets (single 
+gang) do not require a 
+Steelcase faceplate. Cannot 
+be used in base.
+Surface Materials
+Faceplate
+• 6000 Black
+• 6009 Arctic White
+• 6249 Platinum Solid
+• 6651 Tungsten
+• 6652 Titanium
+• 6654 Sand
+• 6697 Fog
+Faceplate
+Product Details
+USB receptacles, 
+ordered separately, snap 
+into both faces of power 
+block in the À eld.
+USB receptacles are 
+type USB-A.
+USB receptacles, are 
+available in three wiring 
+schematics with multiple 
+line options. USB recepta-
+cles offer easy access to 
+two charging ports. Each 
+port provides one amper-
+age of output. USB recep-
+tacles conveniently charge 
+a wide range of electronic 
+devices. Some devices 
+may not be compatible.
+For USB power access 
+in steel skins, specify 
+TS7USB receptacles and 
+TS7RCT trim rings for 
+each cutout.
+Surface Materials
+USB receptacle
+• 6000 Black
+• 6009 Arctic White
+• 6249 Platinum Solid
+• 6651 Tungsten
+• 6652 Titanium
+• 6654 Sand
+• 6697 Fog
+• 6B03 Red
+USB Receptacles
+c Specifying, page 525
+c Specifying, page 526
+c Specifying, page 523
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

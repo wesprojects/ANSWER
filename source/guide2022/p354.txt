@@ -1,0 +1,144 @@
+354 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Junction
+• Inside corner light seals
+• Trim/junction cap: paint or wood group 1
+• Aligners
+Panels—Thin Trim 
+X Same Height Base Panel Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Omit trim option is used 
+when stacking on base 
+panel junctions.
+Tip: Remember to specify 
+necessary junction cap 
+and aligners if the omit trim 
+option is selected.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Trim
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+ 
+• Omit trim 
+Prices below 
+ Specify with omit trim. 
+Speciwcation Information
+DCorresponding 
+DStyle 
+DU.S. 
+DOption
+dPanel
+dNumber 
+dBase 
+d(Add $ to
+dHeight
+d
+dPrice 
+dBase Price)
+d
+d
+d 
+d
+d
+d
+d 
+dOmit Trim
+Painted Trim
+30" 
+TS730TXPJ 
+$222 
+ï$16
+36" 
+TS736TXPJ 
+$222 
+ï$16
+42" 
+TS742TXPJ 
+$222 
+ï$16
+48" 
+TS748TXPJ 
+$222 
+ï$16
+54" 
+TS754TXPJ 
+$222 
+ï$16
+66" 
+TS766TXPJ 
+$222 
+ï$16
+78" 
+TS778TXPJ 
+$310 
+ï$16
+d
+d
+d 
+d
+Wood Trim
+30" 
+TS730TXPJW 
+$311 
+ï$99
+36" 
+TS736TXPJW 
+$311 
+ï$99
+42" 
+TS742TXPJW 
+$311 
+ï$99
+48" 
+TS748TXPJW 
+$311 
+ï$99
+54" 
+TS754TXPJW 
+$311 
+ï$99
+66" 
+TS766TXPJW 
+$311 
+ï$99
+78" 
+TS778TXPJW 
+$401 
+ï$99
+d
+d
+d 
+d
+1 Style number
+2 Paint or wood color number for 
+junction cap
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 20
+Steelcase 
+June 2022

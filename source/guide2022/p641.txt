@@ -1,0 +1,165 @@
+Answer Solutions Specification Guide 
+641
+Universal Tables
+ 
+ 
+Post Legs and Double Post C-Legs
+With Alignment Tab
+Standard Includes 
+ Required to Specify
+• Table legs: paint
+• Attachment hardware
+• Non-locking caster, if selected: black plastic only
+Tip: Height dimensions 
+listed are nominal and 
+include the thickness of 
+a table.
+Tip: Corner tables require 
+a leg in the back corner. 
+Be sure to order fifth leg 
+if specifying a package 
+of four.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Legs for Universal Tables
+Universal Tables
+Tip: See Table and Leg 
+Combinations page for 
+number of legs required 
+per worksurface.
+c Page 287
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$27 per leg 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$47 per leg 
+ 
+ Specify paint color number.
+Speciwcation Information
+DPlanning 
+DStyle 
+DU.S. 
+DPlanning 
+DStyle 
+DU.S.
+dHeight 
+dNumber 
+dBase  
+dHeight 
+dNumber 
+dBase
+d 
+d 
+dPrice 
+d 
+d 
+dPrice
+d 
+d 
+d
+d 
+d 
+d
+Post Leg with Glide  
+Package of Four Post Legs with Glides
+26" 
+BNPL 
+$197 
+26" 
+BNPL4 
+$788 
+ 
+281¼2" 
+BPL 
+$197 
+281¼2" 
+BPL4 
+$788 
+ 
+d 
+d 
+d
+d 
+d 
+d
+Post Leg with Caster 
+Package of Four Post Legs with Casters
+26" 
+BNPLC 
+$221 
+26" 
+BNPL4C 
+$884 
+ 
+281¼2" 
+BPLC 
+$221 
+281¼2" 
+BPL4C 
+$884 
+ 
+d 
+d 
+d
+d 
+d 
+d
+ 
+ 
+ 
+Package of Four Post Legs with Two   
+ 
+ 
+ 
+ 
+Glides and Two Casters 
+ 
+ 
+ 
+26" 
+BNPL4M 
+$836 
+ 
+ 
+ 
+281¼2" 
+BPL4M 
+$836 
+d 
+d 
+d
+d 
+d 
+d
+Double Post C-Legs with Glides
+281¼2" 
+BCL 
+$598 
+ 
+ 
+ 
+d
+d
+d
+1 Style number
+2 Paint color number for legs.
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 284
+Steelcase 
+June 2022

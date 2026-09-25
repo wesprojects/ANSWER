@@ -1,0 +1,290 @@
+488 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Wood Skins
+ 
+Standard Includes 
+ Required to Specify
+• Skin: wood veneer group 1
+• Vertical grain direction
+• Trim: paint
+• Attachment hardware
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Wood group 2 
+Prices below and at right 
+ Specify wood color number.
+ Materials 
+• Wood group 3 
+Prices below and at right 
+ Specify wood color number.
+  
+• Customiz stain 
+No cost  
+ 
+ Specify with Customiz stain.
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+ 
+ Grain direction 
+ 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+1 Style number
+2 Wood veneer color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+cNeed help?
+Product details,
+page 136
+Tip: 18"H, 30"H, and 42"H 
+skins only work on junctions 
+manufactured on or after 
+October 10, 2011.
+Tip: Vertical grain cathedral 
+direction will point up. The 
+cathedral direction for hori-
+zontal grain is random.
+Speciwcation Information
+ 
+12"H
+18"H
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DOptions  
+ 
+DStyle 
+DU.S. 
+DOptions
+d 
+dNumber 
+dBase 
+d(Add $ to  
+ 
+dNumber 
+dBase 
+d(Add $ to
+d
+d
+dPrice dBase Price)
+
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+
+
+d
+d
+d
+d
+d
+d
+dWood 
+
+d
+d
+dWood
+d
+d
+d
+dWood 
+dWood 
+d
+d
+dWood  dWood
+d
+d
+d
+dGroup 2dGroup 3
+d
+d
+dGroup 2dGroup 3
+24" 
+TS71224WS 
+$503 
++$ɚɚ74 
++$264 
+TS71824WS 
+$579 
++$ɚɚ74 
++$264
+30" 
+TS71230WS 
+$536 
++$ɚɚ74 
++$264 
+TS71830WS 
+$615 
++$ɚɚ74 
++$264
+36" 
+TS71236WS 
+$574 
++$ɚɚ74 
++$264 
+TS71836WS 
+$654 
++$126 
++$444
+42" 
+TS71242WS 
+$612 
++$ɚɚ74 
++$264 
+TS71842WS 
+$699 
++$126 
++$444
+48" 
+TS71248WS 
+$651 
++$ɚɚ74 
++$264 
+TS71848WS 
+$735 
++$126 
++$444
+ d 
+d 
+d 
+d
+d
+
+d
+d
+d
+d
+ 
+24"H
+30"H
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DOptions  
+ 
+DStyle 
+DU.S. 
+DOptions
+d 
+dNumber 
+dBase 
+d(Add $ to  
+ 
+dNumber 
+dBase 
+d(Add $ to
+d
+d
+dPrice dBase Price)
+
+d
+dPrice
+dBase Price)
+d
+d
+d
+d
+
+
+d
+d
+d
+d
+d
+d
+dWood 
+
+d
+d
+dWood
+d
+d
+d
+dWood 
+dWood 
+d
+d
+dWood  dWood
+d
+d
+d
+dGroup 2dGroup 3
+d
+d
+dGroup 2dGroup 3
+24" 
+TS72424WS 
+$651 
++$ɚɚ74 
++$264 
+TS73024WS 
+$760 
++$126 
++$444
+30" 
+TS72430WS 
+$692 
++$ɚɚ74 
++$264 
+TS73030WS 
+$803 
++$126 
++$444
+36" 
+TS72436WS 
+$731 
++$126 
++$444 
+TS73036WS 
+$849 
++$126 
++$444
+42" 
+TS72442WS 
+$776 
++$126 
++$444 
+TS73042WS 
+$900 
++$187 
++$657
+48" 
+TS72448WS 
+$821 
++$126 
++$444 
+TS73048WS 
+$961 
++$187 
++$657
+ d 
+d 
+d 
+d
+d
+
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+Steelcase 
+June 2022

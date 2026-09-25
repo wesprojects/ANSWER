@@ -1,0 +1,161 @@
+Answer Solutions SpeciÀ cation Guide 
+295
+media:scape and Monitor Mount Integration
+ 
+Answer media:scape
+Integration 
+Surface Materials
+High-Pressure 
+Laminate 
+Worksurfaces
+• Laminate
+cSee Surface Materials 
+Reference Manual
+• Open Line laminate
+ (option)
+A program including non-
+Steelcase laminates which 
+are suitable for use on 
+Steelcase products. 
+cSee Surface Materials 
+Reference Manual
+3 mm edge on laminate
+• Plastic
+Wood Veneer 
+Worksurfaces
+• Wood veneer (standard)
+• Customiz stain (option)
+• Full-À ll À nish (option)
+Edge 
+• Wood veneer to match  
+ worksurface
+Cabby leg
+• Paint
+Column support
+• Paint
+Media well 
+• 4799 Platinum
+Media well cover, 
+wireway, transition 
+bracket, cantilever 
+bracket and worksur-
+face to Answer panel 
+support bracket
+• 7237 Slate plastic
+Power and Data
+A power strip with four 
+receptacles is included 
+with the media:scape 
+assembly. Receptacles are 
+available for powering the 
+monitor and switch power 
+supply. The 60" cord runs 
+through the panel, and 
+receives power from the 
+media well.
+The media well comes 
+standard with the Answer 
+media:scape assembly. 
+It includes a 120" cord that 
+is routed from the well, 
+through the wireway, into 
+the panel, down to the Á oor, 
+and plugged in outside of 
+the panel.
+Power kit and cable 
+trays can only be located in 
+the base of the 30"W panel 
+when the monitor mount is 
+used.
+c Specifying, page 647
+Application Topics
+Answer media:scape 
+assembly and shared 
+worksurface must con-
+nect to a 30"W panel. A sin-
+gle, tackable acoustic skin 
+must be used from the base 
+to the top of the monitor 
+mount assembly. Segment-
+ation is allowed above the 
+monitor mount.
+Tip: A tapered shared work-
+surface is shown in the illus-
+tration above. Monitor not 
+included with media:scape 
+assembly.
+A 66"H or taller panel 
+must be used when applying 
+a shared worksurface with 
+standing-height column.
+Tip: A D-shaped shared 
+worksurface is shown in the 
+illustration above. Monitor 
+not included in media:scape 
+assembly.
+Answer media:scape 
+assembly can accom-
+modate a 40" or 42" wide 
+monitor or a maximum of 
+75 pounds. 
+Worksurface to Answer 
+panel support bracket 
+is included with shared 
+worksurfaces, and must 
+be connected to a 30"W 
+Answer panel.
+Product Details
+High-Pressure 
+Laminate 
+Worksurfaces
+Front (user's) edge 
+prow le is available in 
+one shape.
+PVC-free, 3 mm edge 
+prow les are proprietary 
+polyoleÀ n blend for all solid 
+colors and seven woodgrain 
+À nishes. See surface mate-
+rial listing in this book for 
+speciÀ c PVC-free availability. 
+Edge proÀ le À nishes are 
+speciÀ ed separately from 
+laminate color.
+Wood Veneer 
+Worksurfaces
+Front (user's) edge 
+prow le is wood veneer with 
+a square (3 mm) radius. 
+Back edge and edge that 
+joins to adjacent worksur-
+faces are Á at. Wood edge 
+color matches À nish speci-
+À ed for worksurfaces. 
+Steelcase Maintenance 
+Agreement
+media:scape worksur-
+faces include a one year 
+Steelcase maintenance 
+agreement to provide an 
+enhanced support system 
+for media:scape settings 
+with digital components. 
+The maintenance agreement 
+covers: 
+• software/À rmware  
+ enhancements
+• expedited shipping for  
+ hardware replacements
+• prioritized technical 
+ support
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+media:scape and 
+Monitor Mount 
+Integration
+Steelcase 
+June 2022

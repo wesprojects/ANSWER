@@ -1,0 +1,49 @@
+Shared Components
+Answer Solutions SpeciÀ cation Guide 
+129
+Shared Components
+Steel Panel Skins
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Application Topics, continued
+No Cutouts
+60"W and 72"W steel skins are available in the following modular power and data cutout configurations:
+Right Data
+Left Data
+Left Power
+Left Power
+and
+Left Data 
+Right Power
+Right Power
+and
+Right Data
+Left and 
+Right Power and 
+Right Data
+Left and
+Right Power and 
+Left Data
+Left Power
+and 
+Right Power
+Steel skins with hardwire power cutouts are available in the following cutout conÀ gurations.
+Center Power
+Center Power 
+and
+Right Data
+24"W and 30"W steel skins are available in the following hardwire power and data cutout configurations:
+Center Power
+Center Power 
+and
+Right Data
+36"W steel skins are available in the following power and data cutout configurations:
+42", 48", 60", 72"W steel skins are available in the following power and data cutout configurations:
+Right and Left Power
+and Right Data
+Right and Left Power 
+and Left Data
+Right and 
+Left Power
+Steelcase 
+June 2022

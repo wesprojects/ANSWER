@@ -1,0 +1,41 @@
+216 
+Answer Solutions SpeciÀ cation Guide
+Universal Systems Worksurfaces
+Worksurface Support Guidelines
+Worksurface spans greater than 54" require a brace or additional support to the Á oor. Spans greater than 72" wide cannot be supported only by a 
+reinforcing channel, and require additional supports to the Á oor. Calculate span distance by measuring from edge of one end of worksurface to edge of other 
+end of worksurface. 
+Exception: When using pedestals or lateral À les to support a worksurface, measure from the inside edge of the storage unit.
+Worksurfaces can span up to 60" in heavy load applications and up to 72" in light load applications if a reinforcing channel is used. A light load application is 
+less than 40 pounds placed on a worksurface. Reinforcing channel must be speciÀ ed separately. 
+c
+Page 589
+Exception: Knife edge worksurfaces require support on spans greater than 48"W. 
+60"W
+45"W
+Reinforcing channel is not required on worksurfaces with spans less 
+than 54"W.
+57"W
+72"W
+Lightly loaded applications typically include a workstation with 
+monitors, lighting, limited organizational tools, and personal items.
+57"W
+72"W
+Cantilever
+Reinforcing channel or additional support is required for work-
+surfaces with spans greater than 54"W and less than 72"W in light use 
+applications and on worksurfaces with spans greater than 54"W and less 
+than 60"W in heavy load applications.
+81"W
+Reinforcing
+channel
+96"W
+Worksurface span cannot be supported solely by a reinforcing chan-
+nel. Additional to the Á oor supports are required.
+Tip: Reinforcing channels add 1"D below the worksurface.
+Tip: For maximum effectiveness, place the reinforcing channel in the mid-
+dle of the worksurface span. 
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

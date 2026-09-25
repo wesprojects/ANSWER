@@ -1,0 +1,192 @@
+492 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Wood Skin Sets
+ 
+Standard Includes 
+ Required to Specify
+• Skin: wood group 1 veneer
+• Vertical grain direction
+• Trim: paint
+• Attachment hardware
+Tip: Wood skin sets should 
+be selected when grain 
+pattern alignment of all seg-
+mented skins on a frame 
+is desired.
+12"H
+24"H
+12"H
+30"H
+18"H
+24"H
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Wood group 2 
+Prices below and at right 
+ Specify wood color number.
+ Materials 
+• Wood group 3 
+Prices below and at right 
+ Specify wood color number.
+  
+• Customiz stain 
+No cost  
+ 
+ Specify with Customiz stain.
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+ 
+ Grain direction 
+ 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. 
+DOptions  
+ 
+d 
+dNumber 
+dBase 
+d(Add $ to  
+ 
+d
+d
+dPrice dBase Price)
+
+d
+d
+d
+d
+
+d
+d
+d
+dWood
+d
+d
+d
+dWood  dWood
+d
+d
+d
+dGroup 2dGroup 3
+42"H Wood Skin Sets
+Set A = One 12"H Skin and One 24"H Skin
+24" 
+TS74224AWSS 
+$1186 
++$148 
++$516
+30" 
+TS74230AWSS 
+$1262 
++$148 
++$516
+36" 
+TS74236AWSS 
+$1347 
++$204 
++$708
+42" 
+TS74242AWSS 
+$1430 
++$204 
++$708
+48" 
+TS74248AWSS 
+$1518 
++$204 
++$708
+d
+d
+d
+d
+d
+48"H Wood Skin Sets
+Set A = One 12"H Skin and One 30"H Skin
+24" 
+TS74824AWSS 
+$1302 
++$204 
++$708
+30" 
+TS74830AWSS 
+$1379 
++$204 
++$708
+36" 
+TS74836AWSS 
+$1466 
++$204 
++$708
+42" 
+TS74842AWSS 
+$1553 
++$263 
++$917
+48" 
+TS74848AWSS 
+$1663 
++$263 
++$917
+d
+d
+d
+d
+d
+Set B = One 18"H Skin and One 24"H Skin
+24" 
+TS74824BWSS 
+$1302 
++$209 
++$730
+30" 
+TS74830BWSS 
+$1379 
++$209 
++$730
+36" 
+TS74836BWSS 
+$1466 
++$209 
++$730
+42" 
+TS74842BWSS 
+$1553 
++$274 
++$952
+48" 
+TS74848BWSS 
+$1663 
++$274 
++$952
+d
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+1 Style number
+2 Wood veneer color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 136
+Steelcase 
+June 2022

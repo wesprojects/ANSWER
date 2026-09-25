@@ -1,0 +1,212 @@
+530 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Base Power Infeeds for Use in New York City
+Standard Includes 
+ Required to Specify
+• Power infeed assembly
+• 1¼2"-diameter conduit
+• Power infeed tray: black paint only
+• Power infeed cover: black paint only
+ Style number
+Tip: Power infeed sits proud 
+of the panel approximately 
+3" and will interfere with 
+Universal storage with the 
+Universal 3" base, FrameOne 
+foot base, or c:scape glide.
+Speciwcation Information
+ 
+Non-PVC
+DCorresponding DStyle 
+DU.S. 
+ 
+DCorresponding 
+DStyle 
+DU.S.
+dPanel 
+dNumber 
+dPrice  
+dPanel 
+dNumber 
+dPrice
+dWidth 
+d 
+d
+
+dWidth
+d 
+d
+d 
+d 
+d
+
+d
+d 
+d
+4-Circuit, 3+1 Wiring Schematic 
+4-Circuit, 3+1 Wiring Schematic
+24" 
+TS7BPNY24X 
+$356 
+24" 
+TS7BPNY24XN 
+$371
+30" 
+TS7BPNY30X 
+$356 
+30" 
+TS7BPNY30XN 
+$371
+36" 
+TS7BPNY36X 
+$356 
+36" 
+TS7BPNY36XN 
+$371
+42" 
+TS7BPNY42X 
+$356 
+42" 
+TS7BPNY42XN 
+$371
+48" 
+TS7BPNY48X 
+$356 
+48" 
+TS7BPNY48XN 
+$371
+60" 
+TS7BPNY60X 
+$356 
+60" 
+TS7BPNY60XN 
+$371
+72" 
+TS7BPNY72X 
+$356 
+72" 
+TS7BPNY72XN 
+$371
+d 
+d 
+d
+
+d
+d 
+d
+4-Circuit, 2+2 Wiring Schematic 
+4-Circuit, 2+2 Wiring Schematic
+24" 
+TS7BPNY24Y 
+$356 
+24" 
+TS7BPNY24YN 
+$371
+30" 
+TS7BPNY30Y 
+$356 
+30" 
+TS7BPNY30YN 
+$371
+36" 
+TS7BPNY36Y 
+$356 
+36" 
+TS7BPNY36YN 
+$371
+42" 
+TS7BPNY42Y 
+$356 
+42" 
+TS7BPNY42YN 
+$371
+48" 
+TS7BPNY48Y 
+$356 
+48" 
+TS7BPNY48YN 
+$371
+60" 
+TS7BPNY60Y 
+$356 
+60" 
+TS7BPNY60YN 
+$371
+72" 
+TS7BPNY72Y 
+$356 
+72" 
+TS7BPNY72YN 
+$371
+d 
+d 
+d
+
+d
+d 
+d
+3-Circuit, Separate Neutrals (3SN) 
+3-Circuit, Separate Neutrals (3SN)
+Wiring Schematic 
+ 
+Wiring Schematic
+24" 
+TS7BPNY24Z 
+$356 
+24" 
+TS7BPNY24ZN 
+$371
+30" 
+TS7BPNY30Z 
+$356 
+30" 
+TS7BPNY30ZN 
+$371
+36" 
+TS7BPNY36Z 
+$356 
+36" 
+TS7BPNY36ZN 
+$371
+42" 
+TS7BPNY42Z 
+$356 
+42" 
+TS7BPNY42ZN 
+$371
+48" 
+TS7BPNY48Z 
+$356 
+48" 
+TS7BPNY48ZN 
+$371
+60" 
+TS7BPNY60Z 
+$356 
+60" 
+TS7BPNY60ZN 
+$371
+72" 
+TS7BPNY72Z 
+$356 
+72" 
+TS7BPNY72ZN 
+$371
+d 
+d 
+d
+
+d
+d 
+d
+cNeed help?
+Product details,
+page 185
+Steelcase 
+June 2022

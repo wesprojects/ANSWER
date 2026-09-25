@@ -1,0 +1,305 @@
+Answer Solutions Specification Guide 
+569
+Universal Systems Worksurfaces
+Spanner Worksurfaces 
+High-Pressure Laminate or Wood Veneer
+ 
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+fied separately.
+For wood and lami-
+nate group 2 and 3 
+pricing, please refer to 
+the electronic catalog or 
+SmartTools.
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style num-
+ber. (For example, USPC47 
+becomes USPC47SW for 
+wood with square edge
+profile.)
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+A
+B
+Spanner Worksurfaces
+Universal Systems 
+Worksurfaces
+Speciwcation Information 
+ 
+U.S. Base Prices 
+ 
+U.S. Base Price 
+ 
+High-Pressure Laminate Wood 
+High-Pressure Laminate 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions DStyle 
+DPlastic 
+DPlastic 
+DWood 
+DOption 
+ 
+DDimensions DStyle 
+DPlastic
+dA 
+B 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+d(Add $ to 
+ 
+dA 
+B 
+dNumber 
+d3 mm
+d 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price)  
+d 
+ 
+d 
+dEdge
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+d 
+d
+d 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d 
+d 
+d 
+d 
+dFinish on 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d 
+d 
+d 
+d 
+dWood 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1 
+ 
+d 
+ 
+d 
+dNo Sufw x 
+For Freestanding Applications without Panels With 1|2" Cord Drop 
+Full Depth
+291¼2"   47" 
+USPC47 
+$577 
+$652 
+$1490 
++$81 
+ 
+24" 
+48" 
+WSPC4824 
+$577
+351¼2" 
+59" 
+USPC59 
+$736 
+$811 
+$1649 
++$90 
+ 
+30" 
+60" 
+WSPC6030 
+$736
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+d 
+d
+With 3" Notch for Use with Answer Panels
+251¼2" 
+51" 
+WSPC5126 $577 
+N.A. 
+N.A. 
+N.A.
+311¼2" 
+51" 
+USPC51 
+$577 
+$652 
+$1490 
++$81
+311¼2" 
+63" 
+WSPC6332 $736 
+N.A. 
+N.A. 
+N.A.
+371¼2" 
+63" 
+USPC63 
+$736 
+$811 
+$1649 
++$90
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c
+See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Columns 
+ 
+ 
+ 
+c Page 596
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

@@ -1,0 +1,138 @@
+390 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+Answer to c:scape T Junctions—Thin Trim
+Standard Includes 
+ Required to Specify
+c Need help?
+See c:scape 
+SpeciÀ cation Guide
+• Junction
+• Inside corner light seals
+• Trim and junction cap: paint price group 1 
+• Aligners
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Trim
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+Bracket 
+• Desk-to-panel bracket  
++$47 
+ Specify with desk-to-panel bracket.
+Speciwcation Information 
+ 
+ 
+DCorresponding 
+DStyle 
+ 
+DU.S.
+dPanel
+
+dNumber 
+ 
+dBase
+dHeight
+
+d
+
+dPrice
+d 
+
+
+d
+
+d 
+ 
+dA 
+B 
+C
+d
+
+d
+For Two Panels and One Beam
+30" 
+24" 
+30" 
+TS7323TCTJCQ 
+$692 
+42" 
+24" 
+42" 
+TS7424TCTJCQ 
+$692 
+ 
+ 
+48" 
+24" 
+48" 
+TS7828TCTJCQ 
+$692 
+54" 
+24" 
+54" 
+TS7525TCTJCQ 
+$692 
+d
+
+
+d
+
+d
+For Two Beams and One Panel
+24" 
+30" 
+24" 
+TS7232TCTJCQ 
+$692 
+24" 
+42" 
+24" 
+TS7242TCTJCQ 
+$692 
+24" 
+48" 
+24" 
+TS7282TCTJCQ 
+$692 
+24" 
+54" 
+24" 
+TS7252TCTJCQ 
+$692 
+d
+
+
+d
+
+d
+A
+B
+C
+A
+B
+C
+1 Style number
+2 Paint color number for trim and junction 
+cap
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+Steelcase 
+June 2022

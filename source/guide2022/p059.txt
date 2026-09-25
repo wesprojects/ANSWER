@@ -1,0 +1,185 @@
+Answer Solutions SpeciÀ cation Guide 
+cBase Horizontal Frame Packages—Thin Trim, continued  59
+Panels—Thin Trim
+Base Horizontal
+Frame Packages—
+Thin Trim
+Panels—Thin Trim
+Big open base trim 
+package is available for 
+reconÀ guring a panel seg-
+ment to the big open base. 
+The big open base trim 
+package includes two inside 
+vertical trims. The big open 
+base reconÀ guration pack-
+age is TSBBOBTRM.
+An off-module connec-
+tor cannot be used on a 
+spine wall with big open 
+base.
+Cable tray can be posi-
+tioned every 6" vertically 
+above the base to support 
+cable routing.
+Cable tray can accept 
+added cable carriers 
+attached below tray to 
+expand horizontal cable 
+management options. 
+c See Montage SpeciÀ cation 
+Guide for cable carrier 
+(ZCC).
+Base cable tray is used 
+only in the base to support 
+lay-in cable routing in the 
+base. Base cable tray can-
+not be used if omit base trim 
+option is selected for one 
+or both sides of panel or if 
+open base trim is used.
+Open base trims occupy 
+the same space as the stan-
+dard base trims. Open base 
+trims occupy the bottom 
+33¼4" of the panel; the height 
+of the opening is 21¼2".
+A panel with open base 
+trim cannot serve as the 
+spine panel in an off-module 
+connection.
+scale 70
+Horizontal
+connecting
+bars
+Big open
+base trim
+Top cap
+Big open base option is 
+available on Thin trim panel. 
+The horizontal frame pack-
+age includes two inside ver-
+tical trims in addition to two 
+horizontal connecting bars 
+and a Thin trim top cap.
+10"H
+Big open base option 
+provides a larger open base 
+aesthetic for the panel. The 
+opening is about 10"H.
+When the big open 
+base option is speci-
+fied, big open base skins 
+must be used.
+When big open base is 
+used, power is available 
+only at 20"H or higher.
+Spanning top caps can 
+only be used in an in-line 
+condition. They cannot span 
+over a corner junction.
+Spanning top caps can 
+be used on any panel height.
+In-line spanning top cap 
+lightseals should be speci-
+À ed separately for each in-line 
+panel joint the top cap spans.
+Omit base trim option 
+should be selected when 
+using skins to the Á oor.
+Base trims are available 
+with or without knockouts.  
+Base trims with knockouts 
+accommodate power and 
+communication terminations.  
+Open base trims are 
+available. They do not 
+accommodate power and 
+data routing or entry in the 
+base. Open base trim can 
+only be added on a junction 
+manufactured on or after 
+October 10, 2011.
+Top caps are available in 
+three styles - thin, square, 
+and oval. This section cov-
+ers Thin trims. Horizontal 
+frame packages should be 
+specified with Thin trim. 
+Thin, square, and oval top 
+caps can not be mixed 
+between adjacent panels.
+Tip: Change-of-height 
+top cap option is only 
+needed when using in-line 
+change-of-height.
+Omit top cap option 
+is available and should be 
+selected when adding a 
+frameless glass screen to 
+the top of the panel, when 
+spanning a single top cap 
+across multiple panels, or 
+when adding a Universal or 
+Sarto screen to the top of 
+the panel.
+Spanning top caps are 
+available for Thin trims.
+When spanning a sin-
+gle top cap across 
+multiple panels, select 
+the omit top cap option and 
+specify a spanning top cap 
+separately. Top cap width 
+must match total width of 
+spanned panels.
+Product Details
+scale 70
+Top cap
+Horizontal
+bars
+Base
+covers
+Horizontal frame pack-
+ages are available when 
+you want to build up your 
+own panel. The package 
+includes all the components 
+of a panel except the skins 
+so you can order the skins 
+separately to mix combina-
+tions of skin surface materi-
+als and colors. These frame 
+packages do not include 
+vertical junctions. Options 
+for big open base and open 
+base are available. Cable 
+trays and base cable trays 
+are optional.
+Horizontal
+bars
+Two horizontal con-
+necting bars must be 
+used in each base panel.
+Horizontal bars deter-
+mine panel width. They are 
+not dedicated to a specific 
+panel height; any horizontal 
+bar can be used or reused 
+with any junction height.
+Top horizontal bar may 
+be lowered to allow for a 
+12"H, 18"H, or 24"H glass 
+window or consolidation point 
+kit to be placed at the top of 
+the panel. Bot tom horizon-
+tal bar in base panel must 
+remain in lowest position.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

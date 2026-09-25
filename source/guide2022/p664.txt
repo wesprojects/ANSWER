@@ -1,0 +1,145 @@
+664 
+Answer Solutions SpeciÀ cation Guide
+Universal Steel Storage
+Universal In the Case Bins with Steel, Laminate, or Wood Flat Fronts, continued
+cSpeciw cation Information, continued from previous page 
+Speciwcation Information
+DDimensions 
+ 
+DNumber 
+DStyle 
+DU.S. 
+dD 
+W 
+H 
+dof Doors 
+dNumber 
+dBase 
+d 
+ 
+ 
+d 
+d 
+dPrice 
+d 
+ 
+ 
+d 
+d 
+d 
+Bins with Laminate Flat Fronts
+153¼4" 
+24" 
+161¼4" 
+1 
+RBB24LTAK 
+$1370
+153¼4" 
+30" 
+161¼4" 
+1 
+RBB30LTAK 
+$1405
+153¼4" 
+36" 
+161¼4" 
+1 
+RBB36LTAK 
+$1448
+153¼4" 
+42" 
+161¼4" 
+1 
+RBB42LTAK 
+$1482
+153¼4" 
+48" 
+161¼4" 
+1 
+RBB48LTAK 
+$1514
+153¼4" 
+60" 
+161¼4" 
+2 
+RBB60LTAK 
+$2532
+153¼4" 
+66" 
+161¼4" 
+2 
+RBB66LTAK 
+$2612
+153¼4" 
+72" 
+161¼4" 
+2 
+RBB72LTAK 
+$2673
+d 
+ 
+ 
+d 
+d 
+d
+Bins with Wood Flat Fronts
+153¼4" 
+24" 
+161¼4" 
+1 
+RBB24WTAK 
+$1410 
+153¼4" 
+30" 
+161¼4" 
+1 
+RBB30WTAK 
+$1445 
+153¼4" 
+36" 
+161¼4" 
+1 
+RBB36WTAK 
+$1488 
+153¼4" 
+42" 
+161¼4" 
+1 
+RBB42WTAK 
+$1522 
+153¼4" 
+48" 
+161¼4" 
+1 
+RBB48WTAK 
+$1554 
+153¼4" 
+60" 
+161¼4" 
+2 
+RBB60WTAK 
+$2572 
+153¼4" 
+66" 
+161¼4" 
+2 
+RBB66WTAK 
+$2652 
+153¼4" 
+72" 
+161¼4" 
+2 
+RBB72WTAK 
+$2713 
+d 
+ 
+ 
+d 
+d 
+d 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steelcase 
+June 2022

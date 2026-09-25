@@ -1,0 +1,186 @@
+650 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+Required Selections
+ Pulls
+Jazz
+Handle
+Contemporary
+c:scape
+Bar
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+• Paint price group 1  
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$ 60  
+ 
+ Specify paint color number.
+  
+• Paint price group 3  
++$102  
+ 
+ Specify paint color number.
+  
+• Laminate price group 1 on 
+Prices at right 
+ 
+ Specify laminate color number.
+  
+ proud laminate drawer fronts
+  
+• Laminate price group 2 on 
+See information at left 
+ Specify laminate color number.
+  
+ proud laminate drawer fronts
+  
+• Laminate price group 3 on 
+See information at left 
+ Specify laminate color number.
+  
+ proud laminate drawer fronts
+  
+• Open Line laminate on proud 
++$ 94  
+ 
+c See Surface Materials Reference Manual.
+  
+ laminate drawer fronts 
+plus cost of laminate
+  
+• Wood group 2 on proud  
+See information at left 
+ Specify wood color number.
+  
+ wood drawer fronts
+  
+• Wood group 3  on proud 
+See information at left 
+ Specify wood color number.
+  
+ wood drawer fronts
+  
+• Customiz stain on proud 
+No cost  
+ 
+ Specify with Customiz stain.
+  
+ wood drawer fronts 
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+ Pulls  
+ Flush steel fronts
+  
+• Full-width wood veneer pull 
++$358  
+ 
+ Specify with wood pull and indicate
+  
+  
+ 
+ 
+ 
+ wood color number.
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+  
+ veneer pull 
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+ Proud steel, laminate, or wood fronts 
+  
+• Contemporary 
+No cost  
+ 
+ Specify with contemporary pull.
+  
+• Handle  
+No cost  
+ 
+ Specify with handle pull.
+  
+• Jazz 
++$  26 per pull  
+ Specify with jazz pull.
+  
+• Bar 
++$  39 per pull  
+ Specify with bar pull.
+  
+ Proud steel fronts only
+  
+• c:scape 
++$  44 per pull  
+ Specify with c:scape pull.
+ Drawer 
+ Rails
+ Accessories 
+• Two side-to-side hanging 
+No cost  
+ 
+ Specify with rails.
+  
+ rails per À le drawer
+cOptions, continued on next page
+For wood group 2, wood 
+group 3, laminate price 
+group 2, and laminate 
+price group 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+c Need help?
+Product details,
+page 314
+Universal Steel Storage
+Universal Fixed Pedestals
+with Flush Steel, Proud Steel, Proud Laminate, or Proud Wood Fronts
+• Pedestal: paint price group 1
+• Removable drawer fronts: paint to match pedestal, 
+laminate price group 1 if proud laminate front selected, or 
+wood group 1 veneer if proud wood front selected
+• Integral pulls on units with Á ush steel fronts
+• Pulls: metal
+• Full drawer interiors: black only
+–  One pencil tray and two box drawer dividers per box/
+box/À le 
+• Lock, keyed random: 9201 Polished Chrome
+• Mounting hardware
+• Four adjustable leveling glides
+1 Style number with appropriate front style 
+sufÀ x in the space provided
+F  Flush steel front
+P Proud steel front
+L  Proud laminate front
+W Proud wood front
+2 Paint color number for pedestal 
+3 Laminate color number for drawer fronts, 
+if proud laminate front selected
+4 Wood color number for drawer fronts,
+if proud wood front selected
+5 Pull (see below under Required 
+Selections)
+6 Metal color number for pulls, if proud 
+steel or proud wood front selected
+7 Options, if selected (see below)
+c See Surface Materials, page 724.
+Steelcase 
+June 2022

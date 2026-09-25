@@ -1,0 +1,104 @@
+14 
+Answer Solutions SpeciÀ cation Guide
+L Return Single-Sided Boundary Screens
+W
+Single-Sided
+Return
+W
+H
+Single-Sided Screens (Primary Screens)
+ 
+27"W 
+33"W 
+39"W 
+45"W 
+51"W 
+57"W 
+63"W 
+69"W 
+75"W
+30"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+36"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+42"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+48"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+54"H 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+Return Screens
+ 
+18"W 
+24"W 
+30"W
+30"H 
+• 
+• 
+•
+36"H 
+• 
+• 
+•
+42"H 
+• 
+• 
+•
+48"H 
+• 
+• 
+•
+54"H 
+• 
+• 
+•
+Tip: L return single-sided boundary screens are available in both single-connect and dual-connect.
+Tip: Primary and return screens may be speciÀ ed with equal or unequal widths. 
+ Understanding
+cPage 80
+ Specifying
+c Pages 416 and 422
+Panels—Thin Trim
+Statement of Line, continued
+Steelcase 
+June 2022

@@ -39,7 +39,7 @@ const ck = (name, ok, info) => { console.log((ok ? 'PASS ' : 'FAIL ') + name + (
     ck('end handle found', hx !== null);
     await pg.mouse.click(...(await S(hx, 48))); await pg.waitForTimeout(120); let ps = await panels(); ck('click on ⊕ adds one panel straight on', ps.length === 3 && ps.some(p => p.x1 === 96 && p.x2 === 144 && p.y2 === 48), JSON.stringify(ps.map(p => [p.x1, p.x2, p.y2])));
     await pg.click('#bUndo'); await pg.waitForTimeout(100);
-    // corner geometry (p15, p24): the end becomes an L, so the 48" panel it ends now reaches 48" + 1 1/2" to it (the corner moves 1 1/2" out, the first
+    // corner geometry (p21, p30): the end becomes an L, so the 48" panel it ends now reaches 48" + 1 1/2" to it (the corner moves 1 1/2" out, the first
     // junctions stay put) and the new 48" leg runs 48" + 1 1/2" from it
     await drag(hx, 48, 96, 0); ps = await panels(); ck('drag from ⊕ turns an L corner', ps.length === 3 && ps.some(p => p.x1 === 97.5 && p.x2 === 97.5 && p.y1 === 48 && p.y2 === -1.5), JSON.stringify(ps.map(p => [p.x1, p.y1, p.x2, p.y2])));
     const J = await pg.evaluate(() => { const P = window.answerDebug.P(); const R = window.ANSWER.generate(P); return Object.values(R.nodes).map(j => j.type).join(); }); ck('corner is an L junction', /L/.test(J), J);
@@ -55,7 +55,7 @@ const ck = (name, ok, info) => { console.log((ok ? 'PASS ' : 'FAIL ') + name + (
   { const { pg, drag, click, panels, toastText, width } = await open(); await width('48');
     for (const [a, c] of [[[0, 48], [48, 48]], [[48, 48], [48, 96]], [[48, 96], [0, 96]], [[0, 96], [0, 48]]]) { await pg.keyboard.press('d'); await drag(...a, ...c); }
     await pg.keyboard.press('v'); await click(24, 48); await pg.click('#pW button[data-w="60"]'); await pg.waitForTimeout(120);
-    // corner geometry (p15, p24): all four junctions are L corners, so each 48" side runs 48" + 1 1/2" + 1 1/2" = 51" node to node
+    // corner geometry (p21, p30): all four junctions are L corners, so each 48" side runs 48" + 1 1/2" + 1 1/2" = 51" node to node
     const ps = await panels(); ck('loop panel width change refused', ps.length === 4 && ps.every(p => p.w === 48 && Math.abs(Math.hypot(p.x2 - p.x1, p.y2 - p.y1) - 51) < .01) && /closes a loop/.test(await toastText()), await toastText());
     await pg.close(); }
 

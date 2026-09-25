@@ -1,0 +1,221 @@
+Panels—Thin Trim 
+ 
+Answer Boundary Screens
+Answer Solutions SpeciÀ cation Guide 
+cAnswer Boundary Screens, continued  425
+cSpeciw cation Information, continued from previous page
+Panels—Thin Trim
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d251¼2"W 
+d311¼2"W 
+d371¼2"W 
+d431¼2"W 
+d491¼2"W 
+d551¼2"W 
+d611¼2"W 
+d671¼2"W 
+d731¼2"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d251¼2"W –  d311¼2"W –  d371¼2"W – d431¼2"W –  d491¼2"W –  d551¼2"W –  d611¼2"W – d671¼2"W –  
+d731¼2"W
+d 
+d 
+dWidth 
+d317¼16"W 
+d377¼16"W 
+d437¼16"W d497¼16"W 
+d557¼16"W 
+d617¼16"W 
+d677¼16"W d737¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+Split
+Return
+W
+H
+L Return Dual-Connect Boundary Screens—Split
+High-Pressure Laminate — Primary Screen
+TS7DCLSPT 
+30"H 
+ 
+$395 
+$475 
+$553 
+$632 
+$712 
+$790 
+$ɚɚ870 
+$ɚɚ950 
+$1029
+ 
+36"H 
+ 
+$409 
+$494 
+$579 
+$666 
+$750 
+$837 
+$ɚɚ924 
+$1008 
+$1093
+ 
+42"H 
+ 
+$422 
+$514 
+$606 
+$699 
+$790 
+$883 
+$ɚɚ977 
+$1066 
+$1160
+ 
+48"H 
+ 
+$435 
+$534 
+$632 
+$731 
+$831 
+$930 
+$1029 
+$1126 
+$1225
+ 
+54"H 
+ 
+$449 
+$553 
+$659 
+$764 
+$870 
+$977 
+$1082 
+$1186 
+$1292
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular 
+d18"W 
+d24"W 
+d30"W
+d
+d
+dWidth 
+d
+d
+d
+d 
+d 
+dParametric 
+d18"W –  
+d24"W –  
+d30"W
+d 
+d 
+dWidth 
+d2315¼16"W d2915¼16"W d
+d
+d
+d 
+d
+d
+d
+High-Pressure Laminate — Return Screen
+TS7DCLSPT 
+30"H 
+ 
++$317 
++$395 
++$475
+ 
+36"H 
+ 
++$322 
++$409 
++$494
+ 
+42"H 
+ 
++$329 
++$422 
++$514
+ 
+48"H 
+ 
++$335 
++$435 
++$534
+ 
+54"H 
+ 
++$343 
++$449 
++$553
+d
+d
+d 
+d
+d
+d
+Tip: When specifying a split L 
+return boundary screen, 
+primary and return screen 
+widths (four total) need to be 
+speciÀ ed. The À nal price will 
+include the price of all four 
+individual screen segments.
+cSpeciw cation Information, continued on next page
+Steelcase 
+June 2022

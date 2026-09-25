@@ -1,0 +1,22 @@
+218 
+Answer Solutions SpeciÀ cation Guide
+Universal Systems Worksurfaces
+Worksurface Support Guidelines, continued
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Support Requirements for Peninsula Worksurfaces
+Cantilever
+591/2"W
+or less
+ 
+Reinforcing
+channel
+60"W
+or more
+Peninsula worksurfaces smaller than 60"W do not require a reinforcing channel. Location of leg or column support, determined by pilot holes, meets 
+the requirements for worksurface support every 54". Sizes 60"W or greater require a reinforcing channel. Determining brace size for peninsula worksurfaces: 
+If worksurface is supported by a single column or legs, subtract 21" from span of worksurface to determine reinforcing channel size.
+Example: 72"W measured span has a span deduction of 21" for a reinforcing channel size of 51" (72"–21" = 51"). For this application, use reinforcing channel 
+TS7WKSPT51.
+Steelcase 
+June 2022

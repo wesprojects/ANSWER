@@ -1,0 +1,125 @@
+Panels—Thin Trim
+Statement of Line
+6 
+Answer Solutions SpeciÀ cation Guide
+Base Junctions—Thin Trim
+ 
+In-Line Base 
+L-Base 
+T-Base 
+X-Base 
+End-of-Run  
+V-Base 
+Y-Base 
+Wall-Start
+ 
+Junctions 
+Junctions 
+Junctions 
+Junctions 
+Base Junctions 
+Junctions 
+Junctions 
+Junctions
+30" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+36" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+42" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+48" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+54" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+66" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+78" 
+• 
+• 
+• 
+• 
+• 
+• 
+• 
+•
+ Understanding
+c Page 24
+ Specifying
+c Pages 357–370
+Change-of-Height Junctions—Thin Trim
+In-Line Change- L Change- 
+T Change- 
+X Change- 
+V Change- 
+Y Change-
+of-Height 
+of-Height 
+of-Height 
+of-Height 
+of-Height 
+of-Height
+Junction 
+Junction 
+Junction 
+Junction 
+Junction 
+Junction
+• 
+ 
+• 
+• 
+• 
+• 
+•
+Note: Accommodates most panel heights and combinations. 
+cSee Change-of-Height Visual Overview—Thin Trim, page 26.
+Tip: Answer to c:scape junctions are also available to connect Answer panels and c:scape beams.
+cSee page 389
+ Understanding
+c Page 20
+ Specifying
+c Pages 352–356
+Steelcase 
+June 2022

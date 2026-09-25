@@ -1,0 +1,149 @@
+636 
+Answer Solutions Specification Guide
+Universal Tables
+Hex Conference Tables
+High-Pressure Laminate
+ 
+Standard Includes 
+ Required to Specify
+• Tables: High-Pressure Laminate price group 1
+• Laminate table: plastic 3 mm edge profile 
+on all sides
+• Reinforcing channels, for tables 120"W or wider
+• Tight-joint fasteners for tables 150"W or wider
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate tables
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate 
+  
+ 
+ Related 
+• Bases for Universal Tables 
+ 
+ 
+ 
+c Page 637
+ Products 
+Speciwcation Information
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+DDimensions DStyle 
+DPlastic 
+ 
+dA 
+B 
+C 
+dNumber 
+d3 mm  
+d 
+ 
+ 
+d 
+dEdge  
+d 
+ 
+ 
+d 
+d 
+d
+
+
+d
+dNo Sufw x
+30" 36" 60" 
+BHEX3660 
+$ɚɚ915
+30" 36" 66" 
+BHEX3666 
+$ɚɚ971 
+30" 36" 72" 
+BHEX3672 
+$1036 
+36" 42" 96" 
+BHEX4296 
+$1771 
+38" 48" 120" 
+BHEX48120 
+$4278 
+38" 48" 150" 
+BHEX48150 
+$6248
+38" 48" 180" 
+BHEX48180 
+$6497
+d 
+ 
+ 
+d 
+d
+1 Style number 
+2 High-Pressure Laminate color number 
+for table
+3 Plastic color number for edge on
+laminate table
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 280
+C
+B
+A
+Tip: Hex conference tables 
+150"W or larger are shipped 
+in two pieces. Tight-joint 
+fasteners are supplied for 
+proper assembly.
+For laminate price 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Bases to support 
+Universal Tables must be 
+specified separately.
+Tip: For leg and support
+guidelines, see Table and 
+Base Combinations, 
+cPage 286
+Tip: To specify 3 mm edge 
+profile, no suffix is required.
+Steelcase 
+June 2022

@@ -1,0 +1,83 @@
+404 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Two support brackets for centered mounted applications,
+if selected: paint price group 1 
+• Two support brackets for aisleway applications, for use 
+with 30"W to 48" storage units, if selected: paint price 
+group 1
+• Three support brackets for aisle way applications, for use 
+with 54"W to 72"W storage units, if selected: paint price 
+group 1
+Panels—Thin Trim 
+Top Cap Mount Storage—Brackets
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Top cap mounted stor-
+age can only be used with 
+thin trim panels.
+Tip: Brackets will be visible 
+on the bottom of the storage 
+unit. They can be painted 
+to match the panel trim or 
+storage unit.
+Tip: Center mounted appli-
+cations can accept storage 
+units up to 25"D.
+Tip: Aisleway applications 
+can accept storage units 
+up to 17"D.
+Tip: Top caps and storage 
+to complete the solution are 
+speciÀ ed separately.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+Materials 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+Speciwcation Information 
+DStyle
+DU.S.
+dNumber 
+dBase
+d 
+dPrice
+d 
+d
+Center Mounted Applications
+TS7CMB2 
+$435
+d 
+d
+Aisleway Applications
+For Use with 30"W to 48"W Storage Units
+TS7CMBA2 
+$435
+For Use with 54" to 72"W Storage Units
+TS7CMBA3 
+$602
+d 
+d
+1 Style number
+2 Paint color number for bracket
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 74
+Steelcase 
+June 2022

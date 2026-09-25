@@ -1,0 +1,128 @@
+Answer Solutions SpeciÀ cation Guide 
+511
+Shared Components and Wiring and Cabling
+ 
+Glass Windows
+cSpeciw cation Information, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components
+Speciwcation Information
+
+12"H 
+ 
+18"H 
+ 
+24"H
+ 
+ 
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase  
+dNumber 
+dBase  
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Double Pane
+24" 
+TS71224DPW G10/22 
+$ɚɚ773 
+TS71824DPW G10/22 
+$ɚɚ916 
+TS72424DPW G10/22 
+$1069
+30" 
+TS71230DPW G10/22 
+$ɚɚ821 
+TS71830DPW G10/22 
+$ɚɚ970 
+TS72430DPW G10/22 
+$1121
+36" 
+TS71236DPW G10/22 
+$ɚɚ874 
+TS71836DPW G10/22 
+$1022 
+TS72436DPW G10/22 
+$1176
+42" 
+TS71242DPW G10/22 
+$ɚɚ920 
+TS71842DPW G10/22 
+$1076 
+TS72442DPW G10/22 
+$1234
+48" 
+TS71248DPW G10/22 
+$ɚɚ973 
+TS71848DPW G10/22 
+$1147 
+TS72448DPW G10/22 
+$1331
+60" 
+TS71260DPW G10/22 
+$1102 
+TS71860DPW G10/22 
+$1280 
+TS72460DPW G10/22 
+$1464
+72" 
+TS71272DPW G10/22 
+$1220 
+TS71872DPW G10/22 
+$1435 
+TS72472DPW G10/22 
+$1655
+78" 
+TS71278DPW G10/22 
+$1391 
+ 
+84" 
+TS71284DPW G10/22 
+$1526 
+ 
+90" 
+TS71290DPW G10/22 
+$1656 
+ 
+96" 
+TS71296DPW G10/22 
+$1792 
+ 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+G10/22 = Last order entry
+October 16, 2022
+Steelcase 
+June 2022

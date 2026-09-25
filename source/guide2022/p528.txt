@@ -1,0 +1,71 @@
+528 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Non-PVC straight/Á ush junction box faceplate
+1 Style number
+2 Power schematic 
+3 Options, if selected (see below)
+Junction Box Faceplate–Modular
+Options 
+U.S. Price 
+ Required to Specify
+Power 
+• 3+1 
+No cost 
+ Specify with 3+1.
+Schematics 
+• 2+2 
+No cost 
+ Specify with 2+2.
+ 
+• 3SN 
+No cost 
+ Specify with 3SN.
+Faceplate 
+• 90° junction box faceplate 
++$56 
+ Specify with 90° faceplate.
+PVC 
+• PVC junction box  
+–$11 
+ Specify with PVC.
+ 
+ faceplate
+90°
+Straight/
+Flush
+Tip: 90° is an option.
+Tip: Modular junction box 
+faceplate connects to a cus-
+tomer supplied 411¼16" x 411¼16" 
+square deep junction box.
+Speciwcation Information
+DStyle
+
+DU.S.
+dNumber  
+dBase
+d
+
+dPrice
+d
+
+d
+CQVM 
+$98
+d 
+ 
+d
+
+c Need help?
+Product details,
+page 191
+Steelcase 
+June 2022

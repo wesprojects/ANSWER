@@ -1,0 +1,230 @@
+592 
+Answer Solutions Specification Guide
+• Legs and intermediate support: paint
+• Attachment hardware
+Universal Systems Worksurfaces
+FrameOne Legs and Supports for Universal Worksurfaces
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ For legs
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color.
+ 
+• Paint price group 2 
++$26 per leg 
+ Specify paint color.
+ 
+• Paint price group 3 
++$47 per leg 
+ Specify paint color.
+ 
+ For intermediate support
+ 
+• Paint price group 1 
+No cost 
+ Specify paint color.
+ 
+• Paint price group 2 
++$17 per leg 
+ Specify paint color.
+ 
+• Paint price group 3 
++$30 per leg 
+ Specify paint color.
+Intermediate 
+ For laminate or wood storage tops
+Support bracing • No brace 
+No cost 
+ Specify with no brace.
+ 
+ For steel storage tops
+ 
+• One brace (30", 36", or 42"W) 
++$71 
+ Specify with one brace.
+ 
+• Two braces (30", 36", or 42"W) +$71 
+ Specify with two braces.
+Speciwcation Information
+DPlanning DDepth DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+dHeight 
+d 
+dNumber 
+dBase dNumber 
+dBase dNumber dBase 
+dNumber dBase
+d 
+d 
+d 
+dPrice d 
+dPrice d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Closed Loop
+ 
+  
+Panel  
+ 
+Panel 
+ 
+Tethered 
+Table  
+ 
+ 
+Supporting 
+ 
+Supporting 
+ 
+Application 
+Application
+ 
+ 
+Left-Hand 
+ 
+Right-Hand 
+ 
+ 
+ 
+ 
+281¼2" 
+24" 
+UFC24LHANS 
+$823  
+UFC24RHANS 
+$823  
+UFC24 
+$823  
+UFC24T 
+$895 
+281¼2" 
+30" 
+UFC30LHANS 
+$823  
+UFC30RHANS 
+$823  
+UFC30 
+$823  
+UFC30T 
+$895 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Open Loop
+281¼2" 
+24" 
+UFQ24LHANS 
+$600  
+UFQ24RHANS 
+$600  
+UFQ24 
+$600  
+UFQ24T 
+$672 
+281¼2" 
+30" 
+UFQ30LHANS 
+$600  
+UFQ30RHANS 
+$600  
+UFQ30 
+$600  
+UFQ30T 
+$672 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Half Loop
+281¼2" 
+24" 
+UFH24LHANS 
+$522  
+UFH24RHANS 
+$522  
+281¼2" 
+30" 
+UFH30LHANS 
+$522  
+UFH30RHANS 
+$522  
+d 
+d 
+d 
+d 
+d 
+d 
+Post Leg
+281¼2" 
+ 
+UFP 
+$236 
+d 
+d 
+d 
+d 
+Intermediate Support
+For Use with One-High Universal Storage
+281¼2" 
+16" 
+UFS1610H 
+$364 
+d 
+d 
+d 
+d 
+For Use with 1.5-High Universal Storage 
+281¼2" 
+16" 
+UFS1615H 
+$334 
+d 
+d 
+d 
+d 
+ 
+1 Style number
+2 Paint color number for legs and support
+3 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 240
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

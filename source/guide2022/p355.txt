@@ -1,0 +1,153 @@
+Panels—Thin Trim 
+End-of-Run Base Panel Junctions—Thin Trim
+Answer Solutions SpeciÀ cation Guide 
+355
+End-of-Run Base Panel 
+Junctions—Thin Trim
+Standard Includes 
+ Required to Specify
+• Junction
+• Trim on end-of-run junction: paint price group 1 or 
+wood group 1
+• Aligner
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Panels—Thin Trim
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Trim
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+ 
+• Omit trim 
+Prices below 
+ Specify with omit trim.
+Speciwcation Information
+DCorresponding 
+DStyle 
+DU.S. 
+DOption
+dPanel
+ 
+dNumber 
+dBase 
+d(Add $ to
+dHeight 
+d
+dPrice 
+dBase Price)
+d
+
+d
+d 
+d
+d
+
+d
+d 
+dOmit Trim
+Painted Trim
+30" 
+TS730TEPJ 
+$142 
+ï$ɚɚ75
+36" 
+TS736TEPJ 
+$142 
+ï$ɚɚ75
+42" 
+TS742TEPJ 
+$142 
+ï$ɚɚ75
+48" 
+TS748TEPJ 
+$142 
+ï$ɚɚ75
+54" 
+TS754TEPJ 
+$142 
+ï$ɚɚ75
+66" 
+TS766TEPJ 
+$142 
+ï$ɚɚ75
+78" 
+TS778TEPJ 
+$201 
+ï$ɚɚ97
+d
+
+d
+d 
+d
+Wood Trim
+30" 
+TS730TEPJW 
+$439 
+ï$326
+36" 
+TS736TEPJW 
+$439 
+ï$326
+42" 
+TS742TEPJW 
+$439 
+ï$326
+48" 
+TS748TEPJW 
+$439 
+ï$326
+54" 
+TS754TEPJW 
+$439 
+ï$326
+66" 
+TS766TEPJW 
+$439 
+ï$326
+78" 
+TS778TEPJW 
+$576 
+ï$408
+d
+
+d
+d 
+d
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 20
+Tip: End-of-run trim adds 1/2" 
+to footprint.
+Tip: Omit trim option is used 
+when stacking on base 
+panel junctions. Vertical trim 
+should be speciÀ ed sepa-
+rately to span the full height 
+of the base panel junction 
+plus the stacking junction.
+Steelcase 
+June 2022

@@ -22,7 +22,7 @@ const path = require('path');
   // #1 U 6×8 back wall: the second 24"D worksurface cannot butt the first and still land on a junction, so the menu refuses it (no fake seam)
   await fresh(); await typical('U workstation 6×8'); { const ps = await panels(); const inside = await pg.evaluate(([a]) => { const P = window.answerDebug.P(); return window.ANSWER.sideNormal(P, P.panels[a], 0)[1] < 0 ? 0 : 1; }, [ps[0]]);
     await menu(await panelPt(ps[0], inside), ['Add worksurface', '24"D']); await menu(await panelPt(ps[1], inside), ['Add worksurface', '24"D']); const t = await toast(); const s = await state();
-    // corner geometry (p15, p24, p209): each back-wall panel's module starts 1 1/2" out from its L corner, at the side panel's face, so a 48"W worksurface
+    // corner geometry (p21, p30, p225): each back-wall panel's module starts 1 1/2" out from its L corner, at the side panel's face, so a 48"W worksurface
     // fits on each back-wall panel wrapped by the side, and the two butt at the center junction (before, modules started on the corner node and the
     // second one could not both butt the first and land on a junction, so the menu refused it). Still: no errors, no fake seams, supports on junctions.
     ck('#1 U back wall: both 48"W worksurfaces fit and butt at the center junction, no errors, no fake seams', /worksurface added/.test(t) && s.ws.length === 2 && s.ws.every(w => w.width === 48) && !s.err.length && s.ws.every(w => w.seams.length === 1 && w.seams.every(x => x.gap <= 0.01) && Object.values(w.sup).every(x => !x.junction || x.d <= 1.6)), JSON.stringify([t, s]));
@@ -53,14 +53,14 @@ const path = require('path');
     await pg.mouse.click(...(await pedPt(wid, 'lo')), { button: 'right' }); await pg.waitForTimeout(150); await pg.keyboard.press('Escape'); await pg.mouse.click(box.x + 5, box.y + 5);
     await menu(await pedPt(wid, 'lo'), ['Front', 'Proud steel']); await pg.mouse.click(...(await wsPt(wid))); await pg.waitForTimeout(300);
     await pg.selectOption('[data-pedpull]', 'c:scape'); await pg.waitForTimeout(300); const cols = await pg.$$eval('[data-pedcolor] option', o => o.map(x => x.value)); const spec = await pg.evaluate(() => window.ANSWER.generate(window.answerDebug.P()).lines.find(l => /^RPF/.test(l.style)).spec);
-    ck('#7 c:scape pull colors are the paints 4140/4144/4799 (p274)', cols.join() === '4140,4144,4799' && /pull paint 4140/.test(spec), cols.join() + ' | ' + spec);
+    ck('#7 c:scape pull colors are the paints 4140/4144/4799 (p316)', cols.join() === '4140,4144,4799' && /pull paint 4140/.test(spec), cols.join() + ' | ' + spec);
     // #3: a 24"W worksurface cannot take two pedestals
     await menu(await wsPt(wid), ['Delete worksurface']); await menu(await panelPt(ps[2], 0), ['Width', '24"']); const ps2 = await panels(); await menu(await panelPt(ps2[2], 0), ['Add worksurface', '24"D']); s = await state(); const w24 = s.ws.find(w => w.width === 24);
     await menu(await wsPt(w24.id), ['Add pedestal', 'Fixed pedestal, box/box/file', 'Left end']); const sideR = await pg.evaluate((id) => { const w = window.answerDebug.P().worksurfaces[id]; return w.side === 0 ? 0.9 : 0.1; }, w24.id); await menu(await wsPt(w24.id, sideR), ['Add pedestal', 'Fixed pedestal, box/box/file', 'Right end']); s = await state();
     ck('#3 second pedestal under a 24"W worksurface refused', s.ws.find(w => w.id === w24.id).peds.length === 1 && /Not changed: .*pedestals .* overlap/.test(await toast()) && !s.err.length, JSON.stringify([await toast(), s.err])); }
-  // #9 36"D (35 1/2") straights are freestanding only (p508 tip): the panel menu does not offer them
+  // #9 36"D (35 1/2") straights are freestanding only (p539 tip): the panel menu does not offer them
   await fresh(); await typical('Benching divider'); { const ps = await panels(); await menu(await panelPt(ps[0], 0), ['Width', '72"']); const ps2 = await panels(); const items = await menuItems(await panelPt(ps2[0], 0), ['Add worksurface']); await pg.keyboard.press('Escape');
-    ck('#9 no 36"D worksurface on the panel menu (freestanding only, p508)', items.length >= 3 && !items.some(t => /36"D/.test(t)) && items.some(t => /30"D/.test(t)), JSON.stringify(items)); }
+    ck('#9 no 36"D worksurface on the panel menu (freestanding only, p539)', items.length >= 3 && !items.some(t => /36"D/.test(t)) && items.some(t => /30"D/.test(t)), JSON.stringify(items)); }
   // #12 straight-to-straight L: 24"W first return panel, full-depth back worksurface, the return placed against its front edge
   await fresh(); await typical('L workstation 6×6'); { let ps = await panels(); await menu(await panelPt(ps[2], 0), ['Width', '24"']); ps = await panels();
     const sides = await pg.evaluate(([a, r]) => { const P = window.answerDebug.P(); const E = window.ANSWER; return [E.sideNormal(P, P.panels[a], 0)[1] < 0 ? 0 : 1, E.sideNormal(P, P.panels[r], 0)[0] > 0 ? 0 : 1]; }, [ps[0], ps[3]]);

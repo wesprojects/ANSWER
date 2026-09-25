@@ -1,0 +1,303 @@
+578 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Visitor and Linking Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallop on back edge of visitor worksurfaces
+36"W and wider
+Speciwcation Information 
+ 
+U.S. Base Prices 
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate Wood 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions DStyle 
+DPlastic 
+DPlastic 
+DWood 
+DOption 
+ 
+DDimensions 
+DStyle 
+DPlastic
+dA 
+B 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+d(Add $ to 
+ 
+dA 
+B 
+dNumber 
+d3 mm
+d 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price)  
+d 
+ 
+d 
+dEdge
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+d 
+d
+d 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d 
+d 
+d 
+d 
+dFinish on 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d 
+d 
+d 
+d 
+dWood 
+ 
+d 
+ 
+d 
+d 
+d 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1 
+ 
+d 
+ 
+d 
+dNo Sufw x
+A
+B
+  
+ 
+ 
+ 
+ 
+ 
+A
+B
+ 
+Visitor Worksurfaces With 1|2" Cord Drop  
+ 
+ 
+With Full Depth 
+Left-Hand Worksurfaces  
+ 
+ 
+ 
+ 
+Left-Hand Worksurfaces
+231¼2" 
+24" 
+UVC2424L $555 
+$630 
+$1468 
++$50 
+ 
+24" 
+24" 
+WVC2424L 
+$555
+231¼2" 
+30" 
+UVC2430L $596 
+$671 
+N.A. 
+N.A. 
+ 
+24" 
+30" 
+WVC2430L 
+$596
+231¼2" 
+36" 
+UVC2436L $638 
+$713 
+N.A. 
+N.A. 
+231¼2" 
+42" 
+UVC2442L $678 
+$753 
+N.A. 
+N.A.
+231¼2" 
+48" 
+UVC2448L $713 
+$788 
+N.A. 
+N.A.
+291¼2" 
+30" 
+UVC3030L $613 
+$688 
+$1548 
++$50 
+ 
+30" 
+30" 
+WVC3030L 
+$613
+d 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+d 
+d
+cSpecification Information, continued on next page
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c See edge proÀ les at right.
+2 High-Pressure Laminate or wood color 
+number for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Tip: Supports for freestand-
+ing and panel-mounted 
+applications must be speci-
+À ed separately.
+Tip: Visitor and linking work-
+surfaces are recommended 
+for use with other curved-
+front shapes such as corner, 
+curved-front worksurfaces.
+cPage 563
+For wood and laminate 
+group 2 and 3 pricing, 
+please refer to the electronic 
+catalog or SmartTools.
+Tip: Scallops are available 
+only on visitor worksurfaces 
+36"W and wider.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number. 
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below and at right  Specify full-À ll À nish number.
+ Scallop 
+• Omit scallop 
+No cost  
+ 
+ Specify omit scallop.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

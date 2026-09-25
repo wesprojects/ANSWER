@@ -1,0 +1,340 @@
+Speciwcation Information
+ 
+U.S. Base Prices 
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate Wood 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic 
+ 
+DWood 
+DOption  
+DDimensions 
+DStyle 
+DPlastic
+dA 
+B 
+C 
+D 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+d(Add $ to  
+dA 
+B 
+C D dNumber 
+d3 mm
+d 
+ 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+dBase Price) 
+d 
+ 
+ 
+ 
+d 
+dEdge
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on  
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dWood 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1 
+ 
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x
+A
+D
+C
+B
+ 
+ 
+ 
+ 
+ 
+ 
+Left-Hand With 1|2" Cord Drop 
+ 
+ 
+ 
+ 
+Left-Hand With Full Depth
+30" 
+231¼2" 651¼2" 48" 
+UJC3268L 
+$1137 
+$1289 
+$2050 
++$104 
+ 
+30" 
+24" 
+66" 48" WJ326648L $1137
+30" 
+231¼2" 711¼2" 48" 
+UJC3228L 
+$1176 
+$1328 
+$2316 
++$109 
+ 
+30" 
+24" 
+72" 48" WJ327248L $1176
+30" 
+231¼2" 771¼2" 48" 
+UJC3288L 
+$1216 
+$1368 
+$2398 
++$115 
+ 
+30" 
+24" 
+78" 48" WJ327848L $1216
+30" 
+291¼2" 651¼2" 48" 
+UJC3368L 
+$1175 
+$1327 
+$2088 
++$104 
+ 
+30" 
+30" 
+66" 48" WJ336648L $1175
+30" 
+291¼2" 711¼2" 48" 
+UJC3328L 
+$1216 
+$1368 
+$2356 
++$109 
+ 
+30" 
+30" 
+72" 48" WJ337248L $1216
+30" 
+291¼2" 771¼2" 48" 
+UJC3388L 
+$1257 
+$1409 
+$2439 
++$115 
+ 
+30" 
+30" 
+78" 48" WJ337848L $1257
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+B
+C
+A
+D
+  
+ 
+ 
+ 
+ 
+ 
+Right-Hand With 1|2" Cord Drop 
+ 
+ 
+ 
+ 
+Right-Hand With Full Depth
+231¼2" 30" 
+48" 
+651¼2" UJC2386R $1137 
+$1289 
+$2050 
++$104 
+ 
+24" 
+30" 
+48" 66" WJ234866R $1137
+231¼2" 30" 
+48" 
+711¼2" UJC2382R $1176 
+$1328 
+$2316 
++$109 
+ 
+24" 
+30" 
+48" 72" WJ234872R $1176
+231¼2" 30" 
+48" 
+771¼2" UJC2388R $1216 
+$1368 
+$2398 
++$115 
+ 
+24" 
+30" 
+48" 78" WJ234878R $1216
+291¼2" 30" 
+48" 
+651¼2" UJC3386R $1175 
+$1327 
+$2088 
++$104 
+ 
+30" 
+30" 
+48" 66" WJ334866R $1175
+291¼2" 30" 
+48" 
+711¼2" UJC3382R $1216 
+$1368 
+$2356 
++$109 
+ 
+30" 
+30" 
+48" 72" WJ334872R $1216
+291¼2" 30" 
+48" 
+771¼2" UJC3388R $1257 
+$1409 
+$2439 
++$115 
+ 
+30" 
+30" 
+48" 78" WJ334878R $1257
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style num-
+ber. (For example, UJC3268L 
+becomes UJC3268LSW 
+for wood with square edge 
+profile.)
+Answer Solutions Specification Guide 
+575
+Universal Systems Worksurfaces
+ 
+ 
+Jetty Worksurfaces
+Universal Systems 
+Worksurfaces
+Steelcase 
+June 2022

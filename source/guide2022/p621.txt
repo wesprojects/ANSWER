@@ -1,0 +1,38 @@
+Specifying
+Universal Tables
+Answer Solutions Specification Guide 
+621
+Universal Tables
+Tables
+Straight Tables 
+622
+Transition Tables 
+624
+Corner, 120° Tables 
+626
+Capsule Tables 
+627
+Spanner Tables 
+628
+Peninsula Table 
+629
+Tapered Peninsula Tables 
+630
+Bubble Jetty Tables 
+631
+Round Tables 
+632
+Square Tables 
+633
+Rectangle Tables 
+634
+Oval Tables 
+635
+Hex Conference Tables 
+636
+Bases for Universal Tables 
+637
+Legs for Universal Tables 
+638
+Steelcase 
+June 2022

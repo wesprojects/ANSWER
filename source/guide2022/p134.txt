@@ -1,0 +1,70 @@
+134 
+Answer Solutions SpeciÀ cation Guide
+Laminate skins consist 
+of a laminate surface cap-
+tured by a painted metal 
+trim border on all sides.
+Laminate skins 
+are non-tackable.
+Skins can be 
+removed and 
+repositioned.
+Actual Dimensions
+Width 
+2353¼64", 2953¼64", 3553¼64", 4153¼64", and 4753¼64"
+Height 
+127¼32", 183¼8", 2437¼64", 303¼4", 3615¼16", 431¼8", 4919¼64", and 6121¼32"
+Standard Size
+Height to the 
+2827¼64", 345¼8", 4025¼32", 47", 539¼64", and 651¼2"
+Floor Size 
+Connections
+Skins extend onto junction 
+and meet skin of adjacent 
+panel. The slotted channel 
+of the junction is accessible 
+between these two skins. 
+Skins are available in stan-
+dard heights and to the Á oor 
+heights.
+Standard heights are 
+not dedicated to a speciÀ c 
+location.
+Skins sized to go to the 
+y oor extend to the bottom of 
+the panel. They can be used 
+on one or both sides of the 
+panel. They can only be used 
+in the bottom position. 
+Tip: Omit base trim option 
+should be selected on the 
+panel frame when using a 
+skin to the Á oor. 
+Individual laminate skins 
+are available for use in monolithic 
+applications or in combination 
+with other types of skins on the 
+same frame.
+Shared Components
+Laminate Skins
+Laminate skins attach to frames 
+to finish the appearance of a panel 
+and can be used in combination 
+with any other skin type.
+c Specifying, page 486
+Tip: When specifying skins, the 
+total skin height will be 6" less than 
+the panel height. For example if 
+the panel is 54"H the total skin 
+height will be 48"H. Skins to the 
+floor are indicated by an F suffix. 
+Plan 6" shorter than panel height, 
+but are taller in actual height to 
+cover the base trim area.
+c See Panel Buildups, page 18, 
+for more information.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

@@ -1,0 +1,130 @@
+532 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+Multipurpose Power Infeeds
+Standard Includes 
+ Required to Specify
+• Multipurpose power infeed with modular connector
+• Insulated color-coded wires for hardwired connection 
+to building power source
+ Style number
+Tip: Utility poles must 
+be speciÀ ed separately. 
+c Page 447
+Speciwcation Information
+ 
+Non-PVC
+DLength 
+DStyle 
+DU.S. 
+ 
+DLength 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice  
+d
+dNumber 
+dPrice
+d 
+d 
+d
+
+d
+d 
+d
+4-Circuit, 3+1 Wiring Schematic 
+4-Circuit, 3+1 Wiring Schematic
+6' 
+TS76UPHX 
+$361 
+6' 
+TS76UPHXN 
+$361
+12' 
+TS712UPHX 
+$464 
+12' 
+TS712UPHXN 
+$479
+24' 
+TS724UPHX 
+$674 
+24' 
+TS724UPHXN 
+$693
+ d 
+d 
+d
+
+d
+d 
+d
+4-Circuit, 2+2 Wiring Schematic 
+4-Circuit, 2+2 Wiring Schematic
+6' 
+TS76UPHY 
+$361 
+6' 
+TS76UPHYN 
+$361
+12' 
+TS712UPHY 
+$464 
+12' 
+TS712UPHYN 
+$479
+24' 
+TS724UPHY 
+$674 
+24' 
+TS724UPHYN 
+$693
+ d 
+d 
+d
+
+d
+d 
+d
+3-Circuit, Separate Neutrals (3SN)  
+3-Circuit, Separate Neutrals (3SN)
+Wiring Schematic 
+ 
+Wiring Schematic
+6' 
+TS76UPHZ 
+$361 
+6' 
+TS76UPHZN 
+$361
+12' 
+TS712UPHZ 
+$464 
+12' 
+TS712UPHZN 
+$479
+24' 
+TS724UPHZ 
+$674 
+24' 
+TS724UPHZN 
+$693
+ d 
+d 
+d
+
+d
+d 
+d
+cNeed help?
+Product details,
+page 190
+Steelcase 
+June 2022

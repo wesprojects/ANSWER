@@ -1,0 +1,28 @@
+304 
+Answer Solutions SpeciÀ cation Guide
+Counterweights 
+Counterweight Requirements for Storage Products, continued
+Requirements for c:scape Tethered Applications  
+c:scape stability guidelines must be met prior to determining counterweight requirements. 
+c
+See c:scape Stability Guidelines in the c:scape SpeciÀ cation Guide.
+Counterweights are required as shown in the product speciÀ cation pages unless any of the following conditions are met:
+  
+6' or 
+longer
+ 
+1. Counterweights are not required for 1.5-High lateral À le and low storage 48"W 
+or smaller tethered to a c:scape beam when the beam width is 6' or larger.
+  
+2. Counterweights are not required for 1.5-High lateral À le and low storage 
+tethered to a c:scape beam when the beam has mid storage mounted parallel 
+and the beam length is equal to or greater than the combined low storage width.
+  
+3. Counterweights are not required for 1.5-High lateral À le or low storage 
+tethered to a c:scape beam when the storage is the same size and mirrored 
+back-to-back on both sides of the beam.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

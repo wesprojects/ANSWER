@@ -1,0 +1,191 @@
+512 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Single-Pane Glass Window Kits for Use with Custom Glass 
+For Panel Buildups 
+ 
+Standard Includes 
+ Required to Specify
+• Frame: paint
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$32 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$54 
+ 
+ 
+ Specify paint color number.
+Speciwcation Information
+
+12"H 
+18"H 
+24"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase  
+dNumber 
+dBase  
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Single Pane
+24" 
+TS71224SCW 
+$ɚɚ464 
+TS71824SCW 
+$ɚɚ545 
+TS72424SCW 
+$ɚɚ622
+30" 
+TS71230SCW 
+$ɚɚ501 
+TS71830SCW 
+$ɚɚ578 
+TS72430SCW 
+$ɚɚ657
+36" 
+TS71236SCW 
+$ɚɚ532 
+TS71836SCW 
+$ɚɚ616 
+TS72436SCW 
+$ɚɚ698
+42" 
+TS71242SCW 
+$ɚɚ570 
+TS71842SCW 
+$ɚɚ655 
+TS72442SCW 
+$ɚɚ739
+48" 
+TS71248SCW 
+$ɚɚ602 
+TS71848SCW 
+$ɚɚ703 
+TS72448SCW 
+$ɚɚ803
+60" 
+TS71260SCW 
+$ɚɚ706 
+TS71860SCW 
+$ɚɚ801 
+TS72460SCW 
+$ɚɚ894
+72" 
+TS71272SCW 
+$ɚɚ791 
+TS71872SCW 
+$ɚɚ908 
+TS72472SCW 
+$1020
+78" 
+TS71278SCW 
+$ɚɚ893 
+TS71878SCW 
+$1008 
+TS72478SCW 
+$1125
+84" 
+TS71284SCW 
+$ɚɚ982 
+TS71884SCW 
+$1100 
+TS72484SCW 
+$1224
+90" 
+TS71290SCW 
+$1067 
+TS71890SCW 
+$1196 
+TS72490SCW 
+$1323
+96" 
+TS71296SCW 
+$1154 
+TS71896SCW 
+$1291 
+TS72496SCW 
+$1426
+d 
+d 
+d 
+d 
+d 
+d 
+d
+1 Style number
+2 Paint color number for frame 
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 140
+Tip: Custom glass must be 
+ordered separately.
+c See page 141 for the 
+dimensions of custom 
+inserts.
+Tip: Glass window kits are 
+available for single pane 
+only.
+Tip: Remember to specify 
+spanning window in-line 
+supports if window is 
+spanning two or more 
+panels.
+Tip: When specifying a 
+window to span over two 
+or more panels, it is recom-
+mended that the same size 
+spanning top cap also be 
+speciÀ ed for use with the 
+window.
+Tip: When ordering a 72"W 
+or wider single pane win-
+dow kit to be used with 
+steel or fabric skins located 
+directly below it, two clips 
+(T521328SR) should be 
+ordered and installed on the 
+top edge of the skins. 
+Steelcase 
+June 2022

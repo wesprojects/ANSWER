@@ -1,0 +1,74 @@
+Shared Components and Wiring and Cabling
+Spanning Window In-Line Support and 
+In-Line Spanning Top Cap Lightseal 
+ 
+ 
+Answer Solutions SpeciÀ cation Guide 
+513
+Spanning Window In-Line 
+Support and In-Line 
+Spanning Top Cap Lightseal
+Standard Includes 
+ Required to Specify
+• Spanning window in-line support: black
+ Style number
+Tip: Spanning window in-line 
+support is needed when 
+spanning a single window 
+across two or more panels. 
+Specify one support for each 
+in-line junction window spans.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+In-Line Spanning Top Cap Lightseal
+Standard Includes 
+ 
+Required to Specify
+• ln-line top cap lightseal: black
+ Style number
+Tip: These lightseals are 
+only needed when spanning 
+two or more panels with a 
+single top cap or frameless 
+glass screen.
+Spanning Window In-Line Support
+Shared Components
+Speciwcation Information
+DStyle 
+DQuantity DU.S.
+dNumber 
+d 
+dPrice
+d 
+d
+d
+TS7STLS1 
+  1 
+$ɚɚ23
+TS7STLS10 
+10 
+$230
+d 
+d
+d
+cNeed help?
+Product details,
+page 111
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+TS7SWS 
+$66
+d 
+d
+cNeed help?
+Product details,
+page 141
+Steelcase 
+June 2022

@@ -1,0 +1,247 @@
+576 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Bubble Jetty Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+Tip: Supports for freestanding 
+and panel-mounted appli-
+cations must be specified 
+separately.
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+For wood and lami-
+nate group 2 and 3 
+pricing, please refer to 
+the electronic catalog or 
+SmartTools.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c See edge proÀ les below.
+2 High-Pressure Laminate color number
+for worksurface
+3 Plastic color number for front edge
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number. 
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Columns 
+ 
+ 
+ 
+c Page 596
+  
+• Worksurface power and communication components 
+c Page 611
+Speciwcation Information
+ 
+U.S. Base Prices
+ 
+High-Pressure Laminate 
+Wood
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic 
+DWood 
+d(Add $ to 
+dA 
+B 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+dBase Price)
+d 
+ 
+d 
+dEdge 
+d 
+dEdge 
+d
+d 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill
+d 
+ 
+d 
+d 
+d 
+d 
+dFinish on
+d 
+ 
+d 
+d 
+d 
+d 
+dWood
+d 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1
+Left-Hand With 1/2" Cord Drop 
+231¼2" 30" 
+UJBC2430L 
+$1068 
+$1220 
+$1981 
++$54
+231¼2" 36" 
+UJBC2436L 
+$1133 
+$1285 
+$2046 
++$57
+231¼2" 42" 
+UJBC2442L 
+$1201 
+$1353 
+$2114 
++$72
+231¼2" 48" 
+UJBC2448L 
+$1266 
+$1418 
+$2179 
++$72
+d 
+d 
+d 
+d 
+d 
+d
+Right-Hand With 1/2" Cord Drop 
+231¼2" 30" 
+UJBC2430R 
+$1068 
+$1220 
+$1981 
++$54
+231¼2" 36" 
+UJBC2436R 
+$1133 
+$1285 
+$2046 
++$57
+231¼2" 42" 
+UJBC2442R 
+$1201 
+$1353 
+$2114 
++$72
+231¼2" 48" 
+UJBC2448R 
+$1266 
+$1418 
+$2179 
++$72
+d 
+d 
+d 
+d 
+d 
+d
+Tip: To specify 3 mm edge
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style num-
+ber. (For example, UJBC2430L 
+becomes UJBC2430LSW for 
+wood with square edge
+profile.)
+A
+B
+A
+B
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

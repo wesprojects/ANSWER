@@ -1,4 +1,4 @@
-// Corner junction geometry through the interface (p15 block-and-post, p24 46 1/2" frame, p209 butted worksurfaces, p521 corner sizes):
+// Corner junction geometry through the interface (p21 block-and-post, p30 46 1/2" frame, p225 butted worksurfaces, p563 corner sizes):
 // draw a run, drag a corner out of its end handle, add a corner worksurface and straights from the right-click menu; no errors, the seams butt,
 // and the plan and elevation measure each leg as 48" + the 1 1/2" corner allowance.
 // Run from the repo root: NODE_PATH=$(npm root -g) node test/corner.js
@@ -27,7 +27,7 @@ const near = (a, b, t) => Math.abs(a - b) <= (t === undefined ? 0.01 : t);
   const corner = Object.keys(s.types).find(id => s.types[id] === 'L');
   ck('the drag from the end handle turned an L corner with two 48" panels', s.panels.length === 4 && !!corner, JSON.stringify(s.types));
   const legs = s.panels.filter(p => p.a === corner || p.b === corner), far = (p) => p.a === corner ? p.b : p.a;
-  ck('plan: each leg is 48" + 1 1/2" corner allowance = 49 1/2" from the corner node to the next junction (p15, p24)', legs.length === 2 && legs.every(p => near(dist(s.nodes, corner, far(p)), 49.5)), JSON.stringify(legs.map(p => dist(s.nodes, corner, far(p)))));
+  ck('plan: each leg is 48" + 1 1/2" corner allowance = 49 1/2" from the corner node to the next junction (p21, p30)', legs.length === 2 && legs.every(p => near(dist(s.nodes, corner, far(p)), 49.5)), JSON.stringify(legs.map(p => dist(s.nodes, corner, far(p)))));
   ck('plan: the panels beyond the in-line junctions stay 48" node to node', s.panels.filter(p => !legs.includes(p)).every(p => near(dist(s.nodes, p.a, p.b), 48)), JSON.stringify(s.nodes));
   // right-click inside the L: add the corner worksurface; then a 24"D straight on the inside of each far panel
   const C = s.nodes[corner], dirs = legs.map(p => { const o = s.nodes[far(p)]; const L = dist(s.nodes, corner, far(p)); return [(o.x - C.x) / L, (o.y - C.y) / L]; });
@@ -46,7 +46,7 @@ const near = (a, b, t) => Math.abs(a - b) <= (t === undefined ? 0.01 : t);
   ck('seams butt: the corner arms and the straights meet on the in-line junctions with no gap', cw && cw.seams.length === 2 && straights.every(w => w.seams.length === 1 && w.seams[0].with === cw.id && w.seams[0].gap < 0.01) && cw.seams.every(x => x.gap < 0.01), JSON.stringify(s.ws.map(w => w.seams)));
   ck('supports sit on junctions', s.ws.every(w => Object.values(w.sup).every(x => !x.junction || x.d < 0.01)), JSON.stringify(s.ws.map(w => w.sup)));
   const geo = await pg.evaluate(() => { const P = window.answerDebug.P(), E = window.ANSWER; const cwz = Object.values(P.worksurfaces).find(w => w.kind === 'corner'); const g = E.wsGeometry(P, cwz); return g.arms.map(a => ({ reach: a.reach, back: Math.hypot(a.end[0] - g.o[0], a.end[1] - g.o[1]) })); });
-  ck('the 48 corner arms run 47 1/2" (cord drop, p521) from the rear corner and end 49 1/2" out, on the junction', geo.every(a => near(a.back, 47.5) && near(a.reach, 49.5)), JSON.stringify(geo));
+  ck('the 48 corner arms run 47 1/2" (cord drop, p563) from the rear corner and end 49 1/2" out, on the junction', geo.every(a => near(a.back, 47.5) && near(a.reach, 49.5)), JSON.stringify(geo));
 
   // the plan drawing: along one leg the corner junction (block and post) reaches 2 1/4" from the node, the skin runs from there to the in-line junction
   await pg.mouse.click(box.x + 20, box.y + box.height - 30); await pg.waitForTimeout(100); // clear the selection

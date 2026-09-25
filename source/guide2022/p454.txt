@@ -1,0 +1,175 @@
+454 
+Answer Solutions SpeciÀ cation Guide
+Panels—Square and Oval Trim
+Stacking Change-of-Height Trims—Square and Oval Trims
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Change-of-height trim: paint price group 1 or wood group 1
+• Stacking trim aligner: black plastic only
+Standard
+change-
+of-height
+trim
+Stacking
+change-
+of-height
+trim
+Standard
+change-
+of-height
+trim
+Stacking
+change-
+of-height
+trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Stacking change-of-
+height trim is only used on 
+the second tier in a change-
+of-height conÀ guration.
+Tip: Change-of-height junc-
+tion cap is not included with 
+stacking change-of-height 
+trim. Use the change-of-
+height junction cap from the 
+standard change-of-height 
+trim you are stacking on.
+Tip: Cable-routing trim 
+provides cable routing 
+capacity.
+Tip: For further information 
+about fabric direction,
+cPage 730.
+Tip: Stacking change-
+of-height trim works with 
+square and oval top trim 
+styles but not with thin 
+top trim style.
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 96
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+ Change-of-height trim
+ Materials 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$15 
+ 
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$31 
+ 
+ 
+ Specify paint color number.
+  
+ For use on steel trim only
+  
+• Fabric price group 1, 2, 3, 
++$73 
+ 
+ 
+ Specify fabric color number for trim.
+  
+ 4, 5, or COM
+  
+• Fabric direction
+  
+ –Horizontal application 
+No cost  
+ 
+ Specify with horizontal application.
+  
+ –(standard)
+  
+ –Vertical application 
+No cost  
+ 
+ Specify with vertical application.
+  
+ Wood change-of-height trim
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+Speciwcation Information
+DCorresponding 
+DStyle 
+DU.S. 
+dPanel 
+dNumber 
+dBase
+dHeight 
+d 
+dPrice
+d 
+d 
+d
+Steel Trim
+Stacking Change-of-Height Trim with Slim Prowle
+12" 
+TS712CHST 
+$ɚɚ87
+18" 
+TS718CHST 
+$ɚɚ97
+24" 
+TS724CHST 
+$100
+Stacking Change-of-Height Trim with Cable Routing Capability
+12" 
+TS712CHT 
+$ɚɚ87
+18" 
+TS718CHT 
+$ɚɚ97
+24" 
+TS724CHT 
+$100
+d 
+d 
+d
+Wood Trim
+Stacking Change-of-Height Trim with Slim Prowle
+12" 
+TS712CHSTW 
+$267
+18" 
+TS718CHSTW 
+$272
+24" 
+TS724CHSTW 
+$282
+Stacking Change-of-Height Trim with Cable Routing Capability
+12" 
+TS712CHTW 
+$267
+18" 
+TS718CHTW 
+$272
+24" 
+TS724CHTW 
+$282
+d 
+d 
+d
+Steelcase 
+June 2022

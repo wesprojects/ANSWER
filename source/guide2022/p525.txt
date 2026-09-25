@@ -1,0 +1,110 @@
+Answer Solutions SpeciÀ cation Guide 
+cWiring and Cabling, continued  525
+ Wiring and Cabling
+Shared Components and Wiring and Cabling
+Receptacles
+For Use with Power Cutouts in Steel Skins
+Shared Components
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Receptacle: plastic
+15 amp
+20 amp
+1 Style number
+2 Plastic color number for receptacle
+3 Wiring schematic (see below under 
+Required Selections)
+4 Line (see below under Required 
+Selections)
+5 Ground type (see below under Required 
+Selections)
+6 Amp type (see below under Required 
+Selections)
+7 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+Required Selections U.S. Price 
+ Required to Specify
+Wiring 
+• 3+1 
+No cost 
+ Specify with 3+1.
+Schematic 
+• 2+2 
+No cost 
+ Specify with 2+2.
+ 
+• 3SN 
+No cost 
+ Specify with 3SN.
+Line 
+• Line 1 
+No cost 
+ Specify with line 1.
+ 
+• Line 2 
+No cost 
+ Specify with line 2.
+ 
+• Line 3 
+No cost 
+ Specify with line 3.
+ 
+• Line 4 
+No cost 
+ Specify with line 4.
+Ground Type 
+• System 
+No cost 
+ Specify with system ground.
+ 
+• Isolated 
+No cost 
+ Specify with isolated ground.
+Amp Type 
+• 15 amp 
+No cost 
+ Specify with 15 amp.
+ 
+• 20 amp 
++$32 
+ Specify with 20 amp.
+Options 
+U.S. Price 
+ Required to Specify
+Controlled 
+• No stamp 
+No cost 
+ Specify with no stamp.
+Stamp 
+• Controlled stamp 
++$ɚɚ5 
+ Specify with controlled stamp.
+Speciwcation Information 
+DStyle 
+DU.S.
+dNumber 
+dBase
+d 
+dPrice
+d 
+d
+TS7RC  
+$58
+ d 
+d
+Tip: Specify when using 
+steel skins with power 
+cutouts.
+Tip: For power access in 
+steel skins with power cut-
+outs, receptacle trim ring 
+is required for each power 
+cutout location speciÀed 
+(ordered separately).
+Steelcase 
+June 2022

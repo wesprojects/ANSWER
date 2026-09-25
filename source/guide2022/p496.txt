@@ -1,0 +1,207 @@
+496 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Wood To The Floor Skin Sets
+ 
+Standard Includes 
+ Required to Specify
+• Skin: wood group 1 veneer
+• Vertical grain direction
+• Trim: paint
+• Attachment hardware
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Wood group 2 
+Prices below and at right 
+ Specify wood color number.
+ Materials 
+• Wood group 3 
+Prices below and at right 
+ Specify wood color number.
+  
+• Customiz stain 
+No cost  
+ 
+ Specify with Customiz stain.
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+ 
+ Grain direction 
+ 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. 
+DOptions  
+ 
+d 
+dNumber 
+dBase 
+d(Add $ to  
+ 
+d
+d
+dPrice dBase Price)
+
+d
+d
+d
+d
+
+d
+d
+d
+dWood
+d
+d
+d
+dWood  dWood
+d
+d
+d
+dGroup 2dGroup 3
+42"H Wood Skin Sets
+Set A = One 12"H Skin and One 24"H Skin
+24" 
+TS74224AWSF 
+$1213 
++$148 
++$516
+30" 
+TS74230AWSF 
+$1292 
++$148 
++$516
+36" 
+TS74236AWSF 
+$1371 
++$204 
++$708
+42" 
+TS74242AWSF 
+$1456 
++$204 
++$708
+48" 
+TS74248AWSF 
+$1541 
++$204 
++$708
+d
+d
+d
+d
+d
+48"H Wood Skin Sets
+Set A = One 12"H Skin and One 30"H Skin
+24" 
+TS74824AWSF 
+$1325 
++$204 
++$708
+30" 
+TS74830AWSF 
+$1404 
++$204 
++$708
+36" 
+TS74836AWSF 
+$1488 
++$204 
++$708
+42" 
+TS74842AWSF 
+$1579 
++$263 
++$917
+48" 
+TS74848AWSF 
+$1687 
++$263 
++$917
+d
+d
+d
+d
+d
+Set B = One 18"H Skin and One 24"H Skin
+24" 
+TS74824BWSF 
+$1325 
++$209 
++$730
+30" 
+TS74830BWSF 
+$1404 
++$209 
++$730
+36" 
+TS74836BWSF 
+$1488 
++$209 
++$730
+42" 
+TS74842BWSF 
+$1579 
++$274 
++$952
+48" 
+TS74848BWSF 
+$1687 
++$274 
++$952
+d
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+12"H
+24"H
+12"H
+30"H
+18"H
+24"H
+Tip: Wood skin sets should 
+be selected when grain 
+pattern alignment of all seg-
+mented skins on a frame 
+is desired.
+Tip: Remember to omit base 
+trim(s) on horizontal frame 
+package when using a skin 
+to the Á oor.
+Tip: When specifying skins, 
+the total skin height will 
+be 6" less than the panel 
+height. Skins to the floor 
+are indicated by an F suffix. 
+Plan 6" shorter than panel 
+height, but skins to the floor 
+are taller in actual height to 
+cover the base trim area.
+c See Panel Buildups, page 
+18, for more information.
+1 Style number
+2 Wood veneer color for skin surface
+3 Paint color number for trim
+4 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 136
+Steelcase 
+June 2022

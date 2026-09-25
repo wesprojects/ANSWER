@@ -1,0 +1,58 @@
+586 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Connectors
+ 
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Standard Includes 
+ Required to Specify
+• Connector: black plastic only
+ Style number
+c Need help?
+Product details,
+page 229
+Speciwcation Information
+DDescription 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice
+d 
+d 
+d
+4-Circuit, 3+1 
+Harness-to-harness 
+BHHCX 
+$ 76
+Branching harness-to-harness 
+GQTUHCX 
+$116
+d 
+d 
+d
+4-Circuit, 2+2 
+Harness-to-harness 
+BHHCY 
+$ 76
+Branching harness-to-harness 
+GQTUHCY 
+$116
+d 
+d 
+d
+3-Circuit, Separate Neutrals 
+Harness-to-harness 
+BHHCZ 
+$ 76
+Branching harness-to-harness 
+GQTUHCZ 
+$116
+d 
+d 
+d
+Steelcase 
+June 2022

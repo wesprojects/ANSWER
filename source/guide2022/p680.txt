@@ -1,0 +1,141 @@
+680 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Steel Storage
+Basic Cushions Enhanced
+For Universal Lateral Files 
+Standard Includes 
+ Required to Specify
+• Enhanced cushion top: fabric price group 1
+• Attachment supplies: hook and loop fastener
+1 Style number
+2 Fabric color number for cushion top
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+c Need help?
+ Product details,
+ page 334
+Tip: Basic cushion enhanced 
+is Àeld-installed and supplies 
+to attach are included.
+Tip: Basic cushion enhanced 
+is constructed with a thin 
+solid base.
+Tip: Basic cushion enhanced 
+is available on Universal later-
+als with a top only.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Upholstery
+Materials 
+• Fabric price group 1 
+No cost 
+ Specify fabric color number.
+ 
+• Fabric price group 2 
++$  11 
+ Specify fabric color number.
+ 
+• Fabric price group 3 
++$  54 
+ Specify fabric color number.
+ 
+• Fabric price group 4 
++$  67 
+ Specify fabric color number.
+ 
+• Fabric price group 5 
++$  84 
+ Specify fabric color number.
+ 
+• Fabric price group 6 
++$118 
+ Specify fabric color number.
+ 
+• Fabric price group 7 
++$141 
+ Specify fabric color number.
+ 
+• Fabric price group 8 
++$205 
+ Specify fabric color number.
+ 
+• Fabric price group 9 
++$262 
+ Specify fabric color number.
+ 
+• Fabric price group 10 
++$319 
+ Specify fabric color number.
+ 
+• Customer’s Own Material (COM) 
++$  21 
+c See Surface Materials Reference Manual.
+Support 
+ For 30"W and 36"W steel Universal laterals with an open conwguration
+Brace 
+• Brace (30"W and 36"W) 
++$ ɚ71 
+ Specify with brace.
+Related  
+• Universal laterals Àles 
+ 
+c Page 672
+Products 
+Speciwcation Information
+DDimensions 
+ 
+DStyle 
+DU.S. 
+dD 
+W 
+H 
+dNumber 
+dBase
+d
+
+
+d
+dPrice
+d
+
+
+d
+d
+18" 
+30" 
+1" 
+RCHE1830 
+$343
+18" 
+36" 
+1" 
+RCHE1836 
+$364
+18" 
+42" 
+1" 
+RCHE1842 
+$385
+231¼8" 
+30" 
+1" 
+RCHE2430 
+$392
+231¼8" 
+36" 
+1" 
+RCHE2436 
+$406
+d
+
+
+d
+d
+Steelcase 
+June 2022

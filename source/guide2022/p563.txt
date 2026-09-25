@@ -1,0 +1,344 @@
+Answer Solutions Specification Guide 
+563
+Universal Systems Worksurfaces
+Corner, Curved-Front Worksurfaces
+High-Pressure Laminate or Wood Veneer
+ 
+Tip: Supports must be spec-
+ified separately, including 
+side support brackets for 
+rear corner support in panel- 
+mounted applications.
+• Worksurface: High-Pressure Laminate price group 1 or 
+wood group 1 veneer
+• Laminate worksurface:
+–Plastic 3 mm edge profile or plastic P-edge profile
+ on front edge
+–Plastic default flat profile on side and back edges
+• Wood worksurface:
+–Wood 3 mm edge profile on front edge
+–Matching veneer flat profile on side and back edges
+• Cable scallops on back edges
+A
+B
+C
+D
+Tip: To specify 3 mm edge 
+profile, no suffix is required. 
+For all other edge profiles, 
+add a suffix to the style 
+number. (For example, 
+UCC114242 becomes 
+UCC114242SW for wood 
+with square edge profile.)
+For wood and lami-
+nate group 2 and 3 
+pricing, please refer to 
+the electronic catalog or 
+SmartTools.
+Corner, Curved-Front 
+Worksurfaces
+Universal Systems 
+Worksurfaces
+Speciwcation Information
+ 
+U.S. Base Prices 
+ 
+U.S. Base Price
+ 
+High-Pressure Laminate  Wood 
+High-Pressure Laminate
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+DOption 
+DDimensions 
+DStyle 
+DPlastic 
+DPlastic 
+ 
+DWood 
+d(Add $ to  
+DDimensions 
+DStyle 
+DPlastic
+dA 
+B 
+C 
+D 
+dNumber 
+d3 mm 
+dP-Edge 
+dSquare 
+dBase Price) 
+dA 
+B 
+C D dNumber 
+d3 mm
+d 
+ 
+ 
+ 
+d 
+dEdge 
+d 
+dEdge 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+dEdge
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dFull-Fill 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dFinish on  
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+dWood 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x dSufw x P 
+dSufw x SW dGroup 1 
+ 
+d 
+ 
+ 
+ 
+d 
+dNo Sufw x
+With 1|2" Cord Drop 
+ 
+ 
+ 
+ 
+ 
+With Full Depth
+183¼8" 183¼8" 351¼2" 351¼2" UCC113636 $ 596 
+N.A. 
+N.A. 
+N.A. 
+ 
+187¼8" 187¼8" 36" 36" WCC113636 $596
+183¼8" 183¼8" 411¼2" 411¼2" UCC114242 $ 634 
+$ 709 
+$1509 
++$73 
+ 
+187¼8" 187¼8" 42" 42" WCC114242 $634
+183¼8" 183¼8" 471¼2" 471¼2" UCC114848 $ 708 
+N.A. 
+N.A. 
+N.A. 
+ 
+187¼8" 187¼8" 48" 48" WCC114848 $708
+183¼8" 231¼2" 411¼2" 411¼2" UCC124242 $ 682 
+$ 757 
+$1557 
++$73 
+ 
+187¼8" 24" 
+42" 42" WCC124242 $682
+231¼2" 183¼8" 411¼2" 411¼2" UCC214242 $ 682 
+$ 757 
+$1557 
++$73 
+ 
+24" 
+187¼8" 42" 42" WCC214242 $682
+231¼2" 231¼2" 351¼2" 351¼2" UCC223636 $ 603 
+$ 678 
+$1478 
++$73 
+ 
+24" 
+24" 
+36" 36" WCC223636 $603
+231¼2" 231¼2" 411¼2" 411¼2" UCC224242 $ 658 
+$ 733 
+$1533 
++$73 
+ 
+24" 
+24" 
+42" 42" WCC224242 $658
+231¼2" 231¼2" 471¼2" 471¼2" UCC224848 $ 731 
+$ 806 
+$1606 
++$78 
+ 
+24" 
+24" 
+48" 48" WCC224848 $731
+231¼2" 231¼2" 591¼2" 591¼2" UCC226060 $1176 
+$1328 
+N.A. 
+N.A. 
+291¼2" 291¼2" 411¼2" 411¼2" UCC334242 $ 712 
+$ 787 
+$1587 
++$74 
+ 
+30" 
+30" 
+42" 42" WCC334242 $712
+291¼2" 291¼2" 471¼2" 471¼2" UCC334848 $ 796 
+$ 871 
+$1671 
++$80 
+ 
+30" 
+30" 
+48" 48" WCC334848 $796
+d 
+ 
+ 
+ 
+d 
+d 
+d 
+d 
+d 
+ 
+d 
+ 
+ 
+ 
+d 
+d
+1 Style number with appropriate edge
+proÀ le sufÀ x
+P  Laminate with plastic P-edge
+SW  Wood with square edge
+c See edge proÀ les below.
+2 High-Pressure Laminate or wood color 
+number for worksurface
+3 Plastic color number for front edge on 
+laminate worksurface, if selected
+4 Options, if selected (see below)
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 222
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+ High-Pressure Laminate worksurfaces
+ Materials 
+• Laminate price group 2 
+See information at left 
+ Specify laminate color number.
+  
+• Laminate price group 3 
+See information at left 
+ Specify laminate color number.
+  
+• Open Line laminate 
++$94 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+  
+plus cost of laminate
+  
+ Wood veneer worksurfaces
+  
+• Wood group 2  
+See information at left 
+ Specify wood color number. 
+  
+• Wood group 3  
+See information at left 
+ Specify wood color number.
+  
+• Customiz stain  
+No cost  
+ 
+ Specify with Customiz stain. 
+  
+  
+ 
+ 
+ 
+c See Surface Materials Reference Manual.
+  
+• Full-À ll À nish on wood group 1 
+Prices below 
+ 
+ Specify full-À ll À nish number.
+ Scallops 
+• Omit scallops 
+No cost  
+ 
+ Specify omit scallops.
+ Related 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588
+ Products 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+  
+• Worksurface screens 
+ 
+ 
+ 
+c Page 609
+  
+• Worksurface power and communication components 
+c Page 611
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

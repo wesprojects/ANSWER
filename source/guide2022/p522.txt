@@ -1,0 +1,214 @@
+522 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Pass-Through Powerkits
+Standard Includes 
+ Required to Specify
+• Powerkit to accommodate modular receptacles
+on both sides: black plastic
+• Supporting powertray: black paint
+• Harness with modular connectors
+ Style number
+Shared Components and Wiring and Cabling
+Wiring and Cabling, continued
+Speciwcation Information
+ 
+Pass-Through Powerkits 
+Non-PVC Pass-Through Powerkits
+DWidth 
+DNumber of Duplex 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+d 
+dReceptacles  
+dNumber 
+dPrice
+dNumber 
+dPrice
+d
+dPer Side
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d
+4-Circuit, 3+1 Wiring Schematic
+18" 
+0 
+TS7PT18X 
+$229 
+TS7PT18XN 
+$242
+24" 
+0 
+TS7PT24X 
+$229 
+TS7PT24XN 
+$242
+30" 
+0 
+TS7PT30X 
+$229 
+TS7PT30XN 
+$242
+36" 
+0 
+TS7PT36X 
+$229 
+TS7PT36XN 
+$242
+42" 
+0 
+TS7PT42X 
+$229 
+TS7PT42XN 
+$242
+48" 
+0 
+TS7PT48X 
+$229 
+TS7PT48XN 
+$242
+60" 
+0 
+TS7PT60X 
+$256 
+TS7PT60XN 
+$271
+72" 
+0 
+TS7PT72X 
+$256 
+TS7PT72XN 
+$271
+ d 
+d 
+d 
+d
+d
+d
+4-Circuit, 2+2 Wiring Schematic
+18" 
+0 
+TS7PT18Y 
+$229 
+TS7PT18YN 
+$242
+24" 
+0 
+TS7PT24Y 
+$229 
+TS7PT24YN 
+$242
+30" 
+0 
+TS7PT30Y 
+$229 
+TS7PT30YN 
+$242
+36" 
+0 
+TS7PT36Y 
+$229 
+TS7PT36YN 
+$242
+42" 
+0 
+TS7PT42Y 
+$229 
+TS7PT42YN 
+$242
+48" 
+0 
+TS7PT48Y 
+$229 
+TS7PT48YN 
+$242
+60" 
+0 
+TS7PT60Y 
+$256 
+TS7PT60YN 
+$271
+72" 
+0 
+TS7PT72Y 
+$256 
+TS7PT72YN 
+$271
+ d 
+d 
+d 
+d
+d
+d
+3-Circuit, Separate Neutrals (3SN) Wiring Schematic
+18" 
+0 
+TS7PT18Z 
+$229 
+TS7PT18ZN 
+$242
+24" 
+0 
+TS7PT24Z 
+$229 
+TS7PT24ZN 
+$242
+30" 
+0 
+TS7PT30Z 
+$229 
+TS7PT30ZN 
+$242
+36" 
+0 
+TS7PT36Z 
+$229 
+TS7PT36ZN 
+$242
+42" 
+0 
+TS7PT42Z 
+$229 
+TS7PT42ZN 
+$242
+48" 
+0 
+TS7PT48Z 
+$229 
+TS7PT48ZN 
+$242
+60" 
+0 
+TS7PT60Z 
+$256 
+TS7PT60ZN 
+$271
+72" 
+0 
+TS7PT72Z 
+$256 
+TS7PT72ZN 
+$271
+ d 
+d 
+d 
+d
+d
+d
+cNeed help?
+Product details,
+page 188
+Steelcase 
+June 2022

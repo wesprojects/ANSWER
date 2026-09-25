@@ -1,0 +1,217 @@
+606 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Worksurface Screens 
+Sarto Privacy Screens
+Standard Includes 
+ Required to Specify
+• Screen: fabric price group 1
+• Brackets and hard stops: 7360 Merle
+Required Selections U.S. Price 
+ Required to Specify
+Size Option 
+• Modular 
+ 
+No cost 
+ Specify with modular.
+ 
+• Parametric  
+No cost 
+ Specify with parametric.
+Width 
+ Modular 
+Parametric
+ 
+• 24"W 
+24"W 
+Prices at right 
+ Specify width.
+ 
+• 29"W 
+N.A. 
+Prices at right 
+ Specify width.
+ 
+• 30"W 
+241¼16"W–30"W 
+Prices at right 
+ Specify width.
+ 
+• 36"W 
+301¼16"W–36"W 
+Prices at right 
+ Specify width.
+ 
+• 42"W 
+361¼16"W–42"W 
+Prices at right 
+ Specify width.
+ 
+• 46"W 
+N.A. 
+Prices at right 
+ Specify width.
+ 
+• 48"W 
+421¼16"W–48"W 
+Prices at right 
+ Specify width.
+ 
+• 54"W 
+481¼16"W–54"W 
+Prices at right 
+ Specify width.
+ 
+• 58"W 
+N.A. 
+Prices at right 
+ Specify width.
+ 
+• 60"W 
+541¼16"W–60"W 
+Prices at right 
+ Specify width.
+ 
+• 66"W 
+601¼16"W–66"W 
+Prices at right 
+ Specify width.
+ 
+• 70"W 
+N.A. 
+Prices at right 
+ Specify width.
+ 
+• 72"W 
+661¼16"W–72"W 
+Prices at right 
+ Specify width.
+ 
+• 78"W 
+721¼16"W–78"W 
+Prices at right 
+ Specify width.
+ 
+• 84"W 
+781¼16"W–84"W 
+Prices at right 
+ Specify width.
+ 
+• 90"W 
+841¼16"W–90"W 
+Prices at right 
+ Specify width.
+ 
+• 96"W 
+901¼16"W–96"W 
+Prices at right 
+ Specify width. 
+Height 
+ Modular 
+Parametric
+ 
+• 131¼2"H 
+131¼2"H 
+Prices at right 
+ Specify height.
+ 
+• 191¼2"H 
+14"H–191¼2"H 
+Prices at right 
+ Specify height.
+ 
+• 231¼2"H 
+20"H–24"H 
+Prices at right 
+ Specify height.
+ 
+• N.A. 
+241¼2"H–30"H 
+Prices at right 
+ Specify height.
+ 
+• 351¼2"H 
+301¼2"H–351¼2"H 
+Prices at right 
+ Specify height.
+Screen Type 
+• Rear screen  
+No cost 
+ Specify with rear screen.
+ 
+• Side screen  
+No cost 
+ Specify with side screen.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Fabric price group 2 
++$ɚɚ45 
+ Specify fabric color number.
+Materials 
+• Fabric price group 3 
++$121 
+ Specify fabric color number.
+ 
+• Fabric price group 4 
++$151 
+ Specify fabric color number.
+ 
+• Fabric price group 5 
++$186 
+ Specify fabric color number.
+ 
+• Fabric price group 6 
++$217 
+ Specify fabric color number.
+ 
+• Fabric price group 7 
++$251 
+ Specify fabric color number.
+ 
+• Fabric price group 8 
++$282 
+ Specify fabric color number.
+ 
+• Fabric price group 9 
++$315 
+ Specify fabric color number.
+ 
+• Fabric price group 10 
++$347 
+ Specify fabric color number.
+ 
+• Customer’s Own Material 
++$ɚɚ21 
+c
+See Surface Materials Reference Manual.
+ 
+ (COM)
+Tip: Side screen option 
+changes brackets to offset 
+bayonet brackets maintaining 
+adequate side to side pinch 
+points. Side screen option 
+is only available on screens 
+36"W and narrower.
+1 Style number
+2 Size option (see below under Required 
+Selections)
+3 Width (see below under Required 
+Selections)
+4 Height (see below under Required 
+Selections)
+5 Screen type (see below under Required 
+Selections)
+6 Fabric color number for screen
+7 Options, if selected (see below)
+cSee Surface Materials, page 724.
+c Need help?
+Product details,
+page 268
+Steelcase 
+June 2022

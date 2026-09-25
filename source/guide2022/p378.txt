@@ -1,0 +1,122 @@
+378 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim
+Utility Packages
+ 
+Ceiling-Access Lay-In Utility Packages—Thin Trim
+Standard Includes 
+ Required to Specify
+• Utility carrier and cover, one top cap, and two standard
+base trims: paint price group 1
+• Two lay-in horizontal connecting bars: black paint only
+• Ceiling attachment hardware
+• Junction cap for end-of-run applications: paint
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+1 Style number
+2 Paint color number for utility carrier and 
+cover, top cap, base trim, and junction cap
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 176
+Tip: Order multipurpose 
+power infeed separately.
+c Page 532
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+ Materials 
+• Paint price group 2 
++$  15  
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  31  
+ 
+ Specify paint color number.
+  
+ Top cap
+  
+• Wood group 1 
++$254  
+ 
+ Specify with wood top cap and select
+  
+  
+ 
+ 
+ 
+ wood color number.
+  
+• Customiz stain on wood 
+No cost  
+ 
+ Specify with Customiz stain.
+ Change- 
+• Change-of-height at 
++$    6  
+ 
+ Specify with change-of-height,
+ of-Height 
+ one end of top cap, slim  
+ 
+ 
+ 
+ one end slim.
+ Top Cap 
+• Change-of-height at 
++$    6  
+ 
+ Specify with change-of-height, 
+  
+ one end of top cap, cable 
+ 
+ 
+ 
+ one end cable management.
+  
+ management
+ Base Cable Tray • Base cable tray 
++$    5  
+ 
+ Specify with base cable tray.
+Speciwcation Information
+DWidth 
+DStyle 
+DU.S. 
+d 
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+d 
+d 
+30" 
+TS730TSUC 
+$1129 
+36" 
+TS736TSUC 
+$1193 
+42" 
+TS742TSUC 
+$1302 
+48" 
+TS748TSUC 
+$1420 
+d
+d
+d
+Steelcase 
+June 2022

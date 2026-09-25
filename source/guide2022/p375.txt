@@ -1,0 +1,133 @@
+Panels—Thin Trim
+Stacking Junctions 
+ 
+ 
+Standard Includes 
+ Required to Specify
+• Junction
+• Fork connectors
+ Style number
+Stacking In-Line Panel Junctions–Thin Trim
+Stacking End-of-Run Panel Junctions–Thin Trim
+Stacking Wall-Start Junctions
+Standard Includes 
+ Required to Specify
+• Junction
+• Fork connector
+ Style number
+Standard Includes 
+ Required to Specify
+• Junction
+• Fork connector
+ Style number
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Speciwcation Information
+DHeight 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice
+d 
+d 
+d
+6" 
+TS76WPJS 
+$446
+12" 
+TS712WPJS 
+$446
+18" 
+TS718WPJS 
+$446
+24" 
+TS724WPJS 
+$446
+d
+d
+d
+cNeed help?
+Product details,
+page 32
+Speciwcation Information
+DHeight 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice
+d
+d 
+d
+6" 
+TS76TEPJS 
+$222
+12" 
+TS712TEPJS 
+$222
+18" 
+TS718TEPJS 
+$222
+24" 
+TS724TEPJS 
+$222
+36" 
+TS736TEPJS 
+$222
+d
+d 
+d
+cNeed help?
+Product details,
+page 32
+Tip: Stacking end-of-run 
+junctions do not include trim. 
+Trim is speciÀ ed separately 
+to span entire height of 
+base junction plus stacking 
+junction.
+Tip: 36" stacker is only used 
+in build your own change-of-
+height applications. It should 
+never be used as an end-of-
+run stacking junction.
+cNeed help?
+Product details,
+page 32
+Tip: Stacking in-line junc-
+tions do not require junction 
+cap and trim.
+Speciwcation Information
+DHeight 
+DStyle 
+DU.S.
+d 
+dNumber 
+dPrice
+d 
+d 
+d
+6" 
+TS76IPJS 
+$163
+12" 
+TS712IPJS 
+$163
+18" 
+TS718IPJS 
+$163
+24" 
+TS724IPJS 
+$163
+d
+d
+d
+Answer Solutions SpeciÀ cation Guide 
+ 375
+Stacking Junctions
+Panels—Thin Trim
+Steelcase 
+June 2022

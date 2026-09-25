@@ -1,0 +1,199 @@
+510 
+Answer Solutions SpeciÀ cation Guide
+Shared Components and Wiring and Cabling
+Glass Windows 
+For Panel Buildups
+Standard Includes 
+ Required to Specify
+• Single-pane glass window, if selected: 6500 Clear Glass
+• Double-pane glass window, if selected: 6530 Frosted Glass
+• Frame: paint
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Remember to specify 
+spanning window in-line 
+supports if window is span-
+ning two or more panels.
+Tip: When specifying a win-
+dow span over two or more 
+panels, it is recommended 
+that the same size spanning 
+top cap also be speciÀ ed for 
+use with the window.
+Tip: When ordering a 72"W 
+or wider single pane win-
+dow kit to be used with 
+steel or fabric skins located 
+directly below it, two clips 
+(T521328SR) should be 
+ordered and installed.
+1 Style number
+2 Paint color number for frame
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 140
+Options 
+U.S. Price 
+ Required to Specify
+ Surface  
+ Frame
+ Materials 
+• Paint price group 1 
+No cost  
+ 
+ Specify paint color number.
+  
+• Paint price group 2 
++$  32  
+ 
+ Specify paint color number.
+  
+• Paint price group 3 
++$  54  
+ 
+ Specify paint color number.
+  
+ Single-pane glass window
+  
+• Frosted glass in 12"H window 
++$  78  
+ 
+ Specify with 6530 Frosted Glass.
+  
+• Frosted glass in 18"H window 
++$118  
+ 
+ Specify with 6530 Frosted Glass.
+  
+• Frosted glass in 24"H window 
++$154  
+ 
+ Specify with 6530 Frosted Glass.
+Speciwcation Information
+
+12"H 
+18"H 
+24"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase  
+dNumber 
+dBase  
+dNumber 
+dBase 
+d 
+d 
+dPrice 
+d 
+dPrice 
+d 
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Single Pane
+24" 
+TS71224SPW 
+$ɚɚ596 
+TS71824SPW 
+$ɚɚ698 
+TS72424SPW 
+$ɚɚ796
+30" 
+TS71230SPW 
+$ɚɚ638 
+TS71830SPW 
+$ɚɚ745 
+TS72430SPW 
+$ɚɚ842
+36" 
+TS71236SPW 
+$ɚɚ688 
+TS71836SPW 
+$ɚɚ790 
+TS72436SPW 
+$ɚɚ894
+42" 
+TS71242SPW 
+$ɚɚ735 
+TS71842SPW 
+$ɚɚ841 
+TS72442SPW 
+$ɚɚ944
+48" 
+TS71248SPW 
+$ɚɚ774 
+TS71848SPW 
+$ɚɚ904 
+TS72448SPW 
+$1035
+60" 
+TS71260SPW 
+$ɚɚ898 
+TS71860SPW 
+$1026 
+TS72460SPW 
+$1153
+72" 
+TS71272SPW 
+$1002 
+TS71872SPW 
+$1156 
+TS72472SPW 
+$1314
+78" 
+TS71278SPW 
+$1145 
+TS71878SPW 
+$1293 
+TS72478SPW 
+$1441
+84" 
+TS71284SPW 
+$1258 
+TS71884SPW 
+$1414 
+TS72484SPW 
+$1570
+90" 
+TS71290SPW 
+$1370 
+TS71890SPW 
+$1532 
+TS72490SPW 
+$1696
+96" 
+TS71296SPW 
+$1478 
+TS71896SPW 
+$1654 
+TS72496SPW 
+$1823
+d 
+d 
+d 
+d 
+d 
+d 
+d
+cSpeciw cation Information, continued on next page
+Steelcase 
+June 2022

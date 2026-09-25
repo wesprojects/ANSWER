@@ -1,0 +1,294 @@
+358 
+Answer Solutions SpeciÀ cation Guide
+Standard Includes 
+ Required to Specify
+• Junction
+• Inside corner light seal
+• Change-of-height trim and junction cap: 
+paint price group 1 or wood group 1
+• Aligner
+Panels—Thin Trim 
+L Change-of-Height Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+A
+B
+Tip: Junction includes:
+• L change-of-height 
+ junction
+• Inside corner light seal
+• L vertical trim
+• End-of-run change-of-
+ height trim
+• Change-of-height junction 
+ cap
+• Aligners
+Tip: Omit trim option omits all 
+vertical and change-of-height 
+trim. This option is used when 
+stacking on base junctions. 
+Vertical and change-of-height 
+trim should be speciÀ ed sep-
+arately to span the full height 
+of the base junction plus the 
+stacking junction.
+Tip: Remember to specify 
+necessary junction cap and 
+aligners if the omit trim option 
+is selected.
+Tip: Change-of-height junc-
+tion ships right-handed. For 
+a left-handed junction a post 
+will need to be moved during 
+installation.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Trim
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+ 
+• Omit trim 
+Prices below 
+ Specify with omit trim.
+Speciwcation Information 
+ 
+ 
+DCorresponding 
+DStyle 
+DU.S. 
+DOption 
+DStyle 
+DU.S. 
+DOption
+dPanel 
+dNumber 
+dBase 
+d(Add $ to 
+dNumber 
+dBase 
+d(Add $ to
+dHeight
+d
+dPrice 
+dBase Price) 
+d
+dPrice 
+dBase Price)
+d 
+
+d
+d 
+d
+d
+d
+d
+dA 
+B
+d
+d 
+d 
+d
+d 
+d
+d
+
+d
+d 
+dOmit Trim
+d
+d 
+dOmit Trim
+ 
+ 
+Painted Trim 
+ 
+Wood Trim
+30" 
+36" 
+TS73QTCLJ 
+$304 
+ï$162 
+TS73QTCLJW 
+$ɚɚ904 
+ï$680
+30" 
+42" 
+TS734TCLJ 
+$304 
+ï$162 
+TS734TCLJW 
+$ɚɚ904 
+ï$680
+30" 
+48" 
+TS738TCLJ 
+$304 
+ï$162 
+TS738TCLJW 
+$ɚɚ904 
+ï$680
+30" 
+54" 
+TS735TCLJ 
+$313 
+ï$162 
+TS735TCLJW 
+$ɚɚ915 
+ï$680
+30" 
+66" 
+TS736TCLJ 
+$336 
+ï$165 
+TS736TCLJW 
+$ɚɚ941 
+ï$684
+36" 
+42" 
+TS7Q4TCLJ 
+$304 
+ï$162 
+TS7Q4TCLJW 
+$ɚɚ904 
+ï$680
+36" 
+48" 
+TS7Q8TCLJ 
+$304 
+ï$162 
+TS7Q8TCLJW 
+$ɚɚ904 
+ï$680
+36" 
+54" 
+TS7Q5TCLJ 
+$313 
+ï$162 
+TS7Q5TCLJW 
+$ɚɚ915 
+ï$680
+36" 
+66" 
+TS7Q6TCLJ 
+$336 
+ï$165 
+TS7Q6TCLJW 
+$ɚɚ941 
+ï$684
+42" 
+48" 
+TS748TCLJ 
+$304 
+ï$162 
+TS748TCLJW 
+$ɚɚ904 
+ï$680
+42" 
+54" 
+TS745TCLJ 
+$304 
+ï$162 
+TS745TCLJW 
+$ɚɚ904 
+ï$680
+42" 
+66" 
+TS746TCLJ 
+$313 
+ï$162 
+TS746TCLJW 
+$ɚɚ915 
+ï$680
+42" 
+78" 
+TS747TCLJ 
+$422 
+ï$165 
+TS747TCLJW 
+$1017 
+ï$684
+48" 
+54" 
+TS785TCLJ 
+$313 
+ï$162 
+TS785TCLJW 
+$ɚɚ915 
+ï$680
+48" 
+66" 
+TS786TCLJ 
+$313 
+ï$162 
+TS786TCLJW 
+$ɚɚ915 
+ï$680
+48" 
+78" 
+TS787TCLJ 
+$417 
+ï$165 
+TS787TCLJW 
+$1017 
+ï$684
+54" 
+66" 
+TS756TCLJ 
+$313 
+ï$162 
+TS756TCLJW 
+$ɚɚ915 
+ï$680
+54" 
+78" 
+TS757TCLJ 
+$417 
+ï$162 
+TS757TCLJW 
+$1017 
+ï$680
+66" 
+78" 
+TS767TCLJ 
+$417 
+ï$162 
+TS767TCLJW 
+$1017 
+ï$680
+d
+
+d
+d 
+d
+d
+d 
+d
+1 Style number
+2 Paint or wood color number for trim and 
+junction cap
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 24
+Steelcase 
+June 2022

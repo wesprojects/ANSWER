@@ -1,0 +1,226 @@
+Panels—Thin Trim 
+ 
+Answer Boundary Screens
+Answer Solutions SpeciÀ cation Guide 
+cAnswer Boundary Screens, continued  413
+Panels—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Speciwcation Information
+DStyle 
+DDimensions 
+DScreen Type 
+DU.S. Base Prices
+dNumber 
+dH 
+dModular  
+d27"W 
+d33"W 
+d39"W 
+d45"W 
+d51"W 
+d57"W 
+d63"W 
+d69" W 
+d75"W
+d
+d
+dWidth 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+d 
+d 
+dParametric 
+d27"W –  
+d33"W –  
+d39"W – 
+d45"W –  
+d51"W –  
+d57"W –  
+d63"W –  
+d69"W –  
+d75"W
+d 
+d 
+dWidth 
+d3215¼16"W d3815¼16"W d4415¼16"W d5015¼16"W d5615¼16"W d6215¼16"W d6815¼16"W d7415¼16"W 
+d
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+W
+H
+Straight Dual-Connect Boundary Screen—Single-Sided
+High-Pressure Laminate
+TS7DCSSD 
+30"H 
+ 
+$ɚɚ395 
+$ɚɚ475 
+$ɚɚ553 
+$ɚɚ632 
+$ɚɚ712 
+$ɚɚ790 
+$ɚɚ870 
+$ɚɚ950 
+$1029
+ 
+36"H 
+ 
+$ɚɚ409 
+$ɚɚ494 
+$ɚɚ579 
+$ɚɚ666 
+$ɚɚ750 
+$ɚɚ837 
+$ɚɚ924 
+$1008 
+$1093
+ 
+42"H 
+ 
+$ɚɚ422 
+$ɚɚ514 
+$ɚɚ606 
+$ɚɚ699 
+$ɚɚ790 
+$ɚɚ883 
+$ɚɚ977 
+$1066 
+$1160
+ 
+48"H 
+ 
+$ɚɚ435 
+$ɚɚ534 
+$ɚɚ632 
+$ɚɚ731 
+$ɚɚ831 
+$ɚɚ930 
+$1029 
+$1126 
+$1225
+ 
+54"H 
+ 
+$ɚɚ449 
+$ɚɚ553 
+$ɚɚ659 
+$ɚɚ764 
+$ɚɚ870 
+$ɚɚ977 
+$1082 
+$1186 
+$1292
+Wood Veneer
+TS7DCSSD 
+30"H 
+ 
+$ɚɚ724 
+$ɚɚ924 
+$1120 
+$1316 
+$1515 
+$1714 
+$1910 
+$2110 
+$2307
+ 
+36"H 
+ 
+$ɚɚ831 
+$1041 
+$1252 
+$1464 
+$1674 
+$1886 
+$2095 
+$2305 
+$2515
+ 
+42"H 
+ 
+$ɚɚ936 
+$1160 
+$1383 
+$1608 
+$1830 
+$2054 
+$2282 
+$2502 
+$2728
+ 
+48"H 
+ 
+$1041 
+$1279 
+$1515 
+$1751 
+$1991 
+$2227 
+$2465 
+$2700 
+$2938
+ 
+54"H 
+ 
+$1148 
+$1395 
+$1647 
+$1898 
+$2148 
+$2399 
+$2650 
+$2899 
+$3149
+d
+d
+d 
+d
+d
+d
+d
+d
+d
+d
+d
+d
+cSpeciw cation Information, continued on next page
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Wood veneer grain direction
+Materials, 
+• No direction 
+No cost 
+ Specify with no direction.
+continued 
+• Horizontal 
+No cost 
+ Specify with horizontal grain direction.
+ 
+• Vertical 
+No cost 
+ Specify with vertical grain direction.
+cOptions, continued from previous page
+Steelcase 
+June 2022

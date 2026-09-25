@@ -1,0 +1,128 @@
+Shared Components
+Answer Solutions SpeciÀ cation Guide 
+cSteel Panel Skins, continued  127
+Shared Components
+Big open base skins 
+are sized to work in con-
+junction with big open base 
+trims, leaving the bottom of 
+the panel open. They must 
+be used on both sides of a 
+panel.
+Tip: Select the big open 
+base option on horizontal 
+frames that are receiving big 
+open base height skins.
+Connections
+Skins extend onto junction 
+and meet skin of adjacent 
+panel. The slotted channel 
+of the junction is accessible 
+between these two skins. 
+Skins are available in stan-
+dard heights, to the floor 
+heights, and a big open base 
+height. Standard height skins 
+are not dedicated to a spe-
+cific location.
+Skins sized to go to the 
+floor extend to the bottom of 
+the panel. They can be used 
+on one or both sides of the 
+panel. They can only be used 
+in the bottom position. 
+Tip: Omit base trim option 
+should be selected on the 
+panel frame when using a 
+skin to the floor.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steel Panel Skins
+Wiring & Cabling
+Power and data can be 
+accessed in 24"H standard 
+base, 24"H to the Á oor, and 
+big open base steel skins by 
+specifying power and data 
+cutouts.
+Steel skins with power 
+and data cutouts are 
+placed in the lowest skin 
+position on the panel and 
+provide power access at 20".
+For power access 
+in steel skins, specify 
+TS7RC receptacles and 
+TS7RCT trim rings for each 
+cutout. 
+Receptacle fillers are 
+available to À ll unused 
+receptacle openings in steel 
+skins. Use TSBRF. 
+Data fillers are available 
+to À ll unused furniture style 
+data openings. Use TS7DF.
+For 24"W and 30"W 
+steel skins, hardwire 
+receptacle cutout option will 
+always have a single cen-
+tered hardwire cutout. 
+For 36"W and wider 
+steel skins, hardwire 
+receptacle cutout option will 
+always come with a left and 
+right hardwire cutout. 
+Data cutouts are avail-
+able in furniture style data 
+cutouts and NEMA data 
+cutouts.
+For USB power access 
+in steel skins, specify 
+TS7USB receptacles and 
+TS7RCT trim rings for each 
+cutout.
+Surface Materials
+Skins
+• Painted steel
+• Ribbed steel (option)
+• Perforated steel (option)
+Application Topics
+Panel buildups
+c Page 18
+Horizontal connecting 
+bars will be visible when 
+perforated skins are used 
+on the panel.
+When specifying the 
+perforated option, order 
+perforated skins for both 
+sides of the panel to maxi-
+mize the visual aesthetic.
+Perforated skins cannot 
+be used in installation with 
+steel or ribbed steel skins 
+made prior to July 10, 2000.
+Big open base skins are 
+19ɧ3¼16"H and are placed on 
+the junctions just above the 
+big open base vertical trim.
+30"H
+Big open base skins are 
+sized to À nish a 30"H panel.
+42"H
+Big open base skins 
+can be added to panels 
+taller than 30"H. Standard 
+sized skins are used to À nish 
+the remaining panel height. 
+For example a 42"H panel 
+with big open base will need 
+a big open base skin and a 
+12"H skin on each side of 
+the panel.
+Steelcase 
+June 2022

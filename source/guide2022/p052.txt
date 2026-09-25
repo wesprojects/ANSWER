@@ -1,0 +1,83 @@
+52 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+Reconw guring with Answer—General Guidelines
+General Junction Guidelines 
+Junctions manufactured before 10/10/11 are purpose built and have speciÀ c features.
+•  Skin clip attachment locations every 12"
+•  Cannot accept 6" technology skin
+•  Cannot accept the open base trim
+•  Large opening for routing power and data is only at worksurface height
+• Corner junctions are purpose built and cannot change conÀ guration from one application to the next
+Junctions manufactured after 10/10/11 are universal corner junctions.
+•  Skin clip attachment locations every 6"
+•  Can accept 6" technology skin
+•  Can accept the open base trim
+•  Large openings for routing power and data are located every 12" inside the panel
+• Corner junctions are considered universal. The junction can easily be transformed from one conÀ guration to another (i.e. turn an L- into a T-junction) 
+Purpose built and universal corner junctions can be used in the same application.
+Junctions Manufactured Before and After 10/10/11
+In-line junctions can be used with Oval, Square, or Thin panel trim. In-line junctions manufactured before OR after 10/10/11 can be used with Thin trim. 
+The only differences between the junctions are those listed in the general guidelines above.
+Corner Junctions 
+Same Height 
+ •  Same height are interchangeable between Oval, Square, or Thin panel trim.
+ •  Same height corner junctions manufactured before OR after 10/10/11 can be used with Thin trim.
+ •  Universal junction conw guration (manufactured after 10/10/11)
+  –  Post and block conÀ guration – all the posts are the same height.
+  –  Can be reconÀ gured to another style corner junctions.
+  – Can accept Oval, Square, or Thin panel trims.
+ 
+ 
+Examples:
+ 
+1 
+ Change an L to a T 
+2 Change an L to an X 
+3 
+ Change a T to an L
+ 
+ • Add one junction post 
+ • Add one junction post 
+ • Remove one junction post 
+ 
+ 
+ • Replace the L trim with a T trim 
+ • Add two junction cap aligners 
+ • Remove one junction cap aligner
+ 
+ • Add a junction cap aligner 
+ • Inventory L trim 
+ • Replace the T trim with an L trim
+ 
+ • Inventory L trim
+ 
+4 Change an X to an L 
+5 
+ Change an X to a T
+ 
+ • Remove two junction posts 
+ • Remove one junction post
+ 
+ • Remove two junction cap aligners 
+ • Remove one junction cap aligner
+ 
+ • Add an L trim 
+ • Add a T trim
+   Purpose Built Junction conw guration (manufactured before 10/10/11)
+ • Cannot be reconÀ gured to be another style corner junction. If desire to change from an L- to a T-junction, the entire junction must be changed out.
+ • Can accept Oval, Square, or Thin panel trims.
+Corner Junctions – Change-of-Height
+  Thin Trim
+ • Change-of-height corner junctions can only accept universal junctions manufactured after 10/10/11.
+ • Junction posts will only go up to the height of the panels
+    Example: 
+   1 42/54" L-junction
+    • One junction post at 42"H
+    • One junction post at 54"H
+ • Cannot accept purpose built change-of-height junctions manufactured before 10/10/11.
+ • When reconÀ guring from Square or Oval trim to Thin trim, purpose built corner junctions must be change to universal corner junctions.
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Steelcase 
+June 2022

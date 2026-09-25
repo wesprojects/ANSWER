@@ -1,0 +1,237 @@
+Shared Components and Wiring and Cabling
+Fabric Covered Panel Skins To The Floor 
+For Panel Buildups 
+ 
+Standard Includes 
+ Required to Specify
+• Panel skins, fabric direction application, if selected:
+fabric price group 1
+472 
+Answer Solutions SpeciÀ cation Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Remember to omit base 
+trim(s) on a horizontal frame 
+package when using a skin 
+to the Á oor.
+Tip: 48"H fabric covered 
+panel skins to the Á oor 
+accommodate select fabrics 
+in the vertical direction only.
+Tip: 48"H and 60"H fabric 
+covered panel skins accom-
+modate fabric in the vertical 
+direction only. 
+Tip: 72"W fabric covered 
+panel skins accommodate 
+fabric in the horizontal 
+direction only.
+Tip: For further information 
+about fabric direction, see 
+page 730.
+Tip: 30"H and 42"H skins 
+only work on junctions 
+manufactured on or after 
+October 10, 2011.
+Tip: When specifying skins, 
+the total skin height will be 6" 
+less than the panel height. 
+Skins to the Á oor are indi-
+cated by an F sufÀ x. Plan 6" 
+shorter than panel height, but 
+skins to the Á oor are taller 
+in actual height to cover the 
+base trim area.
+c See Panel Buildups, page 
+18, for more information.
+1 Style number
+2 Fabric color number for skin surface
+3 Options, if selected (see below)
+cSee Surface Materials, page 724.
+cNeed help?
+Product details,
+page 124
+Options 
+U.S. Price 
+ Required to Specify
+ Surface 
+  
+24" and 
+36" to 
+ Materials 
+  
+30"H 
+60"H
+  
+• Fabric price group A   
+–$    4 
+–$    5 
+ Specify fabric color number.
+  
+• Fabric price group 1   
+No cost 
+No cost 
+  Specify fabric color number.
+  
+• Fabric price group 2   
++$  29 
++$  36 
+ Specify fabric color number.
+  
+• Fabric price group 3   
++$  50 
++$  66 
+  Specify fabric color number.
+  
+• Fabric price group 4   
++$  74 
++$103 
+  Specify fabric color number.
+  
+• Fabric price group 5   
++$118 
++$160 
+  Specify fabric color number.
+  
+• Fabric price group 6   
++$158 
++$220 
+  Specify fabric color number.
+  
+• Fabric price group 7   
++$203 
++$279 
+  Specify fabric color number.
+  
+• Fabric price group COM   
++$  21 
++$  21 
+  Specify fabric color number.
+  
+ Fabric direction on 18"W to 60"W skins 
+  
+• Vertical application   
+No cost 
+ 
+  Specify with vertical application.
+Speciwcation Information
+ 
+24"H 
+30"H 
+36"H
+ 
+ 
+ 
+DWidth 
+DStyle 
+DU.S. 
+DStyle 
+DU.S. 
+DStyle 
+DU.S.
+d 
+dNumber 
+dBase 
+dNumber 
+dBase 
+dNumber 
+dBase
+d
+d
+dPrice
+d
+dPrice
+d
+dPrice
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Tackable Acoustical Skins
+18" 
+TS72418TKF $153 
+TS73018TKF $197 
+TS73618TKF $226
+24" 
+TS72424TKF $168 
+TS73024TKF $209 
+TS73624TKF $238
+30" 
+TS72430TKF $178 
+TS73030TKF $229 
+TS73630TKF $252
+36" 
+TS72436TKF $187 
+TS73036TKF $240 
+TS73636TKF $271
+42" 
+TS72442TKF $198 
+TS73042TKF $262 
+TS73642TKF $298
+48" 
+TS72448TKF $212 
+TS73048TKF $296 
+TS73648TKF $342
+60" 
+TS72460TKF $240 
+TS73060TKF $335 
+TS73660TKF $393
+72" 
+TS72472TKF $269 
+TS73072TKF $370 
+TS73672TKF $432 
+d 
+d 
+d 
+d 
+d 
+d 
+d
+Performance Tackable Acoustical Skins
+18" 
+TS72418TAF $160 
+TS73018TAF $215 
+TS73618TAF $244
+24" 
+TS72424TAF $174 
+TS73024TAF $235 
+TS73624TAF $266
+30" 
+TS72430TAF $186 
+TS73030TAF $248 
+TS73630TAF $283
+36" 
+TS72436TAF $196 
+TS73036TAF $266 
+TS73636TAF $304
+42" 
+TS72442TAF $203 
+TS73042TAF $285 
+TS73642TAF $326
+48" 
+TS72448TAF $226 
+TS73048TAF $326 
+TS73648TAF $381
+60" 
+TS72460TAF $254 
+TS73060TAF $370 
+TS73660TAF $434
+72" 
+TS72472TAF $280 
+TS73072TAF $411 
+TS73672TAF $478
+d 
+d 
+d 
+d 
+d 
+d 
+d
+cSpecification Information, continued on next page
+Steelcase 
+June 2022

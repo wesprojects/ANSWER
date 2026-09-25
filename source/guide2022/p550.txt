@@ -1,0 +1,143 @@
+550 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Parametric Straight Worksurfaces with Soft Edge Profile High-Pressure Laminate or Wood Veneer, continued
+Speciwcation Information
+DStyle 
+DDimensions 
+ DU.S. Base Prices
+dNumber 
+d 
+ 
+ d
+d 
+d 
+ 
+Modular d48"W 
+d54"W 
+d60"W 
+d66"W 
+d72"W 
+d 
+d 
+ 
+Width d 
+d 
+d 
+d 
+d 
+d 
+dModular Parametric 
+Parametric d48"W– 
+d54"W– 
+d60"W– 
+d66"W– 
+d72"W– 
+d 
+dDepth 
+Depth 
+Width d5315¼16"W 
+d5915¼16"W 
+d6515¼16"W 
+d7115¼16"W 
+d7715¼16"W 
+3 mm Edge Prowle – Laminate
+USWSS 
+187¼8"D 
+18"D–237¼16"D 
+$ɚɚ799 
+$ɚɚ821 
+$ɚɚ851 
+$ɚɚ916 
+$ɚɚ971 
+ 
+24"D 
+231¼2"D–297¼16"D 
+$ɚɚ818 
+$ɚɚ847 
+$ɚɚ872 
+$ɚɚ925 
+$ɚɚ979 
+ 
+30"D 
+291¼2"D–357¼16"D 
+$ɚɚ930 
+$ɚɚ964 
+$ɚɚ998 
+$1043 
+$1103 
+ 
+36"D 
+351¼2"D–36"D 
+$1063 
+$1089 
+$1117 
+$1168 
+$1224 
+ 
+d 
+d 
+ d 
+d 
+d 
+d 
+d 
+Square Edge Prowle – Wood
+USWSSWS 
+187¼8"D 
+18"D–237¼16"D 
+$1572 
+$1595 
+$1765 
+$1834 
+$1887 
+ 
+24"D 
+231¼2"D–297¼16"D 
+$1594 
+$1622 
+$1785 
+$1839 
+$1894 
+ 
+30"D 
+291¼2"D–357¼16"D 
+$1705 
+$1740 
+$1913 
+$1961 
+$2018 
+ 
+36"D 
+351¼2"D–36"D 
+$1957 
+$1997 
+$2205 
+$2262 
+$2332 
+ 
+d 
+d 
+ d 
+d 
+d 
+d 
+d 
+cSpecifying, continued on next page
+B
+A
+Tip: Dimension A = depth 
+and dimension B = width. 
+Tip: Side and back edges of 
+worksurface default to a Áat 
+proÀle.
+Tip: Worksurfaces greater 
+than 30"D can only be used 
+in freestanding applications.
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+cOptions, on previous page
+Steelcase 
+June 2022

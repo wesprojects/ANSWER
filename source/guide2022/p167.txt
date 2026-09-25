@@ -1,0 +1,71 @@
+Wiring & Cabling
+Answer Solutions SpeciÀ cation Guide 
+167
+Wiring & Cabling
+Understanding
+Wiring and Cabling
+All Answer electrical 
+components are listed 
+by Underwriters Laboratory 
+(UL) and certiÀ ed by the 
+Canadian Standards 
+Association (CSA).
+Statement of Line 
+168
+Product Details
+Wiring Schematics 
+171
+How to Calculate Power Needs 
+172
+Cable Capacities 
+174
+Interface Products
+Ceiling-Access Lay-In Utility Package 
+176
+Floor-Access Lay-In Utility Package 
+178
+Utility Pole—Thin Trim 
+180
+Junction with Utility Pole 
+182
+Base Power Infeed 
+184
+Special Requirements for New York City 
+185
+Consolidation Point 
+186
+Distribution Products
+Powerkits 
+188
+Pass-Through Powerkits 
+188
+Cable Trays 
+188
+Modular Harness 
+190
+Multipurpose Power Infeed 
+191
+Special Requirements for Hardwired Solution 
+192
+Access Products
+Duplex Receptacles 
+193
+USB Receptacles 
+193
+Faceplate 
+193
+Accessories
+Junction Tall Sleeve 
+195
+Lay-In Junction Cable Sleeve 
+195
+Feed-Through Horizontal Cable Sleeve 
+195
+Grommet for Horizontal Bar and Junction 
+196
+Grommet for Junction 
+196
+Duplex Cable Grommet 
+196
+Steelcase 
+June 2022

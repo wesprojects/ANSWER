@@ -1,0 +1,270 @@
+544 
+Answer Solutions Specification Guide
+Universal Systems Worksurfaces
+Parametric Straight Worksurfaces High-Pressure Laminate or Wood Veneer, continued
+Speciwcation Information
+DStyle 
+DDimensions 
+ DU.S. Base Prices
+dNumber 
+d 
+ 
+ d
+d 
+d 
+ 
+Modular d18"W 
+d24"W 
+d30"W 
+d36"W 
+d42"W 
+d48"W 
+d 
+d 
+ 
+Width d 
+d 
+d 
+d 
+d 
+d 
+d 
+dModular Parametric Parametric d18"W– 
+d24"W– 
+d30"W– 
+d36"W– 
+d42"W– 
+d48"W– 
+d 
+dDepth 
+Depth 
+Width d2315¼16"W d2915¼16"W d3515¼16"W d4115¼16"W d4715¼16"W d5315¼16"W 
+3 mm Edge Prowle – Laminate
+USWS 
+187¼8"D 
+18"D–237¼16"D 
+$ɚɚ215 
+$ɚɚ233 
+$ɚɚ252 
+$ɚɚ271 
+$ɚɚ293 
+$ɚɚ353 
+ 
+24"D 
+231¼2"D–297¼16"D 
+$ɚɚ243 
+$ɚɚ259 
+$ɚɚ280 
+$ɚɚ293 
+$ɚɚ317 
+$ɚɚ376 
+ 
+30"D 
+291¼2"D–357¼16"D 
+$ɚɚ349 
+$ɚɚ366 
+$ɚɚ380 
+$ɚɚ407 
+$ɚɚ426 
+$ɚɚ484 
+ 
+36"D 
+351¼2"D–36"D 
+$ɚɚ417 
+$ɚɚ434 
+$ɚɚ453 
+$ɚɚ472 
+$ɚɚ494 
+$ɚɚ553 
+d 
+d 
+ 
+ d 
+d 
+d 
+d 
+d 
+d 
+P Edge Prowle – Laminateɚɚ
+USWSP 
+187¼8"D 
+18"D–237¼16"D 
+$ɚɚ259 
+$ɚɚ279 
+$ɚɚ297 
+$ɚɚ318 
+$ɚɚ356 
+$ɚɚ417 
+ 
+24"D 
+231¼2"D–297¼16"D 
+$ɚɚ287 
+$ɚɚ306 
+$ɚɚ323 
+$ɚɚ338 
+$ɚɚ380 
+$ɚɚ439 
+ 
+30"D 
+291¼2"D–357¼16"D 
+$ɚɚ395 
+$ɚɚ411 
+$ɚɚ425 
+$ɚɚ452 
+$ɚɚ490 
+$ɚɚ550 
+ 
+36"D 
+351¼2"D–36"D 
+$ɚɚ462 
+$ɚɚ478 
+$ɚɚ499 
+$ɚɚ519 
+$ɚɚ557 
+$ɚɚ619 
+d 
+d 
+ 
+ d 
+d 
+d 
+d 
+d 
+d 
+Knife Edge Prowle – Laminate
+USWSK 
+187¼8"D 
+18"D–237¼16"D 
+$ɚɚ326 
+$ɚɚ343 
+$ɚɚ362 
+$ɚɚ382 
+$ɚɚ430 
+$ɚɚ489 
+ 
+24"D 
+231¼2"D–297¼16"D 
+$ɚɚ353 
+$ɚɚ369 
+$ɚɚ392 
+$ɚɚ405 
+$ɚɚ453 
+$ɚɚ514 
+ 
+30"D 
+291¼2"D–357¼16"D 
+$ɚɚ460 
+$ɚɚ476 
+$ɚɚ490 
+$ɚɚ519 
+$ɚɚ562 
+$ɚɚ622 
+ 
+36"D 
+351¼2"D–36"D 
+$ɚɚ528 
+$ɚɚ547 
+$ɚɚ562 
+$ɚɚ581 
+$ɚɚ629 
+$ɚɚ688 
+d 
+d 
+ 
+ d 
+d 
+d 
+d 
+d 
+d 
+Square Edge Prowle – Wood
+USWSSW 
+187¼8"D 
+18"D–237¼16"D 
+$ɚɚ853 
+$ɚɚ899 
+$ɚɚ916 
+$ɚɚ937 
+$1068 
+$1128 
+ 
+24"D 
+231¼2"D–297¼16"D 
+$ɚɚ880 
+$ɚɚ927 
+$ɚɚ943 
+$ɚɚ959 
+$1091 
+$1151 
+ 
+30"D 
+291¼2"D–357¼16"D 
+$ɚɚ984 
+$1031 
+$1043 
+$1071 
+$1203 
+$1262 
+ 
+36"D 
+351¼2"D–36"D 
+$1190 
+$1237 
+$1252 
+$1285 
+$1441 
+$1514 
+d 
+d 
+ 
+ d 
+d 
+d 
+d 
+d 
+d 
+cSpecifying, continued on next page
+A
+B
+Tip: Dimension A = depth 
+and dimension B = width.
+Tip: Side and back edges of 
+worksurface default to a Áat 
+proÀle.
+Tip: Worksurfaces greater 
+than 30"D can only be used 
+in freestanding applications.
+Related Products
+ 
+• Panel-mounted Universal Systems worksurface supports 
+c Page 588 
+ 
+• Reinforcing channel 
+ 
+ 
+c Page 589
+ 
+• Legs and columns for Universal Systems Worksurfaces 
+c Page 594
+ 
+• Worksurface screens 
+ 
+c Page 609
+ 
+• Worksurface power and communication components 
+c Page 611
+ 
+• 21¼2" round grommet 
+ 
+c Page 615
+ 
+• Grommet package 
+ 
+c Page 616
+cOptions, continued from previous page
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Steelcase 
+June 2022

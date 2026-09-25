@@ -1,0 +1,137 @@
+384 
+Answer Solutions SpeciÀ cation Guide
+Panels—Thin Trim 
+90° Corner Application Change-of-Height 
+Trims—Thin Trim
+Standard Includes 
+ Required to Specify
+• Trim: paint price group 1 or wood group 1
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Tip: Thin change-of-height 
+trim cannot be used with 
+square or oval top trim.
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+• Paint price group 1 
+No cost 
+ Specify paint color number. 
+Materials 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+Speciwcation Information
+DCorresponding DStyle 
+DU.S. 
+DStyle 
+DU.S.
+dPanel
+ 
+dNumber 
+dBase 
+dNumber 
+dBase
+dHeight 
+d
+dPrice
+d
+dPrice
+d
+
+d
+d
+d
+d
+ 
+Painted Trim  
+Wood Trim
+L Corner Change-of-Height Trim
+6" 
+TS76TCLCHT 
+$83 
+TS76TCLCHTW 
+$300
+12" 
+TS712TCLCHT 
+$83 
+TS712TCLCHTW 
+$300
+18" 
+TS718TCLCHT 
+$83 
+TS718TCLCHTW 
+$300
+24" 
+TS724TCLCHT 
+$83 
+TS724TCLCHTW 
+$300
+30" 
+TS730TCLCHT 
+$89 
+TS730TCLCHTW 
+$305
+36" 
+TS736TCLCHT 
+$89 
+TS736TCLCHTW 
+$305
+T Corner Change-of-Height Trim
+6" 
+TS76TCTCHT 
+$83 
+TS76TCTCHTW 
+$300
+12" 
+TS712TCTCHT 
+$83 
+TS712TCTCHTW 
+$300
+18" 
+TS718TCTCHT 
+$83 
+TS718TCTCHTW 
+$300
+24" 
+TS724TCTCHT 
+$83 
+TS724TCTCHTW 
+$300
+30" 
+TS730TCTCHT 
+$89 
+TS730TCTCHTW 
+$305
+36" 
+TS736TCTCHT 
+$89 
+TS736TCTCHTW 
+$305
+d
+
+d
+d
+d
+d
+1 Style number
+2 Paint or wood color number for trim
+3 Options, if selected (see below)
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+pages 38–39
+Steelcase 
+June 2022

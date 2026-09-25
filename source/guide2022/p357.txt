@@ -1,0 +1,284 @@
+Answer Solutions SpeciÀ cation Guide 
+357
+Standard Includes 
+ Required to Specify
+• Junction
+• Change-of-height trim: paint price group 1 or 
+wood group 1
+• Aligner
+Panels—Thin Trim 
+In-Line Change-of-Height Junctions—Thin Trim
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+A
+B
+Tip: Junction includes:
+• In-line base junction
+• End-of-run stacking 
+ junction
+• Stacking fork
+• End-of-run change-of-
+ height trim
+• Aligner
+Tip: Remember to specify 
+a stacking horizontal frame 
+package with this applica-
+tion, unless there is a win-
+dow in the top position of 
+the taller panel.
+Tip: Omit trim option omits 
+change-of-height trim. This 
+option is used when stacking 
+on base panel junctions. 
+Change-of-height trims 
+should be speciÀ ed sepa-
+rately to span the full height 
+of the base panel junction 
+plus the stacking junction.
+Panels—Thin Trim
+Options 
+U.S. Price 
+ Required to Specify
+Surface 
+ Trim
+Materials 
+• Paint price group 1 
+No cost 
+ Specify paint color number.
+ 
+• Paint price group 2 
++$15 
+ Specify paint color number.
+ 
+• Paint price group 3 
++$31 
+ Specify paint color number.
+ 
+• Customiz stain on wood 
+No cost 
+ Specify with Customiz stain.
+ 
+• Omit trim 
+Prices below 
+ Specify with omit trim.
+Speciwcation Information 
+ 
+ 
+DCorresponding 
+DStyle 
+DU.S. 
+DOption 
+DStyle 
+DU.S. 
+DOption
+dPanel 
+dNumber 
+dBase 
+d(Add $ to 
+dNumber 
+dBase 
+d(Add $ to
+dHeight
+d
+dPrice 
+dBase Price) 
+d
+dPrice 
+dBase Price)
+d 
+
+d
+d 
+d
+d
+d
+d
+dA 
+B
+d
+d 
+d 
+d
+d 
+d
+d
+
+d
+d 
+dOmit Trim
+d
+d 
+dOmit Trim
+ 
+ 
+Painted Trim 
+ 
+Wood Trim
+30" 
+36" 
+TS73QTCIJ 
+$258 
+ï$72 
+TS73QTCIJW $508 
+ï$257
+30" 
+42" 
+TS734TCIJ 
+$258 
+ï$72 
+TS734TCIJW $508 
+ï$257
+30" 
+48" 
+TS738TCIJ 
+$262 
+ï$72 
+TS738TCIJW $514 
+ï$257
+30" 
+54" 
+TS735TCIJ 
+$268 
+ï$72 
+TS735TCIJW $520 
+ï$257
+30" 
+66" 
+TS736TCIJ 
+$289 
+ï$75 
+TS736TCIJW $537 
+ï$261
+36" 
+42" 
+TS7Q4TCIJ 
+$258 
+ï$72 
+TS7Q4TCIJW $508 
+ï$257
+36" 
+48" 
+TS7Q8TCIJ 
+$262 
+ï$72 
+TS7Q8TCIJW $514 
+ï$257
+36" 
+54" 
+TS7Q5TCIJ 
+$268 
+ï$72 
+TS7Q5TCIJW $520 
+ï$257
+36" 
+66" 
+TS7Q6TCIJ 
+$289 
+ï$75 
+TS7Q6TCIJW $537 
+ï$261
+42" 
+48" 
+TS748TCIJ 
+$258 
+ï$72 
+TS748TCIJW $508 
+ï$257
+42" 
+54" 
+TS745TCIJ 
+$258 
+ï$72 
+TS745TCIJW $508 
+ï$257
+42" 
+66" 
+TS746TCIJ 
+$268 
+ï$72 
+TS746TCIJW $520 
+ï$257
+42" 
+78" 
+TS747TCIJ 
+$332 
+ï$75 
+TS747TCIJW $577 
+ï$261
+48" 
+66" 
+TS786TCIJ 
+$262 
+ï$72 
+TS786TCIJW $514 
+ï$257
+48" 
+54" 
+TS785TCIJ 
+$262 
+ï$72 
+TS785TCIJW $514 
+ï$257
+54" 
+66" 
+TS756TCIJ 
+$258 
+ï$72 
+TS756TCIJW $508 
+ï$257
+54" 
+78" 
+TS757TCIJ 
+$309 
+ï$72 
+TS757TCIJW $560 
+ï$257
+54" 
+90" 
+TS759TCIJ 
+$382 
+ï$72 
+TS759TCIJW $630 
+ï$257
+66" 
+78" 
+TS767TCIJ 
+$297 
+ï$72 
+TS767TCIJW $548 
+ï$257
+66" 
+90" 
+TS769TCIJ 
+$370 
+ï$72 
+TS769TCIJW $619 
+ï$257
+78" 
+90" 
+TS779TCIJ 
+$364 
+ï$72 
+TS779TCIJW $612 
+ï$257
+d
+
+d
+d 
+d
+d
+d 
+d
+1 Style number
+2 Paint or wood color number for trim
+c
+See Surface Materials, page 724.
+c Need help?
+Product details,
+page 24
+In-Line Change-of-Height 
+Junctions—Thin Trim
+Steelcase 
+June 2022

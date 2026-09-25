@@ -3,3 +3,7 @@ source/__pycache__/
 source/test/overlap/
 source/test/capout/
 source/test/run_*.log
+answer-2022.pdf
+**/__pycache__/
+source/guide2022/*.png
+source/test/run_all.log

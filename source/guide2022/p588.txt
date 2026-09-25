@@ -1,0 +1,79 @@
+588 
+Answer Solutions Specification Guide
+For Canadian Pricing
+Multiply U.S. Price by the 
+Canadian price factor.
+See page 1 for details.
+Universal Systems Worksurfaces
+Panel-Mounted Universal Systems Worksurface Supports
+For Use with Answer Panels
+ 
+Cantilevers
+• Cantilever: paint
+• Tie plate
+• Attachment hardware
+Tip: Answer panel junctions 
+can accommodate only one 
+cantilever at a seam.
+Tip: Cantilevered straight 
+worksurfaces greater than 
+26"D and 30"D transition 
+worksurfaces require addi-
+tional Á oor support along the 
+front edge, such as a pedes-
+tal, end panel, post leg, side 
+support bracket, or an adja-
+cent return worksurface.
+Tip: Side support bracket 
+includes a pair of handed 
+brackets, only one of which 
+is required for rear corner 
+support of panel-mounted 
+corner worksurfaces. Specify 
+one for every two corner 
+worksurfaces in on-module 
+applications. Order an addi-
+tional supply for off-module 
+fin wall applications.
+Side Support Brackets
+• Pair of handed side support brackets: black paint only
+• Attachment hardware
+ Style number
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+USSBR 
+$53
+d 
+d
+c Need help?
+Product details,
+page 236
+Speciwcation Information
+DStyle 
+DU.S.
+dNumber 
+dPrice
+d 
+d
+On-Module Cantilever
+UCANT 
+$149
+d 
+d
+1 Style number
+2 Paint color number for cantilever
+c See Surface Materials, page 724.
+c Need help?
+Product details,
+page 236
+Standard Includes 
+ Required to Specify
+Standard Includes 
+ Required to Specify
+Steelcase 
+June 2022

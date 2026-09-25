@@ -1,0 +1,109 @@
+190 
+Answer Solutions SpeciÀ cation Guide
+In an in-line applica-
+tion extra length modu-
+lar harness is not required 
+when a powerkit is in the 
+bottom (not base) location in 
+a panel with open base.
+In a corner application 
+extra length modular 
+harness is required when 
+a powerkit is in the bottom 
+(not base) location in a 
+panel with open base trim. 
+In this circumstance, the 
+modular harness will need 
+to be routed through the À rst 
+large opening in the junction 
+located above the powerkit. 
+The modular harness cannot 
+be routed through the foot 
+area of the panel due to the 
+open base trim. 
+Harnesses plug into 
+con nection points on the 
+power kit. Every powerkit has 
+multiple connection points to 
+allow branching of power.
+Modular harness may 
+be speciÀ ed in a non-PVC 
+version.
+T-connection is formed 
+by connecting two harnesses 
+to a power block.
+X-connection is formed 
+by connecting two harnesses 
+to two successive power 
+blocks.
+Modular harness may 
+be speciÀ ed in a non-PVC 
+version. For those trying to 
+gain the LEED Innovation 
+in Design credit, non-PVC 
+should be selected.
+Product Details
+Modular harnesses are 
+avail able to connect powerkits 
+at different heights. Available 
+in 43" and 80" lengths.
+Extra length modular 
+harness is required when 
+connecting two power kits 
+located at different heights 
+inside the panel in a corner 
+or in-line application.
+Wiring and Cabling
+Distribution Products, continued
+Modular Harness
+c Specifying, page 533
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+Performance tackable 
+acousti cal skins and 
+tackable acoustical 
+skins can be cut in the 
+À eld to allow access to 
+duplex receptacles, USB 
+receptacles, and communi-
+cation outlets. Order cutting 
+templates through Service 
+Parts (T500940SR). Steel 
+skins do not have cutouts 
+and cannot accom modate 
+receptacles. Install power 
+receptacles and communi-
+cation ports in the panel 
+base cover below the steel 
+skin or use a technology 
+skin.
+Knockout
+Knockouts and cut-
+outs for receptacles in the 
+panel base trim and skins 
+are always 105¼8" from the 
+out side edges of the panel. 
+Knockouts for communica-
+tion in base accommodate 
+modular furniture size only.
+Filler to close unwanted 
+openings in base trim is 
+avail able from Service Parts.
+Wire separators are
+not required. All electrical 
+harnesses are shielded. 
+Local electrical codes 
+vary. Consult a qualiÀ ed 
+electrical contractor or 
+engineer for the proper 
+installation of all electrical 
+components.
+Chicago and New York 
+have special requirements.
+c Pages 185 and 192
+Steelcase 
+June 2022
