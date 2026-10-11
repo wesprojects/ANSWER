@@ -19,7 +19,7 @@
   html, body { margin: 0; background: var(--bg); }
   body { width: 8.5in; height: 11in; overflow: hidden; color: var(--ink); font-family: var(--sans);
          -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .page { padding: 34px 44px 26px; height: 100%; display: flex; flex-direction: column; }
+  .page { padding: 30px 44px 22px; height: 100%; display: flex; flex-direction: column; }
 
   /* top bar: logo left, contact right */
   .top { display: flex; justify-content: space-between; align-items: flex-start; }
@@ -27,13 +27,13 @@
   .top .contact { font-size: 12.5px; font-weight: 600; color: var(--navy); margin-top: 4px; }
 
   /* hero */
-  .hero { display: grid; grid-template-columns: 1fr 250px; gap: 22px; margin-top: 28px; }
+  .hero { display: grid; grid-template-columns: 1fr 236px; gap: 20px; margin-top: 20px; }
   .kicker { color: var(--amber); font-weight: 700; letter-spacing: .26em; font-size: 12.5px; text-transform: uppercase; }
   h1 { font-family: var(--heavy); font-weight: 900; font-style: italic; color: var(--navy);
        font-size: 58px; line-height: 1; margin: 8px 0 8px; white-space: nowrap; letter-spacing: -.01em; text-transform: uppercase; }
   .sub { font-size: 20px; font-weight: 600; margin: 0 0 14px; }
   ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
-  ol.steps li { display: grid; grid-template-columns: 26px 26px 1fr; gap: 0 12px; align-items: center; font-size: 14.5px; line-height: 1.3; }
+  ol.steps li { display: grid; grid-template-columns: 26px 24px 1fr; gap: 0 10px; align-items: center; font-size: 14px; line-height: 1.3; }
   .num { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700;
          font-size: 13px; display: grid; place-items: center; }
   .ico { width: 24px; height: 24px; color: var(--amber); }
@@ -41,18 +41,18 @@
   /* right of hero: questions about AI */
   .qa { display: grid; gap: 9px; align-content: start; margin-top: 4px; }
   .qa .label { color: var(--amber); font-weight: 700; letter-spacing: .22em; font-size: 11px; text-transform: uppercase; }
-  .qcard { background: #fff; border-radius: 14px; padding: 11px 14px; box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 4px 14px rgba(20,33,61,.07); }
+  .qcard { background: #fff; border-radius: 14px; padding: 9px 13px; box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 4px 14px rgba(20,33,61,.07); }
   .qcard b { display: block; font-size: 14px; margin-bottom: 2px; }
   .qcard span { font-size: 12.5px; color: var(--grey); line-height: 1.35; display: block; }
 
   /* callout */
-  .try { margin-top: 18px; background: var(--tint); border: 1px solid var(--tint-line); border-radius: 14px; padding: 11px 16px; }
+  .try { margin-top: 14px; background: var(--tint); border: 1px solid var(--tint-line); border-radius: 14px; padding: 11px 16px; }
   .try .k { color: var(--amber); font-weight: 700; letter-spacing: .22em; font-size: 11px; text-transform: uppercase; }
   .try p { margin: 3px 0 0; font-size: 14.5px; font-weight: 700; }
   .try small { display: block; color: var(--grey); font-size: 12.5px; margin-top: 2px; }
 
   /* two cards */
-  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 22px; }
+  .cards { display: grid; grid-template-columns: 1.45fr 1fr; gap: 18px; margin-top: 20px; }
   .card { position: relative; background: #fff; border-radius: 16px; padding: 18px 18px 14px; }
   .card.navy { border: 1.5px solid var(--navy); }
   .card.soft { box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 6px 18px rgba(20,33,61,.08); }
@@ -61,21 +61,21 @@
   .card h3 { margin: 0 0 6px; font-size: 18px; display: flex; align-items: center; gap: 8px; }
   .card h3 svg { width: 20px; height: 20px; color: var(--amber); }
   .card ul { margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.4; }
-  .card ul li + li { margin-top: 4px; }
+  .card ul li + li { margin-top: 2px; }
   .card .multi { font-size: 10.5px; color: var(--grey); line-height: 1.35; margin-top: 7px; }
   .card .mail { display: flex; align-items: center; gap: 9px; font-size: 17px; font-weight: 600; margin-top: 8px; color: var(--navy); text-decoration: none; }
   .card .mail i { width: 11px; height: 11px; border-radius: 50%; background: var(--amber); display: inline-block; }
 
   /* three language columns */
-  hr { border: 0; border-top: 1px solid var(--line); margin: 20px 0 14px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 16px 0 10px; }
   .langs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
   .tag { display: inline-block; background: var(--navy); color: #fff; font-weight: 700; font-size: 11px;
          padding: 3px 7px; border-radius: 6px; letter-spacing: .04em; }
   .gtag { background: var(--tag); color: var(--navy); }
   .lk { color: var(--amber); font-weight: 700; letter-spacing: .16em; font-size: 10.5px; text-transform: uppercase; margin: 9px 0 4px; line-height: 1.35; }
-  .lh { font-weight: 600; font-size: 14px; line-height: 1.3; margin: 0 0 4px; }
-  .langs ol { margin: 0 0 6px; padding-left: 17px; font-size: 11.5px; line-height: 1.38; }
-  .langs .b { font-weight: 700; font-size: 11.5px; line-height: 1.35; margin: 0 0 3px; }
+  .lh { font-weight: 600; font-size: 13px; line-height: 1.3; margin: 0 0 4px; }
+  .langs ol { margin: 0 0 5px; padding-left: 17px; font-size: 11px; line-height: 1.34; }
+  .langs .b { font-weight: 700; font-size: 11px; line-height: 1.35; margin: 0 0 3px; }
   .langs .n { font-size: 11.5px; line-height: 1.35; margin: 0; }
 
   /* foot strip */
@@ -96,46 +96,48 @@
     <div>
       <div class="kicker">New to AI? Start here</div>
       <h1>AI Questions</h1>
-      <p class="sub">Plain answers for anyone curious about AI.</p>
+      <p class="sub">Use AI to create ideas and solve problems.</p>
       <ol class="steps">
         <li><span class="num">1</span>
-          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
-          <span>Say what you want.</span></li>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+          <span>Describe the problem and what a good result looks like.</span></li>
         <li><span class="num">2</span>
-          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h12M8 12h12M8 18h8"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>
-          <span>Add context: who it's for, the tone and the length.</span></li>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
+          <span>Ask for several ideas, not just one answer.</span></li>
         <li><span class="num">3</span>
-          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg>
-          <span>If it's not right, ask again.</span></li>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/><path d="M10 9.5a2 2 0 1 1 2.5 1.9c-.3.1-.5.4-.5.7V13M12 15.5v.01"/></svg>
+          <span>Push back: ask what could go wrong and what it missed.</span></li>
         <li><span class="num">4</span>
           <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12.5l3 3 5-6"/></svg>
-          <span>Check it before you use or send it.</span></li>
+          <span>You decide. Test the best idea before you act on it.</span></li>
       </ol>
     </div>
 
     <div class="qa">
-      <div class="label">Questions about AI</div>
-      <div class="qcard"><b>Is it always right?</b><span>No. It can sound sure and still be wrong. Double-check facts, numbers and names.</span></div>
-      <div class="qcard"><b>Is it free?</b><span>Many tools have a free tier. Paid plans add features and higher limits.</span></div>
-      <div class="qcard"><b>Will it take my job?</b><span>It speeds up tasks. People who learn to use it well get the most out of it.</span></div>
+      <div class="label">Choosing a safe AI tool</div>
+      <div class="qcard"><b>Is it approved for work?</b><span>Use tools Conklin approves. Unsure? Ask Wes first.</span></div>
+      <div class="qcard"><b>What happens to my data?</b><span>Check if it saves or learns from what you type. Turn that off if you can.</span></div>
+      <div class="qcard"><b>Who makes it?</b><span>Pick a known company with a clear privacy policy.</span></div>
     </div>
   </div>
 
   <div class="try">
-    <div class="k">Good first tries</div>
-    <p>Tidy an email, summarize a long document, brainstorm ideas.</p>
-    <small>Pick one small, everyday task and try it this week.</small>
+    <div class="k">Try it on a real problem</div>
+    <p>&ldquo;Give me 10 ways to cut wait times on customer orders, then rank them by cost and effort.&rdquo;</p>
+    <small>Then ask: &ldquo;What are the risks? What did you miss?&rdquo;</small>
   </div>
 
   <div class="cards">
     <div class="card navy">
       <span class="badge">1</span>
-      <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/></svg>Use with care</h3>
+      <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17v.01"/></svg>Watch out for</h3>
       <ul>
-        <li>Don't paste confidential, customer or personal details into a tool unless it's approved.</li>
-        <li>Never send AI-written text without reading it first.</li>
+        <li>Confident answers that are wrong or made up.</li>
+        <li>One-sided or biased answers. Ask for other views.</li>
+        <li>Confidential or customer data: never paste it in.</li>
+        <li>Password requests, or links you didn't expect.</li>
       </ul>
-      <div class="multi">Úsela con cuidado · À utiliser avec prudence · Itumie kwa tahadhari</div>
+      <div class="multi">Cuidado con · Attention à · Kuwa makini na</div>
     </div>
     <div class="card soft">
       <span class="badge">2</span>
@@ -151,49 +153,46 @@
     <div>
       <span class="tag">ES</span>
       <div class="lk">¿Nuevo en la IA? Empiece aquí</div>
-      <p class="lh">Preguntas sobre la IA — respuestas claras.</p>
+      <p class="lh">Use la IA para crear ideas y resolver problemas.</p>
       <ol>
-        <li>Diga lo que quiere.</li>
-        <li>Agregue contexto: para quién es, el tono y la extensión.</li>
-        <li>Si no sale bien, pida de nuevo.</li>
-        <li>Revíselo antes de usarlo o enviarlo.</li>
+        <li>Describa el problema y cómo sería un buen resultado.</li>
+        <li>Pida varias ideas, no una sola respuesta.</li>
+        <li>Cuestiónela: pregunte qué podría salir mal y qué se le escapó.</li>
+        <li>Usted decide. Pruebe la mejor idea antes de actuar.</li>
       </ol>
-      <p class="b">Para empezar: mejorar un correo, resumir un documento, generar ideas.</p>
-      <p class="n">Escríbale a Wes sus preguntas.</p>
+      <p class="b">Use solo herramientas aprobadas y sepa adónde van sus datos.</p>
     </div>
     <div>
       <span class="tag">FR</span>
       <div class="lk">Nouveau dans l’IA&nbsp;? Commencez ici</div>
-      <p class="lh">Questions sur l’IA — des réponses claires.</p>
+      <p class="lh">Utilisez l’IA pour trouver des idées et résoudre des problèmes.</p>
       <ol>
-        <li>Dites ce que vous voulez.</li>
-        <li>Ajoutez du contexte&nbsp;: pour qui, le ton et la longueur.</li>
-        <li>Si ce n’est pas bon, redemandez.</li>
-        <li>Vérifiez avant d’utiliser ou d’envoyer.</li>
+        <li>Décrivez le problème et ce qu’est un bon résultat.</li>
+        <li>Demandez plusieurs idées, pas une seule réponse.</li>
+        <li>Remettez-la en question&nbsp;: demandez ce qui pourrait mal tourner et ce qui manque.</li>
+        <li>C’est vous qui décidez. Testez la meilleure idée avant d’agir.</li>
       </ol>
-      <p class="b">Pour commencer&nbsp;: peaufiner un courriel, résumer un document, trouver des idées.</p>
-      <p class="n">Écrivez vos questions à Wes.</p>
+      <p class="b">N’utilisez que des outils approuvés et sachez où vont vos données.</p>
     </div>
     <div>
       <span class="tag">SW</span>
       <div class="lk">Mgeni kwa AI? Anza hapa</div>
-      <p class="lh">Maswali kuhusu AI — majibu rahisi.</p>
+      <p class="lh">Tumia AI kubuni mawazo na kutatua matatizo.</p>
       <ol>
-        <li>Sema unachotaka.</li>
-        <li>Ongeza muktadha: ni ya nani, mtindo na urefu.</li>
-        <li>Ikiwa si sahihi, uliza tena.</li>
-        <li>Hakiki kabla ya kutumia au kutuma.</li>
+        <li>Eleza tatizo na jinsi matokeo mazuri yanavyoonekana.</li>
+        <li>Omba mawazo kadhaa, si jibu moja tu.</li>
+        <li>Ihoji: uliza nini kinaweza kwenda vibaya na nini imekosa.</li>
+        <li>Wewe ndiye unayeamua. Jaribu wazo bora kabla ya kulitekeleza.</li>
       </ol>
-      <p class="b">Anza na: kuboresha barua pepe, kufupisha nyaraka, kutoa mawazo.</p>
-      <p class="n">Mwandikie Wes maswali yako.</p>
+      <p class="b">Tumia zana zilizoidhinishwa tu, na ujue data yako inakwenda wapi.</p>
     </div>
   </div>
 
   <div class="foot">
-    <div><span class="tag gtag">EN</span>AI can be wrong, so check facts and names. · Keep private information private. · Questions? Ask Wes.</div>
-    <div><span class="tag gtag">ES</span>La IA puede equivocarse: verifique datos y nombres. · No comparta información privada. · ¿Preguntas? Pregúntele a Wes.</div>
-    <div><span class="tag gtag">FR</span>L’IA peut se tromper&nbsp;: vérifiez les faits et les noms. · Ne partagez pas d’informations privées. · Des questions&nbsp;? Demandez à Wes.</div>
-    <div><span class="tag gtag">SW</span>AI inaweza kukosea, kwa hiyo hakiki ukweli na majina. · Usishiriki taarifa za siri. · Maswali? Muulize Wes.</div>
+    <div><span class="tag gtag">EN</span>AI can be wrong or make things up, so check it. · Use approved tools only. · Keep private data private.</div>
+    <div><span class="tag gtag">ES</span>La IA puede equivocarse o inventar cosas: verifíquela. · Use solo herramientas aprobadas. · No comparta datos privados.</div>
+    <div><span class="tag gtag">FR</span>L’IA peut se tromper ou inventer&nbsp;: vérifiez. · N’utilisez que des outils approuvés. · Gardez les données privées pour vous.</div>
+    <div><span class="tag gtag">SW</span>AI inaweza kukosea au kubuni mambo, kwa hiyo hakiki. · Tumia zana zilizoidhinishwa tu. · Usishiriki data za siri.</div>
   </div>
 
 </div>
