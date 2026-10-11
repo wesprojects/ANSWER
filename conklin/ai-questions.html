@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>AI Questions - Conklin Office Furniture</title>
+<!-- One-page handout in the Conklin Arcade beta poster style: English hero on top,
+     Spanish / French / Swahili in three columns below, a four-language strip at the foot.
+     Print to PDF with: bash build-ai-questions.sh -->
+<style>
+  @page { size: Letter; margin: 0; }
+  :root {
+    --bg: #fbfaf7; --navy: #14213d; --amber: #e6a100; --ink: #14213d;
+    --grey: #6b7280; --muted: #959ba4; --tag: #d9d6cf; --line: #dfdcd6;
+    --tint: #fdf4dc; --tint-line: #f1d58c;
+    --sans: "Segoe UI", Inter, "Helvetica Neue", Arial, sans-serif;
+    --heavy: "Segoe UI Black", "Segoe UI", Inter, Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--bg); }
+  body { width: 8.5in; height: 11in; overflow: hidden; color: var(--ink); font-family: var(--sans);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .page { padding: 34px 44px 26px; height: 100%; display: flex; flex-direction: column; }
+
+  /* top bar: logo left, contact right */
+  .top { display: flex; justify-content: space-between; align-items: flex-start; }
+  .top img { height: 36px; display: block; }
+  .top .contact { font-size: 12.5px; font-weight: 600; color: var(--navy); margin-top: 4px; }
+
+  /* hero */
+  .hero { display: grid; grid-template-columns: 1fr 250px; gap: 22px; margin-top: 28px; }
+  .kicker { color: var(--amber); font-weight: 700; letter-spacing: .26em; font-size: 12.5px; text-transform: uppercase; }
+  h1 { font-family: var(--heavy); font-weight: 900; font-style: italic; color: var(--navy);
+       font-size: 58px; line-height: 1; margin: 8px 0 8px; white-space: nowrap; letter-spacing: -.01em; text-transform: uppercase; }
+  .sub { font-size: 20px; font-weight: 600; margin: 0 0 14px; }
+  ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  ol.steps li { display: grid; grid-template-columns: 26px 26px 1fr; gap: 0 12px; align-items: center; font-size: 14.5px; line-height: 1.3; }
+  .num { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700;
+         font-size: 13px; display: grid; place-items: center; }
+  .ico { width: 24px; height: 24px; color: var(--amber); }
+
+  /* right of hero: questions about AI */
+  .qa { display: grid; gap: 9px; align-content: start; margin-top: 4px; }
+  .qa .label { color: var(--amber); font-weight: 700; letter-spacing: .22em; font-size: 11px; text-transform: uppercase; }
+  .qcard { background: #fff; border-radius: 14px; padding: 11px 14px; box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 4px 14px rgba(20,33,61,.07); }
+  .qcard b { display: block; font-size: 14px; margin-bottom: 2px; }
+  .qcard span { font-size: 12.5px; color: var(--grey); line-height: 1.35; display: block; }
+
+  /* callout */
+  .try { margin-top: 18px; background: var(--tint); border: 1px solid var(--tint-line); border-radius: 14px; padding: 11px 16px; }
+  .try .k { color: var(--amber); font-weight: 700; letter-spacing: .22em; font-size: 11px; text-transform: uppercase; }
+  .try p { margin: 3px 0 0; font-size: 14.5px; font-weight: 700; }
+  .try small { display: block; color: var(--grey); font-size: 12.5px; margin-top: 2px; }
+
+  /* two cards */
+  .cards { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 22px; }
+  .card { position: relative; background: #fff; border-radius: 16px; padding: 18px 18px 14px; }
+  .card.navy { border: 1.5px solid var(--navy); }
+  .card.soft { box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 6px 18px rgba(20,33,61,.08); }
+  .badge { position: absolute; top: -12px; left: 16px; width: 24px; height: 24px; border-radius: 50%;
+           background: var(--amber); color: #fff; font-weight: 700; font-size: 12.5px; display: grid; place-items: center; }
+  .card h3 { margin: 0 0 6px; font-size: 18px; display: flex; align-items: center; gap: 8px; }
+  .card h3 svg { width: 20px; height: 20px; color: var(--amber); }
+  .card ul { margin: 0; padding-left: 16px; font-size: 13px; line-height: 1.4; }
+  .card ul li + li { margin-top: 4px; }
+  .card .multi { font-size: 10.5px; color: var(--grey); line-height: 1.35; margin-top: 7px; }
+  .card .mail { display: flex; align-items: center; gap: 9px; font-size: 17px; font-weight: 600; margin-top: 8px; color: var(--navy); text-decoration: none; }
+  .card .mail i { width: 11px; height: 11px; border-radius: 50%; background: var(--amber); display: inline-block; }
+
+  /* three language columns */
+  hr { border: 0; border-top: 1px solid var(--line); margin: 20px 0 14px; }
+  .langs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
+  .tag { display: inline-block; background: var(--navy); color: #fff; font-weight: 700; font-size: 11px;
+         padding: 3px 7px; border-radius: 6px; letter-spacing: .04em; }
+  .gtag { background: var(--tag); color: var(--navy); }
+  .lk { color: var(--amber); font-weight: 700; letter-spacing: .16em; font-size: 10.5px; text-transform: uppercase; margin: 9px 0 4px; line-height: 1.35; }
+  .lh { font-weight: 600; font-size: 14px; line-height: 1.3; margin: 0 0 4px; }
+  .langs ol { margin: 0 0 6px; padding-left: 17px; font-size: 11.5px; line-height: 1.38; }
+  .langs .b { font-weight: 700; font-size: 11.5px; line-height: 1.35; margin: 0 0 3px; }
+  .langs .n { font-size: 11.5px; line-height: 1.35; margin: 0; }
+
+  /* foot strip */
+  .foot { margin-top: auto; border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 4px; }
+  .foot div { display: flex; gap: 10px; align-items: center; font-size: 11px; color: var(--muted); }
+  .foot .tag { min-width: 26px; text-align: center; padding: 2px 5px; font-size: 10px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top">
+    <img src="assets/conklin-logo-dark.png" alt="Conklin Office Furniture">
+    <div class="contact">wes@conklinoffice.com</div>
+  </div>
+
+  <div class="hero">
+    <div>
+      <div class="kicker">New to AI? Start here</div>
+      <h1>AI Questions</h1>
+      <p class="sub">Plain answers for anyone curious about AI.</p>
+      <ol class="steps">
+        <li><span class="num">1</span>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"/></svg>
+          <span>Say what you want.</span></li>
+        <li><span class="num">2</span>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h12M8 12h12M8 18h8"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg>
+          <span>Add context: who it's for, the tone and the length.</span></li>
+        <li><span class="num">3</span>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 11a8 8 0 1 0-2.3 5.7"/><path d="M20 4v7h-7"/></svg>
+          <span>If it's not right, ask again.</span></li>
+        <li><span class="num">4</span>
+          <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12.5l3 3 5-6"/></svg>
+          <span>Check it before you use or send it.</span></li>
+      </ol>
+    </div>
+
+    <div class="qa">
+      <div class="label">Questions about AI</div>
+      <div class="qcard"><b>Is it always right?</b><span>No. It can sound sure and still be wrong. Double-check facts, numbers and names.</span></div>
+      <div class="qcard"><b>Is it free?</b><span>Many tools have a free tier. Paid plans add features and higher limits.</span></div>
+      <div class="qcard"><b>Will it take my job?</b><span>It speeds up tasks. People who learn to use it well get the most out of it.</span></div>
+    </div>
+  </div>
+
+  <div class="try">
+    <div class="k">Good first tries</div>
+    <p>Tidy an email, summarize a long document, brainstorm ideas.</p>
+    <small>Pick one small, everyday task and try it this week.</small>
+  </div>
+
+  <div class="cards">
+    <div class="card navy">
+      <span class="badge">1</span>
+      <h3><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/></svg>Use with care</h3>
+      <ul>
+        <li>Don't paste confidential, customer or personal details into a tool unless it's approved.</li>
+        <li>Never send AI-written text without reading it first.</li>
+      </ul>
+      <div class="multi">Úsela con cuidado · À utiliser avec prudence · Itumie kwa tahadhari</div>
+    </div>
+    <div class="card soft">
+      <span class="badge">2</span>
+      <h3>Questions? Just ask.</h3>
+      <div class="multi" style="margin-top:0">¿Preguntas? Pregúntenos · Des questions&nbsp;? Posez-les-nous · Maswali? Uliza tu</div>
+      <a class="mail" href="mailto:wes@conklinoffice.com"><i></i>wes@conklinoffice.com</a>
+    </div>
+  </div>
+
+  <hr>
+
+  <div class="langs">
+    <div>
+      <span class="tag">ES</span>
+      <div class="lk">¿Nuevo en la IA? Empiece aquí</div>
+      <p class="lh">Preguntas sobre la IA — respuestas claras.</p>
+      <ol>
+        <li>Diga lo que quiere.</li>
+        <li>Agregue contexto: para quién es, el tono y la extensión.</li>
+        <li>Si no sale bien, pida de nuevo.</li>
+        <li>Revíselo antes de usarlo o enviarlo.</li>
+      </ol>
+      <p class="b">Para empezar: mejorar un correo, resumir un documento, generar ideas.</p>
+      <p class="n">Escríbale a Wes sus preguntas.</p>
+    </div>
+    <div>
+      <span class="tag">FR</span>
+      <div class="lk">Nouveau dans l’IA&nbsp;? Commencez ici</div>
+      <p class="lh">Questions sur l’IA — des réponses claires.</p>
+      <ol>
+        <li>Dites ce que vous voulez.</li>
+        <li>Ajoutez du contexte&nbsp;: pour qui, le ton et la longueur.</li>
+        <li>Si ce n’est pas bon, redemandez.</li>
+        <li>Vérifiez avant d’utiliser ou d’envoyer.</li>
+      </ol>
+      <p class="b">Pour commencer&nbsp;: peaufiner un courriel, résumer un document, trouver des idées.</p>
+      <p class="n">Écrivez vos questions à Wes.</p>
+    </div>
+    <div>
+      <span class="tag">SW</span>
+      <div class="lk">Mgeni kwa AI? Anza hapa</div>
+      <p class="lh">Maswali kuhusu AI — majibu rahisi.</p>
+      <ol>
+        <li>Sema unachotaka.</li>
+        <li>Ongeza muktadha: ni ya nani, mtindo na urefu.</li>
+        <li>Ikiwa si sahihi, uliza tena.</li>
+        <li>Hakiki kabla ya kutumia au kutuma.</li>
+      </ol>
+      <p class="b">Anza na: kuboresha barua pepe, kufupisha nyaraka, kutoa mawazo.</p>
+      <p class="n">Mwandikie Wes maswali yako.</p>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div><span class="tag gtag">EN</span>AI can be wrong, so check facts and names. · Keep private information private. · Questions? Ask Wes.</div>
+    <div><span class="tag gtag">ES</span>La IA puede equivocarse: verifique datos y nombres. · No comparta información privada. · ¿Preguntas? Pregúntele a Wes.</div>
+    <div><span class="tag gtag">FR</span>L’IA peut se tromper&nbsp;: vérifiez les faits et les noms. · Ne partagez pas d’informations privées. · Des questions&nbsp;? Demandez à Wes.</div>
+    <div><span class="tag gtag">SW</span>AI inaweza kukosea, kwa hiyo hakiki ukweli na majina. · Usishiriki taarifa za siri. · Maswali? Muulize Wes.</div>
+  </div>
+
+</div>
+</body>
+</html>

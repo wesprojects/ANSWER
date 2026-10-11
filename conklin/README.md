@@ -1,8 +1,13 @@
 # AI Questions — handout
 
-- `AI-Questions-ALL.pdf` — **one page, all four languages** (English, Spanish, French, Swahili). Big type, three short lines per language.
-- `AI-Questions-EN.pdf`, `-ES.pdf`, `-FR.pdf`, `-SW.pdf` — the longer one-page-per-language versions.
-- `content.py` — all the text. Edit it, then run `python3 build_all_pdf.py` (the one-pager) or `python3 build_pdf.py` (the four longer sheets).
-- `assets/conklin-logo-white.png` — Conklin logo, taken from wesprojects/VTRANSLATE.
+**`AI-Questions.pdf`** is the current one-page handout, in the Conklin Arcade beta poster style:
+- the English version is the main block at the top;
+- Spanish, French and Swahili follow in three columns below;
+- a strip at the foot repeats the key notes in all four languages.
 
-**Review before printing:** the Spanish, French and Swahili text is a draft. Have a native speaker check it, Swahili especially.
+- `ai-questions.html` holds the page and all its text. Edit it, then run `bash build-ai-questions.sh` to print it to PDF with headless Chrome. On Windows, Chrome uses Segoe UI as the poster does; this build machine fell back to Inter.
+- `assets/` holds the Conklin logo: `conklin-logo-dark.png` is for light pages, `conklin-logo-white.png` for dark ones.
+
+**Review before printing:** a native speaker should check the Spanish, French and Swahili, Swahili especially.
+
+The other PDFs and scripts in this folder are earlier drafts.
