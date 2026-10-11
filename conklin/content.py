@@ -109,3 +109,24 @@ LANGS = {
           "Usitume kamwe maandishi yaliyoandikwa na AI bila kuyasoma kwanza."],
     foot="Bado una maswali? Uliza tu."),
 }
+
+# Very short text for the single-page, all-languages sheet (build_all_pdf.py).
+# Each language: three (topic, line) rows, plus a "just ask" line for the footer.
+SIMPLE = {
+"EN": dict(rows=[("New to AI?", "Start small. Try one everyday task, like tidying an email."),
+                 ("How to use AI", "Say what you want. Add details. Then check the answer."),
+                 ("Questions about AI", "It can be wrong, so double-check. Keep private information private.")],
+           ask="Questions? Just ask."),
+"ES": dict(rows=[("\u00bfEs nuevo en la IA?", "Empiece poco a poco. Pruebe una tarea sencilla, como mejorar un correo."),
+                 ("C\u00f3mo usar la IA", "Diga lo que quiere. Agregue detalles. Luego revise la respuesta."),
+                 ("Preguntas sobre la IA", "Puede equivocarse, as\u00ed que verifique. No comparta informaci\u00f3n privada.")],
+           ask="\u00bfPreguntas? Preg\u00fantenos."),
+"FR": dict(rows=[(f"Nouveau dans l\u2019IA{NB}?", "Commencez petit. Essayez une t\u00e2che simple, comme peaufiner un courriel."),
+                 ("Comment utiliser l\u2019IA", "Dites ce que vous voulez. Ajoutez des d\u00e9tails. Puis v\u00e9rifiez la r\u00e9ponse."),
+                 ("Questions sur l\u2019IA", f"Elle peut se tromper{NB}: v\u00e9rifiez. Gardez les informations priv\u00e9es pour vous.")],
+           ask=f"Des questions{NB}? Posez-les-nous."),
+"SW": dict(rows=[("Mgeni kwa AI?", "Anza kidogo. Jaribu kazi moja rahisi, kama kuboresha barua pepe."),
+                 ("Jinsi ya kutumia AI", "Sema unachotaka. Ongeza maelezo. Kisha hakiki jibu."),
+                 ("Maswali kuhusu AI", "Inaweza kukosea, kwa hiyo hakiki. Usishiriki taarifa za siri.")],
+           ask="Maswali? Uliza tu."),
+}
