@@ -74,8 +74,8 @@
   .gtag { background: var(--tag); color: var(--navy); }
   .lk { color: var(--amber); font-weight: 700; letter-spacing: .12em; font-size: 10.5px; text-transform: uppercase; margin: 7px 0 3px; line-height: 1.35; }
   .lh { font-weight: 600; font-size: 13px; line-height: 1.3; margin: 0 0 4px; }
-  .langs ol { margin: 0 0 5px; padding-left: 18px; font-size: 12px; line-height: 1.33; }
-  .langs .b { font-weight: 700; font-size: 12px; line-height: 1.35; margin: 0 0 3px; }
+  .langs ol { margin: 0 0 5px; padding-left: 18px; font-size: 11.5px; line-height: 1.32; }
+  .langs .b { font-weight: 700; font-size: 11.5px; line-height: 1.35; margin: 0 0 3px; }
   .langs .n { font-size: 11.5px; line-height: 1.35; margin: 0; }
 
   /* foot strip */
@@ -83,10 +83,14 @@
   .foot div { display: flex; gap: 10px; align-items: center; font-size: 12px; color: var(--muted); }
   .foot .tag { min-width: 26px; text-align: center; padding: 2px 5px; font-size: 10px; }
 .tools { background:#fff; border-radius:14px; padding:6px 14px; box-shadow:0 1px 2px rgba(20,33,61,.06),0 4px 14px rgba(20,33,61,.07); }
-  .tools div { display:flex; justify-content:center; align-items:baseline; padding:7px 0; font-size:14.5px; font-weight:700; border-bottom:1px solid #eeebe5; }
+  .tools div { display:flex; justify-content:flex-start; align-items:baseline; padding:7px 0; font-size:14.5px; font-weight:700; border-bottom:1px solid #eeebe5; }
   .tools div:last-child { border-bottom:0; }
   .tools span { font-weight:400; font-size:12.5px; color:var(--grey); }
-  .qa small { font-size:12px; color:var(--grey); padding-left:2px; }
+  .qa small { font-size:12.5px; color:var(--navy); font-weight:600; line-height:1.35; padding-left:2px; }
+.tools div.pick { justify-content:space-between; color:var(--navy); }
+  .tools div.pick em { font-style:normal; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
+    background:var(--amber); color:#fff; border-radius:6px; padding:2px 7px; }
+  .tools.wide { padding:4px 14px; }
 </style>
 </head>
 <body>
@@ -111,7 +115,7 @@
           <span>Think out loud. Let it add to your ideas.</span></li>
         <li><span class="num">3</span>
           <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4"/><path d="M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/></svg>
-          <span>Look at the problem from new sides.</span></li>
+          <span>Try another AI too. Compare what you get.</span></li>
         <li><span class="num">4</span>
           <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><path d="M8 12.5l3 3 5-6"/></svg>
           <span>You stay in charge. The choice is yours.</span></li>
@@ -119,22 +123,21 @@
     </div>
 
     <div class="qa">
-      <div class="label">Common AI apps</div>
-      <div class="tools">
+      <div class="label">Try more than one</div>
+      <div class="tools wide">
+        <div class="pick">Claude <em>Wes's pick</em></div>
         <div>ChatGPT</div>
         <div>Gemini</div>
         <div>Copilot</div>
-        <div>Claude</div>
         <div>Meta AI</div>
       </div>
-      <small>Free to try, on phone or computer.</small>
+      <small>Each one thinks differently. Compare them. For professional work, Wes's pick is Claude.</small>
     </div>
   </div>
 
   <div class="try">
     <div class="k">A thought to try</div>
     <p>&ldquo;Here is something I want to make better: ___. Help me see it differently.&rdquo;</p>
-    <small>Ideas grow when you share them, even with a machine.</small>
   </div>
 
   <div class="cards">
@@ -167,11 +170,11 @@
       <ol>
         <li>Empiece con lo que le importa.</li>
         <li>Piense en voz alta. Deje que la IA sume a sus ideas.</li>
-        <li>Mire el problema desde otros lados.</li>
+        <li>Pruebe también otra IA. Compare los resultados.</li>
         <li>Usted manda. La decisión es suya.</li>
       </ol>
-      <p class="b">Puede equivocarse. No le conoce a usted.</p>
-      <p class="b">¿Para el trabajo? Hable primero con su supervisor.</p>
+      <p class="b">Pruebe varias. Para el trabajo profesional, Wes recomienda Claude.</p>
+      <p class="b">Puede equivocarse. No le conoce a usted. ¿Para el trabajo? Hable primero con su supervisor.</p>
     </div>
     <div>
       <span class="tag">FR</span>
@@ -180,11 +183,11 @@
       <ol>
         <li>Partez de ce qui compte pour vous.</li>
         <li>Pensez à voix haute. Laissez l’IA enrichir vos idées.</li>
-        <li>Regardez le problème autrement.</li>
+        <li>Essayez aussi une autre IA. Comparez.</li>
         <li>C’est vous qui décidez.</li>
       </ol>
-      <p class="b">Elle peut se tromper. Elle ne vous connaît pas.</p>
-      <p class="b">Pour le travail&nbsp;? Parlez d’abord à votre responsable.</p>
+      <p class="b">Essayez-en plusieurs. Pour le travail professionnel, Wes recommande Claude.</p>
+      <p class="b">Elle peut se tromper. Elle ne vous connaît pas. Pour le travail&nbsp;? Parlez d’abord à votre responsable.</p>
     </div>
     <div>
       <span class="tag">SW</span>
@@ -193,19 +196,19 @@
       <ol>
         <li>Anza na kile kilicho muhimu kwako.</li>
         <li>Fikiri kwa sauti. Acha AI iongeze kwenye mawazo yako.</li>
-        <li>Litazame tatizo kwa pande nyingine.</li>
+        <li>Jaribu pia AI nyingine. Linganisha majibu.</li>
         <li>Wewe ndiye mwenye uamuzi.</li>
       </ol>
-      <p class="b">Inaweza kukosea. Haikujui wewe.</p>
-      <p class="b">Kwa kazi? Ongea na msimamizi wako kwanza.</p>
+      <p class="b">Jaribu kadhaa. Kwa kazi za kitaalamu, Wes anapendekeza Claude.</p>
+      <p class="b">Inaweza kukosea. Haikujui wewe. Kwa kazi? Ongea na msimamizi wako kwanza.</p>
     </div>
   </div>
 
   <div class="foot">
-    <div><span class="tag gtag">EN</span>AI is a tool. You are the thinker. · Keep private things private. · Need help? Talk to Wes.</div>
-    <div><span class="tag gtag">ES</span>La IA es una herramienta. Usted es quien piensa. · Lo privado, en privado. · ¿Necesita ayuda? Hable con Wes.</div>
-    <div><span class="tag gtag">FR</span>L’IA est un outil. C’est vous qui pensez. · Gardez le privé pour vous. · Besoin d’aide&nbsp;? Parlez à Wes.</div>
-    <div><span class="tag gtag">SW</span>AI ni chombo. Wewe ndiye mfikiri. · Mambo ya siri yabaki siri. · Unahitaji msaada? Ongea na Wes.</div>
+    <div><span class="tag gtag">EN</span>AI is a tool. You are the thinker. · Try more than one. · Need help? Talk to Wes.</div>
+    <div><span class="tag gtag">ES</span>La IA es una herramienta. Usted es quien piensa. · Pruebe más de una. · ¿Necesita ayuda? Hable con Wes.</div>
+    <div><span class="tag gtag">FR</span>L’IA est un outil. C’est vous qui pensez. · Essayez-en plusieurs. · Besoin d’aide&nbsp;? Parlez à Wes.</div>
+    <div><span class="tag gtag">SW</span>AI ni chombo. Wewe ndiye mfikiri. · Jaribu zaidi ya moja. · Unahitaji msaada? Ongea na Wes.</div>
   </div>
 
 </div>
