@@ -19,10 +19,10 @@ LANGS = ["es", "fr", "sw"]            # house order, same as TILE_LANGS in conkl
 # ---- English master text (edit here) ----
 TITLE = "AI Questions"
 BLOCKS = [
- ("New to AI?", [[("AI tools like ChatGPT, Claude and Copilot are chat assistants. You type a request in everyday language and they write back. Think of one as a fast, eager helper, not an expert who is always right.", 0)]]),
+ ("New to AI?", [[("AI tools like ChatGPT, Claude and Copilot are chat assistants: you type a request and they write back. Think of one as a fast, eager helper, not an expert who is always right.", 0)]]),
  ("Questions about AI", [[("Is it always right?", 1), ("No. Double-check facts, numbers and names.", 0)],
-                         [("Will it take my job?", 1), ("It speeds up tasks. People who learn to use it well get the most out of it.", 0)]]),
- ("How to use AI", [[("Say what you want. Add context: who it's for, the tone and the length. If it's not right, ask again. Check it before you use or send it.", 0)]]),
+                         ]),
+ ("How to use AI", [[("Say what you want. Add context. Ask again if it's not right. Check it before you use or send it.", 0)]]),
  ("Use with care", [[("Don't paste confidential, customer or personal details into a tool unless it's approved. Never send AI-written text without reading it first.", 0)]]),
 ]
 FOOT = "Questions? Just ask."
@@ -57,7 +57,7 @@ def version(item, lang):
 W, H = letter; M = 42
 DARK, AMBER = HexColor("#0f1216"), HexColor("#e8a33d")
 INK, GREY, LINE, HAIR = HexColor("#1f2a33"), HexColor("#4b5662"), HexColor("#f7dfbb"), HexColor("#e1e5ea")
-HH, FH = 100, 62
+HH, FH = 98, 56
 TW = W - 2*M; GUT = 26
 
 def layout(k):
@@ -77,12 +77,12 @@ def layout(k):
     return blocks
 
 def block_h(b, k):
-    h = 14*k + 12 + 10          # heading + translated heading + rule gaps
+    h = 14*k + 12 + 4 + 10      # heading, translated heading, rule
     for e, ts in b[2]:
-        h += e.height + 9 + sum(p.height + 3 for _, p in ts) + 12
+        h += e.height + 7 + 9 + sum(p.height + 3 for _, p in ts) + 9
     return h
 
-avail = H - HH - 4 - FH - 3 - 30
+avail = H - HH - 4 - 22 - (FH + 3 + 14)
 k = 1.0
 while True:
     blocks = layout(k)
@@ -102,8 +102,9 @@ lw = 128; c.drawImage(LOGO, M, H-16-lw*117/520, width=lw, height=lw*117/520, mas
 def spaced(x, y, s, font, size, color, cs, align="l"):
     t = c.beginText(); t.setFont(font, size); t.setFillColor(color); t.setCharSpace(cs)
     w = c.stringWidth(s, font, size) + cs*len(s)
-    t.setTextOrigin(x - (w if align == "r" else 0), y); t.textOut(s); c.drawText(t)
-spaced(M, H-72, TITLE.upper(), "Helvetica-Bold", 24, AMBER, 4)
+    t.setTextOrigin(x - (w if align == "r" else 0), y); t.textOut(s); t.setCharSpace(0)
+    c.saveState(); c.drawText(t); c.restoreState(); c._charSpace = 0
+spaced(M, H-74, TITLE.upper(), "Helvetica-Bold", 24, AMBER, 4)
 sub = "  ·  ".join(tr(TITLE, l).upper() for l in LANGS)
 spaced(M, H-90, sub, "Helvetica", 8, HexColor("#e9c88f"), 1.6)
 
@@ -128,10 +129,10 @@ for head, hl, its in blocks:
 # footer
 c.setFillColor(DARK); c.rect(0, 0, W, FH, stroke=0, fill=1)
 c.setFillColor(AMBER); c.rect(0, FH, W, 3, stroke=0, fill=1)
-spaced(M, 38, FOOT.upper(), "Helvetica-Bold", 10.5, white, 2)
-spaced(M, 22, "  ·  ".join(tr(FOOT, l).upper() for l in LANGS), "Helvetica", 7.2, HexColor("#e9c88f"), 1.2)
-c.setFillColor(AMBER); c.setFont("Helvetica-Bold", 16); c.drawRightString(W-M, 32, EMAIL)
-ew = c.stringWidth(EMAIL, "Helvetica-Bold", 16); c.linkURL("mailto:"+EMAIL, (W-M-ew, 26, W-M, 50), relative=0)
-c.setFillColor(HexColor("#aab3be")); c.setFont("Helvetica", 8); c.drawRightString(W-M, 15, "Conklin Office Furniture")
+spaced(M, 34, FOOT.upper(), "Helvetica-Bold", 10.5, white, 2)
+spaced(M, 20, "  ·  ".join(tr(FOOT, l).upper() for l in LANGS), "Helvetica", 7, HexColor("#e9c88f"), 0.4)
+c.setFillColor(AMBER); c.setFont("Helvetica-Bold", 15); c.drawRightString(W-M, 28, EMAIL)
+ew = c.stringWidth(EMAIL, "Helvetica-Bold", 15); c.linkURL("mailto:"+EMAIL, (W-M-ew, 22, W-M, 46), relative=0)
+c.setFillColor(HexColor("#aab3be")); c.setFont("Helvetica", 8); c.drawRightString(W-M, 12, "Conklin Office Furniture")
 c.save()
 json.dump(cache, open(CACHE, "w"), ensure_ascii=False, indent=1)
