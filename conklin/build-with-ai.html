@@ -52,7 +52,7 @@
   .try small { display: block; color: var(--grey); font-size: 12.5px; margin-top: 2px; }
 
   /* two cards */
-  .cards { display: grid; grid-template-columns: 1.45fr 1fr; gap: 18px; margin-top: 18px; }
+  .cards { display: grid; grid-template-columns: 1.75fr 1fr; gap: 18px; margin-top: 18px; }
   .card { position: relative; background: #fff; border-radius: 16px; padding: 18px 18px 14px; }
   .card.navy { border: 1.5px solid var(--navy); }
   .card.soft { box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 6px 18px rgba(20,33,61,.08); }
@@ -60,7 +60,7 @@
            background: var(--amber); color: #fff; font-weight: 700; font-size: 12.5px; display: grid; place-items: center; }
   .card h3 { margin: 0 0 6px; font-size: 18px; display: flex; align-items: center; gap: 8px; }
   .card h3 svg { width: 20px; height: 20px; color: var(--amber); }
-  .card ul { margin: 0; padding-left: 16px; font-size: 14.5px; line-height: 1.4; }
+  .card ul { margin: 0; padding-left: 16px; font-size: 13.5px; line-height: 1.4; }
   .card ul li + li { margin-top: 2px; }
   .card .multi { font-size: 10.5px; color: var(--grey); line-height: 1.35; margin-top: 7px; }
   .card .mail { display: flex; align-items: center; gap: 9px; font-size: 17px; font-weight: 600; margin-top: 8px; color: var(--navy); text-decoration: none; }
@@ -80,7 +80,7 @@
 
   /* foot strip */
   .foot { margin-top: auto; border-top: 1px solid var(--line); padding-top: 10px; display: grid; gap: 4px; }
-  .foot div { display: flex; gap: 10px; align-items: center; font-size: 12px; color: var(--muted); }
+  .foot div { display: flex; gap: 10px; align-items: center; font-size: 11.5px; color: var(--muted); }
   .foot .tag { min-width: 26px; text-align: center; padding: 2px 5px; font-size: 10px; }
 .tools { background:#fff; border-radius:14px; padding:6px 14px; box-shadow:0 1px 2px rgba(20,33,61,.06),0 4px 14px rgba(20,33,61,.07); }
   .tools div { display:flex; justify-content:flex-start; align-items:baseline; padding:7px 0; font-size:14.5px; font-weight:700; border-bottom:1px solid #eeebe5; }
@@ -91,6 +91,7 @@
   .tools div.pick em { font-style:normal; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
     background:var(--amber); color:#fff; border-radius:6px; padding:2px 7px; }
   .tools.wide { padding:4px 14px; }
+  .foot b { color: var(--navy); font-weight: 600; }
 </style>
 </head>
 <body>
@@ -149,8 +150,8 @@
         <li>It does not know you. You know your life.</li>
         <li>Keep private things private: passwords, bank info.</li>
         <li>Using it for work? Speak with your manager first.</li>
+        <li><b>Using AI to cause harm can and will have consequences.</b></li>
       </ul>
-      <div class="multi">Recuerde · À retenir · Kumbuka</div>
     </div>
     <div class="card soft">
       <span class="badge">2</span>
@@ -186,7 +187,7 @@
         <li>Essayez aussi une autre IA. Comparez.</li>
         <li>C’est vous qui décidez.</li>
       </ol>
-      <p class="b">Essayez-en plusieurs. Pour le travail professionnel, Wes recommande Claude.</p>
+      <p class="b">Essayez-en plusieurs. Pour un usage pro, Wes recommande Claude.</p>
       <p class="b">Elle peut se tromper. Elle ne vous connaît pas. Pour le travail&nbsp;? Parlez d’abord à votre responsable.</p>
     </div>
     <div>
@@ -205,10 +206,10 @@
   </div>
 
   <div class="foot">
-    <div><span class="tag gtag">EN</span>AI is a tool. You are the thinker. · Try more than one. · Need help? Talk to Wes.</div>
-    <div><span class="tag gtag">ES</span>La IA es una herramienta. Usted es quien piensa. · Pruebe más de una. · ¿Necesita ayuda? Hable con Wes.</div>
-    <div><span class="tag gtag">FR</span>L’IA est un outil. C’est vous qui pensez. · Essayez-en plusieurs. · Besoin d’aide&nbsp;? Parlez à Wes.</div>
-    <div><span class="tag gtag">SW</span>AI ni chombo. Wewe ndiye mfikiri. · Jaribu zaidi ya moja. · Unahitaji msaada? Ongea na Wes.</div>
+    <div><span class="tag gtag">EN</span><span><b>Using AI to cause harm can and will have consequences.</b> · Try more than one. · Need help? Talk to Wes.</span></div>
+    <div><span class="tag gtag">ES</span><span><b>Usar la IA para hacer daño puede tener, y tendrá, consecuencias.</b> · Pruebe más de una. · ¿Necesita ayuda? Hable con Wes.</span></div>
+    <div><span class="tag gtag">FR</span><span><b>Utiliser l’IA pour nuire peut avoir, et aura, des conséquences.</b> · Essayez-en plusieurs. · Besoin d’aide&nbsp;? Parlez à Wes.</span></div>
+    <div><span class="tag gtag">SW</span><span><b>Kutumia AI kudhuru wengine kutakuwa na matokeo.</b> · Jaribu zaidi ya moja. · Unahitaji msaada? Ongea na Wes.</span></div>
   </div>
 
 </div>
