@@ -19,7 +19,7 @@
   html, body { margin: 0; background: var(--bg); }
   body { width: 8.5in; height: 11in; overflow: hidden; color: var(--ink); font-family: var(--sans);
          -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  .page { padding: 30px 44px 22px; height: 100%; display: flex; flex-direction: column; }
+  .page { padding: 26px 44px 16px; height: 100%; display: flex; flex-direction: column; }
 
   /* top bar: logo left, contact right */
   .top { display: flex; justify-content: space-between; align-items: flex-start; }
@@ -27,12 +27,12 @@
   .top .contact { font-size: 12.5px; font-weight: 600; color: var(--navy); margin-top: 4px; }
 
   /* hero */
-  .hero { display: grid; grid-template-columns: 1fr 236px; gap: 20px; margin-top: 20px; }
+  .hero { display: grid; grid-template-columns: 1fr 236px; gap: 20px; margin-top: 14px; }
   .kicker { color: var(--amber); font-weight: 700; letter-spacing: .26em; font-size: 12.5px; text-transform: uppercase; }
   h1 { font-family: var(--heavy); font-weight: 900; font-style: italic; color: var(--navy);
        font-size: 58px; line-height: 1; margin: 8px 0 8px; white-space: nowrap; letter-spacing: -.01em; text-transform: uppercase; }
   .sub { font-size: 19px; line-height: 1.35; font-weight: 600; margin: 0 0 14px; }
-  ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 9px; }
+  ol.steps { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
   ol.steps li { display: grid; grid-template-columns: 28px 26px 1fr; gap: 0 12px; align-items: center; font-size: 17px; line-height: 1.3; }
   .num { width: 26px; height: 26px; border-radius: 50%; background: var(--navy); color: #fff; font-weight: 700;
          font-size: 13px; display: grid; place-items: center; }
@@ -46,13 +46,13 @@
   .qcard span { font-size: 12.5px; color: var(--grey); line-height: 1.35; display: block; }
 
   /* callout */
-  .try { margin-top: 14px; background: var(--tint); border: 1px solid var(--tint-line); border-radius: 14px; padding: 11px 16px; }
+  .try { margin-top: 12px; background: var(--tint); border: 1px solid var(--tint-line); border-radius: 14px; padding: 11px 16px; }
   .try .k { color: var(--amber); font-weight: 700; letter-spacing: .22em; font-size: 11px; text-transform: uppercase; }
   .try p { margin: 3px 0 0; font-size: 14.5px; font-weight: 700; }
   .try small { display: block; color: var(--grey); font-size: 12.5px; margin-top: 2px; }
 
   /* two cards */
-  .cards { display: grid; grid-template-columns: 1.45fr 1fr; gap: 18px; margin-top: 20px; }
+  .cards { display: grid; grid-template-columns: 1.45fr 1fr; gap: 18px; margin-top: 18px; }
   .card { position: relative; background: #fff; border-radius: 16px; padding: 18px 18px 14px; }
   .card.navy { border: 1.5px solid var(--navy); }
   .card.soft { box-shadow: 0 1px 2px rgba(20,33,61,.06), 0 6px 18px rgba(20,33,61,.08); }
@@ -67,14 +67,14 @@
   .card .mail i { width: 11px; height: 11px; border-radius: 50%; background: var(--amber); display: inline-block; }
 
   /* three language columns */
-  hr { border: 0; border-top: 1px solid var(--line); margin: 16px 0 10px; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 12px 0 8px; }
   .langs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 26px; }
   .tag { display: inline-block; background: var(--navy); color: #fff; font-weight: 700; font-size: 11px;
          padding: 3px 7px; border-radius: 6px; letter-spacing: .04em; }
   .gtag { background: var(--tag); color: var(--navy); }
   .lk { color: var(--amber); font-weight: 700; letter-spacing: .16em; font-size: 10.5px; text-transform: uppercase; margin: 9px 0 4px; line-height: 1.35; }
-  .lh { font-weight: 600; font-size: 14.5px; line-height: 1.3; margin: 0 0 4px; }
-  .langs ol { margin: 0 0 6px; padding-left: 18px; font-size: 12.5px; line-height: 1.4; }
+  .lh { font-weight: 600; font-size: 13.5px; line-height: 1.3; margin: 0 0 4px; }
+  .langs ol { margin: 0 0 5px; padding-left: 18px; font-size: 12.5px; line-height: 1.35; }
   .langs .b { font-weight: 700; font-size: 12.5px; line-height: 1.35; margin: 0 0 3px; }
   .langs .n { font-size: 11.5px; line-height: 1.35; margin: 0; }
 
@@ -145,6 +145,7 @@
         <li>It can make mistakes. Double-check.</li>
         <li>Never give it passwords or bank info.</li>
         <li>Get the app from the official app store.</li>
+        <li>Using it for work? Speak with your manager first.</li>
       </ul>
       <div class="multi">Cuídese · Prudence · Kuwa salama</div>
     </div>
@@ -170,6 +171,7 @@
         <li>Elija la mejor.</li>
       </ol>
       <p class="b">Puede cometer errores. Nunca le dé contraseñas ni datos del banco.</p>
+      <p class="b">¿Para el trabajo? Hable primero con su supervisor.</p>
     </div>
     <div>
       <span class="tag">FR</span>
@@ -182,6 +184,7 @@
         <li>Choisissez la meilleure.</li>
       </ol>
       <p class="b">Elle peut faire des erreurs. Ne lui donnez jamais vos mots de passe ni vos infos bancaires.</p>
+      <p class="b">Pour le travail&nbsp;? Parlez d’abord à votre responsable.</p>
     </div>
     <div>
       <span class="tag">SW</span>
@@ -194,6 +197,7 @@
         <li>Chagua bora zaidi.</li>
       </ol>
       <p class="b">Inaweza kukosea. Usiipe kamwe nywila wala taarifa za benki.</p>
+      <p class="b">Kwa kazi? Ongea na msimamizi wako kwanza.</p>
     </div>
   </div>
 
