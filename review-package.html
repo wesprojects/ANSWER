@@ -12,7 +12,7 @@
   h3 { font-size: 10pt; margin: 8px 0 3px; break-after: avoid; }
   .sub { color: #444; margin-bottom: 8px; }
   .meta { border: 1.5px solid #333; padding: 5px 8px; margin-bottom: 8px; }
-  .meta b { display: inline-block; width: 70px; }
+  .meta b { display: inline-block; width: 90px; }
   .flag { border: 1.5px solid #b00; background: #fff3f3; padding: 4px 8px; margin: 6px 0; break-inside: avoid; }
   .flag b { color: #b00; }
   table { width: 100%; border-collapse: collapse; margin-bottom: 4px; break-inside: auto; }
@@ -23,7 +23,12 @@
   td.n { width: 30%; }
   tr.grp td { background: #f0f0f0; font-weight: bold; font-size: 9pt; }
   .spec { font-weight: normal; }
-  .cb { display: inline-block; width: 11px; height: 11px; border: 1.5px solid #333; vertical-align: -2px; margin-right: 3px; }
+  .cb { display: inline-block; width: 11px; height: 11px; border: 1.5px solid #333; vertical-align: -2px; margin-right: 3px; text-align: center; font-size: 9px; line-height: 10px; font-weight: bold; }
+  .cb.ok { background: #111; color: #fff; }
+  .cb.ok::after { content: "\2713"; }
+  .cb.bad { border-color: #b00; background: #fdd; color: #b00; }
+  .cb.bad::after { content: "!"; }
+  .pre { font-size: 8.5pt; color: #444; }
   .item { border: 1.5px solid #333; padding: 6px 8px; margin-bottom: 8px; break-inside: avoid; }
   .item h3 { margin-top: 0; }
   .item ul { margin: 2px 0 4px 16px; padding: 0; }
@@ -50,6 +55,7 @@
   (1) The drawing for <b>5CWS-M2460-W</b> is believed to be wrong. The supplier needs a correct original from you.
   (2) The supplier's email refers to a lock system "below", but no picture or part number came through. Ask them to resend it.
   (3) Pack quantity is <b>1 pc/pack</b> for Groups A&ndash;C but <b>2 pcs/pack</b> for Groups D and E. Confirm that is intended.
+  (4) <b>Group E drawings (5 of 5) received and checked.</b> One issue: <b>5CWS-M2448-WHV2</b> has a 224 mm cutout, not 389 mm. Details in Part 1. The other 18 drawings have not been received yet.
 </div>
 
 <h2>Part 1 &mdash; Worksurface DWG Review (23 drawings)</h2>
@@ -85,12 +91,13 @@
   <tr style="background:#fff3f3"><td><b>5CWS-M2460-W</b><br><span class="ref" style="color:#b00">Supplier believes this drawing is WRONG. They received the wrong original. Send the correct one.</span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
   <tr><td>5CWS-M3048-W</td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
 
-  <tr class="grp"><td colspan="6">GROUP E <span class="spec">&mdash; similar to Groups C and D, square cable grommet at 389 mm length, 2 pcs per pack</span></td></tr>
-  <tr><td>5CWS-M2448-WHV2</td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
-  <tr><td>5CWS-M2460-WHV2</td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
-  <tr><td>5CWS-M2472-WHV2</td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
-  <tr><td>5CWS-M3060-WHV2</td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
-  <tr><td>5CWS-M3072-WHV2</td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="c"><span class="cb"></span></td><td class="n"></td></tr>
+  <tr class="grp"><td colspan="6">GROUP E <span class="spec">&mdash; square cable grommet cutout at 389 mm, 12 M6 inserts, 2 pilot holes, 2 pcs per pack</span><br><span class="pre">Pre-checked against the 5 drawings you sent. &#10003; = matches the email, ! = needs your attention. Please verify.</span></td></tr>
+  <tr style="background:#fff3f3"><td>5CWS-M2448-WHV2</td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb bad"></span></td><td class="c"><span class="cb ok"></span></td><td class="n"><b>Cutout is 224 mm, not 389.</b> Cutout height is 104 (others 106.5). Notes list is missing "white" board and the "junction box not included" line.</td></tr>
+  <tr><td>5CWS-M2460-WHV2</td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="n">1524 &times; 609. Cutout 389 &times; 106.5, centered (567.5 each side).</td></tr>
+  <tr><td>5CWS-M2472-WHV2</td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="n">1829 &times; 609. Cutout 389 &times; 106.5, centered (720 each side).</td></tr>
+  <tr><td>5CWS-M3060-WHV2</td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="n">1524 &times; 762. Cutout 389 &times; 106.5, centered (567.5 each side).</td></tr>
+  <tr><td>5CWS-M3072-WHV2</td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="c"><span class="cb ok"></span></td><td class="n">1829 &times; 762. Cutout 389 &times; 106.5, centered (720 each side).</td></tr>
+  <tr><td colspan="6" class="ref"><b>Common to all five:</b> 12 &times; &Oslash;8 deep 20 / &Oslash;13 &times; 90&deg; (6 holes each end; rows 146 mm from the top edge and 321 mm apart; hole pitch 28 mm, 31 mm from the left edge; 142 mm bottom margin on 609 depth, 295 mm on 762). 2 &times; &Oslash;3 deep 3 pilot holes (one dimensioned: 197 mm from the left, 64.5 mm down). Cutout 38 mm from the top edge, R6 corners. 25 mm melamine board, 3 mm same-color edgebanding, 2 pcs per pack, US packing.</td></tr>
 </table>
 
 <h3>Part 1 questions to answer back</h3>
@@ -99,11 +106,24 @@
   <div class="line"></div><div class="line"></div>
 </div>
 <div class="item">
-  <b>1b. Groups D and E:</b> are these also 12 M6 inserts and 2 pilot holes (like Group C)? The email only says "similar" or "same function".
+  <b>1b. Group D:</b> is it also 12 M6 inserts and 2 pilot holes (like Group C)? The email only says "same function". <span class="pre">(Group E drawings confirm 12 inserts and 2 pilot holes.)</span>
   <div class="line"></div>
 </div>
 <div class="item">
   <b>1c. Packing:</b> Groups A&ndash;C are 1 pc per pack and Groups D&ndash;E are 2 pcs per pack. Is the difference intended?
+  <div class="line"></div>
+</div>
+
+<div class="item">
+  <b>1d. 5CWS-M2448-WHV2:</b> the drawing shows a <b>224 mm</b> cutout (104 mm tall), but Group E is supposed to be 389 mm (106.5 mm tall) and 224 mm is the Group D size. Is this the wrong drawing, or is the 24x48 intentionally different? Also, its notes omit "white" board and "junction box not included". Confirm which is correct.
+  <div class="line"></div><div class="line"></div>
+</div>
+<div class="item">
+  <b>1e. All five Group E drawings:</b> only one &Oslash;3 pilot hole is dimensioned (197 mm from the left, 64.5 mm down). The second one (a dot near the top right) has no dimension. Confirm it mirrors the first. Also, the drawings call out &Oslash;8 deep 20 / &Oslash;13 &times; 90&deg; but never name the M6 insert. Confirm the insert part.
+  <div class="line"></div><div class="line"></div>
+</div>
+<div class="item">
+  <b>1f. Edgebanding:</b> the Group E drawings already say 3 mm same-color edgebanding. Is that the same change you want in items 3 to 5?
   <div class="line"></div>
 </div>
 
