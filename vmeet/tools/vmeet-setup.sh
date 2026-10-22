@@ -30,7 +30,7 @@ ask()   { whiptail --title "$TITLE" --inputbox "$1" 12 74 "${2:-}" 3>&1 1>&2 2>&
 secret(){ whiptail --title "$TITLE" --passwordbox "$1" 11 74 3>&1 1>&2 2>&3; }
 msg()   { whiptail --title "$TITLE" --msgbox "$1" "${2:-14}" 76; }
 yes_no(){ whiptail --title "$TITLE" --yesno "$1" "${2:-12}" 74; }
-show_file() { whiptail --title "$TITLE" --scrolltext --textbox "$1" 24 90; }
+show_file() { whiptail --title "$TITLE" --scrolltext --textbox "$1" 30 90; }
 run_shown() {   # run a command on the plain console (it may ask questions), then wait for Enter
   clear
   echo "== $*"; echo
