@@ -58,7 +58,11 @@ status_text() {
   echo
   echo "Public address:    ${pub:-not set (Cloudflare Tunnel in this menu)}"
   echo "Cloudflare Tunnel: ${tun:-not installed}"
-  cert=$(openssl x509 -in "$DATA/certs/server.crt" -noout -issuer -enddate 2>/dev/null | sed 's/^issuer=/issued by /; s/^notAfter=/expires /' | tr '\n' ';' | sed 's/;$//')
+  if [ -e "$DATA/certs/server.crt" ] && [ ! -r "$DATA/certs/server.crt" ]; then
+    cert="(run with sudo to see it)"
+  else
+    cert=$(openssl x509 -in "$DATA/certs/server.crt" -noout -issuer -enddate 2>/dev/null | sed 's/^issuer=/issued by /; s/^notAfter=/expires /' | tr '\n' ';' | sed 's/;$//')
+  fi
   echo "Certificate:       ${cert:-none}"
   keys=""
   for k in GOOGLE_API_KEY ANTHROPIC_API_KEY AZURE_SPEECH_KEY; do
@@ -66,7 +70,9 @@ status_text() {
   done
   echo "Keys in vmeet.env: ${keys:- none (they can also be set on the admin page)}"
   echo
-  if [ -s "$DATA/admin-pin.txt" ]; then
+  if [ -e "$DATA/admin-pin.txt" ] && [ ! -r "$DATA/admin-pin.txt" ]; then
+    echo "First admin PIN:   run  sudo vmeet-setup --status  to see it"
+  elif [ -s "$DATA/admin-pin.txt" ]; then
     echo "First admin sign-in: name Admin, PIN $(cat "$DATA/admin-pin.txt")"
     echo "   (if it was changed on the admin page or here, the new PIN applies)"
   fi
@@ -304,8 +310,8 @@ welcome() {
 }
 
 case "${1:-}" in
-  --status) status_text ;;
+  --status) status_text; exit 0 ;;
   --welcome) welcome; menu ;;
   *) menu ;;
 esac
-clear
+clear 2>/dev/null || true
