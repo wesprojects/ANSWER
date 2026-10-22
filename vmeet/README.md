@@ -16,7 +16,7 @@ Three pinnable apps on iPhone, Android and PC, served by one Ubuntu server:
 
 1. **The speaker talks.** Their phone or PC turns speech into text: the browser's own recognizer (free), or Google Speech-to-Text through the server (any microphone or headset, any browser).
 2. **The server translates** each phrase once per language someone is listening in: Claude Haiku 5.5, with Google Cloud Translation and then Google's free endpoint as automatic fallbacks.
-3. **The server voices it** in each language: Google Cloud Text-to-Speech (WaveNet voices); Azure for languages Google has no voice for (Swahili) when an Azure key is set; then Google Translate's free read-aloud; then the phone's own voice.
+3. **The server voices it** in each language with Google Cloud Text-to-Speech (WaveNet voices where the language has them, Swahili included). If a voice fails, it falls back to Azure (when a key is set), then Google Translate's free read-aloud, then the phone's own voice.
 4. **Each listener's phone** shows the text in their language and plays the voice through whatever is connected: earbuds, a Bluetooth headset or the phone speaker.
 
 **Timing.** Words appear on listeners' screens about half a second to a second after they're spoken, while the speaker is still talking, and settle as the phrase finishes. The voice follows about 2 to 3 seconds behind the speaker, because a phrase has to be finished, translated, then voiced. Someone who talks without pausing is cut into phrases every 2 seconds, so the voice never falls far behind.
@@ -109,7 +109,7 @@ The microphone only works over trusted HTTPS. Choose one or both.
 
 **Anthropic** (Claude translation): console.anthropic.com → API keys.
 
-**Azure Speech** (optional: a natural Swahili voice): Azure portal → create a **Speech** resource → Keys and Endpoint. Enter the key and its region (for example `eastus`).
+**Azure Speech** (optional backup voices): Azure portal → create a **Speech** resource → Keys and Endpoint. Enter the key and its region (for example `eastus`).
 
 Press **TEST ENGINES** after saving. It shows which voice each language will use.
 
@@ -135,7 +135,7 @@ Check current prices on Google's and Anthropic's pricing pages.
 
 - **Speakers:** Chrome or Edge (Android, Windows, Mac), Safari (iPhone, iPad, Mac). On iPhone, turn on Dictation (Settings → General → Keyboard). Firefox has no browser recognizer; ask the admin to turn on the Google recognizer.
 - **Listeners:** any current phone browser.
-- **Swahili voice:** Google may not have one, and iPhones have none built in. Without an Azure key, Swahili is voiced by Google Translate's free read-aloud: unofficial, so it can stop working. An Azure key is the dependable fix. Swahili text is unaffected.
+- **Swahili voice** comes from Google Cloud. Google may offer it in fewer voice families than Spanish or French; VMEET takes the best Swahili voice Google lists, whatever the family setting. **TEST ENGINES** names the voice each language gets. iPhones have no Swahili voice of their own, so the phone's-own-voice backup reads Swahili as text only there.
 - **Background audio** with the screen locked depends on the phone. Keeping the app open (screen on, brightness down) is the dependable setup; that's why the app holds the screen awake.
 - **The listener-screen wording** in Spanish, French and Swahili, and the scan line printed on the QR sheet, should be checked by a native speaker before it goes on the wall (`public/i18n.js`).
 

@@ -106,7 +106,7 @@ DEFAULT_SETTINGS = {
 SECRET_KEYS = ('googleKey', 'anthropicKey', 'azureKey')
 ENV_KEYS = {'googleKey': 'GOOGLE_API_KEY', 'anthropicKey': 'ANTHROPIC_API_KEY', 'azureKey': 'AZURE_SPEECH_KEY'}
 
-# Microsoft Azure neural voices, used where Google has no voice (Swahili above all).
+# Microsoft Azure neural voices: the backup when Google has no voice for a language or fails.
 AZURE_VOICES = {
     'sw': ('sw-KE', 'sw-KE-ZuriNeural', 'sw-KE-RafikiNeural'),
     'es': ('es-US', 'es-US-PalomaNeural', 'es-US-AlonsoNeural'),
@@ -880,6 +880,11 @@ def voice_for(lang):
             log('!! voice list', repr(e))
     tag = {'wavenet': '-wavenet-', 'neural2': '-neural2-', 'chirp3-hd': '-chirp3-hd-', 'standard': '-standard-'}[tier]
     cands = [v for v in VOICES['list'] if code in v.get('languageCodes', [])]
+    if not cands:
+        # Same language under another region (Swahili listed as sw-TZ rather than sw-KE, say).
+        base = code.split('-')[0].lower()
+        cands = [v for v in VOICES['list']
+                 if any(c.split('-')[0].lower() == base for c in v.get('languageCodes', []))]
     if VOICES['list'] and not cands:
         with VOICES_LOCK:
             VOICES['picked'][key] = None
@@ -887,8 +892,10 @@ def voice_for(lang):
     # Prefer the family, then the gender, then any family that sounds better than Standard.
     rank = lambda v: (tag in v['name'].lower(), v.get('ssmlGender') == gender,
                       '-standard-' not in v['name'].lower())
-    voice = {'languageCode': code, 'name': max(cands, key=rank)['name']} if cands \
-        else {'languageCode': code, 'ssmlGender': gender}
+    best = max(cands, key=rank) if cands else None
+    # A voice is asked for with a language code it lists.
+    voice = {'languageCode': code if code in best.get('languageCodes', []) else best['languageCodes'][0],
+             'name': best['name']} if best else {'languageCode': code, 'ssmlGender': gender}
     with VOICES_LOCK:
         VOICES['picked'][key] = voice
     return voice
@@ -1839,7 +1846,7 @@ def engine_test():
         out.append({'engine': 'Google Cloud (Translation, Text-to-Speech, Speech-to-Text)', 'ok': False,
                     'result': 'No Google API key set.'})
     if azure_key():
-        attempt('Azure voice (Swahili)', lambda: '%d bytes of MP3' % len(tts_azure('Habari za asubuhi.', 'sw') or b''))
+        attempt('Azure voice (Swahili, backup)', lambda: '%d bytes of MP3' % len(tts_azure('Habari za asubuhi.', 'sw') or b''))
     if setting('freeVoice'):
         attempt('Free read-aloud (Swahili)', lambda: '%d bytes of MP3' % len(tts_free('Habari za asubuhi.', 'sw') or b''))
     for l in enabled_langs():

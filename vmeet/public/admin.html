@@ -224,7 +224,7 @@ async function settings() {
     check('s-live', s.liveCaptions, 'Live captions: show the words while they are still being spoken (text only)') + '</div>' +
 
     '<div class="card"><h2>Voice</h2>' + radio('tts', s.ttsEngine, [
-      ['google', 'Server voices (recommended)', 'Google Cloud voices; where Google has none (Swahili), Azure if a key is set, then Google Translate’s free read-aloud, then the phone’s own voice.'],
+      ['google', 'Server voices (recommended)', 'Google Cloud voices, Swahili included. If one fails: Azure if a key is set, then Google Translate’s free read-aloud, then the phone’s own voice.'],
       ['device', 'Phone’s own voice only', 'Free and instant, but quality and languages depend on each phone, and it can stop when the screen locks.'],
       ['off', 'Text only', 'No voice; listeners read.']]) +
     '<div class="row"><div class="grow"><label class="f" for="s-tier">Google voice family</label><select id="s-tier">' +
@@ -249,7 +249,7 @@ async function settings() {
     '<div class="card"><h2>API keys</h2>' +
     keyField('k-google', 'Google Cloud API key', s.googleKeySet, s.googleKeyHint, 'One key for Text-to-Speech, Translation and Speech-to-Text. In Google Cloud: enable those three APIs, then Credentials → Create API key, restricted to them.') +
     keyField('k-anthropic', 'Anthropic API key', s.anthropicKeySet, s.anthropicKeyHint, 'For Claude translation. console.anthropic.com → API keys.') +
-    keyField('k-azure', 'Azure Speech key (optional)', s.azureKeySet, s.azureKeyHint, 'Only needed for a natural Swahili voice. Azure portal → Speech service; 500,000 characters a month free.') +
+    keyField('k-azure', 'Azure Speech key (optional)', s.azureKeySet, s.azureKeyHint, 'Optional backup voices if Google fails. Azure portal → Speech service; 500,000 characters a month free.') +
     '<p class="hint">Keys are kept on the server (settings.json, readable only by the VMEET service) and never sent to phones.</p></div>' +
 
     '<div class="card"><div class="row"><button class="btn big go" id="s-save">SAVE SETTINGS</button><button class="btn big" id="s-test">TEST ENGINES</button></div>' +

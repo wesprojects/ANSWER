@@ -49,7 +49,7 @@ Cookie `vm` (HttpOnly, SameSite=Lax, Secure over TLS or the tunnel). Every write
 - Finished phrase → `translate_many()` into the languages currently connected (Claude: one call, every language, JSON schema; then Google Cloud; then the free endpoint; never raises) → broadcast `seg` → `synthesize()` per language in parallel on `POOL` → `audio` event per language.
 - Words still being spoken → `interim()` → `live` events, translated text-only with `translate_fast()` (never Claude). Generation counters drop stale work; the speaker numbers posts (`n`), and live words that arrive after their phrase was finished are dropped. Keep these guards.
 - Clients reconnect with `Last-Event-ID`/`since`; `history_for()` replays what they missed, translating languages that weren't connected at the time.
-- Voice chain (`synthesize`): Google (voice family picked from the voice list, cached a day; `None` when Google has no voice for the language) → Azure → free Google Translate read-aloud → `None`, meaning the phone's own `speechSynthesis` reads it.
+- Voice chain (`synthesize`): Google (voice family picked from the voice list, cached a day; a voice of the same language under another region code when the exact code has none; `None` when Google has no voice for the language) → Azure → free Google Translate read-aloud → `None`, meaning the phone's own `speechSynthesis` reads it.
 
 ## Client audio (`Player` in app.js)
 
