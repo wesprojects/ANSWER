@@ -8,3 +8,6 @@ transcripts/
 certs/
 *.tmp
 __pycache__/
+# Installer ISO builds
+*.iso
+.build-iso/

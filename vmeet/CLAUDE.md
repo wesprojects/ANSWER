@@ -21,7 +21,9 @@ Live translated meetings: a speaker's phone or PC turns speech into text, the se
 | `public/sw.js` | Service worker, one per app scope, network first |
 | `install.sh`, `tools/enable-tunnel.sh`, `tools/enable-public-https.sh` | Ubuntu install, Cloudflare Tunnel, Let's Encrypt (acme.sh, DNS-01 through Cloudflare) |
 | `tools/make-icons.py` | Draws the app icons (stdlib PNG) |
-| `tests/` | `smoke_test.py` (server), `browser_test.js` (Playwright), `qr_test.py` (OpenCV decodes every QR version and mask) |
+| `tools/vmeet-setup.sh` | Console setup menu (whiptail), installed as `/usr/local/sbin/vmeet-setup`: status, admin PIN, network (netplan), time zone, tunnel, certificate, API keys (`/etc/vmeet/vmeet.env`), service. `--welcome` is the first-boot walk-through. `VMEET_SYSROOT`/`VMEET_NO_ROOT` for tests |
+| `iso/` | `build-iso.sh` repacks the Ubuntu Server 24.04 ISO with xorriso: `/vmeet/app` (this folder), `/vmeet/pkgs` (cloudflared, acme.sh), `/vmeet/ask` and `/vmeet/auto` (autoinstall answers from `user-data`), and a new boot menu. Late-commands copy the app to `/opt/vmeet-media`; `vmeet-firstboot.service` runs `install.sh` from there, then `vmeet-welcome.service` opens the menu on tty1 |
+| `tests/` | `smoke_test.py` (server), `browser_test.js` (Playwright), `qr_test.py` (OpenCV decodes every QR version and mask), `setup_test.py` (the setup menu with stand-in whiptail, systemctl and netplan) |
 
 ## Non-negotiables
 

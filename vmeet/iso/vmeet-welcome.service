@@ -1,0 +1,18 @@
+[Unit]
+Description=VMEET setup walk-through on the console (after the first boot)
+Conflicts=getty@tty1.service
+After=vmeet-firstboot.service
+
+[Service]
+# simple, not oneshot: nobody may be at the console, and the boot must not wait for them.
+Type=simple
+Environment=TERM=linux
+ExecStart=/usr/local/sbin/vmeet-setup --welcome
+ExecStopPost=/bin/rm -f /run/vmeet-welcome-pending
+ExecStopPost=/bin/systemctl --no-block start getty@tty1.service
+StandardInput=tty
+StandardOutput=tty
+StandardError=tty
+TTYPath=/dev/tty1
+TTYReset=yes
+TTYVHangup=yes

@@ -37,6 +37,11 @@ TOKEN="$1"; NAME="${2:-}"
 NAME=$(printf '%s' "$NAME" | tr '[:upper:]' '[:lower:]'); NAME=${NAME#https://}; NAME=${NAME%%/*}
 printf '%s' "$NAME" | grep -Eqx '([a-z0-9]([a-z0-9-]{0,61}[a-z0-9])?\.)+[a-z]{2,}' || { echo "not a DNS name: $NAME" >&2; exit 2; }
 
+DEB=$(ls /opt/vmeet/pkgs/cloudflared*.deb 2>/dev/null | head -1 || true)
+if ! command -v cloudflared >/dev/null && [ -n "$DEB" ]; then
+  say "installing cloudflared from the install media ($(basename "$DEB"))"
+  DEBIAN_FRONTEND=noninteractive apt-get install -y -qq "$DEB" >/dev/null || dpkg -i "$DEB" >/dev/null || true
+fi
 if ! command -v cloudflared >/dev/null; then
   say "installing cloudflared from pkg.cloudflare.com"
   install -d -m 0755 /usr/share/keyrings
@@ -72,7 +77,7 @@ systemctl start vmeet
 
 say "checking https://$NAME (the first connection can take a minute)"
 ok=false
-for i in $(seq 1 30); do
+for _ in $(seq 1 30); do
   if curl -fsS --max-time 5 "https://$NAME/api/config" 2>/dev/null | grep -q '"build"'; then ok=true; break; fi
   sleep 3
 done

@@ -68,7 +68,13 @@ python3 server.py --http --port 8080        # on Windows: py server.py --http --
 
 It prints the admin PIN. Open `http://localhost:8080/admin` on that PC, enter the Google and Anthropic keys under **Settings**, and press **▶ PLAY** beside each language under **Hear each language**. You hear your sentence translated and spoken by the same voices meetings use. The microphone also works there, because browsers treat `localhost` as secure. Phones need the server and HTTPS below.
 
-## Install (Ubuntu 22.04 or 24.04)
+## Install from the ISO (recommended)
+
+`bash iso/build-iso.sh` makes `vmeet-server-installer.iso`: write it to a USB stick and boot the server from it. It installs Ubuntu Server 24.04 and VMEET together, with no internet needed. On the first start a setup menu walks through the time zone, network, Cloudflare Tunnel and API keys. See [iso/README.md](iso/README.md).
+
+The same menu is on every VMEET server: `sudo vmeet-setup`.
+
+## Install on an existing Ubuntu (Ubuntu 22.04 or 24.04)
 
 ```bash
 git clone https://github.com/wesprojects/ANSWER.git && cd ANSWER/vmeet
@@ -154,6 +160,7 @@ Check current prices on Google's and Anthropic's pricing pages.
 ```bash
 python3 tests/smoke_test.py                                   # server end to end, fake engines
 NODE_PATH=$(npm root -g) node tests/browser_test.js [shots/]  # the real pages in Chromium (Playwright)
+python3 tests/setup_test.py                                   # the console setup menu, in a sandbox
 pip install numpy opencv-python-headless && python3 tests/qr_test.py   # QR codes decode
 ```
 

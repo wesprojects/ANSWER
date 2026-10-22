@@ -22,9 +22,7 @@ CERTS=/var/lib/vmeet/certs
 say() { echo "== $*"; }
 
 if [ "${1:-}" = "--status" ]; then
-  for f in "$CERTS/server.crt"; do
-    openssl x509 -in "$f" -noout -subject -issuer -enddate 2>/dev/null || echo "no certificate at $f"
-  done
+  openssl x509 -in "$CERTS/server.crt" -noout -subject -issuer -enddate 2>/dev/null || echo "no certificate at $CERTS/server.crt"
   systemctl list-timers vmeet-cert.timer --no-pager 2>/dev/null | head -3 || true
   exit 0
 fi
@@ -38,7 +36,11 @@ install -d -m 700 "$HOME_DIR"
 if [ ! -x "$HOME_DIR/acme.sh" ]; then
   say "fetching acme.sh $ACME_VER"
   tmp=$(mktemp -d)
-  curl -fsSL --max-time 120 "https://github.com/acmesh-official/acme.sh/archive/refs/tags/$ACME_VER.tar.gz" | tar -xz -C "$tmp"
+  if [ -s "/opt/vmeet/pkgs/acme.sh-$ACME_VER.tar.gz" ]; then
+    tar -xzf "/opt/vmeet/pkgs/acme.sh-$ACME_VER.tar.gz" -C "$tmp"      # carried on the install media
+  else
+    curl -fsSL --max-time 120 "https://github.com/acmesh-official/acme.sh/archive/refs/tags/$ACME_VER.tar.gz" | tar -xz -C "$tmp"
+  fi
   ( cd "$tmp/acme.sh-$ACME_VER" && ./acme.sh --install --home "$HOME_DIR" --nocron --noprofile >/dev/null )
   rm -rf "$tmp"
 fi

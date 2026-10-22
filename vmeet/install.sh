@@ -60,6 +60,17 @@ install -m 755 "$SRC"/tools/*.sh "$DEST/tools/" 2>/dev/null || true
 install -m 644 "$SRC/README.md" "$DEST/README.md" 2>/dev/null || true
 chown -R root:root "$DEST"
 
+# ---- the console setup menu, and a login banner that names the address ----
+install -m 755 "$SRC/tools/vmeet-setup.sh" /usr/local/sbin/vmeet-setup
+if [ -d /etc/issue.d ] || mkdir -p /etc/issue.d 2>/dev/null; then
+  cat > /etc/issue.d/vmeet.issue << ISSUE
+
+  VMEET   admin page: https://\\4$( [ "$PORT" = 443 ] || echo ":$PORT")/admin
+          setup menu: sign in, then  sudo vmeet-setup
+
+ISSUE
+fi
+
 # ---- API keys (optional; the admin page can hold them instead) ----
 if [ ! -f "$ETC/vmeet.env" ]; then
   cat > "$ETC/vmeet.env" << 'ENV'
@@ -136,7 +147,7 @@ if command -v ufw >/dev/null && ufw status 2>/dev/null | grep -q "Status: active
   ufw allow "$PORT/tcp" >/dev/null && say "ufw: opened $PORT/tcp"
 fi
 
-for i in $(seq 1 50); do [ -s "$DATA/admin-pin.txt" ] && break; sleep 0.1; done
+for _ in $(seq 1 50); do [ -s "$DATA/admin-pin.txt" ] && break; sleep 0.1; done
 sleep 1
 if ! systemctl is-active --quiet vmeet; then
   echo "!! vmeet did not start. See:  journalctl -u vmeet -n 50" >&2
@@ -165,4 +176,5 @@ echo "      or HTTPS on the LAN with Let's Encrypt (DNS on Cloudflare):"
 echo "        sudo bash $DEST/tools/enable-public-https.sh meet-lan.example.com"
 echo "   2. Admin page -> Settings: Google API key, Anthropic API key."
 echo "   3. Speak app -> INSTANT QR MEETING -> PRINT QR SHEET."
+echo "  The console setup menu does the above step by step:  sudo vmeet-setup"
 echo "============================================================"
