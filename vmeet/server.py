@@ -28,7 +28,7 @@ Data files live in --data (default: beside this file): users.json,
 meetings.json, settings.json (API keys; mode 0600), sessions.json,
 transcripts/. Each is written to a temporary file and moved into place.
 """
-import argparse, base64, collections, concurrent.futures, hashlib, hmac, json
+import argparse, base64, collections, concurrent.futures, hashlib, hmac, ipaddress, json
 import os, queue, re, secrets, socket, ssl, sys, threading, time, uuid
 import urllib.error, urllib.parse, urllib.request
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
@@ -76,27 +76,57 @@ LANGUAGES = [
 ]
 LANG = {l[0]: dict(id=l[0], sr=l[1], tts=l[2], mt=l[3], label=l[4], tag=l[5], color=l[6])
         for l in LANGUAGES}
-DEFAULT_LANGS = ['en', 'es', 'fr', 'sw', 'pl', 'de', 'zh']
+DEFAULT_LANGS = ['en', 'es', 'fr', 'sw']
 
-CLAUDE_MODELS = ['claude-opus-5-5', 'claude-sonnet-5-5', 'claude-haiku-5-5']
+# Haiku first: a phrase is short, the call is on the critical path, and it costs
+# about $0.15 a meeting-hour at four languages. The larger models are a setting.
+CLAUDE_MODELS = ['claude-haiku-5-5', 'claude-sonnet-5-5', 'claude-opus-5-5']
+VOICE_TIERS = ('wavenet', 'neural2', 'chirp3-hd', 'standard')
 DEFAULT_SETTINGS = {
     'orgName': 'Conklin Office Furniture',
     'publicUrl': '',              # e.g. https://meet.example.com, used for join links and QR codes
     'languages': DEFAULT_LANGS,   # offered in every language picker
-    'mtEngine': 'free',           # free | google | claude
-    'ttsEngine': 'device',        # google | device | off
+    'mtEngine': 'claude',         # claude | google | free; each falls back to the next
+    'ttsEngine': 'google',        # google | device | off; google falls back to the device voice
     'serverStt': False,           # allow speakers to use Google Speech-to-Text (needs the Google key)
     'liveCaptions': True,         # translate the words still being spoken, text only
-    'claudeModel': 'claude-opus-5-5',
+    'claudeModel': 'claude-haiku-5-5',
     'claudeEffort': 'low',
     'glossary': '',               # names and terms Claude should keep or translate a set way
     'voiceGender': 'FEMALE',
+    'voiceTier': 'wavenet',       # Google voice family: wavenet | neural2 | chirp3-hd | standard
     'voices': {},                 # optional Google voice name per language id
     'speakingRate': 1.0,
     'transcriptDays': 30,
     'guestsAllowed': True,
+    'azureRegion': 'eastus',      # Azure Speech resource region, when an Azure key is set
+    'freeVoice': True,            # last resort before the device voice: Google Translate's read-aloud (unofficial)
+    'siteIps': [],                # the factory's public internet address(es), for "guests on the Wi-Fi only"
 }
-SECRET_KEYS = ('googleKey', 'anthropicKey')
+SECRET_KEYS = ('googleKey', 'anthropicKey', 'azureKey')
+ENV_KEYS = {'googleKey': 'GOOGLE_API_KEY', 'anthropicKey': 'ANTHROPIC_API_KEY', 'azureKey': 'AZURE_SPEECH_KEY'}
+
+# Microsoft Azure neural voices, used where Google has no voice (Swahili above all).
+AZURE_VOICES = {
+    'sw': ('sw-KE', 'sw-KE-ZuriNeural', 'sw-KE-RafikiNeural'),
+    'es': ('es-US', 'es-US-PalomaNeural', 'es-US-AlonsoNeural'),
+    'fr': ('fr-FR', 'fr-FR-DeniseNeural', 'fr-FR-HenriNeural'),
+    'en': ('en-US', 'en-US-JennyNeural', 'en-US-GuyNeural'),
+    'pl': ('pl-PL', 'pl-PL-ZofiaNeural', 'pl-PL-MarekNeural'),
+    'de': ('de-DE', 'de-DE-KatjaNeural', 'de-DE-ConradNeural'),
+    'zh': ('zh-CN', 'zh-CN-XiaoxiaoNeural', 'zh-CN-YunxiNeural'),
+    'pt': ('pt-BR', 'pt-BR-FranciscaNeural', 'pt-BR-AntonioNeural'),
+    'vi': ('vi-VN', 'vi-VN-HoaiMyNeural', 'vi-VN-NamMinhNeural'),
+    'ar': ('ar-SA', 'ar-SA-ZariyahNeural', 'ar-SA-HamedNeural'),
+    'hi': ('hi-IN', 'hi-IN-SwaraNeural', 'hi-IN-MadhurNeural'),
+    'ru': ('ru-RU', 'ru-RU-SvetlanaNeural', 'ru-RU-DmitryNeural'),
+    'uk': ('uk-UA', 'uk-UA-PolinaNeural', 'uk-UA-OstapNeural'),
+    'ko': ('ko-KR', 'ko-KR-SunHiNeural', 'ko-KR-InJoonNeural'),
+    'ja': ('ja-JP', 'ja-JP-NanamiNeural', 'ja-JP-KeitaNeural'),
+    'it': ('it-IT', 'it-IT-ElsaNeural', 'it-IT-DiegoNeural'),
+    'tl': ('fil-PH', 'fil-PH-BlessicaNeural', 'fil-PH-AngeloNeural'),
+    'ro': ('ro-RO', 'ro-RO-AlinaNeural', 'ro-RO-EmilNeural'),
+}
 
 
 def log(*a):
@@ -171,6 +201,10 @@ def google_key():
 
 def anthropic_key():
     return setting('anthropicKey') or os.environ.get('ANTHROPIC_API_KEY', '')
+
+
+def azure_key():
+    return setting('azureKey') or os.environ.get('AZURE_SPEECH_KEY', '')
 
 
 def enabled_langs():
@@ -357,7 +391,7 @@ def visible_in_list(me, m):
 def meeting_view(m, me):
     names = lambda ids: [public_user(STORE.users[i]) for i in ids if i in STORE.users]
     d = {k: m.get(k) for k in ('id', 'title', 'notes', 'status', 'start', 'duration', 'access',
-                               'createdAt', 'startedAt', 'endedAt', 'code')}
+                               'createdAt', 'startedAt', 'endedAt', 'code', 'standing', 'onsite')}
     d['hosts'] = names(m.get('hosts', []))
     d['listeners'] = names(m.get('listeners', []))
     d['createdBy'] = m.get('createdBy')
@@ -396,6 +430,9 @@ def clean_meeting_fields(body, m, me):
             m['duration'] = max(5, min(24 * 60, int(body['duration'])))
         except (TypeError, ValueError):
             return 'duration must be minutes.'
+    for k in ('standing', 'onsite'):
+        if k in body:
+            m[k] = bool(body[k])
     if 'access' in body:
         if body['access'] not in ('invited', 'staff', 'anyone'):
             return 'access must be invited, staff or anyone.'
@@ -491,6 +528,7 @@ class Live:
         self.seq = 0
         self.jobs = queue.Queue()
         self.interim_gen = {}          # speaker uid -> generation, drops stale interim work
+        self.final_n = {}              # speaker uid -> sequence number of their last finished phrase
         self.context = collections.deque(maxlen=4)   # recent source phrases, for Claude
         self.last_speech = time.time()
         self.worker = threading.Thread(target=self.run, name='meeting-' + mid, daemon=True)
@@ -565,26 +603,24 @@ class Live:
         for c in self.all():
             c.send('seg', seg_for(seg, c.lang), seg['id'])
         # Voices: one synthesis per language, in parallel; each listener queues by phrase id.
-        if setting('ttsEngine') == 'google' and google_key():
+        if server_voice_on():
             for lang in targets:
                 if tr.get(lang):
                     POOL.submit(self.voice_one, seg, lang)
 
     def voice_one(self, seg, lang):
-        url = None
-        try:
-            mp3 = tts_google(seg['tr'][lang], lang)
-            url = audio_put(mp3) if mp3 else None
-        except Exception as e:
-            log('!! tts', lang, repr(e))
+        mp3 = synthesize(seg['tr'][lang], lang)
+        url = audio_put(mp3) if mp3 else None
         seg['audio'][lang] = url
         for c in self.all():
             if c.lang == lang:
                 c.send('audio', {'id': seg['id'], 'url': url})
 
-    def interim(self, speaker, src, text):
-        """Words still being spoken: shown live, translated text-only on the cheap engine."""
-        if not setting('liveCaptions'):
+    def interim(self, speaker, src, text, n=0):
+        """Words still being spoken: shown live, translated text-only on the cheap engine.
+        n orders a speaker's posts: words that arrive after the phrase they belong to was
+        finished are dropped, so a finished phrase is never followed by a stale live line."""
+        if not setting('liveCaptions') or n and n <= self.final_n.get(speaker['id'], 0):
             return
         self.last_speech = time.time()
         gen = self.interim_gen.get(speaker['id'], 0) + 1
@@ -634,12 +670,13 @@ def seg_for(seg, lang):
     same = seg['lang'] == lang
     text = seg['src'] if same else seg['tr'].get(lang)
     return {'id': seg['id'], 't': seg['t'], 'speaker': seg['speaker'], 'lang': seg['lang'],
-            'src': seg['src'], 'text': text, 'same': same,
-            'audio': None if same else seg['audio'].get(lang, 'pending' if google_tts_on() else None)}
+            'src': seg['src'], 'text': text, 'same': same, 'tr': seg['tr'],
+            'audio': None if same else seg['audio'].get(lang, 'pending' if server_voice_on() else None)}
 
 
-def google_tts_on():
-    return setting('ttsEngine') == 'google' and bool(google_key())
+def server_voice_on():
+    """Phrases are voiced on the server: Google, else Azure, else the free read-aloud."""
+    return setting('ttsEngine') == 'google' and bool(google_key() or azure_key() or setting('freeVoice'))
 
 
 def live_for(mid, create=False):
@@ -816,6 +853,47 @@ def translate_many(text, src, targets, context):
     return out
 
 
+VOICES = {'at': 0, 'list': [], 'picked': {}}
+VOICES_LOCK = threading.Lock()
+
+
+def voice_for(lang):
+    """The Google voice to use for a language: the admin's named voice, else the best match
+    for the chosen family and gender from Google's voice list (fetched once a day), else
+    Google's default for the language code."""
+    code = LANG[lang]['tts']
+    named = (setting('voices') or {}).get(lang)
+    if named:
+        return {'languageCode': code, 'name': named}
+    tier, gender = setting('voiceTier') or 'wavenet', setting('voiceGender') or 'FEMALE'
+    key = (lang, tier, gender)
+    with VOICES_LOCK:
+        if key in VOICES['picked'] and time.time() - VOICES['at'] < 86400:
+            return VOICES['picked'][key]
+    if time.time() - VOICES['at'] >= 86400 or not VOICES['list']:
+        try:
+            vs = http_json('https://texttospeech.googleapis.com/v1/voices?key=' + urllib.parse.quote(google_key()),
+                           timeout=8).get('voices', [])
+            with VOICES_LOCK:
+                VOICES.update(at=time.time(), list=vs, picked={})
+        except Exception as e:
+            log('!! voice list', repr(e))
+    tag = {'wavenet': '-wavenet-', 'neural2': '-neural2-', 'chirp3-hd': '-chirp3-hd-', 'standard': '-standard-'}[tier]
+    cands = [v for v in VOICES['list'] if code in v.get('languageCodes', [])]
+    if VOICES['list'] and not cands:
+        with VOICES_LOCK:
+            VOICES['picked'][key] = None
+        return None                      # Google has no voice for this language
+    # Prefer the family, then the gender, then any family that sounds better than Standard.
+    rank = lambda v: (tag in v['name'].lower(), v.get('ssmlGender') == gender,
+                      '-standard-' not in v['name'].lower())
+    voice = {'languageCode': code, 'name': max(cands, key=rank)['name']} if cands \
+        else {'languageCode': code, 'ssmlGender': gender}
+    with VOICES_LOCK:
+        VOICES['picked'][key] = voice
+    return voice
+
+
 def tts_google(text, lang):
     """Google Cloud Text-to-Speech -> MP3 bytes, or None for a language it has no voice for."""
     code = LANG[lang]['tts']
@@ -823,15 +901,85 @@ def tts_google(text, lang):
         return None
     if FAKE:
         return b'ID3FAKE' + text.encode()
-    voice = {'languageCode': code, 'ssmlGender': setting('voiceGender') or 'FEMALE'}
-    name = (setting('voices') or {}).get(lang)
-    if name:
-        voice = {'languageCode': code, 'name': name}
+    voice = voice_for(lang)
+    if not voice:
+        return None
+    audio = {'audioEncoding': 'MP3'}
+    if '-chirp3-hd-' not in voice.get('name', '').lower():     # Chirp 3 HD sets its own pace
+        audio['speakingRate'] = max(0.5, min(2.0, float(setting('speakingRate') or 1)))
     r = http_json('https://texttospeech.googleapis.com/v1/text:synthesize?key=' + urllib.parse.quote(google_key()),
-                  {'input': {'text': text[:4500]}, 'voice': voice,
-                   'audioConfig': {'audioEncoding': 'MP3',
-                                   'speakingRate': max(0.5, min(2.0, float(setting('speakingRate') or 1)))}})
+                  {'input': {'text': text[:4500]}, 'voice': voice, 'audioConfig': audio})
     return base64.b64decode(r['audioContent'])
+
+
+def tts_azure(text, lang):
+    """Microsoft Azure neural voice -> MP3 bytes."""
+    v = AZURE_VOICES.get(lang)
+    if not v:
+        return None
+    if FAKE:
+        return b'ID3AZURE' + text.encode()
+    from xml.sax.saxutils import escape
+    name = v[2] if setting('voiceGender') == 'MALE' else v[1]
+    rate = int(round((float(setting('speakingRate') or 1) - 1) * 100))
+    ssml = ("<speak version='1.0' xml:lang='%s'><voice name='%s'><prosody rate='%+d%%'>%s</prosody></voice></speak>"
+            % (v[0], name, rate, escape(text[:3000])))
+    req = urllib.request.Request(
+        'https://%s.tts.speech.microsoft.com/cognitiveservices/v1' % re.sub(r'[^a-z0-9]', '', setting('azureRegion') or 'eastus'),
+        data=ssml.encode('utf-8'), method='POST',
+        headers={'Ocp-Apim-Subscription-Key': azure_key(), 'Content-Type': 'application/ssml+xml',
+                 'X-Microsoft-OutputFormat': 'audio-24khz-48kbitrate-mono-mp3', 'User-Agent': 'vmeet'})
+    try:
+        with urllib.request.urlopen(req, timeout=12) as r:
+            return r.read()
+    except urllib.error.HTTPError as e:
+        raise RuntimeError('HTTP %s: %s' % (e.code, e.read().decode('utf-8', 'replace')[:300])) from None
+
+
+def tts_free(text, lang):
+    """Google Translate's read-aloud: no key, unofficial, about 200 characters a request.
+    Long phrases go in pieces; MP3 frames join end to end."""
+    if FAKE:
+        return b'ID3FREE' + text.encode()
+    pieces, cur = [], ''
+    for word in text.split():
+        if len(cur) + len(word) + 1 > 190 and cur:
+            pieces.append(cur)
+            cur = ''
+        cur = (cur + ' ' + word).strip()
+    if cur:
+        pieces.append(cur)
+    out = b''
+    for piece in pieces[:12]:
+        u = ('https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=%s&q=%s'
+             % (LANG[lang]['mt'], urllib.parse.quote(piece)))
+        req = urllib.request.Request(u, headers={'User-Agent': 'Mozilla/5.0', 'Referer': 'https://translate.google.com/'})
+        with urllib.request.urlopen(req, timeout=8) as r:
+            data = r.read()
+        if not data.startswith((b'ID3', b'\xff')):
+            raise RuntimeError('not audio')
+        out += data
+    return out or None
+
+
+def synthesize(text, lang):
+    """A phrase's voice, trying each source in turn: Google Cloud, Azure, the free read-aloud.
+    None means the listener's own device voice takes it."""
+    chain = []
+    if google_key():
+        chain.append(tts_google)
+    if azure_key():
+        chain.append(tts_azure)
+    if setting('freeVoice'):
+        chain.append(tts_free)
+    for fn in chain:
+        try:
+            mp3 = fn(text, lang)
+            if mp3:
+                return mp3
+        except Exception as e:
+            log('!! voice', fn.__name__, lang, repr(e))
+    return None
 
 
 def stt_google(pcm, lang):
@@ -869,9 +1017,10 @@ def housekeeping():
                     planned_end = (m.get('startedAt') or t) + (m.get('duration') or 60) * 60000
                     # Ended by itself: 2 hours of silence, or an hour past its planned end with nobody on.
                     if idle > 7200 or (t > planned_end + 3600000 and (not lv or lv.count() == 0)):
-                        m['status'], m['endedAt'] = 'ended', t
+                        st = 'scheduled' if m.get('standing') else 'ended'
+                        m['status'], m['endedAt'] = st, t
                         changed = True
-                        end_live(m['id'])
+                        end_live(m['id'], st)
                         log('== meeting ended by itself:', m['title'])
                 if changed:
                     STORE.save_meetings()
@@ -896,7 +1045,8 @@ STATIC_TYPES = {'.html': 'text/html; charset=utf-8', '.js': 'text/javascript; ch
                 '.css': 'text/css; charset=utf-8', '.png': 'image/png', '.svg': 'image/svg+xml',
                 '.webmanifest': 'application/manifest+json', '.ico': 'image/x-icon',
                 '.json': 'application/json'}
-PAGES = {'/': 'index.html', '/listen': 'listen.html', '/speak': 'speak.html', '/admin': 'admin.html'}
+PAGES = {'/': 'index.html', '/listen': 'listen.html', '/speak': 'speak.html', '/admin': 'admin.html',
+         '/print': 'print.html'}
 
 
 class HttpError(Exception):
@@ -922,6 +1072,17 @@ class Handler(BaseHTTPRequestHandler):
         if self.tunnel:
             return self.headers.get('CF-Connecting-IP') or self.client_address[0]
         return self.client_address[0]
+
+    def onsite(self):
+        """On the company network: came in on the LAN listener, or through the tunnel from one of
+        the site's own public addresses (phones on the factory Wi-Fi reach the public name too)."""
+        if not self.tunnel:
+            return True
+        try:
+            ip = ipaddress.ip_address(self.client_ip())
+            return any(ip in ipaddress.ip_network(n, strict=False) for n in setting('siteIps') or [])
+        except ValueError:
+            return False
 
     def secure(self):
         return self.tunnel or isinstance(self.connection, ssl.SSLSocket)
@@ -1076,10 +1237,11 @@ class Handler(BaseHTTPRequestHandler):
                 'build': BUILD_VERSION, 'orgName': setting('orgName'),
                 'languages': [LANG[c] for c in enabled_langs()],
                 'allLanguages': [LANG[l[0]] for l in LANGUAGES],
-                'ttsEngine': setting('ttsEngine') if (setting('ttsEngine') != 'google' or google_key()) else 'device',
+                'ttsEngine': setting('ttsEngine') if (setting('ttsEngine') != 'google' or server_voice_on()) else 'device',
                 'serverStt': bool(setting('serverStt') and google_key()),
                 'liveCaptions': setting('liveCaptions'), 'guestsAllowed': setting('guestsAllowed'),
-                'publicUrl': setting('publicUrl')})
+                'publicUrl': setting('publicUrl'),
+                'onsiteReady': bool(setting('siteIps')) or not TUNNEL_IN_USE[0]})
         if r == ('GET', 'code') and len(parts) == 2:
             ip = self.client_ip()
             if CODE_LIMIT.blocked(ip):
@@ -1090,8 +1252,10 @@ class Handler(BaseHTTPRequestHandler):
                 CODE_LIMIT.fail(ip)
                 raise HttpError(404, 'No meeting with that code is open.')
             return self.send_json(200, {'id': m['id'], 'title': m['title'], 'status': m['status'],
-                                        'start': m.get('start'), 'guests': m.get('access') == 'anyone'
-                                        and bool(setting('guestsAllowed'))})
+                                        'start': m.get('start'), 'standing': bool(m.get('standing')),
+                                        'guests': m.get('access') == 'anyone' and bool(setting('guestsAllowed'))
+                                        and not (m.get('onsite') and not self.onsite()),
+                                        'offsite': bool(m.get('onsite') and not self.onsite())})
         if r == ('POST', 'login'):
             return self.login()
         if r == ('POST', 'guest'):
@@ -1111,6 +1275,8 @@ class Handler(BaseHTTPRequestHandler):
         me = self.need()
         if r == ('GET', 'me'):
             return self.send_json(200, {'me': me})
+        if r == ('GET', 'myip'):
+            return self.send_json(200, {'ip': self.client_ip(), 'tunnel': self.tunnel, 'onsite': self.onsite()})
         if r == ('PUT', 'me'):
             return self.update_me(me)
         if head == 'meetings':
@@ -1144,10 +1310,9 @@ class Handler(BaseHTTPRequestHandler):
         if CODE_LIMIT.blocked(ip):
             raise HttpError(429, 'Too many tries. Wait a few minutes.')
         b = self.body_json()
-        name = clean_name(b.get('name'), 40)
+        # A QR sheet on a factory wall: no name to type. Guests show as Guest + a short tag.
+        name = clean_name(b.get('name'), 40) or 'Guest ' + secrets.token_hex(2).upper()
         lang = b.get('lang')
-        if not name:
-            raise HttpError(400, 'Please enter your name.')
         if lang not in enabled_langs():
             raise HttpError(400, 'Please choose your language.')
         with LOCK:
@@ -1157,6 +1322,8 @@ class Handler(BaseHTTPRequestHandler):
             raise HttpError(404, 'No meeting with that code is open.')
         if m.get('access') != 'anyone':
             raise HttpError(403, 'This meeting is for signed-in staff. Sign in with your name and PIN.')
+        if m.get('onsite') and not self.onsite():
+            raise HttpError(403, 'This meeting only takes guests on the company Wi-Fi. Connect to it and scan again.')
         g = {'id': 'g-' + uuid.uuid4().hex[:10], 'name': name, 'lang': lang, 'meeting': m['id']}
         token = new_session({'guest': g}, GUEST_HOURS * 3600)
         return self.send_json(200, {'me': resolve_session(token), 'meeting': m['id']},
@@ -1209,12 +1376,22 @@ class Handler(BaseHTTPRequestHandler):
                          'status': 'scheduled', 'start': None, 'duration': 60,
                          'access': 'staff', 'hosts': [], 'listeners': [], 'kicked': [],
                          'createdBy': me['id'], 'createdAt': now_ms()}
+                    if b.get('instant'):
+                        # Instant meeting: live now, anyone with the QR code listens, no sign-up.
+                        if not setting('guestsAllowed'):
+                            raise HttpError(400, 'Guests are turned off in settings, so a QR meeting cannot be opened.')
+                        b.setdefault('title', 'Meeting ' + time.strftime('%b %d %H:%M'))
+                        b['access'] = 'anyone'
                     b.setdefault('title', '')
                     err = clean_meeting_fields(b, m, me)
                     if err:
                         raise HttpError(400, err)
+                    if b.get('instant'):
+                        m['status'], m['startedAt'] = 'live', now_ms()
                     STORE.meetings[m['id']] = m
                     STORE.save_meetings()
+                    if m['status'] == 'live':
+                        live_for(m['id'], create=True)
                     return self.send_json(200, {'meeting': meeting_view(m, me)})
             raise HttpError(405, 'Method not allowed.')
 
@@ -1285,11 +1462,14 @@ class Handler(BaseHTTPRequestHandler):
             with LOCK:
                 return self.send_json(200, {'meeting': meeting_view(m, me)})
         if (method, action) == ('POST', 'end'):
+            # A standing room (a QR sign on the wall) goes back to waiting for its next session;
+            # its listeners stay on and hear the next one start. Anything else ends for good.
+            st = 'scheduled' if m.get('standing') else 'ended'
             with LOCK:
-                m['status'], m['endedAt'] = 'ended', now_ms()
+                m['status'], m['endedAt'] = st, now_ms()
                 STORE.save_meetings()
-            end_live(m['id'], 'ended')
-            WAITING.notify(m['id'], 'ended')
+            end_live(m['id'], st)
+            WAITING.notify(m['id'], st)
             with LOCK:
                 return self.send_json(200, {'meeting': meeting_view(m, me)})
         if (method, action) == ('POST', 'kick'):
@@ -1311,6 +1491,23 @@ class Handler(BaseHTTPRequestHandler):
             c.close()
             lv.remove(c.cid)
             return self.send_json(200, {'ok': True})
+        if (method, action) == ('POST', 'newcode'):
+            # A sheet went somewhere it should not: every printed copy stops working.
+            with LOCK:
+                m['code'] = new_code()
+                STORE.save_meetings()
+                for k, s in list(STORE.sessions.items()):
+                    if s.get('guest', {}).get('meeting') == m['id']:
+                        del STORE.sessions[k]
+                STORE.save_sessions()
+            lv = live_for(m['id'])
+            if lv:
+                for c in lv.all():
+                    if c.guest:
+                        c.send('kicked', {'reason': 'code'})
+                        lv.remove(c.cid)
+            with LOCK:
+                return self.send_json(200, {'meeting': meeting_view(m, me)})
         if (method, action) == ('POST', 'unkick'):
             b = self.body_json()
             with LOCK:
@@ -1326,13 +1523,19 @@ class Handler(BaseHTTPRequestHandler):
             b = self.body_json()
             lang = b.get('lang') if b.get('lang') in LANG else me['lang']
             text = re.sub(r'\s+', ' ', str(b.get('text') or '')).strip()[:2000]
+            try:
+                n = max(0, int(b.get('n') or 0))
+            except (TypeError, ValueError):
+                n = 0
             if b.get('final'):
+                if n:
+                    lv.final_n[me['id']] = max(n, lv.final_n.get(me['id'], 0))
                 if text:
                     lv.submit(me, lang, text)
                 else:
                     lv.clear_interim(me)
             elif text:
-                lv.interim(me, lang, text)
+                lv.interim(me, lang, text, n)
             return self.send_json(200, {'ok': True})
         raise HttpError(404, 'No such API.')
 
@@ -1357,6 +1560,8 @@ class Handler(BaseHTTPRequestHandler):
         """The live stream for one client. Also serves a scheduled meeting's waiting room."""
         if not can_join(me, m):
             raise HttpError(403, 'You are not invited to this meeting.')
+        if me['kind'] == 'guest' and m.get('onsite') and not self.onsite():
+            raise HttpError(403, 'This meeting only takes guests on the company Wi-Fi.')
         if m['status'] == 'ended':
             raise HttpError(410, 'This meeting has ended.')
         lang = q.get('lang') if q.get('lang') in LANG else me['lang']
@@ -1519,7 +1724,7 @@ class Handler(BaseHTTPRequestHandler):
                 s = {k: v for k, v in STORE.settings.items() if k not in SECRET_KEYS}
                 for k in SECRET_KEYS:
                     own = STORE.settings.get(k) or ''
-                    env = os.environ.get('GOOGLE_API_KEY' if k == 'googleKey' else 'ANTHROPIC_API_KEY', '')
+                    env = os.environ.get(ENV_KEYS[k], '')
                     s[k + 'Set'] = bool(own or env)
                     s[k + 'Hint'] = ('…' + own[-4:]) if own else ('from the environment' if env else '')
                 s['claudeModels'] = CLAUDE_MODELS
@@ -1554,13 +1759,27 @@ def apply_settings(b):
         s['languages'] = ls
     choices = {'mtEngine': ('free', 'google', 'claude'), 'ttsEngine': ('google', 'device', 'off'),
                'claudeModel': tuple(CLAUDE_MODELS), 'claudeEffort': ('low', 'medium', 'high'),
-               'voiceGender': ('FEMALE', 'MALE', 'NEUTRAL')}
+               'voiceGender': ('FEMALE', 'MALE', 'NEUTRAL'), 'voiceTier': VOICE_TIERS}
     for k, opts in choices.items():
         if k in b:
             if b[k] not in opts:
                 return '%s must be one of %s' % (k, ', '.join(opts))
             s[k] = b[k]
-    for k in ('serverStt', 'liveCaptions', 'guestsAllowed'):
+    if 'siteIps' in b:
+        ips = b['siteIps'] if isinstance(b['siteIps'], list) else str(b['siteIps'] or '').replace(',', ' ').split()
+        clean = []
+        for x in ips:
+            try:
+                clean.append(str(ipaddress.ip_network(str(x).strip(), strict=False)))
+            except ValueError:
+                return '"%s" is not an internet address (like 203.0.113.7 or 203.0.113.0/28).' % x
+        s['siteIps'] = clean
+    if 'azureRegion' in b:
+        r = str(b['azureRegion'] or '').strip().lower()
+        if r and not re.fullmatch(r'[a-z0-9]{3,30}', r):
+            return 'Azure region looks like eastus or westeurope.'
+        s['azureRegion'] = r or 'eastus'
+    for k in ('serverStt', 'liveCaptions', 'guestsAllowed', 'freeVoice'):
         if k in b:
             s[k] = bool(b[k])
     if 'speakingRate' in b:
@@ -1575,6 +1794,8 @@ def apply_settings(b):
             return 'Transcript days is a number.'
     if 'voices' in b and isinstance(b['voices'], dict):
         s['voices'] = {k: str(v)[:80] for k, v in b['voices'].items() if k in LANG and v}
+    with VOICES_LOCK:
+        VOICES['picked'] = {}         # voice choices follow the new settings
     for k in SECRET_KEYS:
         if k in b and b[k] is not None:
             v = str(b[k]).strip()
@@ -1583,6 +1804,17 @@ def apply_settings(b):
             else:
                 s.pop(k, None)
     return None
+
+
+def voice_source(lang):
+    """Which source would voice this language right now (for the admin's test)."""
+    if google_key() and voice_for(lang):
+        return 'Google: %s' % (voice_for(lang).get('name') or 'default voice')
+    if azure_key() and lang in AZURE_VOICES:
+        return 'Azure: %s' % AZURE_VOICES[lang][2 if setting('voiceGender') == 'MALE' else 1]
+    if setting('freeVoice'):
+        return 'Free Google Translate read-aloud'
+    return 'The listener\'s own device voice'
 
 
 def engine_test():
@@ -1600,11 +1832,19 @@ def engine_test():
     attempt('Free translation (Google public endpoint)', lambda: translate_free(phrase, 'en', 'es'))
     if google_key():
         attempt('Google Cloud Translation', lambda: translate_google(phrase, 'en', 'es'))
-        attempt('Google Text-to-Speech', lambda: '%d bytes of MP3' % len(tts_google('Buenos días a todos.', 'es') or b''))
+        attempt('Google Text-to-Speech', lambda: '%d bytes of MP3, voice %s' % (
+            len(tts_google('Buenos días a todos.', 'es') or b''), voice_for('es').get('name', 'default')))
         attempt('Google Speech-to-Text', lambda: 'reachable (heard: "%s")' % stt_google(b'\0' * 32000, 'en'))
     else:
         out.append({'engine': 'Google Cloud (Translation, Text-to-Speech, Speech-to-Text)', 'ok': False,
                     'result': 'No Google API key set.'})
+    if azure_key():
+        attempt('Azure voice (Swahili)', lambda: '%d bytes of MP3' % len(tts_azure('Habari za asubuhi.', 'sw') or b''))
+    if setting('freeVoice'):
+        attempt('Free read-aloud (Swahili)', lambda: '%d bytes of MP3' % len(tts_free('Habari za asubuhi.', 'sw') or b''))
+    for l in enabled_langs():
+        if l != 'en':
+            attempt('Voice for %s' % LANG[l]['label'], lambda l=l: voice_source(l))
     if anthropic_key():
         attempt('Claude (%s)' % setting('claudeModel'),
                 lambda: translate_claude(phrase, 'en', ['es', 'fr'], []))
@@ -1647,6 +1887,7 @@ class Waiting:
 
 
 WAITING = Waiting()
+TUNNEL_IN_USE = [False]     # set when the server runs with --tunnel-port
 
 
 # ---------------------------------------------------------------------------
@@ -1741,6 +1982,7 @@ def main():
     if a.tunnel_port:
         t = Server(('127.0.0.1', a.tunnel_port), Handler)
         t.tunnel = True
+        TUNNEL_IN_USE[0] = True
         servers.append(t)
         log('== tunnel listener on http://127.0.0.1:%d' % a.tunnel_port)
     for s in servers[1:]:

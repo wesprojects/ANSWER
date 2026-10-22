@@ -89,10 +89,10 @@
     const b = $('buildStamp');
     if (b) b.textContent = (app ? app + ' · ' : '') + 'BUILD ' + VM.BUILD;
     const who = $('who');
-    if (who) who.textContent = VM.me ? (VM.me.name + ' · ' + VM.me.role.toUpperCase()) : '';
+    if (who) who.textContent = VM.me && VM.me.kind === 'user' ? (VM.me.name + ' · ' + VM.me.role.toUpperCase()) : '';
     const out = $('signout');
     if (out) {
-      out.hidden = !VM.me;
+      out.hidden = !VM.me || VM.me.kind === 'guest';
       out.onclick = async () => { try { await VM.api('POST', 'logout'); } catch (e) {} location.reload(); };
     }
   };
@@ -148,7 +148,9 @@
       '<label class="f" for="me-access">Who can join</label><select id="me-access">' +
       '<option value="invited">Only the people invited below</option>' +
       '<option value="staff">Anyone signed in to VMEET</option>' +
-      (VM.config.guestsAllowed ? '<option value="anyone">Anyone with the code or link (guests too)</option>' : '') + '</select>' +
+      (VM.config.guestsAllowed ? '<option value="anyone">Anyone who scans the QR code (no sign-up)</option>' : '') + '</select>' +
+      '<label style="display:flex;align-items:center;margin-top:12px;font-size:13px"><input type="checkbox" id="me-standing"' + (m.standing ? ' checked' : '') + '>Standing room: the code and printed QR keep working for every session</label>' +
+      '<label style="display:flex;align-items:center;margin-top:8px;font-size:13px"><input type="checkbox" id="me-onsite"' + (m.onsite ? ' checked' : '') + '>Guests only on the company Wi-Fi (not over the internet)</label>' +
       '<label class="f">Speakers</label><div class="picklist" id="me-hosts">' + pick('h', speakers, hostIds) + '</div>' +
       '<label class="f">Listeners invited</label><input id="me-filter" placeholder="Search names" style="margin-bottom:6px">' +
       '<div class="picklist" id="me-listeners">' + pick('l', people, listenIds) + '</div>' +
@@ -166,7 +168,8 @@
       const st = d.q('#me-start').value;
       const body = {title: d.q('#me-title').value, start: st ? new Date(st).getTime() : null,
         duration: +d.q('#me-dur').value || 60, access: d.q('#me-access').value,
-        hosts: val('h'), listeners: val('l'), notes: d.q('#me-notes').value};
+        hosts: val('h'), listeners: val('l'), notes: d.q('#me-notes').value,
+        standing: d.q('#me-standing').checked, onsite: d.q('#me-onsite').checked};
       try {
         const r = isNew ? await VM.api('POST', 'meetings', body) : await VM.api('PUT', 'meetings/' + m.id, body);
         d.close();
@@ -177,22 +180,33 @@
 
   /* ---------- share: code, link, QR ---------- */
   VM.joinLink = m => m.joinUrl.startsWith('http') ? m.joinUrl : location.origin + m.joinUrl;
-  VM.share = function (m) {
+  VM.share = function (m, onChange) {
     const link = VM.joinLink(m);
     let qr = '';
     try { qr = window.VMQR ? VMQR.svg(link) : ''; } catch (e) {}
-    const who = m.access === 'anyone' ? 'Anyone with this code can join, as a guest if they have no sign-in.'
+    const who = m.access === 'anyone' ? 'Anyone who scans this code can listen right away, with no sign-up.' +
+        (m.onsite ? ' Guests must be on the company Wi-Fi.' : '')
       : m.access === 'staff' ? 'Anyone signed in to VMEET can join with this code.' : 'Only the people invited can join.';
     const d = VM.modal('<h3>' + esc(m.title) + '</h3><p class="hint">' + esc(who) + '</p>' +
       '<div style="text-align:center"><div class="hint">MEETING CODE</div><div class="code-big">' + esc(m.code) + '</div>' +
       (qr ? '<div class="qr">' + qr + '</div>' : '') +
       '<div class="hint" style="word-break:break-all">' + esc(link) + '</div></div>' +
-      '<div class="actions"><button class="btn big" id="sh-copy">COPY LINK</button>' +
+      '<div class="actions"><a class="btn big on" href="/print?m=' + encodeURIComponent(m.id) + '" target="_blank" rel="noopener">PRINT QR SHEET</a>' +
+      '<button class="btn big" id="sh-copy">COPY LINK</button>' +
+      (m.canHost ? '<button class="btn big" id="sh-new" title="Every printed copy stops working">NEW CODE</button>' : '') +
       (navigator.share ? '<button class="btn big" id="sh-share">SHARE…</button>' : '') +
       '<button class="btn big go" data-close>DONE</button></div>');
     d.q('#sh-copy').onclick = async () => {
       try { await navigator.clipboard.writeText(link); VM.toast('Link copied.'); }
       catch (e) { VM.toast(link, 8000); }
+    };
+    const nc = d.q('#sh-new');
+    if (nc) nc.onclick = async () => {
+      if (!(await VM.confirm('Give this meeting a new code? Printed sheets and shared links stop working, and guests listening now are disconnected.', 'NEW CODE', true))) return;
+      try {
+        const r = await VM.api('POST', 'meetings/' + m.id + '/newcode');
+        d.close(); if (onChange) onChange(r.meeting); VM.share(r.meeting, onChange);
+      } catch (e) { VM.toast(e.message); }
     };
     const s = d.q('#sh-share');
     if (s) s.onclick = () => navigator.share({title: m.title, text: 'Join "' + m.title + '" on VMEET — code ' + m.code, url: link}).catch(() => {});
