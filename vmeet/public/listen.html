@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!-- VMEET LISTEN - hear a meeting in your own language. Build: see app.js / server.py BUILD_VERSION. -->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#151922">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Listen">
+<link rel="manifest" href="/apps/listen.webmanifest">
+<link rel="apple-touch-icon" href="/apps/listen-180.png">
+<link rel="icon" href="/apps/listen-192.png">
+<title>VMEET Listen</title>
+<link rel="stylesheet" href="/app.css?v=__BUILD__">
+</head>
+<body>
+<header>
+  <div><h1><a href="/">VMEET</a></h1><div class="build" id="buildStamp"></div></div>
+  <div class="spacer"></div>
+  <div class="who" id="who"></div>
+  <button class="btn" id="signout" hidden>SIGN OUT</button>
+  <div class="brand" title="Conklin Office Furniture — Research and Development">
+    <img src="/brand.png" alt="CONKLIN OFFICE FURNITURE" style="width:107px;height:24px;display:block">
+    <svg width="107" height="9" viewBox="0 0 107 9" style="display:block;margin-top:1px"><text x="0" y="8" textLength="107" lengthAdjust="spacingAndGlyphs" font-family="'DM Mono','SF Mono',ui-monospace,Menlo,Consolas,monospace" font-size="7.5" font-weight="700" fill="#f5a524">RESEARCH AND DEVELOPMENT</text></svg>
+  </div>
+</header>
+
+<main class="page" id="page"><div class="empty">Loading…</div></main>
+
+<section id="room" hidden style="flex:1 1 auto;min-height:0;display:flex;flex-direction:column">
+  <div class="topline">
+    <button class="btn" id="leave">LEAVE</button>
+    <div class="grow" style="flex:1;min-width:0">
+      <div class="title" id="r-title"></div>
+      <div class="meta"><span class="dot" id="r-dot"></span> <span id="r-meta">CONNECTING…</span></div>
+    </div>
+  </div>
+  <div class="feed" id="feed" aria-live="polite">
+    <div class="empty" id="feed-empty">Translations appear here as people speak.</div>
+    <div class="live-line" id="liveline" hidden><span class="who" id="live-who"></span><span class="txt" id="live-txt"></span></div>
+  </div>
+  <div class="bar">
+    <button class="btn big" id="b-voice" aria-pressed="true">VOICE ON</button>
+    <button class="btn big" id="b-smaller" aria-label="Smaller text">A&minus;</button>
+    <button class="btn big" id="b-bigger" aria-label="Larger text">A+</button>
+    <select id="b-lang" style="width:auto;flex:1;min-width:120px" aria-label="Your language"></select>
+    <button class="btn big" id="b-more">MORE</button>
+  </div>
+</section>
+
+<div class="overlay" id="ov" hidden><div class="msg" id="ov-msg"></div><div class="row" id="ov-actions" style="justify-content:center"></div></div>
+
+<script src="/qr.js?v=__BUILD__"></script>
+<script src="/app.js?v=__BUILD__"></script>
+<script>
+"use strict";
+const $ = VM.$, esc = VM.esc;
+const P = new VM.Player();
+const params = new URLSearchParams(location.search);
+let prefs = Object.assign({voice: true, rate: 1, scale: 1, orig: false, hearSame: false}, VM.store.get('listen', {}));
+let stream = null, meeting = null, cid = null, myLang = 'en', shown = new Set(), live = null, waiting = false;
+const savePrefs = () => VM.store.set('listen', prefs);
+
+/* ---------- screens before the meeting ---------- */
+async function init() {
+  try { await VM.load(); }
+  catch (e) { $('page').innerHTML = '<div class="card"><h2>Not connected</h2><p>' + esc(e.message) + '</p><button class="btn big" onclick="location.reload()">TRY AGAIN</button></div>'; return; }
+  VM.header('LISTEN'); VM.watchBuild(); VM.registerApp('listen');
+  myLang = (VM.me && VM.me.lang) || VM.store.get('guestLang', navigator.language.slice(0, 2));
+  applyScale();
+  const code = params.get('code');
+  if (code) return showCode(code);
+  if (!VM.me) return showSignIn();
+  if (VM.me.kind === 'guest') return gate(VM.me.meeting);
+  showHome();
+}
+
+function showSignIn(note) {
+  VM.signIn($('page'), {title: 'Sign in to listen', note: note || 'Use the name and PIN your admin gave you. Joining with a meeting code instead? Use the box below.', done: () => { VM.header('LISTEN'); showHome(); }});
+  const c = document.createElement('div'); c.className = 'card';
+  c.innerHTML = '<h2>Join with a code</h2><div class="row"><input id="code" class="grow" placeholder="ABC234" autocapitalize="characters" maxlength="8" style="text-transform:uppercase;letter-spacing:.2em"><button class="btn big go" id="code-go">NEXT</button></div><div class="err-text" id="code-err"></div>';
+  $('page').appendChild(c);
+  $('code-go').onclick = () => { const v = $('code').value.trim(); if (v) showCode(v); };
+}
+
+async function showCode(code) {
+  code = code.toUpperCase().replace(/[^A-Z0-9]/g, '');
+  history.replaceState(null, '', '/listen?code=' + code);
+  let info;
+  try { info = await VM.api('GET', 'code/' + code); }
+  catch (e) {
+    $('page').innerHTML = '<div class="card"><h2>Meeting ' + esc(code) + '</h2><p>' + esc(e.message) + '</p><a class="btn big" href="/listen">BACK</a></div>';
+    return;
+  }
+  if (VM.me && (VM.me.kind === 'user' || VM.me.meeting === info.id)) return gate(info.id);
+  const p = $('page');
+  p.innerHTML = '<div class="card"><h2>Join meeting</h2><div style="font-size:18px;font-weight:700;margin-bottom:4px">' + esc(info.title) + '</div>' +
+    '<div class="hint">' + (info.status === 'live' ? '<span class="dot live"></span> Live now' : 'Starts ' + esc(VM.fmtWhen(info.start))) + '</div>' +
+    (info.guests ?
+      '<label class="f" for="g-name">Your name</label><input id="g-name" autocapitalize="words" maxlength="40" value="' + esc(VM.store.get('guestName', '')) + '">' +
+      '<label class="f" for="g-lang">Your language</label><select id="g-lang"></select>' +
+      '<div class="err-text" id="g-err"></div><button class="btn big go wide" id="g-go">CONTINUE</button>'
+      : '<p class="hint">This meeting is for people with a VMEET sign-in.</p>') +
+    '</div><div id="si"></div>';
+  if (info.guests) {
+    VM.fillLangs($('g-lang'), VM.config.languages.some(l => l.id === myLang) ? myLang : VM.config.languages[0].id);
+    $('g-go').onclick = async () => {
+      try {
+        const r = await VM.api('POST', 'guest', {code, name: $('g-name').value, lang: $('g-lang').value});
+        VM.store.set('guestName', $('g-name').value.trim()); VM.store.set('guestLang', $('g-lang').value);
+        VM.me = r.me; myLang = r.me.lang; VM.header('LISTEN'); gate(r.meeting);
+      } catch (e) { $('g-err').textContent = e.message; }
+    };
+  }
+  VM.signIn($('si'), {title: info.guests ? 'Or sign in' : 'Sign in', done: () => { VM.header('LISTEN'); gate(info.id); }});
+}
+
+async function showHome() {
+  history.replaceState(null, '', '/listen');
+  myLang = VM.me.lang;
+  const p = $('page');
+  p.innerHTML = '<div class="card"><h2>Your language</h2><select id="h-lang"></select><p class="hint">Everything you hear and read is in this language.</p></div>' +
+    '<div class="card"><h2>Meetings</h2><div class="list" id="h-list"><div class="empty">Loading…</div></div></div>' +
+    '<div class="card"><h2>Join with a code</h2><div class="row"><input id="code" class="grow" placeholder="ABC234" autocapitalize="characters" maxlength="8" style="text-transform:uppercase;letter-spacing:.2em"><button class="btn big go" id="code-go">NEXT</button></div></div>' +
+    (VM.me.role !== 'listener' ? '<p class="hint">Speaking in a meeting? Open <a href="/speak">VMEET Speak</a>.</p>' : '');
+  VM.fillLangs($('h-lang'), myLang);
+  $('h-lang').onchange = async e => { try { VM.me = (await VM.api('PUT', 'me', {lang: e.target.value})).me; myLang = VM.me.lang; VM.toast('Language saved.'); } catch (x) { VM.toast(x.message); } };
+  $('code-go').onclick = () => { const v = $('code').value.trim(); if (v) showCode(v); };
+  try {
+    const ms = (await VM.api('GET', 'meetings')).meetings.filter(m => m.status !== 'ended' && m.canJoin);
+    $('h-list').innerHTML = ms.length ? '' : '<div class="empty">No meetings for you right now. When someone invites you, it shows up here.</div>';
+    ms.forEach(m => {
+      const d = document.createElement('div'); d.className = 'item';
+      d.innerHTML = '<span class="dot ' + (m.status === 'live' ? 'live' : '') + '"></span><div class="grow"><div class="t">' + esc(m.title) + '</div>' +
+        '<div class="s">' + (m.status === 'live' ? 'LIVE NOW · ' + m.online + ' CONNECTED' : esc(VM.fmtWhen(m.start))) + ' · ' + m.hosts.map(h => esc(h.name)).join(', ') + '</div></div>' +
+        '<button class="btn big ' + (m.status === 'live' ? 'go' : '') + '">' + (m.status === 'live' ? 'JOIN' : 'OPEN') + '</button>';
+      d.querySelector('button').onclick = () => gate(m.id);
+      $('h-list').appendChild(d);
+    });
+  } catch (e) { $('h-list').innerHTML = '<div class="empty">' + esc(e.message) + '</div>'; }
+}
+
+/* The Join tap: it unlocks audio on iPhone, so it is always a real tap. */
+async function gate(mid) {
+  try { meeting = (await VM.api('GET', 'meetings/' + mid)).meeting; }
+  catch (e) {
+    if (e.status === 401) return showSignIn('Your sign-in has expired. Please sign in again.');
+    $('page').innerHTML = '<div class="card"><h2>Can’t open this meeting</h2><p>' + esc(e.message) + '</p><a class="btn big" href="/listen">BACK</a></div>';
+    return;
+  }
+  if (meeting.status === 'ended') {
+    $('page').innerHTML = '<div class="card"><h2>' + esc(meeting.title) + '</h2><p>This meeting has ended.</p><a class="btn big" href="/listen">BACK</a></div>';
+    return;
+  }
+  const tts = VM.config.ttsEngine;
+  $('page').innerHTML = '<div class="card"><h2>' + (meeting.status === 'live' ? '<span class="dot live"></span> Live now' : 'Starts ' + esc(VM.fmtWhen(meeting.start))) + '</h2>' +
+    '<div style="font-size:20px;font-weight:700">' + esc(meeting.title) + '</div>' +
+    '<div class="hint">Speakers: ' + meeting.hosts.map(h => esc(h.name) + ' (' + esc(VM.lang(h.lang).tag) + ')').join(', ') + '</div>' +
+    '<label class="f" for="j-lang">Hear it in</label><select id="j-lang"></select>' +
+    (tts !== 'off' ? '<label style="display:flex;align-items:center;margin:14px 0 4px;font-size:13px"><input type="checkbox" id="j-voice"' + (prefs.voice ? ' checked' : '') + '>Read it aloud to me (headphones work)</label>' : '') +
+    '<button class="btn big go wide" id="j-go" style="margin-top:14px">' + (meeting.status === 'live' ? 'JOIN' : 'JOIN AND WAIT') + '</button>' +
+    '<p class="hint">Keep this app open during the meeting. The screen stays on by itself; you can turn the phone over or pocket it with headphones in.</p></div>';
+  VM.fillLangs($('j-lang'), myLang);
+  $('j-go').onclick = async () => {
+    const v = $('j-voice');
+    prefs.voice = tts !== 'off' && (!v || v.checked); savePrefs();
+    const lang = $('j-lang').value;
+    if (lang !== myLang) { try { VM.me = (await VM.api('PUT', 'me', {lang})).me; } catch (e) {} myLang = lang; }
+    P.unlock();                 // inside the tap
+    enterRoom();
+  };
+}
+
+/* ---------- in the meeting ---------- */
+function enterRoom() {
+  $('page').hidden = true; $('room').hidden = false; document.body.classList.add('fixed');
+  $('r-title').textContent = meeting.title;
+  VM.fillLangs($('b-lang'), myLang);
+  P.lang = myLang;
+  P.deviceVoice = VM.config.ttsEngine !== 'off';
+  P.rate = prefs.rate;
+  P.setEnabled(prefs.voice);
+  voiceButton();
+  $('b-voice').hidden = VM.config.ttsEngine === 'off';
+  P.onspeak = id => {
+    document.querySelectorAll('.phrase.speaking').forEach(n => n.classList.remove('speaking'));
+    const n = id && document.querySelector('.phrase[data-id="' + id + '"]');
+    if (n) n.classList.add('speaking');
+  };
+  VM.mediaSession(meeting.title, 'VMEET · ' + VM.lang(myLang).label, on => { prefs.voice = on; savePrefs(); P.setEnabled(on); voiceButton(); });
+  VM.Wake.on().then(ok => { if (!ok) VM.toast('If your screen locks, set Auto-Lock to Never during meetings.', 6000); });
+  resetFeed();
+  openStream();
+}
+
+function openStream() {
+  if (stream) stream.close();
+  setConn('CONNECTING…', '');
+  stream = new VM.Stream(meeting.id, {lang: myLang, voice: prefs.voice ? '1' : '0'}, {
+    hello(d) {
+      cid = d.cid; waiting = false; hideOverlay();
+      d.history.forEach(s => addPhrase(s, true));
+      setConn('LIVE', 'live');
+    },
+    seg(s) { addPhrase(s, false); },
+    audio(a) { P.audio(a.id, a.url); },
+    live(l) { showLive(l); },
+    roster(r) {
+      const n = r.people.length;
+      setConn('LIVE · ' + n + ' CONNECTED · ' + r.people.filter(p => p.role !== 'listener' && meeting.hosts.some(h => h.id === p.uid)).length + ' SPEAKING', 'live');
+    },
+    status(s) {
+      if (s.status === 'scheduled') { waiting = true; setConn('WAITING TO START', 'warn'); overlay('Waiting for “' + meeting.title + '” to start. Keep this open — it starts by itself.', [['LEAVE', leave]]); }
+      else if (s.status === 'live' && waiting) { waiting = false; hideOverlay(); stream.open(); }
+      else if (s.status === 'ended') ended();
+    },
+    kicked() { stream.close(); P.shutdown(); VM.Wake.off(); overlay('You were removed from this meeting.', [['OK', () => location.href = '/listen']]); },
+    reconnecting() { setConn('RECONNECTING…', 'warn'); },
+    async closed() {
+      try {
+        const m = (await VM.api('GET', 'meetings/' + meeting.id)).meeting;
+        if (m.status === 'ended') return ended();
+      } catch (e) { if (e.status === 403 || e.status === 404) return ended('You can no longer join this meeting.'); }
+      setConn('DISCONNECTED · RETRYING', 'err');
+      setTimeout(() => { if (stream && !stream.stopped) stream.open(); }, 4000);
+    }
+  });
+  stream.open();
+}
+
+function ended(msg) {
+  if (stream) stream.close();
+  P.shutdown(); VM.Wake.off(); hideLive();
+  setConn('ENDED', '');
+  overlay(msg || 'The meeting has ended. Thanks for listening.', [['DONE', () => location.href = '/listen']]);
+}
+
+async function leave() {
+  if (stream) { stream.close(); stream = null; }
+  if (cid) VM.api('POST', 'meetings/' + meeting.id + '/leave', {cid}).catch(() => {});
+  P.shutdown(); VM.Wake.off(); hideOverlay();
+  $('room').hidden = true; $('page').hidden = false; document.body.classList.remove('fixed');
+  if (VM.me.kind === 'guest') gate(VM.me.meeting); else showHome();
+}
+$('leave').onclick = leave;
+
+function setConn(txt, cls) { $('r-meta').textContent = txt; $('r-dot').className = 'dot ' + (cls || ''); }
+function overlay(msg, actions) {
+  $('ov-msg').textContent = msg;
+  $('ov-actions').innerHTML = '';
+  actions.forEach(([label, fn]) => { const b = document.createElement('button'); b.className = 'btn big'; b.textContent = label; b.onclick = fn; $('ov-actions').appendChild(b); });
+  $('ov').hidden = false;
+}
+function hideOverlay() { $('ov').hidden = true; }
+
+/* ---------- captions ---------- */
+function resetFeed() {
+  shown = new Set();
+  $('feed').querySelectorAll('.phrase').forEach(n => n.remove());
+  $('feed-empty').hidden = false;
+  hideLive();
+}
+const atBottom = () => { const f = $('feed'); return f.scrollHeight - f.scrollTop - f.clientHeight < 80; };
+function addPhrase(s, replay) {
+  if (shown.has(s.id)) return;
+  shown.add(s.id);
+  const stick = atBottom();
+  $('feed-empty').hidden = true;
+  if (live && live.speaker.id === s.speaker.id) hideLive();
+  const el = document.createElement('div');
+  el.className = 'phrase' + (s.same ? ' same' : '') + (!s.text ? ' failed' : '');
+  el.dataset.id = s.id;
+  el.style.setProperty('--accent', VM.lang(myLang).color);
+  const from = s.same ? '' : ' · ' + VM.lang(s.lang).tag + ' → ' + VM.lang(myLang).tag;
+  el.innerHTML = '<span class="who">' + esc(s.speaker.name.toUpperCase() + from) + '</span>' +
+    '<div class="txt">' + esc(s.text || '⚠ Translation unavailable for this phrase.') + '</div>' +
+    (prefs.orig && !s.same ? '<div class="orig">' + esc(s.src) + '</div>' : '');
+  el.title = s.src;
+  $('feed').querySelectorAll('.phrase.last').forEach(n => n.classList.remove('last'));
+  el.classList.add('last');
+  $('feed').insertBefore(el, $('liveline'));
+  const all = $('feed').querySelectorAll('.phrase');
+  if (all.length > 200) all[0].remove();
+  if (stick) $('feed').scrollTop = $('feed').scrollHeight;
+  if (!replay && (!s.same || prefs.hearSame)) P.add(s.same ? Object.assign({}, s, {audio: null, text: s.src}) : s);
+}
+function showLive(l) {
+  if (!l.text) { if (!live || live.speaker.id === l.speaker.id) hideLive(); return; }
+  if (l.lang && l.lang !== myLang) return;
+  const stick = atBottom();
+  live = l;
+  $('feed-empty').hidden = true;
+  $('liveline').style.setProperty('--accent', VM.lang(myLang).color);
+  $('live-who').textContent = l.speaker.name.toUpperCase();
+  $('live-txt').textContent = l.text;
+  $('liveline').hidden = false;
+  if (stick) $('feed').scrollTop = $('feed').scrollHeight;
+}
+function hideLive() { live = null; $('liveline').hidden = true; $('live-txt').textContent = ''; }
+
+/* ---------- controls ---------- */
+function voiceButton() {
+  const b = $('b-voice');
+  b.textContent = prefs.voice ? 'VOICE ON' : 'VOICE OFF';
+  b.classList.toggle('on', prefs.voice);
+  b.setAttribute('aria-pressed', prefs.voice ? 'true' : 'false');
+}
+$('b-voice').onclick = () => {
+  prefs.voice = !prefs.voice; savePrefs();
+  if (prefs.voice) P.unlock();
+  P.setEnabled(prefs.voice); voiceButton();
+  if (cid) VM.api('POST', 'meetings/' + meeting.id + '/prefs', {cid, voice: prefs.voice}).catch(() => {});
+};
+function applyScale() { prefs.scale = Math.min(2.2, Math.max(0.6, prefs.scale)); document.documentElement.style.setProperty('--scale', prefs.scale); savePrefs(); }
+$('b-bigger').onclick = () => { prefs.scale += 0.12; applyScale(); };
+$('b-smaller').onclick = () => { prefs.scale -= 0.12; applyScale(); };
+$('b-lang').onchange = async e => {
+  myLang = e.target.value;
+  try { VM.me = (await VM.api('PUT', 'me', {lang: myLang})).me; } catch (x) {}
+  P.stopAll(); P.lang = myLang;
+  if (stream) stream.lastId = 0;
+  resetFeed(); openStream();
+};
+$('b-more').onclick = async () => {
+  let outs = [];
+  if (VM.canPickOutput() && navigator.mediaDevices && navigator.mediaDevices.enumerateDevices) {
+    try { outs = (await navigator.mediaDevices.enumerateDevices()).filter(d => d.kind === 'audiooutput' && d.label); } catch (e) {}
+  }
+  const d = VM.modal('<h3>LISTENING OPTIONS</h3>' +
+    (VM.config.ttsEngine !== 'off' ?
+      '<label class="f" for="o-rate">Voice speed <span id="o-rate-v"></span></label><input id="o-rate" type="range" min="0.8" max="1.6" step="0.05" value="' + prefs.rate + '">' : '') +
+    (outs.length ? '<label class="f" for="o-out">Play through</label><select id="o-out"><option value="">This device’s default</option>' +
+      outs.map(o => '<option value="' + esc(o.deviceId) + '">' + esc(o.label) + '</option>').join('') + '</select>'
+      : '<p class="hint">Headphones, earbuds and Bluetooth headsets work: connect them and the voice plays through them.</p>') +
+    '<label style="display:flex;align-items:center;margin-top:14px;font-size:13px"><input type="checkbox" id="o-orig"' + (prefs.orig ? ' checked' : '') + '>Show what was actually said under each translation</label>' +
+    (VM.config.ttsEngine !== 'off' ? '<label style="display:flex;align-items:center;margin-top:10px;font-size:13px"><input type="checkbox" id="o-same"' + (prefs.hearSame ? ' checked' : '') + '>Also read aloud speakers who use my language</label>' : '') +
+    '<div class="actions"><button class="btn big go" data-close>DONE</button></div>');
+  const r = d.q('#o-rate');
+  if (r) { const show = () => d.q('#o-rate-v').textContent = '×' + (+r.value).toFixed(2); show();
+    r.oninput = () => { prefs.rate = +r.value; P.rate = prefs.rate; savePrefs(); show(); }; }
+  const o = d.q('#o-out');
+  if (o) { o.value = prefs.sink || ''; o.onchange = async () => { prefs.sink = o.value; savePrefs(); if (!(await P.setSink(o.value))) VM.toast('This browser can’t switch outputs.'); }; }
+  d.q('#o-orig').onchange = e => { prefs.orig = e.target.checked; savePrefs(); };
+  const s = d.q('#o-same');
+  if (s) s.onchange = e => { prefs.hearSame = e.target.checked; savePrefs(); };
+};
+
+init();
+</script>
+</body>
+</html>
