@@ -1746,6 +1746,20 @@ class Handler(BaseHTTPRequestHandler):
             return self.settings_api('GET', [], me)
         if method == 'POST' and parts == ['test']:
             return self.send_json(200, {'results': engine_test()})
+        if method == 'POST' and parts == ['voice-sample']:
+            # Admin -> Settings -> Hear each language: one English sentence, translated and voiced
+            # exactly as a meeting would do it.
+            b = self.body_json()
+            text = re.sub(r'\s+', ' ', str(b.get('text') or '')).strip()[:300]
+            lang = b.get('lang')
+            if not text or lang not in LANG:
+                raise HttpError(400, 'Give a sentence and a language.')
+            said = text if lang == 'en' else translate_many(text, 'en', [lang], []).get(lang)
+            if not said:
+                raise HttpError(502, 'Translation failed. Check the keys with TEST ENGINES.')
+            mp3 = synthesize(said, lang) if setting('ttsEngine') == 'google' else None
+            return self.send_json(200, {'text': said, 'url': audio_put(mp3) if mp3 else None,
+                                        'voice': voice_source(lang) if mp3 else 'The phone\'s own voice'})
         raise HttpError(404, 'No such API.')
 
 

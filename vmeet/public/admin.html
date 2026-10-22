@@ -252,6 +252,10 @@ async function settings() {
     keyField('k-azure', 'Azure Speech key (optional)', s.azureKeySet, s.azureKeyHint, 'Optional backup voices if Google fails. Azure portal → Speech service; 500,000 characters a month free.') +
     '<p class="hint">Keys are kept on the server (settings.json, readable only by the VMEET service) and never sent to phones.</p></div>' +
 
+    '<div class="card"><h2>Hear each language</h2>' +
+    '<label class="f" for="v-text">Sentence (English)</label><input id="v-text" maxlength="300" value="Good morning, welcome to the training, my name is Wes.">' +
+    '<div class="list" id="v-list" style="margin-top:10px"></div>' +
+    '<div class="hint">Translated and voiced the way a meeting does it, with the saved settings. Save first if you changed a key.</div></div>' +
     '<div class="card"><div class="row"><button class="btn big go" id="s-save">SAVE SETTINGS</button><button class="btn big" id="s-test">TEST ENGINES</button></div>' +
     '<div class="err-text" id="s-err"></div><div id="s-results"></div></div>';
   $('s-model').value = s.claudeModel; $('s-effort').value = s.claudeEffort;
@@ -279,6 +283,25 @@ async function settings() {
     try { const r = await VM.api('GET', 'myip'); const cur = $('s-site').value.trim(); if (!cur.split(/[\s,]+/).includes(r.ip)) $('s-site').value = (cur + ' ' + r.ip).trim(); VM.toast('Added ' + r.ip + '. Save to keep it.'); }
     catch (e) { VM.toast(e.message); }
   };
+  const sample = new Audio();
+  VM.config.languages.forEach(l => {
+    const row = document.createElement('div'); row.className = 'item';
+    row.innerHTML = '<span class="chip on" style="--chip:' + l.color + '">' + esc(l.tag) + '</span>' +
+      '<div class="grow"><div class="t">' + esc(l.label) + '</div><div class="s" data-out>\u2014</div></div>' +
+      '<button class="btn big">\u25b6 PLAY</button>';
+    const out = row.querySelector('[data-out]'), btn = row.querySelector('button');
+    btn.onclick = async () => {
+      btn.disabled = true; out.textContent = 'Translating and voicing\u2026';
+      try {
+        const r = await VM.api('POST', 'settings/voice-sample', {text: $('v-text').value, lang: l.id});
+        out.textContent = r.text + '  \u00b7  ' + r.voice;
+        if (r.url) { sample.src = r.url; await sample.play(); }
+        else if (window.speechSynthesis) { const u = new SpeechSynthesisUtterance(r.text); u.lang = l.tts || l.sr; speechSynthesis.cancel(); speechSynthesis.speak(u); }
+      } catch (e) { out.textContent = e.message; }
+      btn.disabled = false;
+    };
+    $('v-list').appendChild(row);
+  });
   $('s-test').onclick = async () => {
     $('s-results').innerHTML = '<div class="empty">Testing (save first if you changed a key)…</div>';
     try {

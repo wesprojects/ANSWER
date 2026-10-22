@@ -58,6 +58,16 @@ No accounts and no approval for listeners:
 
 ---
 
+## Try it on a PC first
+
+With Python 3 installed (Windows, Mac or Linux), from the `vmeet` folder:
+
+```bash
+python3 server.py --http --port 8080        # on Windows: py server.py --http --port 8080
+```
+
+It prints the admin PIN. Open `http://localhost:8080/admin` on that PC, enter the Google and Anthropic keys under **Settings**, and press **▶ PLAY** beside each language under **Hear each language**. You hear your sentence translated and spoken by the same voices meetings use. The microphone also works there, because browsers treat `localhost` as secure. Phones need the server and HTTPS below.
+
 ## Install (Ubuntu 22.04 or 24.04)
 
 ```bash
